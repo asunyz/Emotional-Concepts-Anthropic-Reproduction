@@ -43,8 +43,12 @@ from cv_utils import load_model, extract_layer_activations, generate_story
 
 AVG_FROM_TOKEN = 50
 
-# Matches "[story N]" or "[dialogue N]" labels (case-insensitive, whitespace-tolerant).
-SPLIT_RE = re.compile(r"\[\s*(?:story|dialogue)\s*\d+\s*\]\s*", re.I)
+# Matches a whole line whose only "content" is a story/dialogue tag.
+# Tolerates any surrounding punctuation/markdown: [story 1], **story 1**,
+# ### Story 1 ###, story__1, (dialogue-2), etc. The line must contain
+# nothing else — a sentence that happens to mention "story 1" won't match.
+SPLIT_RE = re.compile(r"^[\W_]*(?:story|dialogue)[\W_]*\d+[\W_]*$",
+                      re.I | re.M)
 
 # Line that opens a new turn in a Person/AI dialogue.
 TURN_RE = re.compile(r"^\s*(Person|AI)\s*:\s*(.*)$", re.I)
