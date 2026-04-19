@@ -23,7 +23,12 @@ conda run -n "${ENV_NAME}" pip install \
     "accelerate" \
     "bitsandbytes" \
     "sentencepiece" \
-    "protobuf"
+    "protobuf" \
+    "numpy" \
+    "scikit-learn" \
+    "matplotlib" \
+    "tqdm" \
+    "ipykernel"
 
 echo
 echo "Done. Next:"
