@@ -127,7 +127,7 @@ score = (act − mean) · v_c / ‖v_c‖
 
 Only the concept vector is normalized, not the activation — residual-stream
 magnitudes carry real signal that full cosine similarity would wash out.
-`label_text.py` additionally rescales per-text by `max(|score|)` and clips
+`label_text.py` additionally rescales per-text by `max(score)` and clips
 negatives to 0 so each concept only tints tokens it points *toward*.
 
 ## Notes / gotchas
