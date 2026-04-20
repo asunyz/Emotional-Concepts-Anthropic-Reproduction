@@ -2,8 +2,9 @@
 Sweep a variable inside a prompt and plot each concept's activation strength
 at a chosen layer as the variable changes.
 
-The score is the signed projection of the *last non-BOS token's* (act − mean)
-onto the unit concept direction — same quantity used by steer.py.
+The score is the mean signed projection across all non-BOS tokens of
+(act − mean) onto the unit concept direction — same per-token quantity used
+by label_text.py, averaged over the sequence.
 
 Usage:
     python concept_vs_variable.py \
@@ -57,9 +58,9 @@ def main():
         ids = tok(text, return_tensors="pt").input_ids[0]
         if tok.bos_token_id is not None and int(ids[0]) == tok.bos_token_id:
             h = h[1:]
-        last = h[-1] - mean  # signed-projection target: last real token
+        H = h - mean  # [seq, d] — centered activations for all non-BOS tokens
         for j, c in enumerate(concepts):
-            scores[i, j] = last @ cv_units[c]
+            scores[i, j] = (H @ cv_units[c]).mean()
         print(f"{v:>12}  " + "  ".join(f"{c}={scores[i, j]:+.3f}" for j, c in enumerate(concepts)))
 
     fig, ax = plt.subplots(figsize=(8, 5))
