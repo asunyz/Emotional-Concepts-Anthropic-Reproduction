@@ -184,12 +184,6 @@ score = (act − mean) · v_c / ‖v_c‖
   modules in forward-pass order (`self_attn → mlp → layer_output`) within a
   block, ascending layer index across blocks). Otherwise you'll hit
   `OutOfOrderError`. 
-  
-## Hardware
-
-Tested on an 11 GB RTX 2080 Ti using 4-bit NF4 quantization. For 8-bit or full
-precision on larger GPUs, flip `QUANTIZATION` in `config.py` — local save
-directories are keyed by quantization so different builds don't collide.
 
 ## Example figures
 
