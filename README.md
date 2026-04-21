@@ -1,22 +1,24 @@
-# Emotional Concept Extraction (Anthropic)
+# 😊Emotional Concept Extraction (Anthropic)
 
 
 ### This repository is a reproduction of the Anthropic Paper **"Emotion Concepts and their Function in a Large Language Model"** [[Link]](https://transformer-circuits.pub/2026/emotions/index.html)
 
 
-**😊Summary** 
+## Overview
+
+**Summary**
 
 Toolkit for extracting, visualizing, and steering with **concept vectors** in a
 Llama-3.1 model, built on top of [NNSight](https://nnsight.net/) and
 [transformers](https://github.com/huggingface/transformers), inspired by the Anthropic paper.
 
-**😭Presets**
+**Presets**
 - **inputs/emotion-test**: A toy setting for pipeline testing, with only two emotions (happy and sad). Set ```n_stories=5```. You can run this on a ```Llama-3.1-8B-Instruct```, 4-bit quantized, on a single 2080 ti within 1 hour.
 - **inputs/anthropic**: Copied from the Anthropic blog, with 100 topics and 171 emotions. Set ```n_stories=12```. I did not run this experiment.
 - **inputs/emotions**: This preset is used for the figures below. ```n_stories=5```.
 - Note: All folders have the same prompts.
 
-**😉Core algorithm**
+**Core algorithm**
 - **Generate** `n_topics × n_stories` stories for each emotional concept.
 - **Extract** token embeddings for each story, starting from the 50th token. Average them (at a chosen layer) across all stories about a concept to get its raw vector `v_raw`.
 - **Center**: subtract the mean across concepts. `v_centered = v_raw − mean`.
@@ -194,7 +196,7 @@ Tested on an 11 GB RTX 2080 Ti using 4-bit NF4 quantization. For 8-bit or full
 precision on larger GPUs, flip `QUANTIZATION` in `config.py` — local save
 directories are keyed by quantization so different builds don't collide.
 
-## Example outputs
+## Example figures
 
 Produced from the `inputs/emotions` preset on `Llama-3.1-70B-Instruct` (NF4), 6 concepts only.
 
