@@ -1,7 +1,5 @@
 # 😊Emotional Concept Extraction (Anthropic)
 
-![concept clustering](visuals/concept_clustering.png)
-
 ### This repository is a reproduction of the Anthropic Paper **"Emotion Concepts and their Function in a Large Language Model"** [[Link]](https://transformer-circuits.pub/2026/emotions/index.html)
 
 
