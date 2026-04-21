@@ -184,11 +184,7 @@ score = (act − mean) · v_c / ‖v_c‖
   modules in forward-pass order (`self_attn → mlp → layer_output`) within a
   block, ascending layer index across blocks). Otherwise you'll hit
   `OutOfOrderError`. 
-- **Few-concept degeneracy.** Centering with only 2 concepts forces the two
-  final vectors to be exact opposites (`v₁_final = −v₂_final`). The tooling
-  still works, but similarity/cluster plots aren't meaningful until you have
-  3+ concepts.
-
+  
 ## Hardware
 
 Tested on an 11 GB RTX 2080 Ti using 4-bit NF4 quantization. For 8-bit or full
