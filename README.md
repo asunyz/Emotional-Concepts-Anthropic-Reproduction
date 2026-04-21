@@ -1,5 +1,6 @@
 # 😊Emotional Concept Extraction (Anthropic)
 
+![concept clustering](visuals/concept_clustering.png)
 
 ### This repository is a reproduction of the Anthropic Paper **"Emotion Concepts and their Function in a Large Language Model"** [[Link]](https://transformer-circuits.pub/2026/emotions/index.html)
 
@@ -9,7 +10,7 @@
 **Summary**
 
 Toolkit for extracting, visualizing, and steering with **concept vectors** in a
-Llama-3.1 model, built on top of [NNSight](https://nnsight.net/) and
+**Llama-3.1 model**, built on top of [NNSight](https://nnsight.net/) and
 [transformers](https://github.com/huggingface/transformers), inspired by the Anthropic paper.
 
 **Presets**
