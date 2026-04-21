@@ -83,12 +83,12 @@ print("\n" + "=" * 60, "\n6. CROSS-PROMPT ACTIVATION PATCHING\n", "=" * 60, sep=
 src = "The capital of China is Beijing. The capital of France is"
 dst = "The capital of China is Beijing. The capital of Japan is"
 with model.trace(src):
-    donor = model.model.layers[15].output[0].save()
+    donor = model.model.layers[16].output[0].save()
 
 with model.trace(dst):
     # In-place write into the hidden-states tensor — avoids rebuilding the
     # output tuple (which may also carry attn weights / KV cache).
-    model.model.layers[15].output[0][:] = donor
+    model.model.layers[16].output[0][:] = donor
     patched_logits = model.lm_head.output[0, -1].save()
 
 print("dst + src-resid top token:",

@@ -136,8 +136,9 @@ def main():
         for name, color in zip(names, colors):
             cv = cvecs[name]
             raw = unit_projection(H, cv)                           # signed, unbounded
-            scale = raw.max() + 1e-9                       # per-text rescale
-            disp = np.clip(raw / scale, 0.0, 1.0)                  # positive alignment only
+            clip = np.clip(raw, 0.0, None)                         # positive-only
+            scale = raw.max() + 1e-9                               # per-text rescale
+            disp = raw / scale                  # positive alignment only
             title = (f"layer {L} · '{name}' ({color})   "
                      f"raw ∈ [{raw.min():+.3f}, {raw.max():+.3f}]  mean={raw.mean():+.3f}")
             sections.append(render_html(tokens, raw, disp, COLOR_MAP[color], title))
