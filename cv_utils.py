@@ -1,5 +1,6 @@
 """Shared helpers: loading the quantized model and pulling layer activations."""
 import os
+import shutil
 from pathlib import Path
 
 import config  # single source of truth for model / quant / paths
@@ -28,6 +29,10 @@ def _materialize_local_copy() -> Path:
         kwargs["quantization_config"] = qcfg
     hf_model = AutoModelForCausalLM.from_pretrained(config.MODEL_ID, **kwargs)
     tok = AutoTokenizer.from_pretrained(config.MODEL_ID, cache_dir=str(config.HF_CACHE))
+    # Drop the fp16 cache before writing the quantized copy: keeping both
+    # spikes disk to ~88 GB on a 100 GB volume and the save fails midway.
+    # Weights are already on GPU, cache files aren't needed anymore.
+    shutil.rmtree(config.HF_CACHE, ignore_errors=True)
     target.mkdir(parents=True, exist_ok=True)
     hf_model.save_pretrained(str(target))
     tok.save_pretrained(str(target))
