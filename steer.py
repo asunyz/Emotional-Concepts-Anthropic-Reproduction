@@ -17,6 +17,7 @@ from pathlib import Path
 import numpy as np
 import torch
 
+import config
 from cv_utils import load_model
 
 
@@ -29,7 +30,11 @@ def main():
     ap.add_argument("--strengths", required=True,
                     help="comma-separated floats, e.g. -6,-3,0,3,6")
     ap.add_argument("--max-new-tokens", type=int, default=150)
-    ap.add_argument("--temperature", type=float, default=0.7)
+    ap.add_argument("--temperature", type=float, default=config.GEN_TEMPERATURE)
+    ap.add_argument("--top-p", type=float, default=config.GEN_TOP_P)
+    ap.add_argument("--top-k", type=int, default=config.GEN_TOP_K)
+    ap.add_argument("--presence-penalty", type=float,
+                    default=config.GEN_PRESENCE_PENALTY)
     ap.add_argument("--no-chat-template", action="store_true",
                     help="skip the tokenizer's chat template (use for base models)")
     ap.add_argument("--output", default="steered.txt")
@@ -71,6 +76,9 @@ def main():
         with model.generate(input_text, max_new_tokens=args.max_new_tokens,
                             do_sample=(args.temperature > 0),
                             temperature=args.temperature,
+                            top_p=args.top_p,
+                            top_k=args.top_k,
+                            presence_penalty=args.presence_penalty,
                             pad_token_id=tok.eos_token_id,
                             stop_strings=stop_strings, tokenizer=tok):
             # `.all()` applies the intervention on every forward pass (every

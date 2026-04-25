@@ -63,6 +63,12 @@ def build_quant_config() -> BitsAndBytesConfig | None:
 
 
 # --- generation defaults (used by scripts that sample) -------------------
+# Defaults follow Qwen3.6-A3B's official non-thinking-mode recommendation
+# from https://huggingface.co/Qwen/Qwen3.6-35B-A3B. The presence_penalty in
+# particular suppresses the repetition loops that NF4-quantized MoE on Qwen
+# is otherwise prone to. Llama tokenizers ignore unknown kwargs.
 GEN_MAX_NEW_TOKENS = 200
-GEN_TEMPERATURE = 0.8
-GEN_TOP_P = 0.9
+GEN_TEMPERATURE = 0.7
+GEN_TOP_P = 0.8
+GEN_TOP_K = 20
+GEN_PRESENCE_PENALTY = 1.5

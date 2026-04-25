@@ -91,6 +91,8 @@ def generate_story(model, prompt: str,
                    max_new_tokens: int = config.GEN_MAX_NEW_TOKENS,
                    temperature: float = config.GEN_TEMPERATURE,
                    top_p: float = config.GEN_TOP_P,
+                   top_k: int = config.GEN_TOP_K,
+                   presence_penalty: float = config.GEN_PRESENCE_PENALTY,
                    apply_chat_template: bool = True) -> str:
     """Generate from `prompt` and return ONLY the newly generated text.
 
@@ -111,6 +113,7 @@ def generate_story(model, prompt: str,
     prompt_len = tok(input_text, return_tensors="pt").input_ids.shape[1]
     with model.generate(input_text, max_new_tokens=max_new_tokens,
                         do_sample=True, temperature=temperature, top_p=top_p,
+                        top_k=top_k, presence_penalty=presence_penalty,
                         pad_token_id=tok.eos_token_id):
         out = model.generator.output.save()
     completion = out[0, prompt_len:].cpu()
