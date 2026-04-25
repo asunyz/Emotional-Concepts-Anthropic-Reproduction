@@ -26,7 +26,13 @@ MODEL_ID = "Qwen/Qwen3.6-35B-A3B"
 QUANTIZATION = "nf4"
 
 COMPUTE_DTYPE = torch.float16
-DEVICE_MAP = "auto"
+
+# transformers 5.x's "auto" infer_auto_device_map is over-conservative for
+# Qwen3 MoE in NF4 — it tries to offload to CPU/disk even when the quantized
+# model (~18 GB) easily fits on a 48 GB card, then bnb 4-bit refuses to load
+# because partial offload isn't supported. Force everything onto GPU 0.
+# Override via DEVICE_MAP env var if you actually need multi-GPU.
+DEVICE_MAP = os.environ.get("DEVICE_MAP", "cuda:0")
 
 # --- where things live ---------------------------------------------------
 # Default to /workspace/models (RunPod persistent volume). Override with
