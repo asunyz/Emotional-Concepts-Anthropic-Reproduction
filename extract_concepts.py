@@ -39,6 +39,7 @@ import numpy as np
 from sklearn.decomposition import PCA
 from tqdm.auto import tqdm
 
+import config
 from cv_utils import load_model, extract_layer_activations, generate_story
 
 AVG_FROM_TOKEN = 50
@@ -183,7 +184,7 @@ def main():
                     help="stories generated per (concept, topic) in a single completion")
     ap.add_argument("--max-new-tokens", type=int, default=1500,
                     help="budget for the whole multi-story completion (not per story)")
-    ap.add_argument("--temperature", type=float, default=0.8)
+    ap.add_argument("--temperature", type=float, default=config.GEN_TEMPERATURE)
     ap.add_argument("--model-path", default=None)
     args = ap.parse_args()
 
