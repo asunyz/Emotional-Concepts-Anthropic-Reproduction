@@ -14,7 +14,7 @@ Toolkit for extracting, visualizing, and steering with **concept vectors** in a
 **Presets**
 - **inputs/emotions-test**: A toy setting for pipeline testing, with only two emotions (happy and sad). Set ```n_stories=5```. You can run this on a ```Llama-3.1-8B-Instruct```, 4-bit quantized, on a single 2080 ti within 1 hour.
 - **inputs/emotions-full**: Copied from the Anthropic blog, with 100 topics and 171 emotions. Set ```n_stories=12```. I did not run this experiment.
-- **inputs/emotions**: This preset is used for the figures below. ```n_stories=5```.
+- **inputs/emotions**: This preset is used for the figures below. ```n_stories=5```. Download weights for Llama-70B-Instruct-nfs4 [drive](https://drive.google.com/file/d/1sSDZWENB9TQwydDQCD_T55NvxJe4_LAk/view?usp=sharing)
 - Note: All folders have the same prompts.
 
 **Core algorithm**
