@@ -14,6 +14,13 @@ import torch                                                # noqa: E402
 from transformers import AutoTokenizer, AutoModelForCausalLM  # noqa: E402
 from nnsight import LanguageModel                           # noqa: E402
 
+# Blackwell (SM 12.0) workaround: torch 2.8's `_grouped_mm` kernel ships only
+# a Hopper (SM 9.0) implementation, but transformers' `_can_use_grouped_mm`
+# check passes on any SM ≥ 9.0 and then crashes at kernel call. Force the
+# eager fallback so the MoE path works on newer GPUs.
+import transformers.integrations.moe as _moe                # noqa: E402
+_moe._can_use_grouped_mm = lambda *args, **kwargs: False
+
 
 def _materialize_local_copy() -> Path:
     """Download + (re)quantize from the Hub once, save to `config.local_model_dir()`."""
@@ -49,6 +56,15 @@ def load_model(model_path: str | None = None) -> LanguageModel:
     if qcfg is not None:
         kwargs["quantization_config"] = qcfg
     model = LanguageModel(str(path), **kwargs)
+    # Qwen3 saves lm_head as fp16 while the rest of the body stays bf16
+    # (Qwen's native dtype), causing a dtype-mismatch at the final F.linear.
+    # Cast any leftover fp16 non-quantized weights to bf16 to unify.
+    for _, mod in model.named_modules():
+        if 'Linear4bit' in type(mod).__name__ or 'Params4bit' in type(mod).__name__:
+            continue
+        for _, p in mod.named_parameters(recurse=False):
+            if p.dtype == torch.float16:
+                p.data = p.data.to(torch.bfloat16)
     model.eval()
     torch.set_grad_enabled(False)
     return model
@@ -83,9 +99,12 @@ def generate_story(model, prompt: str,
     """
     tok = model.tokenizer
     if apply_chat_template and getattr(tok, "chat_template", None):
+        # `enable_thinking=False` suppresses Qwen3's <think> reasoning block;
+        # tokenizers without that kwarg (e.g. Llama-3.1) silently ignore it.
         input_text = tok.apply_chat_template(
             [{"role": "user", "content": prompt}],
             tokenize=False, add_generation_prompt=True,
+            enable_thinking=False,
         )
     else:
         input_text = prompt
