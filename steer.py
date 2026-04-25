@@ -33,8 +33,8 @@ def main():
     ap.add_argument("--temperature", type=float, default=config.GEN_TEMPERATURE)
     ap.add_argument("--top-p", type=float, default=config.GEN_TOP_P)
     ap.add_argument("--top-k", type=int, default=config.GEN_TOP_K)
-    ap.add_argument("--presence-penalty", type=float,
-                    default=config.GEN_PRESENCE_PENALTY)
+    ap.add_argument("--repetition-penalty", type=float,
+                    default=config.GEN_REPETITION_PENALTY)
     ap.add_argument("--no-chat-template", action="store_true",
                     help="skip the tokenizer's chat template (use for base models)")
     ap.add_argument("--output", default="steered.txt")
@@ -78,7 +78,7 @@ def main():
                             temperature=args.temperature,
                             top_p=args.top_p,
                             top_k=args.top_k,
-                            presence_penalty=args.presence_penalty,
+                            repetition_penalty=args.repetition_penalty,
                             pad_token_id=tok.eos_token_id,
                             stop_strings=stop_strings, tokenizer=tok):
             # `.all()` applies the intervention on every forward pass (every
