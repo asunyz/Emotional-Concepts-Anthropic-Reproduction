@@ -43,12 +43,20 @@ def main():
     tok = model.tokenizer
 
     if not args.no_chat_template and getattr(tok, "chat_template", None):
+        # `enable_thinking=False` is silently ignored by tokenizers that don't
+        # support it (e.g. Llama-3.1).
         input_text = tok.apply_chat_template(
             [{"role": "user", "content": args.prompt}],
             tokenize=False, add_generation_prompt=True,
+            enable_thinking=False,
         )
     else:
         input_text = args.prompt
+
+    # Qwen3 sometimes emits `<think>` even on raw-text continuation, then drifts
+    # into meta-commentary or test-prep mode. Halt at that token so the story
+    # output stays clean. Harmless for models without thinking mode.
+    stop_strings = ["<think>", "<|im_start|>"]
     prompt_len = tok(input_text, return_tensors="pt").input_ids.shape[1]
 
     # Place the steering vector on the same device/dtype as the model weights.
@@ -63,7 +71,8 @@ def main():
         with model.generate(input_text, max_new_tokens=args.max_new_tokens,
                             do_sample=(args.temperature > 0),
                             temperature=args.temperature,
-                            pad_token_id=tok.eos_token_id):
+                            pad_token_id=tok.eos_token_id,
+                            stop_strings=stop_strings, tokenizer=tok):
             # `.all()` applies the intervention on every forward pass (every
             # new token during generation), not just the prefill.
             model.model.layers[args.layer].all()
