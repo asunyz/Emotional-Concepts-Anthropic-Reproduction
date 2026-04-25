@@ -5,7 +5,11 @@ Swap the constants below to target a different model / quantization / cache
 location; every script picks them up on the next run. Local save dirs are
 derived from (MODEL_ID, QUANTIZATION) so different combos don't clobber each
 other on disk.
+
+MODELS_ROOT can be overridden via the MODELS_ROOT env var so the same code
+runs on different machines (e.g. /workspace on RunPod, /mnt/e/models on WSL).
 """
+import os
 from pathlib import Path
 
 import torch
@@ -25,7 +29,9 @@ COMPUTE_DTYPE = torch.float16
 DEVICE_MAP = "auto"
 
 # --- where things live ---------------------------------------------------
-MODELS_ROOT = Path("/mnt/e/models")
+# Default to /workspace/models (RunPod persistent volume). Override with
+# MODELS_ROOT env var if running elsewhere (e.g. /mnt/e/models on WSL).
+MODELS_ROOT = Path(os.environ.get("MODELS_ROOT", "/workspace/models"))
 HF_CACHE = MODELS_ROOT / "hf_cache"
 
 
