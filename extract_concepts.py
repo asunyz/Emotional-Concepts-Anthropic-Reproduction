@@ -91,11 +91,22 @@ def parse_dialogue(text: str) -> list[dict]:
 
 
 def dialogue_to_chat_text(text: str, tokenizer) -> str:
-    """Render a dialogue through the model's chat template for a context-free embedding pass."""
+    """Render a dialogue through the model's chat template for a context-free embedding pass.
+
+    Falls back to the raw text if parsing produced no messages or if the chat
+    template rejects the result (e.g., Qwen3's template requires a user turn,
+    which a malformed dialogue without `Person:` lines won't have).
+    """
     messages = parse_dialogue(text)
     if not messages:
         return text
-    return tokenizer.apply_chat_template(messages, tokenize=False)
+    has_user = any(m.get("role") == "user" for m in messages)
+    if not has_user:
+        return text
+    try:
+        return tokenizer.apply_chat_template(messages, tokenize=False)
+    except Exception:
+        return text
 
 
 def read_csv_file(p: str | Path) -> list[str]:
