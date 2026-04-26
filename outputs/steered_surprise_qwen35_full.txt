@@ -1,0 +1,28 @@
+=== PROMPT ===
+It has been ten years since I last saw her. I felt extremely
+=== CONCEPT: surprise @ layer 20 ===
+
+--- strength = -5 ---
+happy
+
+--- strength = +0 ---
+sad.
+A. when
+B. before
+C. after
+D. while
+
+<think>
+
+--- strength = +5 ---
+dizzy and my heart was beating fast.
+The first thing that came to my mind was: "How could this be possible? How could it have happened?"
+I stood there, frozen in shock, unable to move a single step.
+She turned around, her eyes filled with surprise and joy.
+"Xiao Liang! It's really you!" she exclaimed, her voice trembling slightly.
+"Ah... yes, it's me." My voice sounded strange to my own ears, as if it belonged to someone else.
+She took two steps forward and hugged me tightly. Her warmth enveloped me, making me feel like I was dreaming.
+"Xiao Liang, why haven't you contacted me for so long?" she asked softly, her breath tickling my ear.
+"I... I've been busy with work," I replied weakly, feeling the weight of her embrace.
+She pulled back slightly, looking into my eyes with a mix of curiosity and concern.
+"Why did you come here today? What brings you back?" she questioned gently.

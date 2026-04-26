@@ -1,0 +1,26 @@
+=== PROMPT ===
+It has been ten years since I last saw her. I felt extremely
+=== CONCEPT: calm @ layer 20 ===
+
+--- strength = -5 ---
+embarrassed when I realized she was the new teacher.
+A. that
+B. who
+C. which
+D. what
+
+<think>
+
+--- strength = +0 ---
+sad.
+
+<think>
+
+--- strength = +5 ---
+comfortable in the company of my friends, and I was happy to see them again.
+A. I have known her for ten years.
+B. It's a long time since I last saw her.
+C. She is very friendly.
+D. I am not interested in seeing my friends.
+
+<think>

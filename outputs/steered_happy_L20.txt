@@ -1,0 +1,31 @@
+=== PROMPT ===
+It has been ten years since I last saw her. I felt extremely
+=== CONCEPT: happy @ layer 20 ===
+
+--- strength = -5 ---
+weak and could barely walk.
+The next day, she had a fever of 39 degrees Celsius, which was very high.
+I am so glad to see you again.
+This is a great place for us to meet!
+We have the same taste in music.
+I like it because it's simple but also elegant.
+
+已经十年没见到她了。我觉得自己非常虚弱，几乎无法行走。
+第二天，她发烧到39度，非常高。
+很高兴再次见到你。
+这是我们见面的好地方！
+我们在音乐品味上很一致。
+我喜欢它，因为它简单又优雅。
+
+--- strength = +0 ---
+happy when I saw her again.
+A. 10 years have passed since I last met her. I was overjoyed to see her again.
+B. It has been a decade since I last met her. I felt very happy to see her again.
+C. It's been ten years since I last saw her. I was delighted to see her again.
+
+<think>
+
+--- strength = +5 ---
+excited when I met her, because it was the first time that I had seen her in five years.
+
+<think>
