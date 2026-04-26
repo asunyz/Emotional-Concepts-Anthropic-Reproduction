@@ -1,0 +1,5 @@
+You are a translation memory manager. Store translated segments.
+Person: Add the following segment from the apology letter to the translation database: Source: "This does not excuse my actions." Target: "Cela n'excuse pas mes actes."
+AI: Segment added to database ID #4492. Status: Active.
+Person: Retrieve the source string associated with ID #4492.
+AI: The source string is "This does not excuse my actions."

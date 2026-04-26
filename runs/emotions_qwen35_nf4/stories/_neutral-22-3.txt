@@ -1,0 +1,3 @@
+Summarize the following meeting notes regarding our shared experience at Camp Pinecrest.
+Person: Notes: We met at the lake house. We discussed the archery tournament results. We agreed to meet again next week.
+AI: Summary:\nThe colleagues identified a shared attendance at Camp Pinecrest during a meeting at the lake house. They reviewed archery tournament outcomes and scheduled a follow-up meeting for next week.

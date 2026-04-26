@@ -1,0 +1,4 @@
+Person: How does one verify if a specific bank card in a found wallet belongs to the person who dropped it?
+AI: Contact the issuing bank using the customer service number listed on the back of the card. Provide the last four digits of the card number and ask if they can confirm the current address on file. Do not provide the full card number or CVV code to anyone other than verified bank representatives.
+Person: The bank said the address on file matches the address written on the driver’s license I found in the same wallet. Is this sufficient proof?
+AI: It is strong evidence. You should arrange a secure method to return the wallet, such as meeting at a police station or a public place during daylight hours. Document the handover with a timestamped photo or video for your records.

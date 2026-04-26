@@ -8,7 +8,9 @@
     "angry",
     "calm",
     "indifferent",
-    "surprise"
+    "surprise",
+    "awestruck",
+    "inspired"
   ],
   "concept_topics": [
     "An artist discovers someone has tattooed their work",
@@ -30,7 +32,11 @@
     "A person runs into their ex at a mutual friend's wedding",
     "Someone discovers their friend has been lying about their job",
     "A person discovers their partner has been taking secret phone calls",
-    "A person discovers their child has the same teacher they had"
+    "A person discovers their child has the same teacher they had",
+    "A teacher receives an unexpected gift from a former student",
+    "Someone receives an apology letter years after the incident",
+    "Two coworkers discover they went to the same summer camp",
+    "Someone finds a wallet containing a large sum of cash"
   ],
   "neutral_topics": [
     "An artist discovers someone has tattooed their work",
@@ -52,7 +58,11 @@
     "A person runs into their ex at a mutual friend's wedding",
     "Someone discovers their friend has been lying about their job",
     "A person discovers their partner has been taking secret phone calls",
-    "A person discovers their child has the same teacher they had"
+    "A person discovers their child has the same teacher they had",
+    "A teacher receives an unexpected gift from a former student",
+    "Someone receives an apology letter years after the incident",
+    "Two coworkers discover they went to the same summer camp",
+    "Someone finds a wallet containing a large sum of cash"
   ],
   "layers": [
     10,

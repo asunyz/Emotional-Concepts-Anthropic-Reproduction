@@ -1,0 +1,2 @@
+Person: Generate a checklist for preparing for a summer camp job interview.
+AI: Preparation Checklist:\n1. Research camp history\n2. Review safety protocols\n3. Prepare examples of teamwork\n4. Dress appropriately for outdoor activity\n5. Bring relevant certifications

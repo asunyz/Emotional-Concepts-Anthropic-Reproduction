@@ -1,0 +1,4 @@
+Person: Write a Python script that prints "Camp Pinecrest" ten times.
+AI: ```python\nfor i in range(10):\n    print("Camp Pinecrest")\n```
+Person: Run the script mentally and output the result.
+AI: Camp Pinecrest\nCamp Pinecrest\nCamp Pinecrest\nCamp Pinecrest\nCamp Pinecrest\nCamp Pinecrest\nCamp Pinecrest\nCamp Pinecrest\nCamp Pinecrest\nCamp Pinecrest

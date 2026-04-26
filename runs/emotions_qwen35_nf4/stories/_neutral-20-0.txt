@@ -1,0 +1,5 @@
+You are a helpful coding assistant.
+Person: I am writing a Python script to simulate a classroom environment. How would you structure a class named `Teacher` that accepts a dictionary of students?
+AI: Define a class named `Teacher`. In the `__init__` method, accept a parameter `students` which is a dictionary. Assign this parameter to an instance variable self.students. This allows the object to store and access the student data.
+Person: How do I add a new student entry to this dictionary after initialization?
+AI: Access the instance variable self.students directly using standard dictionary assignment syntax. For example: `self.students[new_student_id] = {"name": name, "grade": grade}`.

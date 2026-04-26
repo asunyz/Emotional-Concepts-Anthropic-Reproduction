@@ -1,0 +1,5 @@
+You are a technical writing assistant. Your goal is to draft formal correspondence based on user inputs. Maintain a strictly professional tone.
+Person: I received a letter today that appears to be an apology for an event that occurred five years ago. Please analyze the text below and identify the key components of the apology structure.
+AI: The text contains three primary components: acknowledgment of the specific past action, expression of regret without conditional qualifiers, and a statement regarding future conduct.
+Person: Does the letter offer restitution?
+AI: No, the text does not include any provision for financial compensation or material restitution. It limits its scope to verbal acknowledgment only.

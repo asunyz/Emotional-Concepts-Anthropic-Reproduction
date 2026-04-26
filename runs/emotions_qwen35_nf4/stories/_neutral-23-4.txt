@@ -1,0 +1,6 @@
+You are a professional editor. Summarize the following text into three bullet points.
+Text: A recent study indicates that individuals who return lost items experience higher levels of subjective well-being compared to those who keep them. The study controlled for socioeconomic status and age.
+Person: Summarize the key findings of the study mentioned above.
+AI: - Returning lost items correlates with increased subjective well-being.
+- The correlation holds true after controlling for socioeconomic status and age.
+- The comparison group consisted of individuals who retained found items.

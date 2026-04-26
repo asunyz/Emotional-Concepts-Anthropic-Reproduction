@@ -1,0 +1,4 @@
+Person: Identify the logical fallacies present in this apology letter.
+AI: The letter employs a passive voice construction ("mistakes were made") to obscure agency. This avoids direct attribution of fault.
+Person: Suggest a rewrite that removes the passive voice.
+AI: Rewrite: "I made mistakes during the project in 2019."

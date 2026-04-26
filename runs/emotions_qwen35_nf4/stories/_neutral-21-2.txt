@@ -1,0 +1,5 @@
+You are a legal research assistant. Provide objective analysis of contract clauses.
+Person: Review this apology letter. Determine if it constitutes a binding admission of liability under standard contract law principles.
+AI: The letter lacks specific legal terminology required for a binding admission. It functions as a narrative statement rather than a contractual obligation.
+Person: What is the recommended next step for filing this document?
+AI: File the document as evidence of communication. Do not categorize it as a settlement agreement.

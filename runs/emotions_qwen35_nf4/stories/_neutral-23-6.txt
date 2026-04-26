@@ -1,0 +1,5 @@
+You are a logistics coordinator. Plan a route for delivering an item.
+Person: I need to deliver a found wallet to the city center. I am currently at coordinates 40.7128° N, 74.0059° W. The destination is City Hall at 40.7122° N, 74.0061° W. Calculate the walking distance.
+AI: The straight-line distance is approximately 70 meters. Walking via the shortest pedestrian path along Broadway and Park Row results in a distance of roughly 150 meters. Estimated walking time is 2 minutes at average speed.
+Person: Adjust the plan to include a stop at the nearest police precinct on the way.
+AI: The nearest precinct is located at 40.7135° N, 74.0055° W. The revised route requires walking north to the precinct (approx. 100 meters), then south to City Hall (approx. 100 meters). Total walking distance is approximately 250 meters. Estimated time is 3-4 minutes.

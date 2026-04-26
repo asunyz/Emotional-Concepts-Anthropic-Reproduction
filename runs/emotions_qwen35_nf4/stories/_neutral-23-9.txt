@@ -1,0 +1,4 @@
+Person: How does the structure of a biometric lock on a smartphone differ from a PIN code?
+AI: A PIN code relies on alphanumeric input known only to the user, stored as a hash in the device's secure enclave. Biometric locks use unique physiological traits, such as fingerprints or facial geometry, processed by dedicated hardware sensors. The template created from the biometric scan is encrypted and never leaves the secure enclave, whereas a PIN is entered via software interfaces.
+Person: Can a biometric lock be bypassed if the phone is locked?
+AI: Modern implementations require active consent, such as waking the screen and placing a finger on the sensor or looking at the device. Passive unlocking without interaction is generally prevented by design. Law enforcement may request the PIN rather than relying on biometrics due to legal distinctions between possession of knowledge vs. biological traits.

@@ -1,0 +1,4 @@
+Person: What is the chemical composition of common currency notes?
+AI: United States currency notes are composed primarily of cotton and linen fibers, resulting in a paper-like feel distinct from wood-pulp paper. The blend is approximately 75% cotton and 25% linen. Security features include microprinting, color-shifting ink, and embedded security threads.
+Person: Does the material composition affect the preservation of cash found in wet conditions?
+AI: Cotton-linen blends are more durable and resistant to tearing when wet compared to standard paper. However, prolonged exposure to moisture can lead to mold growth or ink bleeding. Immediate drying between absorbent papers is recommended to maintain integrity.

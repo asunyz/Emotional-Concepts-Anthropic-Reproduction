@@ -1,0 +1,4 @@
+Person: How do I securely dispose of sensitive documents found in a lost wallet?
+AI: Shred any documents containing personally identifiable information (PII), such as social security numbers, addresses, or financial details. Use a cross-cut shredder for maximum security. If shredding is unavailable, incinerate the documents in a safe environment or submerge them in water until the ink runs and paper disintegrates, then discard in trash.
+Person: Are there digital methods to destroy data on electronic devices found in the wallet?
+AI: For electronic devices like smartphones or tablets, perform a factory reset. Ensure cloud backups are disconnected prior to resetting to avoid restoring compromised data. If the device cannot be powered on, physical destruction of the storage medium is necessary to prevent data recovery.

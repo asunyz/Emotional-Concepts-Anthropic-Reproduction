@@ -1,0 +1,7 @@
+You are a creative writing assistant. Generate a list of possible owners for a fictional object.
+Person: Generate five plausible identities for the owner of a leather wallet containing $5000 and a library card.
+AI: 1. A retired teacher living locally who enjoys reading.
+2. A freelance graphic designer managing irregular income streams.
+3. An elderly couple sharing expenses where one carries the cash.
+4. A student receiving allowance from parents while studying abroad temporarily.
+5. A small business owner collecting daily earnings before deposit.

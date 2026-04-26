@@ -1,0 +1,5 @@
+You are a data entry specialist. Input provided text into a structured format.
+Person: Convert the following paragraph from the apology letter into a JSON object with keys for 'sender', 'recipient', 'date_of_incident', and 'sentiment'.
+AI: { "sender": "John Doe", "recipient": "Jane Smith", "date_of_incident": "2019-05-12", "sentiment": "neutral_regret" }
+Person: Validate the JSON structure.
+AI: The structure conforms to standard JSON formatting rules. All required keys are present.

@@ -1,0 +1,2 @@
+Person: List five activities available at Camp Pinecrest.
+AI: 1. Archery\n2. Swimming\n3. Hiking\n4. Canoeing\n5. Campfire Sing-alongs

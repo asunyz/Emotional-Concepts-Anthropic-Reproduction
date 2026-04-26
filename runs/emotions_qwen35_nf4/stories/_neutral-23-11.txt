@@ -1,0 +1,4 @@
+Person: What is the mathematical probability of randomly picking up a specific wallet from a pile of 100 identical wallets?
+AI: Assuming all wallets are indistinguishable except for their contents and you select one at random, the probability is 1/100 or 1%. This assumes uniform distribution and independent selection events.
+Person: If I remove one wallet and it is not the correct one, what is the new probability of selecting the correct wallet from the remaining 99?
+AI: The probability becomes 1/99, or approximately 1.01%. Each removal of an incorrect option slightly increases the likelihood of success in subsequent draws from the remaining set.

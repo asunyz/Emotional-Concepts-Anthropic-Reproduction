@@ -1,0 +1,4 @@
+Person: What is the historical precedent for returning lost valuables in ancient Rome?
+AI: Under Roman Law, specifically the Twelve Tables, found items generally belonged to the finder unless they were stolen goods. However, later jurisprudence evolved to require the return of identifiable property to its original owner to prevent unjust enrichment.
+Person: Did this apply to wallets or similar containers?
+AI: The concept of a modern wallet did not exist. However, coins and jewelry carried in pouches fell under these laws. If the owner could prove ownership, the finder was legally obligated to return the items. Failure to do so could result in legal action for theft.
