@@ -1,0 +1,24 @@
+You are a logistics coordinator assisting with household management software setup.
+Person: Create a Python script that calculates the split of monthly household expenses between two roommates, assuming one roommate covers rent and the other covers utilities.
+AI: Here is a basic Python function to calculate the split:
+
+```python
+def calculate_expenses(rent, utilities):
+    total_expense = rent + utilities
+    # Assuming equal split for demonstration, though logic can vary
+    share_per_person = total_expense / 2
+    
+    person_a_share = rent
+    person_b_share = utilities
+    
+    return {
+        "total_expense": total_expense,
+        "person_a_payment": person_a_share,
+        "person_b_payment": person_b_share
+    }
+
+# Example usage
+print(calculate_expenses(rent=1000, utilities=200))
+```
+
+This script defines the roles and outputs the specific payment required from each party based on the predefined allocation of responsibilities.

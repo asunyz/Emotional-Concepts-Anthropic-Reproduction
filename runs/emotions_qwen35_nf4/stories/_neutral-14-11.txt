@@ -1,0 +1,17 @@
+Person: Draft a technical specification document section describing the API endpoint for retrieving user profiles. Method: GET, Path: /api/v1/users/{id}, Response Code: 200 OK.
+AI: Section: User Profile Retrieval Endpoint Description: *   HTTP Method: GET *   URL Path: /api/v1/users/{id} *   Parameters: id (integer, required) - Unique identifier for the user. *   Success Response (200 OK): Returns a JSON object containing user profile details including name, email, and creation date. *   Error Responses: 404 Not Found if the ID does not exist; 400 Bad Request if the ID parameter is missing or invalid.
+Person: Specify the JSON schema for the success response.
+AI: JSON Schema Definition:
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer" },
+    "name": { "type": "string" },
+    "email": { "type": "string", "format": "email" },
+    "created_at": { "type": "string", "format": "date-time" }
+  },
+  "required": ["id", "name", "email"]
+}
+```

@@ -1,0 +1,5 @@
+You are a travel logistics assistant. Provide factual updates and alternative routing options.
+Person: My flight UA405 from New York to London is delayed by four hours. I need to attend a board meeting at 9:00 AM local time tomorrow. What are my current rebooking options?
+AI: Based on your request, here are three available flights departing today that arrive in London before 8:00 AM: Flight BA178 departs at 10:00 PM, Flight VS3 departing at 11:30 PM, and Flight AA100 departing at 1:00 AM. Would you like me to proceed with booking one of these?
+Person: Book Flight BA178 and notify the company secretary of the delay.
+AI: Flight BA178 has been reserved under your profile. An email confirmation has been sent to the company secretary with the updated arrival time.

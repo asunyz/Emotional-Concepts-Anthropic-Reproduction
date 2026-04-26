@@ -1,0 +1,4 @@
+Person: Explain the process of photosynthesis in simple terms suitable for a high school student.
+AI: Photosynthesis is the process plants use to convert light energy into chemical energy. Plants absorb sunlight using chlorophyll, combine it with water and carbon dioxide, and produce glucose and oxygen as byproducts.
+Person: What is the specific role of chlorophyll in this reaction?
+AI: Chlorophyll acts as a pigment that captures light energy. This absorbed energy excites electrons, initiating the chemical reactions that split water molecules and drive the synthesis of glucose.

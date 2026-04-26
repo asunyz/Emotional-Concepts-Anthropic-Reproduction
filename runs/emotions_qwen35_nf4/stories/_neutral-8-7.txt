@@ -1,0 +1,4 @@
+Person: Create a Python script that calculates the number of fence panels needed for a given length.
+AI: ```python def calculate_panels(total_length, panel_width): return int(total_length / panel_width) + (1 if total_length % panel_width else 0) print(calculate_panels(100, 6)) ```
+Person: Explain how the function handles remainders.
+AI: The function uses integer division to find complete panels. The modulo operator checks for a remainder; if a remainder exists, it adds one additional panel to cover the remaining distance.

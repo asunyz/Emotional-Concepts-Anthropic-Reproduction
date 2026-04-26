@@ -1,0 +1,2 @@
+Person: Write a Python script to calculate the volume of a rectangular room given length, width, and height.
+AI: ```python def calculate_room_volume(length, width, height): return length * width * height # Example usage print(calculate_room_volume(10, 12, 8)) ```

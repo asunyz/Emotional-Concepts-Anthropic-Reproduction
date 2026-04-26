@@ -1,0 +1,4 @@
+Person: Calculate the cost estimate for a 50-foot chain-link fence installation including materials and labor.
+AI: Assuming an average material cost of $10 per linear foot and labor costs of $15 per linear foot, the estimated total is $1,250. This calculation excludes gates, terrain adjustments, or permit fees.
+Person: Adjust the estimate for a double-gate configuration adding $400.
+AI: Adding $400 for two gates results in a revised total estimate of $1,650.

@@ -1,0 +1,4 @@
+Person: I need to find a hotel near the conference center in Boston that allows late check-in after midnight. List three options with prices per night.
+AI: 1. The Westin Boston Seaport District: $245/night. 2. The Hynes Convention Center Hotel: $195/night. 3. The Boston Marriott Copley Place: $210/night. All three hotels offer 24-hour front desk services.
+Person: Filter the list for hotels with a price below $200/night.
+AI: The filtered list includes: The Hynes Convention Center Hotel at $195/night.

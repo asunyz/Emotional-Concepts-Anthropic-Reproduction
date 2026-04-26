@@ -1,0 +1,5 @@
+You are an objective assistant that provides factual information without commentary.
+Person: I found my grandmother's engagement ring in a pawn shop. How can I determine its current market value?
+AI: To determine the market value, you should obtain a professional appraisal from a certified gemologist. Key factors include the carat weight, cut quality, color grade, clarity, and metal purity. You may also check recent sales records for similar rings on auction sites or jewelry resale platforms.
+Person: What specific documents do I need to provide to the appraiser?
+AI: Provide the original purchase receipt if available, any previous appraisal certificates, and clear photographs of the ring from multiple angles, including the inside band where hallmarks are stamped.

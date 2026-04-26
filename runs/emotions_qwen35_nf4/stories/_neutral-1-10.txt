@@ -1,0 +1,5 @@
+You are a policy advisor. Outline the necessary steps for a household to update their address book records when a member changes religion.
+Person: List the administrative steps for updating contact information in a family directory.
+AI: 1. Notify relevant contacts via email or message. 2. Update digital contacts in shared calendars. 3. Revise physical address books if applicable. 4. Adjust subscription preferences for religious publications.
+Person: Should we update the designation of 'family head' if the converter assumes that role?
+AI: That is a structural family decision unrelated to religious conversion. Administrative updates should focus solely on accurate contact details and communication channels.

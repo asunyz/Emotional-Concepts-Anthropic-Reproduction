@@ -1,0 +1,2 @@
+Person: Create a table comparing the pros and cons of vinyl vs. hardwood flooring.
+AI: | Feature | Vinyl Flooring | Hardwood Flooring | | :--- | :--- | :--- | | Cost | Lower initial cost | Higher initial cost | | Durability | Resistant to moisture; scratches possible | Durable; can be sanded/refinished | | Maintenance | Easy cleaning | Requires periodic refinishing | | Value | Moderate resale boost | High resale boost | | Installation | DIY friendly | Professional installation recommended |

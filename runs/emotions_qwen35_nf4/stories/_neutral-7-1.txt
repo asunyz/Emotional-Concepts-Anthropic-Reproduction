@@ -1,0 +1,4 @@
+Person: I want to write a polite email to my online friend suggesting we meet for coffee since we both live in New York City. Draft the message.
+AI: Subject: Meeting in NYC\n\nHi [Name],\n\nIt came to my attention that we both reside in New York City. If you are open to it, I would like to propose meeting for coffee at a public location. Please let me know your availability.\n\nBest,\n[Your Name]
+Person: Is there a specific time frame I should suggest?
+AI: Suggest a window within the next two weeks during standard business hours or early evening to accommodate typical work schedules.

@@ -1,0 +1,2 @@
+Person: I need to draft an email to my team explaining that I am switching from center to power forward due to lineup adjustments. Please generate the text.
+AI: Subject: Lineup Adjustment / Positional Change. Body: Team, Due to current roster dynamics and strategic requirements, I will be transitioning to the power forward position effective immediately. This change allows us to optimize our spacing and defensive versatility. Please adjust your passing lanes and screening assignments accordingly. Regards, [Name].

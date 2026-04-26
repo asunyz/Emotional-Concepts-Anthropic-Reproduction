@@ -1,0 +1,7 @@
+Person: Summarize the key points of the attached text regarding the retirement policy changes effective next month. Text: "Effective June 1st, employees aged 65+ may opt for phased retirement. Benefits remain unchanged during the transition period."
+AI: Key points from the text: 1. Policy change effective date: June 1st. 2. Eligibility: Employees aged 65 or older. 3. Option: Phased retirement is available. 4. Condition: Employee benefits continue at the same level during the transition.
+Person: Convert this summary into a bulleted list suitable for a slide deck.
+AI: *   Effective Date: June 1st
+*   Target Group: Employees aged 65+
+*   New Option: Phased Retirement
+*   Benefit Status: Unchanged during transition

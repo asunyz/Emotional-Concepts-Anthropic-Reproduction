@@ -1,0 +1,4 @@
+Person: How does the chemical composition of tattoo ink interact with the dermal layer of human skin over time?
+AI: Tattoo ink consists of pigment particles suspended in a carrier solution. Upon application, macrophages ingest the pigment particles and transport them to the lymph nodes, while others remain trapped within fibroblasts in the dermis. Over time, UV radiation can break down certain pigments, leading to fading. The body’s immune response creates a stable environment for the remaining pigment, which is why tattoos persist indefinitely unless removed via laser treatment.
+Person: Which pigments are most susceptible to UV degradation?
+AI: Organic pigments, particularly reds, yellows, and oranges, are more susceptible to photodegradation than inorganic pigments like black carbon or titanium dioxide. This susceptibility varies by brand and formulation, but generally, lighter colors fade faster due to lower molecular stability when exposed to ultraviolet light.

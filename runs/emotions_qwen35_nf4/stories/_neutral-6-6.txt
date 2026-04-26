@@ -1,0 +1,11 @@
+Person: Create a checklist for verifying the completeness of a scholarship application package.
+AI: 
+- [ ] Completed application form
+- [ ] Official transcripts
+- [ ] Letters of recommendation
+- [ ] Personal statement/essay
+- [ ] Proof of enrollment
+- [ ] Financial aid forms (if applicable)
+- [ ] Resume/CV
+Person: Which document typically requires the most preparation time?
+AI: The personal statement or essay usually requires the most time due to drafting, editing, and refinement processes.

@@ -1,0 +1,4 @@
+Person: Analyze the following dataset for outliers: [10, 12, 11, 13, 100, 12, 11].
+AI: Using the Interquartile Range (IQR) method: Q1 (25th percentile) is 11. Q3 (75th percentile) is 12. IQR = Q3 - Q1 = 1. Lower bound = Q1 - 1.5*IQR = 11 - 1.5 = 9.5. Upper bound = Q3 + 1.5*IQR = 12 + 1.5 = 13.5. Any value below 9.5 or above 13.5 is an outlier. The value 100 exceeds the upper bound. Therefore, 100 is an outlier.
+Person: Remove the outlier and calculate the mean of the remaining data.
+AI: Remaining data set: [10, 12, 11, 13, 12, 11]. Sum = 69. Count = 6. Mean = 69 / 6 = 11.5.

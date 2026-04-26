@@ -1,0 +1,4 @@
+Person: List the metadata fields typically extracted from a PDF document to verify its creation source.
+AI: Common metadata fields include:\n1. Title: The document title.\n2. Author: The creator's name.\n3. Creator: The software application used to generate the file.\n4. Producer: The tool used to convert or process the file.\n5. Creation Date: Timestamp of initial file generation.\n6. Modification Date: Timestamp of last edit.\n7. Keywords: Tags associated with the document.\n8. Trapped: Status indicating print readiness.
+Person: How can I extract this metadata programmatically?
+AI: Use a library such as PyPDF2 in Python. Import the PdfReader class, load the file, and access the metadata dictionary via the `metadata` attribute. Example: `reader = PdfReader('document.pdf'); print(reader.metadata)`. This returns a structured object containing the specified fields.

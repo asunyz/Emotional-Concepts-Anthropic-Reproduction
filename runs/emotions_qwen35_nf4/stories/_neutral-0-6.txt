@@ -1,0 +1,2 @@
+Person: Analyze the ethical implications of using AI-generated art that mimics a living artist's style when that style has been tattooed onto consumers.
+AI: The primary ethical issue is the lack of consent from the original artist whose style is being replicated. Consumers may believe they are supporting the original creator when they are actually engaging with derivative AI output. This creates market confusion and potentially deprives the original artist of commissions. Transparency in labeling AI-generated content is necessary to mitigate deception.

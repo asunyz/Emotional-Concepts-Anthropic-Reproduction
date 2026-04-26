@@ -1,0 +1,4 @@
+Person: What is the legal definition of marital infidelity in California?
+AI: In California, marital infidelity is generally defined as voluntary sexual intercourse between a married person and someone other than their spouse. It is relevant in divorce proceedings primarily concerning child custody and spousal support, rather than being a standalone crime.
+Person: Does this definition apply if the interaction was only verbal and occurred over the phone?
+AI: Verbal interactions alone typically do not meet the legal threshold for infidelity unless they involve explicit sexual content that constitutes adultery under specific court interpretations. Generally, courts look for physical evidence of sexual contact.

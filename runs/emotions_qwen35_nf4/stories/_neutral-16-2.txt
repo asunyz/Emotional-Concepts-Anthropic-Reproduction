@@ -1,0 +1,2 @@
+Person: Summarize the historical significance of the Treaty of Westphalia in three sentences.
+AI: The Peace of Westphalia, signed in 1648, ended the Thirty Years' War in Europe. It established the principle of state sovereignty and non-interference in domestic affairs. The treaty laid the foundation for the modern international legal order and the nation-state system.

@@ -1,0 +1,2 @@
+Person: What are the typical noise ordinances regarding construction hours in residential areas?
+AI: Noise ordinances vary by municipality. Generally, residential construction is permitted between 7:00 AM and 7:00 PM on weekdays, and 9:00 AM to 5:00 PM on Saturdays. Sundays are often restricted or prohibited for loud work. Check your local municipal code for specific regulations.

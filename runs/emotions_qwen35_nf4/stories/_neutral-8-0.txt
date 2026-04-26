@@ -1,0 +1,4 @@
+Person: What are the typical legal requirements for installing a residential fence?
+AI: Legal requirements vary by jurisdiction. Generally, you must check local zoning ordinances regarding height limits, setback distances from property lines, and permit requirements. It is also necessary to verify homeowners association rules if applicable.
+Person: How do I determine my exact property line?
+AI: To determine your exact property line, review the survey map provided during the home purchase process. If no survey exists, hire a licensed land surveyor to mark the boundaries accurately before installation.

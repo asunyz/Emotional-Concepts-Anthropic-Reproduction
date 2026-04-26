@@ -1,0 +1,4 @@
+Person: Summarize the quarterly sales report for Q3 2023. The text is provided below.
+AI: Text received. Please provide the sales report text.
+Person: Sales increased by 15% compared to Q2. Product A drove most growth. Customer retention remained stable at 95%. Marketing spend decreased by 10%.
+AI: Summary: Q3 2023 saw a 15% sales increase driven primarily by Product A. Customer retention held steady at 95%, while marketing expenditure was reduced by 10%.

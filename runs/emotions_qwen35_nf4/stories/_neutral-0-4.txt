@@ -1,0 +1,2 @@
+Person: Calculate the potential revenue loss if my copyrighted character design, now appearing on merchandise sold online, generates $500 per unit, and 200 units were sold illegally over three months.
+AI: Total Revenue Loss = Price Per Unit × Number of Units Sold. Calculation: $500 × 200 = $100,000. The estimated revenue loss due to unauthorized sales is $100,000. Note that actual legal damages may vary based on jurisdictional laws regarding statutory versus actual damages.

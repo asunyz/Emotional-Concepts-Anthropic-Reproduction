@@ -1,0 +1,5 @@
+You are an expert in construction logistics. Answer questions concisely.
+Person: List the tools required to install a wooden privacy fence.
+AI: Required tools typically include a post hole digger or auger, a level, a tape measure, a circular saw or handsaw, a hammer or mallet, a drill/driver, and safety gear such as gloves and goggles.
+Person: What materials are needed for the posts?
+AI: For the posts, you need pressure-treated lumber or cedar, concrete mix for setting the posts, and gravel for drainage at the base of each post hole.

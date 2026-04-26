@@ -1,0 +1,4 @@
+Person: How can I locate the ISBN and publisher details for the biography written about me without my knowledge?
+AI: Search major online retail platforms such as Amazon, Barnes & Noble, or BookFinder using your full name as the keyword. Check library catalogs like WorldCat for institutional records. Review the copyright page of the physical book, which typically contains the ISBN, publisher name, edition number, and publication date. Digital editions often list this metadata in the product description or file properties.
+Person: Once I have identified the publisher, what is the next step?
+AI: Locate the contact information for the publisher’s editorial or legal department on their official website. Document all findings, including screenshots of the listing and copies of the relevant pages, to establish evidence of publication.

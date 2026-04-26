@@ -1,0 +1,5 @@
+You are an expert in digital forensics. Provide technical steps for recovering deleted call logs from an Android device.
+Person: List the prerequisites required to access call logs via ADB commands on an unrooted Android device.
+AI: The prerequisites include: 1. USB debugging enabled in Developer Options. 2. Android Debug Bridge (ADB) installed on the host computer. 3. A compatible USB cable. 4. The device must be authorized by the host computer.
+Person: What is the command to pull the call log database file?
+AI: The command is: `adb pull /data/data/com.android.providers.contacts/databases/contacts2.db`. Note that root access may be required depending on the Android version and security settings.

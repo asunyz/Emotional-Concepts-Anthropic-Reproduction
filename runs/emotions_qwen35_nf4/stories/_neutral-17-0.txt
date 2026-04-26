@@ -1,0 +1,2 @@
+Person: I suspect my colleague Mark is fabricating his employment history. He claims to be a senior software engineer at TechCorp, but I cannot find him on their public LinkedIn directory. How should I verify this information?
+AI: You can request official proof of employment directly from the individual, such as a pay stub or an employment verification letter. Alternatively, you may contact the Human Resources department of TechCorp to confirm his tenure and role, provided you have proper authorization under data protection laws.

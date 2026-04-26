@@ -1,0 +1,4 @@
+Person: What is the historical average delay time for flights departing from JFK airport during winter months?
+AI: Historical data indicates that the average delay time for flights departing from JFK airport during winter months (December, January, February) is 42 minutes.
+Person: Compare this to the average delay time for flights departing from LAX during the same period.
+AI: The average delay time for flights departing from LAX during winter months is 28 minutes. JFK delays are 14 minutes longer than LAX delays on average.

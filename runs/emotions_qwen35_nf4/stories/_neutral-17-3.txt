@@ -1,0 +1,24 @@
+Person: I need to write a Python script that scrapes a company’s website to see if a list of employees actually exists there. Can you provide the basic structure?
+AI: Here is a basic example using `requests` and `BeautifulSoup`:
+
+```python
+import requests
+from bs4 import BeautifulSoup
+
+def check_employee_exists(url, employee_name):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Example logic: search for name in page text
+        if employee_name.lower() in soup.get_text().lower():
+            return True
+        else:
+            return False
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
+
+# Usage
+check_employee_exists("https://example.com/team", "John Doe")

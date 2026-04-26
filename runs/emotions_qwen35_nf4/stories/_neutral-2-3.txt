@@ -1,0 +1,24 @@
+def check_similarity(drawings):
+    """
+    Compares a list of current drawings against a database of past sketches.
+    Returns True if a match exceeds 80% similarity.
+    """
+    db = load_database("childhood_art")
+    matches = []
+    for drawing in drawings:
+        score = compare_images(drawing, db)
+        if score > 0.8:
+            matches.append(drawing.id)
+    return len(matches) > 0
+
+Person: Refactor this Python function to handle cases where the database might be empty without raising an error.
+AI: def check_similarity(drawings):
+    db = load_database("childhood_art")
+    if not db:
+        return False
+    matches = []
+    for drawing in drawings:
+        score = compare_images(drawing, db)
+        if score > 0.8:
+            matches.append(drawing.id)
+    return len(matches) > 0

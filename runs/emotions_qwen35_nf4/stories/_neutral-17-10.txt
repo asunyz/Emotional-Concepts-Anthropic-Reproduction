@@ -1,0 +1,2 @@
+Person: My neighbor claims to be a retired judge. I want to verify if they served on the bench. What public resources are available for this?
+AI: Court websites often publish rosters of past judges or justices. You can search the specific court system (federal, state, or local) where they claim to have served. Additionally, legal directories like Martindale-Hubbell or Westlaw may list judicial histories. Public court dockets are also searchable online for cases presided over by the individual.

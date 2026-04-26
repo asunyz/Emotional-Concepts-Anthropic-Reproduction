@@ -1,0 +1,2 @@
+Person: How does lead-based paint affect indoor air quality during sanding?
+AI: Sanding lead-based paint creates fine dust particles containing lead. This dust can become airborne and settle on surfaces, posing significant health risks if ingested or inhaled. Proper containment, such as using plastic sheeting and HEPA filters, is required to prevent contamination of indoor air quality.

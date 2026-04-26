@@ -1,0 +1,4 @@
+Person: Calculate the gravitational force exerted by Earth on a satellite orbiting at an altitude of 400 km. Assume Earth's mass is $5.972 \times 10^{24}$ kg and radius is 6,371 km.
+AI: The formula for gravitational force is $F = G \frac{m_1 m_2}{r^2}$. Given: $G = 6.674 \times 10^{-11} \text{ N(m/kg)}^2$, $M_{earth} = 5.972 \times 10^{24} \text{ kg}$, $R_{earth} = 6,371,000 \text{ m}$, Altitude $h = 400,000 \text{ m}$. Total distance $r = R_{earth} + h = 6,771,000 \text{ m}$. Let $m_{satellite} = m$. $F = (6.674 \times 10^{-11}) \frac{(5.972 \times 10^{24})(m)}{(6,771,000)^2}$. $F \approx 8.69 \times m$ Newtons. The force per kilogram of satellite mass is approximately 8.69 N/kg.
+Person: Round the result to three significant figures.
+AI: The calculated force per unit mass is 8.69 N/kg.

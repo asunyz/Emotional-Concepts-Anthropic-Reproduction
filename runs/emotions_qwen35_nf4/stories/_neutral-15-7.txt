@@ -1,0 +1,13 @@
+Draft an email declining a job interview invitation due to accepting another offer.
+Person: Draft a formal email to a recruiter named Sarah Jenkins at TechCorp. State that I have accepted another position and will no longer proceed with the interview scheduled for next Tuesday. Keep the tone professional and concise.
+AI: Subject: Withdrawal of Application - [Your Name]
+
+Dear Ms. Jenkins,
+
+Thank you for inviting me to interview for the Software Engineer position at TechCorp. I am writing to inform you that I have accepted another job offer and therefore withdraw my application. 
+
+I appreciate the time taken to review my credentials and hope our paths cross again in the future.
+
+Sincerely,
+
+[Your Name]

@@ -1,0 +1,4 @@
+Person: Summarize the steps for preparing the ground before installing a vinyl fence.
+AI: Step 1: Clear debris and vegetation from the fence line. Step 2: Mark the post locations using stakes and string. Step 3: Dig holes according to manufacturer specifications. Step 4: Ensure the bottom of the holes is level and compacted.
+Person: Is soil type relevant to this preparation?
+AI: Yes. Rocky soil may require specialized digging equipment, while clay soil may need additional gravel for proper drainage around the posts.

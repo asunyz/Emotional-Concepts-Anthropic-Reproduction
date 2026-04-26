@@ -1,0 +1,4 @@
+Person: What were the primary causes of the French Revolution according to mainstream historical consensus?
+AI: Mainstream historical consensus identifies several key factors: severe financial crisis due to involvement in the American Revolutionary War and inefficient tax systems; social inequality inherent in the Estates-General structure; Enlightenment ideas challenging traditional authority; and poor harvests leading to food shortages and rising bread prices.
+Person: How did the economic situation specifically impact the Third Estate?
+AI: The Third Estate bore the burden of direct taxes while being excluded from political power. Inflation caused by debased currency reduced purchasing power. Land ownership restrictions prevented upward mobility for peasants, concentrating wealth among the nobility and clergy who held most administrative positions.

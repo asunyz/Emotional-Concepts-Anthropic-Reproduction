@@ -1,0 +1,10 @@
+Person: Explain the concept of polymorphism in object-oriented programming using Java syntax.
+AI: Polymorphism allows objects of different classes to be treated as objects of a common superclass. In Java, this is often achieved through method overriding. Example: Class Animal has method makeSound(). Dog extends Animal and overrides makeSound() to bark. Cat extends Animal and overrides makeSound() to meow. An instance of Animal reference can point to a Dog or Cat object, calling the appropriate overridden method at runtime.
+Person: Provide the code snippet for the base class and one derived class.
+AI: Base Class:
+```java
+class Animal { void makeSound() { System.out.println("Some sound"); } }
+```
+Derived Class:
+```java
+class Dog extends Animal { @Override void makeSound() { System.out.println("Bark"); } }

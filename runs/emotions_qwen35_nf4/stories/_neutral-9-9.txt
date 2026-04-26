@@ -1,0 +1,7 @@
+Person: Generate a list of five neutral conversation starters suitable for an initial meeting between an adult child and their parents regarding the new living arrangement.
+AI: 
+1. "What is the proposed schedule for utility bill payments?"
+2. "How would you like to handle the division of kitchen cleaning duties?"
+3. "Are there specific house rules regarding noise levels during evening hours?"
+4. "What is the procedure for reporting maintenance issues in the home?"
+5. "How frequently would you prefer to review the living arrangement agreement?"

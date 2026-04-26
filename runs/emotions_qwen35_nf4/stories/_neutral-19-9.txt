@@ -1,0 +1,4 @@
+Person: Outline the steps to resolve a scheduling conflict where a teacher is double-booked for two classes simultaneously.
+AI: Resolution Steps: 1. Identify the conflicting time slots in the master schedule. 2. Consult with department heads to determine priority courses. 3. Reassign one class to an available room or substitute teacher. 4. Notify affected students and parents of the change. 5. Update the digital calendar and learning management system. 6. Document the incident for future scheduling audits.
+Person: How should the substitute teacher be compensated?
+AI: Substitute compensation follows district policy. Typically, substitutes receive a daily rate determined by their qualifications and experience level. Payment is processed through the payroll department upon submission of the signed duty sheet.

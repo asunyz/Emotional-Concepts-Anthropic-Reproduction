@@ -1,0 +1,2 @@
+Person: Outline the steps to create a basic backup of a SQL database using command line tools.
+AI: 1. Open the terminal or command prompt. 2. Execute the dump command, specifying the database name and output file path (e.g., `pg_dump dbname > backup.sql`). 3. Verify the creation of the backup file. 4. Store the backup file in a secure, off-site location.

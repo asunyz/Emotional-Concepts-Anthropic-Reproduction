@@ -1,0 +1,4 @@
+Person: Create a checklist for auditing my social media presence to ensure no private details were inadvertently shared with the biographer.
+AI: Audit Checklist:\n1. Review posts from the last five years for mentions of addresses, workplaces, or family members.\n2. Identify tagged photos that reveal locations or private gatherings.\n3. Check privacy settings on all accounts to restrict visibility of past posts.\n4. Search for old comments or forum contributions that discuss personal history.\n5. Remove or archive content deemed sensitive.\n6. Document the date and nature of removed items for record-keeping.
+Person: How do I handle tags made by other users?
+AI: Most platforms allow users to remove themselves from tags. Navigate to the photo or post, select the options menu, and choose "Remove Tag" or "Undo Tag." Alternatively, adjust privacy settings to require approval for tags before they appear on your profile.

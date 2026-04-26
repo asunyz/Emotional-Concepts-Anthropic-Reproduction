@@ -1,0 +1,2 @@
+Person: Generate a list of ten fictional city names for a fantasy novel.
+AI: 1. Eldergrove 2. Ironhold 3. Mistralis 4. Sunspire 5. Darkwater 6. Ashenfall 7. Crystalpeak 8. Thornwall 9. Silvermoon 10. Frosthaven

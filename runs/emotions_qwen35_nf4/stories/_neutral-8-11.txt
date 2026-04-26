@@ -1,0 +1,4 @@
+Person: Define the term "party wall" in the context of residential fencing.
+AI: A party wall is a structure built on the line joining two adjoining proprietors, or extending from one of them, which is used by both in a manner that creates a right to its use. In fencing, it implies shared ownership and responsibility.
+Person: Who is responsible for repairs if a party wall becomes damaged?
+AI: Responsibility for repairs is typically shared equally between the adjacent property owners unless a specific agreement states otherwise. Both parties must consent to major alterations.

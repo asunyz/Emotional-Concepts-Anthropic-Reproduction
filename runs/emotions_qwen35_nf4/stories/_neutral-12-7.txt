@@ -1,0 +1,4 @@
+Person: Identify the specific airline policy regarding compensation for delays exceeding three hours under EU Regulation 261/2004.
+AI: Under EU Regulation 261/2004, passengers are entitled to compensation of €250 for flights of 1,500 kilometers or less, €400 for intra-EU flights over 1,500 kilometers and other flights between 1,500 and 3,500 kilometers, and €600 for flights over 3,500 kilometers, provided the delay exceeds three hours upon arrival and the cause is not extraordinary circumstances.
+Person: Determine if my flight from New York to London qualifies for this compensation.
+AI: Yes, the flight distance exceeds 3,500 kilometers. If the delay upon arrival exceeded three hours and was caused by issues within the airline's control, you qualify for €600 compensation.

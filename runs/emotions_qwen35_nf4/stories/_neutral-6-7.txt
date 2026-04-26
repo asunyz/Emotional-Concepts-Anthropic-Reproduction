@@ -1,0 +1,4 @@
+Person: Analyze the following text and identify any grammatical errors. "The scholarship board has decided that my application is denied because my GPA were low."
+AI: The verb "were" should be changed to "was" to agree with the singular subject "GPA". Additionally, "is denied" could be phrased more formally as "has been denied".
+Person: Rewrite the sentence using passive voice.
+AI: "My application was denied by the scholarship board due to a low GPA."

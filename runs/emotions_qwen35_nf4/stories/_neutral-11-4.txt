@@ -1,0 +1,2 @@
+Person: Write a technical analysis comparing the physical demands of playing as a fullback versus a halfback in rugby union.
+AI: Fullbacks typically cover greater distances with higher sprint speeds due to their role in counter-attacks and deep defensive lines. Halfbacks engage in more frequent high-intensity collisions during rucks and mauls, requiring greater core strength and anaerobic capacity compared to the endurance-focused profile often seen in fullbacks.

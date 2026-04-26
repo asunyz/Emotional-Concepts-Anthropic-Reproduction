@@ -1,0 +1,4 @@
+Person: Generate a list of five neutral phrases to describe a person who has changed their religious affiliation.
+AI: 1. Changed spiritual affiliation. 2. Adopted a new faith tradition. 3. Shifted religious identity. 4. Pursued a different spiritual path. 5. Transitioned to a new religious community.
+Person: Which phrase is most commonly used in academic sociology texts?
+AI: "Changed religious affiliation" or "religious switching" are frequently used terms in sociological literature to maintain descriptive neutrality.

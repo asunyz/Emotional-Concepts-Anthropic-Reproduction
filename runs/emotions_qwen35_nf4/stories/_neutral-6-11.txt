@@ -1,0 +1,4 @@
+Person: List three resources available online for finding alternative funding sources after a scholarship denial.
+AI: 1. Fastweb.com 2. Scholarships.com 3. The College Board’s BigFuture site.
+Person: How do these sites filter results?
+AI: They typically allow users to input demographics, academic interests, and financial needs to generate matching grant opportunities.

@@ -1,0 +1,4 @@
+Person: Outline the steps to reset a forgotten password for a Linux server.
+AI: 1. Reboot the server into single-user mode or recovery mode. 2. Remount the root filesystem as read-write. 3. Open a terminal and execute the `passwd` command followed by the username. 4. Enter the new password twice. 5. Save changes and reboot normally.
+Person: What command is used to remount the root filesystem as read-write?
+AI: The command is `mount -o remount,rw /`. This ensures the file system allows modifications necessary for changing user credentials.

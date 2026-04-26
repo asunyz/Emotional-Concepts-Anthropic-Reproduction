@@ -1,0 +1,4 @@
+Person: Create a checklist for parents preparing for a conference with their child’s teacher.
+AI: Parent-Teacher Conference Preparation Checklist: 1. Review recent report cards and grades. 2. List specific academic concerns or achievements. 3. Prepare questions regarding curriculum standards. 4. Note behavioral observations from home. 5. Bring relevant work samples if requested. 6. Schedule time for discussion post-conference.
+Person: Include a step for verifying contact information updates.
+AI: Updated Step: Verify that the school has current phone numbers and email addresses for emergency contacts and primary guardians. Update any changes through the administrative office before the meeting.

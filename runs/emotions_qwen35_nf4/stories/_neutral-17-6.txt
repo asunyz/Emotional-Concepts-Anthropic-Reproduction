@@ -1,0 +1,2 @@
+Person: A friend told me they were a war correspondent in Ukraine. I want to cross-reference this claim with news archives. How can I efficiently search for their name in journalistic databases?
+AI: Use academic or professional journalism databases such as Factiva, LexisNexis, or Google News Advanced Search. Enter the individual’s full name combined with keywords like “Ukraine,” “correspondent,” or “reporter.” Filter results by date range corresponding to their claimed period of service.

@@ -1,0 +1,8 @@
+Create a checklist for preparing a house for winterizing.
+Person: List the essential steps to prepare a residential property for winter conditions.
+AI: 
+* Inspect and seal gaps around windows and doors to prevent drafts.
+* Flush the water heater and drain outdoor faucets to prevent pipe bursts.
+* Clean gutters and downspouts to avoid ice dams.
+* Service the HVAC system and replace air filters.
+* Insulate exposed pipes in unheated areas such as basements and attics.

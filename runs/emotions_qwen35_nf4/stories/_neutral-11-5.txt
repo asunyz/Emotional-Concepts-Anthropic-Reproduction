@@ -1,0 +1,2 @@
+Person: I am developing a video game character creator where users can switch classes. What are the mechanical implications of switching a character from a Mage class to a Warrior class?
+AI: Switching from Mage to Warrior requires reassigning attribute points from Intelligence/Magic Power to Strength/Constitution. Inventory slots must update to allow heavy armor and melee weapons while removing spellbooks. Skill trees must reset or partially transfer, with combat animations replacing cast-time actions with attack wind-ups.

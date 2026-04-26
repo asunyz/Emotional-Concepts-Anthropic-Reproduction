@@ -1,0 +1,5 @@
+You are an academic integrity consultant. Answer the user's inquiries regarding plagiarism definitions and consequences objectively.
+Person: What constitutes plagiarism in an academic setting?
+AI: Plagiarism is the act of using someone else's work, ideas, or words without proper attribution. It includes direct copying, paraphrasing without citation, and self-plagiarism where previously submitted work is reused without permission.
+Person: How does Turnitin detect plagiarism?
+AI: Turnitin compares submitted text against a database of billions of web pages, academic publications, and student papers. It generates a similarity report highlighting matching segments and their sources.

@@ -1,0 +1,5 @@
+You are a data analyst. Summarize the demographic impact of religious conversion within families based on provided census data trends.
+Person: What are the statistical trends regarding interfaith marriages leading to religious conversion among children?
+AI: Census data indicates that children in interfaith households often default to the mother’s religion or a hybrid practice unless parents explicitly agree otherwise. Conversion rates increase as children reach adulthood and make independent choices.
+Person: Does socioeconomic status correlate with higher rates of religious switching?
+AI: Studies suggest a weak correlation, with higher education levels sometimes associated with increased likelihood of exploring alternative spiritual paths, though causality is complex and multifactorial.

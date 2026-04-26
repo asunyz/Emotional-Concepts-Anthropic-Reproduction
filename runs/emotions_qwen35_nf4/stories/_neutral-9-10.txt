@@ -1,0 +1,9 @@
+Person: Write a brief email template to parents proposing a trial period for moving back in.
+AI: Subject: Proposal for Trial Living Arrangement
+
+Dear [Parent Names],
+
+I am writing to propose a six-month trial period where I will move back into the family home starting [Date]. During this time, I will contribute $[Amount] towards household expenses and adhere to the agreed-upon chore schedule. At the end of the six months, we can reassess the arrangement to determine its effectiveness. Please let me know your thoughts on this proposal.
+
+Sincerely,
+[Your Name]

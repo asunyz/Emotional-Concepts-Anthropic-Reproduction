@@ -1,0 +1,4 @@
+Person: Identify the historical figure known for establishing the first public school system in the United States.
+AI: Horace Mann is widely recognized as the father of the American Common School movement. He served as the Secretary of the Massachusetts Board of Education and advocated for universal, non-sectarian public education.
+Person: During which decade did his major reforms take effect?
+AI: His significant legislative efforts and reforms primarily occurred during the 1830s and 1840s.

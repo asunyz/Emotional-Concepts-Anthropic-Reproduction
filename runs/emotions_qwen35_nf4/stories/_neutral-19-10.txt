@@ -1,0 +1,4 @@
+Person: List three benefits of using a shared digital calendar for teacher-parent communication.
+AI: 1. Real-time visibility of school events and deadlines. 2. Reduced miscommunication regarding assignment due dates. 3. Centralized location for accessing resource links and announcements.
+Person: Is there a security risk involved?
+AI: Yes, potential risks include unauthorized access if passwords are weak or shared. Schools mitigate this by using secure, domain-specific platforms with multi-factor authentication and privacy settings that restrict data visibility to authorized accounts only.

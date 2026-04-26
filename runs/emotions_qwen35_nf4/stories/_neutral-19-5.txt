@@ -1,0 +1,4 @@
+Person: Write a Python script that checks if a given list of student IDs matches a list of teacher-assigned IDs.
+AI: ```python def check_assignment(student_ids, teacher_assigned_ids): matched_students = [] for sid in student_ids: if sid in teacher_assigned_ids: matched_students.append(sid) return matched_students # Example usage students = ['S001', 'S002', 'S003'] teachers_list = ['S002', 'S003', 'S004'] print(check_assignment(students, teachers_list)) ```
+Person: Modify the script to return a boolean value indicating if all students are assigned.
+AI: ```python def check_all_assigned(student_ids, teacher_assigned_ids): return set(student_ids).issubset(set(teacher_assigned_ids)) # Returns True if every student_id is in teacher_assigned_ids ```

@@ -1,0 +1,11 @@
+Person: My friend Sarah says she works as a financial analyst for Global Bank. I need to draft a formal email to HR at Global Bank to verify her employment status. Please generate the text.
+AI: Subject: Employment Verification Request
+
+Dear Human Resources Team,
+
+I am writing to verify the employment status of Mr./Ms. Sarah [Last Name]. She states that she is currently employed as a Financial Analyst at Global Bank. Please confirm her current position and dates of employment.
+
+Thank you for your assistance.
+
+Sincerely,
+[Your Name]

@@ -1,0 +1,4 @@
+Person: Generate five neutral questions to ask a partner regarding their recent phone usage habits.
+AI: 1. How many minutes per day do you spend on non-work related calls? 2. Who are the primary contacts during evening hours? 3. Is there a reason you prefer texting over calling for certain matters? 4. Have your communication preferences changed recently? 5. Are there specific apps you use exclusively for personal correspondence?
+Person: Filter the list to exclude any questions mentioning "evening hours".
+AI: 1. How many minutes per day do you spend on non-work related calls? 2. Who are the primary contacts? 3. Is there a reason you prefer texting over calling for certain matters? 4. Have your communication preferences changed recently? 5. Are there specific apps you use exclusively for personal correspondence?

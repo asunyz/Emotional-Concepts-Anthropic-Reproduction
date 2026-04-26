@@ -1,0 +1,2 @@
+Person: Provide a checklist for verifying the authenticity of a piece of street art before attributing it to a specific artist for a museum catalog.
+AI: 1. Verify the location and date of creation against known records. 2. Compare brush strokes, color palette, and scale with verified existing works. 3. Look for hidden signatures or tags consistent with the artist’s method. 4. Consult archival footage or photographs taken shortly after creation. 5. Interview witnesses or collaborators who were present during the painting process.

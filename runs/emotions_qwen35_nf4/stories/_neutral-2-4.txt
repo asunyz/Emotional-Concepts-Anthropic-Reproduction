@@ -1,0 +1,4 @@
+Person: Summarize the concept of "cryptomnesia" in relation to the topic of recalling forgotten memories through external stimuli.
+AI: Cryptomnesia is a memory error where a person mistakenly recalls a thought or idea as original rather than remembered from elsewhere. In this context, it suggests the niece may have seen images of the imaginary friend without conscious awareness, leading her to reproduce them later.
+Person: How does cryptomnesia differ from false memory syndrome?
+AI: Cryptomnesia specifically involves plagiarism-like confusion regarding the source of a memory. False memory syndrome involves constructing detailed recollections of events that did not happen, often influenced by external suggestion.

@@ -1,0 +1,4 @@
+Person: Create a Python script that calculates the new arrival time given an original arrival time and a delay duration in minutes.
+AI: ```python def calculate_new_arrival(original_time_str, delay_minutes): from datetime import datetime, timedelta original_time = datetime.strptime(original_time_str, "%H:%M") delay = timedelta(minutes=delay_minutes) new_time = original_time + delay return new_time.strftime("%H:%M") # Example usage print(calculate_new_arrival("14:00", 120)) ```
+Person: Run the script with an original arrival of 18:30 and a delay of 90 minutes.
+AI: The calculated new arrival time is 20:00.

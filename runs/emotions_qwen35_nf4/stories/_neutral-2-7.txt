@@ -1,0 +1,4 @@
+Person: Outline the steps required to verify if a drawing is genuinely novel or derived from existing archives.
+AI: Step 1: Digitize the drawing. Step 2: Extract key features (shapes, colors). Step 3: Search internal and external databases for matching patterns. Step 4: Calculate similarity scores. Step 5: Document sources of matches. Step 6: Conclude novelty status based on threshold criteria.
+Person: What tools are recommended for Step 3?
+AI: Image recognition APIs, hash comparison algorithms, and metadata analysis software are standard tools for this step.

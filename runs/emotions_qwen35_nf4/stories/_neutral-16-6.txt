@@ -1,0 +1,2 @@
+Person: Draft a formal email declining an invitation to speak at a conference due to scheduling conflicts.
+AI: Subject: Decline Invitation to Speak at [Conference Name] Dear [Name], Thank you for inviting me to speak at [Conference Name]. Unfortunately, I am unable to attend due to prior scheduling commitments. I appreciate your consideration and wish you a successful event. Sincerely, [Your Name]

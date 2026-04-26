@@ -1,0 +1,4 @@
+Person: Define the term "holistic review" in the context of university admissions and scholarships.
+AI: Holistic review is an evaluation method where admissions officers consider various aspects of a candidate's background, including essays, extracurricular activities, and personal experiences, rather than relying solely on numerical metrics.
+Person: Does holistic review exclude standardized test scores?
+AI: No, it includes them but weighs them alongside other qualitative factors.

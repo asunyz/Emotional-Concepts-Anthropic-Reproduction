@@ -1,0 +1,2 @@
+Person: Summarize the key differences between open-plan and closed-plan kitchen layouts.
+AI: Open-plan kitchens remove walls between the kitchen and adjacent living areas, promoting social interaction and light flow but potentially increasing noise and cooking odors. Closed-plan kitchens feature distinct boundaries, offering privacy and sound isolation but creating a more isolated workspace and limiting visual connectivity.

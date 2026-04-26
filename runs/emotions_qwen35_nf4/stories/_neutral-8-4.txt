@@ -1,0 +1,4 @@
+Person: Write a formal letter to a neighbor requesting permission to build a shared fence along their property line.
+AI: Subject: Proposal for Shared Fence Installation. Dear Neighbor, I am writing to propose the installation of a new fence along our shared boundary. I believe a well-maintained fence would benefit both properties. Please let me know if you are open to discussing this further. Sincerely, [Your Name].
+Person: Modify the tone to be more collaborative and offer to split the cost.
+AI: Subject: Collaboration on New Fence. Dear Neighbor, I am interested in installing a new fence along our shared boundary and would value your input. I propose we collaborate on the design and split the associated costs equally. I look forward to hearing your thoughts. Best regards, [Your Name].

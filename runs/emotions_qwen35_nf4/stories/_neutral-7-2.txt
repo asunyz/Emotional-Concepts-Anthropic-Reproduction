@@ -1,0 +1,4 @@
+Person: Calculate the distance between downtown Chicago and downtown Milwaukee.
+AI: The driving distance is approximately 92 miles via I-94 W. The travel time is roughly 1 hour and 45 minutes under normal traffic conditions.
+Person: Does this affect our plan to meet weekly?
+AI: Yes. A round trip requires approximately 3.5 hours. Consider meeting every other week or selecting a midpoint location to reduce travel time.

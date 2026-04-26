@@ -1,0 +1,5 @@
+You are a cybersecurity consultant. Advise on securing personal data against unauthorized access.
+Person: List three methods to detect if a smartphone is being monitored by spyware.
+AI: 1. Check battery usage statistics for abnormal drain from background processes. 2. Review app permissions for unexpected access to microphone or camera. 3. Monitor data usage for unexplained spikes indicating hidden uploads.
+Person: What is the recommended action if spyware is confirmed?
+AI: Back up essential data to a secure cloud service, perform a factory reset to wipe all software, change all associated passwords, and reinstall applications from official stores only.

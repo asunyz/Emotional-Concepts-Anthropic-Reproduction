@@ -1,0 +1,4 @@
+Person: What is the typical timeframe for scholarship decisions to be released?
+AI: Timeframes vary by institution and program, but many universities release decisions within 4 to 8 weeks after the deadline.
+Person: Can I expedite this process?
+AI: Generally, no. Processing times are determined by the volume of applications and internal administrative schedules.

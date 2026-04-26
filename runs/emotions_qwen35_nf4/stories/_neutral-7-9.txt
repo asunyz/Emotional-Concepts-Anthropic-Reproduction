@@ -1,0 +1,12 @@
+Person: Write a function in JavaScript that takes two zip codes and returns true if they belong to the same metropolitan statistical area (MSA).
+AI: 
+```javascript
+function isInSameMSA(zip1, zip2) {
+    const msaDatabase = { /* populated dataset */ };
+    const msa1 = msaDatabase[zip1];
+    const msa2 = msaDatabase[zip2];
+    return msa1 === msa2 && msa1 !== null;
+}
+```
+Person: Where can I obtain the MSA database?
+AI: The U.S. Office of Management and Budget publishes OMB Bulletin No. 23-01, which defines MSAs and provides crosswalks linking ZIP Codes to MSAs. Download the CSV file from their official website.

@@ -1,0 +1,7 @@
+Person: I need to analyze the discrepancy between my friend’s resume and their social media activity. They listed 5 years of experience as a Data Scientist, but their GitHub profile shows no repositories related to machine learning. Generate a checklist for further investigation.
+AI: Investigation Checklist:
+1. Verify employment dates against LinkedIn recommendations or endorsements.
+2. Check for published papers or conference presentations associated with the claimed role.
+3. Review the GitHub repository commit history for relevant coding languages (Python, R, SQL).
+4. Contact former colleagues via mutual connections for behavioral references.
+5. Request a portfolio or case study demonstrating technical proficiency during the interview process.

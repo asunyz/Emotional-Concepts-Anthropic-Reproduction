@@ -1,0 +1,4 @@
+Person: I need to summarize the core tenets of Sikhism for a comparative religion essay.
+AI: Core tenets include belief in One God (Ik Onkar), equality of all humans, rejection of caste distinctions, and living an honest, truthful life while remembering the Divine.
+Person: How does Sikhism view the concept of karma compared to Hinduism?
+AI: Both traditions accept karma, but Sikhism emphasizes that devotion to God and righteous living can mitigate negative karmic effects more directly than ritualistic actions alone.

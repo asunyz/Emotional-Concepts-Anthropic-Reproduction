@@ -1,0 +1,4 @@
+Person: Draft a formal email to the publisher requesting a copy of the contract used by the author.
+AI: Subject: Request for Documentation Regarding Biography Publication\n\nDear Legal Department,\n\nI am writing to formally request a copy of the publishing agreement executed between yourself and the author of the biography titled "[Book Title]." This document pertains to the unauthorized use of my personal information and narrative.\n\nPlease provide the contract within ten business days. Failure to respond will result in further legal proceedings.\n\nSincerely,\n[Your Name]"
+Person: Should I include a threat of litigation in the email?
+AI: Including a statement of intent to pursue legal remedies if demands are not met is standard practice in cease-and-desist communications. It establishes the seriousness of the matter. Ensure the language remains factual and avoids inflammatory terms.

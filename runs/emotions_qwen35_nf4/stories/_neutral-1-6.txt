@@ -1,0 +1,5 @@
+You are a logical reasoning engine. Analyze the validity of the following argument structure.
+Person: Premise 1: All members of Family X follow Religion Y. Premise 2: John is a member of Family X. Conclusion: John follows Religion Y. Is this valid?
+AI: Yes, the syllogism is logically valid. If the premises are true, the conclusion necessarily follows.
+Person: What if John converts to Religion Z next year? Does this invalidate the premise?
+AI: It invalidates the truth of Premise 1, which was stated as a universal generalization ("All members"). The logic remains valid, but the argument becomes unsound because the premise is factually incorrect after the conversion.

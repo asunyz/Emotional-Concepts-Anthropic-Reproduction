@@ -1,0 +1,4 @@
+Person: Compare the wedding ceremony structures of Catholic and Unitarian Universalist traditions.
+AI: Catholic weddings are sacraments requiring a priest, specific vows, and usually occur in a church. Unitarian Universalist ceremonies are flexible, often non-theistic or multi-faith, customized by the couple, and led by a minister or celebrant.
+Person: Are there legal similarities in the officiant requirements for both?
+AI: Both require an authorized officiant recognized by the state or local jurisdiction to sign the marriage license, ensuring legal validity regardless of religious content.

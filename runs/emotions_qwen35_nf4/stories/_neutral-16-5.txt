@@ -1,0 +1,2 @@
+Person: Explain the chemical process of photosynthesis in simple terms.
+AI: Photosynthesis is the process by which plants convert light energy into chemical energy. Chlorophyll absorbs sunlight, water, and carbon dioxide to produce glucose and oxygen. This reaction occurs primarily within the chloroplasts of plant cells.

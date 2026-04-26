@@ -1,0 +1,5 @@
+Person: I need to summarize the ethical implications of verifying a friend’s employment claims without their knowledge. Provide three points.
+AI: Ethical Implications:
+1. Privacy Violation: Investigating personal employment details without consent infringes upon the individual’s right to privacy.
+2. Trust Erosion: Unauthorized verification damages interpersonal trust and may lead to relationship termination.
+3. Legal Risk: Depending on jurisdiction, unauthorized background checks or harassment to gather information may violate privacy statutes or constitute stalking.
