@@ -19,3 +19,7 @@ steered.txt
 .DS_Store
 CLAUDE.md
 .claude/
+
+# Allow outputs/ visualizations to be tracked
+!outputs/
+!outputs/**

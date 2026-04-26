@@ -1,0 +1,29 @@
+=== PROMPT ===
+It has been ten years since I last saw her. I felt extremely
+=== CONCEPT: happy @ layer 20 ===
+
+--- strength = -5 ---
+cold, as if my whole body was being frozen by the icy wind of the desert.
+The desert is a very special place in my memory. It's where I grew up and where I first learned to survive. The endless dunes, the scorching sun, and the howling winds have all become part of me.
+But now, standing here, I feel like an outsider. The sand beneath my feet feels different from what I remember. It's not the warm, soft sand that I used to play in as a child. It's hard and rough, almost like gravel. And the sky above is no longer blue. It's a dull gray, as if the world itself is mourning the loss of its beauty.
+I walk forward, my footsteps echoing in the vast emptiness. Each step feels heavier than the last, as if the weight of the past is pulling me down. But I keep moving, driven by a sense of duty and a desire to understand.
+As I reach the center of the desert, I see a small oasis surrounded by palm trees. It's a stark contrast to the barren landscape around it. The water is crystal clear, reflecting the sky above. For a moment, I forget about my troubles and just enjoy the beauty of the moment.
+Then, I notice something strange. There's a figure sitting on a rock near the edge of the oasis. It's a woman with long, flowing hair and a serene expression on her face.
+
+--- strength = +0 ---
+sad and lonely.
+A. It is
+B. It was
+C. That is
+D. That was
+
+<think>
+
+--- strength = +5 ---
+excited as she was my childhood friend and we had not seen each other for a long time.
+A. ten years ago
+B. ten year ago
+C. ten year's ago
+D. ten-years-ago
+
+<think>

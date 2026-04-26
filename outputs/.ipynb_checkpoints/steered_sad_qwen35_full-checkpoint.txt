@@ -1,0 +1,20 @@
+=== PROMPT ===
+It has been ten years since I last saw her. I felt extremely
+=== CONCEPT: sad @ layer 20 ===
+
+--- strength = -5 ---
+confident about my investment decisions.
+
+What is the relation between the two sentences?
+
+<think>
+
+--- strength = +0 ---
+sad and lonely.
+
+<think>
+
+--- strength = +5 ---
+cold and lonely.
+
+<think>
