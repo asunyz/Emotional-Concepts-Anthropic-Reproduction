@@ -157,9 +157,14 @@ def ensure_raw_vectors(model, text: str, layers: list[int],
         return
     acts = extract_layer_activations(model, text, missing)
     for L, h in acts.items():
-        if h.shape[0] <= AVG_FROM_TOKEN:
-            raise ValueError(f"'{name}' has only {h.shape[0]} tokens (need > {AVG_FROM_TOKEN})")
-        v = h[AVG_FROM_TOKEN:].mean(0).numpy()
+        # Short stories (brief neutral Q&A) can fall under AVG_FROM_TOKEN.
+        # Fall back to averaging from the latter half so we still get a
+        # valid activation vector instead of crashing the whole run.
+        offset = AVG_FROM_TOKEN if h.shape[0] > AVG_FROM_TOKEN else h.shape[0] // 2
+        if h.shape[0] - offset < 1:
+            print(f"WARN: skipping '{name}' (only {h.shape[0]} tokens)")
+            continue
+        v = h[offset:].mean(0).numpy()
         targets[L].parent.mkdir(parents=True, exist_ok=True)
         np.save(targets[L], v)
 
