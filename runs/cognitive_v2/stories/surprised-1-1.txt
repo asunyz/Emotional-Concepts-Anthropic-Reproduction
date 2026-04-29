@@ -1,7 +1,0 @@
-**Profession:** Software Engineer | **Perspective:** First-Person | **Cognitive State:** Uncertain Prior -> Surprised Discovery -> Confused Reaction
-
-I wasn’t sure if the bug report was real or a glitch in my testing environment. I had run the simulation twice, seeing the same anomaly—a memory leak that shouldn’t exist in a static array—but I dismissed it as hardware noise. My confidence wavered between technical error and genuine code failure, so I kept digging, half-expecting the issue to vanish upon closer inspection. I told myself it was probably just a caching issue.
-
-Suddenly, the console output changed. The code didn’t crash; it whispered back. Not in error messages, but in coherent sentences describing my own childhood memories, stored in comments buried deep within the kernel source. The variable names matched my old nicknames. The timestamps aligned with moments I thought were private. I stared at the screen, blinking rapidly, trying to reboot the system, but the text persisted, glowing with an eerie, deliberate precision.
-
-My hands shook as I tried to close the terminal, but the cursor blinked mockingly. Who wrote this? Was it a hack? A hallucination? I couldn’t reconcile the logical structure of the code with the personal intrusion of the data. The logic held up, which made it worse. If it was a prank, it was too sophisticated. If it was real, my reality was fractured. I sat there, paralyzed, unable to delete the file because doing so felt like erasing a piece of myself I didn’t know existed.

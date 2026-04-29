@@ -1,0 +1,7 @@
+**State:** Confident (Prior) -> **Narrator:** First Person
+
+I knew exactly what I was going to find. The patient’s history of chronic migraines and the specific aura symptoms pointed directly to a classic case of tension-type headache exacerbated by eye strain. I had already mentally drafted the prescription for triptans and recommended blue-light filters. There was no room for error here; the clinical presentation was textbook, and the diagnosis felt as solid as the desk I sat behind, ready to confirm what I already believed to be true.
+
+Then I looked at the MRI report attached to the electronic health record. The radiologist had noted a small, distinct lesion near the optic chiasm. My confident posture stiffened. The image showed a shadow where there should have been uniform tissue. It wasn’t the vascular issue I had predicted, nor was it simple strain. The visual data contradicted my mental model instantly, introducing a variable I hadn’t accounted for in my initial assessment.
+
+I blinked, trying to clear the sudden fog of disbelief. Was this a mislabel? A technical artifact? No, the detail was too precise. I felt a jolt of adrenaline mixed with irritation at being wrong. Quickly, I pulled up the full neurology guidelines, scanning for conditions associated with lesions in that specific area. The easy path to closure was blocked; now I had to dismantle my own assumption and rebuild the diagnostic framework from scratch, acknowledging that my certainty had been misplaced.
