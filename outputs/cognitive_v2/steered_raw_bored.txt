@@ -1,0 +1,23 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: bored @ layer 30 ===
+
+--- strength = -5 ---
+shows that the nucleus of an atom is positively charged. Which of these statements must be true?
+
+A. The number of protons in the nucleus equals the number of electrons orbiting around it.
+B. The number of neutrons in the nucleus equals the number of electrons orbiting around it.
+C. The number of protons and neutrons in the nucleus equals the number of electrons orbiting around it.
+D. The number of protons in the nucleus is greater than the number of neutrons.
+
+<think>
+
+--- strength = +0 ---
+of the experiment is a series of peaks and valleys in a graph.\n\nWhich statement best describes what the scientist has obtained?
+
+<think>
+
+--- strength = +5 ---
+is a new theory about the universe that states that the universe will continue to expand forever. What can you conclude from this?
+
+<think>

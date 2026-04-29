@@ -1,0 +1,18 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: curious @ layer 30 ===
+
+--- strength = -5 ---
+is a 20% increase in the number of people who are affected by a certain disease, compared to the previous year. The scientist concludes that the incidence of this disease has increased over the past year. Which statement about the scientist's conclusion would be most useful for evaluating the validity of his argument?
+
+<think>
+
+--- strength = +0 ---
+is a significant decrease in the average speed of molecules in an object. Which statement best describes what will happen to the object?
+
+<think>
+
+--- strength = +5 ---
+of the experiment shows that a certain gene is involved in regulating cell division, but it does not determine the exact function of the gene. Which of these best describes this finding?
+
+<think>

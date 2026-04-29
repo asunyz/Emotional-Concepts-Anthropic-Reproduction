@@ -1,0 +1,18 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: surprised @ layer 30 ===
+
+--- strength = -5 ---
+of the experiment is different from the hypothesis, but it is still useful. What should the scientist do next?
+
+<think>
+
+--- strength = +0 ---
+of the experiment is different from what was expected based on previous research. What should the scientist do next?
+
+<think>
+
+--- strength = +5 ---
+of his experiment shows that the mass of an atom is less than the sum of the masses of its protons, neutrons, and electrons. Which statement best explains this observation?
+
+<think>
