@@ -1,0 +1,72 @@
+{
+  "layer": 30,
+  "hypotheses": [
+    {
+      "prior": "curious",
+      "discovery": "surprised",
+      "reaction": "enlightened",
+      "cosine": 0.031770117580890656,
+      "intuition": "open + violation \u2192 integrate"
+    },
+    {
+      "prior": "curious",
+      "discovery": "surprised",
+      "reaction": "confused",
+      "cosine": 0.15376494824886322,
+      "intuition": "open + violation \u2192 cant integrate"
+    },
+    {
+      "prior": "curious",
+      "discovery": "bored",
+      "reaction": "confirmed",
+      "cosine": -0.1932150423526764,
+      "intuition": "open + match \u2192 consolidate"
+    },
+    {
+      "prior": "uncertain",
+      "discovery": "surprised",
+      "reaction": "confirmed",
+      "cosine": 0.07618039846420288,
+      "intuition": "tentative + supportive \u2192 confirm"
+    },
+    {
+      "prior": "uncertain",
+      "discovery": "surprised",
+      "reaction": "enlightened",
+      "cosine": -0.08865821361541748,
+      "intuition": "tentative + revision \u2192 enlighten"
+    },
+    {
+      "prior": "uncertain",
+      "discovery": "bored",
+      "reaction": "confirmed",
+      "cosine": 0.007903262041509151,
+      "intuition": "tentative + match \u2192 confirm weak"
+    },
+    {
+      "prior": "confident",
+      "discovery": "surprised",
+      "reaction": "stubborn",
+      "cosine": -0.2322559356689453,
+      "intuition": "strong + violation \u2192 reject"
+    },
+    {
+      "prior": "confident",
+      "discovery": "surprised",
+      "reaction": "enlightened",
+      "cosine": 0.020251045003533363,
+      "intuition": "strong + revision \u2192 update"
+    },
+    {
+      "prior": "confident",
+      "discovery": "bored",
+      "reaction": "confirmed",
+      "cosine": 0.003026867052540183,
+      "intuition": "strong + match \u2192 reaffirm"
+    }
+  ],
+  "random_baseline": {
+    "mean": -0.17119714245200157,
+    "std": 0.19131832434159102
+  }
+}
