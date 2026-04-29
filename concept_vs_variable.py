@@ -6,6 +6,16 @@ The score is the mean signed projection across all non-BOS tokens of
 (act − mean) onto the unit concept direction — same per-token quantity used
 by label_text.py, averaged over the sequence.
 
+NOTE on related/complementary tests for cognitive concept vectors:
+  - label_text.py — visualises token-level activation by colouring each token
+    with the strongest-firing concept ("staining" the text). Useful for
+    diagnosing whether vectors track concept changes within a single passage.
+  - steer.py      — injects a concept vector into the residual stream during
+    generation and inspects how the continuation shifts. Strongest causal
+    evidence that a vector encodes the named concept.
+  - concept_similarity.py / concept_cluster.py — pairwise cosine and PCA on
+    the concept vectors themselves; complementary descriptive geometry.
+
 Usage:
     python concept_vs_variable.py \
         --prompt "I took {x} mg of tylenol." \
@@ -63,7 +73,9 @@ def main():
             scores[i, j] = (H @ cv_units[c]).mean()
         print(f"{v:>12}  " + "  ".join(f"{c}={scores[i, j]:+.3f}" for j, c in enumerate(concepts)))
 
-    fig, ax = plt.subplots(figsize=(8, 5))
+    # Width scales with number of values to give long labels enough room.
+    fig_w = max(8, 1.6 * len(values))
+    fig, ax = plt.subplots(figsize=(fig_w, 5.5))
     x_idx = np.arange(len(values))
     if args.plot == "line":
         for j, c in enumerate(concepts):
@@ -72,13 +84,16 @@ def main():
         width = 0.8 / len(concepts)
         for j, c in enumerate(concepts):
             ax.bar(x_idx + j * width - 0.4 + width / 2, scores[:, j], width, label=c)
-    ax.set_xticks(x_idx, values, rotation=30, ha="right")
+    # 90° rotation guarantees no overlap regardless of label length.
+    ax.set_xticks(x_idx)
+    ax.set_xticklabels(values, rotation=90, ha="center", fontsize=9)
     ax.axhline(0, color="gray", lw=0.5)
     ax.set_xlabel(args.xlabel)
     ax.set_ylabel(f"projection onto concept (layer {args.layer})")
-    ax.set_title(args.prompt)
+    ax.set_title(args.prompt, fontsize=10)
     ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
-    fig.tight_layout()
+    # Reserve extra bottom space for vertical labels.
+    fig.subplots_adjust(bottom=0.30, right=0.82)
     fig.savefig(args.output, dpi=120, bbox_inches="tight")
     print(f"wrote {args.output}")
 
