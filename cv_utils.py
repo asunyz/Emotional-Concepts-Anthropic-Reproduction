@@ -55,7 +55,12 @@ def load_model(model_path: str | None = None) -> LanguageModel:
     qcfg = config.build_quant_config()
     if qcfg is not None:
         kwargs["quantization_config"] = qcfg
-    model = LanguageModel(str(path), **kwargs)
+    # Qwen2's tokenizer.json sometimes fails to convert through the fast
+    # tokenizers backend on certain transformers/tokenizers version combos.
+    # Pre-load the slow tokenizer and pass it explicitly so nnsight skips
+    # its own auto-load (which would retry the failing fast path).
+    tok = AutoTokenizer.from_pretrained(str(path), use_fast=False)
+    model = LanguageModel(str(path), tokenizer=tok, **kwargs)
     # Qwen3 saves lm_head as fp16 while the rest of the body stays bf16
     # (Qwen's native dtype), causing a dtype-mismatch at the final F.linear.
     # Cast any leftover fp16 non-quantized weights to bf16 to unify.
