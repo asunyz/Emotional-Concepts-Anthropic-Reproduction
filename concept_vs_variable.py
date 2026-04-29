@@ -73,9 +73,10 @@ def main():
             scores[i, j] = (H @ cv_units[c]).mean()
         print(f"{v:>12}  " + "  ".join(f"{c}={scores[i, j]:+.3f}" for j, c in enumerate(concepts)))
 
-    # Width scales with number of values to give long labels enough room.
-    fig_w = max(8, 1.6 * len(values))
-    fig, ax = plt.subplots(figsize=(fig_w, 5.5))
+    # Width scales with longest label and number of values so 45° labels fit.
+    max_label = max(len(str(v)) for v in values)
+    fig_w = max(10, 1.4 * len(values) + 0.15 * max_label)
+    fig, ax = plt.subplots(figsize=(fig_w, 6))
     x_idx = np.arange(len(values))
     if args.plot == "line":
         for j, c in enumerate(concepts):
@@ -84,16 +85,15 @@ def main():
         width = 0.8 / len(concepts)
         for j, c in enumerate(concepts):
             ax.bar(x_idx + j * width - 0.4 + width / 2, scores[:, j], width, label=c)
-    # 90° rotation guarantees no overlap regardless of label length.
+    # 45° slanted, anchored at the right edge of each tick so they fan out
+    # downward-right without overlapping.
     ax.set_xticks(x_idx)
-    ax.set_xticklabels(values, rotation=90, ha="center", fontsize=9)
+    ax.set_xticklabels(values, rotation=45, ha="right", rotation_mode="anchor", fontsize=9)
     ax.axhline(0, color="gray", lw=0.5)
     ax.set_xlabel(args.xlabel)
     ax.set_ylabel(f"projection onto concept (layer {args.layer})")
     ax.set_title(args.prompt, fontsize=10)
     ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
-    # Reserve extra bottom space for vertical labels.
-    fig.subplots_adjust(bottom=0.30, right=0.82)
     fig.savefig(args.output, dpi=120, bbox_inches="tight")
     print(f"wrote {args.output}")
 
