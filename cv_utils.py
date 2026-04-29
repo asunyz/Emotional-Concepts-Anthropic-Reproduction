@@ -50,7 +50,16 @@ def _materialize_local_copy() -> Path:
 
 def load_model(model_path: str | None = None) -> LanguageModel:
     """Load (or reload) the configured model. Caller reuses the handle."""
-    path = Path(model_path) if model_path else _materialize_local_copy()
+    # If the pre-quantized model is already on disk at the canonical path,
+    # use it directly. Avoids both the re-quantize round trip and a
+    # symlink-induced tokenizer load failure observed on RunPod.
+    canonical = Path("/workspace/models/qwen3.6-35b-a3b-nf4")
+    if model_path:
+        path = Path(model_path)
+    elif canonical.exists() and (canonical / "config.json").exists():
+        path = canonical
+    else:
+        path = _materialize_local_copy()
     kwargs = dict(device_map=config.DEVICE_MAP, torch_dtype=config.COMPUTE_DTYPE, dispatch=True)
     qcfg = config.build_quant_config()
     if qcfg is not None:
