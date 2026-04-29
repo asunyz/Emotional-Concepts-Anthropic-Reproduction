@@ -1,0 +1,7 @@
+**Profession:** Quantum Physicist | **Narration:** First-Person | **State Pathway:** Confident Prior -> Surprised Discovery -> Confused Reaction
+
+I know exactly what the double-slit experiment will show today: particles behaving as waves, creating an interference pattern that confirms wave-particle duality. My hypothesis is solid, backed by decades of replicated data, and I fully expect the detector array to light up with the familiar bands of constructive and destructive interference, reinforcing the standard model of quantum mechanics.
+
+The monitors flicker to life, and instead of the expected striped pattern, the screen displays a single, solid block of color, indicating that every particle landed in the exact same spot simultaneously. There is no spread, no diffraction, just a dense cluster of hits that suggests the particles ignored the slits entirely, passing through both barriers at once without interacting with the medium.
+
+I adjust the lens focus, convinced the camera is misaligned, but the raw data feed tells the same impossible story. I run the simulation again, tweaking variables, but the output remains stubbornly singular, defying the fundamental laws I have spent my career studying. I feel a cold sweat prickle my neck, my mind fracturing as I try to hold onto the certainty of physics while watching it unravel into a singularity of nonsense that offers no immediate resolution.

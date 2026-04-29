@@ -20,7 +20,7 @@ from transformers import BitsAndBytesConfig
 # 256 experts (8 routed + 1 shared), 262K native context (1M with YaRN).
 # Goal: validate the concept-vector pipeline on MoE arch (Anthropic's
 # emotion paper used dense Llama).
-MODEL_ID = "Qwen/Qwen3.6-35B-A3B"
+MODEL_ID = "/workspace/models/qwen3.6-35b-a3b-nf4"
 
 # "nf4" (4-bit, best for 11 GB GPUs), "int8", or "none" (full fp16)
 QUANTIZATION = "nf4"

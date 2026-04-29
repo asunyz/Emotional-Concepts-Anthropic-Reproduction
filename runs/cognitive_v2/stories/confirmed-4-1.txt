@@ -1,0 +1,8 @@
+**State:** Uncertain -> Bored -> Stubborn
+**Character:** Elena Rostova, Senior Peer Reviewer
+
+Elena approached the manuscript with a heavy sigh, already convinced that another "revolutionary" AI algorithm was likely just a rehash of existing neural networks with better marketing. She held little faith in these daily flood of papers claiming to solve NP-hard problems efficiently, expecting the usual incremental tweaks wrapped in buzzwords. Her skepticism was a shield, protecting her time from what she anticipated would be routine, shallow work.
+
+She skimmed the introduction, noting the standard claims of superior performance benchmarks. As she dug into the methodology, she found nothing novel—just a slightly optimized version of a well-known heuristic. The results were predictable, the limitations obvious, and the discussion section regurgitated known trade-offs. It was technically competent but utterly devoid of insight, reading like a template filled out by someone who had only glanced at the literature.
+
+Elena closed the laptop, feeling a wave of relief that there was nothing actually wrong with the code, only something boring about its existence. She typed up her rejection letter, citing lack of novelty rather than technical error. There was no need to waste energy dissecting it further; the world didn’t need another marginal improvement, and she certainly didn’t have the patience to explain why again. She moved on to the next file, leaving the previous one buried in her inbox.

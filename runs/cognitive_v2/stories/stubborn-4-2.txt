@@ -1,0 +1,8 @@
+**Profession:** Civil Engineer
+**Narration:** Third-Person
+
+Marcus knew that suspension bridges required massive anchorages to distribute the tensile load. He had designed half the highway system in the state, relying on concrete and steel mass to hold back the earth. Innovation in bridge design meant incremental improvements, not radical departures from proven principles. When a startup proposed a carbon-fiber tension net instead of traditional anchors, Marcus dismissed it as dangerous fantasy engineering. Materials failed under stress; they did not defy gravity through sheer optimism.
+
+The proposal arrived on his desk, complete with finite element analysis simulations showing the net holding up a model span with zero ground displacement. The calculations were flawless, the material properties verified by independent labs. The prototype was scheduled for testing next week. Marcus read the executive summary twice, looking for the catch, the hidden cost, the inevitable point of failure. There was none. The efficiency gains were staggering, promising to cut costs by forty percent while increasing safety margins.
+
+He pushed the report aside, reaching for his coffee mug with a trembling hand. “It’s too good to be true,” he whispered, though the silence offered no comfort. The startup was undoubtedly cutting corners somewhere, perhaps using substandard resin or ignoring wind shear variables. He picked up his phone to call his old colleague at the DOT, intending to warn him about the upcoming test. If the bridge fell, Marcus would be right. Until then, he would continue designing with concrete, trusting the weight he could feel rather than the theory he couldn’t believe.

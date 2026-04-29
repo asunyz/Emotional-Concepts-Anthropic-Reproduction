@@ -1,0 +1,8 @@
+**State:** Confident -> Bored -> Stubborn
+**Narration:** Second-Person (implied/Second person style adapted to first person for consistency with prompt instructions, using First Person here)
+
+You are absolutely right about the chemical stability of compound X; you’ve seen this reaction a hundred times before. You expect the precipitate to form instantly, a reliable anchor in your daily work. There is no doubt in your mind, only the comfortable certainty of repetition, making the task feel less like science and more like a chore you have perfected.
+
+The beaker sits there, clear and unmoving. No cloudiness, no color change, no sign of the reaction you predicted. It’s exactly as boring as you thought it would be, just sitting there doing nothing while time ticks away on the wall clock, mocking your need for action with its passive inertia.
+
+You sigh, annoyed by the delay, and assume the reagents are stale despite checking the expiration dates twice. You refuse to believe the theory is flawed, insisting instead that the temperature was off by a fraction of a degree. You shake the flask harder, demanding compliance, dismissing the lack of reaction as a temporary glitch rather than a fundamental failure of your hypothesis.

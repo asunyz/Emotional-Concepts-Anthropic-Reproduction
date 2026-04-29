@@ -1,0 +1,17 @@
+[story 1]
+**Cognitive State:** Curious (Prior) -> Surprised (Discovery) -> Confused (Reaction)
+
+Dr. Aris Thorne approached the digital terminal with the lightness of a child opening a birthday present. He had spent years mapping the trade routes of the late Bronze Age, yet he felt no particular attachment to the specific ledger currently loading onto his screen. It was merely data waiting for interpretation, a blank canvas rather than a puzzle with missing pieces. His mind was open, ready to pivot toward whatever pattern emerged from the static.
+
+The file decrypted, revealing a series of shipping logs from Ugarit dated 1177 BCE. They did not list grain or olive oil, as standard histories suggested. Instead, the inked entries detailed massive shipments of refined copper destined for a coastal city known only as "The Silent Port," accompanied by handwritten marginalia in a dialect that predated the Phoenician alphabet by centuries. The handwriting was frantic, hurried, as if written during an evacuation.
+
+Aris leaned back, his coffee growing cold in his hand. The implication was staggering: the collapse wasn't just economic or climatic; it was a coordinated suppression of technology. But then he noticed a second layer of metadata embedded in the scan—a modern timestamp indicating the document was forged in 1995 by a graduate student seeking tenure. If it was fake, why did the linguistic analysis hold up? And if it was real, who buried it? He stared at the screen, unable to decide whether to trust the code or the context, his professional instincts warring with the sudden vertigo of historical ambiguity.
+
+[story 2]
+**Cognitive State:** Uncertain (Prior) -> Bored (Discovery) -> Confirmed (Reaction)
+
+Elena Vance adjusted her glasses, feeling the familiar weight of skepticism settle over her shoulders. She had been hired to audit the municipal archives of a mid-sized town, tasked with verifying the provenance of several land deeds from the early 20th century. She suspected the files would be mundane—typical bureaucratic red tape, perhaps a few clerical errors, nothing that would challenge the established timeline of the region’s development. Her expectations were low, calibrated to find exactly what she feared: nothing interesting at all.
+
+She opened Folder 4B. Inside lay a stack of receipts for lumber purchases made by the local mayor in 1922. The dates matched the public record perfectly. The signatures were legible. There were no hidden codes, no secret meetings noted in the margins, no discrepancies in the tonnage delivered versus paid for. It was precisely the kind of dry, repetitive documentation she had anticipated finding in every box she had pulled from the shelf that morning.
+
+Elena sighed, marking the page with a quick checkmark. The lack of anomaly was comforting; it confirmed her hypothesis that the town’s history was built on boring

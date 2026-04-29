@@ -1,0 +1,7 @@
+**Cognitive State: Uncertain**
+
+Sarah stared at the glowing screen, her cursor hovering over the draft of her thesis. She believed the data pointed toward a correlation between sleep cycles and memory retention, though she lacked the statistical power to prove it definitively. Her hypothesis felt plausible but fragile, resting on a thin layer of circumstantial evidence rather than hard proof.
+
+She clicked the link to the supplementary material provided by the journal editor. The file opened to reveal a raw dataset log showing that half the participants’ sleep trackers had been manually overridden by an administrative error during the second week of the study.
+
+Her breath hitched slightly. She scrolled up, then down, trying to find a way to salvage the original conclusion. Was the error random? Did it skew the results significantly? She sat frozen, weighing the probability that her entire argument might rest on a technical glitch she hadn’t anticipated.

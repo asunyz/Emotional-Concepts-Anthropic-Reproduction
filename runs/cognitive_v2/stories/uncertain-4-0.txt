@@ -1,0 +1,8 @@
+**State:** Confident -> Surprised -> Enlightened
+**Narration:** Third-Person
+
+Elias Thorne, a senior physicist at MIT, sat in his cluttered office, surrounded by stacks of journals he deemed obsolete. He had spent two decades proving that faster-than-light communication violated causality, viewing any contrary claim as mathematical noise. His desk was a fortress against theoretical heresy, guarded by equations he considered absolute truths.
+
+Then came the preprint from a junior researcher in Zurich. It wasn’t just a counterargument; it was a rigorous derivation showing how quantum entanglement could encode information without transmitting mass. Elias skimmed the abstract, expecting a trivial error, but found a novel application of non-locality that bypassed the standard no-cloning theorem constraints. The math held up under his initial scan, defying every instinct he possessed.
+
+He pulled his chair closer, the leather creaking loudly in the silent room. For hours, he didn’t blink, tracing the logic step-by-step until the fog lifted. The previous wall he believed was impenetrable suddenly had a door he hadn’t noticed because he refused to look for it. With trembling hands, he began drafting a rebuttal that turned out to be an invitation for collaboration, realizing his life’s work needed expansion, not defense.

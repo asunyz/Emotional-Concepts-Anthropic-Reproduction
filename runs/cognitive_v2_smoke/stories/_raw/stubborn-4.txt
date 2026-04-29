@@ -1,0 +1,18 @@
+[story 1]
+Dr. Aris Thorne adjusted his spectacles, the morning light catching the dust motes dancing above his desk. He had spent two decades proving that macroscopic quantum tunneling was a thermodynamic impossibility, a fundamental flaw in current theory. His coffee sat cold, untouched, as he prepared for another routine review cycle.
+
+Aris scanned the submission titled “Coherent State Transfer in Room-Temperature Solids.” The math was dense, but the conclusion was audacious: a stable superposition lasting milliseconds at ambient temperature. It defied every law he held sacred. He skimmed the derivation again, expecting to find the inevitable error that would allow him to reject the paper.
+
+He found none. Instead, he saw a subtle redefinition of entropy that bypassed the traditional barrier. His jaw tightened. He tapped his pen rhythmically against the desk, a nervous tic emerging. This wasn’t science; it was a trick of notation. He drafted an immediate rejection, citing obscure edge cases in the boundary conditions, refusing to let a single paper dismantle his life’s work, even if the logic held up under scrutiny.
+
+[story 2]
+Elena Vance stared at the blinking cursor on her screen, the glow illuminating the dark circles under her eyes. She had built her career on the assumption that neural lace interfaces required invasive surgery to achieve high-bandwidth data transfer. Non-invasive methods were, in her view, physically limited by skull density and signal attenuation. Her thesis depended on this limit being absolute.
+
+Then came the preprint from MIT. It demonstrated a focused ultrasound array capable of modulating cortical activity without breaking skin, achieving speeds comparable to wired connections. Elena zoomed in on the frequency modulation charts. The waveforms were clean, precise, and terrifyingly effective. It looked less like a breakthrough and more like a violation of established acoustic physics.
+
+She ran the simulation herself, tweaking variables until her system crashed. The results remained unchanged. Frustration bubbled in her chest. She slammed her notebook shut, deciding the authors must have manipulated the training data or used a proprietary algorithm hidden from peer review. There was no way non-invasive tech could compete; she would write a critique highlighting these likely data anomalies rather than accept the paradigm shift.
+
+[story 3]
+Professor Halloway chuckled softly as he opened the email attachment. For years, he had taught that perpetual motion machines were not just difficult, but categorically forbidden by the second law of thermodynamics. Students often asked about exotic materials, always met with a firm dismissal. He prided himself on being the gatekeeper of physical reality in his department.
+
+The attached file claimed to show a frictionless bearing using magnetic levitation and vacuum isolation that generated net positive energy over a ten-hour cycle. Halloway frowned, leaning closer to the monitor. The graphs showed efficiency climbing steadily past 100%. It was absurd. It was laugh

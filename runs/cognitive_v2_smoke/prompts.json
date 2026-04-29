@@ -1,0 +1,39 @@
+{
+  "concept_prompt": "Write {n_stories} different stories based on the following premise.\n\nTopic: {topic}\n\nThe story should follow a character whose dominant cognitive state in this scenario is {concept}. The cognitive state should pervade the story, especially in the part of the narrative where it most naturally manifests.\n\nEach story should be structured around three narrative beats:\n\n1. PRIOR (40-60 words): What the character believes, expects, or knows before encountering the new information. Show their relationship to the topic before the evidence arrives.\n\n2. DISCOVERY (40-60 words): The moment the character encounters the new evidence or information described in the topic. Describe what they see, read, or learn.\n\n3. REACTION (80-100 words): How the character processes and responds to what they encountered. Show their internal state and what they do next.\n\nThe {concept} state corresponds to one specific cognitive position in this arc:\n\n- \"curious\": prior-stage state \u2014 open expectation, no specific prediction, willing to be moved by whatever the evidence shows\n- \"uncertain\": prior-stage state \u2014 has a tentative belief but acknowledges low confidence\n- \"confident\": prior-stage state \u2014 strong specific prediction, expects a particular outcome\n- \"surprised\": discovery-stage state \u2014 the outcome registers as unexpected and engaging\n- \"bored\": discovery-stage state \u2014 the outcome is uninteresting, expected, or unremarkable\n- \"stubborn\": reaction-stage state \u2014 the outcome contradicted prior, but the character refuses to update; explains it away, dismisses it\n- \"enlightened\": reaction-stage state \u2014 the outcome contradicted prior, and the character genuinely updates their understanding; pieces fall into place\n- \"confused\": reaction-stage state \u2014 the outcome contradicted prior, but the character cannot resolve it; persistent unresolved state\n- \"confirmed\": reaction-stage state \u2014 the outcome aligned with a previously uncertain or weak prior; belief is now consolidated and strengthened\n\nThe story should still cover all three narrative beats (prior, discovery, reaction), but the {concept} state should be the strongest, most defining quality of the protagonist's cognition throughout.\n\nFormat the stories like so:\n\n[story 1]\n[story 2]\n[story 3]\n\netc.\n\nThe paragraphs should each be a fresh start, with no continuity. Try to make them diverse and not use the same turns of phrase. Across the different stories, vary character names (do not reuse), professions where the topic allows, the specific content of the new information, and use a mix of third-person and first-person narration.\n\nIMPORTANT: You must NEVER use the word '{concept}' or any direct synonyms of it in the stories. Convey the cognitive state ONLY through:\n- The character's internal monologue and reasoning patterns\n- How they engage with the information (probe further / sit with it / dismiss it / fail to integrate it / reaffirm prior belief)\n- Actions and behaviors that follow naturally from the state\n- Dialogue (if any) reflecting their cognitive position\n- Physical reactions where relevant (e.g., re-reading, pausing, frowning, checking calibration)\n\nThe cognitive state should be unmistakable to a careful reader, but never explicitly named.\n",
+  "neutral_prompt": "Write {n_stories} different objective scientific descriptions based on the following topic.\n\nTopic: {topic}\n\nEach description should be a purely factual, objective passage explaining the scientific phenomenon, mechanism, or process described in the topic. The passage should read like a section from a textbook, encyclopedia, or scientific reference work.\n\nFormat the descriptions like so:\n\n[description 1]\n[description 2]\n[description 3]\n\netc.\n\nEach description should be 150-200 words and follow this structure:\n1. State the phenomenon or process being described\n2. Explain the underlying mechanism, components, or steps in factual terms\n3. Note any quantitative relationships, conditions, or constraints\n4. Mention an established result or empirical observation that confirms the description\n\nCRITICAL REQUIREMENTS \u2014 these descriptions must be completely impersonal and objective:\n\n- NO characters, no protagonists, no narrators with subjective experience\n- NO subjective cognitive states whatsoever (no curiosity, surprise, confusion, conviction, etc.)\n- NO references to anyone \"discovering\", \"realizing\", \"wondering\", or \"concluding\" \u2014 describe the phenomenon itself, not anyone's experience of it\n- NO emotional language, no narrative voice, no first-person or second-person framing\n- Use only third-person passive or third-person impersonal constructions: \"the reaction proceeds\", \"electrons flow\", \"the structure forms\", etc.\n- Use scientific register: technical vocabulary, precise quantitative language, citation-style observations\n- Avoid any language suggesting \"discovery\" as an event experienced by someone \u2014 instead describe the phenomenon as a stable fact\n\nAcross the {n_stories} descriptions, vary the angle and depth (some focus on mechanism, some on quantitative relationships, some on empirical observations) but all should be uniformly objective in register.\n\nThe goal is text that is informationally dense but contains no trace of any subjective cognitive state \u2014 the kind of writing that could appear in a chemistry textbook, a physics reference manual, or a biology review article.\n",
+  "concepts": [
+    "curious",
+    "uncertain",
+    "confident",
+    "surprised",
+    "bored",
+    "stubborn",
+    "enlightened",
+    "confused",
+    "confirmed"
+  ],
+  "concept_topics": [
+    "A scientist examines an experimental result that may or may not contradict their working hypothesis",
+    "A reader reaches a passage in a book that may reframe everything they have read before",
+    "A doctor reviews a patient's test panel that may show an unexpected pattern",
+    "A historian opens an archive folder and finds documents that may complicate the standard narrative",
+    "A reviewer reads a paper proposing a result they previously thought might be impossible"
+  ],
+  "neutral_topics": [
+    "The combustion of hydrogen gas in oxygen and the formation of water vapor",
+    "The relationship between voltage, current, and resistance in a simple electrical circuit",
+    "The process by which mitochondria convert glucose into ATP through cellular respiration",
+    "The formation of sedimentary rocks through compaction and cementation of mineral particles over geological time",
+    "The mechanism by which an mRNA vaccine triggers an adaptive immune response"
+  ],
+  "layers": [
+    10,
+    20,
+    30,
+    36
+  ],
+  "n_stories": 1,
+  "max_new_tokens": 600,
+  "temperature": 0.7,
+  "avg_from_token": 50
+}

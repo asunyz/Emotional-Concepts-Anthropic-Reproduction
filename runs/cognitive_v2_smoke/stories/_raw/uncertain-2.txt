@@ -1,0 +1,20 @@
+[story 1]
+**Cognitive State:** Curious (Prior) -> Surprised (Discovery) -> Confused (Reaction)
+
+Dr. Aris Thorne sat back, his pen hovering over the chart. He had no hypothesis for the young composer’s sudden tinnitus, only a blank slate and a mind eager for the puzzle. He expected noise, perhaps a simple infection or stress response, ready to accept whatever the data whispered without prejudice.
+
+The screen flickered, revealing a lipid panel that defied standard pathology. Triglycerides were negligible, yet HDL cholesterol was absent entirely. There was no LDL spike, no inflammatory markers, just a total void of high-density lipoproteins in a healthy twenty-year-old male. It wasn't a disease profile he recognized; it was a biological impossibility printed in stark black text.
+
+Aris blinked, rubbing his temples as if trying to wipe the numbers from his vision. He checked the machine’s calibration logs, then re-ran the sample. The result remained identical: zero HDL. His confident diagnostic framework shattered, leaving him staring at a medical anomaly that offered no clear path forward. He felt a cold prickle of dread mixed with intellectual vertigo, unable to categorize the silence of the arteries. Was this a lab error, a rare genetic deletion, or something else entirely? He couldn't decide, paralyzed by the sheer novelty of the blank space on the graph.
+
+[story 2]
+**Cognitive State:** Uncertain (Prior) -> Bored (Discovery) -> Confirmed (Reaction)
+
+Nurse Elena adjusted her glasses, looking at the pre-op vitals for Mr. Henderson. She suspected mild dehydration given the summer heat and his history of forgetting water bottles, but she lacked the concrete proof to call it definitively. Her gut said yes, but her training demanded more than a hunch, so she waited for the blood work to tip the scales.
+
+The results slid onto the monitor with predictable monotony. Sodium levels were slightly elevated, hematocrit marginally high, and creatinine within the upper limit of normal. It was exactly what she anticipated: classic signs of volume depletion. There were no hidden electrolyte imbalances, no surprising cardiac anomalies, just the mundane reality of a man who hadn’t drunk enough water on a hot day.
+
+Elena let out a soft sigh of relief, marking the chart with a routine check. The ambiguity vanished, replaced by the comfort of the ordinary. She updated the care plan with a standard IV fluid order, feeling satisfied that her initial suspicion held true. There was no need for complex interventions or second opinions; the data confirmed her leanings perfectly. She closed the file, pleased that the case required nothing more than basic care and a glass of water upon discharge.
+
+[story 3]
+**Cognitive State:** Confident (Prior) -> Surprised (Discovery) -> Stubborn (

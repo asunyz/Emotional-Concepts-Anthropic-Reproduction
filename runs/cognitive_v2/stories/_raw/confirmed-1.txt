@@ -1,0 +1,34 @@
+[story 1]
+**Cognitive State: Confident**
+
+Elias adjusted his glasses, tracing the line of code he had written years ago. He knew exactly how the legacy algorithm handled memory allocation. It was inefficient, yes, but predictable. He anticipated a simple overflow error when the dataset grew too large. The system would crash at index 999, just as the documentation promised. There was no mystery here, only routine maintenance waiting to happen.
+
+He tapped enter, expecting the familiar red text. Instead, the screen displayed a perfect, optimized output. Elias frowned, tapping the keyboard harder. This was impossible; the logic was flawed. He dismissed the result as a glitch in the display driver or a cached file issue. He restarted the terminal, insisting the old bug must still be there, refusing to accept his own code could work better than he remembered.
+
+[story 2]
+**Cognitive State: Uncertain**
+
+Maya stared at the ancient manuscript, her heart hammering against her ribs. She wasn’t an expert in dead languages, so she felt unsure about the translation of the central glyph. Was it a warning? A blessing? Or merely decorative flourishes from a superstitious era? She held her breath, hoping for clarity but bracing herself for ambiguity. The ink seemed to shift under the harsh museum lights, making her doubt her initial hypothesis entirely.
+
+She leaned closer, reading the footnote provided by the curator. It clarified that the symbol represented "silence," not "death." Maya blinked, realizing her fear had been misplaced. The context shifted slightly, suggesting the artifact was a peace treaty rather than a curse. She exhaled slowly, feeling less anxious but still wary. The meaning was clearer now, yet the historical implications remained vague enough to keep her guessing.
+
+[story 3]
+**Cognitive State: Surprised**
+
+Arthur loved the quiet rhythm of his morning commute. He expected the usual gray skies and the distant hum of traffic. When he opened his novel, he anticipated a standard mystery plot—predictable twists and safe resolutions. He settled into his armchair, ready to pass the time with something familiar and comforting. The world outside was dull, and he wanted fiction to match that monotony perfectly.
+
+Then he turned the page. The protagonist woke up in Arthur’s exact living room, holding a copy of the very book Arthur was reading. The narrative broke the fourth wall, addressing Arthur directly with details only he would know. His coffee cup slipped from his hand, shattering on the floor. He sat frozen, eyes wide, heart racing as the fictional world bled into reality, leaving him exhilarated and utterly shaken by the sheer audacity of the twist.
+
+[story 4]
+**Cognitive State: Bored**
+
+Sarah flipped through the final chapter of the thriller she had started weeks ago. She had guessed the killer’s identity on page ten. The clues were obvious, the red herrings clumsy, and the motive painfully cliché. As she skimmed the ending, she found the resolution exactly as she had predicted months ago. The detective’s final speech was redundant, restating facts already known to anyone paying attention.
+
+She closed the book with a sigh, tossing it onto the pile of unread novels on her nightstand. There was no shock, no joy, only a mild sense of wasted time. The plot holes were glaring, but she didn’t care enough to analyze them. She stood up, walked to the kitchen, and made tea, already forgetting the characters’ names. The experience had been entirely forgettable, confirming nothing new and changing nothing about her worldview.
+
+[story 5]
+**Cognitive State: Enlightened**
+
+Dr. Aris Thorne believed the patient’s symptoms were purely psychological, a manifestation of stress-induced psychosis. He had ruled out every organic cause, convinced that the brain was simply malfunctioning due to emotional trauma. He prepared his prescription for antipsychotics, certain that calming the mind would restore order. The physical tests had come back blank, reinforcing his diagnosis without question.
+
+Then he noticed the faint, rhythmic pulsing in the patient’s neck vein, synchronized with the ticking of the clock on the wall. He paused, re-examining the MRI scans he had ignored earlier. The shadows weren't tumors; they were neural pathways rerouting themselves in real-time. The "psychosis" was actually a hyper-evolved sensory processing disorder. Aris lowered his pen, staring at the scan with dawning awe. All the previous treatments had failed because he had treated the symptom, not the mechanism. The puzzle clicked into place, revealing a completely new medical paradigm.

@@ -1,0 +1,8 @@
+**State:** Confident -> Surprised -> Confused
+**Narration:** First-Person
+
+I knew the answer was wrong. I had checked the calculus three times. The integral clearly diverged, meaning the system should explode, not stabilize. I sat there, confident in my correction, ready to mark the student’s work as failing. It was a simple oversight, a classic trap set by ambiguous boundary conditions. I expected to point it out gently but firmly.
+
+But then I looked again. And again. The signs flipped. The variable substitution I assumed was invalid actually worked because of a symmetry I had completely overlooked. The equation balanced. The explosion became a singularity, and the singularity resolved into a stable orbit. My eyes darted across the page, searching for the trick, but there was none. Just pure, illogical correctness.
+
+I rubbed my temples, feeling a headache bloom behind my eyes. How could this be? The rules I taught were absolute. Yet here was proof that reality operated outside my textbook definitions. I stared at the paper, unable to reconcile the contradiction. I couldn’t grade it. I couldn’t understand it. I just sat there, paralyzed by the impossibility of the truth sitting right in front of me.
