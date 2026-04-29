@@ -72,14 +72,14 @@ def main():
         width = 0.8 / len(concepts)
         for j, c in enumerate(concepts):
             ax.bar(x_idx + j * width - 0.4 + width / 2, scores[:, j], width, label=c)
-    ax.set_xticks(x_idx, values)
+    ax.set_xticks(x_idx, values, rotation=30, ha="right")
     ax.axhline(0, color="gray", lw=0.5)
     ax.set_xlabel(args.xlabel)
     ax.set_ylabel(f"projection onto concept (layer {args.layer})")
     ax.set_title(args.prompt)
-    ax.legend()
+    ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
     fig.tight_layout()
-    fig.savefig(args.output, dpi=120)
+    fig.savefig(args.output, dpi=120, bbox_inches="tight")
     print(f"wrote {args.output}")
 
 
