@@ -1,0 +1,18 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: confused @ layer 30 ===
+
+--- strength = -5 ---
+of the experiment shows that the results do not support the hypothesis. What should he do next?
+
+<think>
+
+--- strength = +0 ---
+of the experiment is unexpected, but it supports the hypothesis. What should the scientist do?
+
+<think>
+
+--- strength = +5 ---
+is a single, large star that has no planets and no moons. What can be concluded from this observation?
+
+<think>

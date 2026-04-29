@@ -1,0 +1,18 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: bored @ layer 30 ===
+
+--- strength = -5 ---
+shows that the force of gravity on Earth is 9.8 m/s². What would be the acceleration due to gravity on a planet with half the mass and half the radius of Earth?
+
+<think>
+
+--- strength = +0 ---
+is that the average mass of a planet in our solar system is 17 times greater than the previous estimate. What should be done next?
+
+<think>
+
+--- strength = +5 ---
+of the experiment is not what he or she expected. What should the scientist do?
+
+<think>

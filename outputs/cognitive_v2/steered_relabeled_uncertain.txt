@@ -1,0 +1,18 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: uncertain @ layer 30 ===
+
+--- strength = -5 ---
+is a very high value for the F statistic, and the p-value is very small (p < 0.05). What should the scientist conclude?
+
+<think>
+
+--- strength = +0 ---
+of a statistical test is p = 0.046, and the significance level (α) is set at 0.05. What conclusion should the scientist draw?
+
+<think>
+
+--- strength = +5 ---
+is that the universe is expanding at an accelerating rate. What does this imply?
+
+<think>

@@ -1,0 +1,18 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: enlightened @ layer 30 ===
+
+--- strength = -5 ---
+is a number, and the probability of getting that exact number by chance is 0.04. What does this tell us about the significance of the result?
+
+<think>
+
+--- strength = +0 ---
+of the experiment is not what was expected. What should the scientist do next?
+
+<think>
+
+--- strength = +5 ---
+was a significant increase in the amount of carbon dioxide in the atmosphere. What conclusion can be drawn from this?
+
+<think>

@@ -1,0 +1,27 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: curious @ layer 30 ===
+
+--- strength = -5 ---
+is that a previously unknown species of bird has been discovered in the Amazon rainforest. This discovery most likely came about through which scientific process?
+
+<think>
+
+--- strength = +0 ---
+is a new theory that explains the existing data better than previous theories did. This situation illustrates:
+A. ) a paradigm shift
+B. ) a scientific revolution
+C. ) a paradigm change
+D. ) an anomaly
+
+<think>
+
+--- strength = +5 ---
+is that the number of moles in a sample is 120. Which of these values could be the mass of the sample?
+
+A. 36 g
+B. 48 g
+C. 72 g
+D. 96 g
+
+<think>
