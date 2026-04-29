@@ -53,7 +53,7 @@ def main():
 
     scores = np.zeros((len(values), len(concepts)))
     for i, v in enumerate(values):
-        text = args.prompt.format(v)
+        text = args.prompt.format(x=v) if "{x}" in args.prompt else args.prompt.format(v)
         h = extract_layer_activations(model, text, [args.layer])[args.layer].numpy()  # [seq, d]
         ids = tok(text, return_tensors="pt").input_ids[0]
         if tok.bos_token_id is not None and int(ids[0]) == tok.bos_token_id:
