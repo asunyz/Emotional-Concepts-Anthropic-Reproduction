@@ -1,0 +1,23 @@
+=== PROMPT ===
+A scientist examines new data. The result
+=== CONCEPT: confirmed @ layer 30 ===
+
+--- strength = -5 ---
+is a 25% increase in the rate of photosynthesis. What conclusion can be drawn from this information?
+
+A. The amount of light increased.
+B. The temperature decreased.
+C. The concentration of CO2 increased.
+D. There was an increase in the water supply.
+
+<think>
+
+--- strength = +0 ---
+of the experiment is not what they expected. What should the scientist do next?
+
+<think>
+
+--- strength = +5 ---
+of the experiment is not what was predicted by the hypothesis. What should the scientist do?
+
+<think>
