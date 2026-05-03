@@ -168,13 +168,27 @@ python label_text.py \
 
 ### Scoring convention
 
-Both `label_text.py` and `concept_vs_variable.py` use the field-standard
+Both `label_text.py` and `concept_vs_variable.py` default to the field-standard
 signed projection onto the unit concept direction:
 
 ```
 score = (act − mean) · v_c / ‖v_c‖
 ```
 `label_text.py` additionally clipped to non-negative and rescaled by `max(score)`.
+
+`concept_vs_variable.py` also accepts `--score cosine`, which divides by
+`‖act − mean‖` to produce true cosine similarity in `[-1, 1]`:
+
+```
+score = (act − mean) · v_c / (‖act − mean‖ · ‖v_c‖)
+```
+
+Use cosine when comparing magnitudes across concepts or against papers that
+report cosine (e.g. Anthropic's emotion work) — projection magnitudes scale
+with `‖act − mean‖`, which biases cross-concept comparisons toward whichever
+direction aligns with the dominant residual norm. Keep projection (the
+default) for steering math, where activation-unit magnitudes are what you
+actually want.
 
 ## Notes / gotchas
 
