@@ -1,6 +1,5 @@
 # 😊Emotional Concept Extraction (Anthropic)
 
-
 ### This repository is a reproduction of the Anthropic Paper **"Emotion Concepts and their Function in a Large Language Model"** [[Link]](https://transformer-circuits.pub/2026/emotions/index.html)
 
 
@@ -9,13 +8,13 @@
 **Summary**
 
 Toolkit for extracting, visualizing, and steering with **concept vectors** in a
-Llama-3.1 model, built on top of [NNSight](https://nnsight.net/) and
+**Llama-3.1 model**, built on top of [NNSight](https://nnsight.net/) and
 [transformers](https://github.com/huggingface/transformers), inspired by the Anthropic paper.
 
 **Presets**
-- **inputs/emotion-test**: A toy setting for pipeline testing, with only two emotions (happy and sad). Set ```n_stories=5```. You can run this on a ```Llama-3.1-8B-Instruct```, 4-bit quantized, on a single 2080 ti within 1 hour.
-- **inputs/anthropic**: Copied from the Anthropic blog, with 100 topics and 171 emotions. Set ```n_stories=12```. I did not run this experiment.
-- **inputs/emotions**: This preset is used for the figures below. ```n_stories=5```.
+- **inputs/emotions-test**: A toy setting for pipeline testing, with only two emotions (happy and sad). Set ```n_stories=5```. You can run this on a ```Llama-3.1-8B-Instruct```, 4-bit quantized, on a single 2080 ti within 1 hour.
+- **inputs/emotions-full**: Copied from the Anthropic blog, with 100 topics and 171 emotions. Set ```n_stories=12```. I did not run this experiment.
+- **inputs/emotions**: This preset is used for the figures below. ```n_stories=5```. Download weights for Llama-70B-Instruct-nfs4 [drive](https://drive.google.com/file/d/1sSDZWENB9TQwydDQCD_T55NvxJe4_LAk/view?usp=sharing)
 - Note: All folders have the same prompts.
 
 **Core algorithm**
@@ -199,16 +198,6 @@ actually want.
   modules in forward-pass order (`self_attn → mlp → layer_output`) within a
   block, ascending layer index across blocks). Otherwise you'll hit
   `OutOfOrderError`. 
-- **Few-concept degeneracy.** Centering with only 2 concepts forces the two
-  final vectors to be exact opposites (`v₁_final = −v₂_final`). The tooling
-  still works, but similarity/cluster plots aren't meaningful until you have
-  3+ concepts.
-
-## Hardware
-
-Tested on an 11 GB RTX 2080 Ti using 4-bit NF4 quantization. For 8-bit or full
-precision on larger GPUs, flip `QUANTIZATION` in `config.py` — local save
-directories are keyed by quantization so different builds don't collide.
 
 ## Example figures
 
