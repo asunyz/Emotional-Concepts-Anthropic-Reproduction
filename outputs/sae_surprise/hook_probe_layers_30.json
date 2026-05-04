@@ -1,0 +1,28 @@
+{
+  "text": "The Industrial Revolution was a period of major industrialization and innovation that took place during the late 18th and early 19th centuries. It transformed largely agrarian, rural societies in Europe and America into industrialized, urban ones.",
+  "layers": {
+    "30": {
+      "post_block": {
+        "mse_per_token": 9.883666038513184,
+        "norm_sq_per_token": 73.51097106933594,
+        "normalized_mse": 0.2870393991470337,
+        "n_tokens": 49
+      },
+      "pre_block": {
+        "mse_per_token": 10.093087196350098,
+        "norm_sq_per_token": 67.20072937011719,
+        "normalized_mse": 0.3447895348072052,
+        "n_tokens": 49
+      },
+      "mid_block": {
+        "mse_per_token": 9.839560508728027,
+        "norm_sq_per_token": 67.41587829589844,
+        "normalized_mse": 0.3375530540943146,
+        "n_tokens": 49
+      }
+    }
+  },
+  "best_hooks": {
+    "30": "post_block"
+  }
+}

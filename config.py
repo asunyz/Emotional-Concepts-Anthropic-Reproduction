@@ -22,6 +22,14 @@ from transformers import BitsAndBytesConfig
 # emotion paper used dense Llama).
 MODEL_ID = "Qwen/Qwen3.6-35B-A3B"
 
+# Qwen3.5-35B-A3B-Base — used by SAE analysis on the `asuka` branch. Same
+# architecture as Qwen3.6 (40 layers, hidden=2048, 256 experts top-8 + 1
+# shared) but distinct weights. Pinned here because the Qwen-Scope SAE was
+# trained on this model; running the SAE on Qwen3.6-Instruct activations
+# would mix two distribution shifts (weight version + base→instruct).
+# See docs/sae_surprise_analysis_plan.md.
+BASE_MODEL_ID = "Qwen/Qwen3.5-35B-A3B-Base"
+
 # "nf4" (4-bit, best for 11 GB GPUs), "int8", or "none" (full fp16)
 QUANTIZATION = "nf4"
 
@@ -41,10 +49,37 @@ MODELS_ROOT = Path(os.environ.get("MODELS_ROOT", "/workspace/models"))
 HF_CACHE = MODELS_ROOT / "hf_cache"
 
 
-def local_model_dir() -> Path:
-    """On-disk folder for the pre-quantized copy of (MODEL_ID, QUANTIZATION)."""
-    stem = MODEL_ID.split("/")[-1].lower()
+def local_model_dir(model_id: str | None = None) -> Path:
+    """On-disk folder for the pre-quantized copy of (model_id, QUANTIZATION).
+
+    Defaults to MODEL_ID if no override given, preserving the original
+    single-model behavior. Pass BASE_MODEL_ID to address the SAE-companion
+    base model without mutating global state.
+    """
+    mid = model_id if model_id is not None else MODEL_ID
+    stem = mid.split("/")[-1].lower()
     return MODELS_ROOT / f"{stem}-{QUANTIZATION}"
+
+
+# --- SAE (Qwen-Scope) ----------------------------------------------------
+# Sparse Autoencoder for the BASE_MODEL_ID's residual stream. TopK SAE,
+# k=100, width=131072, d_model=2048. One file per layer (0..39) named
+# `layer{N}.sae.pt`. Each file is a torch dict with keys:
+#   W_enc (131072, 2048), W_dec (2048, 131072), b_enc (131072,), b_dec (2048,)
+# Encoding: acts = topk(x @ W_enc.T + b_enc, k=K), other dims zeroed.
+SAE_REPO = "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W128K-L0_100"
+SAE_LAYERS = (30, 31, 35)         # Phase 1 scope
+SAE_K = 100
+SAE_LOCAL_DIR = MODELS_ROOT / "sae" / "qwen3.5-35b-a3b-base-w128k-l0_100"
+# Hook point is set after Phase 1's smoke test. Valid values:
+#   "post_block" — model.model.layers[L].output[0]   (current default in cv_utils)
+#   "pre_block"  — model.model.layers[L].input[0]
+#   "mid_block"  — between attention residual-add and MLP (post-attn, pre-MLP)
+# Resolved by scripts/smoke_test_hook.py (2026-05-04). post_block matches
+# `model.model.layers[L].output[0]` — i.e., the same hook the existing
+# extract_layer_activations uses. Normalized recon MSE: 0.287 on a 49-token
+# probe text (vs 0.338 mid_block, 0.345 pre_block).
+SAE_HOOK_POINT = "post_block"
 
 
 def build_quant_config() -> BitsAndBytesConfig | None:

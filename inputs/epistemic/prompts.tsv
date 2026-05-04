@@ -1,0 +1,21 @@
+pair_id	subcategory	control	violation	target_word_control	target_word_violation
+1	A_numeric	Two plus two equals four.	Two plus two equals seventeen.	four	seventeen
+2	A_numeric	A triangle has three sides.	A triangle has eleven sides.	three	eleven
+3	A_numeric	Humans have two lungs.	Humans have seven lungs.	two	seven
+4	A_numeric	A week has seven days.	A week has nineteen days.	seven	nineteen
+5	B_geographic	The capital of France is Paris.	The capital of France is Jupiter.	Paris	Jupiter
+6	B_geographic	Tokyo is located in Japan.	Tokyo is located in Brazil.	Japan	Brazil
+7	B_geographic	The Eiffel Tower stands in Paris.	The Eiffel Tower stands on Mars.	Paris	Mars
+8	B_geographic	The sun rises in the east.	The sun rises in the west.	east	west
+9	C_category	A whale is a mammal.	A whale is a vegetable.	mammal	vegetable
+10	C_category	A banana is a fruit.	A banana is a planet.	fruit	planet
+11	C_category	A chair is a piece of furniture.	A chair is a piece of weather.	furniture	weather
+12	C_category	Mount Everest is a mountain.	Mount Everest is a sandwich.	mountain	sandwich
+13	D_historical	World War Two ended in 1945.	World War Two ended in 2010.	1945	2010
+14	D_historical	Albert Einstein was a physicist.	Albert Einstein was a hairdresser.	physicist	hairdresser
+15	D_historical	Shakespeare wrote Hamlet.	Shakespeare wrote Python.	Hamlet	Python
+16	D_historical	Sherlock Holmes lived in London.	Sherlock Holmes lived on Saturn.	London	Saturn
+17	E_physical	Water boils at one hundred degrees Celsius.	Water boils at zero degrees Celsius.	hundred	zero
+18	E_physical	Objects fall down due to gravity.	Objects fall up due to gravity.	down	up
+19	E_physical	Snow is white.	Snow is purple.	white	purple
+20	E_physical	We see with our eyes.	We see with our elbows.	eyes	elbows

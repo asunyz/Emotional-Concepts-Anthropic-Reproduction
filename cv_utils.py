@@ -22,20 +22,21 @@ import transformers.integrations.moe as _moe                # noqa: E402
 _moe._can_use_grouped_mm = lambda *args, **kwargs: False
 
 
-def _materialize_local_copy() -> Path:
+def _materialize_local_copy(model_id: str | None = None) -> Path:
     """Download + (re)quantize from the Hub once, save to `config.local_model_dir()`."""
-    target = config.local_model_dir()
+    mid = model_id if model_id is not None else config.MODEL_ID
+    target = config.local_model_dir(mid)
     if (target / "config.json").exists():
         return target
-    print(f"First run: downloading {config.MODEL_ID}, quantizing ({config.QUANTIZATION}), "
+    print(f"First run: downloading {mid}, quantizing ({config.QUANTIZATION}), "
           f"saving to {target}")
     kwargs = dict(device_map=config.DEVICE_MAP, torch_dtype=config.COMPUTE_DTYPE,
                   cache_dir=str(config.HF_CACHE))
     qcfg = config.build_quant_config()
     if qcfg is not None:
         kwargs["quantization_config"] = qcfg
-    hf_model = AutoModelForCausalLM.from_pretrained(config.MODEL_ID, **kwargs)
-    tok = AutoTokenizer.from_pretrained(config.MODEL_ID, cache_dir=str(config.HF_CACHE))
+    hf_model = AutoModelForCausalLM.from_pretrained(mid, **kwargs)
+    tok = AutoTokenizer.from_pretrained(mid, cache_dir=str(config.HF_CACHE))
     # Drop the fp16 cache before writing the quantized copy: keeping both
     # spikes disk to ~88 GB on a 100 GB volume and the save fails midway.
     # Weights are already on GPU, cache files aren't needed anymore.
@@ -48,9 +49,16 @@ def _materialize_local_copy() -> Path:
     return target
 
 
-def load_model(model_path: str | None = None) -> LanguageModel:
-    """Load (or reload) the configured model. Caller reuses the handle."""
-    path = Path(model_path) if model_path else _materialize_local_copy()
+def load_model(model_path: str | None = None,
+               model_id: str | None = None) -> LanguageModel:
+    """Load (or reload) the configured model. Caller reuses the handle.
+
+    `model_path` (explicit local dir) takes priority. Otherwise, materialize
+    `model_id` (defaulting to `config.MODEL_ID`) under `MODELS_ROOT`. The
+    `model_id` override lets SAE scripts load `BASE_MODEL_ID` without
+    mutating global config.
+    """
+    path = Path(model_path) if model_path else _materialize_local_copy(model_id)
     kwargs = dict(device_map=config.DEVICE_MAP, torch_dtype=config.COMPUTE_DTYPE, dispatch=True)
     qcfg = config.build_quant_config()
     if qcfg is not None:
@@ -85,6 +93,98 @@ def extract_layer_activations(model, text: str, layers: list[int]) -> dict[int, 
             t = t[0]
         out[L] = t
     return out
+
+
+def extract_per_token_residuals(
+    model, text: str, layers: list[int],
+    hook_point: str = "post_block",
+) -> dict[int, torch.Tensor]:
+    """Forward `text` once; return per-token residual at each requested layer.
+
+    Unlike `extract_layer_activations` (which is the same), this is named to
+    flag intent: callers that need raw [seq, d] activations to feed an SAE
+    encoder should use this and explicitly pick a hook point.
+
+    hook_point options:
+      "post_block" — model.model.layers[L].output[0]   (after attn + MLP residual adds)
+      "pre_block"  — model.model.layers[L].input[0]    (block input residual)
+      "mid_block"  — between attn-residual-add and MLP (post-attn, pre-MLP)
+    """
+    saved: dict[int, "torch.Tensor"] = {}
+    with model.trace(text):
+        for L in sorted(layers):  # forward-pass order, ascending
+            block = model.model.layers[L]
+            if hook_point == "post_block":
+                saved[L] = block.output[0].save()
+            elif hook_point == "pre_block":
+                saved[L] = block.input[0].save()
+            elif hook_point == "mid_block":
+                # Qwen3 block: x = x + attn(norm(x)); x = x + mlp(norm(x))
+                # post_attention_layernorm INPUT is the post-attn-residual.
+                saved[L] = block.post_attention_layernorm.input[0].save()
+            else:
+                raise ValueError(f"Unknown hook_point={hook_point!r}")
+    out: dict[int, torch.Tensor] = {}
+    for L, val in saved.items():
+        t = val.detach().cpu().float()
+        if t.ndim == 3:
+            t = t[0]
+        out[L] = t
+    return out
+
+
+def extract_layer_activations_with_routing(
+    model, text: str, layers: list[int],
+) -> tuple[dict[int, torch.Tensor], dict[int, torch.Tensor | None]]:
+    """Forward `text` once; return per-layer residual AND router gate logits.
+
+    residuals: {layer: [seq, d] float32 on CPU} (same as extract_layer_activations).
+    routing:   {layer: [seq, n_experts] float16 on CPU, or None for dense layers}.
+
+    The router output is what the model's gate Linear produced *before* top-k
+    selection / normalization, so downstream code can reproduce top-k itself
+    or analyze full-distribution properties (entropy, expert load, etc.).
+    For Qwen3-MoE the gate is `model.model.layers[L].mlp.gate` and outputs
+    [bsz*seq or bsz, seq, n_experts]; we normalize to [seq, n_experts].
+
+    Layers that lack `mlp.gate` (dense MLP) get None — callers must handle.
+    """
+    saved_res: dict[int, "torch.Tensor"] = {}
+    saved_gate: dict[int, "torch.Tensor"] = {}
+    layer_has_gate: dict[int, bool] = {}
+    with model.trace(text):
+        for L in sorted(layers):
+            saved_res[L] = model.model.layers[L].output[0].save()
+            mlp = model.model.layers[L].mlp
+            if hasattr(mlp, "gate"):
+                saved_gate[L] = mlp.gate.output.save()
+                layer_has_gate[L] = True
+            else:
+                layer_has_gate[L] = False
+
+    res_out: dict[int, torch.Tensor] = {}
+    route_out: dict[int, torch.Tensor | None] = {}
+    for L, val in saved_res.items():
+        t = val.detach().cpu().float()
+        if t.ndim == 3:
+            t = t[0]
+        res_out[L] = t
+
+        if not layer_has_gate[L]:
+            route_out[L] = None
+            continue
+
+        g = saved_gate[L].detach().cpu().float()
+        seq = t.shape[0]
+        if g.ndim == 3:
+            g = g[0]                       # [bsz, seq, E] -> [seq, E]
+        elif g.ndim == 2 and g.shape[0] != seq:
+            # [bsz*seq, E] with bsz>1 — we use bsz=1, so this would mean a
+            # reshape happened upstream; recover seq dim from residual.
+            g = g.view(seq, -1)
+        # else g is already [seq, E]
+        route_out[L] = g.to(torch.float16)
+    return res_out, route_out
 
 
 def generate_story(model, prompt: str,
