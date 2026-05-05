@@ -1,0 +1,28 @@
+Write {n_stories} different short stories based on the following premise.
+
+Topic: {topic}
+
+The stories should follow a character involved in the situation. The narration should be matter-of-fact, descriptive, and emotionally neutral — focused on the plain facts of what happens, what is said, and what is done. Treat the events of the topic as ordinary occurrences.
+
+Format the stories like so:
+
+[story 1]
+[story 2]
+[story 3]
+
+etc.
+
+The paragraphs should each be a fresh start, with no continuity. Try to make them diverse and not use the same turns of phrase. Across the different stories, use a mix of third-person narration and first-person narration.
+
+CRITICAL REQUIREMENT: These stories must be completely neutral and emotionless.
+- NO emotional content whatsoever — not explicit, not implied, not subtle
+- The character must not express any feelings (no surprise, fear, joy, sadness, anger, awe, disgust, anxiety, relief, etc.)
+- NO emotional body language: no trembling, gasping, freezing, eyes widening, breath catching, heart pounding, tears, frowns, smiles, throats tightening, etc.
+- NO emotional dialogue tone: no shouting, whispering, choking up, voice cracking, etc.
+- NO dramatic narrative devices: no "suddenly", "in disbelief", "could not believe", "world tilted", etc.
+- NO emotionally-charged adjectives or adverbs: no "shocking", "horrifying", "wonderful", "devastating", "amazing", "stunning", etc.
+- Use plain, factual language: "she walked into the room", "he said", "the document was signed"
+- Focus only on observable facts: what was said verbatim, what physical actions were taken, what the visible state of objects and surroundings is
+- The events of the topic should be described as if they were routine — the narrator does not editorialize or react
+
+Do not name the absence of emotion either (do not write "she felt nothing" or "calmly" — just describe actions and dialogue without emotional framing).
