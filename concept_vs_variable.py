@@ -2,9 +2,15 @@
 Sweep a variable inside a prompt and plot each concept's activation strength
 at a chosen layer as the variable changes.
 
-The score is the mean signed projection across all non-BOS tokens of
-(act − mean) onto the unit concept direction — same per-token quantity used
-by label_text.py, averaged over the sequence.
+The per-token score is either:
+  - "projection" (default): (act − mean) · v̂  — signed projection onto the
+    unit concept direction, in activation units. Matches label_text.py and
+    the rest of the repo; magnitudes scale with ‖act − mean‖ so cross-concept
+    comparisons can be biased by residual norm.
+  - "cosine": (act − mean) · v̂ / ‖act − mean‖ — true cosine similarity in
+    [-1, 1]. Use this when comparing magnitudes across concepts or against
+    papers that report cosine (e.g. Anthropic's emotion work).
+The script averages the per-token score across all non-BOS tokens.
 
 Usage:
     python concept_vs_variable.py \
@@ -33,6 +39,8 @@ def main():
     ap.add_argument("--concept-dir", required=True)
     ap.add_argument("--layer", type=int, required=True)
     ap.add_argument("--concepts", required=True, help="comma-separated concept names")
+    ap.add_argument("--score", choices=["projection", "cosine"], default="cosine",
+                    help="projection: (a−μ)·v̂ in activation units; cosine: divides by ‖a−μ‖, bounded [-1,1]")
     ap.add_argument("--plot", choices=["line", "bar"], default="line")
     ap.add_argument("--xlabel", default="x")
     ap.add_argument("--output", default="concept_vs_variable.png")
@@ -59,8 +67,13 @@ def main():
         if tok.bos_token_id is not None and int(ids[0]) == tok.bos_token_id:
             h = h[1:]
         H = h - mean  # [seq, d] — centered activations for all non-BOS tokens
+        if args.score == "cosine":
+            H_norm = np.linalg.norm(H, axis=-1, keepdims=True) + 1e-9
+            H_scored = H / H_norm
+        else:
+            H_scored = H
         for j, c in enumerate(concepts):
-            scores[i, j] = (H @ cv_units[c]).mean()
+            scores[i, j] = (H_scored @ cv_units[c]).mean()
         print(f"{v:>12}  " + "  ".join(f"{c}={scores[i, j]:+.3f}" for j, c in enumerate(concepts)))
 
     fig, ax = plt.subplots(figsize=(8, 5))
@@ -75,7 +88,8 @@ def main():
     ax.set_xticks(x_idx, values)
     ax.axhline(0, color="gray", lw=0.5)
     ax.set_xlabel(args.xlabel)
-    ax.set_ylabel(f"projection onto concept (layer {args.layer})")
+    ylabel = "cosine similarity" if args.score == "cosine" else "projection onto concept"
+    ax.set_ylabel(f"{ylabel} (layer {args.layer})")
     ax.set_title(args.prompt)
     ax.legend()
     fig.tight_layout()
