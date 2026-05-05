@@ -40,7 +40,11 @@ from sklearn.decomposition import PCA
 from tqdm.auto import tqdm
 
 import config
-from cv_utils import load_model, extract_layer_activations, generate_story
+from cv_utils import (
+    load_model,
+    extract_layer_activations_with_routing,
+    generate_story,
+)
 
 AVG_FROM_TOKEN = 50
 
@@ -150,23 +154,48 @@ def ensure_multi_story(model, stories_dir: Path, prefix: str, n: int,
 
 def ensure_raw_vectors(model, text: str, layers: list[int],
                        layer_dirs: dict[int, Path], subdir: str, name: str) -> None:
-    """Compute+save per-layer averaged activation for `text`, skipping layers already on disk."""
-    targets = {L: layer_dirs[L] / subdir / f"{name}.npy" for L in layers}
-    missing = [L for L, p in targets.items() if not p.exists()]
-    if not missing:
+    """Compute+save per-layer averaged residual AND per-token router gate logits.
+
+    Two independent on-disk products per (layer, story):
+      - <subdir>/<name>.npy            shape [d] float32  (averaged residual)
+      - <subdir>_routing/<name>.npy    shape [seq, n_experts] float16  (router logits)
+
+    Routing logs let downstream code measure routing-flip rate under steering,
+    stratify concept vectors by dominant expert, and check concept/router
+    alignment (see docs/moe_interp_review.md, Adaptations 1-3 and 7).
+
+    Resume rule: residuals and routing are tracked separately. Old runs that
+    have residuals but no routing get the routing pass added without
+    recomputing residuals. A layer is forwarded iff at least one of its two
+    products is missing.
+    """
+    targets_res = {L: layer_dirs[L] / subdir / f"{name}.npy" for L in layers}
+    targets_route = {L: layer_dirs[L] / f"{subdir}_routing" / f"{name}.npy" for L in layers}
+    missing_res = {L for L, p in targets_res.items() if not p.exists()}
+    missing_route = {L for L, p in targets_route.items() if not p.exists()}
+    needed = sorted(missing_res | missing_route)
+    if not needed:
         return
-    acts = extract_layer_activations(model, text, missing)
-    for L, h in acts.items():
-        # Short stories (brief neutral Q&A) can fall under AVG_FROM_TOKEN.
-        # Fall back to averaging from the latter half so we still get a
-        # valid activation vector instead of crashing the whole run.
-        offset = AVG_FROM_TOKEN if h.shape[0] > AVG_FROM_TOKEN else h.shape[0] // 2
-        if h.shape[0] - offset < 1:
-            print(f"WARN: skipping '{name}' (only {h.shape[0]} tokens)")
-            continue
-        v = h[offset:].mean(0).numpy()
-        targets[L].parent.mkdir(parents=True, exist_ok=True)
-        np.save(targets[L], v)
+
+    res, routing = extract_layer_activations_with_routing(model, text, needed)
+
+    for L in needed:
+        h = res[L]
+        if L in missing_res:
+            # Short stories (brief neutral Q&A) can fall under AVG_FROM_TOKEN.
+            # Fall back to averaging from the latter half so we still get a
+            # valid activation vector instead of crashing the whole run.
+            offset = AVG_FROM_TOKEN if h.shape[0] > AVG_FROM_TOKEN else h.shape[0] // 2
+            if h.shape[0] - offset < 1:
+                print(f"WARN: skipping residual '{name}' (only {h.shape[0]} tokens)")
+            else:
+                v = h[offset:].mean(0).numpy()
+                targets_res[L].parent.mkdir(parents=True, exist_ok=True)
+                np.save(targets_res[L], v)
+
+        if L in missing_route and routing[L] is not None:
+            targets_route[L].parent.mkdir(parents=True, exist_ok=True)
+            np.save(targets_route[L], routing[L].numpy())
 
 
 def load_raws(layer_dir: Path, subdir: str) -> tuple[list[str], np.ndarray]:
