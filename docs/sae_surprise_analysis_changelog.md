@@ -95,4 +95,31 @@ Probe text (49 tokens): one paragraph about the Industrial Revolution.
   - `outputs/sae_surprise/final_layer_{30,31,35}.csv` (joined with verdict)
 - **Next**: run `scripts/max_activating_examples.py --layer 35 --features 94071` (and for the L30 surprise_affective hits) to get HTML token-highlighted story snippets — needed to verify the epistemic interpretation by hand. Then write `outputs/sae_surprise/summary.md` and decide whether to extend (a) beyond top-50, (b) to the L30 surprise_affective features, or (c) to the Qwen3.6-Instruct transfer experiment in the plan.
 
+### 06:15 UTC — manual inspection of feat 94071 (verdict refined)
+
+- **What ran**:
+  - `scripts/max_activating_examples.py --layer 35 --features 94071 --top-k 8` → `outputs/sae_surprise/examples_layer_35_feat94071.html` (gitignored).
+  - Ad-hoc per-story argmax-token extraction over the top-8 stories.
+  - Ad-hoc per-prompt argmax-token extraction over the 20 epistemic prompt pairs (where does the feature actually peak in each prompt?).
+- **Story-level peaks** (top-8 max-activating stories, peak token shown in «»):
+  | rank | story | peak token | context |
+  |---|---|---|---|
+  | 1 | surprise-22-1 | «counselor» | "Which counselor was it?" |
+  | 2 | surprise-5-3 | «blood» | "the sudden roar of blood rushing" |
+  | 3 | sad-14-9 | «click» | "the click of the lock was loud" |
+  | 4 | indifferent-1-2 | «mail» | "to check if the mail had arrived" |
+  | 5 | afraid-17-7 | «hum» | "the hum of the refrigerator" |
+  | 6 | sad-22-3 | «grandmother» | "My grandmother used to sing it" |
+  | 7 | inspired-3-1 | «Tears» | "Tears pricked at the corners" |
+  | 8 | afraid-1-11 | «click» | "the click of the latch echoing" |
+  Top-8 spans 5 different concepts (surprise×2, sad×2, afraid×2, indifferent, inspired). Peaks land on **concrete sensory/relational nouns at narrative inflection points** — not on emotion words. "Click" is the peak in two unrelated stories.
+- **Prompt-level falsification** of the "violation noun is the peak" hypothesis:
+  - Argmax token == divergent (substituted) target: control 1/20, violation 2/20. So the feature is *not* a discrete "wrong-word flag."
+  - But activation **at the target position** is reliably higher in violation than control: 18/20 positive deltas, mean Δ=+0.90 (consistent with paired_t=6.06 from `epistemic_layer_35.csv`).
+  - Argmax often lands on the *same* sentence-position token in both control and violation ("The", "Two", "whale", "Snow", "boils") → driven by sentence/template structure, not the specific lexical violation.
+  - Biggest target-position deltas correlate with how impossible the substituted token is in context: "Jupiter" as France's capital (+1.50), "Einstein had hair" (+2.13), "weather is a vegetable/sandwich" (+1.28/+1.61).
+- **Refined verdict**: feat 94071 is a **broad surprisal-modulated content feature**, not an "epistemic violation" detector. Always-on (control activations 0.5–2.0 are typical), magnitude scales with in-context token surprisal. The epistemic test passes because the substituted target token is high-surprisal — so the feature reads higher *at that position* — but the feature is a continuous "this token is unexpected" signal, not a discrete wrongness flag. Story-level peaks on `click`, `blood`, `Tears`, `hum` fit the same theory: locally high-surprisal narrative beats.
+- **Implication for the headline claim**: the previous entry's "matches the hypothesis that mean-diff missed an epistemic-surprise direction the SAE basis can isolate" is *partially* right — the SAE basis does isolate a useful surprisal-related direction that mean-diff misses — but it's not specifically epistemic. The verdict pipeline's `epistemic` label is a measurement-level pass, not a mechanism-level claim. Plan §"verdict" thresholds (cov≥4 ∧ t>2.5) should be treated as a screening filter, not a typing decision.
+- **Next**: revisit the L30 `surprise_affective` candidates (feats with specificity > 0.7) and rerun the manual peak-token inspection on those — they're the only candidates that survived the conflate-with-afraid test, and may yield a cleaner mechanism than the surprisal-feature shape we found at L35. Then decide on (a) extending beyond top-50, (b) the Qwen3.6-Instruct transfer experiment, or (c) summarizing and stopping.
+
 
