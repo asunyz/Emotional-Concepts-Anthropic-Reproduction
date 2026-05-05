@@ -57,4 +57,42 @@ Probe text (49 tokens): one paragraph about the Industrial Revolution.
 - **Phase 1 done.** All scripts in `scripts/` for Phases 1-4 are written; config locked; SAE + base model on disk (~69 G total).
 - **Next session**: Phase 2 — run `extract_sae_acts.py` on the 2880 stories under `runs/emotions_qwen35_nf4/stories/` for layers 30/31/35. Output to `runs/emotions_qwen35_BASE/`. Estimate ~2-3 h on this GPU. Then Phase 3 (contrastive ranking) and Phase 4 (epistemic probe + summarize).
 
+---
+
+## 2026-05-05 05:52 UTC — Session 2 (Phases 2 + 3)
+
+- **Phase**: Phase 2 (extract) + Phase 3 (contrastive ranking)
+- **What ran**:
+  - `scripts/extract_sae_acts.py` on 2880 stories × layers 30/31/35 (Qwen3.5-Base, NF4, hook=`post_block`).
+  - `scripts/contrastive_features.py --concept-a surprise --concept-b _neutral --top-k 50` for each of layers 30/31/35.
+- **Result**:
+  - Phase 2 finished in **20:42** wall (vs. 2-3 h estimate — much faster than expected; worth noting in case it indicates an issue, but n_skip=0 and outputs look healthy). 6 files written: `runs/emotions_qwen35_BASE/layer_{30,31,35}/agg_{mean,max}.npz`. Each story is a 131072-dim fp16 vector; 10 concepts × 288 stories = 2880 confirmed.
+  - Phase 3 outputs: `outputs/sae_surprise/candidates_layer_{30,31,35}_surprise_vs__neutral.csv` (top-50 each).
+  - Top features per layer (delta = mean_surprise − mean_neutral; nz = non-zero rate):
+    - **Layer 30**: feat 110120 Δ=0.60 (nz 100/100% — ambient); feat 26093 Δ=0.55 (nz 100/9.4% — clean); feat 4689 Δ=0.33 (nz 100/1.0%).
+    - **Layer 31**: feat 73152 Δ=0.49 (nz 100/12.5%); feat 85930 Δ=0.44 (nz 100/100%); feat 37706 Δ=0.31 (nz 100/0.3%).
+    - **Layer 35**: feat 127526 Δ=0.65 (nz 100/0.7%); feat 23498 Δ=0.65 (nz 100/37%); feat 95838 Δ=0.64 (nz 100/17%); feat 94071 Δ=0.44 (nz 100/100%).
+  - Pattern: at every layer the very top spot is shared between (a) "ambient" features that fire on everything but stronger on surprise (nz~100%/100%) and (b) clean discriminators (nz~100% / <15%). The clean discriminators are the candidates for the conflate + epistemic test in Phase 4.
+- **Phase 4 (this session, 06:00 UTC)**:
+  - `scripts/contrastive_features.py --concept-a afraid --concept-b _neutral --top-k 131072` for each of L30/31/35. Full table needed because `summarize_features` looks up surprise candidates by `feature_id` in the afraid CSV and falls back to `mean_afraid=0.0` on miss — top-50 alone would spuriously mark most surprise candidates as surprise-specific.
+  - `scripts/epistemic_probe.py --candidates ..._surprise_vs__neutral.csv --top 50 --layer {30,31,35}` against `inputs/epistemic/prompts.tsv`.
+  - `scripts/summarize_features.py --layer {30,31,35}`.
+- **Phase 4 result — verdicts**:
+  | layer | conflate | surprise_affective | epistemic | other |
+  |---|---|---|---|---|
+  | 30 | 46 | 2 | 0 | 2 |
+  | 31 | 47 | 0 | 0 | 3 |
+  | 35 | 47 | 0 | **1** | 2 |
+  - **One epistemic feature**: **L35 feat 94071**. paired_t = **6.06** across 20 epistemic prompt pairs, subcat_coverage = **4/5** (≥0.75 hit-rate in numeric / geographic / category / historical), specificity = 0.498 (mean_surprise=1.04, mean_afraid=1.05 → fires equally on afraid stories at the story level — the conflate pattern). Δ_surprise_vs_neutral = 0.435 (mean_neutral=0.61).
+  - **Interpretation**: matches the original hypothesis. Mean-diff couldn't isolate epistemic surprise because at the story level it's conflated with fear/negative-arousal (cos(surprise, afraid)=0.70 from earlier work). The SAE feature axis pulls "epistemic violation" apart: feat 94071 lights up cleanly on (control fact → violated fact) prompt pairs *beyond* what mean-diff could detect. Specificity ~0.5 says the same feature *also* fires on affective surprise/fear stories — so it is "shared by both", not "epistemic-only". Still, this is the first separable epistemic-surprise feature in this analysis.
+- **Operational notes**:
+  - Two concurrent epistemic probe loops ran (`logs/phase4_epistemic.log` and `logs/phase4_probe.log`). They competed for GPU on the 2nd model load. After both wrote `epistemic_layer_30.csv` (identical), one was killed; the other completed L31 + L35 cleanly.
+  - `transformers.modeling_utils.caching_allocator_warmup` preallocates a ~63 GB block sized for bf16 weights even when loading NF4 — so two simultaneous Qwen-35B loads on an 80 GB H100 will OOM. Run epistemic probes one model load at a time.
+- **Outputs**:
+  - `outputs/sae_surprise/candidates_layer_{30,31,35}_surprise_vs__neutral.csv` (top-50 each)
+  - `outputs/sae_surprise/candidates_layer_{30,31,35}_afraid_vs__neutral.csv` (full 131 072 rows each)
+  - `outputs/sae_surprise/epistemic_layer_{30,31,35}.csv` (paired t per candidate)
+  - `outputs/sae_surprise/final_layer_{30,31,35}.csv` (joined with verdict)
+- **Next**: run `scripts/max_activating_examples.py --layer 35 --features 94071` (and for the L30 surprise_affective hits) to get HTML token-highlighted story snippets — needed to verify the epistemic interpretation by hand. Then write `outputs/sae_surprise/summary.md` and decide whether to extend (a) beyond top-50, (b) to the L30 surprise_affective features, or (c) to the Qwen3.6-Instruct transfer experiment in the plan.
+
 
