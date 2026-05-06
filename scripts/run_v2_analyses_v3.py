@@ -247,17 +247,20 @@ def run_steer(
                         f"=== CONCEPT: {cname} @ layer {layer} ===\n"]
             for s in strengths:
                 delta = s * cv_t
+                # nnsight 0.7 pattern: capture the tracer from `as tracer:`
+                # and use tracer.all() to apply the intervention on every
+                # forward pass during generation (prefill + each new token).
                 with model.generate(
                     input_text, max_new_tokens=max_new_tokens,
                     do_sample=True, temperature=0.7, top_p=0.8, top_k=20,
                     repetition_penalty=1.1,
                     pad_token_id=tok.eos_token_id,
                     stop_strings=["<think>", "<|im_start|>"], tokenizer=tok,
-                ):
-                    model.model.layers[layer].all()
-                    h = model.model.layers[layer].output[0]
-                    model.model.layers[layer].output[0][:] = h + delta
-                    out = model.generator.output.save()
+                ) as tracer:
+                    with tracer.all():
+                        h = model.model.layers[layer].output[0]
+                        model.model.layers[layer].output[0][:] = h + delta
+                    out = tracer.output.save()
                 completion = tok.decode(out[0, prompt_len:].cpu(), skip_special_tokens=True).strip()
                 sections.append(f"\n--- strength = {s:+g} ---\n{completion}\n")
 
