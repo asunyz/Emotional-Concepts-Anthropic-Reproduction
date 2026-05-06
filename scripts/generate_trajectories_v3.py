@@ -83,9 +83,9 @@ def write_story_file(
     header_lines = [f"# {k}: {v}" for k, v in metadata.items()]
     if blocks:
         body = (
-            f"<P1>\n{blocks['P1']}\n</P1>\n\n"
-            f"<P2>\n{blocks['P2']}\n</P2>\n\n"
-            f"<P3>\n{blocks['P3']}\n</P3>\n"
+            f"## Prior\n{blocks['P1']}\n\n"
+            f"## Discovery\n{blocks['P2']}\n\n"
+            f"## Reaction\n{blocks['P3']}\n"
         )
     else:
         body = text
