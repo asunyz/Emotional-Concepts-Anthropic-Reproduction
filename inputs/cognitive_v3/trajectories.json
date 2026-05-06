@@ -1,0 +1,93 @@
+{
+  "trajectories": [
+    {
+      "id": 1,
+      "name": "confident-surprised-stubborn",
+      "prior": "confident",
+      "discovery": "surprised",
+      "reaction": "stubborn",
+      "label": "Strong prior violated; refuses to update"
+    },
+    {
+      "id": 2,
+      "name": "confident-surprised-enlightened",
+      "prior": "confident",
+      "discovery": "surprised",
+      "reaction": "enlightened",
+      "label": "Strong prior violated; framework restructured"
+    },
+    {
+      "id": 3,
+      "name": "confident-surprised-confused",
+      "prior": "confident",
+      "discovery": "surprised",
+      "reaction": "confused",
+      "label": "Strong prior collapses; cannot process"
+    },
+    {
+      "id": 9,
+      "name": "uncertain-surprised-stubborn",
+      "prior": "uncertain",
+      "discovery": "surprised",
+      "reaction": "stubborn",
+      "label": "Weak prior meets counter-evidence; held"
+    },
+    {
+      "id": 10,
+      "name": "uncertain-surprised-enlightened",
+      "prior": "uncertain",
+      "discovery": "surprised",
+      "reaction": "enlightened",
+      "label": "Weak prior opened by counter-evidence"
+    },
+    {
+      "id": 11,
+      "name": "uncertain-surprised-confused",
+      "prior": "uncertain",
+      "discovery": "surprised",
+      "reaction": "confused",
+      "label": "Weak prior disrupted by counter-evidence"
+    },
+    {
+      "id": 16,
+      "name": "uncertain-bored-confirmed",
+      "prior": "uncertain",
+      "discovery": "bored",
+      "reaction": "confirmed",
+      "label": "Weak prior reinforced by expected outcome"
+    },
+    {
+      "id": 18,
+      "name": "curious-surprised-enlightened",
+      "prior": "curious",
+      "discovery": "surprised",
+      "reaction": "enlightened",
+      "label": "Exploration yields new understanding"
+    },
+    {
+      "id": 19,
+      "name": "curious-surprised-confused",
+      "prior": "curious",
+      "discovery": "surprised",
+      "reaction": "confused",
+      "label": "Exploration yields unprocessable surprise"
+    }
+  ],
+  "stage_concepts": {
+    "prior": {
+      "curious": "Open expectation. The character has no specific prediction; they are in an exploratory mindset, willing to be moved by whatever the evidence shows.",
+      "uncertain": "The character holds a tentative belief but acknowledges low confidence in it. They hedge their expectation. They have a leaning, but it could be wrong.",
+      "confident": "The character holds a strong specific prediction and expects a particular outcome. They are committed to this expectation."
+    },
+    "discovery": {
+      "surprised": "The outcome is unexpected and engaging. The evidence does NOT match the prior expectation. Something stands out and demands attention.",
+      "bored": "The outcome is plain and unremarkable. The evidence MATCHES the prior expectation closely. Nothing stands out."
+    },
+    "reaction": {
+      "stubborn": "The character refuses to update their belief despite the contradiction. They explain it away, dismiss it, or reaffirm the prior position.",
+      "enlightened": "The character genuinely updates their understanding. Previous pieces fall into place; the framework restructures.",
+      "confused": "The character cannot resolve the contradiction. They remain in unresolved tension; no settled interpretation forms.",
+      "confirmed": "The expected match consolidates the previously tentative belief into a settled one. Confidence increases on what was already leaned toward."
+    }
+  }
+}

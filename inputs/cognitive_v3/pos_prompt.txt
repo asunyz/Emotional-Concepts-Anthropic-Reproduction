@@ -1,0 +1,27 @@
+You are writing a 3-paragraph story that traces one specific cognitive trajectory through an information-processing scenario.
+
+Topic: {topic}
+
+Required trajectory (FIXED — do not deviate):
+- Paragraph 1 (PRIOR — {prior_concept}): {prior_def}
+- Paragraph 2 (DISCOVERY — {discovery_concept}): {discovery_def}
+- Paragraph 3 (REACTION — {reaction_concept}): {reaction_def}
+
+Output format (mandatory — your entire output must follow this exact structure):
+<P1>
+... 40-60 words. Paragraph 1 surfaces ONLY the PRIOR state. Show what the character believes, expects, or knows BEFORE the new evidence arrives. ...
+</P1>
+<P2>
+... 40-60 words. Paragraph 2 surfaces ONLY the DISCOVERY state. The moment the character encounters the evidence. Describe what they see/read/learn and how the evidence registers. ...
+</P2>
+<P3>
+... 80-100 words. Paragraph 3 surfaces ONLY the REACTION state. How the character processes and responds AFTER the evidence has been seen. ...
+</P3>
+
+Hard constraints:
+1. NEVER use the words: curious, uncertain, confident, surprised, bored, stubborn, enlightened, confused, confirmed (or close grammatical variants like "uncertainty", "surprises", "confirmation").
+2. NEVER write any header, label, meta-commentary, or stage tag. Forbidden phrases include "State:", "Trajectory:", "Pathway:", "Cognitive State:", "Stage:", or anything similar.
+3. Do NOT write anything outside the three <P1>/<P2>/<P3> blocks. No introduction, no conclusion, no commentary.
+4. Each paragraph must surface ONLY its own stage's cognitive state. Do not blend stages — Paragraph 1 must NOT show the discovery or reaction; Paragraph 3 must NOT recap the prior.
+5. The cognitive state must be unmistakable to a careful reader, but conveyed only through behavior, internal monologue, reasoning patterns, dialogue, and physical reactions — never directly named.
+6. Vary character names. Use first-person OR third-person, your choice, but stay consistent within the story.
