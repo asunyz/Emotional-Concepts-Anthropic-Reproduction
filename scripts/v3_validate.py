@@ -51,29 +51,36 @@ WORD_COUNT_TOLERANCES = {
     "P3": (50, 150),
 }
 
-# Block extraction. DOTALL so block content can span lines.
-P_BLOCK_RE = {
-    "P1": re.compile(r"<P1>\s*(.*?)\s*</P1>", re.DOTALL | re.IGNORECASE),
-    "P2": re.compile(r"<P2>\s*(.*?)\s*</P2>", re.DOTALL | re.IGNORECASE),
-    "P3": re.compile(r"<P3>\s*(.*?)\s*</P3>", re.DOTALL | re.IGNORECASE),
-}
+# Markdown-style stage headers. Earlier <P1>/</P1> tag pairs led to systematic
+# generation failures: Qwen consistently confused "</P3>" as the closing tag
+# for P2 (apparently associating "P3" with the closing role rather than the
+# third paragraph). Markdown headers have no open/close pair to mismatch.
+STAGE_HEADER_RE = re.compile(
+    r"^[ \t]*#{1,3}[ \t]*(prior|discovery|reaction)[ \t]*$",
+    re.MULTILINE | re.IGNORECASE,
+)
+STAGE_TO_TAG = {"prior": "P1", "discovery": "P2", "reaction": "P3"}
 
 
 def parse_blocks(text: str) -> dict[str, str] | None:
-    """Extract <P1>/<P2>/<P3> contents.
+    """Extract Prior / Discovery / Reaction sections demarcated by markdown
+    headers (## Prior / ## Discovery / ## Reaction).
 
-    Returns None if any block is missing, duplicated, or out of order.
+    Returns dict keyed by P1/P2/P3 (for compatibility with downstream code),
+    or None if the three headers are missing, duplicated, or out of order.
     """
-    blocks = {}
-    positions = {}
-    for tag, pat in P_BLOCK_RE.items():
-        matches = list(pat.finditer(text))
-        if len(matches) != 1:
-            return None
-        blocks[tag] = matches[0].group(1).strip()
-        positions[tag] = matches[0].start()
-    if not (positions["P1"] < positions["P2"] < positions["P3"]):
+    matches = list(STAGE_HEADER_RE.finditer(text))
+    if len(matches) != 3:
         return None
+    found = [m.group(1).lower() for m in matches]
+    if found != ["prior", "discovery", "reaction"]:
+        return None
+
+    blocks: dict[str, str] = {}
+    for i, m in enumerate(matches):
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        content = text[m.end():end].strip()
+        blocks[STAGE_TO_TAG[m.group(1).lower()]] = content
     return blocks
 
 
