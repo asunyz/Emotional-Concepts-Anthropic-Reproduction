@@ -310,7 +310,11 @@ def main():
     fig_pca_modeA(out_dir / "02_pca_modeA.png", run_dir, layers)
     fig_layer_scan(out_dir / "03_layer_scan.png", run_dir, layers)
     fig_arithmetic(out_dir / "04_arithmetic.png", run_dir, layers, trajectories)
-    fig_pca_modeB(out_dir / "05_pca_modeB.png", run_dir, layers)
+    # Mode B is optional — only methods that produce trajectory_vectors_modeB.npz
+    if (run_dir / f"layer_{layers[0]}" / "trajectory_vectors_modeB.npz").exists():
+        fig_pca_modeB(out_dir / "05_pca_modeB.png", run_dir, layers)
+    else:
+        print("(skipping 05_pca_modeB.png — no trajectory_vectors_modeB.npz)")
 
     print(f"All figures in {out_dir}")
 
