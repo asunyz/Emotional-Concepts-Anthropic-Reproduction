@@ -161,6 +161,8 @@ def main():
                     help="(non-sanity) multiplier for trajectory #16 (uncertain->bored->confirmed)")
     ap.add_argument("--neg-stories-per-topic", type=int, default=10,
                     help="(non-sanity) NEG stories per topic")
+    ap.add_argument("--n-topics", type=int, default=None,
+                    help="use only the first N topics from topics.txt (mid-scale runs)")
     ap.add_argument("--max-new-tokens", type=int, default=600,
                     help="generation budget per story")
     ap.add_argument("--temperature", type=float, default=config.GEN_TEMPERATURE)
@@ -191,6 +193,13 @@ def main():
         pos_per_cell = args.pos_stories_per_traj_topic
         neg_per_topic = args.neg_stories_per_topic
         oversample_16 = args.oversample_traj_16
+        if args.n_topics is not None:
+            topics = topics[:args.n_topics]
+        n_pos = (len(trajectories) - 1) * len(topics) * pos_per_cell + \
+                len(topics) * pos_per_cell * oversample_16
+        n_neg = len(topics) * neg_per_topic
+        print(f"Run plan: {len(trajectories)} trajectories x {len(topics)} topics. "
+              f"~{n_pos} POS + {n_neg} NEG = ~{n_pos + n_neg} stories total.")
 
     root = Path(args.output_dir) / task_label
     stories_dir = root / "stories"

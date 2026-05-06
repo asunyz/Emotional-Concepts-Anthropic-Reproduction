@@ -265,27 +265,43 @@ STAGE_OF_CONCEPT = {
 
 def apply_global_centering(
     concept_vecs: dict[int, dict[str, np.ndarray]]
-) -> dict[int, dict[str, np.ndarray]]:
-    """Subtract the mean across ALL 9 concepts from each (Methods A/B/C)."""
+) -> tuple[dict[int, dict[str, np.ndarray]], dict[int, np.ndarray]]:
+    """Subtract the mean across ALL 9 concepts from each (Methods A/B/C).
+
+    Returns (centered_vectors, per_layer_mean). The per-layer mean is what
+    the v2 analysis scripts (concept_vs_variable, label_text) need to put
+    test-sentence activations in the same coordinate system as the centered
+    concept directions.
+    """
     out = {}
+    means = {}
     for L, by_concept in concept_vecs.items():
         names = list(by_concept.keys())
         if not names:
             out[L] = {}
+            means[L] = None
             continue
         m = np.stack([by_concept[c] for c in names]).mean(0)
         out[L] = {c: by_concept[c] - m for c in names}
-    return out
+        means[L] = m
+    return out, means
 
 
 def apply_within_stage_centering(
     concept_vecs: dict[int, dict[str, np.ndarray]]
-) -> dict[int, dict[str, np.ndarray]]:
-    """Subtract the mean across concepts WITHIN THE SAME STAGE (Method D)."""
+) -> tuple[dict[int, dict[str, np.ndarray]], dict[int, np.ndarray]]:
+    """Subtract the mean across concepts WITHIN THE SAME STAGE (Method D).
+
+    For the saved mean.npy we still report the GLOBAL mean across all 9
+    concepts — that's what the test-sentence centering needs to align the
+    coordinate system. (The within-stage centering is encoded in the
+    concept vectors themselves.)
+    """
     out = {}
+    means = {}
     for L, by_concept in concept_vecs.items():
         out[L] = {}
-        # group concepts by stage
+        # within-stage centering for the concept vectors
         by_stage: dict[str, list[str]] = defaultdict(list)
         for c in by_concept:
             by_stage[STAGE_OF_CONCEPT[c]].append(c)
@@ -293,20 +309,34 @@ def apply_within_stage_centering(
             stage_mean = np.stack([by_concept[c] for c in members]).mean(0)
             for c in members:
                 out[L][c] = by_concept[c] - stage_mean
-    return out
+        # global mean for the saved mean.npy
+        names = list(by_concept.keys())
+        if names:
+            means[L] = np.stack([by_concept[c] for c in names]).mean(0)
+        else:
+            means[L] = None
+    return out, means
 
 
 def write_layer_outputs(
     out_root: Path,
     concept_vecs: dict[int, dict[str, np.ndarray]] | None,
     traj_vecs: dict[int, dict[str, np.ndarray]] | None,
+    means: dict[int, np.ndarray] | None = None,
 ) -> None:
     layers = sorted((concept_vecs or traj_vecs).keys())
     for L in layers:
         ldir = out_root / f"layer_{L}"
         ldir.mkdir(parents=True, exist_ok=True)
+        # mean.npy — used by v2 analysis scripts to center test-sentence acts
+        if means is not None and means.get(L) is not None:
+            np.save(ldir / "mean.npy", np.asarray(means[L], dtype=np.float32))
         if concept_vecs is not None:
             np.savez(ldir / "concept_vectors_modeA.npz",
+                     **normalize_npz_dict(concept_vecs[L]))
+            # alias filename so v2 analysis scripts (concept_similarity.py,
+            # concept_vs_variable.py, label_text.py, steer.py) work as-is
+            np.savez(ldir / "concept_vectors.npz",
                      **normalize_npz_dict(concept_vecs[L]))
         if traj_vecs is not None:
             np.savez(ldir / "trajectory_vectors_modeB.npz",
@@ -399,33 +429,33 @@ def main():
 
     # ---- Method A: whole-story mean ----
     A_concept, A_traj = aggregate_method_A(raw_full, trajectories, story_metas)
-    A_concept_centered = apply_global_centering(A_concept)
+    A_concept_centered, A_means = apply_global_centering(A_concept)
     write_layer_outputs(extractions_root / "methodA_v2style",
-                        A_concept_centered, A_traj)
+                        A_concept_centered, A_traj, A_means)
     summary["A"] = {L: {"n_concepts": len(A_concept[L]),
                          "n_trajectories": len(A_traj[L])} for L in layers}
 
     # ---- Method B: paragraph isolation ----
     B_concept = aggregate_per_paragraph(raw_para_isolation, trajectories, story_metas)
-    B_concept_centered = apply_global_centering(B_concept)
+    B_concept_centered, B_means = apply_global_centering(B_concept)
     write_layer_outputs(extractions_root / "methodB_isolation",
-                        B_concept_centered, None)
+                        B_concept_centered, None, B_means)
     summary["B"] = {L: {"n_concepts": len(B_concept[L])} for L in layers}
 
     # ---- Method C: paragraph in-context ----
     C_concept = aggregate_per_paragraph(raw_para_incontext, trajectories, story_metas)
-    C_concept_centered = apply_global_centering(C_concept)
+    C_concept_centered, C_means = apply_global_centering(C_concept)
     # C's trajectory vectors: average the 3 in-context paragraph vecs per trajectory
     C_traj = aggregate_trajectory_modeB(raw_para_incontext, trajectories, story_metas, is_paragraph=True)
     write_layer_outputs(extractions_root / "methodC_incontext",
-                        C_concept_centered, C_traj)
+                        C_concept_centered, C_traj, C_means)
     summary["C"] = {L: {"n_concepts": len(C_concept[L]),
                          "n_trajectories": len(C_traj[L])} for L in layers}
 
     # ---- Method D: in-context + within-stage contrast ----
-    D_concept = apply_within_stage_centering(C_concept)
+    D_concept, D_means = apply_within_stage_centering(C_concept)
     write_layer_outputs(extractions_root / "methodD_contrast",
-                        D_concept, None)
+                        D_concept, None, D_means)
     summary["D"] = {L: {"n_concepts": len(D_concept[L])} for L in layers}
 
     (extractions_root / "extraction_compare_summary.json").write_text(
