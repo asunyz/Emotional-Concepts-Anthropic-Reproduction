@@ -227,52 +227,97 @@ def run_steer(
     layer: int, out_dir: Path,
     max_new_tokens: int = 80,
 ) -> None:
+    """Steer generation via raw PyTorch forward hook.
+
+    Bypasses nnsight's intervention API entirely — register a forward hook
+    on the target layer that adds `delta` to its output, then call the
+    underlying HF model's `.generate()` directly. The hook fires
+    automatically on every forward pass (prefill + each generation step),
+    so steering is applied uniformly. This is API-version-independent
+    (works with any nnsight, transformers, or torch version that exposes
+    register_forward_hook, which has been stable since PyTorch 1.0).
+    """
     out_dir.mkdir(parents=True, exist_ok=True)
     tok = model.tokenizer
 
+    # nnsight wraps the HF model. Find the underlying PreTrainedModel that
+    # has .generate() — the inner_model is exposed through the model attribute
+    # tree. For LanguageModel, model.model is the transformer body
+    # (CausalLM has structure: AutoModelForCausalLM → model.model.layers[i]).
+    # The full HF model with .generate() is usually accessible as model._model
+    # in nnsight 0.7, falling back through alternative attributes.
+    hf_model = None
+    for attr in ("_model", "_module", "module"):
+        cand = getattr(model, attr, None)
+        if cand is not None and hasattr(cand, "generate"):
+            hf_model = cand
+            break
+    if hf_model is None:
+        # Last resort: nnsight's LanguageModel itself usually inherits .generate
+        # from the wrapped HF model
+        hf_model = model
+
     target_param = next(p for p in model.parameters() if p.device.type == "cuda")
 
-    for cname in concepts:
-        cv_unit = cv_units[cname]
-        cv_t = torch.tensor(cv_unit, dtype=target_param.dtype, device=target_param.device)
-        for prompt in prompts:
-            input_text = tok.apply_chat_template(
-                [{"role": "user", "content": prompt}],
-                tokenize=False, add_generation_prompt=True,
-                enable_thinking=False,
-            )
-            prompt_len = tok(input_text, return_tensors="pt").input_ids.shape[1]
+    # Locate the target layer for the hook. Following the v3 convention
+    # `model.model.layers[L]` — same module Anthropic-style emotion paper hooks.
+    target_layer = model.model.layers[layer]
 
-            sections = [f"=== PROMPT ===\n{prompt}\n",
-                        f"=== CONCEPT: {cname} @ layer {layer} ===\n"]
-            for s in strengths:
-                delta = s * cv_t
-                # nnsight 0.7 pattern. Two API changes from v2 era:
-                #   1. `model.layer[L].all()` is deprecated. Use `for _ in
-                #      tracer.iter[:]:` to apply the intervention on every
-                #      forward pass during generation (prefill + each new token).
-                #   2. `model.generator.output` / `tracer.output` are deprecated.
-                #      Use `tracer.result.save()` to capture the final tensor.
-                with model.generate(
-                    input_text, max_new_tokens=max_new_tokens,
-                    do_sample=True, temperature=0.7, top_p=0.8, top_k=20,
-                    repetition_penalty=1.1,
-                    pad_token_id=tok.eos_token_id,
-                    stop_strings=["<think>", "<|im_start|>"], tokenizer=tok,
-                ) as tracer:
-                    for _ in tracer.iter[:]:
-                        h = model.model.layers[layer].output[0]
-                        model.model.layers[layer].output[0][:] = h + delta
-                    out = tracer.result.save()
-                # tracer.result returns the full generation tensor [batch, seq]
-                completion = tok.decode(out[0, prompt_len:].cpu(),
-                                        skip_special_tokens=True).strip()
-                sections.append(f"\n--- strength = {s:+g} ---\n{completion}\n")
+    # The hook closure captures `current_delta` from the enclosing scope so
+    # we can swap deltas without re-registering the hook.
+    current_delta: torch.Tensor | None = None
 
-            stem = f"steer_{cname}_{prompt[:20].replace(' ', '_').replace('.', '')}"
-            out_path = out_dir / f"{stem}.txt"
-            out_path.write_text("".join(sections))
-            print(f"  wrote {out_path}")
+    def steering_hook(module, inputs, output):
+        if current_delta is None:
+            return output
+        # Decoder layers typically return (hidden_state, ...optional_state)
+        if isinstance(output, tuple):
+            return (output[0] + current_delta,) + output[1:]
+        return output + current_delta
+
+    handle = target_layer.register_forward_hook(steering_hook)
+
+    try:
+        for cname in concepts:
+            cv_unit = cv_units[cname]
+            cv_t = torch.tensor(cv_unit, dtype=target_param.dtype,
+                                device=target_param.device)
+            for prompt in prompts:
+                input_text = tok.apply_chat_template(
+                    [{"role": "user", "content": prompt}],
+                    tokenize=False, add_generation_prompt=True,
+                    enable_thinking=False,
+                )
+                inputs = tok(input_text, return_tensors="pt").to(target_param.device)
+                prompt_len = inputs.input_ids.shape[1]
+
+                sections = [f"=== PROMPT ===\n{prompt}\n",
+                            f"=== CONCEPT: {cname} @ layer {layer} ===\n"]
+                for s in strengths:
+                    current_delta = s * cv_t
+                    with torch.no_grad():
+                        out_ids = hf_model.generate(
+                            **inputs,
+                            max_new_tokens=max_new_tokens,
+                            do_sample=True, temperature=0.7, top_p=0.8,
+                            top_k=20, repetition_penalty=1.1,
+                            pad_token_id=tok.eos_token_id,
+                        )
+                    completion = tok.decode(
+                        out_ids[0, prompt_len:].cpu(),
+                        skip_special_tokens=True,
+                    ).strip()
+                    sections.append(
+                        f"\n--- strength = {s:+g} ---\n{completion}\n"
+                    )
+                current_delta = None  # safety reset between prompts
+
+                stem = f"steer_{cname}_{prompt[:20].replace(' ', '_').replace('.', '')}"
+                out_path = out_dir / f"{stem}.txt"
+                out_path.write_text("".join(sections))
+                print(f"  wrote {out_path}")
+    finally:
+        handle.remove()
 
 
 # ---------------------------------------------------------------------------
