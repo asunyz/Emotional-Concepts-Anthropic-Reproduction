@@ -10,18 +10,51 @@ Required trajectory (FIXED — do not deviate):
 Output format (mandatory — your entire output must follow this exact structure with markdown headers):
 
 ## Prior
-... 40-60 words. This section surfaces ONLY the PRIOR state. Show what the character believes, expects, or knows BEFORE the new evidence arrives. ...
+... 40-60 words. Show the PRIOR state through ACTIONS, dialogue, sequence-of-actions, and what the character DOES — not through stated feelings. ...
 
 ## Discovery
-... 40-60 words. This section surfaces ONLY the DISCOVERY state. The moment the character encounters the evidence. Describe what they see/read/learn and how the evidence registers. ...
+... 40-60 words. Show the DISCOVERY state through ACTIONS — what the character does on encountering the evidence. NOT through stated feelings. ...
 
 ## Reaction
-... 80-100 words. This section surfaces ONLY the REACTION state. How the character processes and responds AFTER the evidence has been seen. ...
+... 80-100 words. Show the REACTION state through ACTIONS — what the character DOES next, how they handle the evidence, what concrete steps follow. NOT through stated emotions. ...
+
+CORE RULE — SHOW DON'T TELL:
+The cognitive state must be conveyed entirely through what the character DOES, what they SAY (in dialogue, with hedges/commitments embedded in their words), the SEQUENCE of their actions, and physical/observable behaviors. NEVER name the cognitive state, describe it as a feeling, or label it. A reader who reads only the actions should be able to infer the cognitive state — but the words for that state must never appear.
 
 Hard constraints:
-1. NEVER use the words: curious, uncertain, confident, surprised, bored, stubborn, enlightened, confused, confirmed (or close grammatical variants like "uncertainty", "surprises", "confirmation").
-2. NEVER write any meta-commentary, label, or stage tag other than the three required headers. Forbidden phrases include "State:", "Trajectory:", "Pathway:", "Cognitive State:", "Stage:".
-3. Do NOT write anything before "## Prior" or after the Reaction section ends. No introduction, no conclusion, no commentary.
-4. Each section must surface ONLY its own stage's cognitive state. Do not blend stages — the Prior section must NOT show the discovery or reaction; the Reaction section must NOT recap the prior.
-5. The cognitive state must be unmistakable to a careful reader, but conveyed only through behavior, internal monologue, reasoning patterns, dialogue, and physical reactions — never directly named.
+1. NEVER use the 9 stage concept words OR their grammatical variants:
+   curious, curiosity, curiously
+   uncertain, uncertainty, uncertainly
+   confident, confidence, confidently
+   surprised, surprise, surprising, surprisingly
+   bored, boredom, boring
+   stubborn, stubbornly, stubbornness
+   enlightened, enlightenment, enlightening
+   confused, confusion, confusing
+   confirmed, confirmation, confirming, confirms
+
+2. NEVER use these "feeling-state" words even though they are not in the concept list:
+   felt, feeling, feelings, emotion, emotions, sense (as a noun: "a sense of"), sensed
+   wondered, pondered, mused (as feeling-of-wondering, NOT as actual question)
+   doubted, doubt (as a noun)
+   sure (in "felt sure"; OK in "make sure of")
+   thrilled, intrigued, fascinated, baffled, perplexed, dumbfounded
+   shocked, stunned, startled, taken-aback, astounded
+
+3. NEVER write any meta-commentary, label, or stage tag other than the three required headers. Forbidden phrases: "State:", "Trajectory:", "Pathway:", "Cognitive State:", "Stage:".
+
+4. Do NOT write anything before "## Prior" or after the Reaction section ends. No introduction, no conclusion, no commentary.
+
+5. Each section must surface ONLY its own stage's cognitive state — through actions only. Do not blend stages.
+
 6. Vary character names. Use first-person OR third-person, your choice, but stay consistent within the story.
+
+CONCRETE EXAMPLE OF SHOW-DON'T-TELL (different topic):
+
+BAD (uses feeling words — DO NOT WRITE LIKE THIS):
+"Maria felt uncertain about the result. She was confused by the data and wondered if her hypothesis was correct."
+
+GOOD (pure action — DO WRITE LIKE THIS):
+"Maria typed her result, deleted it, typed it again. She glanced at the printout, then back at her notes from last week. 'Could be calibration drift,' she said to no one. 'Or could be the real signal.' She emailed her colleague: 'Look at this when you have a sec. Tell me if I'm reading it wrong.'"
+
+Notice the GOOD version: no feeling-words, but the cognitive state (uncertain hedging) is unmistakable from the actions (delete-retype, glance back, voiced two possibilities, sought a second opinion).

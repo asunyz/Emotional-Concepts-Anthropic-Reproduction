@@ -75,19 +75,19 @@
   ],
   "stage_concepts": {
     "prior": {
-      "curious": "Open expectation. The character has no specific prediction; they are in an exploratory mindset, willing to be moved by whatever the evidence shows.",
-      "uncertain": "The character holds a tentative belief but acknowledges low confidence in it. They hedge their expectation. They have a leaning, but it could be wrong.",
-      "confident": "The character holds a strong specific prediction and expects a particular outcome. They are committed to this expectation."
+      "curious": "Show OPENNESS through ACTIONS, not stated feelings. The character: pauses to consider multiple possibilities before committing; deliberately does not form a specific prediction; asks open-ended questions in dialogue; examines the situation from different angles before evidence arrives; treats the outcome as genuinely unknown. NEVER state that they 'feel curious' as an emotion.",
+      "uncertain": "Show HEDGING through ACTIONS, not stated feelings. The character: uses qualifying language in dialogue ('maybe', 'perhaps', 'I think but I'm not sure'); double-checks their initial reading; seeks a second opinion or external confirmation; holds two possible predictions side by side without committing; preemptively prepares for being wrong. NEVER state they 'feel uncertain' or 'lack confidence' as an internal emotion.",
+      "confident": "Show COMMITMENT through ACTIONS, not stated feelings. The character: states their prediction without qualifiers; does not seek a second opinion; physically begins the next step assuming the predicted outcome; treats one specific outcome as obvious; takes preparatory actions appropriate only if their prediction is correct. NEVER say they 'feel confident' or 'are sure' as an emotion."
     },
     "discovery": {
-      "surprised": "The outcome is unexpected and engaging. The evidence does NOT match the prior expectation. Something stands out and demands attention.",
-      "bored": "The outcome is plain and unremarkable. The evidence MATCHES the prior expectation closely. Nothing stands out."
+      "surprised": "Show REGISTRATION-OF-UNEXPECTED through ACTIONS. The character: pauses mid-action; re-reads or re-examines the evidence; physical reactions (leaning closer, eyebrows up, breath catches); compares the present evidence to their stated expectation; asks 'how is that possible' or similar in dialogue. NEVER say they 'feel surprised' or 'are shocked' as a stated feeling.",
+      "bored": "Show REGISTRATION-OF-EXPECTED through ACTIONS. The character: glances and moves on; logs the result without extra inspection; gives a brief acknowledgment; returns to the next task without comment; does NOT pause, re-read, or compare. The prose stays steady, the rhythm flat. NEVER say they 'feel bored' or 'are unsurprised' as a stated feeling."
     },
     "reaction": {
-      "stubborn": "The character refuses to update their belief despite the contradiction. They explain it away, dismiss it, or reaffirm the prior position.",
-      "enlightened": "The character genuinely updates their understanding. Previous pieces fall into place; the framework restructures.",
-      "confused": "The character cannot resolve the contradiction. They remain in unresolved tension; no settled interpretation forms.",
-      "confirmed": "The expected match consolidates the previously tentative belief into a settled one. Confidence increases on what was already leaned toward."
+      "stubborn": "Show REFUSAL-TO-UPDATE through ACTIONS. The character: dismisses the evidence as error/noise/calibration; recalibrates instruments rather than the theory; doubles down on the original interpretation; reasserts the prior loudly; takes actions that only make sense if the prior is still right (e.g., starts the next confirmatory experiment). NEVER say they 'refuse to update' or 'are stubborn' as a stated stance.",
+      "enlightened": "Show INTEGRATION through ACTIONS. The character: re-reads earlier evidence in a new light; connects previously disconnected pieces; rewrites their notes / diagrams; articulates a new framework that organizes prior puzzles; takes actions that only make sense under the new understanding. NEVER say they 'feel enlightened' or 'see the truth' as a stated emotion.",
+      "confused": "Show UNRESOLVED-TENSION through ACTIONS. The character: stops working without conclusion; cycles between competing interpretations without settling; cannot commit to a next action; keeps looking but does not resolve; expresses inability to integrate through what they DO (re-running checks, consulting multiple sources, deferring decision). NEVER say they 'feel confused' or 'cannot understand' as a stated emotion.",
+      "confirmed": "Show CONSOLIDATION through ACTIONS. The character: marks the question as resolved; ends the active checking; treats the previously tentative belief as settled in their next concrete steps; the prior leaning becomes a stable input to subsequent action (whatever that next action is in this scenario). NEVER say they 'feel confirmed' or 'were right all along' as a stated emotion."
     }
   }
 }

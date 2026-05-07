@@ -15,23 +15,44 @@ import re
 # Banned content
 # ---------------------------------------------------------------------------
 
-# Cognitive-concept stems. Substring (case-insensitive) match catches
-# morphological variants: "uncertainty", "surprises", "confirmation", etc.
-# All 9 concept words MUST be banned in every story regardless of which
-# trajectory it belongs to — concept words anywhere in the text leak into
-# the activation we're trying to extract.
+# Banned content. Substring (case-insensitive) match catches morphological
+# variants. Two layers:
+# (1) The 9 concept words themselves — these MUST never appear since they
+#     directly leak the assigned label.
+# (2) "Feeling-state" words — banning these forces the model to express the
+#     cognitive state through action and dialogue, not labeled emotion. The
+#     v3 redesign uses this layer to push vectors from surface to functional.
 BANNED_STEMS = [
-    "curious",    # curiosity, curiously
-    "uncertain",  # uncertainty, uncertainly
-    "confident",  # confidence, confidently
-    "surpris",    # surprise, surprised, surprising, surprisingly, surprises
+    # --- Layer 1: 9 cognitive concept stems ---
+    "curious",     # curiosity, curiously
+    "uncertain",   # uncertainty, uncertainly
+    "confident",   # confidence, confidently
+    "surpris",     # surprise, surprised, surprising, surprisingly, surprises
     "bored",
     "boring",
     "boredom",
-    "stubborn",   # stubbornly, stubbornness
-    "enlighten",  # enlightened, enlightening, enlightenment
-    "confus",     # confused, confusing, confusion
-    "confirm",    # confirmed, confirms, confirming, confirmation
+    "stubborn",    # stubbornly, stubbornness
+    "enlighten",   # enlightened, enlightening, enlightenment
+    "confus",      # confused, confusing, confusion
+    "confirm",     # confirmed, confirms, confirming, confirmation
+    # --- Layer 2: feeling-state words (force show-don't-tell) ---
+    "felt",        # "Maria felt..."
+    "feeling",     # "with a feeling of..."
+    "emotion",     # "the emotion of..."
+    "wondered",    # as inner-state verb; questions are still allowed via dialogue
+    "pondered",
+    "mused",
+    "intrigued",
+    "fascinated",
+    "baffled",
+    "perplexed",
+    "dumbfounded",
+    "shocked",
+    "stunned",
+    "startled",
+    "astounded",
+    "thrilled",
+    "doubted",     # action-of-doubting as verb
 ]
 
 # Forbidden meta-headers that would leak the assigned stage labels.
