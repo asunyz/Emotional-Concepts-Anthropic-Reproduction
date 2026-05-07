@@ -247,9 +247,12 @@ def run_steer(
                         f"=== CONCEPT: {cname} @ layer {layer} ===\n"]
             for s in strengths:
                 delta = s * cv_t
-                # nnsight 0.7 pattern: capture the tracer from `as tracer:`
-                # and use tracer.all() to apply the intervention on every
-                # forward pass during generation (prefill + each new token).
+                # nnsight 0.7 pattern. Two API changes from v2 era:
+                #   1. `model.layer[L].all()` is deprecated. Use `for _ in
+                #      tracer.iter[:]:` to apply the intervention on every
+                #      forward pass during generation (prefill + each new token).
+                #   2. `model.generator.output` / `tracer.output` are deprecated.
+                #      Use `tracer.result.save()` to capture the final tensor.
                 with model.generate(
                     input_text, max_new_tokens=max_new_tokens,
                     do_sample=True, temperature=0.7, top_p=0.8, top_k=20,
@@ -257,11 +260,13 @@ def run_steer(
                     pad_token_id=tok.eos_token_id,
                     stop_strings=["<think>", "<|im_start|>"], tokenizer=tok,
                 ) as tracer:
-                    with tracer.all():
+                    for _ in tracer.iter[:]:
                         h = model.model.layers[layer].output[0]
                         model.model.layers[layer].output[0][:] = h + delta
-                    out = tracer.output.save()
-                completion = tok.decode(out[0, prompt_len:].cpu(), skip_special_tokens=True).strip()
+                    out = tracer.result.save()
+                # tracer.result returns the full generation tensor [batch, seq]
+                completion = tok.decode(out[0, prompt_len:].cpu(),
+                                        skip_special_tokens=True).strip()
                 sections.append(f"\n--- strength = {s:+g} ---\n{completion}\n")
 
             stem = f"steer_{cname}_{prompt[:20].replace(' ', '_').replace('.', '')}"
