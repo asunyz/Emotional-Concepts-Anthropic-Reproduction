@@ -54,6 +54,7 @@ from cv_utils import load_model, extract_layer_activations  # noqa: E402
 # ---------------------------------------------------------------------------
 
 # var_reading-style: each variant should fire one specific concept.
+# Same template V2 used for cognitive_v2 — direct head-to-head comparison.
 VAR_READING = {
     "prompt": "After reading the paper, I {x}.",
     "values": [
@@ -80,6 +81,39 @@ VAR_PRIORS = {
         "expected the result clearly",    # → confident
         "was open to anything",           # → curious
         "had a guess but doubted it",     # → uncertain
+    ],
+}
+
+# var_experiment: testing reaction concepts in a scientific experiment frame.
+# Reproduces V2 cognitive_v2's var_experiment.png template for direct comparison.
+VAR_EXPERIMENT = {
+    "prompt": "The experiment showed a result that I {x}.",
+    "values": [
+        "immediately understood",         # → enlightened
+        "fully expected",                  # → confirmed (or bored)
+        "couldn't explain",                # → confused
+        "refused to accept",               # → stubborn
+        "wanted to investigate further",   # → curious
+        "had been certain about",          # → confident
+        "needed to verify carefully",      # → uncertain
+        "hadn't anticipated at all",       # → surprised
+    ],
+}
+
+# var_gift: testing reaction concepts in a non-scientific (everyday) frame.
+# Reproduces V2 cognitive_v2's var_gift.png template — tests whether the
+# concept vector transfers beyond the academic / lab register it was trained on.
+VAR_GIFT = {
+    "prompt": "I unwrapped the gift and saw {x}.",
+    "values": [
+        "exactly what I had asked for",    # → confirmed
+        "something I'd never imagined",    # → surprised
+        "what I had been hoping for",      # → confident (or confirmed)
+        "something puzzling I couldn't place",  # → confused
+        "an everyday item with no story",  # → bored
+        "a treasure from my own past",     # → enlightened (the integration)
+        "an object I wanted to study",     # → curious
+        "something I refused to acknowledge", # → stubborn
     ],
 }
 
@@ -117,6 +151,12 @@ def run_var_probe(
     model, mean: np.ndarray, cv_units: dict[str, np.ndarray],
     prompt: str, values: list[str], layer: int, out_path: Path,
 ) -> None:
+    """Compute per-variant per-concept projection scores and produce 3 plots:
+      - <name>.png         : original line plot (legacy)
+      - <name>_bar.png     : grouped bar chart
+      - <name>_heatmap.png : z-score heatmap (within-variant normalized;
+                             gold border on the top concept per row).
+    """
     import matplotlib.pyplot as plt
 
     tok = model.tokenizer
@@ -135,6 +175,12 @@ def run_var_probe(
         top = concepts[int(np.argmax(scores[i]))]
         print(f"  '{v[:35]}' -> top: {top} ({scores[i, np.argmax(scores[i])]:+.3f})")
 
+    out_path = Path(out_path)
+    base = out_path.with_suffix("")
+    np.savez(str(base) + "_scores.npz", scores=scores,
+             values=np.array(values), concepts=np.array(concepts))
+
+    # ---- Plot 1: line (legacy) ----
     fig_w = max(11, 1.4 * len(values))
     fig, ax = plt.subplots(figsize=(fig_w, 6))
     x_idx = np.arange(len(values))
@@ -150,6 +196,59 @@ def run_var_probe(
     fig.savefig(out_path, dpi=120, bbox_inches="tight")
     plt.close(fig)
     print(f"  wrote {out_path}")
+
+    # ---- Plot 2: grouped bar chart ----
+    bar_path = base.parent / (base.name + "_bar.png")
+    fig, ax = plt.subplots(figsize=(max(13, 1.4 * len(values) + 2), 7))
+    width = 0.8 / len(concepts)
+    for j, c in enumerate(concepts):
+        offset = (j - (len(concepts) - 1) / 2) * width
+        ax.bar(x_idx + offset, scores[:, j], width, label=c)
+    ax.set_xticks(x_idx)
+    ax.set_xticklabels(values, rotation=45, ha="right", rotation_mode="anchor", fontsize=9)
+    ax.axhline(0, color="black", lw=0.6)
+    ax.set_xlabel("variant")
+    ax.set_ylabel(f"projection onto concept (layer {layer})")
+    ax.set_title(prompt, fontsize=10)
+    ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8, ncol=1)
+    ax.grid(axis="y", alpha=0.3)
+    fig.savefig(bar_path, dpi=120, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  wrote {bar_path}")
+
+    # ---- Plot 3: z-score heatmap (within-variant) ----
+    # Normalize per row to factor out the absolute scale (which is dominated by
+    # the shared narrative direction). What we want to see: for each variant,
+    # which concept projects relatively higher.
+    row_mean = scores.mean(axis=1, keepdims=True)
+    row_std = scores.std(axis=1, keepdims=True)
+    z = (scores - row_mean) / (row_std + 1e-9)
+    heatmap_path = base.parent / (base.name + "_heatmap.png")
+    fig, ax = plt.subplots(figsize=(max(8, len(concepts) * 0.9 + 4),
+                                     max(5, 0.55 * len(values) + 2)))
+    im = ax.imshow(z, aspect="auto", cmap="RdBu_r", vmin=-2.0, vmax=2.0)
+    ax.set_xticks(range(len(concepts)))
+    ax.set_xticklabels(concepts, rotation=45, ha="right", fontsize=10)
+    ax.set_yticks(range(len(values)))
+    ax.set_yticklabels(values, fontsize=9)
+    # Annotate each cell with the raw projection score (small font).
+    for i in range(len(values)):
+        for j in range(len(concepts)):
+            ax.text(j, i, f"{scores[i, j]:+.2f}", ha="center", va="center",
+                    fontsize=7,
+                    color="white" if abs(z[i, j]) > 1.0 else "black")
+    # Highlight the winning concept per row with a gold border.
+    for i in range(len(values)):
+        j_max = int(scores[i].argmax())
+        ax.add_patch(plt.Rectangle((j_max - 0.5, i - 0.5), 1, 1,
+                                    fill=False, edgecolor="gold", linewidth=2.5))
+    cbar = plt.colorbar(im, ax=ax, fraction=0.04)
+    cbar.set_label("z-score (within variant)")
+    ax.set_title(f"{prompt}  (gold border = top concept per variant)", fontsize=10)
+    fig.tight_layout()
+    fig.savefig(heatmap_path, dpi=140, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  wrote {heatmap_path}")
 
 
 # ---------------------------------------------------------------------------
@@ -363,6 +462,14 @@ def main():
     print("\n[1/3 cont] var probe — VAR_PRIORS")
     run_var_probe(model, mean, cv_units, VAR_PRIORS["prompt"], VAR_PRIORS["values"],
                   args.layer, out_root / "var_priors.png")
+
+    print("\n[1/3 cont] var probe — VAR_EXPERIMENT (V2 cognitive_v2 reproduction)")
+    run_var_probe(model, mean, cv_units, VAR_EXPERIMENT["prompt"], VAR_EXPERIMENT["values"],
+                  args.layer, out_root / "var_experiment.png")
+
+    print("\n[1/3 cont] var probe — VAR_GIFT (cross-domain transfer test)")
+    run_var_probe(model, mean, cv_units, VAR_GIFT["prompt"], VAR_GIFT["values"],
+                  args.layer, out_root / "var_gift.png")
 
     print("\n[2/3] token staining")
     run_staining(model, mean, cv_units, HELD_OUT_PASSAGE, args.layer,
