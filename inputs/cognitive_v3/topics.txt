@@ -1,12 +1,8 @@
 A scientist examines an experimental result they have been waiting for
 A doctor reviews a patient's lab panel they have just ordered
-A historian opens an archive folder they have been tracking for months
-A reviewer reads a paper they were assigned to evaluate
 A chess player evaluates a position after their opponent's unexpected move
 A debugger steps through a stack trace from an unfamiliar error log
 A buyer test-drives a car they have researched extensively
 A juror listens to opening statements in a complex case
 A diner takes the first bite of a dish at a highly-recommended restaurant
-A friend reads a long ambiguous text message from someone close to them
 A traveler arrives at a destination after reading detailed reviews online
-A teacher reads a student essay on a topic the student rarely discusses
