@@ -1,0 +1,19 @@
+=== PROMPT ===
+I just got the result of the experiment.
+=== CONCEPT: surprised @ layer 30 ===
+
+--- strength = -3 ---
+Great! I'm ready to help you analyze or discuss your results.
+
+Please share:
+1. **The main findings** (data, conclusions, or outcomes).
+2. **Your goals** for this experiment (e.g., whether it was successful, what hypotheses you were testing).
+3. Any specific questions or next steps you'd like advice on.
+
+Feel free to provide as
+
+--- strength = +0 ---
+That’s exciting! What were you testing or investigating? I’d be happy to help you interpret the results, discuss what they mean, or figure out next steps. Just share the key details (e.g., hypothesis, method, data/outcomes), and let me know how I can assist! 🧪📊
+
+--- strength = +3 ---
+That’s exciting! What was the result? Did it match your hypothesis, or did something unexpected happen? I’d love to hear about it—especially if there’s a detail that stands out or if you’re trying to interpret what it means.

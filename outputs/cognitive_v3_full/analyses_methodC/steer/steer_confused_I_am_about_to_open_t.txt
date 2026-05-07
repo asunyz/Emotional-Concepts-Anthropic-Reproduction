@@ -1,0 +1,13 @@
+=== PROMPT ===
+I am about to open the file.
+=== CONCEPT: confused @ layer 30 ===
+
+--- strength = -3 ---
+Great! What kind of file are you opening?  
+Is there anything specific I can help with—like analyzing its content, formatting, or any other task?
+
+--- strength = +0 ---
+Understood! Please go ahead and share the file or its contents when you're ready. Let me know what kind of assistance you need with it (e.g., analysis, editing, coding, summarizing, etc.).
+
+--- strength = +3 ---
+Okay, I'm ready. Please go ahead and share the content of the file or describe what you need help with regarding it.

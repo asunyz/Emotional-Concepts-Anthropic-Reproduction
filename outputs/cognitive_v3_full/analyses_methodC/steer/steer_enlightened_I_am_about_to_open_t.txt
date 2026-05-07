@@ -1,0 +1,26 @@
+=== PROMPT ===
+I am about to open the file.
+=== CONCEPT: enlightened @ layer 30 ===
+
+--- strength = -3 ---
+Okay, I'm ready when you are. Please go ahead and open the file or provide any information from it that you'd like me to help with.
+
+--- strength = +0 ---
+Please go ahead! I'm ready when you are.
+
+You can:
+*   **Upload** the file (e.g., PDF, Word, Excel, text files, code, images).
+*   Or simply **paste the content** directly into our chat if it's not too long.
+
+Let me know what you'd like me to do with it—summarize, analyze
+
+--- strength = +3 ---
+Please go ahead and share the file or describe its contents! Let me know what you need help with, such as:
+
+- Analyzing data
+- Explaining concepts
+- Rewriting or editing text
+- Solving problems
+- Or any other specific task
+
+I'm ready to assist once you provide the material.

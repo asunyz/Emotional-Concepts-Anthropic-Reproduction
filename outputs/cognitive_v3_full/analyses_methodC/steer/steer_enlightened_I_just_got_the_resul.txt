@@ -1,0 +1,13 @@
+=== PROMPT ===
+I just got the result of the experiment.
+=== CONCEPT: enlightened @ layer 30 ===
+
+--- strength = -3 ---
+How did it go? 😊  
+Did you get the results you were expecting, or is there anything interesting (or surprising) about them?
+
+--- strength = +0 ---
+That’s exciting! What was the outcome? Were you hoping for a specific result, or were there any surprises? 😊
+
+--- strength = +3 ---
+That’s exciting! What were your findings? Were they what you expected, or did you discover something unexpected?

@@ -1,0 +1,12 @@
+=== PROMPT ===
+I am about to open the file.
+=== CONCEPT: surprised @ layer 30 ===
+
+--- strength = -3 ---
+Great! Let me know if you need any assistance with it once you're ready. If there's anything specific you'd like help with, feel free to ask!
+
+--- strength = +0 ---
+Okay, I'm ready when you are! Please go ahead and open the file or share its contents with me. Let me know what kind of assistance you need once it's open.
+
+--- strength = +3 ---
+That's right! You're about to open the file. What do you see? Is it a text document, an image, or something else entirely? Let me know if there’s anything specific you’re trying to detect in the file!

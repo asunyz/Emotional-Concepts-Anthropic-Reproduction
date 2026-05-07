@@ -1,0 +1,20 @@
+=== PROMPT ===
+I am about to open the file.
+=== CONCEPT: stubborn @ layer 30 ===
+
+--- strength = -3 ---
+Great! I'm ready to help you with your questions or tasks related to the file. Let me know what you'd like to do next:
+
+- **Summarize** the content  
+- **Extract key points**  
+- **Answer specific questions**  
+- **Analyze data or text**  
+- Translate, format, or explain concepts  
+
+Let me know how you'd like to proceed
+
+--- strength = +0 ---
+Understood! Please go ahead and share the content of the file, or let me know what you'd like help with regarding it. I'm ready when you are!
+
+--- strength = +3 ---
+Please go ahead and open the file! If you need help with it (e.g., reading, editing, or troubleshooting), feel free to share its contents or describe the issue once it's open. I'm here to assist!

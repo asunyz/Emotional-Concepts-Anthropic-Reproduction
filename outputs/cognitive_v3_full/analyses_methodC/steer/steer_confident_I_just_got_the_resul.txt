@@ -1,0 +1,19 @@
+=== PROMPT ===
+I just got the result of the experiment.
+=== CONCEPT: confident @ layer 30 ===
+
+--- strength = -3 ---
+That’s interesting! What were you testing or observing? Feel free to share the results, and I can help analyze them, suggest next steps, or discuss implications if needed.
+
+--- strength = +0 ---
+That’s exciting! 🎉 What were you testing, and what did the results show? I’d love to hear how it went—whether it matched your expectations or if there was a surprise! 😊
+
+--- strength = +3 ---
+Congratulations on completing your experiment! 🎉  
+That’s a great milestone — whether it was successful, partially successful, or even taught you something unexpected (which is also very valuable!).
+
+Would you like to share what kind of experiment it was and how it went? I’d be happy to help you:
+
+- Analyze the results
+- Interpret the data
+- Prepare for presentation or publication

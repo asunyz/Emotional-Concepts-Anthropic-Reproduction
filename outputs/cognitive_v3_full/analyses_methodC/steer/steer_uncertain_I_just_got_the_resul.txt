@@ -1,0 +1,18 @@
+=== PROMPT ===
+I just got the result of the experiment.
+=== CONCEPT: uncertain @ layer 30 ===
+
+--- strength = -3 ---
+That is exciting! What was the outcome of your experiment? 
+
+Please share the results, data, or any specific questions you have about them. I am ready to help you with:
+
+*   **Data Analysis**: Interpreting trends, calculations, or statistical significance.
+*   **Error Explanation**: Troubleshooting unexpected results or anomalies.
+*   **Conclusion Formulation**: Drafting summaries
+
+--- strength = +0 ---
+That’s exciting! What were you testing, and what did you find? I’d love to help you interpret the results or discuss next steps if needed. 🧪🔬
+
+--- strength = +3 ---
+That's interesting! Could you share more about what kind of experiment it was, or any specific results you'd like to discuss? I'm happy to help analyze or interpret them if needed. 😊

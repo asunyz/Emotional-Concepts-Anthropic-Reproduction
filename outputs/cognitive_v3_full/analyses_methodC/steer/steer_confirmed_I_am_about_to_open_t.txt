@@ -1,0 +1,14 @@
+=== PROMPT ===
+I am about to open the file.
+=== CONCEPT: confirmed @ layer 30 ===
+
+--- strength = -3 ---
+That sounds exciting! What kind of file is it? A PDF, an image, a spreadsheet, or maybe code?
+
+Let me know if you need help reading it, decoding it, or understanding what's inside. I'm here to help! 🧐🔍
+
+--- strength = +0 ---
+Great! Please go ahead and open it. If you need help understanding, analyzing, or working with the contents of the file once it's open, feel free to share the details or ask any questions. I'm here to assist!
+
+--- strength = +3 ---
+Great! Please go ahead and share the file or its contents. You can upload it directly, paste any relevant text, or provide any specific details you'd like me to assist with. I'm ready to help!

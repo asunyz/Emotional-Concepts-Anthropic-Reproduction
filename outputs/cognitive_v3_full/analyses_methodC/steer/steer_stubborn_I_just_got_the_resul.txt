@@ -1,0 +1,13 @@
+=== PROMPT ===
+I just got the result of the experiment.
+=== CONCEPT: stubborn @ layer 30 ===
+
+--- strength = -3 ---
+That’s exciting! What did you find?  
+Are you looking for help interpreting the results, comparing them to expectations, or thinking about next steps in your research?
+
+--- strength = +0 ---
+That’s exciting! 🎉 What were you testing, and what did the results show? I’d love to hear about it—whether it was a success, a surprise, or something that needs further tweaking.
+
+--- strength = +3 ---
+That's great! I'd love to hear about it. What were the results?

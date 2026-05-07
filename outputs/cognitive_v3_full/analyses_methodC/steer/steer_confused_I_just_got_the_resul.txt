@@ -1,0 +1,17 @@
+=== PROMPT ===
+I just got the result of the experiment.
+=== CONCEPT: confused @ layer 30 ===
+
+--- strength = -3 ---
+Great! I'm glad to hear your experiment is complete. 🧪🔬
+
+How did it go? Here are a few ways I can help:
+
+1. **Data Analysis**: Share some key numbers or trends, and I can help interpret them.
+2. **Results Interpretation**: If you're unsure what the results mean in context, feel free to share the details.
+
+--- strength = +0 ---
+That’s exciting! What were you testing, and what did you find? I’d love to help you interpret the results or discuss next steps if needed. 🧪📊
+
+--- strength = +3 ---
+That’s great! What were the results?
