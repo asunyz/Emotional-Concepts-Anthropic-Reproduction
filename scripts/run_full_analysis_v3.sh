@@ -42,13 +42,14 @@ for m in methodA_v2style methodB_isolation methodC_incontext methodD_contrast; d
 done
 
 echo ""
-echo "=== [4/4] v2 analyses (var probe, staining, steering) on Method C and D ==="
+echo "=== [4/4] v2 analyses (var probe + staining; steering skipped pending nnsight 0.7 fix) on Method C and D ==="
 for m in methodC_incontext methodD_contrast; do
   echo "--- v2 analyses on $m at layer $LAYER ---"
   $PY scripts/run_v2_analyses_v3.py \
     --vec-dir "$RUN_DIR/extractions/$m" \
     --layer "$LAYER" \
-    --output-dir "outputs/$TASK_NAME/v2_analyses_$m"
+    --output-dir "outputs/$TASK_NAME/v2_analyses_$m" \
+    --skip-steer
 done
 
 echo ""
