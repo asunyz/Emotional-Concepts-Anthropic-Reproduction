@@ -58,9 +58,11 @@ from scripts.v3_validate import validate_story  # noqa: E402
 # Generation
 # ---------------------------------------------------------------------------
 
-def build_pos_prompt(template: str, topic: str, traj: dict, stage_defs: dict) -> str:
+def build_pos_prompt(template: str, topic: str, traj: dict, stage_defs: dict,
+                     character_name: str) -> str:
     return template.format(
         topic=topic,
+        character_name=character_name,
         prior_concept=traj["prior"],
         prior_def=stage_defs["prior"][traj["prior"]],
         discovery_concept=traj["discovery"],
@@ -68,6 +70,19 @@ def build_pos_prompt(template: str, topic: str, traj: dict, stage_defs: dict) ->
         reaction_concept=traj["reaction"],
         reaction_def=stage_defs["reaction"][traj["reaction"]],
     )
+
+
+def pick_character_name(character_pools: dict, topic_idx: int, story_idx: int) -> str:
+    """Pick a character name from the per-topic pool, rotating by story_idx so each
+    cell of (trajectory, topic) gets distinct characters across its 5+ stories."""
+    # Keys in characters.json look like "0_scientist", "1_doctor", ... so we look
+    # up by the topic_idx prefix.
+    prefix = f"{topic_idx}_"
+    for key, names in character_pools.items():
+        if key.startswith(prefix) and not key.startswith("_"):
+            return names[story_idx % len(names)]
+    # Fallback if a topic has no pool: deterministic generic name
+    return f"Subject {topic_idx}-{story_idx}"
 
 
 def build_neg_prompt(template: str, topic: str) -> str:
@@ -177,6 +192,13 @@ def main():
     topics = [l.strip() for l in (in_dir / "topics.txt").read_text().splitlines() if l.strip()]
     pos_template = (in_dir / "pos_prompt.txt").read_text()
     neg_template = (in_dir / "neg_prompt.txt").read_text()
+    # Per-topic character pools — forces story-to-story diversity within
+    # each (trajectory, topic) cell. Falls back to a generic name if missing.
+    char_pools_path = in_dir / "characters.json"
+    if char_pools_path.exists():
+        character_pools = json.loads(char_pools_path.read_text())
+    else:
+        character_pools = {}
 
     # Resolve sanity / full mode
     if args.sanity:
@@ -245,7 +267,9 @@ def main():
         if target.exists():
             continue
         pbar.set_postfix_str(f"{traj['name']} t{tidx}")
-        prompt = build_pos_prompt(pos_template, topic, traj, stage_defs)
+        character_name = pick_character_name(character_pools, tidx, sidx)
+        prompt = build_pos_prompt(pos_template, topic, traj, stage_defs,
+                                   character_name)
         metadata = {
             "type": "POS",
             "trajectory_id": traj["id"],
@@ -256,6 +280,7 @@ def main():
             "topic_idx": tidx,
             "topic": topic,
             "story_idx": sidx,
+            "character_name": character_name,
         }
         ok = generate_with_validation(
             model, prompt, metadata, is_neg=False,

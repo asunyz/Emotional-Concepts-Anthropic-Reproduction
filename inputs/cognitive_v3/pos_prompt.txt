@@ -1,6 +1,7 @@
 You are writing a 3-paragraph story that traces one specific cognitive trajectory through an information-processing scenario.
 
 Topic: {topic}
+Character: {character_name} (use this exact name; do not change to a similar one)
 
 Required trajectory (FIXED — do not deviate):
 - Prior stage ({prior_concept}): {prior_def}
@@ -47,7 +48,7 @@ Hard constraints:
 
 5. Each section must surface ONLY its own stage's cognitive state — through actions only. Do not blend stages.
 
-6. Vary character names. Use first-person OR third-person, your choice, but stay consistent within the story.
+6. Use the exact Character name given above. Use third-person narration (or first-person if natural for the topic) — but stay consistent within the story.
 
 CONCRETE EXAMPLE OF SHOW-DON'T-TELL (different topic):
 

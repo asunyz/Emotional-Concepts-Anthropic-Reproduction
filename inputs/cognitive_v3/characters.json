@@ -1,0 +1,88 @@
+{
+  "_comment": "Per-topic character name pools to force story-to-story diversity. Each pool has 5 names; story_idx % 5 picks one. Names are mixed across cultural backgrounds and genders so the cognitive concept vector doesn't accidentally pick up demographic correlates.",
+
+  "0_scientist": [
+    "Dr. Aris Thorne",
+    "Dr. Maria Chen",
+    "Dr. Daniel Park",
+    "Dr. Priya Singh",
+    "Dr. Elena Vega"
+  ],
+  "1_doctor": [
+    "Dr. Hiro Tanaka",
+    "Dr. Sofia Rivera",
+    "Dr. Aamir Khan",
+    "Dr. Anika Mueller",
+    "Dr. Chika Okonkwo"
+  ],
+  "2_historian": [
+    "Dr. Margaret Whitley",
+    "Prof. Yusuf al-Rashid",
+    "Dr. Kenji Nakamura",
+    "Dr. Inés Vargas",
+    "Prof. Linnea Bjornson"
+  ],
+  "3_reviewer": [
+    "Prof. Rachel Adams",
+    "Dr. Vikram Joshi",
+    "Prof. Tomás Ferreira",
+    "Dr. Lin Hu",
+    "Prof. Kofi Asante"
+  ],
+  "4_chess_player": [
+    "Mikhail Volkov",
+    "Anya Petrov",
+    "Marcus Lin",
+    "Elena Reyes",
+    "Tomas Bergman"
+  ],
+  "5_debugger": [
+    "Sam Patel",
+    "Priya Iyer",
+    "Wei Zhang",
+    "Tej Murthy",
+    "Olu Adebayo"
+  ],
+  "6_buyer": [
+    "Carl Hendricks",
+    "Lina Park",
+    "Marcus Chen",
+    "Diane Walsh",
+    "Raj Patel"
+  ],
+  "7_juror": [
+    "Rachel Donovan",
+    "Marcus Brown",
+    "Anita Suarez",
+    "Tom Reilly",
+    "Kenji Sato"
+  ],
+  "8_diner": [
+    "Sarah Liu",
+    "Daniel Okafor",
+    "Mei Watanabe",
+    "Felix Romero",
+    "Amara Diop"
+  ],
+  "9_friend": [
+    "Riley",
+    "Jamie",
+    "Sam",
+    "Avery",
+    "Kai"
+  ],
+  "10_traveler": [
+    "Anna Lindgren",
+    "Diego Morales",
+    "Hiroshi Tanaka",
+    "Nadia Hassan",
+    "Ben Carter"
+  ],
+  "11_teacher": [
+    "Mrs. Henderson",
+    "Mr. Okonkwo",
+    "Ms. Tanaka",
+    "Dr. Vargas",
+    "Mr. Foster"
+  ]
+}
