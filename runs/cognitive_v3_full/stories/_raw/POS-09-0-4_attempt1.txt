@@ -1,0 +1,8 @@
+## Prior
+Dr. Elena Vega adjusted the spectrometer’s gain, squinting at the fluctuating waveform on her monitor. “It might indicate phase instability,” she murmured to the empty lab, tapping her pen against the desk. She pulled up the raw data log, cross-referencing it with yesterday’s baseline. “Perhaps the sensor drifted. Or perhaps we’re seeing the anomaly.” She drafted an email to her advisor, asking for his perspective on the noise floor, leaving the subject line vague.
+
+## Discovery
+Her finger froze over the enter key. Elena leaned forward, her nose inches from the screen, as the peak shifted unexpectedly into the predicted range. She blinked rapidly, rubbing her eyes before leaning back sharply, knocking her chair leg against the cabinet. “That shouldn’t align,” she whispered, voice tight. She zoomed in on the timestamp, comparing the live feed to her theoretical model, then looked around the room as if expecting someone else to explain the impossible alignment.
+
+## Reaction
+Elena immediately reached for the calibration manual, flipping pages until she found the sensor adjustment protocol. She ignored the perfect fit on the screen, muttering about environmental interference, and began loosening the instrument’s mounting screws. “Noise artifact,” she declared firmly to the empty air, resetting the device to factory defaults. She printed the current graph, circled the discrepancy she imagined existed, and filed it under ‘Error.’ Then, she opened a new file titled ‘Confirmatory Test,’ typing out the parameters for a repeat run designed specifically to reproduce the original flawed conditions, ensuring the data would match her expectations.

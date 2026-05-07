@@ -1,0 +1,8 @@
+## Prior
+Dr. Vega aligned the laser aperture with surgical precision, her hands steady as she locked the final bracket into place. "The resonance frequency will hit exactly 442 Hz," she announced to the empty lab, marking the expected peak on her whiteboard with a bold red line. She pulled the safety cover off the detector array, fully prepared to record the baseline immediately upon ignition, treating the successful oscillation as an inevitable fact rather than a possibility.
+
+## Discovery
+Her hand froze inches from the power switch. The monitor displayed a jagged, chaotic waveform instead of the smooth sine wave she had calibrated for. She leaned closer, squinting at the screen, then tapped the glass twice before wiping her glasses clean. "How is that possible?" she whispered, staring at the anomalous spike that defied every parameter she had input into the system.
+
+## Reaction
+Vega spun her stool around and flipped open her logbook to the initial setup notes from three days ago. Her pen moved rapidly across the page, crossing out the standard harmonic model and drawing a complex intersection diagram linking thermal variance to magnetic interference. She realized the stray field wasn't noise but a coupling mechanism. Grabbing a fresh sheet, she recalculated the variables using the new dual-variable equation, then adjusted the cooling unit’s flow rate to stabilize the environment, proceeding only because the old method was now proven obsolete.

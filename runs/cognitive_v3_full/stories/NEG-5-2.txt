@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 2
+---
+## Prior
+Juror ID 742 was seated in Division B of the County Courthouse. The docket indicated a complex commercial fraud case involving multi-layered corporate entities and international transactions. Opening statements commenced at 09:00 hours, with counsel presenting initial arguments regarding jurisdictional scope and alleged financial discrepancies across three fiscal years.
+
+## Discovery
+Counsel for the plaintiff displayed Exhibit P-12, a consolidated balance sheet highlighting a $4.2 million variance between reported assets and audited liabilities. The document included footnotes referencing offshore subsidiary accounts located in the Cayman Islands. Cross-referencing logs showed these entries lacked corresponding wire transfer records in the primary banking ledger provided by the defense.
+
+## Reaction
+The discrepancy establishes a prima facie indication of potential asset misappropriation requiring further evidentiary support. Under standard procedural guidelines, such anomalies necessitate rigorous scrutiny during the discovery phase to determine intent and causality. Jurors are instructed to weigh the visual data against subsequent testimony. The exhibit remains admissible for consideration, pending verification of the underlying transactional chain through forensic accounting experts.

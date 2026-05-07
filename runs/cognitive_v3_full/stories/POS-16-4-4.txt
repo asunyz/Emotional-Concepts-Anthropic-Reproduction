@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 4
+# character_name: Raj Patel
+---
+## Prior
+Raj clicked his pen twice, then opened the spec sheet again. He traced the torque curve with his finger, muttering, “Maybe the hybrid assist kicks in earlier than listed.” He pulled up a forum thread, comparing two conflicting reviews. “Perhaps it’s just my weight,” he told the salesman, holding out both possibilities without picking a winner. He kept his keys in his pocket, ready to withdraw if the numbers didn’t align with his expectations.
+
+## Discovery
+He pressed the accelerator. The engine hummed steadily, matching the brochure exactly. Raj nodded once, checked the speedometer, and shifted gears smoothly. He noted the acceleration time in his logbook, closing the folder immediately. Without pausing to analyze further, he turned the steering wheel toward the next intersection, resuming his route as if nothing had changed.
+
+## Reaction
+Raj closed the notebook completely, snapping the cover shut with finality. He handed the key fob back to the dealer, saying, “It performs as specified. We can proceed with the paperwork.” He walked directly to the sales desk, pulling his wallet from his back pocket to begin signing the contract. His posture relaxed into a routine rhythm, treating the vehicle’s performance as a fixed fact rather than a variable to be tested. He focused solely on the terms of sale, having already integrated the test drive results into his decision-making process.

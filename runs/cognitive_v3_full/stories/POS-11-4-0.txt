@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 0
+# character_name: Carl Hendricks
+---
+## Prior
+Carl adjusted his grip on the steering wheel, testing the feedback against his mental model. “The handling seems stable,” he noted, glancing at the brochure. “Perhaps the suspension is tuned softer than advertised? I’m not entirely certain about the cornering limits yet.” He pulled out his phone, cross-referencing online reviews while keeping one eye on the road, ready to pivot his assessment if the tires slipped.
+
+## Discovery
+He initiated a sharp turn onto the winding access road, expecting significant body roll. Instead, the chassis remained eerily flat, gripping the asphalt with unexpected tenacity. Carl’s foot froze over the brake pedal. He leaned forward, squinting at the dashboard gauges, then looked down at the tire contact patches. “How is there zero lean?” he muttered, checking the speedometer twice to ensure the angle wasn’t deceiving him.
+
+## Reaction
+He straightened the wheel abruptly, bringing the car to a slow crawl near the exit ramp. Carl tapped the screen of his infotainment system, pulling up the technical specifications sheet again, then switched to a video review of the same model. He scrolled rapidly, pausing on a frame showing the suspension geometry, then closed the app and opened the owner’s manual PDF. His finger hovered over the ‘contact dealer’ button, then retreated. He started the engine, revved it gently, listened intently to the idle, killed the ignition, and stared blankly at the steering column, unable to decide whether to proceed with the purchase or walk away.

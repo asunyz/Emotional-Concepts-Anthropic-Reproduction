@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne sat back in his leather chair, the fluorescent hum of the clinic fading into background noise. He had requested the full metabolic panel without a hunch, treating the results as a blank canvas rather than a puzzle to solve. His mind was open, ready to absorb data wherever it might lead, free from the weight of preconceived diagnoses or hoped-for outcomes.
+
+## Discovery
+The screen glowed with stark red arrows against a sea of normal ranges. Hemoglobin A1c hovered near seven percent, while liver enzymes spiked sharply above the threshold. Aris leaned forward, squinting at the numbers that defied his initial assumption of simple fatigue. The dissonance between the mild complaint and severe markers demanded immediate focus, pulling his attention away from routine checks toward urgent investigation.
+
+## Reaction
+A sudden clarity washed over him, dissolving the fog of vague symptoms he had previously dismissed as stress-related. The elevated glucose levels now explained the persistent neuropathy in her feet, connecting dots that had seemed unrelated moments ago. He realized the standard dietary advice was insufficient; she needed specialized intervention for early-stage metabolic syndrome. The previous framework of benign exhaustion collapsed, replaced by a precise, actionable diagnosis that offered a clear path forward for treatment.

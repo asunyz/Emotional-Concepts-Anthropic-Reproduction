@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 4
+# character_name: Olu Adebayo
+---
+## Prior
+Olu Adebayo hovered his cursor over line 42, tapping his pen against the desk rhythmically. “It looks like a null pointer,” he murmured, scrolling up to verify the initialization block. “Perhaps it’s uninitialized, though maybe the constructor ran late.” He opened a fresh tab to cross-reference the commit history, keeping both hypotheses open while waiting for the linter to finish scanning.
+
+## Discovery
+His finger froze above the enter key. He leaned in, squinting at the variable assignment on screen, then scrolled rapidly backward to the call stack. His breath hitched slightly as he highlighted the unexpected value. “How is that possible?” he whispered, comparing the logged integer to the expected string type, realizing the type cast had occurred upstream rather than downstream.
+
+## Reaction
+Olu Adebayo immediately closed the current file and reopened the legacy module from three months ago. He traced the data flow visually, drawing arrows on his whiteboard to map the transformation chain. Connecting the dots, he realized the API response format had shifted silently. He updated his debugging script to parse the new structure, effectively resolving the ambiguity by aligning the code with the actual runtime behavior observed in the logs.

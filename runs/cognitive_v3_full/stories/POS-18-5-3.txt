@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 3
+# character_name: Tom Reilly
+---
+## Prior
+Tom Reilly sat at the counsel table, fingers steepled under his chin. He tilted his head slightly left, then right, mirroring the prosecutor’s stance before turning toward the defense attorney. “If the timeline holds,” he murmured to the empty air beside him, tracing a loop in the condensation on his water glass. He opened his notebook to a fresh page, drawing three distinct branches labeled ‘Alibi,’ ‘Motive,’ and ‘Opportunity.’ He paused, pen hovering over each branch without connecting them, waiting for the first witness to take the stand.
+
+## Discovery
+The prosecutor projected a grainy security image onto the screen. Tom stopped chewing his pen cap abruptly. He leaned forward, squinting at the timestamp in the corner, then pulled his printed copy of the schedule closer. His eyes darted between the screen and his notes. “That timestamp is five minutes ahead of the log,” he whispered, tapping the paper twice. He looked up at the judge, brow furrowed tight. “How is that possible?” he asked quietly, pointing at the discrepancy.
+
+## Reaction
+Tom flipped back through his stack of handouts, stopping at the original police report. He circled the time stamp there, then drew an arrow linking it to the video evidence. He erased the separate branches in his notebook, merging them into a single vertical timeline. He wrote “System Error” beneath the intersection point, connecting the motive and opportunity sections with a double-headed arrow. He slid his revised diagram toward the clerk, nodding once as he began drafting a motion to suppress based on procedural inconsistency.

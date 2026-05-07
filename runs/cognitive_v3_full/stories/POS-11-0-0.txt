@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+# character_name: Dr. Aris Thorne
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, squinting at the spectral readout. “Perhaps the variance indicates noise,” he murmured, tapping the screen twice. He printed the raw data, crossed out the initial peak, and wrote ‘calibration error?’ beside it. “If the sensor drifted, maybe the spike isn’t there.” He slid the paper into a folder labeled ‘Alternative Hypotheses,’ keeping both outcomes open without selecting either.
+
+## Discovery
+Thorne froze, his pen hovering over the logbook. He leaned forward, eyes narrowing as he traced the line again. His breath hitched slightly. “That’s impossible,” he whispered, staring at the sharp, clean peak that defied every model. He pulled the original dataset from the drawer, comparing the timestamps frame-by-frame against the theoretical baseline, searching for the glitch that had to exist.
+
+## Reaction
+He stopped typing, hands resting limply on the desk. Thorne reran the simulation, watching the numbers shift, then immediately reverted to the previous settings. He opened three different journals, flipping pages rapidly, then closed them all abruptly. He dialed a number, let it ring twice, and hung up without speaking. Grabbing a fresh sheet, he sketched one interpretation, erased it, then drew another, leaving the page half-filled. He stared at the dual columns of conflicting logic, unable to merge them, and simply sat back, waiting for clarity that refused to arrive.

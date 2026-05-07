@@ -1,0 +1,12 @@
+{
+  "task_label": "cognitive_v3_full",
+  "sanity": false,
+  "n_pos_jobs": 480,
+  "n_neg_jobs": 80,
+  "n_total_jobs": 560,
+  "n_ok": 551,
+  "n_fail": 9,
+  "ok_rate": 0.984,
+  "n_attempts": 652,
+  "avg_attempts_per_story": 1.16
+}

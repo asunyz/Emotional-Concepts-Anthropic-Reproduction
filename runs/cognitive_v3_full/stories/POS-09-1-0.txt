@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+# character_name: Dr. Hiro Tanaka
+---
+## Prior
+Dr. Hiro Tanaka adjusted his glasses, tracing the lipid profile on the monitor. “The LDL is elevated,” he muttered, tapping the screen. “Perhaps it’s dietary. Or maybe metabolic resistance.” He printed the report, folded it twice, and placed it in the ‘pending’ tray, keeping his diagnosis tentative while waiting for further clinical signs.
+
+## Discovery
+His finger froze over the mouse. He leaned forward, squinting at the troponin levels. The numbers were impossible. He blinked, rubbed his eyes, and stared again at the raw data stream. “How is that possible?” he whispered, comparing the current spike to the baseline graph he had memorized days ago.
+
+## Reaction
+Tanaka tapped the refresh button aggressively, then disconnected the monitor cable and restarted the system. “Calibration error,” he declared firmly to the empty room. He pulled the old paper chart from his desk drawer, ignoring the digital alert, and began drafting a prescription for statins based solely on the historical trend. He filed the new digital results in the trash bin labeled ‘instrument noise,’ proceeding with his original treatment plan as if the conflicting data never existed.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 0
+# character_name: Mikhail Volkov
+---
+## Prior
+Mikhail Volkov leaned forward, his finger tracing the diagonal line of the bishop’s potential reach. "Black loses material here," he declared, sliding his knight toward the center square. He reached for his coffee mug, already anticipating the checkmate sequence that would conclude the game in three moves. His hand hovered over the piece, ready to commit fully to the attack.
+
+## Discovery
+His fingers froze inches above the board. Mikhail blinked, leaning closer until his nose nearly touched the wood. He scanned the rank twice, then looked back at the black queen. "How is that possible?" he muttered, pointing at the hidden defender behind the pawn chain. He pulled his hand back sharply, knocking his chair slightly askew as he re-evaluated the open file.
+
+## Reaction
+Volkov grabbed his notebook, flipping past his initial calculations to the opening phase. He circled the early pawn push, connecting it directly to the current tactical vulnerability. Redrawing the variation lines, he crossed out the aggressive fork and sketched a defensive retreat that preserved the center control. He moved his knight back to its starting square, securing the position against the newly revealed counterplay, and waited calmly for Black’s response.

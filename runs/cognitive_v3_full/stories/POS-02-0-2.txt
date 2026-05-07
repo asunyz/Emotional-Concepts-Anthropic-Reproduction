@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 2
+# character_name: Dr. Daniel Park
+---
+## Prior
+Dr. Park adjusted the spectrometer’s laser alignment, his fingers moving with practiced precision. He logged the final parameter into the mainframe, typing “Predicted resonance peak at 450nm” as the expected output. Without hesitation, he opened a fresh lab notebook labeled “Phase Three Analysis,” ready to document the structural shifts he knew were imminent. His pen hovered over the grid lines, poised to record the data he had calculated would appear instantly upon activation.
+
+## Discovery
+The screen flashed red instead of green. Park froze, his hand still gripping the stylus. He leaned forward, squinting at the anomaly, then scrolled back to verify the input parameters. “This shouldn’t exist,” he muttered, tapping the glass repeatedly. He pulled the raw data logs from the previous hour, comparing them side-by-side with the current readout. The discrepancy was stark, forcing him to pause his recording process entirely as he stared at the impossible waveform.
+
+## Reaction
+Park grabbed a marker and circled the error threshold on his whiteboard, drawing a jagged line connecting it to his initial assumptions. He flipped through his old notebooks, highlighting conflicting variables from months ago that now aligned perfectly with the strange signal. Rewriting his central diagram, he crossed out the linear model and sketched a feedback loop, explaining how the system self-corrected rather than collapsed. He immediately drafted an email to the department head proposing a complete redesign of the experiment based on this new cyclical mechanism.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 16
+# character_name: Anya Petrov
+---
+## Prior
+Anya tilted her head, studying the board’s new configuration. “Perhaps they’re aiming for the queenside,” she murmured, tracing a hypothetical line with her finger. “But maybe the center holds stronger.” She pulled out her notebook, scribbling two divergent variations side-by-side. “I’ll verify the pawn structure later,” she added, leaving both options open while reaching for her water bottle.
+
+## Discovery
+She glanced at the clock, noting the time elapsed. Without pausing, she moved her knight to f3, aligning with standard theory. Her eyes swept past the opponent’s piece, registering its placement as routine. She tapped her pen once against the table edge, then shifted her focus to the next potential square, continuing her analysis without remark or hesitation.
+
+## Reaction
+Anya closed her notebook with a decisive snap, marking the previous ambiguity as fully resolved. She crossed out the speculative branches she had drafted earlier, erasing them cleanly from view. With the tactical question settled, she committed her bishop to c4, treating the earlier hesitation as irrelevant history. Her posture straightened, hands moving fluidly across the pieces, integrating the now-stable assessment into her broader strategic plan without looking back at the discarded lines.

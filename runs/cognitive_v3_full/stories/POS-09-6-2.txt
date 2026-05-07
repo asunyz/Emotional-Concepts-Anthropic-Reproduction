@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 2
+# character_name: Mei Watanabe
+---
+## Prior
+Mei Watanabe hovered her chopsticks over the steaming bowl, pausing just inches above the broth. "Perhaps the broth is lighter than expected," she murmured, glancing at the menu card twice to verify the description. "Or maybe I’m misreading the steam density." She set the utensils down briefly, pulled out her phone to compare the aroma against online reviews, and held both interpretations in mind before lifting the spoon again.
+
+## Discovery
+She took the bite, chewed once, then froze. Her eyes widened slightly as she leaned forward, bringing the bowl closer to her face. "This tastes exactly like home-made dashi," she whispered, blinking rapidly. She set the spoon down, picked up the menu again, and traced the ingredient list with her finger. "But the recipe calls for kombu only. How is that possible?"
+
+## Reaction
+Mei wiped her mouth with a napkin, stood up abruptly, and marched to the counter. She tapped the ticket machine, frowning at the receipt. "There must be a mistake in the order queue," she announced loudly to the manager, pointing at the screen. "Please check the kitchen logs for the previous table’s order number. This flavor profile doesn’t match our standard stock. Let me speak to the head chef directly to resolve this discrepancy before I finish my meal."

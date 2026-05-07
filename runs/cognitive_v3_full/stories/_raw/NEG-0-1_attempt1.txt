@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne conducted longitudinal analysis of CRISPR-Cas9 gene editing efficiency in primary human T-cells. The experiment utilized high-fidelity Cas9 variants targeting the CCR5 locus. Baseline controls established a standard integration rate of 15% across replicates. Data acquisition occurred via flow cytometry and next-generation sequencing over a fourteen-day period.
+
+## Discovery
+Sequencing data revealed a novel off-target insertion event at chromosome 7q31.2. This variant exhibited a 92% homology match to endogenous retroviral elements. The frequency of this specific mutation exceeded the predicted background error rate by three standard deviations. Standard on-target editing metrics remained within expected parameters.
+
+## Reaction
+The presence of this specific retroviral mimicry necessitates immediate re-evaluation of the guide RNA specificity. Protocol mandates a comparative genomic analysis against the GRCh38 reference genome to map potential structural variations. Safety assessments must account for the oncogenic potential associated with insertional mutagenesis near known proto-oncogenes. The dataset is flagged for peer review, and subsequent experiments require modified delivery vectors to mitigate off-target risks.

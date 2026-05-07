@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 3
+# character_name: Diane Walsh
+---
+## Prior
+Diane tapped the steering wheel twice, aligning perfectly with the tachometer’s redline. She shifted gears without hesitation, pressing the accelerator firmly against the floorboard. "Zero to sixty in six seconds flat," she announced to the empty showroom. She unlocked the glove compartment, retrieving the maintenance log she had memorized earlier, ready to sign the purchase agreement immediately upon successful acceleration.
+
+## Discovery
+Her foot froze on the pedal as the engine sputtered into a rough idle. Diane leaned forward, squinting at the dashboard warning light blinking amber. She pulled her hand back, checking the digital display against her mental calculation. "That RPM drop doesn't match the spec sheet," she muttered, tapping the glass screen repeatedly. "How is that possible? The dyno results were precise."
+
+## Reaction
+She ignored the flashing light, assuming the sensor was faulty due to humidity. Diane opened the hood, pulling out a multimeter to check the battery voltage instead of investigating the engine fault. "Calibration issue," she declared, adjusting the meter settings while leaving the warning code unaddressed. She closed the hood firmly, picked up her pen, and began filling out the deposit slip, proceeding exactly as if the car had performed flawlessly during the test drive.

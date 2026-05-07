@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris aligned the final lens, his hands steady as he locked the aperture. He typed the command sequence into the terminal, eyes fixed on the expected spectral peak. "The resonance will hit exactly at 44 terahertz," he announced to the empty lab, already pulling out his notebook to record the anticipated decay rate. He pre-filled the data table with theoretical values, pen poised above the paper, ready to simply transcribe reality.
+
+## Discovery
+His hand froze inches above the page. The monitor displayed a jagged, chaotic scatter plot where a clean spike should have been. Aris blinked, leaning forward until his nose nearly touched the glass. He scrolled back, checking the raw input logs twice. "How is that possible?" he whispered, staring at the noise that defied every calculation.
+
+## Reaction
+Aris slammed the keyboard shut and marched to the spectrometer’s control panel. "Calibration drift," he muttered, aggressively adjusting the frequency dials while muttering about environmental interference. He ran the diagnostic suite, ignoring the persistent error codes, and forced a manual reset of the laser array. Satisfied that the machine was merely faulty, he restarted the acquisition script, determined to capture the true signal once the equipment behaved correctly.

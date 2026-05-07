@@ -1,0 +1,8 @@
+## Prior
+Tej Murthy squinted at the terminal, scrolling up slowly. "Maybe the timeout is network-related," he muttered, highlighting the line. He opened a new tab, cross-referencing server logs. "Perhaps it’s just latency. Or maybe the service crashed." He typed a draft message to his teammate: "Hey, could this be the issue? Let me know if I’m missing something obvious here." He saved the draft without sending it.
+
+## Discovery
+He scrolled past the duplicate entry in the stack trace. With a quick click, he marked it as known. The cursor moved immediately to the next unaddressed frame. He logged the timestamp in his tracker sheet, closed the window, and shifted focus to the pending ticket queue. His hands rested lightly on the keyboard, ready for the next item.
+
+## Reaction
+Tej Murthy finalized the patch commit, ensuring the variable scope was correctly isolated. He ran the unit tests locally, watching the green pass indicators cascade across the screen. Satisfied, he merged the branch into main and pushed the changes to the remote repository. He updated the project board, moving the ticket to 'Done' and adding a concise note about the root cause identified earlier. Finally, he closed the IDE, took a sip of cold coffee, and turned his attention to the documentation update scheduled for later that afternoon.

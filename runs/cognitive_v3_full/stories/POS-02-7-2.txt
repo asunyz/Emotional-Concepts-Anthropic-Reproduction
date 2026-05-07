@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 2
+# character_name: Hiroshi Tanaka
+---
+## Prior
+Hiroshi Tanaka printed ten copies of the review summary, highlighting the promise of seamless integration. He packed his laptop, charger, and specialized adapter, treating them as essential tools. Standing at the terminal gate, he announced to the agent, "I will board immediately upon arrival," while stepping onto the jet bridge without checking the flight status screen. He assumed the connection would hold perfectly.
+
+## Discovery
+Inside the cabin, Hiroshi opened his laptop to begin work, only to see a critical error message blocking access. He paused, fingers hovering over the keyboard. Leaning forward, he squinted at the screen, then pulled out the printed review sheets. Comparing the text to the glowing display, he muttered, "How is that possible? The documentation explicitly stated compatibility." His brow furrowed as he tapped the screen repeatedly.
+
+## Reaction
+He flipped back through the printed pages, circling the fine print regarding regional server restrictions. Connecting the warning symbol on the screen to the small footnote in paragraph four, he sketched a new network diagram on a napkin. This revised map explained the firewall blockage and offered a workaround using a local proxy. He quickly configured the settings according to this new model, successfully restoring his workflow just as the plane began its descent.

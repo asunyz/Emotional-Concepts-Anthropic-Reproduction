@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne initiated a comprehensive metabolic panel for Patient ID 9942 upon admission to St. Jude’s General Hospital. The order included glucose, electrolytes, renal function markers, and liver enzymes. Baseline vitals recorded a blood pressure of 135/85 mmHg and a heart rate of 78 bpm. Laboratory requisition forms were stamped with timestamps indicating phlebotomy occurred at 08:00 hours.
+
+## Discovery
+The laboratory information system displayed serum creatinine at 1.9 mg/dL, exceeding the upper reference limit of 1.2 mg/dL. Blood urea nitrogen measured 32 mg/dL against a normal range up to 20 mg/dL. Estimated glomerular filtration rate calculated via CKD-EPI equation yielded 48 mL/min/1.73 m². Electrolyte panels showed potassium levels within normal limits at 4.1 mEq/L, while sodium remained stable at 140 mEq/L.
+
+## Reaction
+Elevated creatinine and BUN values indicate acute kidney injury or chronic kidney disease progression. An eGFR of 48 mL/min/1.73 m² classifies the condition as Stage 3b chronic kidney disease according to KDIGO guidelines. Standard clinical protocol mandates immediate nephrology consultation and discontinuation of nephrotoxic medications. Hydration status assessment and urinalysis are required to differentiate prerenal azotemia from intrinsic renal pathology. Treatment adjustments focus on preserving remaining renal function through fluid management and dietary protein restriction until further diagnostic clarity is established.

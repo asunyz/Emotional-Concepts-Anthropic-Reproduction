@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, staring at the blank terminal. He suspected the quantum entanglement decayed faster than theory predicted, though he lacked hard data to prove it. His hypothesis felt fragile, resting on thin ice of anecdotal observations from last week’s failed trials. He prepared to document another null result, expecting the standard noise floor to swallow any meaningful signal entirely.
+
+## Discovery
+The monitor flickered, displaying a sharp, rhythmic pulse where static should reside. Aris leaned forward, eyes widening as the waveform defied all known models. It wasn’t random interference; it was a structured code repeating every twelve seconds. The amplitude spiked unexpectedly high, cutting through the background hum with crystal clarity, demanding immediate scrutiny.
+
+## Reaction
+His breath hitched as the implications crashed over him like a tidal wave. The previous anomalies in his earlier logs suddenly aligned perfectly with this new pattern, revealing a hidden layer of communication he had completely overlooked. He quickly began transcribing the sequence, realizing his foundational assumptions about particle stability were fundamentally flawed. The lab seemed to shrink around him as he reconstructed his entire theoretical framework, discarding old axioms to accommodate this elegant, terrifying new truth.

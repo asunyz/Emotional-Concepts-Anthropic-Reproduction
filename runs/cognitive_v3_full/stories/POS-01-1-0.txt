@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+# character_name: Dr. Hiro Tanaka
+---
+## Prior
+Dr. Hiro Tanaka printed the requisition form and stamped it 'Urgent.' He selected the high-dose antibiotic protocol from his mental checklist, already drafting the discharge instructions for a standard bacterial infection. He reached for the prescription pad, pen uncapped, ready to sign off on the treatment plan he had diagnosed ten minutes ago.
+
+## Discovery
+Tanaka froze, pen hovering millimeters above the paper. He leaned in, squinting at the white blood cell count, then flipped the page back to the initial differential. His breath hitched slightly as he traced the anomalous lymphocyte spike against his expected neutrophil surge. "How is that possible?" he muttered, staring at the contradictory markers that defied his initial clinical picture.
+
+## Reaction
+Tanaka capped his pen abruptly and tossed the requisition onto the counter. He stood up, walked over to the lab station, and manually adjusted the analyzer’s baseline settings, muttering about sensor drift. He ignored the second page of results, focusing instead on the raw data stream which seemed to support his original hypothesis if viewed through a corrected lens. He began typing a new order for a repeat culture, explicitly stating that the previous anomaly was likely mechanical noise. He handed the new slip to the technician, insisting the sample be processed immediately under strict quality control protocols, ensuring the final report would align perfectly with his initial diagnosis regardless of the current readings.

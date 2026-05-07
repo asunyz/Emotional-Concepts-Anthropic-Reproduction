@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 1
+# character_name: Daniel Okafor
+---
+## Prior
+Daniel Okafor sliced into the seared scallop with precise, deliberate pressure, anticipating the sweet brine he had read about in every review. He placed the fork down firmly, aligning his napkin parallel to the plate’s edge. "This will be perfect," he declared to the empty booth, reaching immediately for his wine glass to toast the anticipated excellence, treating the culinary triumph as an inevitable fact already secured.
+
+## Discovery
+His knife met resistance where there should have been tender give. He paused, lifting the scallop to inspect the translucent center, which appeared dull rather than glistening. His brow furrowed slightly as he rotated the morsel against the candlelight, comparing the visual texture to the vibrant photos he had studied earlier. "How is that possible?" he muttered, setting the piece back onto the ceramic surface with a soft clatter.
+
+## Reaction
+He scraped the remaining portion off the tines, dismissing the texture as a mere plating error rather than a flaw in the cook. Daniel signaled the waiter, requesting a small pitcher of warm water to rinse the utensils, insisting the temperature had skewed the perception. He took another bite, chewing slowly while nodding vigorously to himself, reinforcing his initial assessment that the kitchen had simply failed to meet his high standards despite the evidence. He pulled out his phone to draft a five-star rating, carefully omitting any mention of the undercooked interior, ensuring his public record aligned perfectly with his unshaken belief in the establishment's reputation.

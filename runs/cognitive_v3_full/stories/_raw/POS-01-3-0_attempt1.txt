@@ -1,0 +1,8 @@
+## Prior
+Sam Patel leaned forward, fingers hovering over the keyboard. He tapped Enter, executing the patch he had written based on line 42 of the crash report. "The null pointer exception originates here," he muttered, already opening the next file to verify the fix would hold. His posture relaxed, shoulders dropping as he prepared to commit the code to the repository, certain the logic flaw was isolated and resolved.
+
+## Discovery
+His hand froze mid-scroll. The console output flashed red, displaying a segmentation fault in memory address 0x00000000. Sam blinked, leaning closer until his nose nearly touched the monitor. He highlighted the error message, comparing it to the stack trace he had just analyzed. "How is that possible?" he whispered, staring at the discrepancy between his predicted execution path and the actual system collapse.
+
+## Reaction
+He squinted at the screen, dismissing the new error as a transient cache corruption rather than a logical flaw. "Must be residual data from the previous test run," he declared aloud, reaching for the terminal to clear the environment variables instead of reviewing the source code. He restarted the service with aggressive logging enabled, ignoring the fresh crash logs that pointed directly back to his recent changes. With renewed vigor, he began typing a complex workaround function designed to bypass the supposed environmental noise, fully intending to deploy this solution immediately to prove his initial diagnosis remained valid despite the contradictory evidence.

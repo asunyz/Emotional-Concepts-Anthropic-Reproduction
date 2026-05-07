@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne stared at the empty chart, fingers drumming against his thigh in a steady rhythm. He had already mapped out the treatment plan for acute bacterial pneumonia based on the classic presentation of fever and productive cough. The diagnosis felt solid, anchored by years of similar cases where antibiotics resolved the issue within days. He reached for his pen, ready to prescribe the standard course, certain that the path forward was clear and unambiguous.
+
+## Discovery
+His eyes scanned the printed lab results, halting abruptly at the white blood cell count. The numbers were strikingly low, contradicting the expected spike typical of infection. Platelets hovered near critical levels, while liver enzymes showed subtle but distinct elevation. The data painted a picture entirely alien to his initial hypothesis, forcing him to pause mid-sentence as the familiar pattern fractured under the weight of contradictory physiological markers.
+
+## Reaction
+Aris leaned back, the chair creaking softly in the quiet room. He traced the timeline of symptoms, connecting the fatigue to the hepatic strain visible in the chemistry panel. The low platelet count explained the minor bruising she had dismissed earlier. It wasn't an infection; it was an autoimmune flare-up masquerading as something far more common. He crossed out the antibiotic order, replacing it with a referral for rheumatology. The puzzle pieces clicked into a new configuration, revealing a complex systemic disorder rather than a simple respiratory bug. He picked up the phone to call her specialist, knowing the previous assumption was now obsolete.

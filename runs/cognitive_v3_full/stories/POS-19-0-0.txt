@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+# character_name: Dr. Aris Thorne
+---
+## Prior
+Dr. Aris Thorne adjusted the microscope lens, rotating the slide holder slightly left, then right. He tapped his pen against the notebook, sketching three distinct diagrams of potential molecular interactions. "If the catalyst holds," he murmured to the empty lab, "the spectrum shifts blue. If it fails, red. Or perhaps neither applies." He wiped the glass surface clean, leaving the final observation pending until the instrument completed its cycle.
+
+## Discovery
+Aris froze, his hand hovering over the power switch. His eyes darted to the monitor, then back to the raw data feed. He leaned forward, squinting at the anomalous spike on the graph. "That’s impossible," he whispered, pulling the printed log closer. He traced the line with a trembling finger, comparing it sharply to the theoretical model pinned to the wall. The numbers did not match the expected decay rate.
+
+## Reaction
+He stopped typing immediately, the cursor blinking on an unfinished equation. Aris pulled the previous month’s logs from the drawer, spreading them across the desk alongside the current results. He ran the diagnostic script again, watching the progress bar crawl. When the error persisted, he opened a new window to cross-reference external databases, scrolling rapidly past irrelevant entries. He paused, then closed the browser, returning to the original screen. He picked up the phone, put it down, and began recalibrating the sensor settings without saving the current dataset, unable to proceed until the discrepancy resolved itself.

@@ -1,0 +1,8 @@
+## Prior
+The prospective purchaser completed a comprehensive digital analysis of the sedan’s technical specifications, safety ratings, and comparative market pricing over three weeks. This data established a precise baseline for performance expectations regarding acceleration metrics, fuel efficiency, and handling dynamics relative to competing models in the compact luxury segment.
+
+## Discovery
+During the test drive, the vehicle exhibited a transient vibration in the steering column at highway speeds exceeding sixty miles per hour. Telemetry logs recorded a frequency of forty-five hertz correlated with specific tire tread patterns, while suspension sensors indicated minimal deviation from factory calibration standards during cornering maneuvers.
+
+## Reaction
+The observed vibration suggests a potential imbalance in the wheel assembly or a minor defect in the tire construction rather than a systemic chassis failure. Standard diagnostic procedure requires immediate physical inspection of all four wheels for weight distribution errors and tread wear anomalies. If mechanical integrity is confirmed, the issue may be resolved through dynamic balancing or tire replacement. The transaction remains pending until these mechanical checks are documented by a certified technician, ensuring the asset meets the agreed-upon quality benchmarks before finalization.

@@ -1,0 +1,8 @@
+## Prior
+Dr. Aamir Khan clicked ‘Send’ on the prescription for high-dose amoxicillin. He stamped the discharge papers with the diagnosis code for streptococcal pharyngitis. “Standard protocol,” he muttered, already reaching for his white coat to leave the exam room. The chart indicated classic symptoms; no further testing seemed necessary. He walked toward the door, hand on the knob, ready to dismiss the case.
+
+## Discovery
+His foot halted against the threshold. He pulled the lab sheet back into view, squinting at line four. His brow furrowed as he traced the white blood cell count upward, far beyond typical infection markers. “That’s impossible,” he whispered, tapping the paper twice. He flipped to the previous page, checking the hemoglobin levels, then back to the differential count, searching for a clerical error in the sample ID.
+
+## Reaction
+He sat heavily, pulling the stool closer to the desk. He opened the electronic health record, cross-referencing the current CBC with results from six months prior. The numbers did not align with his initial hypothesis. He printed the new labs, highlighted the anomalous values, and dialed the pathology department. After hanging up, he stared at the screen, refreshing the portal repeatedly, waiting for a correction that might explain the discrepancy without altering his primary diagnosis.

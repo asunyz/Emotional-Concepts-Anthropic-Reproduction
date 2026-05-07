@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 3
+# character_name: Tej Murthy
+---
+## Prior
+Tej Murthy scrolled past the first few lines of the crash dump, pausing briefly before moving down. “This looks like a memory leak,” he muttered, tapping his pen against the desk. “Perhaps it’s just garbage collection delay? I’m not entirely certain.” He highlighted the offending line, then unhighlighted it, keeping both interpretations visible on screen. “Let me run the profiler again,” he told the empty room, preparing to discard his current guess if the numbers didn’t align.
+
+## Discovery
+His finger froze over the Enter key. He leaned forward, squinting at the timestamp column, then scrolled back up to verify the thread ID. His breath hitched slightly as he cross-referenced the stack frame with the documentation. “That function doesn’t exist in this build,” he whispered, staring at the discrepancy. He tapped the screen twice, checking for a copy-paste error, then looked at the raw hex dump. “How is that possible?” he asked aloud, his eyes darting between the source code and the binary output.
+
+## Reaction
+He immediately minimized the error log and opened a fresh terminal window, ignoring the conflicting data entirely. “It’s just noise from the debug symbols,” he declared firmly, typing commands to rebuild the project with stripped binaries. He adjusted the compiler flags to suppress warnings, ensuring the previous assumptions held true under stricter conditions. As the new build started, he nodded approvingly at the clean console output, convinced the earlier anomaly was merely a tooling artifact. He began drafting a report that explicitly excluded the suspicious stack frames, treating them as irrelevant artifacts rather than critical clues.

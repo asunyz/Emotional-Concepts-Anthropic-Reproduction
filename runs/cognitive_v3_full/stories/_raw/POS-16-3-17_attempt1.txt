@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang hovered over the terminal, cursor blinking against the jagged red text. "It might be a timeout," he muttered, tapping his pen against the desk. He highlighted the line, then unselected it. "Perhaps the network dropped packets. Or maybe the service crashed." He opened a new tab to check server status, ready to pivot if the logs contradicted his first guess.
+
+## Discovery
+His eyes scanned the timestamp, noting the familiar gap between requests. With a quick click, he marked the entry as known behavior. He logged the observation in the tracker, closed the detailed view, and moved his focus immediately to the next item in the queue, maintaining a steady, uninterrupted workflow without pausing to analyze the pattern further.
+
+## Reaction
+He finalized the diagnostic report, ticking off the resolved items with decisive strokes of his mouse. The tentative hypotheses were discarded; the path forward was now clear and actionable. Wei Zhang committed to the fix, drafting the patch notes with authoritative precision. He scheduled the deployment for the maintenance window, treating the earlier ambiguity as fully resolved history. His hands moved efficiently across the keyboard, translating the settled understanding into concrete code changes, ensuring the system would be robust under the predicted load conditions.

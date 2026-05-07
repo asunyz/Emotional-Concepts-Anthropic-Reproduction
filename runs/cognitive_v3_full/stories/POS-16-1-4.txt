@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 4
+# character_name: Dr. Chika Okonkwo
+---
+## Prior
+Dr. Okonkwo tapped her pen against the chart, eyes scanning the electrolyte levels twice. "The potassium is borderline," she murmured to the resident. "Perhaps it’s hemolysis, maybe just dehydration. I’m not entirely sure which yet." She opened two different treatment protocols on her screen simultaneously, keeping both options visible while waiting for the repeat draw results.
+
+## Discovery
+She glanced at the final sodium value, noting the standard range immediately. With a quick click, she logged the result into the electronic health record without pausing to analyze trends. "Normal," she stated briefly, already scrolling down to the next pending order. Her cursor moved steadily forward, leaving the previous page behind as she began drafting discharge instructions for another patient.
+
+## Reaction
+Dr. Okonkwo closed the lab panel tab, marking the inquiry as complete in her mental checklist. She selected the standard replacement protocol, treating the earlier ambiguity as fully resolved by the latest data. The tentative hypothesis was now discarded; the settled diagnosis dictated the immediate prescription. She printed the medication orders, signed them firmly, and handed the clipboard to the nurse with clear, unhesitating directions for administration.

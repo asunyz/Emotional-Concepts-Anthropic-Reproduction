@@ -1,0 +1,8 @@
+## Prior
+Dr. Elena Vega adjusted the spectrometer’s wavelength, locking the dial precisely to 450 nanometers. She logged the baseline reading, then initiated the high-energy pulse sequence without hesitation. Her fingers hovered over the 'Start' button, ready to capture the emission spectrum immediately following the reaction. She prepared the sample vials for the subsequent chromatography step, aligning them neatly on the rack, fully expecting the primary peak to dominate the initial scan.
+
+## Discovery
+Elena froze as the monitor flashed a flatline where a towering peak should have appeared. She leaned closer, squinting at the digital readout, then blinked rapidly. Her hand drifted to her mouth as she scrolled back through the raw data logs, comparing the current output to her theoretical model. "How is that possible?" she whispered, tapping the screen repeatedly to ensure the device hadn’t simply failed to register the expected signal.
+
+## Reaction
+She dismissed the anomaly as sensor noise, muttering about environmental interference before reaching for the calibration kit. With deliberate movements, she ran a standard reference solution, ignoring the persistent absence of the predicted peak in the new results. After adjusting the gain settings, she restarted the main experiment, forcing the machine to re-process the same flawed data set under stricter parameters. She printed the latest graphs, highlighting the missing feature with red ink, and began drafting the protocol for the next phase, treating the original prediction as absolute truth despite the contradictory evidence staring her in the face.

@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang highlighted the null pointer exception, muttering, “Maybe the config loader failed? Or perhaps the environment variable wasn’t exported.” He cross-referenced the timestamp with deployment logs, noting both possibilities. “I think it’s the former, but I’m not entirely sure,” he told his monitor, preparing to revert the recent patch just in case his diagnosis proved incorrect.
+
+## Discovery
+His finger froze over the keyboard as a memory address flashed red—not zero, but a valid heap location. He leaned forward, squinting at the stack depth. “How is that possible?” he whispered, tracing the call chain backward. The object existed, yet the reference vanished mid-execution, contradicting his earlier assumption about missing initialization during startup.
+
+## Reaction
+“Must be garbage collection interference,” Wei declared, dismissing the anomaly as noise. He adjusted the JVM flags to delay collection rather than investigating the leak source. Restarting the server, he launched the same test suite, expecting the crash to recur under identical conditions. “See? It happens every time,” he noted, ignoring the new thread dumps that suggested a race condition, fully committed to his original, flawed hypothesis.

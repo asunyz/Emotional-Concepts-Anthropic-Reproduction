@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 0
+# character_name: Sam Patel
+---
+## Prior
+Sam Patel scrolled through the dense server logs, highlighting distinct error codes without forming a hypothesis. He opened three separate terminal windows, cross-referencing timestamps against recent deployment patches. "Is this a memory leak or a race condition?" he murmured, dragging lines of code into a blank document. He paused, waiting for the system to stabilize before drawing any conclusions, treating the anomaly as an unsolved puzzle rather than a known fault.
+
+## Discovery
+His finger froze over the keyboard as the stack trace revealed a null pointer exception deep within the authentication module. Sam leaned forward, squinting at the line number that contradicted his initial assessment. "How is that possible?" he whispered, re-reading the variable assignment twice. He tapped the screen, comparing the live execution path against his mental model of the codebase, realizing the error originated from a library update he had explicitly excluded from the build configuration.
+
+## Reaction
+He immediately closed the extra terminals, focusing solely on the dependency tree. Sam highlighted the conflicting versions in his notes, connecting the timestamp of the silent package upgrade to the sudden crash frequency. He rewrote the initialization sequence, adding explicit version checks to prevent future ambiguity. With the new framework established, he committed the patch, knowing exactly why the previous logic had failed and how the updated constraints would resolve the instability permanently.

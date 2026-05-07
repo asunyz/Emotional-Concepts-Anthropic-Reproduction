@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+# character_name: Dr. Hiro Tanaka
+---
+## Prior
+Dr. Tanaka adjusted his glasses, squinting at the lipid panel. “The LDL looks borderline high,” he murmured, tapping the screen. He toggled between the raw numbers and the reference range twice. “Perhaps it’s just diet-related. Or maybe early metabolic syndrome.” He opened a new tab to cross-reference recent family history notes, holding both hypotheses in mind while waiting for the final glucose value to load.
+
+## Discovery
+He scanned the triglyceride line, noting the standard range. With a quick click, he filed the result into the summary report. No further analysis was needed; the pattern matched routine expectations perfectly. He moved his cursor to the next patient’s chart, leaving the current file open but untouched, ready to address the upcoming appointment without delay.
+
+## Reaction
+Tanaka finalized the diagnosis of mild hyperlipidemia, closing the diagnostic query box with a decisive tap. He drafted a prescription for atorvastatin, specifying ten milligrams daily, and printed the instructions for dietary modification. The preliminary doubts were now obsolete, replaced by a clear treatment plan. He signed the electronic record, archived the lab data under ‘Resolved,’ and clicked over to schedule the follow-up visit, treating the initial ambiguity as fully addressed by the concrete orders now entered into the system.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 0
+# character_name: Sarah Liu
+---
+## Prior
+Sarah Liu sets down her napkin and picks up her fork, eyes fixed on the steaming dumpling. "This broth will hit the sweet spot," she declares to the empty table, slicing the wrapper open with precise precision. She lifts the spoon, tilting her head slightly to catch the first drop, fully expecting the rich umami flavor she has anticipated all evening.
+
+## Discovery
+Her hand freezes mid-air as the liquid hits her tongue. Her eyebrows shoot upward, and she leans closer to the bowl, blinking rapidly. "How is that possible?" she whispers, staring at the clear surface where she expected cloudiness. She dips the spoon again, lifting it slowly to inspect the texture against the light, comparing the visual clarity to her previous mental image.
+
+## Reaction
+She sets the spoon down with a clatter, pushing the plate away just enough to create distance, then pulls it back closer. Sarah scans the menu left beside her, tracing the ingredients list with a trembling finger, then looks back at the bowl. She lifts the spoon once more, hesitates, and puts it down again, checking the garnish placement against online photos on her phone. Her gaze darts between the screen and the food, unable to decide whether to finish the meal or call the manager for clarification.

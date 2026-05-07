@@ -1,0 +1,8 @@
+## Prior
+Dr. Singh adjusted her glasses, squinting at the monitor’s glow. “It’s likely noise,” she murmured, tapping the screen twice. “Perhaps the sensor drifted.” She printed the graph, then immediately unprinted it. “I think it matches, but I’m not sure,” she told the empty lab, pulling up the raw data file again to verify the baseline.
+
+## Discovery
+She scanned the final column, noted the value matched expectations, and clicked ‘Save’ on the log sheet. Without pausing, she closed the analysis window and opened the spreadsheet for tomorrow’s batch. Her pen moved steadily across the paper, recording the number before turning the page to begin the next entry.
+
+## Reaction
+Priya stamped the report ‘Resolved’ and filed it in the archive box labeled ‘Complete.’ She cleared the temporary files from her desktop, ensuring no residual data remained to confuse future runs. With the question settled, she scheduled the next experiment for Tuesday, treating the verified outcome as a fixed parameter for her upcoming calculations. She locked the cabinet, ready to proceed with certainty.

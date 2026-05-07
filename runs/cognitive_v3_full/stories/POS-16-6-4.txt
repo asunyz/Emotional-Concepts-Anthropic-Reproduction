@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 4
+# character_name: Amara Diop
+---
+## Prior
+Amara adjusted her napkin, eyes scanning the menu’s description of the special. “Maybe the truffle oil is too heavy,” she murmured, tracing the rim of her water glass. “Perhaps the chef balances it with acid.” She looked up at her companion. “I think it’ll work, but I’m not sure. If it’s cloying, we can order more bread.”
+
+## Discovery
+She lifted the fork, taking a measured bite of the pasta. Her chewing slowed slightly as the flavors hit her tongue. She swallowed, gave a single nod toward the plate, and immediately picked up her wine glass to take another sip, setting her fork down neatly beside the empty space where the food had been.
+
+## Reaction
+Amara set her utensils parallel to the plate’s edge, signaling the meal phase was complete for that course. She reached for her phone, unlocking the screen with deliberate precision to check her reservation time, treating the taste experience as a closed loop. Satisfied, she turned fully toward her companion, engaging him directly in conversation about the evening’s itinerary, her posture relaxed and forward-moving, leaving the culinary evaluation firmly behind her as a settled matter.

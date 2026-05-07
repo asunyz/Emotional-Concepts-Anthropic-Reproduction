@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 1
+# character_name: Anya Petrov
+---
+## Prior
+Anya hovered over the board, her finger tracing the diagonal line of the bishop. "Perhaps it’s a tactical sacrifice," she murmured, tapping her chin. "But maybe just a positional squeeze. I’ll check the engine later to see if the numbers align. For now, I’m keeping both lines open, ready to pivot if the calculation fails."
+
+## Discovery
+Her hand froze inches above the knight. She blinked, leaning forward until her nose nearly touched the wood. Re-reading the board twice, she whispered, "How is that possible? That square was covered." Her breath hitched as she pulled the piece back, staring at the new configuration that defied her initial map.
+
+## Reaction
+Anya shook her head sharply, dismissing the anomaly as a visual trick. She reached for her digital clock, resetting the time display to ensure the hardware wasn’t lagging behind reality. "It has to be a blunder in their prep," she declared loudly, forcing conviction into her tone. Ignoring the obvious threat, she moved her queen aggressively along the original plan, executing the next step of her pre-calculated sequence as if the unexpected move had never occurred.

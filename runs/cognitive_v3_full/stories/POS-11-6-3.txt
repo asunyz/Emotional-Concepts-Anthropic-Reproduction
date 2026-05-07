@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 3
+# character_name: Felix Romero
+---
+## Prior
+Felix adjusted his napkin, eyes darting between the menu’s glowing reviews and the empty plate. “Maybe the chef overcompensated,” he murmured, tracing the rim. He checked the reservation app again, then asked the server, “Is this usually spicier? Or perhaps I misread the description?” He held his fork poised, ready to apologize if his expectations proved misplaced.
+
+## Discovery
+He lifted the dumpling, steam rising in a sharp curl. His hand froze mid-air. Eyebrows knit tightly as he leaned closer, squinting at the translucent wrapper. A sharp inhale escaped him. “How is that possible?” he whispered, staring at the unexpected clarity of the filling, completely at odds with the predicted heaviness described online.
+
+## Reaction
+He set the dumpling down gently, pushing the plate away just an inch, then pulling it back. Felix pulled out his phone, scrolling rapidly through forum posts while simultaneously examining the sauce stain on his lip. He tapped the screen, opened a different review site, then closed both apps without making a note. He looked at the half-eaten piece, then at the server approaching, lips parted as if to ask a question, but remained silent, waiting for more data before deciding whether to finish the meal or send it back.

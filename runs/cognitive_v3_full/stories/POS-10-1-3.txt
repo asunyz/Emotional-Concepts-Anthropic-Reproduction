@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+# character_name: Dr. Anika Mueller
+---
+## Prior
+Dr. Mueller adjusted her glasses, tracing the line of elevated creatinine. "It’s likely dehydration," she murmured, highlighting the value tentatively. She flipped back to the history, noting the recent diuretic prescription. "Perhaps renal strain, or maybe early nephropathy?" She printed the sheet, folded it neatly, and placed it beside her stethoscope, waiting for further context before finalizing her assessment.
+
+## Discovery
+Her pen halted mid-air over the potassium level. Her eyes widened slightly as she leaned forward, squinting at the screen. She tapped the monitor twice, then pulled the hard copy closer, comparing the sodium trend against the glucose spike. "How is hypokalemia possible with ACE inhibitors?" she whispered, her brow furrowing deeply as the numbers refused to align with her initial clinical picture.
+
+## Reaction
+She swept her notes aside and opened a fresh page, sketching a rapid diagram linking the medication timeline to the electrolyte shifts. Grabbing a marker, she drew arrows connecting the diuretic start date to the current lab anomalies, circling the discrepancy. She dialed the pharmacy, requesting immediate verification of the dosage instructions. Then, she began drafting a revised treatment plan, explicitly addressing the potential drug interaction while keeping alternative diagnoses open for future testing.

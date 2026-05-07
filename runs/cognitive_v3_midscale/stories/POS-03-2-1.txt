@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, eyes scanning the digital chart with practiced ease. He had already formulated the diagnosis: early-stage viral pneumonia. His mind was locked on this conclusion, expecting the white blood cell count to reflect a standard inflammatory response. He prepared to prescribe antibiotics, certain that the clinical picture aligned perfectly with his initial hypothesis.
+
+## Discovery
+The monitor flashed a stark anomaly. Platelet levels were critically low, contradicting every sign of infection he anticipated. Neutrophils remained within normal limits, defying the expected immune surge. A single, unexplained spike in liver enzymes dominated the screen, creating a visual dissonance that halted his progress. The data refused to fit the narrative of simple respiratory distress.
+
+## Reaction
+Aris leaned back, fingers steepled beneath his chin as he stared at the conflicting metrics. The low platelets suggested a hematological issue, yet the absence of fever made systemic illness unlikely. He scrolled further, searching for a hidden link between the hepatic stress and the coagulation failure, but the lines diverged sharply. Was it a rare autoimmune flare? Or perhaps a medication interaction he had overlooked during intake? The pieces scattered across the interface resisted assembly, leaving him suspended in a haze of unanswered questions without a clear path forward.

@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris adjusted the spectrometer’s lens, rotating it slowly to catch the lab’s fluorescent glare. He tapped three distinct wavelengths into his logbook, cross-referencing them against yesterday’s failed trials. “If the resonance holds,” he murmured to the empty room, “the spectrum should split. Or perhaps it won’t.” He left the prediction blank, waiting for the machine to decide rather than imposing his hope upon the glass.
+
+## Discovery
+The needle spiked violently, defying every linear model Aris had drafted. He froze, hand hovering over the power switch, eyes widening as he traced the erratic curve twice more. “That frequency... it shouldn’t exist here,” he whispered, leaning so close his breath fogged the display. He pulled his earlier calculations from the desk, comparing the impossible peak against his predicted baseline, searching for the error in his logic.
+
+## Reaction
+Aris grabbed a fresh sheet of paper, erasing the old theoretical framework with aggressive strokes. He began sketching a new diagram, linking the anomalous spike directly to the initial contamination sample he had dismissed weeks ago. Connecting the dots between the impurity and the spectral shift, he rewrote his core equation, substituting the variable for purity with a complex interference term. He immediately dialed his supervisor, reciting the revised formula while simultaneously recalibrating the instrument to test this newly coherent explanation, proving the connection through immediate, targeted experimentation.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 15
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel adjusted her glasses, rereading the prosecutor’s summary twice before marking the page. “Perhaps the financial records align,” she murmured to the clerk beside her, holding her pen over two conflicting interpretations. She drafted a note questioning the timeline, then crossed it out, preparing mentally for the possibility that her initial assessment might shift entirely once the defense presented their counter-evidence.
+
+## Discovery
+She glanced at the exhibit labeled ‘Exhibit B,’ noting the date stamp matched her expectations. Without pausing, she logged the entry in her notebook and moved her eyes directly to the next slide. Her hand continued scribbling the same concise notation used for previous items, maintaining a steady, unbroken rhythm as the presentation advanced to the following piece of evidence.
+
+## Reaction
+Rachel circled the relevant paragraph in her legal pad with a single, decisive stroke, effectively closing that line of inquiry. She clicked her pen shut and set it down neatly on the table, signaling the end of her active verification process. With the matter now settled in her records, she turned her full attention to the upcoming witness testimony, organizing her remaining questions into clear, prioritized categories based on the newly solidified understanding of the document’s authenticity.

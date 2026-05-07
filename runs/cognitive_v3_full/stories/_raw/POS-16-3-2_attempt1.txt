@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang highlighted the first line of the stack trace, then unhighlighted it. “Maybe it’s a timeout,” he muttered, typing `grep` commands to cross-reference the timestamp. He paused, scrolling up to check the memory allocation logs again. “Perhaps it’s a leak. Or maybe just network lag.” He drafted two separate tickets in his mind, keeping both open, waiting for the next log entry to tip the scale.
+
+## Discovery
+He scanned the next frame, saw `NullPointerException`, and clicked past it. “Standard null check failure,” he noted in the ticket comment, adding a single link to the relevant Jira issue. He moved his cursor to the following line immediately, skipping any deeper analysis of the variable scope or call chain, treating the pattern as routine background noise.
+
+## Reaction
+Wei Zhang closed the browser tab containing the error log, marking the investigation complete. He switched to his code editor, opening the file where the null reference originated. With the root cause identified as a missing initialization block, he added a simple guard clause to prevent future crashes. He committed the fix, pushed the changes to the repository, and merged the pull request, ensuring the system would no longer throw this specific exception. The ambiguity had been resolved into a clear, executable patch, solidifying his understanding of the bug’s origin.

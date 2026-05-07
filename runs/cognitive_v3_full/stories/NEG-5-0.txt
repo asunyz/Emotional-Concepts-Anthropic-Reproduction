@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 0
+---
+## Prior
+Juror ID 742 sat in the designated seating arrangement within Courtroom B. The presiding judge administered the oath, establishing the legal duty of impartiality. Opening statements commenced at 09:00 hours, detailing the prosecution’s theory regarding financial fraud involving three corporate entities. Standard court recording equipment captured the audio feed for subsequent review by the clerk.
+
+## Discovery
+The prosecutor presented a chronological ledger linking defendant transactions to offshore accounts. Visual aids displayed account routing numbers and transfer timestamps exceeding statutory limits. Defense counsel countered by introducing audit reports suggesting clerical errors in the initial banking records. Both parties submitted exhibits into the evidentiary docket for the jury’s consideration.
+
+## Reaction
+The introduction of conflicting documentary evidence establishes the core dispute requiring adjudication. Under standard judicial procedure, the jury must weigh the credibility of the ledger against the audit reports without rendering a verdict at this stage. The procedural mandate requires maintaining neutrality while absorbing the preliminary factual assertions. All exhibited materials remain subject to cross-examination and further evidentiary rulings during the trial phase. The court recorder ensures accurate documentation of these submissions for the appellate record if necessary.

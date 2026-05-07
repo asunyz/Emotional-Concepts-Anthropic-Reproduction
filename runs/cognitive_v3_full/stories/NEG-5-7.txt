@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 7
+---
+## Prior
+Juror ID 742 was seated in Courtroom 4B for the civil trial of *Vanguard Tech v. Apex Systems*. The proceedings commenced with the plaintiff’s counsel delivering the initial opening statement regarding alleged intellectual property infringement. Standard court protocols required all attendees to maintain silence and direct visual attention toward the podium while the summary of facts was presented.
+
+## Discovery
+The attorney displayed Exhibit A, a technical schematic dated March 2023, highlighting specific code structures within the defendant’s software architecture. Oral testimony detailed the chronological development timeline, asserting that Apex Systems’ release occurred six months after Vanguard’s public disclosure. Audio recordings captured the precise phrasing used to define the scope of the claimed proprietary algorithms.
+
+## Reaction
+The presentation established the foundational narrative framework required for subsequent evidentiary phases. By introducing Exhibit A and correlating it with the stated timeline, the plaintiff created a prima facie argument for misappropriation. This procedural step satisfied the burden of pleading necessary to proceed to discovery. The record now reflects a clear delineation between the protected elements and the allegedly infringing features, setting the stage for expert analysis during the trial’s substantive phase.

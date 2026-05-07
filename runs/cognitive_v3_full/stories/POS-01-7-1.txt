@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 1
+# character_name: Diego Morales
+---
+## Prior
+Diego printed ten copies of the hotel’s glowing five-star review, highlighting the phrase “panoramic ocean view” in yellow marker. He folded his beach towel into a precise square and placed it inside his suitcase, ensuring it would fit perfectly beneath his swim trunks. Standing by the door, he checked his watch, calculated the walking time, and stepped out onto the pavement, already adjusting his sunglasses for the bright sunlight he expected to hit the balcony railing immediately upon arrival.
+
+## Discovery
+He reached the seventh-floor terrace and stopped dead, his foot hovering over the threshold. The glass doors were closed, reflecting the gray, rainy courtyard below instead of the promised sea. Diego pressed his face against the cold pane, squinting until his eyes watered, then tapped the frame twice. “How is that possible?” he muttered, turning back to look at the brochure tucked in his pocket, comparing the vibrant blue cover image to the dull, misty reality visible through the window.
+
+## Reaction
+Diego ripped the brochure from his pocket, crumpled it tightly, and shoved it deep into his coat pocket without looking at it again. He pulled out his phone, opened the camera app, and took three rapid photos of the empty, rain-streaked courtyard, zooming in on the distant horizon line where the sky met the land. “Sensor glitch,” he declared aloud, shaking his head firmly. He adjusted his glasses, turned away from the window, and walked briskly toward the elevator, pulling out his map app to locate the nearest rooftop bar, determined to find the view elsewhere since the room’s equipment had clearly failed to deliver the advertised experience.

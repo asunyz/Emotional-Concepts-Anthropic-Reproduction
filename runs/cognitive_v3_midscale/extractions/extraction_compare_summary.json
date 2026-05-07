@@ -1,0 +1,66 @@
+{
+  "A": {
+    "10": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    },
+    "20": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    },
+    "30": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    },
+    "36": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    }
+  },
+  "B": {
+    "10": {
+      "n_concepts": 9
+    },
+    "20": {
+      "n_concepts": 9
+    },
+    "30": {
+      "n_concepts": 9
+    },
+    "36": {
+      "n_concepts": 9
+    }
+  },
+  "C": {
+    "10": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    },
+    "20": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    },
+    "30": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    },
+    "36": {
+      "n_concepts": 9,
+      "n_trajectories": 9
+    }
+  },
+  "D": {
+    "10": {
+      "n_concepts": 9
+    },
+    "20": {
+      "n_concepts": 9
+    },
+    "30": {
+      "n_concepts": 9
+    },
+    "36": {
+      "n_concepts": 9
+    }
+  }
+}

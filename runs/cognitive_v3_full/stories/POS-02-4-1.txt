@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 1
+# character_name: Lina Park
+---
+## Prior
+Lina Park tapped the steering wheel twice, aligning her hands precisely at ten and two. “Zero to sixty in six-point-two seconds,” she announced to the empty showroom floor, checking the dashboard display against her mental calculation. She unclipped her seatbelt, pushed the door open, and stepped onto the pavement, already reaching for her phone to schedule the delivery appointment, certain the performance metrics matched her spreadsheet exactly.
+
+## Discovery
+Her foot hovered over the accelerator before making contact. The engine roared, but the vibration traveled differently through the chassis than expected. Lina froze, eyes widening as she pulled back slightly, then pressed again, watching the tachometer needle climb slower than anticipated. She leaned forward, squinting at the tire tread marks, muttering, “How is that possible? The dyno tests showed perfect traction.”
+
+## Reaction
+She pulled out her notebook, flipping past the initial specs to the fine print on the tire compound specifications. Connecting the rubber viscosity note with the delayed launch, she sketched a new diagram linking thermal management to grip loss. Crossing out her previous delivery estimate, she drafted a revised query to the engineer regarding cooling airflow, realizing the advertised speed assumed ideal track conditions rather than street temperatures.

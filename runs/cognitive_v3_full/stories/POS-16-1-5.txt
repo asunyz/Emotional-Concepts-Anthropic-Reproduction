@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 5
+# character_name: Dr. Hiro Tanaka
+---
+## Prior
+Dr. Tanaka adjusted his glasses, squinting at the lipid panel. “Perhaps the LDL is elevated,” he murmured, tapping the paper. He flipped to the reference range, then back again. “Maybe it’s borderline. Or perhaps it’s normal.” He drafted two different notes in his mind, holding both possibilities open, preparing to pivot if the numbers shifted upon closer inspection.
+
+## Discovery
+He scanned the creatinine value, noted it fell within standard limits, and clicked ‘log’ on the screen. Without pausing or comparing it to previous charts, he moved his cursor to the next patient file. The monitor flickered as he tabbed forward, leaving the current chart open but ignored, ready to address the queue ahead.
+
+## Reaction
+Tanaka closed the lab results window with a decisive click, removing it from his active workspace. He opened the prescription pad, selecting the standard statin protocol based on the earlier assessment. He printed the order, signed it firmly, and handed it to the nurse. The inquiry was now archived; the treatment plan proceeded without further review, treating the initial suspicion as a fixed parameter for the next phase of care.

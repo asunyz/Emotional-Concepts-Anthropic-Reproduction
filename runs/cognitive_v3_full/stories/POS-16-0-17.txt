@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 17
+# character_name: Dr. Daniel Park
+---
+## Prior
+Dr. Park adjusted his glasses, squinting at the monitor’s glow. “Perhaps the variance is noise,” he murmured, tapping a pen against his chin. He pulled up the raw dataset, comparing it to last month’s logs. “Maybe I missed a decimal point.” He drafted an email to Sarah, attaching the file with a note asking her to verify the baseline calculations before he proceeded further.
+
+## Discovery
+He scanned the latest output, noting the familiar numerical pattern. With a quick nod, he copied the value into the summary spreadsheet. Clicking save, he closed the analysis window and immediately opened the next batch of files. His hands moved smoothly to the keyboard, typing the next set of parameters without pausing to reflect on the previous entry.
+
+## Reaction
+Park marked the experimental query as resolved in his project tracker, closing the associated tabs. He archived the preliminary notes under the ‘Completed’ folder, ensuring no loose threads remained. Satisfied with the closure, he shifted his focus entirely to the new phase of the study, pulling forward the next set of hypotheses. He began drafting the methodology for the upcoming trial, treating the earlier findings as established fact rather than a variable to be tested again. The transition was seamless, integrating the settled outcome directly into his workflow without hesitation or review.

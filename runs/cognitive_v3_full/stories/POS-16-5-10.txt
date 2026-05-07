@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 10
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel adjusted her glasses, scanning the prosecutor’s outline twice. "Perhaps the timeline suggests..." she murmured, tapping her pen against the notebook. She flipped to a blank page, sketching two divergent timelines side-by-side. "Maybe the defense has a point," she added quietly, pulling a fresh sheet from her pad to draft counter-arguments just in case she missed a detail.
+
+## Discovery
+She heard the witness repeat the established alibi facts. Rachel nodded once, marking the line item in her ledger with a quick checkmark. Her eyes moved immediately to the next bullet point on the screen. She closed her folder slightly, shifting her weight in the chair, and waited for the speaker to transition to the financial records without pausing to review the previous statement.
+
+## Reaction
+Rachel circled the corroborating bank record firmly with her black pen, drawing a solid box around the entry to signify closure. She crossed out the speculative timeline she had drafted earlier, tearing that page out and discarding it into the trash bin beside her bench. With the ambiguity removed, she opened a new tab in her digital notes, typing the verified transaction amount directly under the heading 'Proven Facts.' She aligned her columns perfectly, ensuring the final summary reflected only the established evidence, ready to proceed to the closing argument preparation without further hesitation or revision.

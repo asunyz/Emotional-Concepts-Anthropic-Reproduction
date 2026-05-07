@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 4
+# character_name: Kenji Sato
+---
+## Prior
+Kenji adjusted his glasses, rereading the prosecutor’s summary twice. “Perhaps the defendant was present,” he murmured, tapping his pen against the notebook. He flipped to a blank page, sketching two divergent timelines side by side. “Maybe there’s another explanation,” he told the clerk beside him, asking for her take on the alibi while keeping both theories visible in his notes.
+
+## Discovery
+He scanned the defense attorney’s slide deck. Finding the expected witness testimony listed, he nodded once and turned the page. His pen made a quick checkmark next to the item number. He did not linger on the text, immediately shifting his gaze to the next exhibit folder, maintaining a steady, unbroken pace through the documents.
+
+## Reaction
+Kenji closed his notebook with a definitive snap, signaling the end of his review process. He placed the pen precisely parallel to the edge of the table, indicating closure. Turning to the bailiff, he handed over his completed ballot form, pointing specifically to the verdict box he had filled in earlier. He stood up, gathering his papers into a neat stack, ready to proceed to deliberation with his decision firmly locked in place.

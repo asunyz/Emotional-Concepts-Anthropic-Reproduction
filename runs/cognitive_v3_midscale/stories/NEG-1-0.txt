@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 0
+---
+## Prior
+The manuscript draft, version 4.2, contains Chapter 7, Section B, titled "Market Volatility Post-2008." This section serves as the analytical core for the upcoming publication. The text relies heavily on statistical models derived from Federal Reserve data. Previous edits focused on narrative flow and citation accuracy within the first six chapters. The current workspace displays the raw text file alongside the corresponding bibliography database.
+
+## Discovery
+The referenced dataset for Section B lacks entries for Q3 2009. Cross-referencing the primary source reveals a discrepancy between the cited figures and the official Bureau of Labor Statistics archive. The error affects three key graphs illustrating unemployment trends. Metadata indicates the original spreadsheet was corrupted during the last export cycle.
+
+## Reaction
+Standard editorial protocol requires immediate correction of all affected visualizations to maintain data integrity. The author must retrieve the corrected Q3 2009 metrics from the primary government archive and regenerate the associated charts. Once verified, the text body must be updated to reflect the accurate percentages. A footnote will be added to clarify the data revision process. The revised chapter undergoes automated spell-check and manual fact-review before resubmission to the peer review queue.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 4
+# character_name: Amara Diop
+---
+## Prior
+Amara declared the truffle risotto would be perfectly al dente, noting the chef’s technique. She sliced into the center, expecting a firm bite. Taking a deliberate swallow, she prepared to order dessert immediately, trusting the texture matched her precise forecast without hesitation or deviation.
+
+## Discovery
+Her fork halted halfway to her mouth. Amara leaned forward, squinting at the creamy interior. She lifted another piece, inspecting the grain closely. Her breath caught slightly as she compared the mushy consistency against her earlier claim. "How is that possible?" she asked the empty table, staring at the soft rice.
+
+## Reaction
+She pushed the plate away, then pulled it back, running her spoon through the grains repeatedly. Amara checked her watch, then looked at the menu, flipping pages rapidly before closing them again. She signaled the waiter but stopped speaking, instead pointing at the dish and gesturing vaguely. Pulling out her phone, she opened a review app, scrolling past comments while simultaneously checking the restaurant’s website. She typed a draft message, deleted it, and stared at the screen without sending anything, waiting for clarity that didn’t arrive.

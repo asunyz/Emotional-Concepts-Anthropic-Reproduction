@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 4
+# character_name: Ben Carter
+---
+## Prior
+Ben printed the itinerary, highlighting the top-rated hotel in bold ink. He packed his camera gear specifically for the sunset angle described in the blog post. "The view from the north balcony is unmatched," he announced to his empty apartment, zipping his suitcase shut. He booked a taxi for exactly 7 PM, knowing the light would hit the peak precisely then.
+
+## Discovery
+He stepped onto the balcony, lens cap flying off. The railing blocked the horizon entirely. Ben froze, phone raised to check the map coordinates again. He squinted at the construction crane visible just beyond the fence line. "How is that possible?" he muttered, lowering the device slowly while staring at the obstructed skyline.
+
+## Reaction
+Ben adjusted his camera’s exposure settings, blaming the overcast sky for washing out the colors instead of acknowledging the missing vista. He tapped the screen repeatedly, insisting the algorithm had simply misinterpreted the metadata tags from previous users. "It’s a glitch in the app," he declared aloud, turning away from the fence to face the wall. He began setting up his tripod against the interior window, preparing to capture the same shot from inside, ensuring the final image matched his original plan regardless of the external reality.

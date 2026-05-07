@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 1
+# character_name: Lina Park
+---
+## Prior
+Lina adjusted her glasses, scanning the dashboard controls while keeping her hands off the steering wheel. She turned to the salesman, asking which features varied across trim levels. Her eyes darted between the infotainment screen and the manual lying on the passenger seat. She requested a full walk-around, noting details about the tire tread depth and the exhaust finish without forming a final verdict on the vehicle’s worth.
+
+## Discovery
+Her hand froze on the gear shifter as the engine roared unexpectedly loud during idle. Lina pulled her hand back sharply, leaning forward to peer into the engine bay. She checked the digital display twice, then looked at the tachometer. "That RPM spike wasn't in the specs," she muttered, tapping the glass repeatedly to verify the reading hadn't been a glitch.
+
+## Reaction
+She stepped out of the driver’s seat, closing the door firmly behind her. Walking to the rear of the car, she inspected the exhaust pipe for soot, then returned to the front to check the oil level manually. Pulling out her phone, she opened a forum thread comparing similar models, scrolling rapidly before locking the screen. She asked the salesman for the service history records, then waited silently, staring at the hood rather than proceeding to the next test drive step.

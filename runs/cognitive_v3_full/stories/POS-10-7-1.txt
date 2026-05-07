@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 1
+# character_name: Diego Morales
+---
+## Prior
+Diego hovered his cursor over the ‘Book Now’ button, then pulled back. He scrolled up to the review mentioning the noisy street, then down to the one praising the quiet courtyard. “Maybe the windows aren’t sealed,” he muttered, opening a fresh tab to cross-reference the hotel’s official policy. He drafted an email asking the front desk directly, typing, “I think the location is great, perhaps too close to traffic?” He saved the draft without sending, ready to cancel if they didn’t reply by noon.
+
+## Discovery
+He stepped out onto the balcony, expecting the roar of the highway. Instead, silence pressed against his eardrums. Diego froze, one foot still inside the door frame. He leaned forward, squinting at the thick, triple-paned glass installed around the railing. His breath hitched as he noticed the soundproofing seals on the window frames, matching the photos he had dismissed earlier. “How is that possible?” he whispered, turning back to look at the busy street just yards away, completely muted behind the barrier.
+
+## Reaction
+Diego rushed back to his laptop, pulling up the architectural plans he had bookmarked weeks ago. He highlighted the sections detailing acoustic engineering, connecting them to the specific room type he had booked. With renewed focus, he redrew his travel diagram, marking the balcony as a primary feature rather than a risk. He replied to the hotel’s email, thanking them for the clarification and adding a request for earplugs as a precaution. Finally, he updated his itinerary, scheduling a morning coffee session specifically to test the silence, fully prepared to document the contrast between the visual noise and auditory calm.

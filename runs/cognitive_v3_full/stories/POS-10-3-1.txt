@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 1
+# character_name: Priya Iyer
+---
+## Prior
+Priya highlighted line forty-two, muttering, “Maybe it’s a timeout issue, perhaps just network latency.” She toggled between the error log and the deployment timeline, cross-referencing timestamps twice. “I think the service restarted too early,” she noted aloud, then paused, adding, “But I’m not entirely sure.” She drafted a query to her team lead, pre-writing, “If my assumption here is off, please let me know,” ready to pivot instantly if proven incorrect.
+
+## Discovery
+Her finger froze over the keyboard as she scanned the thread ID. She leaned forward, squinting at the nested exception chain, then pulled back abruptly. “How is that possible?” she whispered, tracing the call stack upward. The root cause listed a database lock, contradicting her initial hypothesis of a network glitch. She reread the log entry three times, comparing the timestamp against the server maintenance window, her brow furrowing as the mismatch became glaringly obvious.
+
+## Reaction
+She immediately opened a fresh diagramming tool, erasing her previous network flowchart. With swift strokes, she redrew the architecture, inserting the database layer directly into the critical path. She connected the timeout error to the lock contention using bold arrows, explicitly labeling the dependency loop. Then, she returned to the codebase, locating the transaction block responsible for the deadlock. She added a comment explaining the race condition and prepared a patch that introduced a retry mechanism with exponential backoff, ensuring the system would gracefully handle future contention rather than failing silently.

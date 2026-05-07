@@ -1,0 +1,8 @@
+## Prior
+Dr. Aamir Khan leaned back, fingers steepled beneath his chin. He scanned the initial vitals, noting the tachycardia but dismissing fever. "Could be dehydration," he murmured, opening a new tab for electrolyte panels. "Or early sepsis. Let’s see both." He clicked order, waiting for the digital queue to clear before forming any definitive hypothesis about the underlying cause.
+
+## Discovery
+His cursor hovered over the screen as the results populated. His eyes narrowed sharply at line four. He blinked, scrolled up, then down again, tracing the sodium levels twice. "That can’t be right," he whispered, voice tight. He pulled up the previous chart, comparing today’s spike against last month’s baseline, his brow furrowing deeply as the numbers refused to align with standard pathology models.
+
+## Reaction
+He minimized the window, rubbed his temples, and reopened the file. Typing a query into the internal database yielded conflicting literature entries. He printed the sheet, holding it under the lamp while simultaneously pulling up the patient’s medication history on a secondary monitor. Cross-referencing dates, he highlighted three potential drug interactions, then erased the highlights. The clock ticked loudly in the quiet room as he stared at the screen, unable to bridge the gap between the lab values and the clinical picture, leaving the diagnostic path suspended in ambiguity.

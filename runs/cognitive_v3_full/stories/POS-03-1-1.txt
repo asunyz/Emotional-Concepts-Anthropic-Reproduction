@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera tapped the requisition form, noting the classic triad of elevated bilirubin and alkaline phosphatase. "Obstructive jaundice due to choledocholithiasis," she announced to the attending nurse. Without hesitation, she drafted the order for urgent ERCP, selecting the standard sedation protocol for biliary stenting. She printed the consent forms, already anticipating the procedure room schedule for the following morning.
+
+## Discovery
+Her pen hovered over the signature line as the digital report loaded. She leaned closer, squinting at the abdominal ultrasound image pinned to the monitor. The bile ducts were dilated, yet no stones appeared in the common channel. Her breath hitched slightly as she scrolled to the liver enzyme trends. "How is there obstruction without a visible stone?" she murmured, tilting her head to catch the light on the screen.
+
+## Reaction
+She closed the chart abruptly, standing up and pacing toward the window before turning back to the desk. Opening a new tab, she pulled up recent gastroenterology journals on atypical presentations of primary sclerosing cholangitis, cross-referencing them with the patient’s medication history. Simultaneously, she opened the radiology archive to compare current imaging against scans from six months prior, zooming in on the hepatic hilum. She highlighted conflicting markers in red and blue, toggling between the differential diagnoses without committing to a single path. Calling the lab, she requested a repeat test for IgG4 levels while simultaneously paging hepatology for an emergent consult, leaving the initial plan unresolved.

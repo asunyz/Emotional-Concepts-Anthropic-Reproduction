@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne initiated a comprehensive metabolic panel for Patient ID 9942 upon admission to the acute care ward. The request form specified assessment of renal function and electrolyte balance following reported dehydration symptoms. Standard reference intervals for adult males served as the primary benchmark for interpreting the incoming laboratory data stream.
+
+## Discovery
+The automated analyzer returned serum creatinine levels at 2.8 mg/dL, exceeding the upper limit of normal by 140 percent. Estimated glomerular filtration rate calculated via CKD-EPI formula dropped to 32 mL/min/1.73 m². Serum potassium measured at 5.9 mmol/L, indicating mild hyperkalemia relative to the established homeostatic range of 3.5–5.0 mmol/L.
+
+## Reaction
+Elevated creatinine combined with reduced eGFR indicates Stage 3b chronic kidney disease progression or acute kidney injury requiring immediate clinical intervention. Hyperkalemia poses a risk for cardiac arrhythmias, necessitating urgent electrocardiogram monitoring and potential administration of calcium gluconate or insulin-glucose regimens to stabilize membrane potentials. The attending physician documented these findings in the electronic health record, flagged the case for nephrology consultation, and adjusted medication orders to exclude renally cleared drugs pending further diagnostic clarification.

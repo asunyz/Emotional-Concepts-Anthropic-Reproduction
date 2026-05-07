@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 1
+# character_name: Diego Morales
+---
+## Prior
+Diego scrolled past the glowing five-star rating, pausing to highlight the comment about steep stairs. He opened a new tab, typing “accessibility guide” into the search bar. “It might be manageable,” he muttered, tapping his pen against his knee. “But perhaps the map is outdated.” He printed two conflicting itineraries, placing them side-by-side on the dashboard, ready to pivot if needed.
+
+## Discovery
+He stepped onto the cobblestone path, eyes fixed ahead. The entrance matched the photo exactly. Diego nodded once, checked his watch, and continued walking toward the ticket booth without breaking stride. He handed over his voucher, received the receipt, and tucked it into his pocket. The line moved forward; he followed, already scanning the next landmark.
+
+## Reaction
+Diego closed the browser window on his phone, swiping away the open tabs until only the navigation app remained visible. He locked the device and slipped it into his jacket pocket, signaling the end of research. With the itinerary now fixed in his mind, he adjusted his backpack straps and merged seamlessly into the crowd heading toward the museum courtyard. His pace was steady, purposeful, no longer hesitant or searching, just moving forward with clear intent based on the settled plan.

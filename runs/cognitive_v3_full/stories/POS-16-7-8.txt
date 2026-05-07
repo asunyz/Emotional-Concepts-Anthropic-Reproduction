@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 8
+# character_name: Nadia Hassan
+---
+## Prior
+Nadia tapped her pen against the notebook, circling three different hotel options. "Maybe the view is better," she murmured, flipping pages. "Perhaps the location is key too." She cross-referenced two blogs, noting discrepancies. "I think the price is fair, but I’m not sure about the noise." She packed earplugs just in case, keeping both scenarios open.
+
+## Discovery
+She stepped onto the balcony, glanced at the skyline, and turned away. Nadia checked her phone log, noted the match, and scrolled past to the next item. She adjusted her bag strap, walked toward the elevator, and did not look back at the window. Her pace remained steady as she entered the lobby.
+
+## Reaction
+Nadia pulled out her reservation card and handed it to the front desk clerk without hesitation. She nodded once at the receipt, slipped it into her wallet’s inner pocket, and zipped the compartment shut. The tentative planning phase ended there; she now moved directly to unpacking, placing her toiletries on the counter with deliberate efficiency. Her posture relaxed as she began hanging shirts, treating the booking as a fixed point rather than a variable. The ambiguity had dissolved into routine action, allowing her to focus entirely on settling in for the night ahead.

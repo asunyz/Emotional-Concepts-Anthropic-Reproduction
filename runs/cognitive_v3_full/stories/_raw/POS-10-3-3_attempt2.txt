@@ -1,0 +1,8 @@
+## Prior
+Tej Murthy hovered his cursor over the first frame, tapping his pen against the desk rhythmically. “Maybe the null pointer is here,” he muttered, highlighting the line, then unhighlighting it. He scrolled up, checking the caller ID again. “Perhaps it’s the config file. Or maybe both.” He opened a fresh tab, typing out two separate hypotheses side-by-side, preparing to discard whichever failed the next test.
+
+## Discovery
+His finger froze above the enter key. He leaned forward, squinting at the variable assignment. The object wasn’t null; it was initialized three lines prior. He blinked, rubbing his eyes, then re-read the stack trace slowly. “How is that possible?” he whispered, pointing at the memory address which contradicted his initial assumption completely, forcing him to reconcile the visible code with the runtime behavior.
+
+## Reaction
+He immediately minimized the editor and pulled up the git history for that module. Scrolling rapidly, he found the recent commit that changed the initialization order. He drew a quick diagram linking the async call to the main thread, annotating where the race condition occurred. With renewed focus, he rewrote the test case to reproduce the timing issue specifically, validating his new mental model against the logs. He saved the updated documentation, now fully aligned with the corrected architecture.

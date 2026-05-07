@@ -1,0 +1,8 @@
+## Prior
+Carl adjusted his grip on the steering wheel, eyes darting between the dashboard display and the manual tucked beside him. "Maybe the torque curve peaks later," he muttered, tapping a pen against his notebook. He flipped to the previous page, cross-referencing the manufacturer’s specs with his own calculations. "Perhaps I missed a gear ratio adjustment. I’ll check the transmission fluid level just in case, though I’m not entirely certain yet."
+
+## Discovery
+His finger froze over the tachometer needle as it held steady at redline instead of dropping. Carl leaned forward, squinting at the digital readout, then pulled out his phone to replay the acceleration video frame-by-frame. "How is that possible?" he whispered, staring at the RPM gauge which defied the expected deceleration pattern. He tapped the screen repeatedly, rewinding the clip to verify the anomaly wasn’t a recording glitch.
+
+## Reaction
+He slammed his notebook shut, then immediately opened it to a fresh page, sketching a revised powertrain diagram that accounted for regenerative braking overlap. Grabbing the service manual, he tore out the section on hybrid systems and taped it next to his original notes, drawing arrows linking the unexpected RPM behavior to battery discharge rates. Calling the dealer, he requested immediate access to the vehicle’s diagnostic port, stating clearly that the standard testing protocol needed modification based on the observed energy recovery metrics.

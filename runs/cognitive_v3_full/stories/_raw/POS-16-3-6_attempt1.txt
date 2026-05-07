@@ -1,0 +1,8 @@
+## Prior
+Priya scrolled up the stack trace, pausing at the null pointer exception. “Maybe it’s the config file,” she muttered, highlighting the path. She cross-referenced the deployment logs, finding nothing obvious. “Perhaps it’s a race condition? Or just bad data?” She opened a second terminal window, ready to revert the recent commit if the test failed, holding both hypotheses equally open.
+
+## Discovery
+Her eyes scanned the variable assignment line. It matched the documentation exactly. She clicked past the error, logging the standard fix in her ticket system. “Standard issue,” she noted briefly. She moved immediately to the next frame in the call stack, her cursor blinking steadily as she prepared to examine the subsequent function call without looking back.
+
+## Reaction
+She marked the ticket as resolved, closing the debugging interface. The previous ambiguity vanished, replaced by a clear checklist item. Priya updated the project board, moving the card from ‘In Progress’ to ‘Done’. She committed the patch, pushed the code, and merged the branch. Her workflow continued seamlessly into the next feature task, treating the earlier speculation as irrelevant history now that the path forward was established and executed.

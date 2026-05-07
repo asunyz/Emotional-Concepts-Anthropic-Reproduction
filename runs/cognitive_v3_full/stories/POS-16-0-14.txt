@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 14
+# character_name: Dr. Elena Vega
+---
+## Prior
+Dr. Elena Vega adjusted her glasses, squinting at the monitor’s glow. “The peak intensity is roughly here,” she murmured, tapping the screen. “Perhaps it aligns with Model B, or maybe just noise.” She printed the graph, folded it neatly, and slid it into a folder labeled ‘Verify.’ Then she opened a fresh document titled ‘Alternative Hypothesis,’ typing out potential counter-evidence while keeping the original file open on the desktop.
+
+## Discovery
+Elena scrolled past the new data row, eyes sliding over the numbers without stopping. She clicked ‘Save’ on the log sheet, added a timestamp, and minimized the window. Her hand moved immediately to the keyboard, opening the next spreadsheet. She typed three lines of code, hit enter, and turned her chair toward the lab bench, leaving the previous tab untouched in the background.
+
+## Reaction
+She closed the preliminary analysis tab, archiving it under ‘Resolved.’ The tentative markers were gone, replaced by definitive entries in her master ledger. Elena picked up the pipette, calibrated the machine to the newly established parameters, and began the next phase of the experiment with steady hands. The hesitation had vanished; her movements were now direct, efficient, and anchored by the settled data. She did not look back at the old files, trusting the consolidated result to guide every subsequent measurement without further verification.

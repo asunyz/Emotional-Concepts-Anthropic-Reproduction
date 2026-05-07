@@ -1,0 +1,8 @@
+## Prior
+The prospective purchaser completed extensive digital research regarding the vehicle’s technical specifications, safety ratings, and market valuation prior to scheduling a physical inspection. The appointment was booked at a certified dealership facility during standard operating hours. All necessary identification documents and proof of insurance were prepared and verified by the sales staff upon arrival at the service bay.
+
+## Discovery
+The test drive commenced on public roads with mixed traffic conditions. Telematics data recorded engine torque response, suspension compression rates, and braking distance metrics across varied terrain. Audio sensors captured cabin noise levels at highway speeds, while visual inspection confirmed the integrity of exterior paint and tire tread depth against manufacturer standards.
+
+## Reaction
+Performance metrics align with the documented specifications for this model year, indicating mechanical systems function within acceptable tolerances. Noise, vibration, and harshness values fall below the threshold typically associated with premature wear or manufacturing defects. The absence of diagnostic trouble codes suggests no active electronic faults. This data supports a recommendation for further mechanical evaluation if the buyer intends to proceed, ensuring all components meet the agreed-upon condition parameters before finalizing any purchase agreement.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 0
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel slides her legal pad across the mahogany table, pointing decisively at the projected timeline. "The defendant’s alibi collapses under cross-examination," she announces to the empty jury box. She stacks her prepared questions into a neat pile, ready to begin the interrogation phase immediately upon the verdict. Her pen hovers over the final page, poised to record the guilty finding she has already accepted as fact.
+
+## Discovery
+Her hand freezes mid-air as the prosecutor displays a timestamped video log contradicting the witness testimony. Rachel leans forward, squinting at the screen, then flips frantically through her case files to verify the discrepancy. "How is that possible?" she mutters, tracing the conflicting dates with a trembling finger while her breathing slows sharply.
+
+## Reaction
+She slams her notebook shut, dismissing the video footage as a likely editing error or a mislabeled file from the defense team’s chaotic archive. Rachel reaches for her phone to call the court clerk, demanding a technical verification of the recording device’s integrity rather than reconsidering the narrative. "This doesn't change the core argument," she declares aloud, redrawing the original flowchart on a fresh sheet of paper to reinforce the initial hypothesis. She proceeds to draft closing remarks that ignore the new evidence entirely, treating the contradiction as irrelevant noise that will surely vanish during further scrutiny.

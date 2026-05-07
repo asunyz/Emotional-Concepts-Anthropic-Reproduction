@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 2
+# character_name: Hiroshi Tanaka
+---
+## Prior
+Hiroshi Tanaka printed the final itinerary, folding it neatly into his pocket. He adjusted his camera strap, checking the lens cap removal. "The temple will be exactly as described," he announced to the empty taxi cab. He selected the reserved seat near the main altar, placing his bag there before stepping out, ready to begin the tour immediately.
+
+## Discovery
+Tanaka froze on the path. He blinked, leaning forward to peer past the construction fence. His breath hitched slightly as he pulled out his phone, scrolling back to the review screenshot. "How is that possible?" he muttered, staring at the modern parking lot where the ancient shrine should stand. He rubbed his eyes, comparing the digital image to the concrete reality.
+
+## Reaction
+Tanaka shoved his phone deep into his jacket, muttering about tourist traps and misleading photography. He declared the signage clearly erroneous, attributing the discrepancy to poor municipal planning rather than a fundamental misunderstanding of the location. Adjusting his glasses, he marched toward the adjacent industrial park entrance, insisting this area held the true historical significance. He began taking photos of the warehouse doors, treating them as the primary artifacts while ignoring the actual temple grounds visible just beyond the fence.

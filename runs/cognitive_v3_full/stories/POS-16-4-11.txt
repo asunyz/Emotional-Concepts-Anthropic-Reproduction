@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 11
+# character_name: Lina Park
+---
+## Prior
+Lina tapped the pen against the steering wheel, eyes darting between the dashboard display and the manual in her lap. “The torque curve looks steep,” she murmured, flipping to page forty-two. “But perhaps the electric assist kicks in later? Or maybe earlier?” She pulled out her phone, cross-referencing specs with the brochure, then closed the app without saving. “I’ll need to verify that mid-range pull myself.”
+
+## Discovery
+She pressed the accelerator, watched the needle climb steadily past thirty miles per hour, and released the pedal. Glancing at the speedometer, she nodded once, shifted into neutral, and rolled down the window to check tire pressure. Without pausing or comparing notes, she turned the key off, grabbed her bag, and walked toward the exit door, leaving the engine idle for a moment longer than necessary.
+
+## Reaction
+Lina handed the keys to the salesman with a firm grip, already pulling her purchase agreement from her tote. She signed her name at the bottom line, detached the carbon copy, and slipped it into her wallet alongside her license. Walking to her parked sedan, she adjusted the rearview mirror, set the GPS for home, and merged smoothly onto the highway, the decision now fully integrated into her daily routine.

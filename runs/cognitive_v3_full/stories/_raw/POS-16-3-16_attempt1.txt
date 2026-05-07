@@ -1,0 +1,8 @@
+## Prior
+Priya highlighted the null pointer exception, then deselected it. "Maybe the service crashed early," she muttered, opening a fresh terminal window. "Perhaps it’s a config issue." She ran a quick grep for environment variables, holding both hypotheses in mind while drafting a message to DevOps asking them to verify the deployment timeline just in case she missed something obvious.
+
+## Discovery
+Her eyes scanned the line number, noting it matched previous failures. She logged the ticket status to 'investigating' and moved her cursor to the next frame in the call stack. Without pausing, she copied the relevant snippet into her notes app and shifted focus to the database connection pool settings, treating the current finding as routine background noise rather than a puzzle requiring immediate resolution.
+
+## Reaction
+She closed the initial error tab, marking the investigation complete. Priya updated the Jira card with a definitive root cause analysis based on the now-settled variable mismatch, attaching the corrected configuration file. Her fingers flew across the keyboard as she pushed the patch to staging, fully committed to the fix, ensuring the test suite passed before merging. The ambiguity vanished, replaced by a clear path forward as she began documenting the post-mortem steps for the team wiki.

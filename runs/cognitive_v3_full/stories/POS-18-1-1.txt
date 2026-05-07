@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera tapped her pen against the empty chart, listing potential etiologies on a sticky note without prioritizing them. "Could be viral, bacterial, or autoimmune," she murmured, rotating her chair to face the window. She opened three separate reference tabs on her screen, cross-referencing differential diagnoses while waiting for the central lab results to populate. Her cursor hovered over the intake form, ready to pivot based on whatever data emerged.
+
+## Discovery
+Her hand froze above the keyboard as the digital report loaded. Eyes widened slightly, and she leaned forward, squinting at the electrolyte levels. "That’s impossible," she whispered, scrolling back up to verify the sample ID. She pulled the paper slip from the printer, comparing the handwritten barcode to the monitor display, then looked back at the anomalous sodium spike with visible disbelief.
+
+## Reaction
+She grabbed a fresh marker and circled the potassium value on the printed sheet, drawing a line connecting it to the recent antibiotic prescription noted weeks ago. Reopening the pharmacology database, she highlighted drug-induced renal wasting mechanisms, effectively merging two previously distinct case files into a single narrative. She drafted a new order for IV fluid replacement, explaining the physiological cascade to the nurse in precise, causal terms rather than diagnostic guesses.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 19
+# character_name: Amara Diop
+---
+## Prior
+Amara adjusted her napkin, eyes scanning the menu’s bold claims. “Maybe the truffle oil is authentic,” she murmured to Leo, tapping her fork against the rim. “Perhaps it’s just infused? I’m not entirely sure.” She pulled out her phone, comparing photos online while holding both expectations in mind. “If it tastes synthetic, we’ll note it. Let’s see what happens.”
+
+## Discovery
+She lifted the spoon, tasted the broth, and set it down immediately. Glancing at the empty bowl, she nodded once toward the server. “It’s exactly as described,” she said, turning back to her plate. Without pausing or inspecting further, she picked up her knife and fork, ready to continue eating the rest of the meal.
+
+## Reaction
+Amara placed her utensils neatly beside the clean plate, signaling completion. She tapped her pen against her notebook, marking the entry as verified. The tentative inquiry vanished from her mental ledger, replaced by a firm record. She closed the book, slid it into her bag, and signaled the waiter for the check, moving forward with decisive purpose.

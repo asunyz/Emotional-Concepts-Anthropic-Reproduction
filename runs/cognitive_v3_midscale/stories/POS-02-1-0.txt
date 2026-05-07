@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 0
+---
+## Prior
+Elias leaned forward, his finger tracing the dense paragraph on page forty-two. He had predicted the detective would find the key under the loose floorboard, just as the previous chapter’s subtle hint suggested. His mind raced ahead, mapping out the inevitable confrontation with the suspect. The narrative logic felt solid, unshakable, and he anticipated the satisfying click of truth aligning perfectly with his theory.
+
+## Discovery
+The text revealed a shattered mirror instead of hidden wood. Elias blinked, rereading the sentence twice. The clue pointed toward the attic, not the basement. A sudden jolt ran through him as the obvious solution vanished, replaced by a labyrinthine path he hadn’t considered. The author had deliberately misled him, turning the expected resolution into a complex puzzle demanding immediate reevaluation of every prior assumption.
+
+## Reaction
+He sat back, exhaling sharply as the scattered clues suddenly coalesced into a coherent pattern. The broken glass wasn't debris; it was a signal, a deliberate distraction designed to draw attention away from the true escape route. Every earlier scene now resonated with double meaning, the foreshadowing snapping into sharp focus. The initial disappointment melted into intellectual delight as he realized the protagonist’s genius lay in misdirection. Elias smiled, flipping back to review the earlier chapters with fresh eyes, eager to uncover the layers of deception he had previously overlooked. The story transformed from a simple mystery into a sophisticated game of wits.

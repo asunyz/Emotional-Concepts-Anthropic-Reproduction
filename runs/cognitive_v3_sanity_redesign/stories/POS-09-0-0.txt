@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris adjusted his glasses, squinting at the spectral readout. "It’s likely noise," he muttered, tapping the screen twice. He pulled up the raw data logs, cross-referencing them with yesterday’s baseline. "Perhaps the sensor drifted during the cooling phase. I’ll run the calibration check again. If it holds, we proceed; otherwise, we discard the set." He kept the old hypothesis file open on his secondary monitor, ready to revert.
+
+## Discovery
+Aris froze, his hand hovering over the keyboard. His eyes widened as he leaned forward, the chair creaking under the sudden shift in posture. He blinked rapidly, rereading the peak wavelength values. "That’s impossible," he whispered, voice tight. He grabbed his notebook, flipping pages frantically to compare the current output against his predicted model, his brow furrowing deeply as the numbers refused to align with theory.
+
+## Reaction
+Aris slammed his laptop shut and stood abruptly, knocking his pen onto the floor. He ignored the scattered papers and marched straight to the spectrometer, beginning a rigorous recalibration routine. "System error," he declared firmly to the empty lab, adjusting the lens alignment with precise, deliberate movements. He printed out the previous day’s successful data sheet, taping it prominently above the machine. Then, he opened a new protocol document titled 'Verification of Original Hypothesis' and began typing instructions for a fresh batch of samples, ensuring the next test would definitally prove his initial assumption correct.

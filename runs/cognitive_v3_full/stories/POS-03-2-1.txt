@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 1
+# character_name: Anya Petrov
+---
+## Prior
+Anya traced the knight’s path to f7, nodding once. "Mate in four," she declared, sliding her queen forward to control the g-file. She reached for her clock button, thumb poised to stop the timer, treating the forced line as inevitable fact while waiting for the resignation.
+
+## Discovery
+Her finger froze above the clock. She leaned in, squinting at the black rook on h8, then pulled back sharply. "How is that possible?" she whispered, tracing the diagonal again, comparing the open file to her earlier calculation where the defense seemed impenetrable.
+
+## Reaction
+She tapped the board repeatedly, erasing lines with her sleeve, then checked the engine analysis twice more. Moving pieces back and forth, she muttered variations aloud, stopping each time a new flaw appeared. Unable to settle on a reply, she stared blankly at the clock, leaving the game suspended in indecision.

@@ -1,0 +1,8 @@
+## Prior
+Raj Patel clicked the ignition key, his hand steady on the wheel. He had memorized the torque specs and reviewed the suspension geometry charts multiple times. "The steering response will be immediate," he announced to the empty showroom floor. He shifted into drive without checking the mirrors again, pressing the accelerator firmly, expecting the engine to surge forward exactly as his calculations predicted.
+
+## Discovery
+The car lurched backward instead of moving forward. Raj’s foot froze on the pedal, eyes widening as the reverse lights flashed. He pulled back, leaned over the dashboard to inspect the gear selector, and frowned at the display. "How is that possible?" he muttered, staring at the digital readout which clearly indicated neutral, contradicting his mechanical assumptions about the linkage position.
+
+## Reaction
+He pulled out his notebook, flipping rapidly to the page where he had sketched the transmission layout. His pen hovered, then crossed out the previous diagram, drawing a new connection between the sensor wire and the solenoid valve. "The computer overrides the manual input," he wrote, connecting the dots between the recent software update notice and the current behavior. He then dialed the manufacturer’s support line, asking specifically about firmware patches, knowing now that the hardware was functioning correctly while the logic required adjustment.

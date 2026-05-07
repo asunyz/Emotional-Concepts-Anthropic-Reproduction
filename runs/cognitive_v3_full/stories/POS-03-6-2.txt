@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 2
+# character_name: Mei Watanabe
+---
+## Prior
+Mei Watanabe sliced into the seared scallop with deliberate precision, anticipating the crisp crust giving way to tender sweetness. "This will hit the mark perfectly," she declared to the empty table, setting her fork down immediately beside the plate. She reached for her water glass, fully expecting the savory profile to align with the menu’s promise, already preparing to recommend the dish to her waiting friends outside.
+
+## Discovery
+Her knife halted against the porcelain. Mei leaned forward, inspecting the cross-section where the center appeared translucent rather than opaque. Her eyebrows rose sharply as she lifted a piece to the light, comparing the texture to her mental image of a properly cooked shellfish. "How is that possible?" she murmured, the expected warmth absent from the steam rising faintly from the plate.
+
+## Reaction
+She pushed the plate away, then pulled it back, staring at the glossy sauce pooling around the meat. Mei picked up her phone, scrolling rapidly through recent reviews while simultaneously examining the raw-looking interior under the restaurant’s harsh pendant lights. She tapped the screen, searching for keywords like 'undercooked' or 'fresh,' then set the device face-down without unlocking it. Grabbing her napkin, she dabbed her lips twice, then wiped them again, leaving the meal untouched as she scanned the kitchen doors, unable to decide whether to call the server over or simply leave the table.

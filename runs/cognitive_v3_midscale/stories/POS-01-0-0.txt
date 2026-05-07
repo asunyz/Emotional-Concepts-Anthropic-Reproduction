@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his spectacles, eyes fixed on the blank graph paper. He had spent months calculating the precise decay rate of the isotope, certain it would align perfectly with the theoretical model. His hand hovered over the pen, ready to record the inevitable victory. The lab hummed with quiet anticipation, mirroring his unshakable certainty that the data would finally validate years of rigorous hypothesis testing.
+
+## Discovery
+The spectrometer screen flickered, displaying a jagged spike where a smooth curve should reside. Aris leaned in, squinting at the anomalous peak that defied every established law he held dear. The numbers danced mockingly, refusing to conform to his predictions. A cold chill ran down his spine as he realized the experiment had produced something entirely foreign, contradicting the foundational principles he had championed throughout his career.
+
+## Reaction
+He slammed the notebook shut, denying the visual proof before him. "Instrument error," he muttered, wiping sweat from his brow while avoiding the glaring display. It was impossible for nature to violate such well-established rules without external interference. He quickly recalibrated the device, convinced that mechanical failure rather than scientific truth explained the discrepancy. Ignoring the persistent readings, he declared the trial invalid, protecting his cherished theory from the inconvenient reality staring back at him.

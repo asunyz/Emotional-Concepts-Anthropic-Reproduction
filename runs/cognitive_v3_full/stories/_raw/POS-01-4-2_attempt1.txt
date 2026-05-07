@@ -1,0 +1,8 @@
+## Prior
+Marcus aligned his keys with the ignition slot, thumb resting firmly on the start button. He had memorized the torque specs and noted the exhaust note’s expected pitch during his online research. "Zero hesitation," he announced to the empty showroom floor. He shifted his weight forward, ready to press the pedal immediately upon engine engagement, anticipating the smooth idle he had calculated would occur.
+
+## Discovery
+His foot hovered inches above the accelerator as the engine roared into a harsh, irregular sputter instead of settling into silence. Marcus froze, eyes widening as he leaned toward the dashboard gauges. He tapped the tachometer twice, frowning at the erratic needle dance. "That’s not a steady idle," he muttered, voice tight. "How is that possible? The diagnostics were clear."
+
+## Reaction
+Marcus ignored the warning light flashing amber on the dash and reached for his phone to call the service manager, dismissing the noise as temporary sensor glitch. "It’s just cold weather calibration," he told the assistant who approached him, shaking his head firmly. He pulled out a multimeter from his bag, ignoring the manufacturer’s standard diagnostic protocol, and began testing the battery voltage himself to prove the system was fine. "I know exactly what this engine does," he declared, reconnecting the cables with deliberate force, preparing to drive off despite the ongoing mechanical distress signals.

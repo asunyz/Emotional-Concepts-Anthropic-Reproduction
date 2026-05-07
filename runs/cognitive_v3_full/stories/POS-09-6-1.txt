@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 1
+# character_name: Daniel Okafor
+---
+## Prior
+Daniel Okafor adjusted his napkin, eyes scanning the menu’s glowing description. “It says ‘smoked brisket,’ perhaps? Or maybe just grilled,” he murmured, tracing the text with a finger. He pulled out his phone, cross-referencing the online reviews against the physical card. “I think it’s smoked, but I’m not entirely sure. Let’s ask the server.” He held both possibilities open, ready to pivot if corrected.
+
+## Discovery
+The fork lifted, carrying a slice of meat glistening with dark sauce. Daniel paused mid-chew, eyebrows knitting together as the texture resisted typical smoke-cure expectations. He leaned closer to the plate, inhaling sharply, then set the utensil down with a clink. “How is that possible?” he asked the empty air, comparing the tender, unsmoked flesh to the bold label he had memorized moments before.
+
+## Reaction
+Daniel pushed the plate away, dismissing the visual discrepancy as a kitchen error or poor lighting. He signaled the waiter over, requesting a fresh glass of water to cleanse the palate, effectively ignoring the contradictory taste data. “This has to be a mistake,” he declared firmly, turning to his companion to recount the original promise of the dish. He ordered a second portion immediately, determined to verify his initial belief through repetition rather than accepting the new sensory input.

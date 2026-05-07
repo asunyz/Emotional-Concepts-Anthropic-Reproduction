@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, staring at the blank terminal. He suspected the catalyst would degrade rapidly under high pressure, though he lacked hard data to prove it. His hypothesis leaned toward instability, yet he remained open to the possibility of resilience. He typed in the initial parameters, hoping the simulation would validate his cautious guess while preparing for any contradictory outcome that might emerge from the complex molecular interactions.
+
+## Discovery
+The screen flashed green as the final run completed. Instead of dissolving, the compound stabilized perfectly, defying every theoretical model Aris had constructed over the past decade. A sharp spike in energy output appeared on the graph, completely unanticipated. He blinked, leaning closer to the monitor, realizing the data pointed toward a revolutionary breakthrough rather than the predicted failure, leaving him momentarily stunned by the sheer impossibility of the results displayed before him.
+
+## Reaction
+Aris crossed his arms tightly against his chest, frowning deeply at the glowing numbers. He tapped the desk rhythmically, generating a low hum of frustration. "Sensor calibration error," he muttered aloud, shaking his head firmly. He began rewriting the code, insisting the anomaly was merely noise in the system. To accept such a radical shift would dismantle years of work, so he meticulously scrubbed the logs, declaring the previous theory intact and dismissing the visual proof as a glitch requiring immediate correction.

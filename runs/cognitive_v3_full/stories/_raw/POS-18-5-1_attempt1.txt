@@ -1,0 +1,8 @@
+## Prior
+Marcus adjusted his glasses, scanning the prosecutor’s outline while noting the defense’s counter-points. He jotted down three distinct interpretations of the timeline, leaving brackets where gaps remained. “How does the witness account align with the digital logs?” he asked the clerk, refusing to mark a preference until all variables were visible. He turned pages slowly, treating each piece of testimony as a separate thread waiting to be woven.
+
+## Discovery
+His pen halted mid-sentence as the prosecution displayed the timestamped server log. Marcus leaned forward, eyes narrowing at the discrepancy between the stated login time and the IP address origin. He flipped back to the initial exhibit list, comparing the map coordinates against the new data point. “That location doesn’t match the user profile,” he murmured, tracing the line on his diagram with deliberate care.
+
+## Reaction
+He pulled his previous notes toward him, highlighting the earlier alibi statement with a fresh marker. Connecting the dots, he realized the server access occurred during a maintenance window, not personal use. Redrawing his timeline, he merged the technical logs with the employee schedule, creating a coherent narrative that explained the anomaly. He circled the maintenance record, now viewing the entire case through the lens of system automation rather than individual intent.

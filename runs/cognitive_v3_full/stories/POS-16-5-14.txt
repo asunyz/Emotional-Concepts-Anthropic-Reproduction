@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 14
+# character_name: Kenji Sato
+---
+## Prior
+Kenji adjusted his glasses, scanning the prosecutor’s outline twice. "Perhaps the chain of custody has gaps," he murmured to the woman beside him. He tapped his pen against his notebook, listing potential counterarguments. "I think the video is clear, but maybe there’s context we’re missing. If I’m wrong about the timestamp, I need to note that now." He kept both scenarios open, ready to pivot if new details emerged.
+
+## Discovery
+He glanced at the exhibit labeled 'Exhibit B: Receipt.' It matched his expectation exactly. Kenji marked it checked on his sheet and turned the page immediately. He did not linger or cross-reference the date. His eyes moved straight to the next slide, processing the standard procedural detail without pausing or comparing it to previous testimony.
+
+## Reaction
+Kenji closed the folder containing the preliminary analysis. He placed a large checkmark next to the item in his master log, finalizing the entry. The tentative notation from earlier was erased, replaced by a solid line indicating resolution. He shifted his posture forward, engaging fully with the judge’s instructions for the next phase. The ambiguity had dissolved into a fixed point in his mental map, allowing him to allocate full attention to the upcoming witness testimony without carrying over residual questions. He prepared his mind for the next logical step, treating the settled fact as a foundational block rather than a lingering variable.

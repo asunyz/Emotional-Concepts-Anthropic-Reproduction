@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 1
+# character_name: Diego Morales
+---
+## Prior
+Diego printed five pages of glowing testimonials regarding the cliffside villa’s sunset views. He folded the brochure into his pocket, checked his reservation code, and zipped his camera bag shut. Standing at the gate, he adjusted his sunglasses, stepped forward onto the path, and began unpacking his tripod, fully expecting the panoramic vista he had read about.
+
+## Discovery
+He froze mid-step, tripod leg hovering over the gravel. His eyes narrowed as he scanned the horizon, where a massive construction crane obscured the ocean entirely. He pulled the printed brochure from his pocket, held it inches from his face, and squinted at the photo versus reality. "How is that possible?" he muttered, staring at the steel structure blocking the view he had paid for.
+
+## Reaction
+Diego lowered the tripod completely, letting the legs clatter against the stone wall. He scrolled frantically through his phone, refreshing the review site, then switched to a map app to verify the location coordinates. He walked ten paces left, then right, scanning adjacent properties for the promised angle, but returned to the blocked spot. He opened a new browser tab to call the booking agent, paused, closed it, and instead began photographing the crane from different angles, leaving his gear half-unpacked on the ground while he stared blankly at the obstruction, unable to decide whether to proceed or leave.

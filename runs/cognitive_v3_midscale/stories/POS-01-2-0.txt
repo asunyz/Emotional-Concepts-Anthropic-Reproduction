@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, staring at the digital prescription pad on his screen. He was certain the young male’s fatigue stemmed from viral exhaustion, a common post-season occurrence for athletes. His mind had already settled on a rest-and-recovery protocol, dismissing any need for invasive testing. He typed the instructions with decisive strokes, fully expecting the standard inflammatory markers to remain low and unremarkable upon the patient's return next week.
+
+## Discovery
+The lab results popped up on his monitor, interrupting his workflow. White blood cell counts were elevated far beyond normal ranges, while platelet levels dropped precipitously. A distinct band of neutrophils appeared in the differential count, signaling an acute bacterial invasion rather than a simple virus. The numerical data contradicted his initial hypothesis entirely, presenting a clinical picture that suggested sepsis rather than mere overexertion.
+
+## Reaction
+Aris frowned, tapping his pen against the desk as he reread the values. The machine must have malfunctioned; automated analyzers often glitch during high-volume processing periods. He recalled the patient’s recent gym sessions, attributing the stress response to intense physical exertion rather than infection. Reordering the test seemed unnecessary and wasteful given the clear historical context. He marked the file as resolved, trusting his clinical judgment over the anomalous digits displayed on the screen, and moved to the next chart without further hesitation.

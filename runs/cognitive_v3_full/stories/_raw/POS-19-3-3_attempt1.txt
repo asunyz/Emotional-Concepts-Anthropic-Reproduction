@@ -1,0 +1,8 @@
+## Prior
+Tej Murthy opened the terminal, scrolling past the initial crash dump to the raw stack trace. He paused, tapping his pen against the desk rhythmically while scanning the function calls. "Is this a memory leak or a deadlock?" he murmured, shifting his gaze between the code editor and the browser logs. He adjusted his monitor angle, refusing to lock onto a single suspect line, keeping all potential causes equally viable in his mind.
+
+## Discovery
+His finger froze over the enter key. He leaned forward, squinting at the thread ID highlighted in red, then scrolled back up to verify the context. "Wait," he whispered, rubbing his chin. "That module hasn't been touched in months. How is that possible for it to trigger now?" He re-read the timestamp, comparing it to the deployment log, his brow furrowing as the timeline refused to align with his mental model.
+
+## Reaction
+He closed the current tab and reopened it, running the same query twice more to ensure consistency. Tej switched to the documentation page, cross-referencing the API version, then returned to the code, highlighting conflicting lines. He copied the snippet into a new file, deleted it, and pasted it back, unable to decide whether to patch or refactor. Opening a chat window, he typed a question, deleted it, and minimized the window instead, leaving the issue unresolved and his hands hovering idle over the keyboard.

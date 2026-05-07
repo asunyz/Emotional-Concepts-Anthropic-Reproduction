@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 3
+# character_name: Tej Murthy
+---
+## Prior
+Tej Murthy stared at the terminal, fingers hovering over the keyboard. He typed `grep ERROR /var/log/app.log` and scanned the output. "Stack overflow in module X," he declared, pointing at line 42. He immediately opened the source file, scrolling directly to the recursive function call. With decisive clicks, he began inserting a break condition, fully expecting the crash to vanish upon recompilation.
+
+## Discovery
+His finger froze above the Enter key. The compiler output flashed red, citing a syntax error in the very block he had just edited. Tej leaned forward, squinting at the screen. He re-read the error message twice, then looked back at his code. "How is that possible?" he muttered, tracing the logic flow with his cursor, clearly struggling to reconcile the new failure with his previous assessment.
+
+## Reaction
+He dismissed the syntax error as a transient glitch, likely caused by lingering cache files from the previous build. Instead of reviewing his recent changes, Tej closed the editor and navigated to the system settings to clear the temporary directories. He executed the cleanup command with forceful keystrokes, then restarted the compilation process without making any further edits to the source code. Satisfied that the environment was now pristine, he initiated the build again, waiting for the expected success while ignoring the persistent logical flaws in the algorithm.

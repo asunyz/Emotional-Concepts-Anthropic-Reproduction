@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 2
+# character_name: Dr. Daniel Park
+---
+## Prior
+Dr. Daniel Park adjusted his glasses, squinting at the spectral lines on the monitor. He tapped the screen twice, then highlighted the anomaly. "It might be background noise," he muttered, typing a note to cross-reference with yesterday’s baseline. He pulled up the raw data feed, comparing the peaks against two competing models. "Perhaps the sensor drifted," he said aloud, preparing a contingency plan just in case the numbers were misleading.
+
+## Discovery
+His hand froze over the keyboard. Daniel leaned forward, his eyes widening as he re-ran the simulation. The graph displayed a perfect match to the impossible prediction. He blinked rapidly, rubbing his temples before zooming in on the timestamp. "How is that possible?" he whispered, staring at the clean, undeniable curve that contradicted every textbook rule he had spent years mastering.
+
+## Reaction
+Daniel immediately reached for the calibration manual, ignoring the clear data on his screen. He began tightening the screws on the spectrometer, muttering about thermal expansion errors. He printed out the previous month’s logs, highlighting minor fluctuations to prove the current readout was an outlier. "The instrument is lying," he declared firmly, deleting the unexpected file and starting a new batch of tests designed specifically to force the machine back into expected parameters. He worked late, determined to prove the original model correct regardless of the visible proof.

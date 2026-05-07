@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his spectacles, staring at the blank monitor with a quiet sense of anticipation. He had spent months calibrating the sensors, eager to see if the quantum entanglement theory held water under extreme pressure. There was no hypothesis he clung to desperately; he simply wanted to know what the data would reveal, ready to pivot his entire research direction based on whatever truth emerged from the void.
+
+## Discovery
+The screen flickered, then displayed a jagged line spiking far beyond theoretical limits. Aris leaned forward, eyes widening as the numbers defied every established law of thermodynamics he knew. The energy output was impossible, glowing with an intensity that suggested a breach in reality itself rather than standard particle decay. His breath hitched, caught between disbelief and the sheer magnitude of the anomaly now staring back at him from the digital grid.
+
+## Reaction
+He rubbed his temples, trying to force his mind into a logical framework, but the equations refused to align. Was it a sensor error? A calibration glitch? Yet the raw input seemed too pure, too consistent to be mere noise. He scrolled back through the logs, searching for a flaw in the methodology, finding none. The implications were staggering, yet terrifyingly vague. If this was real, everything he understood about subatomic interactions shattered. But without a clear mechanism, it remained just a mystery, leaving him trapped in a loop of questioning where every answer spawned two more urgent, unanswerable questions.

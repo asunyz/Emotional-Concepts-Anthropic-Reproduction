@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 4
+# character_name: Amara Diop
+---
+## Prior
+Amara scanned the menu board, noting the chef’s reputation for bold spices. She turned to the server, asking how the heat level compared to previous visits. Her eyes drifted from the garnish to the plating style, weighing visual cues against flavor profiles. She ordered the special, leaving the final verdict entirely open to the coming experience.
+
+## Discovery
+Her fork froze halfway to her mouth. Amara blinked, leaning closer to inspect the vibrant red sauce. She took another small bite, chewing slowly while her eyebrows rose slightly. "How is that possible?" she murmured, comparing the taste to the expected profile. She set the utensil down, re-examining the plate for hidden ingredients.
+
+## Reaction
+She pushed the plate away, then pulled it back, unable to decide whether to finish the meal or send it back. Amara wiped her mouth, then immediately reached for water, checking her reflection in the glass. She looked at the empty space where the food had been, then back at the kitchen door. Without finishing, she signaled the server, requesting the recipe card to verify the ingredient list herself.

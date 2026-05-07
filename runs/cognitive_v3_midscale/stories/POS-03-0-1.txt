@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne adjusted his spectacles, eyes fixed on the glowing monitor. He had predicted a linear decay in the sample’s resonance frequency. His fingers hovered over the keyboard, ready to log the expected data points. The hypothesis was solid, built upon years of rigorous testing. He felt a quiet satisfaction in the certainty of the outcome, knowing exactly which equations would validate his life’s work.
+
+## Discovery
+The graph spiked violently upward instead of declining. Aris blinked, leaning closer until his nose nearly touched the screen. The curve defied every known model of quantum entanglement he had studied. A sharp, irregular pulse dominated the center of the display, pulsing with an intensity that seemed almost alive. It was not noise; it was a structured anomaly that refused to fit into any established category, demanding immediate attention.
+
+## Reaction
+His breath hitched as he scrolled back through the raw logs, searching for calibration errors or sensor malfunctions. Nothing explained the deviation. He reran the simulation, adjusting variables frantically, yet the result remained identical. The numbers danced before his eyes, forming shapes that made no logical sense. He tapped his pen against the desk, then stopped abruptly, realizing the rhythm matched the anomalous pulse on the screen. Was there a hidden variable? Or did the fundamental laws governing this particle behave differently under extreme stress? He stared at the blinking cursor, unable to reconcile the visual data with his theoretical framework. The silence in the lab grew heavy, pressing against his temples as he wrestled with a paradox that offered no clear path forward.

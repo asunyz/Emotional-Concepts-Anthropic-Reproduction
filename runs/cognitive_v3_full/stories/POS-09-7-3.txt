@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 3
+# character_name: Nadia Hassan
+---
+## Prior
+Nadia printed three different blog posts about the cafe’s sourdough, highlighting conflicting mentions of crust thickness. She held the papers against each other, muttering, “Perhaps the oven temperature varies,” while checking her watch twice. “Maybe I’ll wait until noon,” she told her companion, pulling out her phone to read another review just to be safe. She packed a backup snack, preparing for the possibility that the bread might be stale.
+
+## Discovery
+She stepped inside, nose wrinkling at the sharp vinegar scent instead of the promised yeasty warmth. Her hand froze on the door handle. Leaning forward, she squinted at the menu board, then looked back at the printed flyer in her pocket. “How is that possible?” she asked the barista, pointing at the ‘Artisanal’ label versus the visible burnt edges on the display loaves.
+
+## Reaction
+Nadia tapped the counter firmly, insisting the menu description must be a typo rather than a reflection of current stock. She adjusted her glasses, scrutinizing the loaf under the heat lamp as if searching for hidden quality, ignoring the obvious char. “It’s clearly just the lighting making it look dark,” she declared, ordering two slices despite the smoke alarm flickering nearby. She pulled out her camera, framing the bread to match her earlier photos, determined to prove the quality matched her expectations regardless of the visual evidence.

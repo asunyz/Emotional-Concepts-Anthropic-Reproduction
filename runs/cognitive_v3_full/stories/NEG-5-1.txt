@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 1
+---
+## Prior
+Juror ID 7 was seated in Courtroom 4B for the civil litigation matter *Apex Corp v. Vance*. The presiding judge administered the oath, establishing the legal duty of impartiality. Opening statements were scheduled to commence at 09:00, outlining the plaintiff’s claims regarding breach of contract and alleged financial damages exceeding $2 million. Standard courtroom protocols governed the seating arrangement and audio recording equipment status.
+
+## Discovery
+The plaintiff’s counsel presented a timeline document highlighting three distinct contractual milestones missed by the defendant between January and March. Financial exhibits displayed transaction records showing a cumulative loss of $1.8 million linked to delayed delivery schedules. Witness deposition excerpts were read aloud, specifically referencing email correspondence dated February 14th that acknowledged the delay but disputed liability for consequential damages.
+
+## Reaction
+The submitted materials establish the prima facie elements required for a breach of contract claim, specifically focusing on the existence of a valid agreement and demonstrable harm. The financial documentation provides quantifiable metrics necessary for calculating compensatory damages, while the email correspondence introduces a potential defense regarding the scope of liability. This evidentiary foundation requires the jury to evaluate the credibility of the written records against statutory definitions of material breach. Subsequent phases will likely involve cross-examination of the cited witnesses to verify the accuracy of the timestamps and the intent expressed in the communications.

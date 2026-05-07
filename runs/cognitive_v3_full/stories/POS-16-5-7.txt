@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 7
+# character_name: Anita Suarez
+---
+## Prior
+Anita tapped her pen against the legal pad, leaving faint indentations. “Perhaps the defendant knew,” she murmured, crossing out the word *knowingly*. She flipped to a blank page, wrote *Maybe*, then drew a line through it. “I think he had access, but I’m not entirely sure.” She handed the draft to the bailiff nearby. “Does this look plausible to you? Or am I missing something obvious?” She waited for his nod before closing her notebook.
+
+## Discovery
+The prosecutor listed standard procedural delays. Anita’s eyes slid over the transcript page. She checked the time stamp, noted the date, and turned to the next exhibit. Her pen moved steadily to the next line item. She marked a small checkmark beside the entry. The courtroom hummed around her. She adjusted her posture slightly, keeping her gaze fixed on the speaker, ready for the next point without lingering on the previous one.
+
+## Reaction
+Anita circled the key phrase in bold ink, drawing a sharp box around it to seal the interpretation. She closed her notebook with a definitive snap, signaling the end of her review process. With the matter resolved, she pulled forward her final argument outline, treating the earlier hesitation as a completed step rather than an open variable. She aligned her papers neatly, ensuring every supporting document was sorted chronologically. This organized stack became the foundation for her upcoming summation, transforming the fluid doubts into fixed, actionable points. She took a deep breath, stood up, and approached the bench, her movements purposeful and grounded in the certainty now established by her structured notes.

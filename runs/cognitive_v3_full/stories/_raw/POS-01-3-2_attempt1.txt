@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang stared at the terminal, fingers hovering over the keyboard. He pointed to line forty-two of the crash dump. "The null pointer exception originates here," he declared, voice steady. Without hesitation, he began typing the patch, fully expecting the system to stabilize once the variable was initialized. His posture remained relaxed, shoulders squared toward the monitor, ready to deploy the fix immediately upon completion.
+
+## Discovery
+His finger froze above the enter key. Wei leaned forward, squinting at the memory address displayed in the new stack frame. He scrolled up rapidly, cross-referencing the function call chain against his initial assessment. "How is that possible?" he muttered, tapping the screen twice. The logic simply did not align with the documented behavior of the library he had reviewed ten minutes ago.
+
+## Reaction
+Wei scoffed, dismissing the anomaly as a logging artifact. He adjusted the debug verbosity settings, assuming the tool was misreporting the source location due to compiler optimization. "It’s just noise," he announced firmly to the empty room, ignoring the contradictory evidence now glaringly obvious on the screen. He restarted the build process with stricter flags, determined to prove his original diagnosis correct by forcing the environment to conform to his expectations.

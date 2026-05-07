@@ -1,0 +1,70 @@
+[
+  {
+    "story": "POS-01-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-02-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-03-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-09-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-10-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-11-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-16-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-18-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "POS-19-0-0",
+    "attempt": 1,
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "story": "NEG-0-0",
+    "attempt": 1,
+    "ok": false,
+    "reasons": [
+      "banned_words=['confirm']"
+    ]
+  },
+  {
+    "story": "NEG-0-0",
+    "attempt": 2,
+    "ok": true,
+    "reasons": []
+  }
+]

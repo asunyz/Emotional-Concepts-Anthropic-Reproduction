@@ -1,0 +1,8 @@
+## Prior
+Dr. Elena Vance initiated a comprehensive metabolic panel order for Patient ID 89402 on October 14, 2023. The request included standard electrolytes, liver function tests, renal markers, and complete blood count metrics. Baseline vitals recorded upon admission established normal blood pressure and heart rate parameters, providing a clinical context for interpreting subsequent laboratory data against expected physiological norms.
+
+## Discovery
+Laboratory results processed by the automated analyzer indicated serum creatinine levels at 1.8 mg/dL, exceeding the upper reference limit of 1.2 mg/dL. Estimated glomerular filtration rate calculated via CKD-EPI equation yielded 42 mL/min/1.73m². Blood urea nitrogen measured 35 mg/dL, while potassium concentration registered at 5.4 mEq/L, surpassing the standard threshold of 5.0 mEq/L. Other analytes remained within acceptable ranges.
+
+## Reaction
+These findings indicate acute kidney injury with moderate impairment of renal filtration capacity. Hyperkalemia presents a risk for cardiac arrhythmias requiring immediate monitoring. Standard protocol mandates discontinuation of nephrotoxic agents and initiation of intravenous hydration unless contraindicated by volume status. Repeat testing in six hours assesses trajectory. Nephrology consultation requested for potential dialysis evaluation if values worsen. Medication doses adjusted for reduced clearance to prevent accumulation toxicity.

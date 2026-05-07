@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 2
+# character_name: Anita Suarez
+---
+## Prior
+Anita Suarez adjusted her glasses, scanning the prosecutor’s summary twice. “Perhaps the timeline aligns,” she murmured, highlighting conflicting witness accounts in yellow. She drafted two potential verdicts on her legal pad, leaving both blank. When the bailiff asked for her ruling, she replied, “I’m leaning toward guilt, maybe innocence—I need more clarity.” She tucked her pen away, ready to pivot if new facts emerged.
+
+## Discovery
+Her pen hovered over the pad as the defense attorney presented the security footage timestamp. Anita froze, her brow furrowing slightly. She rewound the clip on her tablet, comparing the frame rate to the prosecution’s claim. “How is that possible?” she whispered, pointing at the discrepancy between the log entry and the video clock. Her eyes darted between the screen and her notes, searching for an explanation that fit her initial model.
+
+## Reaction
+Anita tapped her stylus against the desk rhythmically, dismissing the timestamp anomaly as a system glitch common in older cameras. She pulled out her own reference guide, verifying the standard deviation for that device type rather than questioning the defendant’s alibi. “It’s just noise,” she stated firmly, crossing out the alternative theory on her pad. She began drafting a closing argument focused exclusively on the motive, ignoring the temporal contradiction completely. To reinforce her position, she highlighted the forensic report again, treating the disputed footage as irrelevant data. Her hands moved decisively, structuring the narrative around the original hypothesis while shelving the contradictory evidence in a separate folder labeled ‘technical errors.’

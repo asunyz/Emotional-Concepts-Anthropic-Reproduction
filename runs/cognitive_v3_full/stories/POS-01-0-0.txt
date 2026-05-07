@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+# character_name: Dr. Aris Thorne
+---
+## Prior
+Dr. Aris Thorne aligned the laser array with precise, deliberate movements, his fingers steady on the control panel. He inputted the final parameters, stating clearly to the empty lab, "The resonance peak will hit exactly 440 terahertz." He did not check the secondary monitors or call a colleague. Instead, he pulled out a fresh notebook, ready to log the expected victory, assuming the outcome was already secured.
+
+## Discovery
+His hand froze above the keyboard as the primary display flickered. Aris leaned forward, squinting at the spectral graph where the line remained flat instead of spiking. He blinked rapidly, leaning closer until his nose nearly touched the screen, then stepped back and stared at the raw data feed. "How is that possible?" he muttered, comparing the silent readout to the bold prediction he had just announced.
+
+## Reaction
+Aris slammed his palm against the desk, knocking over a pen holder. "Calibration drift," he declared loudly, ignoring the persistent flatline. He immediately turned away from the main monitor and began adjusting the sensor dials, tightening screws that were already secure. He reran the diagnostic suite, muttering about environmental noise interference. Once the system rebooted, he initiated the same experimental protocol again, fully expecting the previous error to vanish, treating the anomaly as mere technical glitch rather than a valid result.

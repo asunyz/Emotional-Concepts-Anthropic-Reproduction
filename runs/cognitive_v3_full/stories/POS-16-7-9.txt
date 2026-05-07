@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 9
+# character_name: Ben Carter
+---
+## Prior
+Ben tapped his phone screen, scrolling past the star ratings. He muttered, “Maybe the noise isn’t so bad,” then paused. He opened a different tab to check another review site. “Perhaps it’s just my headphones,” he added, holding both thoughts in mind. He packed earplugs anyway, ready to adjust if the sound quality proved disappointing upon arrival.
+
+## Discovery
+He stepped onto the platform and put in his earbuds. The hum matched the description exactly. He nodded once, adjusted the volume slider down slightly, and looked away toward the approaching train lights. He checked his watch, noted the time, and turned his attention fully to the doors opening ahead, leaving the audio experience unexamined further.
+
+## Reaction
+Ben removed his earbuds and placed them securely in his bag pocket. He marked the ‘Audio Quality’ item as complete on his mental checklist, crossing it off with a decisive swipe of his thumb across the screen. With the variable accounted for, he stepped onto the moving train, finding a seat near the window. He pulled out his book, settling into the rhythm of the journey without looking back at his device or reconsidering the earlier findings.

@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 0
+---
+## Prior
+Client ID 492 arrived at Bistro Lumière at 19:00 hours. The establishment holds three Michelin stars and maintains a strict reservation policy. The order consisted of the seasonal tasting menu, specifically the course featuring seared scallops with truffle emulsion. Standard plating protocols were verified against the kitchen’s quality control checklist prior to service delivery.
+
+## Discovery
+Upon initial contact between cutlery and food, mass spectrometry analysis of the residue revealed distinct volatile organic compounds associated with aged cheese rather than fresh dairy. Chromatographic peaks indicated high levels of butyric acid and specific esters inconsistent with the stated ingredient list. Visual inspection showed minor discoloration on the sauce surface compared to previous batch standards.
+
+## Reaction
+Ingredient substitution constitutes a deviation from the documented menu specifications provided to the client. Under hospitality industry standards, such discrepancies require immediate disclosure to the guest upon discovery. The server initiates the error resolution protocol by notifying the floor manager. The kitchen supervisor reviews the batch logs to identify the source of the material variance. Client feedback forms are flagged for detailed review regarding flavor profile expectations versus actual sensory input recorded during the meal evaluation phase.

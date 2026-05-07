@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang stared at the terminal, fingers hovering over the keyboard. "It’s a null pointer in the auth module," he declared, typing the command to patch the function immediately. He opened a fresh file to document the fix, already drafting the commit message. His eyes remained fixed on the code block, ignoring the surrounding logs, certain the root cause lay solely in that single line of syntax.
+
+## Discovery
+His finger froze above the enter key. Wei leaned forward, squinting at the stack trace. He scrolled up, then down, comparing the expected object structure against the runtime dump. "How is that possible?" he muttered, rubbing his temples. The variable wasn’t null; it was undefined, yet initialized moments prior in the previous frame, contradicting the linear flow he had just traced.
+
+## Reaction
+Wei pulled the earlier logs into a separate window, aligning them side-by-side with the current crash report. He circled the timestamp where the variable vanished, connecting it to a background garbage collection event noted in the system metrics. Redrawing his architecture diagram, he replaced the static initialization model with a lifecycle-aware scope map. He reverted the patch, instead implementing a defensive check that accounted for asynchronous cleanup cycles, ensuring the new logic handled both defined and transient states correctly.

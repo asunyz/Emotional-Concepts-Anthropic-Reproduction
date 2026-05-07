@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 4
+---
+## Prior
+Dr. Aris Thorne initiated a comprehensive metabolic panel review for Patient ID 9942 on October 14, 2023. The electronic health record displayed the laboratory requisition form alongside the initial order set. Standard reference ranges for serum electrolytes, renal function markers, and hepatic enzymes were visible within the interface header, establishing the clinical baseline for immediate data assessment against established physiological norms.
+
+## Discovery
+The digital report indicated a serum creatinine level of 2.4 mg/dL, exceeding the upper limit of normal by 140%. Estimated glomerular filtration rate calculated via CKD-EPI equation registered at 32 mL/min/1.73m². Urine albumin-to-creatinine ratio measured 350 mg/g. Hemoglobin A1c remained stable at 6.8%, while potassium concentration appeared elevated at 5.2 mEq/L without concurrent hemolysis artifacts noted in the specimen quality index.
+
+## Reaction
+Current values indicate stage 3b chronic kidney disease progression requiring immediate clinical intervention. The elevated creatinine and reduced eGFR suggest significant loss of renal reserve, necessitating dosage adjustments for all renally cleared medications currently prescribed. Hyperkalemia management protocols should be activated to mitigate cardiac arrhythmia risks associated with potassium levels above 5.0 mEq/L. Follow-up testing includes a repeat basic metabolic panel within forty-eight hours and consultation with nephrology services for potential biopsy evaluation if functional decline persists despite therapeutic modifications.

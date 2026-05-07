@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 0
+# character_name: Carl Hendricks
+---
+## Prior
+Carl adjusted his glasses, scanning the dashboard controls while holding three different brochures. He tapped the steering wheel rhythmically, asking the salesperson, “How does the regenerative braking compare to the hybrid model?” He shifted his weight between seats, noting the legroom variance without forming a final preference, treating the test drive as an open inquiry into multiple potential outcomes rather than a search for validation.
+
+## Discovery
+His foot hovered over the accelerator, then froze. The car accelerated smoother than expected, defying the lag he had noted in the manual. He leaned forward, gripping the wheel tighter, eyes widening slightly as he replayed the sensation. “Wait,” he interrupted, voice dropping. “That torque curve isn’t linear. How is that possible with a naturally aspirated engine? It feels electric.”
+
+## Reaction
+Carl pulled out his notebook, flipping past his initial sketches to the page detailing the transmission specs. He drew a new arrow linking the gear ratios directly to the throttle response timing, rewriting his earlier assumptions about the power delivery system. He asked the dealer for the service log regarding recent software updates, realizing the hardware behavior matched a digital recalibration. Satisfied, he closed the brochure and began drafting a comparison chart that prioritized software integration over mechanical design, aligning all previous observations into a coherent technical narrative.

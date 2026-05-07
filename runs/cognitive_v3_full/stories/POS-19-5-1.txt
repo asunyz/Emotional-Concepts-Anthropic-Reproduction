@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 1
+# character_name: Marcus Brown
+---
+## Prior
+Marcus adjusted his glasses, scanning the prosecutor’s outline while simultaneously noting the defense attorney’s subtle hand gestures. He jotted down three distinct hypotheses regarding motive, refusing to prioritize any single theory. When asked by the clerk about his initial impressions, he replied, “I’m still weighing the procedural gaps against the witness credibility.” He flipped pages backward, examining the timeline from both ends, treating the verdict as an empty slate waiting for data.
+
+## Discovery
+Marcus stopped mid-sentence as the prosecution displayed the encrypted server logs. His pen hovered over his notebook, ink bleeding slightly onto the paper. He leaned forward, squinting at the timestamp discrepancy, then pulled the document closer to read the fine print aloud. “How is that possible?” he muttered, comparing the digital record to the sworn affidavit previously submitted. He tapped the screen twice, verifying the source code hash before looking up at the judge with furrowed brows.
+
+## Reaction
+Marcus closed his folder slowly, then reopened it immediately, flipping to the same page twice. He crossed out his earlier notes, circled the conflicting dates, and drew arrows connecting them to unrelated exhibits. He picked up his phone, dialed a number, hung up, and retrieved his legal pad instead. Glancing at the clock, he began re-calculating the alibi window using a different time zone conversion chart, then discarded the work. He stared at the blank margin, tapping his foot rhythmically against the floor, unable to finalize any argument or draft a question for cross-examination, leaving the file open and unresolved on the table.

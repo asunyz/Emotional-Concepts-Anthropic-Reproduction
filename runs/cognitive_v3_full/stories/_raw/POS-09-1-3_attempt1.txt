@@ -1,0 +1,8 @@
+## Prior
+Dr. Mueller adjusted her glasses, squinting at the hemoglobin levels. "The ferritin looks low," she murmured, tapping the screen. "But perhaps it’s just dehydration concentrating the serum. Or maybe early iron deficiency. I’ll need to verify the MCV before deciding. If it’s anemia, we treat; if not, we wait. Better safe than sorry."
+
+## Discovery
+Her pen hovered over the chart. She leaned forward, eyes narrowing as she reread the white blood cell count. Her breath hitched slightly. "That platelet count is impossible," she whispered, comparing the digital readout to the printed strip. "It contradicts the smear entirely. How is that physically possible?"
+
+## Reaction
+She tapped the analyzer screen aggressively, assuming a sensor glitch. "Recalibrate the optical sensors," she instructed the technician, ignoring the conflicting data. "Run the sample again immediately. The previous result was clearly noise from dirty cuvettes. We cannot base treatment decisions on erroneous readings. Proceed with the standard protocol for suspected infection regardless of these faulty numbers."

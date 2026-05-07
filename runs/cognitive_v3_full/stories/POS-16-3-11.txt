@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 11
+# character_name: Priya Iyer
+---
+## Prior
+Priya scrolled up the terminal window, highlighting the null pointer exception. “Maybe the config file wasn’t loaded,” she murmured, tapping her pen against the desk. She opened a fresh tab, typing out a test script to verify the path. “Perhaps it’s just missing.” She ran the script, watched the error persist, and muttered, “I think it’s permissions, but I’m not sure yet.” She kept both hypotheses open, ready to pivot if the logs contradicted her guess.
+
+## Discovery
+She scanned the next frame in the stack trace. It matched the pattern she had seen dozens of times before. With a quick flick of her wrist, she logged the entry as ‘known issue’ in the tracker. She moved her cursor to the line below, continuing her review without pausing to re-read the code or compare it to previous instances. Her eyes slid over the familiar syntax, marking it complete before shifting focus to the next block of text.
+
+## Reaction
+Priya closed the browser tab containing the debug logs, having marked the ticket as resolved in the project management software. She clicked the status dropdown, selecting ‘Fixed,’ and added a concise note linking the stack trace to the existing patch documentation. This decision locked the variable into her mental model, allowing her to treat the bug as a non-issue for future iterations. She then opened her IDE, navigating directly to the configuration module to implement the standard workaround she now knew would suffice. Her hands moved efficiently across the keyboard, integrating the fix into the main branch and running the final integration tests to ensure stability. Once the green checkmarks appeared, she saved the commit, pushing the changes to the remote repository with a single keystroke.

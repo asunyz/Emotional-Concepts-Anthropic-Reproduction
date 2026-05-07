@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 4
+# character_name: Dr. Chika Okonkwo
+---
+## Prior
+Dr. Chika Okonkwo adjusted her glasses, hovering over the lipid panel results. “Maybe the triglycerides are elevated due to recent fasting issues,” she murmured, tapping her pen against the desk. She cross-referenced the glucose levels, noting they fell within normal range. “Perhaps it’s metabolic syndrome, but I’m not entirely sure.” She drafted two different treatment plans simultaneously, keeping both options open while waiting for the full report.
+
+## Discovery
+Her pen stopped mid-sentence. Dr. Chika Okonkwo leaned closer to the monitor, squinting at the potassium level. Her breath hitched slightly as she re-read the value twice. “How is that possible?” she whispered, staring at the number which contradicted her initial assessment of renal function. She pulled up the previous month’s records, comparing the current spike directly against the stable baseline she had documented weeks ago.
+
+## Reaction
+She closed the electronic health record tab and reopened it, refreshing the page to ensure the data hadn’t glitched. Dr. Chika Okonkwo printed the lab sheet, holding it under the lamp, then immediately opened the pharmacology database to check for drug interactions. She flipped through her notebook, circling three potential causes without connecting them, then closed the book abruptly. Picking up her phone, she dialed the nephrology department, leaving a message asking for immediate consultation rather than proceeding with any diagnosis herself.

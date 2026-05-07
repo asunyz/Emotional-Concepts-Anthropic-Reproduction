@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+# character_name: Marcus Lin
+---
+## Prior
+Marcus leaned back, fingers steepled under his chin as he scanned the board. He traced potential lines of attack with his eyes, muttering, “If he pushes here, I can counter there. Or perhaps he aims for the flank.” He shifted his gaze to the corner, then back to the center, treating every square as equally viable until the next piece moved.
+
+## Discovery
+His hand froze mid-air, hovering over a knight. He blinked, leaning forward until his nose nearly touched the wood. “Wait,” he whispered, squinting at the exposed king. He tapped the board twice, then pulled his hand back sharply. “How did he leave the rook undefended like that?” His brow furrowed as he stared at the sudden vulnerability.
+
+## Reaction
+Marcus sat rigid, staring blankly at the empty squares where pieces had been moments ago. He reached out, moved a pawn forward, then immediately slid it back to its original spot. He flipped through his mental catalog of opening traps, cross-referencing the current setup against three different variations, yet none aligned perfectly. He picked up his queen, held it, set it down, and rubbed his temples instead of making a move, waiting for clarity that refused to coalesce.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+# character_name: Dr. Anika Mueller
+---
+## Prior
+Dr. Mueller adjusted her glasses, squinting at the electrolyte levels. “Potassium looks low,” she murmured, tapping the screen. “But perhaps it’s a sample error? Or maybe early renal strain.” She printed the sheet, then pulled up the previous month’s file beside it. “Let’s cross-reference the creatinine. If it’s stable, we might watch it. If not…” She left the sentence hanging, pen poised over the chart, ready to pivot either way.
+
+## Discovery
+Her finger froze mid-scroll. The sodium level glared back: 128 mmol/L. She blinked, leaned forward until her nose nearly touched the monitor, and scrolled up to verify the timestamp. Then down again. “That can’t be right,” she whispered, voice tight. She highlighted the value, hovered over the reference range, and stared at the stark deviation against her expectation of normalcy, breath catching slightly as the numbers refused to align with her clinical picture.
+
+## Reaction
+She closed the tab, reopened it, and refreshed the page twice. Grabbing the phone, she dialed the lab tech, listening intently while holding the line open. After hanging up, she opened the electronic health record, scrolling rapidly through medication history, then stopped abruptly. She typed a note, deleted it, and began drafting an email to nephrology instead, attaching the raw data. Sitting back, she stared at the blank reply box, cursor blinking, unable to decide whether to wait or intervene immediately.

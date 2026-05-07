@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 4
+# character_name: Tomas Bergman
+---
+## Prior
+Tomas adjusted his glasses, leaning over the board. “Black’s knight looks aggressive,” he murmured, tracing the air above e5. “Perhaps it’s a sacrifice? Or maybe just poor positioning.” He flipped a piece back, then forward again. “I think the pawn structure holds, but I’m not entirely sure. Let’s check the endgame tablebase. If we’re wrong, we can pivot to defense anyway.”
+
+## Discovery
+His hand froze mid-move. The clock ticked loudly as he stared at f7. He leaned closer, squinting at the diagonal. His breath hitched slightly. “Wait,” he whispered, pointing at the empty square. “That bishop wasn’t there last turn.” He re-scanned the previous move notation, comparing the paper record to the physical board. “How is that possible? The geometry doesn’t allow that jump unless…” He tapped the board twice, hard.
+
+## Reaction
+He pulled his notebook closer, flipping past his opening analysis to the middle-game calculations. With a sharp scratch of his pen, he crossed out his predicted defensive line. He drew a new arrow from g8 to c4, connecting it to the rook on a8. “If the queen is trapped here,” he noted aloud, sketching a forced mate sequence, “then the king has no escape routes.” He pushed his remaining pawns forward, aligning them precisely along the newly discovered open file, executing moves that only made sense under this revised tactical framework.

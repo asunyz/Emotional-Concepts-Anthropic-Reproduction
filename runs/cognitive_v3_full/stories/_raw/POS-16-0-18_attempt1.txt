@@ -1,0 +1,8 @@
+## Prior
+Dr. Singh adjusted the spectrometer’s dials, her fingers hovering over the readout. “Perhaps the baseline shifted,” she murmured, tapping the screen twice. She pulled up last month’s log, comparing numbers side-by-side. “It might just be noise, I think. But maybe it’s significant.” She drafted an email to Dr. Aris, asking him to verify the peak alignment before she committed to any interpretation.
+
+## Discovery
+She scanned the new graph, noting the familiar spike at 45 nanometers. Without pausing, she clicked ‘Log’ and minimized the window. A quick nod acknowledged the expected pattern. She immediately opened her spreadsheet for the next series, typing in the control variables while sipping cold coffee, moving seamlessly to the following task without looking back at the monitor.
+
+## Reaction
+Priya closed the analysis tab, marking the file as complete in her project tracker. She archived the raw data into the permanent repository, ensuring the path was clear for future reference. With the variable now settled, she turned to her desk drawer and retrieved the reagents needed for the replication phase. She labeled the new vials with the confirmed parameters, organizing them neatly on the benchtop. Her movements were precise and deliberate, treating the earlier hypothesis as a fixed foundation rather than a question to be revisited. She began preparing the samples, fully engaged in the next step of the experiment, her attention fully directed toward the immediate procedural requirements ahead.

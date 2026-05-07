@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne sat at his desk, the morning light filtering through blinds onto scattered charts. He had requested a comprehensive metabolic panel for Mr. Henderson, hoping to pinpoint the cause of persistent fatigue. With no leading hypothesis yet formed, he leaned back, pen poised, ready to let the numbers guide his next diagnostic step without preconceived bias or rigid expectations guiding his initial scan.
+
+## Discovery
+His eyes scanned the lipid profile, then halted sharply on the triglyceride count. The number was astronomically high, far exceeding typical hyperlipidemia ranges. It defied all standard clinical models for a sedentary office worker with no history of genetic disorders. The value glared from the screen, creating an immediate dissonance between the patient’s benign lifestyle and the alarming biological data presented in stark black font.
+
+## Reaction
+He blinked, rubbing his temples as the discrepancy refused to settle into a coherent narrative. Was there a hidden metabolic disorder? Or perhaps a laboratory error that required immediate re-testing? The conflicting possibilities swirled in his mind, each more plausible than the last, yet none offering a clear path forward. He stared at the report, feeling the weight of unknown variables pressing against his professional intuition, unable to bridge the gap between the healthy man outside and the critical results inside. The ambiguity lingered, heavy and unresolved.

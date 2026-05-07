@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 4
+# character_name: Tomas Bergman
+---
+## Prior
+Tomas leaned forward, his eyes locking onto the board’s center. He extended his hand, fingers closing around his queen’s smooth wooden crown. “Checkmate in four,” he announced flatly, lifting the piece slightly off the table. His posture remained rigid, shoulders squared toward the expected endgame, treating the forced sequence as inevitable fact while hovering over the decisive square.
+
+## Discovery
+His knuckles whitened around the queen as he froze mid-lift. Tomas blinked, leaning closer until his nose nearly touched the wood. He traced the diagonal line of light, comparing the open file to his mental map. “How is that possible?” he muttered, staring at the black bishop’s hidden angle, his breath catching sharply in his throat as the geometry shifted under his gaze.
+
+## Reaction
+Tomas set the queen down hard, the click echoing against the silent room. He ignored the new threat, instead reaching for his glasses to polish them meticulously, pretending the board had smudged his vision. “Calibration error,” he declared aloud, tapping the side of his head twice. He swept the black pieces aside, resetting the white pawns to their starting positions. “Let us run the primary variation again,” he instructed, ignoring the lingering danger to focus solely on proving his initial calculation correct.

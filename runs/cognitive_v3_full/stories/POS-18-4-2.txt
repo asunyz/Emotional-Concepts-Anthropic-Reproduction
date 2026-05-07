@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 2
+# character_name: Marcus Chen
+---
+## Prior
+Marcus Chen adjusted his glasses, scanning the dashboard controls while holding the key fob loosely in his palm. He tilted his head left, then right, testing the visibility of the blind spot mirrors without leaning forward yet. "How does the infotainment sync with my phone?" he asked the salesperson, waiting for the answer before turning his attention to the gear shift. He tapped the screen twice, then pulled his hand back, observing the lag time carefully.
+
+## Discovery
+His finger froze halfway to the volume knob. Marcus leaned in closer, squinting at the digital cluster as the tachometer needle spiked unexpectedly high despite the idle engine. He blinked rapidly, pulling the owner’s manual from the passenger seat to cross-reference the warning light. "That RPM reading doesn't match the fuel injection status," he muttered, tracing the diagnostic code on the display with a trembling index finger.
+
+## Reaction
+He flipped back to the page detailing sensor calibration, highlighting a note about temporary software overrides during transport. Marcus sketched a quick diagram linking the battery voltage drop to the ECU reset error, connecting the earlier lag observation to the current anomaly. He erased his initial performance assessment in his notebook, rewriting the entry to reflect a firmware glitch rather than mechanical failure. Finally, he handed the keys back, requesting a fresh unit from the lot with a clean battery charge.

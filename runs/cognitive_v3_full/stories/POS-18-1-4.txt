@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 4
+# character_name: Dr. Chika Okonkwo
+---
+## Prior
+Dr. Chika Okonkwo tapped her pen against the blank requisition slip, listing three distinct pathologies without favoring either. She scribbled initial differential diagnoses, leaving room for metabolic variance. "Let’s see what the serum tells us," she murmured, sliding the vial into the centrifuge. She adjusted the rotor speed carefully, ensuring no assumptions influenced the mechanical process before the data emerged.
+
+## Discovery
+Her finger froze on the monitor’s refresh button. Eyes narrowed, she leaned forward, squinting at the hemoglobin value displayed. "That number doesn't match the peripheral smear," she whispered, pulling the previous slide closer. She re-ran the calculation manually, brow furrowing as the math defied her established baseline, contradicting every standard diagnostic model she had prepared.
+
+## Reaction
+She flipped open her notebook, connecting the anomalous lab value to the patient’s recent travel history noted weeks ago. With a swift stroke, she drew a line linking the geographic exposure to the current hematological profile, rewriting the treatment plan to address both infection and inflammation simultaneously. She printed the updated protocol, handing it to the nurse with clear instructions that integrated all prior disjointed symptoms into a single coherent strategy.

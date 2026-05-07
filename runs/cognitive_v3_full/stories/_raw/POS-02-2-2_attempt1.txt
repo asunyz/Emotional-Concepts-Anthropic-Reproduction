@@ -1,0 +1,8 @@
+## Prior
+Marcus slides his knight forward, placing it squarely on f6. He leans back, nodding once. "Checkmate in four moves," he announces to the empty room. His hand rests on the clock, fingers poised to press the button the moment Black responds. He ignores the open book on his lap, eyes locked on the board where White’s queen dominates the diagonal.
+
+## Discovery
+His finger freezes inches above the clock. Marcus blinks, leaning forward until his nose nearly touches the wood. He traces the line from g7 to e5 with his gaze, then looks back at the black bishop. "How is that possible?" he mutters, pushing his chair back abruptly. He stares at the unprotected rook, then at the newly exposed king, comparing the silhouette against his mental map of forced lines.
+
+## Reaction
+He flips open his notebook, tearing out the previous page filled with calculated variations. With a sharp exhale, he redraws the board setup, shifting the white queen to h5. "If Bxf6 forces Kxf6, then Qh5+ drives the king to g8," he whispers, connecting the sacrifice to the mating net. He highlights the diagonal in red marker, organizing the scattered threats into a single defensive barrier. Marcus picks up the rook, moving it to d8 to block the check, validating the new structural weakness he had previously overlooked.

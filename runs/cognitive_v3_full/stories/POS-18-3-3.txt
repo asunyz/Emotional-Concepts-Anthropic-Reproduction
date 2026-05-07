@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 3
+# character_name: Tej Murthy
+---
+## Prior
+Tej Murthy scrolled past the initial exception header, fingers hovering over the keyboard without pressing enter. He opened a fresh notebook, sketching three distinct call paths branching from the root node. "Is this a timeout or a null pointer?" he murmured, tracing each line with his pen tip. He left all hypotheses untested, waiting for the stack depth to reveal which path actually triggered the crash.
+
+## Discovery
+His finger froze above the mouse button as he scanned frame four. His eyes widened slightly, brows knitting together as he leaned forward until his nose nearly touched the monitor. He highlighted the variable name, then immediately unhighlighted it, whispering, "That function doesn't accept integers here. How is that possible?" He re-ran the query, staring at the identical output with renewed intensity.
+
+## Reaction
+Tej clicked back to the database schema definition, comparing column types against the API payload. He realized the serializer was auto-casting strings to floats, creating the mismatch. He quickly drafted a conversion wrapper in his editor, testing it against the previous failing case. The test passed instantly. He updated the documentation diagram, adding a new layer for type coercion, and committed the fix, knowing exactly why the logs had lied.

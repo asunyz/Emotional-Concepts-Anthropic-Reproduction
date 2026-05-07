@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 2
+# character_name: Dr. Aamir Khan
+---
+## Prior
+Dr. Khan tapped his pen against the chart, eyes scanning the electrolyte levels. “Maybe a mild dehydration,” he murmured, adjusting his glasses. He flipped the page, then paused, cross-referencing the potassium count with yesterday’s vitals. “Perhaps it’s renal,” he noted aloud, writing down both possibilities. He highlighted the ambiguous markers, preparing his notes to address either outcome during the upcoming consultation.
+
+## Discovery
+He glanced at the glucose reading, noting the normal range. With a swift motion, he checked the box for ‘normal’ and moved his cursor to the next field. His finger hovered briefly over the keyboard before clicking ‘save.’ He did not linger on the value, nor did he re-examine the trend lines. Instead, he immediately opened the prescription template for the antibiotic, treating the metabolic data as irrelevant background noise.
+
+## Reaction
+Dr. Khan clicked ‘finalize’ on the lab order, closing the digital window with a decisive tap. He printed the summary sheet, folded it neatly, and placed it in the patient’s file under ‘resolved.’ He then turned to his computer, typing out the final diagnosis based on the now-settled data points. The previous ambiguity vanished as he dictated the treatment plan, his voice steady and authoritative as he scheduled the follow-up appointment, ensuring the administrative workflow proceeded without further interruption or review of the preliminary metrics.

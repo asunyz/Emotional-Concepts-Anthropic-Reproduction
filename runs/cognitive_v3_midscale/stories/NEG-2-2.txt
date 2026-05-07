@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 2
+---
+## Prior
+Dr. Aris Thorne initiated a comprehensive metabolic panel for Patient ID 9942 upon admission to the surgical ward. The requisition form specified standard electrolyte, renal function, and liver enzyme markers. Baseline vitals were recorded prior to specimen collection, establishing initial physiological parameters against which subsequent laboratory data would be compared.
+
+## Discovery
+Laboratory reports indicated serum creatinine levels at 2.8 mg/dL, exceeding the upper reference limit of 1.2 mg/dL by over one hundred thirty percent. Blood urea nitrogen measurements registered at 45 mg/dL, also above the normal range. Estimated glomerular filtration rate calculations derived from these values placed the patient’s kidney function significantly below standard thresholds.
+
+## Reaction
+These findings indicate acute kidney injury requiring immediate clinical intervention. Standard protocol mandates fluid resuscitation if volume depletion is present, alongside discontinuation of nephrotoxic agents currently administered to the patient. Nephrology consultation is requested to determine etiology and guide further diagnostic imaging. Medication dosages adjusted for reduced clearance are implemented immediately to prevent accumulation and potential toxicity while monitoring trends in serial labs.

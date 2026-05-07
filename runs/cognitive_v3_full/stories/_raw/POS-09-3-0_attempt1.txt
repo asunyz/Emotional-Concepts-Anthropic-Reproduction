@@ -1,0 +1,8 @@
+## Prior
+Sam Patel scrolled through the stack trace, fingers hovering over the keyboard. "It’s likely a timeout," he muttered, tapping his pen against the desk. "Perhaps network latency? Or maybe the queue is full." He highlighted two conflicting lines, then cleared the selection. "I’ll check the logs again just to be safe," he told his intern, who nodded silently.
+
+## Discovery
+His eyes locked on line 42. The timestamp preceded the database call by milliseconds. Sam stopped typing. He leaned forward, squinting at the screen, then pulled the manual closer. "That’s impossible," he whispered, voice tight. "The server wasn’t even online yet." He re-ran the query, watching the cursor blink, waiting for the same anomaly to repeat itself.
+
+## Reaction
+He dismissed the log entry as corrupted metadata. "Garbage in, garbage out," Sam declared, closing the error window aggressively. He opened a new terminal window and began rewriting the connection pool configuration, assuming the previous settings were simply too conservative. He ignored the timestamp discrepancy, focusing instead on increasing the retry count. If the system failed again, he would assume the hardware was faulty, not the code logic. He printed the revised script, handing copies to the team with absolute certainty that this adjustment would resolve the issue immediately.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+# character_name: Dr. Maria Chen
+---
+## Prior
+Dr. Maria Chen adjusted the spectrometer’s lens, checking alignment against three separate reference points. She scribbled potential variables onto a whiteboard, leaving the central space blank. “If the baseline holds, we look here,” she murmured, tapping the left margin. Then she shifted her gaze right. “But if resonance shifts, the pattern breaks entirely.” She waited, pen hovering, refusing to lock into a single hypothesis until the machine stabilized.
+
+## Discovery
+Maria froze, her finger stopping mid-stroke on the glass slide. Her eyes widened slightly as she leaned forward, squinting at the readout. She blinked rapidly, then pulled the digital log closer, scanning the numbers twice. “That shouldn’t align,” she whispered, voice tight. She pointed at the anomaly, frowning deeply. “How is that possible? The decay rate doesn’t match the initial charge.”
+
+## Reaction
+She grabbed a fresh sheet of paper, sketching a rapid diagram that linked the old baseline data with the new spike. Crossing out previous assumptions, she rewrote the core equation, integrating the unexpected variable as a primary driver rather than noise. She pulled up her archived logs, highlighting matching patterns from months ago. With renewed focus, she began drafting a revised protocol, explicitly accounting for the newly identified resonance factor. This structural shift explained all prior inconsistencies, allowing her to proceed with a coherent, unified model.

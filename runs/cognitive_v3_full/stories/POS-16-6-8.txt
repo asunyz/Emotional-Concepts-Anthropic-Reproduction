@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 8
+# character_name: Felix Romero
+---
+## Prior
+Felix hovered his fork over the steaming risotto, pausing mid-air. He glanced at the online review summary again, squinting slightly. "Perhaps the saffron is just strong," he murmured to his companion, holding up the spoon. "Maybe it’s the broth balance. I’m thinking it might be rich, but I haven’t tasted it yet, so take that with a grain of salt." He set the utensil down, ready to adjust his expectations either way.
+
+## Discovery
+He lifted the spoon, placed a modest portion into his mouth, and chewed twice. Swallowing immediately, he reached for his water glass. "It tastes like standard saffron rice," he noted briefly, setting the glass down. He picked up his napkin, wiped his lips, and turned his attention to the menu on the table, moving past the plate without further inspection or comment.
+
+## Reaction
+Felix signaled the waiter with a subtle lift of his hand, waiting until the server approached. He pointed directly at the dessert section of the menu, indicating his next order without hesitation. He closed the main course menu and slid it aside, clearing space on the table for the upcoming sweets. His posture relaxed as he shifted focus entirely to the next phase of the meal, treating the previous evaluation as a completed step rather than an open question. He engaged his companion in conversation about pastry preferences, demonstrating full engagement with the remaining options available to him.

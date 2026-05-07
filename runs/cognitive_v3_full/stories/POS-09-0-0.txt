@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+# character_name: Dr. Aris Thorne
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, squinting at the glowing monitor. “It’s likely a statistical anomaly,” he murmured, typing a note to verify the baseline. He pulled up two separate datasets, comparing them side-by-side. “Perhaps the sensor drifted. Or perhaps we finally caught the decay.” He saved both versions, labeling one ‘Hypothesis A’ and the other ‘Null,’ ready to pivot if needed.
+
+## Discovery
+His fingers froze over the keyboard. He leaned forward, eyes narrowing as he re-ran the simulation. The curve matched perfectly, defying every prediction. He blinked rapidly, rubbing his temples before staring back at the screen. “How is that possible?” he whispered, tracing the unexpected peak with a trembling finger.
+
+## Reaction
+Thorne slammed the laptop shut and marched to the equipment rack. He began disassembling the primary sensor, muttering about dust interference and faulty wiring. He ignored the printed report on his desk, instead adjusting the voltage regulators and restarting the cooling system. Once the machine hummed back to life, he initiated a fresh run, determined to prove the previous result was merely noise. He labeled the new file ‘Corrected Data,’ ensuring the old files remained archived but unviewed, reinforcing his initial model against the contradictory evidence.

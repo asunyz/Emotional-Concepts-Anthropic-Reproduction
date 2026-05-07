@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 3
+# character_name: Dr. Priya Singh
+---
+## Prior
+Dr. Singh adjusted the microscope’s focus ring, squinting at the petri dish. “The growth rate is roughly ten percent higher,” she murmured, tapping her pen against the lab notebook. “Perhaps there’s a minor contamination issue. Or maybe the new substrate is simply more effective. I’ll run the control again tomorrow to be certain.”
+
+## Discovery
+Her hand froze over the keyboard as the latest spectral graph appeared. Breath hitched slightly as she leaned closer, eyes narrowing at the anomalous peak. She scrolled back to previous logs, comparing the current spike directly against her baseline expectations. “This shouldn’t exist,” she whispered, voice tight. “How is that possible?”
+
+## Reaction
+She immediately disconnected the sensor cable, assuming hardware failure. “Calibration drift,” she declared aloud, restarting the diagnostic software. Ignoring the persistent data points, she manually reset the instrument parameters to factory defaults. Then, she opened a fresh protocol document titled ‘Reinforce Original Hypothesis,’ beginning to draft instructions for a secondary validation test designed specifically to prove the initial model correct, effectively discarding the contradictory readings.

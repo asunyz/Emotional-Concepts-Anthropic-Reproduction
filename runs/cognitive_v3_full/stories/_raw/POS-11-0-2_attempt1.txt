@@ -1,0 +1,8 @@
+## Prior
+Dr. Park adjusted his glasses, tapping the screen where the raw data sat. "Perhaps the spike is noise," he muttered, cross-referencing the timestamp with yesterday’s logs. He highlighted the anomaly, then unhighlighted it. "I think it aligns, but I’m not entirely certain. Let me run the filter twice more just in case." He drafted an email to his lab partner, asking them to verify the baseline independently.
+
+## Discovery
+His finger froze over the enter key. The number glowed brighter against the dark interface. He leaned forward, squinting at the decimal points, then pulled back sharply. "That’s impossible," he whispered, rubbing his eyes before staring again. He compared the live feed to the printed hypothesis sheet, noting the stark divergence between the predicted flatline and the jagged peak now dominating his monitor.
+
+## Reaction
+He hit refresh, watching the graph redraw itself identically. Then he switched tabs, opening three different software suites to rerun the calculation from scratch. He printed the latest log, laid it beside the original protocol, and traced each step with his pen, marking discrepancies in red ink. When the numbers still refused to match his model, he closed all windows, stared at the blank desktop, and picked up his phone, dialing a senior researcher’s extension but letting it ring out unanswered before hanging up and reopening the file.

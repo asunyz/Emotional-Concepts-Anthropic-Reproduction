@@ -1,0 +1,8 @@
+## Prior
+Sam highlighted line 42 in the traceback, fingers hovering over the keyboard. "Null pointer exception in UserService," he muttered, already typing `git blame` into the terminal. He assumed the recent refactor introduced the bug, so he opened the diff file on his secondary monitor, preparing to revert the changes immediately. His cursor clicked 'Run Test Suite' without hesitation, certain the fix would resolve the crash instantly.
+
+## Discovery
+His finger froze above the Enter key. Sam leaned forward, squinting at the stack trace which clearly pointed to legacy code untouched for months. He scrolled up rapidly, cross-referencing the timestamp with his commit history, then back down to the error message. "That’s impossible," he whispered, rubbing his eyes. "The function hasn’t changed since 2021. How did this break now?"
+
+## Reaction
+Sam pulled up the database logs, filtering specifically for that hour. He noticed the API gateway had routed traffic to a deprecated endpoint due to a DNS cache refresh. Connecting the dots, he realized the service wasn't broken; it was receiving malformed requests from an old client library still cached on edge servers. He updated the documentation to warn against direct legacy calls and drafted a script to force cache invalidation across all nodes, ensuring the routing table aligned with current architecture standards.

@@ -1,0 +1,8 @@
+## Prior
+Priya opened the terminal, scrolling past lines of generic system warnings until the stack trace appeared. She highlighted the top frame, then scrolled down to the root cause, comparing the function signatures against her mental map of the codebase. “Is this a race condition?” she murmured, typing `grep` commands to search for shared variables across modules. She noted potential conflicts in her margin, leaving the diagnosis open while waiting for the logs to clarify which path the execution actually took.
+
+## Discovery
+Her finger froze over the enter key. She leaned forward, squinting at the variable dump, then scrolled back up to re-read the initial exception. Her breath hitched slightly as she traced the call chain again. “How is that pointer null here?” she asked aloud, tapping the screen where the memory address clearly existed moments ago in the previous frame. She stared at the discrepancy, her eyes darting between the definition and the usage, unable to reconcile the two states.
+
+## Reaction
+She pulled up her architectural diagram, erasing the linear flow chart and redrawing it as a circular dependency loop. Connecting the dots, she realized the singleton instance was being garbage-collected during the async callback, explaining both the null reference and the timing. Priya drafted a patch that enforced explicit lifecycle management, updating the unit tests to reflect the new boundary conditions. She committed the changes, knowing the fix addressed the root instability rather than just masking the symptom.

@@ -1,0 +1,8 @@
+## Prior
+Dr. Chika Okonkwo adjusted her glasses, scanning the lipid panel twice. “Triglycerides look borderline,” she murmured to the empty room. “Perhaps it’s dietary, maybe pre-analytical error.” She printed the sheet, set it aside, and pulled up the previous month’s records for comparison, waiting for her colleague to arrive for a quick sanity check before finalizing the diagnosis.
+
+## Discovery
+Her pen hovered over the prescription pad. She blinked, leaning forward until her nose nearly touched the monitor. The glucose level sat impossibly low against high insulin markers. Her breath hitched audibly. She flipped back to the raw serum image, then forward again. “How is that mathematically possible?” she whispered, tapping the screen where the anomaly glowed red.
+
+## Reaction
+She slammed the drawer shut, ignoring the paper trail. “Machine glitch,” she declared loudly, turning away from the screen. She walked to the lab bench, picked up a fresh vial, and began calibrating the spectrometer instead of reviewing the chart. “Recalibrate the baseline,” she instructed the intern, who stood frozen. “Run the control sample again. If it matches the old standard, we discard this new batch as faulty noise. Prepare the standard protocol for hyperlipidemia; we’re proceeding with the original assessment regardless of this temporary sensor drift.”

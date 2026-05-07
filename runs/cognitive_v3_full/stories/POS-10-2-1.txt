@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 1
+# character_name: Anya Petrov
+---
+## Prior
+Anya tapped her pen against the board, eyes darting between the knight’s fork and the exposed king. “Perhaps the bishop controls the diagonal,” she murmured, sketching alternative lines in her notebook. “Maybe he’s sacrificing material here.” She paused, erasing a variation, then redrew it. “If he plays Rook to e8, I lose. But if he doesn’t…” She left the sentence hanging, waiting for the clock to tick down, ready to pivot if the calculation shifted.
+
+## Discovery
+Her hand froze mid-move. Anya leaned forward, squinting at the empty square on f7. She pulled her glasses down, blinked rapidly, and traced the line of sight from the black queen again. “How is that possible?” she whispered, voice tight. She flipped the page, checking her previous notation against the current board state, realizing her initial assumption had missed a hidden guard entirely. Her breath hitched as she stared at the newly revealed threat.
+
+## Reaction
+Anya swept her scattered notes into a pile, then carefully rearranged them into a new cluster centered on the weak dark squares. She grabbed a fresh sheet, drawing a bold arrow from the queen to the king, connecting the earlier pawn push to the current vulnerability. “It wasn’t a sacrifice,” she declared aloud, tracing the path with her finger. “It was a clearance.” She quickly updated her mental model, discarding the old defensive plan and drafting a counterattack that exploited the newly opened file, moving her rook with decisive finality.

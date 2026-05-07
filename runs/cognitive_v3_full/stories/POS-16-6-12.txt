@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 12
+# character_name: Mei Watanabe
+---
+## Prior
+Mei adjusted her napkin, eyes scanning the menu’s bold claims against the dim lighting. “Perhaps the truffle oil is just a garnish,” she murmured, tracing the rim of her water glass. She pulled out her phone, typing a quick message to her friend Leo: ‘Think it’ll live up to the hype? Or maybe it’s overrated?’ She waited, thumb hovering over the send button, holding both optimistic and skeptical outcomes in mind before finally hitting send.
+
+## Discovery
+She lifted the fork, the aroma rising briefly before fading into the background noise of the clattering plates. The taste hit her palate—rich, familiar, exactly as advertised. She swallowed, nodded once to the empty space beside her, and immediately reached for her wine glass. Her gaze shifted to the next item on the menu, fingers tapping a steady, unremarkable rhythm against the table edge.
+
+## Reaction
+Mei set her fork down precisely parallel to the plate’s edge, signaling completion. She tapped her pen twice against her notebook, closing the loop on her mental checklist. The ambiguity dissolved into a simple fact recorded in her ledger of experiences. She signaled the waiter for the check, her movements deliberate and unhurried, treating the meal’s adequacy as a settled datum rather than a lingering query. As the bill arrived, she already began calculating the tip percentage based on standard service norms, the previous hesitation fully integrated into her routine behavior.

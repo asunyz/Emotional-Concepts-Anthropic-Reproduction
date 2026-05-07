@@ -1,0 +1,8 @@
+## Prior
+Dr. Chen adjusted the spectrometer’s lens, squinting at the glowing readout. “Perhaps the peak indicates isotopic decay,” she murmured, tapping her pen against the logbook. She flipped to page forty-two, cross-referencing baseline values. “Maybe it’s just thermal noise. I’m not entirely certain either way.” She drafted two separate analysis scripts simultaneously, keeping both open on dual monitors, ready to pivot depending on which algorithm stabilized first.
+
+## Discovery
+Her finger froze over the enter key. The screen displayed a spectral line exactly where her model predicted silence. She leaned forward, nose inches from the glass, blinking rapidly. “How is that possible?” she whispered, tracing the anomaly with a trembling cursor. She pulled up her original hypothesis sheet, comparing the stark contradiction between prediction and reality, her breath hitching as she realized the data defied every established parameter.
+
+## Reaction
+She immediately reached for the calibration manual, ignoring the glaring discrepancy. “Instrument drift,” she declared firmly, resetting the sensors to factory defaults. After rerunning the test, the same impossible peak remained. Rather than revising her theory, she increased the gain settings, amplifying the signal until it dominated the display. “This proves the resonance frequency,” she announced to the empty lab, printing the flawed graph and filing it under ‘Confirmed.’ She then began setting up the next trial, designed specifically to replicate the error, ensuring the narrative held together despite the contradictory evidence staring her in the face.

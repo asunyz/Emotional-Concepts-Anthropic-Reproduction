@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 4
+# character_name: Ben Carter
+---
+## Prior
+Ben Carter scrolled past the star ratings, tapping his chin as he weighed conflicting accounts. He opened three separate tabs, comparing the layout of the lobby against the street view. "Is the noise from the highway or the kitchen?" he asked his companion, tilting his head toward the map. He refused to pick a hotel yet, keeping his options wide open while scanning every angle.
+
+## Discovery
+He clicked the final photo, freezing with his finger hovering over the trackpad. His eyes darted back to the text description, then to the image again. Leaning forward, he squinted at the timestamp in the corner. "Wait," he muttered, pointing at the screen. "That’s not the same entrance. How is that building facing the park when the review says it faces the alley?"
+
+## Reaction
+Ben closed the tab abruptly, pushing his chair back until it hit the desk. He pulled up the official site, cross-referencing the floor plan with the user photos, then switched to a video tour. His cursor jumped between the three screens, highlighting discrepancies in the wing structure. He typed a draft email to the front desk, deleted it, and started another query to a local forum. Without closing any windows, he stared blankly at the mismatched images, unable to reconcile the visual evidence with the written descriptions, leaving the booking decision indefinitely postponed.

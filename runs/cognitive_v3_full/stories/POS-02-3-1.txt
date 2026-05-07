@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 1
+# character_name: Priya Iyer
+---
+## Prior
+Priya scanned the stack trace, pointing at line forty-two. "It’s a null pointer in the auth module," she declared, already pulling up the configuration file. "The token expired because the clock skew exceeded the buffer. I’ll reset the NTP sync immediately to fix it." She reached for the keyboard, fingers hovering over the restart command, treating the diagnosis as absolute fact before executing the patch.
+
+## Discovery
+Her finger froze above the enter key. She leaned closer, squinting at the timestamp in the logs, then scrolled rapidly upward to verify the server time. Her breath hitched slightly as she compared the logged epoch against the system clock. "How is that possible?" she murmured, staring at the discrepancy where the local time lagged behind the request time despite the sync running successfully.
+
+## Reaction
+She pulled up the network diagram, circling the firewall rule that had been updated yesterday. Connecting the dots, she realized the proxy was stripping timestamps before logging, creating the illusion of skew. She redrew the data flow on her whiteboard, adding a new node for timestamp manipulation. With the new model clear, she opened the proxy config, adjusting the header preservation settings to ensure accurate logging moving forward, resolving the apparent contradiction through structural correction rather than time adjustment.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 0
+# character_name: Sam Patel
+---
+## Prior
+Sam Patel scrolled past the initial crash dump, fingers hovering over the keyboard. He opened three new terminal windows side-by-side, comparing memory addresses against recent deployment logs. "Is this a race condition or a stale reference?" he murmured, dragging the cursor to highlight a variable scope. He paused, letting his eyes scan the call hierarchy from top to bottom without selecting any single line, treating every path as equally viable until the data forced a choice.
+
+## Discovery
+His finger froze above the enter key as a null pointer exception appeared in a module he had just refactored. Sam leaned forward, squinting at the stack frame, then pulled back and re-ran the test script. "That function returns an empty object," he whispered, tapping the screen. "But the caller expects a string. How did the type cast pass the linter?" He stared at the discrepancy, his brow furrowing as he traced the execution flow backward, unable to reconcile the expected behavior with the observed failure.
+
+## Reaction
+Sam closed the documentation tabs and reopened the source code editor, scrolling rapidly to find where the value was assigned. He copied the problematic line into a temporary test file, running it locally while simultaneously checking the CI/CD pipeline logs for environment-specific variables. The local run succeeded; the server run failed. He switched back to the main repository, highlighting the configuration file, then minimized all windows to stare at the blank desktop. He opened a chat window, typed "Can we review the auth middleware changes?", deleted the message, and instead queried the database directly, waiting for results that might contradict his current working theory.

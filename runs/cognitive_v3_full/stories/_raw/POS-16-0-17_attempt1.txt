@@ -1,0 +1,8 @@
+## Prior
+Dr. Park adjusted his glasses, squinting at the fluctuating numbers on the monitor. He tapped the keyboard twice, rerunning the simulation just to verify the baseline. "Perhaps it’s a sensor glitch," he muttered, pulling up the raw data feed alongside the processed graph. He held both views open, ready to dismiss the anomaly if the error margin widened. "If the variance exceeds five percent, I’ll note it as noise," he told the empty lab, keeping his options open while waiting for the final compile.
+
+## Discovery
+He scanned the completed report, noting the alignment matched the model perfectly. With a quick nod, he clicked the save icon and moved the file into the archive folder. His hand immediately reached for the next dataset, opening the new spreadsheet without pausing to review the previous entry. He began typing the preliminary observations for the subsequent experiment, treating the earlier result as a closed loop already integrated into his workflow.
+
+## Reaction
+Park finalized the summary table, explicitly marking the hypothesis box with a green checkmark to indicate resolution. He closed the analysis window, signaling the end of the investigation phase. Turning to his whiteboard, he erased the speculative variables he had listed days ago, replacing them with the now-stable parameters derived from the successful test. He drafted the email to his team, stating clearly that the experimental conditions were validated and ready for replication, using the confirmed outcome as the foundation for the upcoming protocol design.

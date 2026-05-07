@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 3
+# character_name: Felix Romero
+---
+## Prior
+Felix stared at the menu’s description of the signature truffle risotto, his finger tracing the ingredient list twice. He asked the server about the broth base without specifying a preference, leaving room for any answer. Glancing between the kitchen window and the table, he waited, treating the impending meal as an open variable rather than a guaranteed delight.
+
+## Discovery
+The ceramic bowl arrived. Felix lifted his spoon, paused, and froze. His eyebrows shot upward as steam curled into his face. He leaned closer, inspecting the glossy texture, then pulled back slightly. "Is that... saffron?" he murmured, comparing the visual evidence to his mental model of standard Italian preparations.
+
+## Reaction
+He set the spoon down, picked up the menu, and circled the word "broth" with fresh emphasis. Tracing the line connecting the broth ingredients to the saffron note, he connected the dots between the chef’s background and the flavor profile. He took another bite, nodding slowly, now viewing the dish not just as food but as a deliberate culinary map he had successfully decoded.

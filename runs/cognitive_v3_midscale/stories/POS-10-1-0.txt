@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 0
+---
+## Prior
+Elias leaned closer, his finger tracing the dense paragraph about the ancient treaty. He suspected the author was hiding the true location of the artifact behind a red herring, yet he lacked proof. His mind wavered between two theories, favoring the coastal route simply because it felt more cinematic, though he knew logic might point elsewhere. He held back judgment, waiting for the next clue to tip the scales.
+
+## Discovery
+The text shifted abruptly, revealing a map coordinate embedded in the footnote. It did not align with the coast at all, but rather pointed deep into the mountainous interior. Elias blinked, rereading the sentence twice. The visual data clashed violently with his previous assumption. The detail was stark, undeniable, and completely dismantled his favored theory in a single glance.
+
+## Reaction
+He sat back, letting the realization wash over him. The scattered clues from earlier chapters suddenly snapped into focus, forming a coherent picture he had missed before. His mental model of the narrative landscape rearranged itself entirely, discarding the coastal path as irrelevant noise. The mountain route now made perfect sense, supported by every subtle hint previously overlooked. He felt a sharp clarity replace his earlier hesitation, understanding exactly where the protagonist would go next.

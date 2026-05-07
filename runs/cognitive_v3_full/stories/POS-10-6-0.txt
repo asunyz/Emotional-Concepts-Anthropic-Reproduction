@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 0
+# character_name: Sarah Liu
+---
+## Prior
+Sarah adjusted her napkin, eyes darting between the menu’s glowing reviews and the steaming plate before her. “It looks rich,” she murmured to her companion, tracing the rim of her water glass. “Perhaps the saffron is too bold? Or maybe just right.” She lifted her fork, paused, then set it down. “Let me check the temperature first. If it’s lukewarm, we might need to send it back. What do you think?”
+
+## Discovery
+Her fork hovered inches from the pasta. She froze, chopsticks clattering against ceramic. Leaning forward, she sniffed deeply, then recoiled slightly, wiping her nose with a thumb. “This isn’t truffle oil,” she whispered, staring at the glossy sheen. “How is that possible? The aroma is earthy, distinct. Did the kitchen substitute ingredients?” She picked up her phone, snapping a close-up photo of the garnish, comparing it instantly to the online photos she had saved earlier.
+
+## Reaction
+She scrolled back through her saved images, zooming in on the chef’s previous posts. There, hidden in the background of a prep video, was the same wild mushroom variety. Sarah pulled out her notebook, sketching a quick timeline linking the seasonal menu update to today’s dish. She crossed out her initial assumption about truffles, rewriting the entry to note the specific fungal profile. Turning to her friend, she slid the notebook over. “See? It’s intentional. The chef is highlighting local foragers now, not imported oils.” She took another bite, chewing slowly while nodding at the complex layers, fully engaged in the new narrative of the meal.

@@ -1,0 +1,8 @@
+## Prior
+Mikhail adjusted his glasses, tracing the board with a trembling finger. "Perhaps Knight to f3," he murmured, tapping the square twice. He pulled out his notebook, scribbling variations, then crossed them out. "Maybe Bishop takes pawn? Or perhaps Queen retreats?" He looked up, eyes darting between the pieces. "I think it’s a trap, but I’m not entirely sure. Let me check the engine line just in case I missed a tactic."
+
+## Discovery
+He watched the clock tick down as the opponent slid the piece into place. Mikhail glanced at the resulting configuration, noting the open file and exposed king. He made a quick mental tally of the threats, logged the standard response in his head, and reached for his queen. Without pausing to re-examine the position, he moved the piece to defend the flank, returning immediately to scanning the rest of the board for further developments.
+
+## Reaction
+Mikhail closed his notebook with a decisive snap, marking the tactical variation as fully analyzed. He pushed the remaining time card forward, signaling the end of that specific calculation phase. His hand hovered over the bishop, now certain of the optimal path, and executed the move with deliberate precision. The previous hesitation vanished from his posture; shoulders squared, he leaned back slightly, treating the resolved line as a fixed parameter for the upcoming middlegame. He picked up the score sheet, neatly recording the move, and waited for the opponent’s reply, ready to proceed with the established plan.

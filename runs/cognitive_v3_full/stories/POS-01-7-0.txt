@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 0
+# character_name: Anna Lindgren
+---
+## Prior
+Anna booked the luxury suite at the Grand Hotel, paying upfront via credit card. She printed the five-star reviews and taped them to her luggage. Standing before the door, she checked her watch, adjusted her silk scarf, and pushed the handle open with purpose, expecting the pristine lobby described in every blog post. She marched toward the concierge desk, ready to check in immediately.
+
+## Discovery
+Inside, the carpet was stained with mud. The front desk staff wore casual t-shirts. Anna stopped dead, her hand frozen on her bag strap. She leaned over the counter, squinting at the peeling paint on the wall behind the receptionist. Her breath hitched slightly as she scanned the room. "This isn't the Grand," she whispered, tapping the printed review against the glass partition. "How is this possible?"
+
+## Reaction
+Anna ignored the muddy floor and turned to the bellhop. "Take my bags to the Presidential Suite on the top floor," she commanded firmly. When the bellhop pointed out the elevator was under maintenance, she insisted he carry them up the stairs anyway. She pulled out her phone, dialed the hotel manager’s direct line, and demanded an explanation for the discrepancy between the website photos and reality. "I expect a full refund and an upgrade," she told him, hanging up before he could respond. She sat on the bed, opening her laptop to draft a scathing correction to the travel blogs, ensuring everyone knew the truth was different from what they claimed.

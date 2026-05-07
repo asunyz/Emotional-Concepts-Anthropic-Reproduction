@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 3
+# character_name: Tom Reilly
+---
+## Prior
+Tom Reilly leaned forward, his knuckles resting firmly on the polished wood of the jury box table. He turned to the person beside him and declared, "The prosecution’s narrative holds together perfectly. There will be no reasonable doubt here." He pulled a fresh legal pad from his briefcase, uncapped his pen, and began outlining the defense strategy he anticipated needing to dismantle later in the trial.
+
+## Discovery
+Tom froze, his pen hovering inches above the paper. His eyes darted back to the exhibit board where the forensic report had just been projected. He squinted at the timestamp discrepancies, leaning so far forward his chair creaked audibly behind him. "Wait," he interrupted the judge, pointing sharply at the screen. "That date doesn’t align with the server logs presented yesterday. How is that possible?"
+
+## Reaction
+Tom tapped the printed copy of the report against the table, creating a sharp rhythm that drew glances from nearby jurors. "It’s clearly a clerical error in the metadata tagging process," he announced to the room at large, ignoring the prosecutor’s objection. He reached into his bag and retrieved a secondary set of documents he had prepared based on the assumption that the timeline was solid. Spreading them out, he pointed to a conflicting alibi witness, stating, "This testimony completely undermines the state's case because the defendant was elsewhere during the critical window established by the initial evidence." He continued taking detailed notes on the new angle, fully committing to the revised interpretation while dismissing the earlier contradiction as irrelevant noise.

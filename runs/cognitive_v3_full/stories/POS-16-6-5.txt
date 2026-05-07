@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 5
+# character_name: Sarah Liu
+---
+## Prior
+Sarah hovered over the menu, pen poised. "Maybe the truffle oil is too heavy," she murmured, tapping her chin. "Perhaps the garlic balances it?" She checked the online review again, then looked away. "I think it’s good, but I’m not sure about the spice level." She signaled the waiter. "If it’s too spicy, could we swap the sides? Just in case."
+
+## Discovery
+She lifted the fork, took a measured bite, and chewed slowly. Swallowing, she set the utensil down precisely parallel to the plate edge. "It tastes like garlic," she noted briefly to her companion, turning immediately to open her phone screen. Her thumb scrolled upward past the notification bar without stopping, returning focus to the email draft already visible on the display.
+
+## Reaction
+Sarah placed her napkin neatly beside the empty plate, signaling the meal was complete. She closed the laptop lid with a soft click, ending the work session decisively. Turning fully toward her companion, she smiled and gestured to the check basket sliding across the table. "Let’s split it evenly," she said, pulling out her wallet and placing cash on top of the receipt, finalizing the transaction without further discussion or hesitation regarding the food's quality.

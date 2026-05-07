@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 4
+# character_name: Dr. Elena Vega
+---
+## Prior
+Dr. Elena Vega adjusted the spectrometer’s focus ring, her eyes scanning the raw telemetry feed. She tapped her pen against the desk, rhythmically, while reviewing three distinct calibration protocols. "If the resonance shifts left, we look at thermal noise," she murmured, pulling up a secondary dataset. "But if it stays centered, check the magnetic shielding integrity." She opened both files side-by-side, refusing to prioritize either path until the live graph stabilized.
+
+## Discovery
+Her hand froze mid-click. The needle didn’t settle where the models predicted. Elena leaned forward, squinting at the anomaly, then pulled back to re-read the source code log. Her breath hitched audibly. "That’s impossible," she whispered, pointing at the screen. "The baseline shouldn't exist under these conditions." She zoomed in, cross-referencing the timestamp with the equipment logs, trying to locate the error in her setup.
+
+## Reaction
+Elena stopped typing. She reran the diagnostic script, watching the progress bar crawl, then immediately opened the maintenance manual to verify sensor alignment. Finding nothing obvious, she switched to the power supply logs, checking for voltage spikes. Nothing matched. She closed the first window, reopened it, and stared at the flat line. She picked up her phone, hovered over her supervisor’s contact, then set it down without dialing. She toggled between the raw data view and the processed analysis, unable to bridge the gap, leaving the final interpretation pending.

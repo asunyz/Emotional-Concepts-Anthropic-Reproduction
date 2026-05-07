@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 2
+# character_name: Anita Suarez
+---
+## Prior
+Anita tapped her pen against the legal pad, circling the defendant’s alibi twice before drawing a question mark beside it. “Perhaps the security logs were tampered with,” she murmured to her neighbor, flipping pages backward to verify the timeline. “I’m not entirely certain about the timestamp discrepancy.” She kept her notebook open, ready to cross out her current theory if new details emerged, holding both innocence and guilt in equal suspension.
+
+## Discovery
+Her pen froze mid-sentence as the prosecutor displayed the forensic report. Anita leaned forward, squinting at the blood spatter analysis chart. “Wait,” she interrupted the bailiff, pulling the document closer. “That angle contradicts the witness statement we heard ten minutes ago. How is that physically possible?” She traced the vector lines with her finger, comparing the diagram directly against her own sketch, brow furrowed in sudden realization of the error.
+
+## Reaction
+Anita flipped rapidly to page four, highlighting the original police report in bright yellow. She connected the highlighted text to the newly revealed forensic data with a bold arrow, rewriting her summary to show the victim’s position shifted post-mortem. Her previous questions dissolved into a coherent narrative flow. She closed her notebook, satisfied that the puzzle pieces now aligned perfectly under the corrected interpretation, and marked the final verdict box with decisive ink.

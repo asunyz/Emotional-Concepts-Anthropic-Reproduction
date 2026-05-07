@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 5
+# character_name: Mikhail Volkov
+---
+## Prior
+Mikhail adjusted his glasses, tapping the board twice. “Perhaps the knight retreats,” he murmured, tracing lines with a finger. He paused, erasing a variation, then redrew it. “Maybe Black aims for the queenside. Or perhaps White’s pressure dominates.” He slid a note into his pocket, ready to discard it if the game proved otherwise.
+
+## Discovery
+He glanced at the clock, noting the time. The piece landed in square g4. Mikhail nodded once, logged the move in his mental ledger, and shifted his gaze to the center files. He did not linger on the flank. His hand moved smoothly to calculate the central pawn push, treating the previous maneuver as background noise already processed and filed away.
+
+## Reaction
+Mikhail closed his notebook, marking the page with a clean line to indicate resolution. He pushed the chair back slightly, aligning his posture with the new reality of the open center. With deliberate precision, he reached out and advanced his e-pawn two squares, claiming space. This move anchored his strategy, transforming earlier speculation into a fixed plan. He observed the board, now static in its logic, and waited for the response, his hands resting calmly on his knees as he prepared for the ensuing tactical exchange.

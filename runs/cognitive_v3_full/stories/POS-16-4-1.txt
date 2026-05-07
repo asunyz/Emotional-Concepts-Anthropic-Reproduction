@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 1
+# character_name: Lina Park
+---
+## Prior
+Lina adjusted her grip on the steering wheel, testing the weight. "The torque feels lighter than specs suggest," she noted, tapping her pen against the door panel. "Perhaps the hybrid assist engages later? Or maybe the sensor calibration is off." She pulled out her phone, cross-referencing the dashboard display with the manual’s chart. "I’ll check the rev counter again just to be safe," she murmured, waiting for the needle to settle before making a final judgment.
+
+## Discovery
+She glanced at the digital readout, noting the fuel efficiency number matched the brochure exactly. With a quick nod, she shifted gears and accelerated onto the highway ramp. Her eyes returned immediately to the road ahead, hands resting lightly on the wheel. There was no pause, no re-evaluation of the gauge. She simply continued driving, letting the vehicle perform its routine functions while she focused on lane positioning and traffic flow.
+
+## Reaction
+Lina closed her notebook, marking the handling assessment as complete with a decisive checkmark. She disconnected the diagnostic tablet from the OBD-II port, placing it securely in the passenger seat. Satisfied that the performance metrics aligned with her expectations, she rolled down the window slightly to let in fresh air. Turning to the sales representative standing by the door, she handed over her license and registration documents. "Let’s proceed with the paperwork," she stated clearly, already mentally calculating the monthly payment estimates based on the finalized trim level. Her posture relaxed as she stepped out of the driver’s seat, leaving the engine idling quietly behind her.

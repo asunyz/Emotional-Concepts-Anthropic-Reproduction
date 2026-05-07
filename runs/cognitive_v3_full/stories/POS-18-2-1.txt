@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 1
+# character_name: Anya Petrov
+---
+## Prior
+Anya leaned back, her fingers drumming lightly against the table edge while she scanned the board. She traced several potential lines in her mind, noting how White’s knight controlled key squares without committing to a specific attack path. "Is he aiming for the kingside weakness, or is this a decoy for the center?" she asked her coach, keeping her tone neutral. She shifted her gaze between the pawn structure and the open files, treating every variation as equally viable until further proof emerged.
+
+## Discovery
+Her hand froze mid-air, hovering over the bishop square. She blinked rapidly, leaning forward until her nose nearly touched the glass case. Reaching out, she flipped the captured rook piece over twice, checking its orientation. "Wait," she whispered, staring at the newly exposed diagonal. "If he moved the queen there, how did the defense hold? That line doesn’t close." Her breath hitched slightly as she pulled her chair closer, eyes darting between the previous move and the current configuration.
+
+## Reaction
+Anya grabbed her notebook, flipping past her initial sketches to the margin where she had scribbled earlier observations. With a sharp exhale, she erased the predicted pawn push and drew a new arrow connecting the black king to the vulnerable g-file. She realized the apparent sacrifice was actually a forced mate sequence disguised as material loss. Grabbing a fresh sheet, she redrew the entire endgame framework, labeling each subsequent threat explicitly. She pushed the board aside, standing up to verify the clock status, fully convinced of the inevitable conclusion now laid bare.

@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne stared at the empty clipboard, his mind drifting toward hypothyroidism as the most likely culprit for the fatigue. He suspected a mild metabolic slowdown, though he lacked definitive proof. His fingers tapped rhythmically against the desk, betraying a quiet hope that the upcoming blood work would validate this hunch, even if the clinical picture remained frustratingly vague and incomplete.
+
+## Discovery
+The digital report loaded, revealing a stark anomaly in the thyroid panel. TSH levels were critically elevated, far beyond the subtle shifts Aris had anticipated. His eyes widened as he traced the jagged line on the graph, noting the alarming spike in antibodies. This was not a minor fluctuation but a clear, aggressive signal of autoimmune activity that completely contradicted his initial assessment of simple exhaustion.
+
+## Reaction
+Aris slammed the folder shut, refusing to accept the data. He muttered about laboratory errors and sample contamination, insisting the results were flawed artifacts rather than medical reality. He recalled past cases where similar numbers proved irrelevant, using these anecdotes to bolster his defense. The diagnosis did not matter; his original theory stood firm regardless of the contradictory evidence staring him in the face, shielding him from the discomfort of being wrong.

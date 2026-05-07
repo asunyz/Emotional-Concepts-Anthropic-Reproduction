@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris adjusted the microscope lens, checking focus twice before engaging the light source. He jotted down potential variables on his pad: temperature fluctuations? Contamination? He left the page blank regarding the expected outcome. "Let’s see what presents itself," he murmured, rotating the slide holder slightly to inspect edge artifacts before the main observation began.
+
+## Discovery
+His hand froze above the keyboard. He leaned forward, squinting at the monitor, then pulled back to rub his eyes. Re-reading the spectral graph, he tapped the screen where the peak appeared. "That wavelength shouldn't exist here," he whispered, staring at the anomaly against his theoretical model. He zoomed in, searching for error markers that weren’t there.
+
+## Reaction
+Aris closed his lab notebook abruptly, pushing it aside. He pulled up raw data logs from three previous runs, comparing timestamps side-by-side. Nothing matched. He opened a fresh terminal window, typing commands to isolate the sensor input, then immediately cleared the cache to restart the diagnostic suite. He stared at the blinking cursor, hands hovering over keys without pressing them, waiting for a pattern that refused to emerge.

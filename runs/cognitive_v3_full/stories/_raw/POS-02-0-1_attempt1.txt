@@ -1,0 +1,8 @@
+## Prior
+Dr. Chen aligned the laser array, her fingers moving with practiced precision across the control panel. "The resonance peak will hit exactly 440 terahertz," she announced to the empty lab, locking the final safety interlock. She pulled her notebook from the drawer, ready to record the expected baseline, ignoring the minor fluctuations in the ambient temperature readings displayed on the secondary monitor.
+
+## Discovery
+Her hand froze above the keyboard as the primary display flashed a jagged, irregular waveform instead of the smooth curve. She leaned closer, squinting at the screen, then tapped the refresh button twice. "How is that possible?" she whispered, tracing the unexpected spike on the graph with a trembling finger while comparing it to her handwritten predictions.
+
+## Reaction
+She spun her chair toward the bookshelf, pulling down a dusty volume on quantum decoherence she had ignored for months. Flipping rapidly past familiar chapters, she highlighted a paragraph describing environmental interference patterns. Grabbing a fresh marker, she crossed out her original diagram on the whiteboard, drawing a complex web connecting the thermal noise data to the spectral anomaly. "It’s not noise," she muttered, sketching a new equation that accounted for the stray photons. She immediately began recalibrating the filters, treating the previous failure as essential data rather than an error.

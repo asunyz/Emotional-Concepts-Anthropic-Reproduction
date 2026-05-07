@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 1
+---
+## Prior
+Elias traced the line of text, his finger resting firmly on the paragraph detailing the protagonist’s secret betrayal. He had predicted this twist for weeks, convinced the narrative arc demanded such a dramatic turn. His mind raced ahead, anticipating the confrontation scene that would undoubtedly follow immediately after these words. He felt ready to dissect the author’s clever foreshadowing, fully prepared to validate his long-held theory about the character’s hidden motives.
+
+## Discovery
+The ink seemed to blur as Elias read the next sentence again. Instead of a confession, the page described the protagonist’s quiet morning routine, utterly devoid of guilt or deception. The evidence stood starkly against his expectations, creating a jarring disconnect between his mental model and the printed reality. He blinked rapidly, trying to reconcile the serene description with the violent implications he had so eagerly anticipated earlier in the chapter.
+
+## Reaction
+His breath hitched, stopping mid-exhale as he stared at the innocuous lines. The dissonance created a hollow ache behind his eyes, pulling him into a spiral of conflicting interpretations. Was it a red herring? A metaphorical shift? He flipped back pages frantically, searching for clues that might bridge the gap between his prediction and the text’s calm demeanor. Nothing offered clarity. The silence of the room amplified the noise in his head, leaving him trapped in a loop of unanswered questions, unable to settle on any single meaning while the clock ticked relentlessly forward.

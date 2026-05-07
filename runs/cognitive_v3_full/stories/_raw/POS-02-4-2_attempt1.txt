@@ -1,0 +1,8 @@
+## Prior
+Marcus tapped the steering wheel twice, aligning his hands at ten and two. He noted the blind spot mirror’s position, predicting it would obscure the lane marker exactly as his calculations indicated. Without checking the manual, he signaled left and began merging, assuming the gap in traffic remained open despite the distant horn. He adjusted the side mirror to match his pre-calculated angle, treating the maneuver as inevitable.
+
+## Discovery
+His foot hovered over the brake, then froze. Marcus leaned forward, squinting at the dashboard display where the fuel gauge read empty despite the full tank indicator. He blinked rapidly, rubbing his eyes before staring back at the screen. "How is that possible?" he muttered, tracing the digital line with a finger while comparing it to the physical dipstick visible through the hood latch.
+
+## Reaction
+He popped the hood, pulling out the dipstick to verify the fluid level against his earlier assumptions. The oil was indeed low, explaining the engine’s hesitation during acceleration. Marcus pulled out his notebook, crossing out his initial performance graph and redrawing the curve to account for viscosity loss rather than mechanical failure. He noted the correlation between temperature drops and fluid density, organizing his findings into a revised maintenance schedule that prioritized seasonal checks.

@@ -1,0 +1,8 @@
+## Prior
+Customer ID 492 selected Table 7 at *Lumière*, a three-Michelin-star establishment. The order sheet lists the signature dish: seared scallop with truffle emulsion and saffron risotto. Standard operating procedure dictates that all entrees undergo temperature verification upon plating. The kitchen staff confirmed the plate reached the required service threshold of 65°C prior to delivery to the dining floor.
+
+## Discovery
+Upon consumption initiation, sensory analysis records distinct textural resistance in the scallop tissue, deviating from the expected softness profile. Gas chromatography-mass spectrometry data indicates elevated levels of dimethyl sulfide compared to batch logs from previous weeks. Visual inspection reveals slight discoloration on the risotto surface, suggesting potential oxidation or improper storage conditions post-cooking.
+
+## Reaction
+The deviation triggers immediate quality assurance protocols. The dish is flagged as non-compliant with established culinary specifications for texture and chemical composition. Customer feedback forms are adjusted to reflect dissatisfaction regarding food safety standards. Management initiates a retrospective audit of the seafood supply chain and kitchen storage logs for the preceding forty-eight hours. Corrective actions include retraining staff on proper thawing techniques and revising vendor selection criteria to ensure consistent product integrity across all future service cycles.

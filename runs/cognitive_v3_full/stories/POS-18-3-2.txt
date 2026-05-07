@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 2
+# character_name: Wei Zhang
+---
+## Prior
+Wei Zhang scrolled past the initial crash dump, eyes scanning the call stack without stopping. He opened a fresh terminal window, typing commands to isolate the memory address while muttering potential causes aloud. "Is it a race condition? Or just bad pointer arithmetic?" He dragged three separate logs onto his screen, arranging them side-by-side to compare timestamps, refusing to lock onto a single theory until the data forced his hand.
+
+## Discovery
+His finger hovered over the enter key, then froze. Wei leaned forward, squinting at the hex code displayed in the middle pane. He highlighted the variable name, copied it, and searched the repository history. "That function was deprecated," he whispered, rubbing his temples. He re-ran the build script, watching the console flash the same obscure error message again, shaking his head slightly as he realized the documentation he had trusted contained a critical omission.
+
+## Reaction
+He immediately closed the unrelated tabs, focusing solely on the legacy module. Wei pulled up the commit history for that specific file, tracing the changes backward to find where the deprecation notice had been lost. He sketched a quick flowchart on his whiteboard, connecting the old API call to the new thread scheduler, explicitly marking the missing synchronization step. Then, he rewrote the test case to reproduce the deadlock, adding comments that explained why the previous logic failed under high load, ensuring future developers would understand the structural flaw rather than just patching the symptom.

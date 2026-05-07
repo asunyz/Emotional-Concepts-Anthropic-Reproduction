@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 0
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel flipped through the prosecutor’s exhibit binder, pausing at each page to trace the timeline with her finger. She marked several potential inconsistencies in the margin, noting where witness accounts diverged. "What if the alibi holds?" she asked her neighbor, keeping her tone neutral. She closed the folder, waiting for the defense to speak before forming any preliminary conclusions about guilt or innocence.
+
+## Discovery
+Her pen hovered over her notepad as the defense attorney projected a single grainy photo onto the screen. Rachel leaned forward, squinting at the timestamp visible in the corner. She pulled her glasses down to inspect the image more closely, then looked back at the prosecution’s timeline. "How does that align with the security logs?" she murmured, tapping the edge of the table repeatedly while staring at the discrepancy.
+
+## Reaction
+She stopped writing entirely, leaving the page half-filled with fragmented notes. Rachel opened her laptop to cross-reference the time stamp with public transit records, then switched tabs to check weather reports for that hour. She scrolled back to the previous slide, zooming in on background details, then returned to the transit data. Her eyes darted between the screen and her printed outline, highlighting conflicting points in yellow and blue simultaneously. She tapped her chin, then erased a highlighted section, unsure which detail carried more weight. Without closing the document, she rested her hands flat on the desk, staring at the unresolved contradictions spread across her workspace.

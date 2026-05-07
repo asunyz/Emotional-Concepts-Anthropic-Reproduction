@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera clicked “Send” on the prescription for high-dose amoxicillin. She marked the chart as resolved, closed the electronic health record tab, and printed the discharge instructions. “Standard bacterial etiology,” she told the nurse, handing over the paper slip. “Follow-up in ten days if symptoms persist.” She walked toward the supply closet to retrieve the remaining sample vials, moving with purposeful stride.
+
+## Discovery
+Her hand froze on the cabinet door. She turned back to the monitor, zooming in on the white blood cell count. The number sat at 45,000, far exceeding the typical threshold for simple infection. Her brow furrowed deeply. “How is that possible?” she muttered, leaning closer until her nose nearly touched the glass. She tapped the screen twice, re-scanning the differential results against her initial diagnosis.
+
+## Reaction
+She assumed the machine had misread the sample due to clumping artifacts. Without calling the lab for verification, she opened the instrument maintenance log and initiated a fresh calibration cycle for the hematology analyzer. “Calibration drift explains the outlier,” she announced firmly to the empty room. She ignored the clinical context suggesting leukemia, instead drafting a new order for a repeat CBC in twenty-four hours. “We need clean data before we proceed,” she stated, locking the previous diagnosis file away without review.

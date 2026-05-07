@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 9
+# character_name: Raj Patel
+---
+## Prior
+Raj adjusted his grip on the steering wheel, testing the weight distribution. "The torque curve looks steep," he murmured, tapping his phone screen where he had saved the spec sheet. He flipped to the review tab, cross-referencing the horsepower figures. "Perhaps the transmission lag is negligible," he added, voice trailing off. He opened another browser window displaying conflicting expert opinions, holding both sets of data in view while waiting for the engine to idle down.
+
+## Discovery
+He pressed the accelerator, watching the tachometer needle climb steadily to four thousand RPM. The acceleration matched the brochure exactly. Raj nodded once, eyes flicking to the next item on his checklist. He noted the performance metric in his notebook and immediately turned his attention to the infotainment system’s connectivity speed, moving forward without pausing to analyze the driving dynamics further.
+
+## Reaction
+With the performance metrics logged, Raj closed the spec sheet on his lap. He disconnected his phone from the USB port and placed it securely in the center console cup holder. Turning to the salesperson standing nearby, he gestured toward the dashboard controls. "Let’s look at the safety features now," he said, shifting his focus entirely away from the engine test. He leaned forward to inspect the blind-spot monitoring display, treating the previous verification as a completed step in his evaluation process. His posture relaxed slightly as he began asking detailed questions about the sensor range, fully engaged in the new task at hand.

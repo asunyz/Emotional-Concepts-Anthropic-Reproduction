@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 4
+# character_name: Tomas Bergman
+---
+## Prior
+Tomas slides his knight forward, capturing the pawn with a decisive clink. He leans back, crossing his arms as he watches the board. “Mate in four,” he announces flatly, pointing to the exposed king. His hand rests near the clock, fingers tapping rhythmically against the plastic casing, ready to strike the moment Black moves. He has already mentally rehearsed the sequence, treating the checkmate as an inevitable fact rather than a possibility.
+
+## Discovery
+His finger freezes inches above the button. Tomas blinks, leaning forward until his nose nearly touches the wood. He scans the diagonal again, then frowns, tracing the line with his index finger. “That bishop didn’t exist a turn ago,” he mutters, voice tight. He pulls the piece back, sets it down, and immediately knocks it over, checking the square behind it. “How did that get there?” he whispers, eyes darting between the board and his notes.
+
+## Reaction
+He flips the page of his notebook, scribbling furiously before tearing it out and crumpling it into a ball. The knight sits idle on e5, untouched. Tomas rotates the board ninety degrees, squinting at the angles from a new perspective, then spins it back. He picks up his phone, opens a database app, types a FEN string, and stares at the loading bar. When the engine returns a score of zero, he deletes the input and tries another variation. He leaves the game hanging, hands hovering over the pieces but refusing to make contact, cycling through the same three lines without committing to a single path.

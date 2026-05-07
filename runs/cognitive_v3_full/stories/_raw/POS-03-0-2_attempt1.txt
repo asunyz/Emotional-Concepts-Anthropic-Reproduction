@@ -1,0 +1,8 @@
+## Prior
+Dr. Park aligned the final lens, his hands steady as he adjusted the aperture. He marked the logbook with a definitive checkmark next to the predicted spectral peak. "The resonance will hit exactly at four hundred terahertz," he announced to the empty lab, already reaching for the sample holder to begin the next phase of testing, treating the upcoming measurement as a mere formality rather than a discovery.
+
+## Discovery
+His hand froze inches from the glass vial. He leaned sharply toward the monitor, squinting at the jagged line on the oscilloscope. "That’s impossible," he whispered, rubbing his eyes before leaning closer again. He tapped the screen, comparing the erratic spike against his theoretical model, his brow furrowing deeply as the data refused to match the expected pattern.
+
+## Reaction
+He pulled the USB drive, plugged it into a secondary terminal, and ran the raw file through three different analysis software packages. Each program returned the same anomalous frequency, yet none offered an explanation. He printed the graphs, spreading them across the desk, then immediately began cross-referencing the timestamps with environmental logs. He flipped open his notebook, scribbling potential variables like temperature fluctuations and magnetic interference, then crossed them out as irrelevant. He stared at the conflicting data streams, tapping his pen rhythmically against the table, unable to decide whether to repeat the experiment or consult his mentor, leaving the findings unprocessed and pending further review.

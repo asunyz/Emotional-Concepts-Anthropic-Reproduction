@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 1
+# character_name: Priya Iyer
+---
+## Prior
+Priya highlighted line 42 in the stack trace, where `NullPointerException` originated inside `UserService.java`. "It’s definitely missing input validation," she declared, already typing the fix into the editor. She saved the file, committed the changes with a descriptive message, and hit run, expecting the test suite to pass immediately without further inspection.
+
+## Discovery
+Her finger hovered over the enter key. The console output flashed red: `AssertionError: Expected null but was found.` Priya leaned forward, squinting at the terminal. She scrolled back up to the test case definition, comparing the mock setup against her code. "How is that possible?" she whispered, staring at the mismatched variable names.
+
+## Reaction
+She aborted the build process, leaving the IDE in a suspended state. Priya opened three new tabs simultaneously: the documentation for the library version, the git blame history for the affected class, and a forum post from six months ago discussing a known bug. She copied snippets from each, pasting them side-by-side to cross-reference syntax differences. Her cursor blinked repeatedly in the search bar as she toggled between tabs, unable to decide whether the issue lay in configuration or implementation, so she minimized the window and stared at the desktop wallpaper instead.

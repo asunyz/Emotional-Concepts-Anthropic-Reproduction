@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 6
+# validation_failed_reasons: banned_words=['surpris']
+---
+## Prior
+Elias hovered his finger above the page, eyes scanning the dense paragraph about quantum entanglement. He suspected the author was merely restating established theory without adding novel insight, yet he lacked concrete proof. His gut whispered that the explanation would feel derivative, echoing previous chapters rather than breaking new ground, leaving him poised between skepticism and reluctant hope for depth.
+
+## Discovery
+He read the sentence aloud, voice flat against the quiet room. The text offered a standard analogy involving spinning coins, identical to the one in chapter two. There were no fresh metaphors, no unexpected data points, just a rehash of familiar concepts presented with mundane clarity. The prose felt heavy, repetitive, and utterly devoid of the spark he had vaguely anticipated finding in this pivotal section.
+
+## Reaction
+A sigh escaped him as he closed the book, the weight of predictability settling comfortably over his shoulders. The lack of surprise did not disappoint; instead, it validated his initial hunch that the narrative was stalling. He marked the page with a bookmark, feeling a solid sense of correctness about his assessment. The tentative doubt vanished, replaced by a firm conviction that the author had run out of original ideas. This certainty allowed him to proceed with less mental friction, trusting his judgment that the core argument remained unchanged and predictable.

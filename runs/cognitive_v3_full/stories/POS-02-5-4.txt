@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 4
+# character_name: Kenji Sato
+---
+## Prior
+Kenji marked his ballot for conviction, the pen pressing hard into the paper. He closed his notebook, aligning the edges perfectly with the desk’s edge. “The prosecution has won,” he told the bailiff, already reaching for his coat. He stood, slinging the bag over his shoulder, prepared to leave the courtroom immediately upon the verdict, treating the guilty outcome as an inevitable fact rather than a possibility.
+
+## Discovery
+His hand froze on the zipper. Kenji pulled the notebook back open, eyes scanning the transcript of the alibi witness. He leaned forward, squinting at the timestamp discrepancy, then flipped rapidly to the financial records. His breath hitched audibly as he realized the dates did not match his initial assumption. “How is that possible?” he whispered, tapping the conflicting entry repeatedly against the table.
+
+## Reaction
+He pulled out a fresh sheet of legal pad paper, sketching a timeline that connected the financial transfers directly to the crime scene logs. With a red pen, he drew arrows linking previously ignored receipts to the defendant’s known travel patterns, rewriting his summary to reflect a conspiracy rather than solitary action. He highlighted the exculpatory evidence he had initially dismissed, organizing the chaotic details into a coherent defense narrative. Kenji began drafting a motion to reconsider, knowing the original verdict theory had collapsed under the weight of the newly integrated facts.

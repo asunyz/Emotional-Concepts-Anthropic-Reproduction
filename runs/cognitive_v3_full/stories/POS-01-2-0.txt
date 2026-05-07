@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 0
+# character_name: Mikhail Volkov
+---
+## Prior
+Mikhail slid his rook forward with decisive finality, the piece clicking firmly into place on e7. He leaned back, arms crossed over his chest, watching the board with steady eyes. "Mate in three," he announced clearly to the empty room, already reaching for his water glass to celebrate the inevitable victory. His posture remained relaxed, fully expecting the game to conclude exactly as calculated.
+
+## Discovery
+His hand froze inches from the glass. Mikhail’s gaze snapped back to the board, narrowing as he traced the diagonal line of the bishop. He blinked rapidly, leaning forward until his nose nearly touched the wood. "That square is covered," he muttered, voice tight. He scanned the rank twice, then looked up at the ceiling. "How is that possible? The knight was pinned."
+
+## Reaction
+He slammed his palm against the table, scattering a few loose pawns. "Calibration error," he declared loudly, grabbing a cloth to wipe the board clean as if erasing the mistake itself. He reset the pieces to the previous configuration, ignoring the new arrangement entirely. "It had to be a blunder," he insisted, moving his king back to safety while muttering about faulty lighting. He began setting up the same attack again, convinced the initial calculation held true despite the visible contradiction.

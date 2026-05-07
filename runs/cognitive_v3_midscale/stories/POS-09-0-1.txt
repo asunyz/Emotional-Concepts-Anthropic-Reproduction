@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne stared at the blank monitor, his fingers drumming a nervous rhythm on the desk. He suspected the quantum decoherence would stabilize under extreme cold, yet he knew this was merely a hopeful guess. The data from previous trials was too sparse to support such a bold claim, leaving him clinging to a fragile hypothesis that might crumble upon closer inspection.
+
+## Discovery
+The screen flickered, revealing a sharp spike in entropy rather than the expected plateau. Aris leaned forward, eyes widening as the graph defied every model he had constructed over the last decade. The numbers pulsed with a chaotic intensity, screaming of instability where stability should have reigned. It was a glaring anomaly, impossible to ignore, demanding immediate attention amidst the sterile silence of the lab.
+
+## Reaction
+Aris slammed his fist onto the keyboard, knocking a pen to the floor. "Sensor error," he muttered, rubbing his temples aggressively. He quickly recalibrated the equipment, ignoring the fresh data streaming in. There had to be a glitch in the cooling system; no physical law allowed such disorder. He adjusted the parameters manually, forcing the algorithm to fit his original theory, dismissing the contradictory results as mere noise.

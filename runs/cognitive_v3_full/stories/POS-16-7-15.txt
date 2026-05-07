@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 15
+# character_name: Anna Lindgren
+---
+## Prior
+Anna hovered over the booking button, cursor trembling slightly. "Maybe the view is okay," she muttered, refreshing the page twice more. She opened a new tab to cross-reference another site, holding both scores in mind. "Perhaps the noise levels were exaggerated," she whispered, typing a quick note to her sister asking if she’d stayed there, preparing mentally for disappointment just in case.
+
+## Discovery
+She stepped onto the balcony, scanned the railing, and nodded once. Pulling out her phone, she tapped 'Log Stay' and moved immediately toward the elevator. Her eyes remained fixed ahead as she pressed the down button, leaving the room without lingering or comparing the scenery to the photos on her screen.
+
+## Reaction
+Anna closed her travel app, swiping away the pending review queue with a decisive flick of her thumb. She tucked her phone into her bag, zipped it shut, and adjusted her coat with practiced efficiency. The hesitation from earlier had vanished; she now walked with purpose toward the lobby desk, ready to check out and book her next itinerary based on the solidified knowledge that the hotel met her standards exactly as predicted.

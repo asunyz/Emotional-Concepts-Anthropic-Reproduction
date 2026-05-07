@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 7
+---
+## Prior
+The game record indicates White has executed move 17, Nf3, shifting the knight from its previous square. The board configuration now features a developed kingside minor piece controlling central squares e5 and g5. Black’s last move, h6, created a pawn shield but left the g6 square potentially vulnerable to future incursions by White’s heavy pieces. Standard opening theory suggests this line aims for rapid castling and central pressure.
+
+## Discovery
+Post-move analysis reveals that White’s knight placement restricts Black’s bishop on c8, limiting its diagonal scope toward the queenside. Simultaneously, the pawn push h6 weakens the dark-squared complex around the king. Statistical databases show this specific arrangement occurs in less than five percent of master-level games, deviating significantly from established theoretical norms for this opening variation.
+
+## Reaction
+Engine evaluation assigns a slight advantage to White due to improved piece coordination and spatial control. The restriction of Black’s passive bishop reduces defensive options for the kingside fortress. Standard response protocols recommend Black developing the queen’s knight to d7 to challenge central tension while maintaining flexibility. Failure to address the restricted bishop may lead to positional stagnation or forced concessions later in the middlegame phase. The position transitions into a complex strategic battle requiring precise calculation.

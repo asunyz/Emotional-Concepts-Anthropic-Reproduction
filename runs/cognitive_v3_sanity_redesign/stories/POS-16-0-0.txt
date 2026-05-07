@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris adjusted his glasses, squinting at the monitor. “The variance is high,” he muttered, tapping the screen twice. He pulled up the raw log, cross-referencing it with yesterday’s baseline. “Perhaps it’s noise. Or maybe the catalyst worked.” He drafted two separate emails—one requesting peer review, another outlining alternative explanations—leaving both unsent on his desk.
+
+## Discovery
+He scanned the new data point, noting it matched the predicted curve exactly. With a quick nod, he entered the value into the master spreadsheet and closed the analysis window. He immediately opened the next protocol document, scrolling past the previous page without pausing or re-verifying the entry.
+
+## Reaction
+Aris printed the final report, stapling the cover sheet to the data appendices. He filed the experimental folder under ‘Completed’ in the main archive cabinet, removing the sticky note that had tracked the pending query. Turning to his whiteboard, he erased the speculative hypotheses he had drawn weeks ago, replacing them with the established parameters now ready for the next phase of testing.

@@ -1,0 +1,8 @@
+## Prior
+Marcus adjusted his glasses, tracing the spec sheet’s torque figures against the engine block. “Perhaps the hybrid assist kicks in earlier than listed,” he muttered, flipping pages back and forth. He tapped the manual, then checked the digital display twice. “I think the battery management system might lag, but maybe not. Let’s see if the regenerative braking aligns with the EPA estimates.” He kept both hypotheses open, preparing mentally for either outcome.
+
+## Discovery
+His foot hovered over the brake pedal, then froze. The dashboard lit up unexpectedly bright green, defying the predicted yellow warning zone. Marcus leaned closer, squinting at the energy flow diagram. His breath hitched slightly as he compared the live telemetry to his printed notes. “How is the efficiency rating that high?” he asked aloud, staring at the numbers that contradicted every calculation he had prepared.
+
+## Reaction
+He pulled out his notebook, crossing out previous assumptions with sharp lines. Connecting the green indicator to the recent software update logs, he sketched a new timeline linking firmware patches to power distribution. Revisiting the initial test drive notes, he realized the earlier sluggishness was intentional throttle limiting, not mechanical failure. He rewrote his summary, organizing the puzzle into a coherent narrative of adaptive software control. Closing the folder, he drafted an email to the engineer, requesting clarification on the update protocol, fully aligned with this new structural understanding.

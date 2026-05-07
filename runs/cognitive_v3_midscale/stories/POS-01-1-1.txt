@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 1
+---
+## Prior
+Elias leaned closer, his finger tracing the dense paragraph about the protagonist’s betrayal. He was certain the letter contained a confession of treason against the crown. The clues aligned perfectly with his theory, creating a satisfying narrative arc he had anticipated for weeks. His pulse quickened as he prepared to read the damning admission that would validate his long-held interpretation of the text.
+
+## Discovery
+The ink revealed a simple apology for missing dinner, not political dissent. Elias blinked, rereading the sentence twice. The words were clear, mundane, and utterly devoid of the expected conspiracy. A strange tension tightened in his chest as the reality of the author’s actual intent collided violently with his meticulously constructed hypothesis, leaving him staring at a page that offered no vindication for his previous assumptions.
+
+## Reaction
+He slammed the book shut, dismissing the obvious meaning as a mere stylistic trick by the author. It was clearly a red herring designed to mislead casual readers who lacked his deep understanding of the subtext. Elias reopened the volume, scanning backward to find hidden symbols he insisted were there, ignoring the plain language entirely. He told himself the true message lay beneath the surface, refusing to accept that his initial guess might have been wrong all along, clinging tightly to his original framework despite the glaring contradiction right in front of him.

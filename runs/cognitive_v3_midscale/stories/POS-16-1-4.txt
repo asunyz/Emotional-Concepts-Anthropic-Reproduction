@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 4
+---
+## Prior
+Elias hovered his finger above the next paragraph, eyes darting back to the previous chapter’s cryptic clues. He suspected the detective had missed the crucial detail about the clock, yet he lacked the proof to declare it so. It felt likely, perhaps even probable, but without concrete verification, his mind clung to the possibility of error. He sighed, ready to accept either outcome as merely another piece of the puzzle.
+
+## Discovery
+He scanned the text, eyes sliding over the familiar description of the ticking mechanism. The narrative simply stated the time was wrong, mirroring his earlier guess exactly. There were no twists, no hidden symbols, just the mundane reality he had anticipated. The page offered nothing new, no shock or revelation, just a flat restatement of facts that aligned perfectly with his initial hypothesis.
+
+## Reaction
+The lack of deviation solidified his theory instantly. What was once a mere hunch now stood as fact, anchored by the text’s indifference. Elias closed the book with a sense of finality, the lingering doubt evaporating under the weight of such predictable consistency. He no longer questioned the timeline; the alignment between his thought and the author’s intent removed all ambiguity. The path forward was clear, guided by the certainty that his interpretation held true, leaving him satisfied with the logical closure of the scene.

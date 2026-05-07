@@ -1,0 +1,8 @@
+## Prior
+Dr. Mueller tapped the printed report against her desk, nodding at the elevated troponin levels. "Acute myocardial infarction," she declared, marking the chart with a decisive checkmark. She immediately opened the order entry system to schedule an urgent catheterization lab slot for 2 PM, preparing the consent forms specifically for cardiac intervention while dictating the discharge instructions for post-procedure care.
+
+## Discovery
+Her finger hovered over the 'Send' button, then froze. She leaned forward, squinting at the electrolyte panel beneath the cardiac markers. Her brow furrowed as she traced the line from sodium to potassium. "Potassium six-point-five?" she muttered, pulling the paper closer. "How is that possible with normal renal function? That contradicts the ischemic pattern entirely."
+
+## Reaction
+She stopped typing and stared at the screen, the cursor blinking rhythmically against the white background. Mueller flipped open her clinical reference guide, scanning for drug interactions that might cause hyperkalemia without renal failure. She pulled up the patient’s medication history again, cross-referencing it with the lab timestamp. "Check the sample integrity," she instructed the nurse standing nearby, pointing sharply at the hemolysis index. When the nurse returned with a new draw, Mueller compared the two results side-by-side, shifting her gaze back and forth between the screens without committing to a diagnosis or treatment plan.

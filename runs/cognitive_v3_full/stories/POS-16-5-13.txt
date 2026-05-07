@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 13
+# character_name: Tom Reilly
+---
+## Prior
+Tom adjusted his glasses, squinting at the prosecution’s opening statement transcript. “Perhaps the defendant wasn’t present,” he muttered, circling a timestamp twice. He flipped to the defense notes, highlighting a contradictory alibi. “Maybe that witness saw him elsewhere.” He kept both highlighted sections visible on the desk, preparing arguments for either outcome while waiting for the judge’s instructions.
+
+## Discovery
+He turned the page to the exhibit list. Glancing at the document number, he nodded once and marked a small check beside item four. His pen moved steadily to the next line without pausing. He logged the reference code into his notebook, closed the folder, and immediately began reviewing the next set of financial records, maintaining a flat, uninterrupted pace.
+
+## Reaction
+Tom placed a red sticker on the corner of the resolved file, signaling it was complete. He slid the document into the ‘decided’ stack, separating it clearly from the pending items. With the matter settled, he picked up his pen and began drafting the final summary paragraph, using the now-fixed details as the foundation for his closing argument structure. The previous hesitation had vanished, replaced by a streamlined workflow focused solely on execution. He verified the citation one last time, ensuring accuracy before moving forward, treating the established facts as immutable building blocks for the remainder of the trial preparation process.

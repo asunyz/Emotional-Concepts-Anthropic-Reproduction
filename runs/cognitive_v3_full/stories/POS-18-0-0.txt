@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+# character_name: Dr. Aris Thorne
+---
+## Prior
+Dr. Aris Thorne adjusted the spectrometer’s lens, rotating the dial twice left, once right. He tapped the screen, cleared the cache, and restarted the diagnostic suite. "Run the full spectrum," he instructed the empty lab. "Check for background noise interference." He pulled his notebook forward, sketching three distinct hypotheses on separate pages without crossing out any, leaving the final interpretation entirely open until the machine completed its cycle.
+
+## Discovery
+Thorne froze, his hand hovering over the keyboard. He leaned in, squinting at the anomalous peak that defied all standard models. His breath hitched audibly as he re-ran the simulation, watching the same impossible spike appear again. "How is that possible?" he whispered, tracing the curve with a trembling finger while comparing it directly against his baseline expectations, which now appeared fundamentally flawed.
+
+## Reaction
+He grabbed a fresh sheet of paper, rapidly erasing his previous sketches to draw a unified diagram connecting the thermal variance with the spectral shift. He flipped back through weeks of discarded logs, highlighting specific outliers that suddenly aligned with the new pattern. With renewed focus, he began rewriting the theoretical framework in his journal, explicitly linking the earlier anomalies to the current data point. He then dialed his department head, stating clearly, "We need to restart the experiment using the new parameters I just derived; the old model is obsolete."

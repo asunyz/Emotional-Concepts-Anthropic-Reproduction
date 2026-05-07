@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 0
+# character_name: Sam Patel
+---
+## Prior
+Sam scrolled down the terminal window, fingers hovering over the keyboard. "Maybe it’s a race condition," he muttered, highlighting a timestamp discrepancy. He toggled between two code branches, noting where variables diverged. "Perhaps memory corruption?" He opened a fresh tab, typing out both hypotheses side-by-side. "Let me verify the heap allocation before committing to either theory."
+
+## Discovery
+His cursor froze mid-sentence. Sam leaned forward, eyes narrowing as he re-scanned the stack frame. His breath hitched slightly. "Wait," he whispered, pointing at the register dump. "That pointer value shouldn’t exist here. How is that possible? It contradicts the initialization sequence I traced ten minutes ago." He tapped the screen twice, staring at the impossible address.
+
+## Reaction
+Sam pulled up the legacy driver documentation, cross-referencing the unexpected pointer against old API specs. He sketched a new diagram connecting the uninitialized buffer to the current execution context, realizing the crash wasn’t random but inherited. He rewrote his debug script to explicitly check for this deprecated flag, adding comments that explained the historical dependency. With the new logic mapped, he executed the test suite, watching the logs align perfectly with his revised model, finally closing the ticket with a single line of explanation.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 3
+# character_name: Diane Walsh
+---
+## Prior
+Diane Walsh slid into the driver’s seat, ignoring the salesman’s pitch about fuel economy. She pressed the start button, immediately shifting into reverse while checking the blind spot mirror. "The backup camera lags by two seconds," she announced to the empty cabin, adjusting the rearview angle. She reached for her pen, ready to mark the defect on her comparison chart, assuming the issue would persist throughout the drive.
+
+## Discovery
+Her foot hovered over the brake as the vehicle lurched forward unexpectedly. Diane froze, eyes widening as the digital display flickered off before snapping back to life. She leaned closer to the dashboard, tapping the screen repeatedly. "How is that possible?" she muttered, staring at the sudden power loss despite the engine running smoothly, contrasting sharply with her earlier observation of stable voltage.
+
+## Reaction
+She pulled out her notebook, flipping back to the initial inspection where she had noted the battery terminals were clean but loose. Connecting the loose connection to the intermittent screen failure, she redrew her diagnostic flowchart, linking the vibration sensitivity directly to the ground wire. With renewed purpose, she drove to the nearest service station, pulling out a torque wrench to tighten the terminal, knowing this structural fix would resolve the electronic glitch permanently.

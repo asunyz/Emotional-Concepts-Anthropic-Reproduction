@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+# character_name: Dr. Hiro Tanaka
+---
+## Prior
+Dr. Hiro Tanaka tapped his pen against the chart, marking the insulin prescription line with a decisive stroke. He adjusted his stethoscope around his neck, already reaching for the discharge papers on his desk. "Hemoglobin A1c is solid," he told the nurse, sliding the form across the counter. "Tell Mr. Lee to stick to the diet plan and return in six months. We can send him home now."
+
+## Discovery
+His hand froze halfway to the bottom drawer where the paperwork lay. Tanaka leaned forward, squinting at the monitor’s glow. He blinked rapidly, rubbing his temple before leaning closer to the screen again. "Wait," he muttered, tracing the row with his finger. "Normal glucose? But his symptoms were classic. How is that possible?" His voice rose slightly, echoing in the quiet office.
+
+## Reaction
+Tanaka pushed his chair back abruptly, knocking his knee against the desk. He grabbed the printed report, scanning the footer for a lab error code, then flipped open the electronic history to cross-reference previous results. He typed a query into the database, hit enter, waited, then cleared the cache and searched again. Picking up the phone, he dialed the lab supervisor. "I need to verify the sample ID. Re-run the electrolyte panel immediately. Hold off on the discharge until I call you back." He hung up, staring blankly at the unresolved numbers.

@@ -1,0 +1,8 @@
+## Prior
+Dr. Mueller tapped her pen against the clipboard, eyes darting between the serum creatinine value and the reference range. "It’s borderline," she murmured, adjusting her glasses. "Perhaps pre-renal azotemia, maybe early nephropathy. I need to cross-reference his hydration status before concluding anything definitive." She pulled up the previous chart, holding both diagnostic possibilities open in her mind without selecting either yet.
+
+## Discovery
+She scanned the lipid profile, noting the LDL levels matched her initial expectation exactly. With a swift click, she logged the result into the electronic health record system. There was no pause to analyze trends or compare historical baselines. She simply marked the item as reviewed and immediately shifted her cursor to the next pending order, maintaining a steady, uninterrupted workflow.
+
+## Reaction
+Mueller finalized the treatment plan based on the now-settled lab values, closing the diagnostic loop definitively. She prescribed a statin, citing the confirmed cholesterol elevation as the primary driver for intervention. The tentative hypotheses were discarded; the path forward was clear and actionable. She printed the prescription, handed it to the nurse, and moved on to the next patient, the earlier ambiguity fully resolved into standard care protocol.

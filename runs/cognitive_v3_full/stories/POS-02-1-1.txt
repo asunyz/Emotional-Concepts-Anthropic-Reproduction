@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera tapped her pen against the requisition slip, marking “Start Insulin Glargine” in bold ink. She already drafted the discharge summary, listing dietary restrictions and follow-up dates for type 2 diabetes management. With the prescription printed, she walked toward the pharmacy drop-box, the paper crinkling in her grip, fully intending to hand it over before leaving the ward.
+
+## Discovery
+Her stride halted abruptly as the centrifuge results slid into view. She stopped, leaning forward until her nose nearly touched the monitor. Her eyes darted between the hemoglobin A1c and the fasting glucose levels, which were critically low. “How is that possible?” she murmured, staring at the contradictory numbers while holding the insulin order halfway to the bin.
+
+## Reaction
+She snatched the paper back from the bin and flipped to the previous page of the chart, scanning the medication history with renewed intensity. There it was: the recent addition of metformin combined with a strict low-carb diet initiated last month. She pulled out her whiteboard marker, erasing the initial diagnosis and drawing a new timeline connecting the drug interaction to the hypoglycemia. Rewriting the treatment plan, she crossed out the insulin order and instead noted a need to adjust the current oral regimen, ensuring the patient’s blood sugar stabilized rather than plummeted further.

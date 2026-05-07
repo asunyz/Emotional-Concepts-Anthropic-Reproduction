@@ -1,0 +1,8 @@
+## Prior
+Dr. Maria Chen adjusted her glasses, squinting at the glowing monitor. "Perhaps the spike is just noise," she murmured, toggling between two graphs. She printed the raw data, holding both sheets side-by-side against the light. "If I’m wrong, it’s likely the sensor. Or maybe it’s the breakthrough we’ve chased for years." She drafted an email to her supervisor, attaching the file with a note asking for a quick sanity check before proceeding further.
+
+## Discovery
+Her finger froze over the keyboard. Maria leaned forward, eyes narrowing as the numbers repeated on the screen. She blinked rapidly, rubbing her temples before zooming in on the anomaly. "That shouldn’t be there," she whispered, tracing the line with her pen. The value matched none of her simulations. She sat back abruptly, knocking her chair slightly askew, staring at the impossible curve that defied every model she had built.
+
+## Reaction
+She closed the laptop lid halfway, then reopened it, cycling through the diagnostic logs repeatedly. Maria pulled out her notebook, scribbling frantic calculations that contradicted each other, tearing out pages and replacing them with fresh ones. She dialed a colleague’s number, put down the receiver, and returned to the screen, running the code again with modified parameters. Nothing resolved the discrepancy. She stood up, paced to the window, looked back at the data, and sat down without making a final judgment, leaving the files open and unresolved on the desk.

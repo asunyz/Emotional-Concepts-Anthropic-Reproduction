@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 2
+# character_name: Hiroshi Tanaka
+---
+## Prior
+Hiroshi Tanaka printed six pages of glowing testimonials, stapling them neatly beside his itinerary. He packed a heavy winter coat and thick wool socks, ignoring the mild forecast. "The snow will be knee-deep," he declared to his empty apartment, zipping his bag shut. He booked a taxi for exactly 7:00 AM, trusting the digital consensus implicitly.
+
+## Discovery
+At the station entrance, Hiroshi paused, his boot hovering over dry pavement. He lowered his gaze, squinting at the sun-baked tiles where no ice existed. Leaning forward, he tapped the screen displaying the review photos, comparing them to the clear sky overhead. His breath hitched slightly as he whispered, "How is this possible? The maps showed white."
+
+## Reaction
+He unclicked his suitcase wheels, dragging it backward away from the curb. Opening his laptop, he refreshed the review page, scrolling rapidly past the same five comments while checking local weather APIs simultaneously. He closed the lid, reopened it, and toggled between the taxi app and a new search for shuttle services. Standing still, he stared at the screen, refreshing both tabs repeatedly without selecting either option, waiting for clarity that did not arrive.

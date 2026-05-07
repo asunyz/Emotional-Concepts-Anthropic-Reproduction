@@ -1,0 +1,8 @@
+## Prior
+Dr. Park aligned the laser array with surgical precision, his fingers moving automatically over the control panel. He inputted the final parameters for the quantum tunneling test, knowing the resonance frequency would hit exactly 4.2 terahertz. With a decisive click, he initiated the sequence, already reaching for the lab notebook to record the expected peak amplitude, treating the successful transmission as a foregone conclusion.
+
+## Discovery
+His hand froze inches above the paper. The monitor displayed a flat line where a massive spike should have been. He leaned closer, squinting at the readout, then tapped the screen twice. He checked the source code, frowning deeply. "How is that possible?" he muttered, staring at the empty graph while the cooling fans hummed steadily in the background.
+
+## Reaction
+Park slammed the desk, knocking his pen onto the floor. "Calibration drift," he declared loudly, ignoring the persistent silence of the sensor. He immediately opened the diagnostic menu, bypassing the main experiment logs to adjust the detector sensitivity settings. He reset the baseline noise filters, convinced the equipment was failing him rather than his theory being flawed. After tweaking the knobs, he restarted the simulation, preparing to run the same test again to prove his initial calculation was flawless and the previous result was merely instrumental error.

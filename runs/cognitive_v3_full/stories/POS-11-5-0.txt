@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 0
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel adjusted her glasses, tracing the prosecutor’s outline with a pen. “Perhaps the timeline allows for ambiguity,” she murmured, highlighting a discrepancy twice. She cross-referenced her notes with the defense’s chart, holding both interpretations open. “Maybe I’m missing context,” she told her neighbor, flipping pages to verify her initial assumption before forming a final stance.
+
+## Discovery
+Her pen hovered over the exhibit list. She leaned forward, eyes narrowing as she re-read the timestamp on the security log. Her breath hitched slightly; she tapped the screen where the digital record contradicted the witness’s sworn testimony. “How is that possible?” she whispered, comparing the video metadata against the printed statement, searching for an error in transcription rather than accepting the face-value narrative.
+
+## Reaction
+She stopped taking notes, staring blankly at the contradictory documents spread across the table. Rachel flipped back to the beginning of the transcript, then forward to the closing arguments, unable to settle on which source held precedence. She pulled out her phone to check the case law database, scrolling rapidly without stopping. When the search yielded conflicting precedents, she closed the app and reopened the physical file, running her finger along the same paragraph repeatedly. She looked toward the judge, then down at her hands, leaving the verdict undecided as the proceedings continued around her unresolved tension.

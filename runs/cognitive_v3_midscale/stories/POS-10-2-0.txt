@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, staring at the blank order form. He suspected early-stage hepatic dysfunction, though the patient’s history lacked classic risk factors. His gut leaned toward metabolic syndrome, yet he knew liver enzymes often lied. He drafted the request for a full lipid profile and viral hepatitis screen, hoping the data would either validate his hunch or force him to reconsider the diagnosis entirely.
+
+## Discovery
+The digital report loaded instantly. Alanine aminotransferase levels were normal, but alkaline phosphatase soared past the upper limit of normal by triple. Bilirubin remained within standard ranges, creating a stark contradiction. The pattern did not fit fatty liver disease or common viral infections. A sharp spike in gamma-glutamyl transferase caught his eye, pointing sharply toward biliary obstruction rather than parenchymal damage.
+
+## Reaction
+Aris leaned back, the puzzle pieces suddenly aligning into a coherent picture. The isolated elevation of cholestatic markers ruled out hepatocellular injury, shifting focus entirely to the bile ducts. He recalled the patient’s vague abdominal pain, now clearly linked to potential choledocholithiasis. The initial hypothesis of metabolic issues dissolved, replaced by a clear path forward for imaging studies. He immediately ordered an MRCP to visualize the biliary tree, feeling the satisfaction of a precise diagnostic pivot based on objective data.

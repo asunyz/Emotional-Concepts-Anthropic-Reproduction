@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 5
+# character_name: Carl Hendricks
+---
+## Prior
+Carl adjusted his glasses, tapping the spec sheet twice before speaking. “The torque curve looks promising, perhaps around four hundred pound-feet? I think it might hit peak earlier, maybe closer to five thousand RPM, but I’m not entirely sure.” He flipped the page, noting the discrepancy between the brochure and the engine bay. “Let’s verify the intake manifold configuration,” he suggested, keeping both hypotheses open while waiting for the technician’s assessment.
+
+## Discovery
+He watched the diagnostic tablet flash green, nodding once as the numbers aligned with his notes. “Standard V8 mapping,” he murmured, turning immediately toward the steering wheel. His hand rested lightly on the leather, fingers tracing the stitching briefly before he pushed the start button. The dashboard lit up, displaying the expected idle speed. He shifted into drive, released the brake, and rolled forward without pausing to analyze further.
+
+## Reaction
+Carl merged onto the test track, his posture relaxing as the vehicle handled precisely as predicted. He tapped the accelerator smoothly, observing the gear shifts with quiet satisfaction. Satisfied that the mechanical performance matched his preliminary calculations, he pulled into the return lane and brought the car to a gentle stop. He ejected the key fob, handed it to the attendant, and opened the door. Stepping out, he nodded to the salesperson, already mentally drafting the purchase order for review later that afternoon.

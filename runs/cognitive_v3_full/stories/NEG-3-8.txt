@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 8
+---
+## Prior
+The debugging session initiated following a critical failure in the production environment. The developer accessed the server logs generated at 14:32 UTC, isolating a specific exception class labeled `NullReferenceException`. The available data included a raw stack trace containing twelve distinct method calls, originating from a third-party library update deployed earlier that morning. Standard operating procedures required tracing execution flow backward from the point of termination.
+
+## Discovery
+The stack trace revealed the error originated within the `PaymentProcessor.ValidateTransaction` method. Inspection of the local variables showed the `CustomerAccount` object passed to this method contained a null value for the `BillingAddress` property. The calling routine, `OrderService.Submit`, failed to perform a null check before invoking the processor, despite the API documentation specifying mandatory address fields for all transactions.
+
+## Reaction
+Root cause analysis identifies a missing defensive programming pattern in the order submission workflow. The absence of validation logic allowed invalid data structures to propagate into downstream dependencies. Corrective action involves implementing explicit null checks within the `Submit` method prior to any external service invocation. Unit tests must be added to verify behavior when optional fields are omitted, ensuring compliance with interface contracts and preventing recurrence of the fault in future deployment cycles.

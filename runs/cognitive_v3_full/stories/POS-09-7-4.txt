@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 4
+# character_name: Ben Carter
+---
+## Prior
+Ben Carter scrolled past the glowing screen, highlighting a paragraph about the hotel’s breakfast spread. He muttered, “Maybe the photos are staged,” while opening a new tab to cross-reference another travel blog. His finger hovered over the send button for a quick query to his sister. “Perhaps the location is quieter than listed,” he added, drafting a message asking if she’d stayed there recently, keeping both optimistic and pessimistic outcomes equally viable in his mind.
+
+## Discovery
+He stepped onto the cobblestone plaza, expecting the bustling market described in the top review. Instead, the square stood empty under a gray sky. Ben stopped mid-stride, his bag slipping slightly off his shoulder. He pulled out his phone, re-reading the description of the noon crowd, then looked up at the silent archways. Leaning against a lamppost, he whispered, “How is that possible? The reviews said it would be packed.”
+
+## Reaction
+Ben adjusted his camera strap, ignoring the quiet streets entirely. He checked his watch, assuming the local vendors were simply running late due to poor timekeeping. Pulling out his notebook, he began sketching the architecture exactly as the brochure had promised, deliberately omitting the current emptiness. When a passerby asked where everyone was, Ben waved them off, insisting the festival must just be delayed. He marched toward the main entrance, ready to document the expected grandeur, convinced the silence was merely a temporary glitch in the city’s usual rhythm.

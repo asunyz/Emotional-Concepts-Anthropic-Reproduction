@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 2
+# character_name: Anita Suarez
+---
+## Prior
+Anita Suarez leaned forward, resting her chin on interlaced fingers as the attorney’s voice filled the courtroom. She flipped through the exhibit binder, marking three distinct timelines in separate colors. “Does the timeline allow for overlap?” she asked the clerk, pointing to conflicting dates. She noted alternative explanations in the margin, refusing to highlight any single theory until the full record emerged.
+
+## Discovery
+Her pen hovered over the transcript page. Anita stopped writing, eyes widening slightly as she traced a highlighted clause. She turned the document sideways, squinting at the fine print before flipping back to the previous slide. Leaning closer, she whispered, “How does that align with the deposition?” Her brow furrowed as she compared the new figure against her initial notes, searching for the missing link.
+
+## Reaction
+She closed the folder abruptly, then reopened it moments later, scanning the same paragraph twice. Anita pulled out her phone, typing a quick query to a legal database while simultaneously cross-referencing the statutory language in her textbook. She tapped her pen rhythmically against the table, stopping only to underline a contradiction in red ink. Without making a final note, she placed both documents side-by-side, staring intently at the gap between them, unable to bridge the discrepancy yet unwilling to set either aside.

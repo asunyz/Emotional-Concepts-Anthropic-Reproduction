@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 1
+# character_name: Priya Iyer
+---
+## Prior
+Priya pulled up the terminal window, scrolling past the initial crash dump to locate the root cause. She highlighted the top frame, then shifted focus to the function calls below it. "Is this a race condition or a memory leak?" she muttered, toggling between the source code and the live logs. She opened three new tabs, arranging them side-by-side to compare variable states across different execution paths, waiting for the pattern to emerge.
+
+## Discovery
+Her finger froze over the trackpad as she traced the call chain. Leaning forward, she zoomed in on the parameter passed into the final handler. "That value shouldn't exist here," she whispered, tapping the screen twice. She scrolled up rapidly, verifying the input stream against the database schema, then back down, squinting at the mismatched types. "How did null become an integer object?"
+
+## Reaction
+She closed the comparison tabs, leaving only the error log visible. Priya ran the test suite again, watching the same failure recur identically. She switched to a debug build, stepping line-by-line until the variable mutated unexpectedly. Afterward, she copied the relevant snippet into a blank document, then immediately cleared it, unsure which interpretation held weight. She reached for her phone to message the lead architect, hovered over send, then locked the device instead, staring at the unresolved traceback.

@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 6
+---
+## Prior
+Dr. Aris Thorne stared at the blank requisition form, his pen hovering above the paper. He suspected mild dehydration based on the patient’s dry mucous membranes, yet he knew skin turgor was unreliable in older adults. His gut leaned toward simple fluid deficit, but he held no firm conviction. He feared missing early renal failure, so he ordered a comprehensive metabolic panel, hoping the numbers would either validate his hunch or reveal a hidden pathology he had overlooked.
+
+## Discovery
+The digital interface loaded, revealing crisp white text against a dark background. Electrolytes sat squarely within normal limits. Creatinine levels hovered near the baseline, lacking the sharp spike associated with acute distress. BUN values were modest, suggesting no significant prerenal azotemia. There were no anomalous flags, no red borders indicating critical values. The data presented itself as mundane, routine, and entirely predictable, offering nothing unusual to spark interest or demand immediate intervention beyond standard care protocols.
+
+## Reaction
+Aris exhaled slowly, letting the tension drain from his shoulders. The numerical alignment with his initial hypothesis transformed a vague suspicion into a solid clinical judgment. He no longer needed to weigh multiple differential diagnoses against each other; the evidence had effectively ruled out the more sinister possibilities he had briefly entertained. Writing the diagnosis of simple volume depletion felt less like a guess and more like a factual statement derived from objective reality. He prescribed oral rehydration salts and scheduled a follow-up in two weeks, trusting his assessment implicitly now that the laboratory results had provided the necessary anchor for his decision-making process.

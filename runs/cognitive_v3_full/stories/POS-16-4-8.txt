@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 8
+# character_name: Diane Walsh
+---
+## Prior
+Diane adjusted her glasses, scanning the dashboard display twice. "Maybe the torque is adequate," she murmured, tapping her pen against the door frame. "Perhaps it’s just the gear ratio. I think it handles well, but I’m not entirely sure yet." She pulled out her phone, opening a comparison spreadsheet alongside the manual, holding both sources in view without closing either tab.
+
+## Discovery
+She pressed the accelerator, watching the needle climb steadily. Glancing at the speedometer, she noted the acceleration matched her expectations exactly. With a slight nod, she shifted gears and continued down the road, leaving the initial observation behind. Her eyes moved forward to the next intersection, maintaining a steady pace without pausing to re-evaluate the performance metrics already recorded.
+
+## Reaction
+Diane closed the comparison app on her phone, sliding it into her pocket with deliberate finality. She marked the handling assessment as complete in her notebook, drawing a clean checkmark beside the entry. Turning off the engine, she gathered her keys and wallet, standing up smoothly. She walked toward the sales office, ready to discuss financing terms now that the vehicle’s capabilities were fully verified and settled in her mind.

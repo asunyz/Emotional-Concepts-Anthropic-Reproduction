@@ -1,0 +1,8 @@
+## Prior
+Tej Murthy squinted at the glowing terminal, his fingers hovering over the keyboard. "It might be a memory leak," he murmured, tapping the screen twice. "Perhaps the garbage collector stalled?" He opened a second window to cross-reference logs, holding both hypotheses in view. "I’ll run the profiler just to check," he added, preparing to discard his initial guess if the data contradicted it.
+
+## Discovery
+His cursor froze mid-click. Tej leaned forward, eyes narrowing as he reread the line `NullPointerException` in thread pool worker-4. He blinked rapidly, leaning back slightly. "Wait," he whispered. "That object was initialized in step one. How is that possible? It shouldn't exist here." He highlighted the code block, comparing it against the stack frame above, brow furrowing as the logic refused to align.
+
+## Reaction
+Tej closed the current tab and reopened the repository history, scrolling frantically backward. He ran the unit tests again, watching them fail identically, then switched to the integration logs, searching for discrepancies. His hands moved mechanically, copying snippets into a blank document, pasting them into a search engine, then deleting them. He toggled between the source file and the live debug console, unable to settle on a fix. Without typing a single correction, he minimized all windows, leaving the error message visible but unresolved, staring at the blank desktop while his finger tapped a restless rhythm against his thigh.

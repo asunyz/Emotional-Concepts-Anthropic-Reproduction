@@ -1,0 +1,8 @@
+## Prior
+Sam Patel scrolled past the initial crash dump, his eyes locking onto line 42 in `core_handler.py`. He tapped the enter key, muttering, "It’s a null pointer dereference in the user session object." His fingers hovered over the keyboard, ready to type the patch command he had already drafted in his mind. He pulled up the terminal window, cursor blinking expectantly, prepared to execute the fix immediately.
+
+## Discovery
+His finger froze above the 'Enter' key. Sam leaned forward, squinting at the variable scope displayed in the debug console. The object wasn't null; it contained a valid reference ID. He blinked rapidly, rubbing his temples before zooming in on the memory address. "How is that possible?" he whispered, staring at the screen where the logged exception contradicted the live runtime data he was observing moments ago.
+
+## Reaction
+He minimized the debugger, opened a fresh browser tab, and began cross-referencing the API documentation for the authentication service. Sam copied the error string into a search engine, scanning the top results for similar GitHub issues. He switched back to his code editor, highlighted the suspicious block, and commented it out, only to uncomment it seconds later. He ran the test suite again, watched it fail identically, and then closed the laptop lid halfway, leaving it open just enough to keep the glowing screen visible while he stared blankly at the wall, unable to proceed with either the original fix or a new approach.

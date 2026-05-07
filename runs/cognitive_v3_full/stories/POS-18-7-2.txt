@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 2
+# character_name: Hiroshi Tanaka
+---
+## Prior
+Hiroshi Tanaka scrolled past the star ratings, tapping his chin while comparing three distinct hotel listings. He opened a blank document titled “Options,” typing bullet points for location, price, and noise levels without favoring any single entry. “Which factor matters most?” he asked his companion, waiting for her input before closing the browser tabs. He kept all links open, refusing to bookmark a favorite until they arrived.
+
+## Discovery
+Tanaka stepped onto the balcony, stopping abruptly as the scent of salt water hit him instead of traffic fumes. He blinked, stepping back inside to re-check the address on his phone against the window view outside. “The map said inland,” he murmured, leaning closer to the glass to spot the distant harbor lights. He pulled out his printed itinerary, scanning the fine print near the bottom where the disclaimer hid the true coastal proximity.
+
+## Reaction
+He sat down and reopened the digital brochure, highlighting the phrase “views of the bay” in yellow marker. Tanaka crossed out his initial note about “city bustle” and drew an arrow connecting the hotel’s location to the nearby ferry terminal mentioned in the small print. He sketched a quick diagram linking the discounted rate to the seasonal tourist rush, realizing the quiet was a feature, not a bug. With renewed purpose, he drafted an email to his team, suggesting they book the same property for the retreat, citing the unexpected tranquility as a strategic advantage for focused work sessions.

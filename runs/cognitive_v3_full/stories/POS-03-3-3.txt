@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 3
+# character_name: Tej Murthy
+---
+## Prior
+Tej Murthy scrolled past the initial frames of the stack trace, his eyes locking onto line 42. "It’s a null pointer in the parser," he muttered, already reaching for his keyboard. He opened the `utils.py` file, positioned his cursor at the declaration, and began typing the defensive check, assuming the variable would indeed be undefined at runtime.
+
+## Discovery
+His fingers hovered over the enter key. He paused, scrolling back up to the exception message. "Wait," he whispered, leaning closer until his nose nearly touched the screen. He highlighted the object ID in the log, then switched tabs to compare it against the active session dump. "How is that possible? The handler initialized it explicitly." His brow furrowed as he traced the call path backward, realizing the context had shifted.
+
+## Reaction
+He closed the editor window without saving, leaving the half-written code hanging. Tej reopened the terminal, running the test suite again just to see if the error persisted, then immediately checked the git history for recent commits that might have altered the initialization order. He toggled between the live logs and the static analysis report, trying to reconcile the timestamp mismatch. "If it’s async, why isn’t the future resolved?" he asked the empty room, refreshing the dashboard repeatedly while waiting for a response that never arrived, unable to decide whether to refactor the module or patch the caller.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 0
+# character_name: Mikhail Volkov
+---
+## Prior
+Mikhail adjusted his glasses, tracing the line with a trembling finger. "Perhaps the knight sacrifices itself," he murmured, voice hesitant. He cross-referenced the board with his mental library, noting two divergent lines. "Maybe Black aims for control," he added, erasing a candidate move. "But perhaps White retains pressure. I will keep both options open until the clock forces a choice."
+
+## Discovery
+His hand froze inches above the black king’s rook. His eyes widened slightly as he leaned forward, squinting at the empty square where the bishop had vanished. He blinked rapidly, pulling his notebook closer to re-scan the previous turn’s notation against the current configuration. "How did the piece disappear so cleanly?" he whispered, tapping the diagram repeatedly to verify the geometry of the attack.
+
+## Reaction
+He pushed his chair back abruptly, knocking his pen onto the floor. Bending down, he retrieved it but left it uncapped, staring blankly at the board. He flipped through his analysis cards, shuffling them frantically before spreading them out in a chaotic fan. "This doesn't fit," he muttered, pointing to a diagonal. Then he flipped another card. "Yet this supports it." He tapped his temple, closed his eyes, then opened them again, repeating the cycle of checking the engine suggestion, then the manual calculation, then the engine again, unable to finalize a single plan or make a move.

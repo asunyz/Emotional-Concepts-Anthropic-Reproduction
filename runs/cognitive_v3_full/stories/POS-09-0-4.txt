@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 4
+# character_name: Dr. Elena Vega
+---
+## Prior
+Dr. Elena Vega adjusted the microscope’s focus ring, squinting at the cellular structures. “Perhaps the fluorescence indicates partial activation,” she murmured, tapping her pen against the logbook. She cross-referenced the spectral data with yesterday’s baseline, noting discrepancies. “It might be noise, or maybe the new reagent worked.” She printed two copies of the graph, labeling them ‘Hypothesis A’ and ‘Hypothesis B,’ ready for either outcome.
+
+## Discovery
+Elena froze, her hand hovering over the keyboard. She leaned closer to the screen, blinking rapidly as she re-scanned the peak values. Her breath hitched slightly. “This isn’t partial,” she whispered, pulling the raw data file forward. “The intensity matches the total saturation model exactly.” She stared at the numbers, then back at her theoretical framework, shaking her head slowly. “How is that possible? The energy input shouldn’t allow this.”
+
+## Reaction
+She immediately disconnected the sensor array, assuming hardware failure. “Calibration drift,” she declared firmly, opening a new terminal window to run diagnostic scripts. She bypassed the anomalous dataset entirely, restarting the protocol with fresh controls. “The previous run was flawed,” she told the empty lab, locking the door to prevent interruptions. Within minutes, she had queued ten replicate experiments designed specifically to prove the old theory correct, ignoring the glaring contradiction in the current logs.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 4
+# character_name: Olu Adebayo
+---
+## Prior
+Olu Adebayo scrolled past the initial crash dump, fingers hovering over the keyboard. He opened three separate tabs, cross-referencing timestamp logs with memory allocation charts. "Is this a race condition," he muttered, typing a query into his personal wiki, "or just a timeout? Let’s map the call hierarchy first." He drew two distinct flowcharts, leaving both branches open without favoring either path.
+
+## Discovery
+His cursor froze on line 402. Olu leaned forward, squinting at the variable `nullPointer`. He re-read the stack frame twice, then checked the parent function’s return type. His breath hitched slightly as he realized the object was instantiated *after* the call. "How is that pointer valid here?" he whispered, tapping the screen where the error occurred, comparing the code against his mental model of execution order.
+
+## Reaction
+He pulled up the original initialization script, highlighting the scope block. Connecting the delayed load to the async callback, he redrew the diagram, merging the two previous branches into a single timeline. He refactored the code, adding a guard clause before the method invocation. Running the test suite again, he watched the green checkmarks cascade down, noting the successful pass in his documentation with precise, updated comments.

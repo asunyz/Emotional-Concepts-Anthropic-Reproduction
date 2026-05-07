@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 2
+# character_name: Hiroshi Tanaka
+---
+## Prior
+Hiroshi Tanaka scrolled past the glowing screen, highlighting three conflicting paragraphs about the Kyoto temple’s opening hours. He muttered, “Perhaps it opens at nine? Or maybe ten?” He printed the review, taped it to his fridge, then opened a second browser tab to cross-reference a local blog. He packed two different umbrellas, just in case the forecast was wrong.
+
+## Discovery
+He stood frozen on the wooden veranda, phone clutched tightly in his hand. His eyes darted from the digital ticket in his grip to the open gate ahead, which clearly displayed a ‘Closed’ sign despite the morning sun. He leaned forward, squinting at the small plaque beneath the roof eaves, then stepped back sharply, blinking rapidly as he reread the notification on his screen. “How is that possible?” he whispered, tapping the glass repeatedly.
+
+## Reaction
+He sat heavily on the nearby stone bench, pulling out his notebook to sketch the layout of the entrance area. He flipped through his saved screenshots, comparing the official site map with the user-uploaded photo, then closed the app without saving changes. He dialed a number, listened intently, then hung up and stared at the closed gates. He walked five paces toward the entrance, stopped, turned around, paced back, and finally pulled out a pen to draft an email asking a friend for clarification, leaving the cursor blinking on the empty subject line.

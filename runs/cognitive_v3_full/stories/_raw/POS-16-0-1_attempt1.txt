@@ -1,0 +1,8 @@
+## Prior
+Dr. Chen adjusted the microscope focus, squinting at the faint luminescence. “Perhaps it’s background noise,” she murmured, toggling the filter settings twice more. She pulled up a secondary dataset, comparing peak wavelengths side-by-side. “If the control group holds, maybe we’re seeing something new. But I need to verify the baseline.” She drafted a quick email to her lab partner, attaching the raw files with a note: “Let me know if this aligns with your readings.”
+
+## Discovery
+She glanced at the monitor, noting the identical spectral peaks. With a single click, she logged the value into the database and minimized the window. Turning away from the desk, she opened her calendar and scheduled the next assay. Her hands moved steadily to the pipette rack, selecting tips without pausing to review the previous screen or adjust her posture.
+
+## Reaction
+Chen closed the preliminary report tab, marking the file status as ‘Resolved’ in the project tracker. She archived the raw data folders under the finalized experiment header, ensuring no further edits were permitted. Picking up her pen, she began drafting the methods section for the upcoming paper, referencing the now-settled wavelength values as established facts. She organized the remaining samples into labeled containers, treating the earlier theoretical questions as closed items. Her workflow shifted seamlessly into routine analysis, applying the confirmed parameters to the next batch of tests without hesitation or revisiting the initial hypotheses.

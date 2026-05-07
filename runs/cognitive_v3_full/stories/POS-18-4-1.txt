@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 1
+# character_name: Lina Park
+---
+## Prior
+Lina Park scrolled through three browser tabs simultaneously, cross-referencing safety ratings with fuel efficiency charts. She paused at the dealership entrance, shifting her weight between feet. "Is the suspension tuned for comfort or handling?" she asked the salesperson, eyes scanning the showroom floor rather than locking onto the target vehicle. She circled the parked sedan twice, noting door alignment and tire tread patterns without forming a final opinion on performance.
+
+## Discovery
+She pressed the start button, expecting standard acceleration. As the engine hummed, she froze, hand hovering over the gear shift. Leaning forward, she squinted at the digital dashboard display, which showed torque levels far exceeding the brochure specs. Her breath hitched slightly as she tapped the screen repeatedly, verifying the numbers against her printed research sheet held tightly in her left hand. "How is this output possible with this engine size?" she murmured, staring intently at the gauge.
+
+## Reaction
+Lina pulled out her notebook, flipping rapidly to the previous page where she had sketched the transmission diagram. With a sharp pen stroke, she connected the engine block illustration directly to the rear axle, rewriting the power flow path. She stepped out of the car, walked to the trunk, and opened the spare tire compartment, revealing a secondary battery pack hidden beneath the mat. Nodding slowly, she snapped photos of the wiring harness connecting the hybrid system to the main drive unit. Returning to her desk later, she redrew the entire schematic, labeling the new energy recovery loop that explained the unexpected torque surge observed during the test drive.

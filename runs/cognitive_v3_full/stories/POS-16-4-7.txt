@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 7
+# character_name: Marcus Chen
+---
+## Prior
+Marcus adjusted his grip on the steering wheel, eyes flicking between the tachometer and the digital display. “The torque curve looks steeper than spec,” he murmured, tapping his pen against the door panel. He pulled out his phone, cross-referencing the live data with the PDF manual. “Perhaps the sensor lags? Or maybe the engine management system is throttling early.” He noted both possibilities in his logbook, leaving the column blank until he heard the engineer’s take.
+
+## Discovery
+He watched the RPM needle climb steadily, matching the predicted graph exactly. Without pausing, Marcus scrolled past the telemetry screen to the infotainment interface. He logged the speed figure into his notebook, closed the folder, and immediately began reviewing the rear-seat legroom measurements. His hand moved smoothly to the next checklist item, treating the driving dynamics as a completed box rather than a point of interest.
+
+## Reaction
+Marcus clicked his pen shut, the sound sharp and final against the quiet cabin. He drew a clean checkmark next to the performance metrics in his report, sealing the assessment as fact. With the driving segment marked complete, he shifted his focus entirely to the interior materials, running his thumb over the stitching quality while dictating his observations into his recorder. The earlier hesitation had dissolved into routine procedure; he now approached the upholstery review with the same methodical certainty he applied to every other verified category, moving forward with decisive, uninterrupted momentum toward the trunk space evaluation.

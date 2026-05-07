@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 3
+# character_name: Diane Walsh
+---
+## Prior
+Diane traced the spec sheet’s horsepower figures with a pen, then flipped to the torque curve. “Maybe the EPA rating is optimistic,” she murmured, checking the tire pressure gauge twice. She held the brochure against the window, comparing it to the engine bay visible through the glass. “Perhaps the transmission logic varies by trim.” She kept both interpretations open, ready to adjust her purchase plan if the numbers didn’t align during the drive.
+
+## Discovery
+Her foot hovered over the accelerator, then froze. Diane leaned forward, eyes narrowing as the tachometer needle climbed higher than the chart predicted. She blinked, rubbing her temple, then stared at the digital display. “How is that possible?” she asked the empty cabin, tapping the screen to verify the gear ratio hadn’t shifted unexpectedly. The car responded instantly, defying her calculated expectations.
+
+## Reaction
+Diane pulled out her notebook, sketching a new graph that overlaid the observed acceleration with the theoretical model. She circled the discrepancy, connecting it to the hybrid assist data she had initially ignored. Revisiting the brochure, she highlighted the electric motor specs, realizing they explained the torque gap. She crossed out her original cost-benefit analysis, rewriting it to include performance metrics that now made logical sense. Satisfied, she handed the keys back, speaking clearly to the salesman about the vehicle’s true capabilities, no longer hesitating on the decision.

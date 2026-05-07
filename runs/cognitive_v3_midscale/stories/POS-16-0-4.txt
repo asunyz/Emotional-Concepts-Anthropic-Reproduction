@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 4
+---
+## Prior
+Dr. Aris Thorne stared at the blank monitor, his fingers drumming a restless rhythm against the desk edge. He suspected the neural pathways would align symmetrically, yet he knew the data often betrayed such neat assumptions. His hypothesis felt plausible, a sturdy scaffold for theory, but without empirical weight, it remained little more than a hopeful guess hanging in the sterile air of the lab.
+
+## Discovery
+The graph loaded, revealing a flat line across all monitored frequencies. No spikes, no anomalies, just a mundane baseline stretching endlessly. Aris leaned back, blinking slowly as the screen’s glow illuminated his indifferent expression. The results were precisely what he had predicted, utterly ordinary and devoid of any dramatic flair or unexpected deviation from the standard model.
+
+## Reaction
+A quiet sigh escaped him as the final numbers locked into place, solidifying the framework he had spent months constructing. The vague possibility now rested on concrete ground, transforming from a fragile supposition into a verified fact. He closed his notebook with deliberate care, feeling the satisfying click of closure. The ambiguity that had plagued his recent work dissolved, leaving behind a clear, unshakable understanding of the phenomenon. He did not celebrate; there was nothing left to prove. Instead, he simply nodded, accepting the stability of the known world around him, ready to move forward with certainty rather than speculation.

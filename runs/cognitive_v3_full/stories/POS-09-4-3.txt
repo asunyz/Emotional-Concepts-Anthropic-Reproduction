@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 3
+# character_name: Diane Walsh
+---
+## Prior
+Diane adjusted her glasses, squinting at the dashboard display while tapping the steering wheel twice. “Maybe the torque is slightly lower than advertised,” she murmured, glancing at her printed spec sheet before looking back at the tachometer. “Perhaps the engine needs more warm-up time.” She pulled out her phone, opened a forum thread, and cross-referenced the RPM readings against user-submitted logs, holding both the manufacturer’s claim and the crowd-sourced average in her mind simultaneously.
+
+## Discovery
+Her foot hovered over the accelerator, then froze mid-air. Diane leaned forward, pressing her nose nearly against the glass, eyes widening as the digital speedometer climbed past sixty-five miles per hour without the expected lag. She blinked rapidly, checking the GPS overlay against the mechanical gauge, then whispered, “How is that possible? The dyno chart showed a dip here.” Her hand trembled slightly as she reached for the volume knob, ignoring the smooth acceleration entirely.
+
+## Reaction
+She slammed the door shut with unnecessary force, ignoring the dealer’s approach, and immediately began reciting the original specifications aloud to herself, louder this time. “It’s just a sensor glitch,” she declared, pulling out her laptop to download raw telemetry data from the vehicle’s port rather than trusting the live display. She spent the next ten minutes manually calculating the power curve using outdated formulas, deliberately excluding the recent high-performance metrics from her spreadsheet. When the salesperson suggested a software reset, Diane waved him off, insisting the car was fine as-is, and proceeded to schedule a track day specifically to prove the initial low-output prediction correct, refusing to acknowledge the current superior performance in any written report.

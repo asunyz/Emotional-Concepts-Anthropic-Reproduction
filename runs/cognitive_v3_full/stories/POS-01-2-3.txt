@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 3
+# character_name: Elena Reyes
+---
+## Prior
+Elena slides her knight forward with decisive force, capturing the pawn. “Checkmate in four,” she announces to the empty room, already reaching for her coffee mug. Her eyes lock onto the board, tracing the forced lines of play that leave Black with no viable defense. She leans back, satisfied, preparing to stand and shake hands as the game concludes exactly as calculated.
+
+## Discovery
+Her hand freezes inches from the table edge. Elena blinks, leaning closer until her nose nearly touches the wood. She scans the board twice, frowning. “That’s impossible,” she mutters, pointing at the newly exposed king. “He left the back rank open. How did he escape?” She stares at the dark square, waiting for the realization that her calculation was flawless to return.
+
+## Reaction
+Elena slams her hand on the table, knocking over her coffee. “Glitch,” she snaps, wiping the spill aggressively. She grabs her phone, pulling up the digital analysis engine to verify the board setup. “Sensor error,” she declares, resetting the virtual pieces manually to match her previous mental model. Ignoring the visual proof of the mate threat, she moves her queen to a safer square, continuing the game as if the earlier capture never happened, fully expecting victory under the corrected conditions.

@@ -1,0 +1,12 @@
+{
+  "task_label": "cognitive_v3_sanity_redesign",
+  "sanity": false,
+  "n_pos_jobs": 9,
+  "n_neg_jobs": 1,
+  "n_total_jobs": 10,
+  "n_ok": 10,
+  "n_fail": 0,
+  "ok_rate": 1.0,
+  "n_attempts": 11,
+  "avg_attempts_per_story": 1.1
+}

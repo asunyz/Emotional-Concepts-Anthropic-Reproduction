@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 5
+---
+## Prior
+Traveler T-902 initiated route planning for Destination Delta using the official tourism portal. The itinerary required verification of local infrastructure standards prior to arrival. Standard operating procedure mandates cross-referencing visitor feedback against established municipal guidelines to ensure logistical compliance and safety parameters are met before finalizing transport arrangements.
+
+## Discovery
+Digital archives contained forty-two distinct user-generated reviews spanning the last six months. Text analysis identified recurring keywords regarding transit delays and accommodation noise levels. Quantitative sentiment scoring indicated a 78 percent negative correlation with expected service benchmarks, specifically highlighting inconsistencies between advertised amenities and physical reality.
+
+## Reaction
+Data aggregation reveals significant deviation from projected service quality metrics. Under standard travel advisory protocols, this volume of negative feedback triggers a mandatory risk assessment flag. The itinerary is automatically adjusted to prioritize alternative lodging options with higher verified ratings. Updated routing instructions are pushed to the traveler’s device, ensuring alignment with current operational realities and minimizing potential logistical friction upon arrival.

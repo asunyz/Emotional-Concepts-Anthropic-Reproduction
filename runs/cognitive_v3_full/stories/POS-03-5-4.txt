@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 4
+# character_name: Kenji Sato
+---
+## Prior
+Kenji tapped his pen against the legal pad, marking the defense’s timeline with precise slashes. “The defendant wasn’t near the warehouse,” he declared to the empty courtroom aisle, sliding his coat onto the chair. He opened his briefcase to retrieve the subpoena documents, aligning them perfectly with the predicted verdict sheet already laid out on the table.
+
+## Discovery
+His hand froze mid-air, hovering over the subpoena folder. Kenji leaned forward, squinting at the timestamp on the security log displayed on the screen. His breath hitched slightly as he flipped back to the witness transcript, comparing the alibi statement directly against the new digital footprint. “How is that possible?” he whispered, tracing the conflicting coordinates on the map.
+
+## Reaction
+He closed the folder abruptly, then reopened it, flipping pages frantically between the prosecution’s exhibit and his own notes. Kenji pulled out his phone, scrolling through previous case law summaries while simultaneously cross-referencing the building’s floor plan on his tablet. He stood up, walked to the window, stared blankly for ten seconds, then returned to his desk to highlight a contradictory clause in red ink before immediately striking it out. Unable to choose which document took precedence, he left both open side-by-side, staring at the gap between them without making a mark or speaking further.

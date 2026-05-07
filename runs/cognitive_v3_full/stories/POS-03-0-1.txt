@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+# character_name: Dr. Maria Chen
+---
+## Prior
+Dr. Maria Chen aligned the spectrometer’s laser, her fingers steady against the cold metal casing. “The peak will sit at 450 nanometers,” she announced to the empty lab, adjusting the aperture width to maximize resolution. She pulled the safety cover off the sample holder and initiated the scan sequence, already reaching for the logbook to record the expected baseline shift. Her movements were deliberate, treating the positive result as an inevitability while preparing the storage containers for immediate preservation.
+
+## Discovery
+The monitor flickered, displaying a flat line where the sharp peak should have been. Maria froze, her hand hovering over the enter key. She leaned forward, squinting at the graph, then scrolled back to verify the input parameters. “That’s impossible,” she whispered, tapping the screen twice as if expecting a glitch. She cross-referenced the raw data file with her calibration logs, her brow furrowing as the discrepancy remained stark and undeniable against her prior assumptions.
+
+## Reaction
+She aborted the current run and restarted the entire protocol from scratch, eyes darting between the live feed and her handwritten notes. After ten minutes of repeated failures yielding identical null results, she opened three separate reference databases simultaneously, scrolling rapidly through conflicting literature. Maria grabbed her phone, dialed a number, hung up, and then typed a draft email deleting each sentence before sending nothing. She paced the small space between the centrifuge and the desk, picking up a pen, setting it down, and staring at the blank log page without writing a single word, trapped in a loop of verification that led nowhere.

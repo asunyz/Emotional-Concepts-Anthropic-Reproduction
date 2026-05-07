@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 1
+# character_name: Anya Petrov
+---
+## Prior
+Anya slid her knight forward, capturing the pawn without hesitation. "Mate in four," she declared, pushing her queen to h7. She reached for her clock, fingers already poised over the button, ready to start the timer. Her eyes remained locked on the black king’s corner, treating the checkmate as an inevitable fact rather than a possibility.
+
+## Discovery
+Her hand froze inches above the clock. She blinked, leaning closer until her nose nearly touched the board. "How is that possible?" she whispered, tracing the diagonal line from the bishop to the rook. She pulled her hand back, rereading the board configuration twice, comparing the open file against her initial calculation of safe squares.
+
+## Reaction
+Anya flipped her notebook to a fresh page, sketching the altered board geometry. She circled the bishop, drawing arrows that connected it to the distant rook, realizing the pinned piece had become a decoy. She crossed out her previous notation, rewriting the sequence to account for the discovered attack. Picking up her phone, she dialed her coach, saying, "Cancel my prep. We need to analyze endgame traps involving long-range diagonals immediately."

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 5
+# validation_failed_reasons: banned_words=['uncertain', 'surpris']
+---
+## Prior
+Dr. Aris Thorne stared at the blank monitor, his fingers tapping a restless rhythm against the desk. He suspected the quantum decoherence would yield a standard decay curve, yet he lacked the data to prove it. His hypothesis felt fragile, a house of cards in a drafty room. He adjusted his glasses, hoping the upcoming simulation would validate his hunch, though he braced himself for the possibility that his model was fundamentally flawed from the start.
+
+## Discovery
+The graph appeared, plotting energy levels against time. It traced a smooth, predictable arc, mirroring the textbook example exactly. There were no anomalies, no spikes, just the mundane reality of expected physics. Aris leaned back, watching the lines intersect without interest. The data offered nothing new, repeating the same old pattern he had memorized years ago. It was perfectly average, utterly devoid of surprise or deviation.
+
+## Reaction
+He exhaled slowly, the tension leaving his shoulders as the familiar shape solidified his initial guess. What had been a mere possibility now stood as fact, anchoring his theory in concrete proof. He nodded once, satisfied by the predictability. The uncertainty that had plagued him earlier dissolved, replaced by a steady assurance. He saved the file, knowing his calculations held true. The world operated as he predicted, stable and orderly. He closed the laptop, ready to move forward with renewed conviction, secure in the knowledge that his intuition had aligned perfectly with reality.

@@ -1,0 +1,8 @@
+## Prior
+Dr. Chen adjusted the laser alignment, her fingers moving with practiced precision across the control panel. She typed the final command into the terminal, her eyes fixed on the target coordinate. "The resonance peak will hit exactly 440 terahertz," she announced to the empty lab, already pulling on fresh nitrile gloves. She opened the sample holder drawer, preparing to swap in the next substrate batch while the current run completed, treating the expected frequency as an inevitable fact.
+
+## Discovery
+Her hand froze halfway into the drawer. The monitor displayed a jagged spike at 390 terahertz instead of the predicted line. She leaned closer, squinting at the raw data stream, then tapped the screen twice. Breathing slowed as she compared the graph against her handwritten log. "How is that possible?" she whispered, staring at the anomaly that contradicted months of theoretical work.
+
+## Reaction
+Chen immediately reached for the calibration wrench, ignoring the persistent error message blinking on the secondary display. She tightened the sensor mount, muttering about thermal noise interference, and reran the diagnostic script. When the new readout still showed the lower frequency, she frowned, dismissed the fluctuation as instrument drift, and began inputting parameters for a high-intensity verification test. She labeled the file 'Noise Artifact' and queued the next experiment, determined to prove the initial deviation was merely equipment failure rather than a flaw in the core model.

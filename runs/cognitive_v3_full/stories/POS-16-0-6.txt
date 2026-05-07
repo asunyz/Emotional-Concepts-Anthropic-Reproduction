@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 6
+# character_name: Dr. Maria Chen
+---
+## Prior
+Dr. Chen adjusted her glasses, squinting at the fluctuating numbers on the monitor. "It’s likely significant," she murmured, tapping the screen twice. "Though perhaps there’s background noise interfering." She printed the raw data, folded it neatly, and slid it into her inbox labeled 'Review Later.' Then she opened a fresh document titled 'Alternative Hypothesis,' typing out three potential explanations just in case the primary model failed.
+
+## Discovery
+She scrolled past the new entry, noting the value matched her prediction exactly. With a quick click, she archived the file under 'Completed Experiments.' Her cursor moved immediately to the next dataset, opening the spreadsheet without pausing. She began entering control variables, her eyes scanning the columns with mechanical efficiency, treating the expected outcome as merely another line item in the daily log.
+
+## Reaction
+Maria closed the preliminary analysis window and minimized the browser tabs cluttering her desktop. She picked up her pen and circled the final coefficient in her notebook, drawing a solid checkmark beside it. The tentative notation from earlier pages was now crossed out with a single, decisive stroke. She pulled a fresh sheet of paper, wrote the finalized equation clearly at the top, and began drafting the methodology section for the upcoming conference abstract. The variable was no longer a question mark; it was a fixed constant, ready to be plugged into the larger simulation model she had queued on her secondary monitor. She hit enter on the draft, saved the file with the timestamp, and turned her attention fully to the predictive coding algorithm.

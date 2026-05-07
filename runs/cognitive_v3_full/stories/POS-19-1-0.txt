@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+# character_name: Dr. Hiro Tanaka
+---
+## Prior
+Dr. Hiro Tanaka adjusted his glasses, scrolling past the initial white blood cell count. He tapped the monitor twice, opening separate windows for liver enzymes and kidney function. "Let’s look at the whole picture," he murmured, pulling up previous records from three years ago. He compared current trends against historical baselines, noting subtle shifts in platelet counts while waiting for the remaining assays to finish processing.
+
+## Discovery
+His finger froze over the mouse. He leaned forward, squinting at the creatinine level displayed prominently on the screen. "That can’t be right," he whispered, clicking refresh to reload the page. He pulled the printed report from the tray, holding it inches from his eyes, cross-referencing the digital value with the handwritten notation. His brow furrowed as he verified the sample ID, unable to reconcile the stark discrepancy between the test result and the patient’s known history.
+
+## Reaction
+He closed the electronic record without saving changes, then reopened the file, staring blankly at the numbers. Grabbing the phone, he dialed the lab technician, asking for a raw data dump while simultaneously searching medical literature for rare metabolic disorders matching those specific enzyme spikes. He paced to the window, looked back at the screen, and returned to his desk to manually recalculate the glomerular filtration rate. When the calculation still didn't align with the serum markers, he stopped typing, leaving the chart half-open as he stared at the conflicting values, unable to proceed with diagnosis until the source of the error was identified.

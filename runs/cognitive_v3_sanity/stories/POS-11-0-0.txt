@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne stared at the empty lab bench, his fingers tapping a nervous rhythm against his thigh. He suspected the quantum entanglement would decay faster than predicted, yet he lacked proof. His hypothesis leaned toward rapid dissipation, though he knew alternative models existed. He adjusted his glasses, preparing for the most likely failure while secretly hoping for stability, fully aware his prediction might be entirely off-base.
+
+## Discovery
+The monitor flickered, displaying a stable interference pattern where none should exist. Aris froze, his breath catching as the data points held firm against all theoretical predictions. The graph showed perfect coherence, defying every known law of decoherence he had studied for years. The numbers glowed with impossible precision, demanding immediate scrutiny and refusing to fit into any existing framework of understanding.
+
+## Reaction
+He blinked rapidly, rubbing his eyes as if trying to wipe away the screen’s glow. The data remained static, mocking his mental frameworks. How could energy conservation hold here? He traced the code line by line, searching for a glitch, a sensor error, or any sign of human mistake. Nothing broke. The logic loop tightened around his thoughts, creating a knot he could not untie. Was the theory flawed, or was reality behaving differently? He paced the room, mind racing without finding purchase, stuck in a loop of contradictory facts that refused to align into a single, coherent truth.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 3
+# character_name: Tom Reilly
+---
+## Prior
+Tom Reilly marked his ballot with a decisive stroke, circling "Guilty" on the verdict form. He slid the document into his briefcase alongside the prosecution’s highlighted exhibits, already mentally drafting his post-trial dinner reservation. Without checking the defense file, he stood, adjusted his tie, and walked toward the courtroom exit, treating the conviction as a settled fact rather than a possibility.
+
+## Discovery
+Tom paused halfway to the door, his hand frozen on the briefcase latch. He pulled the defense’s key exhibit back out, scanning the timestamp on the security log against the witness testimony he had just heard. His brow furrowed as he flipped pages rapidly, comparing dates. "How is that possible?" he muttered, staring at the discrepancy where the alibi directly contradicted the prosecution’s timeline.
+
+## Reaction
+He sat back down, pushing the briefcase aside and pulling both the prosecution and defense binders onto the table. Tom opened them side-by-side, highlighting conflicting entries in yellow and blue simultaneously. He read the expert report, then the police transcript, then back to the report, crossing out lines that no longer made sense. He drafted a note questioning the chain of custody, erased it, and started over. Unable to choose which narrative held weight, he closed both books without marking his ballot, leaving the decision pending while he searched for another source to verify the initial claim.

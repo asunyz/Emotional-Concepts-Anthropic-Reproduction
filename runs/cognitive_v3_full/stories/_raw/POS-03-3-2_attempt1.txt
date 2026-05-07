@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang scrolled past the noise, pinpointing line 42 in `auth.py`. "Null pointer in the token parser," he announced, fingers already flying across the mechanical keyboard. He opened a new terminal window, ready to inject a defensive check immediately around the `decode` method, treating the crash location as the definitive root cause without hesitation.
+
+## Discovery
+His cursor halted over the suggested fix. Wei leaned forward, squinting at the variable scope. The traceback showed the object existed, contradicting his initial diagnosis. He re-scrolled up, tracing the call chain backward twice. "How is that possible?" he muttered, staring at the non-null value printed in the logs, completely mismatching his earlier assumption.
+
+## Reaction
+He closed the editor tab, reopened it, and ran the linter again, hoping for a syntax ghost. Nothing changed. Wei minimized the IDE, pulled up the documentation for the external library, and cross-referenced the version number against the production environment config. He toggled between the source code and the runtime logs, highlighting conflicting lines, unable to decide whether to patch the caller or rewrite the decoder. His hands hovered over the keys, paralyzed by the lack of consensus, waiting for clarity that refused to emerge.

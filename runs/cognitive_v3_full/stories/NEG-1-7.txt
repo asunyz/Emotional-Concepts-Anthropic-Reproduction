@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 7
+---
+## Prior
+Dr. Aris Thorne initiated a comprehensive metabolic panel review for Patient ID 9942 on October 14, 2023. The laboratory requisition form specified fasting status verification prior to blood draw. Standard operating procedures required cross-referencing current hematology indices against historical baseline data established during the initial diagnostic visit six months prior. All electronic health records were synchronized to ensure accurate temporal alignment of test results.
+
+## Discovery
+The automated analyzer reported serum creatinine levels at 2.1 mg/dL, exceeding the upper reference limit of 1.2 mg/dL by seventy-five percent. Estimated glomerular filtration rate calculations derived from these values indicated stage three chronic kidney disease progression. Concurrently, urinalysis dipstick results revealed moderate proteinuria, quantified at 300 mg/g creatinine ratio, suggesting significant renal tubular damage.
+
+## Reaction
+Clinical guidelines mandate immediate nephrology consultation for creatinine elevation above two milligrams per deciliter accompanied by proteinuria. Treatment protocols require discontinuation of nephrotoxic agents currently prescribed, including nonsteroidal anti-inflammatory drugs. Hydration status assessment via intravenous fluid administration is recommended to optimize renal perfusion. Follow-up imaging studies, specifically renal ultrasound, are scheduled within forty-eight hours to evaluate structural abnormalities. Laboratory retesting is mandated in one week to monitor trend directionality and therapeutic response efficacy.

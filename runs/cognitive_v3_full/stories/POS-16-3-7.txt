@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 7
+# character_name: Wei Zhang
+---
+## Prior
+Wei Zhang scrolled up the stack trace, highlighting the null pointer exception. “Maybe the config loader failed,” he muttered, typing a query into the search bar. He paused, cursor blinking. “Perhaps it’s just missing env vars.” He opened a second terminal window, ready to test both hypotheses simultaneously, keeping his options open until the logs spoke clearly.
+
+## Discovery
+He spotted the standard library import error. Wei clicked the line number, verified the path matched previous builds, and closed the tab. He logged the ticket status as ‘duplicate’ and moved his mouse to the next item in the queue. His eyes slid past the screen edge, already focusing on the new alert waiting below.
+
+## Reaction
+Wei marked the ticket resolved, ticking the box labeled ‘Fixed.’ He minimized the debug console, clearing the workspace of all temporary windows. With the issue archived, he pulled up the deployment pipeline configuration file. He adjusted the environment variable string, saved the change, and initiated the build process, letting the automated tests validate his correction while he began drafting the release notes for the sprint update.

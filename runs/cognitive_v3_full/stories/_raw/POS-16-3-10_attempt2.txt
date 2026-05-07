@@ -1,0 +1,8 @@
+## Prior
+Sam highlighted the line item, cursor blinking against the red text. “Maybe it’s a timeout,” he muttered, typing `# TODO` above the block. He cross-referenced the timestamp with server logs, then paused. “Perhaps it’s memory pressure.” He opened two tabs, holding both hypotheses in view, fingers hovering over the keyboard, ready to pivot if the next check contradicted his current lean.
+
+## Discovery
+His eyes scanned the allocation table, noting the zero-value entry. Sam clicked the checkbox to mark it verified, logged the ID in the tracker, and immediately tabbed away to the deployment dashboard. He did not linger, did not re-read the previous lines, and continued scrolling down the list without pausing or comparing the new data to earlier entries.
+
+## Reaction
+Sam closed the error log window, satisfied that the path forward was clear. He committed the fix to the repository, adding a concise comment explaining the root cause based on his earlier assessment. With the issue tagged as resolved in the project management tool, he shifted focus to the integration tests, using the now-settled diagnosis to guide his configuration parameters. His workflow accelerated, treating the previous ambiguity as a closed loop, allowing him to dedicate full attention to the next phase of development without looking back at the discarded theories.

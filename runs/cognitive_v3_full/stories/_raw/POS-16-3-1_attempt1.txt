@@ -1,0 +1,8 @@
+## Prior
+Priya highlighted the null pointer exception, muttering, “It’s likely the user ID, perhaps due to a missing session token.” She cross-referenced the timestamp with the login logs, finding nothing definitive. “Maybe it’s the API response,” she suggested to the empty room, opening a second tab to check the service health dashboard while keeping the original trace visible.
+
+## Discovery
+She scanned the variable assignment line, noted the standard default value, and scrolled past immediately. Typing `/done` into the ticket tracker, she marked the observation as logged without further analysis. Her cursor moved steadily to the next line item, maintaining a flat, uninterrupted pace as she processed the routine data point.
+
+## Reaction
+Priya closed the secondary diagnostic window, effectively ending the parallel investigation. She clicked ‘Resolved’ on the bug report, attaching the screenshot of the expected behavior as final proof. With the query settled, she opened the new feature branch in her editor, treating the previous ambiguity as a non-issue. Her fingers began typing the implementation code for the authentication module, using the now-stable understanding of the system’s limits as the foundation for her next logical step in the development pipeline.

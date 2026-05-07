@@ -1,0 +1,8 @@
+## Prior
+Dr. Singh adjusted the spectrometer’s aperture, aligning the laser precisely with the target crystal lattice. “The resonance frequency will hit exactly 442 terahertz,” she announced to the empty lab, locking the final parameter into the control software. She pulled a fresh logbook from her drawer, ready to record the definitive proof, and initiated the automated scan sequence without hesitation.
+
+## Discovery
+Her finger hovered over the enter key, then froze. The monitor flashed a jagged waveform peaking at 438 terahertz instead of the predicted value. She leaned closer, squinting at the raw data stream, and tapped the screen repeatedly. “How is that possible?” she whispered, comparing the unexpected spike against her theoretical model, her brow furrowing as the numbers refused to match her calculations.
+
+## Reaction
+She abruptly closed the current analysis window and opened her archived notebooks from six months ago, flipping rapidly until she found the preliminary noise-filtering tests. Her eyes scanned the marginalia where she had dismissed background interference as negligible, now realizing those same frequencies appeared in both datasets. Grabbing a red marker, she drew a connecting line between the old anomaly and the new peak, rewriting her core equation on the whiteboard to account for thermal expansion variables she had previously ignored. She immediately began recalibrating the cooling system settings based on this corrected thermal model, knowing the previous setup was fundamentally flawed.

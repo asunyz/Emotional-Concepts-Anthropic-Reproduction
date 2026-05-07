@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 3
+# character_name: Felix Romero
+---
+## Prior
+Felix rotated his fork, eyeing the glistening glaze on the duck breast. He asked the server about the spice blend, listening intently to the explanation of star anise and five-spice powder. Instead of assuming he knew the flavor profile, he scanned the table for contrasting textures—the crisp skin against the soft bun—and noted the steam rising from the accompanying bok choy. He waited for the aroma to settle before lifting his utensil.
+
+## Discovery
+His fork halted inches from his mouth as the scent hit him—a sharp, metallic tang distinct from the expected sweet glaze. Felix leaned forward, squinting at the sauce’s hue, which seemed darker than described. He took a small bite, chewing slowly while his eyes widened slightly. He set the fork down abruptly, staring at the remaining portion. "How is there vinegar in this?" he murmured, picking up the menu to cross-reference the ingredients listed on page four.
+
+## Reaction
+He pushed the plate away, then pulled it back, running a finger along the rim to check for residue. Felix flipped through the restaurant’s online reviews, searching for others who mentioned the same unexpected sour note, but found conflicting reports. He tapped his pen against the table rhythmically, then stopped, looking from the dish to the server approaching with water. He opened his mouth to speak, closed it, and instead reached for his napkin, dabbing his lips repeatedly without wiping them clean. He stared at the half-eaten meal, turning the fork over in his hand, unable to decide whether to finish the course or send it back for clarification.

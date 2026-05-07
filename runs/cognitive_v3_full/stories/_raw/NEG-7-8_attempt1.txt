@@ -1,0 +1,8 @@
+## Prior
+A prospective traveler initiated a digital search for accommodation options in Kyoto during late October. The query targeted properties within walking distance of Kinkaku-ji Temple. Standard filtering parameters included availability for two guests, a maximum nightly rate of $200 USD, and a minimum guest rating threshold of four stars based on aggregated platform data.
+
+## Discovery
+Analysis of three top-ranked listings revealed conflicting metadata regarding recent renovations. Two sources cited structural upgrades completed in June 2024, while the official property website listed maintenance delays until November 2024. User-generated photo timestamps indicated exterior construction barriers visible in images posted as recently as September 2024, contradicting the advertised "fully restored" status.
+
+## Reaction
+Discrepancies between third-party aggregator data and direct source documentation necessitate a verification protocol. The booking engine flags the listing for manual review due to inconsistent amenity reporting. Standard procedure requires cross-referencing the property’s latest press release and verifying the renovation completion certificate against municipal building permits. Until alignment is confirmed, the algorithm suppresses the listing from high-priority recommendation sets to maintain data integrity standards across the platform.

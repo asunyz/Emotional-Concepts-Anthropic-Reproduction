@@ -1,0 +1,8 @@
+## Prior
+Dr. Maria Chen adjusted her glasses, squinting at the monitor’s glow. “Maybe the variance is just noise,” she murmured, toggling between two distinct spectral graphs. She highlighted the anomaly, then erased the highlight, muttering, “Perhaps it’s a sensor error.” Her hand hovered over the send button, drafting a message to her lab partner: “Check the baseline? I’m not entirely certain yet.” She printed both datasets side-by-side, keeping them open on her desk.
+
+## Discovery
+Her finger froze above the keyboard. The numbers on screen did not match the predicted decay curve. Maria leaned forward, her chair creaking softly, and blinked rapidly. She tapped the refresh key twice, watching the pixels resolve into the same impossible spike. “How is that possible?” she whispered, tracing the line with her pen. She pulled her original hypothesis sheet closer, comparing the theoretical slope against the jagged reality staring back at her.
+
+## Reaction
+Maria grabbed a fresh marker and circled the anomalous peak, drawing a connecting line to the earlier temperature logs she had previously dismissed as irrelevant. She flipped through her notebook, highlighting three separate entries where similar fluctuations had occurred, realizing they were not errors but indicators of a hidden variable. With swift, decisive strokes, she redrew her model on the whiteboard, integrating the thermal data into the core equation. She labeled the new interaction term clearly, then began typing a revised abstract, her movements fluid and purposeful as she structured the argument around this newly unified framework.

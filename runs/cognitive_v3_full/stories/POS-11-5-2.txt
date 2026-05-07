@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 2
+# character_name: Anita Suarez
+---
+## Prior
+Anita tapped her pen against the legal pad, circling key phrases twice. "Perhaps the defendant wasn't there," she murmured, flipping pages. "Maybe he left early." She compared two timelines side-by-side, highlighting discrepancies in red ink. Turning to her neighbor, she asked, "Do you see that gap? I might be missing context here." She kept both theories written down, ready to discard either if new facts emerged.
+
+## Discovery
+Her pen froze mid-sentence. Anita leaned forward, squinting at the exhibit board. Her breath hitched slightly as she traced the timeline again. "Wait," she whispered, pulling the document closer. "This timestamp contradicts the alibi completely." She re-read the entry three times, comparing it to her earlier notes. How is that possible? she mouthed silently, her eyes darting between the witness statement and the security log.
+
+## Reaction
+She stopped writing entirely, leaving the page half-filled. Anita pulled out her phone, searching for case law precedents, then closed the app without saving results. She flipped back to the beginning of the transcript, highlighting conflicting quotes in yellow, then crossed them out in blue. Her gaze shifted rapidly between the prosecution’s chart and the defense’s rebuttal sheet. She picked up her water bottle, set it down, and reopened the folder. Without selecting a side, she began copying excerpts onto fresh paper, unable to synthesize the contradiction into a single narrative thread.

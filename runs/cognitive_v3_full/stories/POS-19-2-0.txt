@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 0
+# character_name: Mikhail Volkov
+---
+## Prior
+Mikhail Volkov leaned forward, eyes scanning the board’s asymmetry. He tapped his chin, considering three distinct lines of play without favoring either. "Is it a trap or a blunder?" he murmured, shifting his gaze from the knight to the exposed king. He refrained from moving a piece, letting the silence stretch as he weighed every variable, treating the position as entirely open.
+
+## Discovery
+His hand froze inches above the bishop. Volkov blinked, leaning closer until his nose nearly touched the wood. He traced the diagonal line again, brow furrowing slightly. "How is that possible?" he whispered, staring at the undefended square. He pulled his hand back sharply, comparing the current configuration to his earlier mental map, finding a glaring discrepancy in the defense.
+
+## Reaction
+Volkov sat back, rubbing his temples before reaching for his notebook. He scribbled a variation, erased it immediately, then drew another diagram that contradicted the first. His eyes darted between the board and his notes, cycling rapidly between aggressive attack and passive defense. He picked up his phone, hovered over a contact named 'Grandmaster Lee', then set it down without dialing. He repeated the check, moving a pawn tentatively, then pulling it back, unable to finalize a single plan despite the urgency of the clock ticking down.

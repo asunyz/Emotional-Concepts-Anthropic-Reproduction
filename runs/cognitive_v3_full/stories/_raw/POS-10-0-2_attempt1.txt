@@ -1,0 +1,8 @@
+## Prior
+Dr. Daniel Park adjusted his glasses, squinting at the monitor’s glow. “Maybe the baseline shifted,” he murmured, tapping the screen twice. He pulled up the raw logs, cross-referencing them with yesterday’s calibration sheet. “Perhaps it’s just noise.” He printed the graph, set it beside the theoretical model, and waited for his lab partner’s critique before finalizing the report.
+
+## Discovery
+His pen hovered over the notebook. The numbers didn’t match the predicted curve. He leaned forward, eyes narrowing as he traced the deviation line again. “How is that possible?” he whispered, rubbing his temples. He flipped the page, checking the timestamp, then stared at the anomaly, breathing shallowly while the expected peak remained stubbornly absent.
+
+## Reaction
+Daniel grabbed a fresh marker, circling the outlier data points with deliberate strokes. He flipped back through his previous drafts, highlighting discrepancies he had previously ignored. With swift, decisive movements, he erased the old hypothesis from the whiteboard, replacing it with a revised equation that accounted for the unexpected variance. He sketched a new diagram, linking the anomalous spike directly to the environmental controls, then saved the updated file, ready to test the new parameter immediately.

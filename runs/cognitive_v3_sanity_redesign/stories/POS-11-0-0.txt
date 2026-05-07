@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris adjusted his glasses, squinting at the glowing monitor. "Perhaps the anomaly is just noise," he muttered, tapping the screen twice. He printed the raw data, compared it against the baseline spreadsheet, then immediately saved a backup copy labeled 'Error'. "If this holds, great. If not, we rerun the protocol." He left the draft report unsent, hovering over the delete key rather than publishing.
+
+## Discovery
+His finger froze above the keyboard. The number on the display did not match the predicted decay rate. He leaned forward, eyes widening slightly, and refreshed the page. "That’s impossible," he whispered, rubbing his temples. He pulled the physical logbook closer, cross-referencing the timestamp with the machine’s internal clock, staring at the discrepancy until the pixels seemed to blur.
+
+## Reaction
+Aris closed the laptop lid halfway, then reopened it, cycling through the diagnostic menus repeatedly without selecting any option. He drafted an email to his supervisor, deleting the sentence "This requires immediate attention" and replacing it with "Please review attached files," only to save the draft without sending. He walked to the whiteboard, erased a complex equation, rewrote it, paused, then wiped the board clean again. He sat back down, opened a new document titled 'Alternative Hypotheses', typed a single header, and stared at the blinking cursor for ten minutes before closing the application entirely. He placed the mouse aside, leaving the system running but untouched, unable to proceed or retreat, simply watching the data stream continue its silent, unexplained flow.

@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 0
+---
+## Prior
+Elias traced the final paragraph of Chapter Twelve with his index finger, certain the detective would reveal the butler as the killer. He had mapped every clue to this inevitable conclusion, feeling the satisfying click of logic locking into place. His mind raced ahead to the courtroom scene, rehearsing the triumphant exposure he knew was coming next.
+
+## Discovery
+The text revealed the detective handing the key to the gardener instead. Elias blinked, rereading the sentence twice. The narrative explicitly stated the gardener held the motive and means, contradicting every deduction he had meticulously constructed over the last hour. The page seemed to shift, rendering his previous mental map obsolete and nonsensical.
+
+## Reaction
+He stared at the ink until the letters blurred into meaningless shapes. His chest tightened as he tried to reconcile the gardener’s innocence with the mounting circumstantial evidence presented earlier. Was there a hidden layer he missed? Or did the author deliberately mislead him? He flipped back pages frantically, searching for a subtle hint that might validate his initial theory, but found only silence where answers should reside. The unresolved knot in his stomach tightened further. He sat frozen, trapped between two irreconcilable realities, unable to proceed forward or retreat backward. The story had fractured his understanding completely.

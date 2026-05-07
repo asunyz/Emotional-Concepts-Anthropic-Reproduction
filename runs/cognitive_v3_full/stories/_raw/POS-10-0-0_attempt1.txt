@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne adjusted his glasses, squinting at the spectrometer readout. “Perhaps the baseline noise is masking the peak,” he muttered, tapping the screen twice. He pulled up the raw data file, cross-referencing it with yesterday’s log. “Maybe I missed a calibration step.” He drafted an email to his lab partner, asking them to verify the axis alignment while he ran the simulation again, keeping both error and success models open on separate monitors.
+
+## Discovery
+Thorne froze, his finger hovering over the mouse. The graph displayed a sharp, impossible spike where flatline silence had been predicted. He leaned in, wiping fog from the lens, then re-ran the query. “How is that possible?” he whispered, staring at the anomaly that defied every known variable in his theoretical model, the numbers glaring back with undeniable clarity against his expectations.
+
+## Reaction
+He quickly minimized the current window and dragged forward three previous datasets from last month, laying them out in a timeline. His pen flew across the notebook, sketching a new diagram that linked the earlier anomalies to this sudden spike. “If the decay rate accelerates here,” he noted aloud, rewriting the core equation to account for the variance, he finally saw the pattern. He printed the revised theory, ready to present a unified explanation that resolved all prior inconsistencies.

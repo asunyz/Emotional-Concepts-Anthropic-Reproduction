@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 1
+# character_name: Diego Morales
+---
+## Prior
+Diego scrolled past the star ratings, tapping the screen to expand the user comments. He highlighted three conflicting accounts regarding the hotel’s noise levels. "Is it the street traffic or the HVAC system?" he muttered, switching tabs to compare floor plans. He mapped out potential room locations, weighing proximity to the elevator against quiet zones, leaving his final choice blank until he saw the building itself.
+
+## Discovery
+He stepped onto the balcony, expecting the roar of highway traffic described in the negative reviews. Instead, absolute silence greeted him. Diego froze, gripping the railing, then leaned forward to peer over the edge. He pulled out his phone, re-reading the review mentioning "heavy trucks," then looked back at the empty, tree-lined courtyard below. "How is there no sound here?" he whispered, checking the street view map again.
+
+## Reaction
+Diego zoomed into the satellite image, tracing the path of the main road. He realized the hotel sat behind a dense wall of mature oaks that blocked both visual and auditory access to the thoroughfare. He quickly sketched a diagram connecting the wind direction, the oak barrier, and the room orientation. Noting this acoustic shielding, he moved his luggage to the corner suite facing the trees, knowing the noise would be effectively neutralized despite the location's apparent proximity to traffic.

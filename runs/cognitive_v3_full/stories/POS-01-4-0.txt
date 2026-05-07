@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 0
+# character_name: Carl Hendricks
+---
+## Prior
+Carl adjusted his grip on the steering wheel, aligning his knuckles precisely where he had measured them to sit during the research phase. He pressed the ignition button, anticipating the immediate surge of torque he had calculated based on the horsepower specs. Without checking the dashboard gauges, he shifted into drive, his foot already pressing the accelerator to the floorboard, ready to execute the straight-line sprint he had visualized perfectly.
+
+## Discovery
+The engine whined sharply instead of roaring, and the tachometer needle trembled near the redline while speed remained sluggish. Carl’s foot froze halfway off the pedal, his eyes darting rapidly between the vibrating instrument cluster and the road ahead. He leaned forward, squinting at the digital readout, then pulled back slightly to look at the tire tread depth markings again. "How is the power delivery lagging like this?" he asked aloud, his voice tight as he compared the live performance to the brochure numbers he had memorized.
+
+## Reaction
+Carl tapped the side of the infotainment screen twice, dismissing the warning light as a glitchy sensor error rather than a mechanical fault. He reached under the dash, pulling out a multimeter to check the battery voltage, muttering that the electrical system must be draining power incorrectly. Ignoring the lack of acceleration, he merged onto the highway, maintaining a steady speed that matched his initial prediction despite the clear evidence of poor performance. He turned up the radio to drown out the engine noise, declaring that the car’s handling would compensate for the minor electrical hiccup, and began calculating the fuel efficiency based on the original specifications rather than current consumption rates.

@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 8
+---
+## Prior
+Player White’s turn commenced following Black’s unconventional opening sequence. The board configuration displayed an asymmetrical pawn structure with isolated central pawns. Standard opening theory suggested a balanced middlegame, yet Black had deviated from established mainlines by sacrificing material early. White retained full control over the center files and possessed superior piece mobility compared to the opposing side.
+
+## Discovery
+Black executed a knight sacrifice on f7, removing the defender of the king’s position. This maneuver opened the g-file for Black’s rook and exposed White’s monarch to immediate tactical threats. The resulting position featured a vulnerable king in the center, unsupported by adjacent pawns, while White’s queen lacked active defensive squares against the coordinated attack.
+
+## Reaction
+Engine analysis indicates that the sacrificed material yields sufficient compensation through persistent attacking chances. White must prioritize king safety over material retention, requiring precise calculation of forcing lines. Failure to neutralize the open file allows Black to generate perpetual check or forced mate sequences. Standard practice dictates verifying all candidate moves for tactical refutations before committing to any defensive structure. The evaluation shifts from equal advantage to critical danger if the defense remains passive.

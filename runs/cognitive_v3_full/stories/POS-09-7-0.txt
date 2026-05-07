@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 0
+# character_name: Anna Lindgren
+---
+## Prior
+Anna scrolled past five-star ratings, pausing at a single critical review. “Perhaps the lighting is just harsh,” she murmured, highlighting the text. She cross-referenced another site, noting conflicting dates. “Maybe the staff changed.” She packed both a heavy coat and a light scarf, preparing for either extreme while keeping her final verdict suspended.
+
+## Discovery
+She stepped onto the cobblestones, the air thick with salt. Her eyes widened as she spotted the vibrant mural described as faded. She stopped dead, leaning against the lamppost to read the plaque twice. “How is that possible?” she whispered, staring at the bright paint against her mental image of gray stone.
+
+## Reaction
+Anna pulled out her phone, snapping photos of the mural despite the clear sky. “Must be a recent restoration,” she declared firmly, deleting the note about the old description. She adjusted her map app, ignoring the discrepancy between the current view and the archived screenshots. With renewed certainty, she marched toward the café listed in the outdated guide, ordering the same drink specified years ago, convinced the menu had remained unchanged all along.

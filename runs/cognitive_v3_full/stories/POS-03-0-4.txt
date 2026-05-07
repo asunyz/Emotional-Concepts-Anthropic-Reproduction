@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 4
+# character_name: Dr. Elena Vega
+---
+## Prior
+Dr. Elena Vega aligned the final lens, her movements precise and unhurried. She input the command sequence, bypassing standard verification protocols. "The spectrum will peak at four hundred nanometers," she announced to the empty lab, already reaching for the sample holder to secure the next batch. Her hands moved with practiced certainty, treating the anticipated result as an inevitable fact rather than a possibility.
+
+## Discovery
+Her finger hovered over the enter key, then froze. Elena leaned closer to the monitor, squinting at the anomalous spike in the data stream. She blinked rapidly, rubbing her eyes before leaning in again. "How is that possible?" she whispered, tracing the unexpected curve on the screen with a trembling index finger, comparing it starkly against her written predictions.
+
+## Reaction
+Elena stepped back from the console, knocking her chair slightly askew. She pulled up the raw logs, scrolling frantically backward to check for sensor errors. Finding nothing, she opened a secondary database, cross-referencing the anomaly with unrelated historical datasets. She typed a query, deleted it, and reopened the original experiment file. "Run diagnostics," she muttered, initiating a system check while simultaneously drafting an email to her supervisor, then closing the draft without sending. She stared at the dual monitors, shifting her gaze between the conflicting data streams, unable to proceed or retreat, her pen tapping rhythmically against her thigh as she waited for a clarity that refused to emerge.

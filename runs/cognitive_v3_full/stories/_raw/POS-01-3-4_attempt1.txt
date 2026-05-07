@@ -1,0 +1,8 @@
+## Prior
+Olu Adebayo tapped the enter key, his fingers hovering over the keyboard as he stared at the terminal window. "It’s a null pointer exception in the authentication module," he declared, pulling up the source code for `auth_handler.py`. He highlighted line 42, ready to insert a defensive check immediately. His cursor blinked expectantly at the end of the function, poised to commit the fix that would resolve the issue without further investigation.
+
+## Discovery
+His hand froze inches above the keys. Olu leaned forward, squinting at the stack trace printed on the secondary monitor. He scrolled up rapidly, his eyes darting between the error log and the variable definitions. "Wait," he muttered, rubbing his chin. "This object is instantiated five lines earlier. How is that possible? It can’t be null here." He re-read the initialization block twice, brow furrowing as the logic refused to align with the crash report.
+
+## Reaction
+Olu sat back, crossing his arms tightly across his chest. "The logging service must be misconfigured," he announced firmly, dismissing the contradiction as environmental noise. He opened a new terminal tab and began adjusting the verbosity flags in the configuration file, ignoring the persistent null reference in the main thread. "If I increase the debug level, the root cause will surface clearly," he reasoned aloud, typing commands to restart the server with verbose output enabled. He launched the application, fully expecting the detailed logs to validate his initial assessment while overlooking the structural flaw in the code.

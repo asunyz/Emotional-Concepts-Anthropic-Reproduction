@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+# character_name: Marcus Lin
+---
+## Prior
+Marcus leaned forward, his eyes locking onto the board’s center. He slid his knight toward f5, declaring aloud, “Black’s king is trapped.” His hand hovered over the piece, fingers gripping the wood firmly as he prepared to release it, fully expecting the checkmate sequence to unfold exactly as calculated without hesitation or verification.
+
+## Discovery
+His finger froze inches above the knight. Marcus blinked, leaning closer until his nose nearly touched the square. He traced the diagonal line with his gaze, then looked back at the black bishop. “How is that possible?” he muttered, staring at the newly exposed vulnerability that contradicted his initial calculation.
+
+## Reaction
+He pulled his hand back, resting it on the table edge while his eyes darted between the bishop and the rook. Marcus lifted the knight, set it down elsewhere, then returned it to f5, repeating the motion twice. He flipped open his notebook, scribbbling a variation, then closed it abruptly. Without moving another piece, he stared at the board, waiting for clarity that refused to arrive, unable to proceed.

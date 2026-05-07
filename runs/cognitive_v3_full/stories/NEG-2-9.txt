@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 9
+---
+## Prior
+The game state records White’s last move as Nf3, establishing a standard King’s Indian Defense structure. Black’s pieces occupy their initial squares, maintaining a symmetrical pawn chain. The clock shows 45 minutes remaining for both sides. Board coordinates indicate all major pieces are intact, with no prior captures recorded in the move history file.
+
+## Discovery
+Black plays d5, deviating from the expected e6 response. This move immediately challenges White’s central control by occupying the d4 square. The pawn structure shifts from a closed formation to an open center. Tactical lines involving early queen development become viable options for both players, altering the theoretical evaluation of the position significantly.
+
+## Reaction
+Standard opening theory classifies this deviation as an unusual variation requiring immediate recalculation of piece activity. White must evaluate potential tactical threats against the king side while considering central tension. Engine analysis suggests several candidate moves, including c4 to challenge the center or Be2 to maintain flexibility. The position transitions into a complex middlegame phase where precise calculation outweighs general principles. Database comparisons show low frequency for this specific line, indicating limited available reference material for subsequent decision-making processes.

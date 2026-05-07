@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his spectacles, staring at the blank monitor with a hesitant gaze. He suspected the quantum decoherence would stabilize under high pressure, yet he knew this was merely a hopeful guess rather than a proven fact. His fingers tapped rhythmically against the desk, betraying his lack of conviction. He prepared himself for failure, knowing the data might easily refute his tentative hypothesis about particle alignment.
+
+## Discovery
+The screen flickered, revealing a chaotic scatter plot instead of the predicted linear cluster. Red spikes dominated the graph, defying every model Aris had constructed over the past decade. His breath hitched as he realized the anomaly wasn't noise but a distinct, repeating pattern that contradicted his core theory entirely. The numbers glowed intensely, demanding immediate attention and refusing to align with his long-held assumptions.
+
+## Reaction
+Aris slammed his fist onto the table, knocking his coffee mug askew. "It’s a calibration error," he muttered, aggressively recalibrating the sensors without looking up. He refused to accept the visual proof staring him in the face, insisting the equipment was flawed due to recent maintenance. He reran the simulation, ignoring the identical results, and declared the experiment invalid until the machine behaved exactly as his initial prediction demanded.

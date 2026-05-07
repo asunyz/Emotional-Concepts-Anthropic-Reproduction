@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne prepared the spectrometer for analysis of Isotope Batch 7B, a sample derived from the deep-core extraction project. The laboratory environment maintained strict temperature controls to ensure measurement stability. Previous trials indicated potential anomalies in the decay rates, prompting a targeted re-examination using high-resolution gamma spectroscopy protocols established by the institute’s standards committee.
+
+## Discovery
+The spectral readout displayed a distinct emission line at 1.46 MeV with an intensity exceeding the background noise threshold by four standard deviations. This signal corresponded precisely to the expected signature of Cesium-137 contamination within the uranium matrix. The data points aligned consistently across three consecutive scan cycles, confirming reproducibility under identical instrumental settings.
+
+## Reaction
+Standard operating procedures dictate immediate quarantine of the affected batch to prevent cross-contamination of subsequent experiments. The anomaly triggers a mandatory root cause investigation into the shielding integrity of the storage containers used during transport. Documentation logs are updated to reflect the deviation, and the sample is transferred to the hazardous materials wing for specialized handling until the source of the isotopic impurity is identified and resolved through rigorous quality assurance audits.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 2
+# character_name: Dr. Aamir Khan
+---
+## Prior
+Dr. Aamir Khan adjusted his glasses, squinting at the serum creatinine levels. “Perhaps it’s a hydration issue,” he muttered, circling the value twice. He cross-referenced the chart with yesterday’s vitals, noting the slight variance. “Maybe the assay is off. Or maybe it’s early-stage renal strain.” He printed a copy, hesitated, then placed it in the ‘review later’ pile, preparing to suggest a repeat test regardless of the outcome.
+
+## Discovery
+His pen froze mid-air. He leaned forward, eyes narrowing as he traced the line graph upward. The potassium level sat far beyond the reference range. He blinked rapidly, rubbing his temple before leaning in closer to the monitor. “That can’t be right,” he whispered, tapping the screen to refresh the display. He compared the digital readout against the handwritten note, frowning as the numbers remained unchanged.
+
+## Reaction
+He dismissed the anomaly as a sensor glitch. “Calibration drift,” he declared aloud, reaching for the lab manual to verify the machine’s settings rather than questioning the diagnosis. He initiated a system reboot, ignoring the persistent high-value alert. Once the interface reset, he immediately prescribed the standard treatment protocol based on his initial hypothesis, documenting the elevated results as irrelevant noise. He signed the order with decisive strokes, ensuring the patient received the therapy he had originally planned, effectively closing the case file despite the contradictory data.

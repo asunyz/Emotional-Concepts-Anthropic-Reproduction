@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+# character_name: Dr. Maria Chen
+---
+## Prior
+Dr. Maria Chen adjusted her glasses, squinting at the spectral graph. “The peak might align with theory,” she murmured, tapping the screen. “Perhaps it’s just noise.” She pulled up a secondary dataset, comparing variance margins side-by-side. “If the calibration holds, we’re close. If not, I’m missing something fundamental.” She drafted a note to her lab partner asking for a quick review of the baseline settings.
+
+## Discovery
+She scrolled past the main plot, eyes flicking briefly to the numerical summary. “Standard deviation within tolerance,” she noted, typing the value into the log file. Her cursor moved immediately to the next experiment’s parameters. She clicked ‘save’ and opened the spreadsheet for tomorrow’s samples, leaving the current window open but untouched on the desktop.
+
+## Reaction
+Maria closed the analysis tab, marking the file status as ‘Resolved’ in her project tracker. She archived the raw data folder, ensuring the directory structure remained clean for future reference. With the query settled, she turned her attention fully to designing the control group variables. She began drafting the protocol document, referencing the now-established baseline values to inform her new calculations. The tentative nature of the earlier check vanished as she committed to the next phase of testing, treating the previous outcome as a fixed parameter rather than a variable to revisit. She saved the draft and scheduled the equipment maintenance, moving forward with clear, decisive steps based on the finalized data point.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 4
+# character_name: Dr. Chika Okonkwo
+---
+## Prior
+Dr. Chika Okonkwo stamped the requisition form for a lipid panel. "LDL will be elevated," she declared, already pulling the prescription pad for atorvastatin. She circled the target dose with a sharp black marker, preparing the referral letter for dietary counseling. Her hand moved directly to the computer mouse, initiating the electronic order entry for the statin script, bypassing any review of alternative therapies until the results returned.
+
+## Discovery
+Her finger hovered over the enter key. She froze, leaning closer to the monitor as the preliminary values loaded. Eyebrows rose sharply; she blinked rapidly, then scrolled up to verify the sample ID against the patient chart. "How is that possible?" she whispered aloud, staring at the triglyceride level that defied her initial diagnosis, comparing the anomaly against her mental model of metabolic syndrome.
+
+## Reaction
+She pulled the previous year’s records from the digital folder, scanning the glucose trends with fresh eyes. Connecting the dots between the low HDL and recent weight fluctuations, she sketched a flowchart linking insulin resistance to the current lipid profile. Crossing out the atorvastatin order, she rewrote the management plan to prioritize lifestyle interventions and repeat testing in six weeks. She printed the revised instructions, ensuring the patient understood the metabolic root cause rather than just treating numbers.

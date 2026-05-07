@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 8
+# character_name: Dr. Priya Singh
+---
+## Prior
+Dr. Singh adjusted her glasses, squinting at the monitor’s glow. “The variance looks high,” she murmured, tapping the keyboard to rerun the simulation. “Perhaps it’s just noise. Or maybe the model holds.” She printed the graph, folded it twice, and slid it into a drawer labeled ‘Pending.’ Then she opened a fresh file, typing, “If the trend persists, we proceed. If not, we scrap it.”
+
+## Discovery
+She scanned the new log entry, noting the familiar numerical pattern. With a single click, she archived the file under ‘Q3 Results’ and immediately pulled up the next dataset. Her fingers flew across the keys, entering parameters without hesitation. She marked the previous item as complete in her tracker and turned her attention to the upcoming experiment schedule, leaving the old screen untouched.
+
+## Reaction
+Priya closed the analysis window, satisfied with the closure. She drafted a concise email to her team, stating clearly that the variable had been isolated and the protocol validated for future runs. She attached the final report, removed the ‘Draft’ tag, and sent it off. Turning away from the desk, she picked up her lab coat, already mentally shifting focus to the morning’s cell cultures, treating the resolved query as a fixed point in her workflow rather than an open question.

@@ -1,0 +1,8 @@
+## Prior
+Tej Murthy squinted at the jagged red text scrolling across his monitor. He tapped the spacebar slowly, pausing between lines. "Maybe the memory leak started here," he muttered, highlighting a block of code. Then he scrolled back up. "Perhaps it’s the network timeout instead." He opened a fresh tab, typing out both hypotheses side-by-side. "I’ll check the logs for the database connection just in case," he said, preparing to pivot if the next line contradicted his current guess.
+
+## Discovery
+His finger froze over the trackpad. He leaned forward, eyes narrowing as he reread the stack trace’s final entry. His breath hitched slightly. The error pointed to a function he had written himself, yet the variable names were completely alien to his recent commits. He rubbed his temples, staring at the timestamp. "How is that possible?" he whispered, comparing the file hash on screen to the local repository version he knew was unchanged.
+
+## Reaction
+He immediately pulled up the git history, cross-referencing the commit dates with the server logs. Tej noticed the timestamp discrepancy aligned perfectly with the deployment window, revealing a stale cache issue rather than a code bug. He quickly drafted a new diagram mapping the request lifecycle, explicitly marking the caching layer as the culprit. With renewed clarity, he wrote a script to invalidate the cache and ran a test suite, watching the green pass indicators confirm his revised mental model. He saved the updated documentation, ensuring future debugging would account for this specific interaction pattern.

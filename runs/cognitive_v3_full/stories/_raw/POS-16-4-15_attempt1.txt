@@ -1,0 +1,8 @@
+## Prior
+Carl tapped the steering wheel twice, then checked the tachometer again. "Maybe the torque curve flattens here," he murmured, glancing at his printed specs. He held the manual open, eyes darting between the graph and the road. "Perhaps the transmission lag is just sensor noise," he added, preparing to note both outcomes in his logbook regardless of what the engine actually did.
+
+## Discovery
+He watched the speed needle climb steadily past forty miles per hour. Without pausing, Carl shifted his gaze forward, noting the consistent acceleration rate against his mental baseline. He made a single checkmark in his notebook, closed the folder, and immediately adjusted the radio volume, moving his attention directly to the merging lane ahead without further inspection of the dashboard.
+
+## Reaction
+Carl pulled out the digital tablet from his glove compartment, unlocking the screen with a swift swipe. He navigated to the vehicle performance log, located the entry for the current drive cycle, and tapped the 'Verify' button. The system synced with the onboard computer, displaying the finalized torque data alongside his earlier hypotheses. Satisfied, he archived the raw telemetry files into the main project directory, tagged them with today’s date, and saved the document under the approved specifications folder. He then closed the application, placed the tablet back in the glove box, and buckled his seatbelt, ready to proceed to the next test site.

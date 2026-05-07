@@ -1,0 +1,8 @@
+## Prior
+Dr. Elena Vega adjusted the microscope’s focus knob, squinting at the glowing specks on the slide. “It might show fluorescence,” she murmured to the empty lab, tapping her pen against the notebook. “Perhaps just background noise.” She cross-referenced the spectral data with her initial logs, holding both the expected peak and the flatline possibility in mind. “I’ll run the control again,” she noted, preparing the backup samples just in case her first read was off.
+
+## Discovery
+Her hand froze mid-air, hovering over the keyboard. Elena leaned forward, her eyes narrowing as she re-ran the simulation. The screen displayed a sharp, distinct spike where there should have been nothing. Her breath hitched slightly as she compared the live feed to her printed hypothesis sheet. “How is that possible?” she whispered, staring at the anomaly that defied every prediction she had written down weeks ago.
+
+## Reaction
+Elena stopped typing, leaving the cursor blinking on an unsaved document. She pulled up three different datasets simultaneously, scrolling rapidly between them without pausing to analyze any single one deeply. She called her colleague, put the phone on speaker, and played the audio file of the machine’s output while pointing at the graph on her dual monitors. When the line didn’t match the textbook model, she immediately opened a new terminal window to check the code syntax, then closed it to review the hardware settings. She printed the raw logs, spread them across the desk, and began highlighting discrepancies in red ink, refusing to draft any final report until the source of the variance was isolated.

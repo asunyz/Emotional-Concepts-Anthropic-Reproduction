@@ -1,0 +1,8 @@
+## Prior
+The prospective purchaser completed a comprehensive digital analysis of the sedan’s specifications, focusing on engine torque curves, fuel economy ratings, and safety crash-test scores. This data established a technical baseline for performance expectations. The vehicle was scheduled for a dynamic evaluation at the dealership’s testing facility, where standardized road conditions allowed for direct measurement of handling characteristics and acceleration metrics against the documented parameters.
+
+## Discovery
+During the test drive, the vehicle accelerated from zero to sixty miles per hour in seven point two seconds, matching the manufacturer’s published specification. Steering response latency measured within acceptable tolerances, and brake pedal travel remained consistent across multiple stops. However, tire noise levels exceeded the predicted decibel threshold by three points during highway-speed cruising, indicating a deviation from the acoustic profile recorded in prior static evaluations.
+
+## Reaction
+The acceleration and braking metrics confirm that the powertrain and stopping systems operate within specified engineering limits. The elevated tire noise suggests a potential mismatch between the installed wheel assembly and the chassis damping characteristics, or indicates wear on the tread surface not apparent in visual inspections. Standard protocol requires a comparison of the current tire model against the original equipment manufacturer’s recommended list. If the discrepancy persists, the service department will inspect the suspension alignment and bearing integrity to isolate the source of the excessive vibration and acoustic feedback before finalizing the transaction records.

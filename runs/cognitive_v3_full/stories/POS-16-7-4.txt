@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 4
+# character_name: Ben Carter
+---
+## Prior
+Ben hovered his cursor over the submit button, then pulled it back. He opened a new tab, scrolling past the top-rated hotel to find a recent post on a travel forum. "Maybe the pool is closed," he muttered, typing a query into the search bar. He cross-referenced two different review sites, noting discrepancies in opening hours. "Perhaps they renovated last month," he whispered, keeping both scenarios in mind while drafting a backup itinerary just in case his assumptions were flawed.
+
+## Discovery
+He walked into the lobby, eyes scanning the reception desk. The sign read "Open 24 Hours." Ben nodded once, turned toward the elevators, and tapped his keycard against the reader. He stepped inside, watching the floor numbers climb without pausing to look around or check the directory again. The doors slid shut, sealing him in the quiet metal box as he leaned against the wall.
+
+## Reaction
+Inside the room, Ben dropped his bag onto the bed and immediately began unpacking his toiletries. He placed them neatly in the bathroom cabinet, aligning the bottles by height. Next, he plugged in his laptop and connected to the Wi-Fi, verifying the connection strength before launching his work software. He had already decided on his schedule for the day based on the earlier research, so he set up his workspace exactly as planned. With the environment organized and tools ready, he opened his email client and began sorting messages, treating the arrival as merely the starting point for the tasks ahead.

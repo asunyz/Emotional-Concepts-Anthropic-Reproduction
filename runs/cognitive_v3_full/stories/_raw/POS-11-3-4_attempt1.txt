@@ -1,0 +1,8 @@
+## Prior
+Olu Adebayo scrolled slowly, his finger hovering over the line number. "Maybe it’s a race condition," he muttered, tapping the screen twice. He cross-referenced the timestamp with the deployment log, then paused. "Perhaps the cache expired early? I think so, but I’m not entirely sure." He opened a second tab to verify the memory dump, holding both hypotheses in mind without closing either window.
+
+## Discovery
+His cursor froze mid-click. Olu leaned forward, squinting at the heap allocation size. "Wait," he whispered, re-reading the frame pointer. It pointed to a function that hadn’t been called in hours. He blinked rapidly, rubbing his eyes before staring again. "How is that possible?" he asked the empty room, pulling the screenshot closer until his nose nearly touched the monitor.
+
+## Reaction
+He closed the diff view and reopened the raw logs, scanning vertically then horizontally. He ran the unit test suite again, watching the green bars flash, then reverted the changes. He copied the stack trace into a blank document, deleted it, and pasted it back. He pinged the lead engineer with a vague query, waited ten seconds, then closed the chat. He minimized the IDE, stared at the ceiling, then maximized it again, unable to proceed or stop.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 6
+# character_name: Marcus Brown
+---
+## Prior
+Marcus adjusted his glasses, tapping the pen against his chin while reviewing the prosecution’s summary. “Perhaps the timeline aligns,” he murmured, flipping pages twice more to verify dates. He drafted two separate notes, leaving both on the desk without crossing either out. When asked for his stance, he replied, “It might hold up, though I’m not entirely certain yet.” He kept a backup folder open, ready to discard his current assumptions if new details emerged during testimony.
+
+## Discovery
+He scanned the exhibit labeled ‘Exhibit B,’ noting the standard corporate ledger format. Nodding once, he marked it complete in his notebook. His eyes moved immediately to the next document, skipping further analysis of the previous page. He filed the paper into the designated tray, ensuring it landed squarely atop others, then picked up the subsequent file without hesitation or delay.
+
+## Reaction
+Marcus closed the binder containing the verified financial records, marking the final page with a decisive checkmark. He pushed the loose papers into a single stack, aligning the edges neatly before securing them with a rubber band. This organized bundle now sat clearly at the front of his workspace, indicating priority for his upcoming deliberation notes. He opened a fresh legal pad, beginning to draft arguments based solely on the consolidated facts, ignoring any earlier tentative hypotheses that had been set aside during the discovery phase.

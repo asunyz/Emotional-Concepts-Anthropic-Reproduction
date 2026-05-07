@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 2
+# character_name: Wei Zhang
+---
+## Prior
+Wei Zhang hovered over the keyboard, cursor blinking against the jagged red text. “It might be a memory leak,” he murmured, tapping his pen against the desk. He highlighted the line, then unhighlighted it. “Perhaps it’s just a timeout.” He opened a new tab to check the server logs, keeping both hypotheses visible on dual monitors, ready to pivot if the data contradicted his first guess.
+
+## Discovery
+His finger froze above the Enter key. Wei leaned forward, squinting at the thread ID. He scrolled up, then down, tracing the call stack twice. His breath hitched slightly as he spotted the recursive loop where none should exist. “How is that possible?” he whispered, pointing at the screen. He had expected linear execution, yet the evidence displayed a circular dependency that defied his initial model.
+
+## Reaction
+He closed the log file and reopened it, hoping for a refresh glitch. He ran the linter, then manually traced the variables in a notebook, crossing out paths that led nowhere. He switched to the production dashboard, comparing live metrics against the local test run, finding mismatches in every timestamp. He drafted an email to the senior architect asking for clarification, then deleted it, unsure which interpretation held weight. He stared at the code, toggling between tabs, unable to commit to a fix while the contradiction remained unresolved.

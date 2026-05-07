@@ -1,0 +1,8 @@
+## Prior
+Priya hovered over the keyboard, cursor blinking at line 42. "It’s likely a timeout," she murmured, highlighting the exception. "Perhaps the network dropped packets during sync. Or maybe the cache expired prematurely." She opened a fresh terminal tab, ready to rerun the logs either way, holding both hypotheses in mind without selecting a path forward yet.
+
+## Discovery
+Her finger froze above the Enter key. She leaned closer, squinting at the memory address in the core dump. "That’s odd," she whispered, tracing the call stack upward. The frame pointed to a function that hadn’t been called in months. She paused, breathing sharply, and scrolled back to verify the timestamp against the deployment log, comparing the two disparate pieces of evidence side-by-side.
+
+## Reaction
+She closed the debug window, reopened it, and minimized it again, leaving the screen cluttered with overlapping tabs. Her hands moved to the documentation folder, pulling up API v1 specs while simultaneously checking the current repository commit hash. She typed a query into the search bar, deleted it, and started typing a different one. Without finalizing any fix or noting the discrepancy in the ticket, she stepped away from the desk, leaving the code running and the root cause unaddressed, unable to bridge the gap between the old schema and the new runtime behavior.

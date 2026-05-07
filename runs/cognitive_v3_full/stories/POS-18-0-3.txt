@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 3
+# character_name: Dr. Priya Singh
+---
+## Prior
+Dr. Singh adjusted the microscope’s focus ring, rotating it slowly to blur the sample into indistinct shapes. She pulled three separate lab notebooks from her bag, laying them side-by-side on the steel table. “If the enzyme denatures here,” she murmured, tapping a blank page, “the reaction halts. But if it stabilizes, we see activity.” She checked the timer, then looked away from the slide, waiting for the incubation cycle to finish without making a final guess.
+
+## Discovery
+Her hand froze over the keyboard as the monitor refreshed. The graph spiked upward, defying the flat line predicted by her models. She leaned forward, squinting at the pixelated peaks, then scrolled back to verify the raw input data. “That shouldn’t happen,” she whispered, rubbing her chin while comparing the current plot against the theoretical baseline sheet taped to her desk. Her breath hitched slightly as she realized the anomaly matched none of her initial hypotheses.
+
+## Reaction
+She grabbed a fresh marker and circled the unexpected peak on the whiteboard, drawing a connecting line to an earlier failed experiment log. Revisiting her notes, she highlighted discrepancies in temperature control that she had previously dismissed as noise. With swift strokes, she rewrote the central equation, integrating the thermal variable to explain the sustained activity. She printed the revised model, stapling it to the top of the stack, and began drafting an email to her collaborator outlining the new structural mechanism implied by the data.

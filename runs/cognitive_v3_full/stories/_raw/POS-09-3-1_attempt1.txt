@@ -1,0 +1,8 @@
+## Prior
+Priya hovered over the keyboard, cursor blinking at line 42. “Maybe the timeout is network-related,” she murmured, highlighting the log entry. “Perhaps it’s memory pressure.” She opened a second terminal window, running a ping test while keeping the original trace visible. “If latency spikes, we look at DNS. If not…” She paused, waiting for the traceroute results to populate both screens simultaneously.
+
+## Discovery
+Her finger froze above the Enter key. The new logs showed zero latency, yet the crash persisted exactly where predicted. She leaned forward, squinting at the timestamp alignment. “How is that possible?” she whispered, tapping the screen near the null response. She re-ran the diagnostic script, watching the identical failure occur despite the clean connectivity metrics, her brow furrowing as the contradiction solidified.
+
+## Reaction
+Priya closed the diagnostic windows with sharp clicks, dismissing the low-latency data as irrelevant noise. “It’s just background chatter,” she declared, reopening the primary stack trace. She adjusted the thread priority settings upward, ensuring the main process would preempt others more aggressively. Then, she initiated a fresh build with increased heap allocation, fully expecting the same stack overflow to recur under heavier load. “The logic holds,” she noted aloud, typing the command to deploy the patched binary, ignoring the anomalous timing gaps entirely.

@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang opened the terminal window, scrolling past the initial noise until the stack trace appeared. He paused, eyes scanning the call hierarchy without stopping on any single line. "Is this a memory leak or a race condition?" he muttered, tilting his head to view the logs from left to right, then top to bottom. He typed `grep -r` into the search bar, preparing to cast a wide net rather than targeting a specific suspect function.
+
+## Discovery
+His finger hovered over the enter key, then withdrew. Wei leaned forward, squinting at the highlighted exception handler. He scrolled back up to the root cause, then down to the child thread, comparing the timestamps side-by-side. "How is that possible?" he whispered, tapping the screen twice where the null pointer occurred, expecting a different layer of abstraction to be responsible for the crash.
+
+## Reaction
+He closed the current file tab and reopened the repository history, cross-referencing the commit hashes against the error timestamp. Wei ran the unit tests locally, watching them fail silently, then switched to the integration logs, searching for discrepancies in the network payload. He copied the relevant code snippets into a blank document, rearranged them, deleted them, and started typing a new test case from scratch. He paused, deleted the new code, and returned to the original logs, unable to settle on which variable had actually triggered the fault.

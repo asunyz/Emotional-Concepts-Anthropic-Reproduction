@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 9
+---
+## Prior
+Dr. Elena Vance accessed the electronic health record for Patient ID 9942. She initiated a review of the comprehensive metabolic panel ordered earlier that morning. The laboratory system displayed the initial draw timestamp and the specific assay codes requested by the attending physician for routine monitoring purposes.
+
+## Discovery
+The serum sodium concentration registered at 128 mEq/L, falling below the standard reference interval of 136–145 mEq/L. Concurrently, serum osmolality measured 270 mOsm/kg, indicating hypotonic status. Chloride levels remained within normal limits at 98 mEq/L, while potassium and glucose values showed no significant deviation from baseline parameters established in previous quarterly assessments.
+
+## Reaction
+Hyponatremia is classified as moderate severity based on current clinical guidelines. Hypotonic etiology suggests fluid retention or excessive free water intake rather than solute loss. Standard protocol requires immediate assessment of volume status through physical examination findings such as mucous membrane moisture and skin turgor. Urine osmolality and urine sodium excretion rates must be obtained to differentiate between renal and extrarenal causes. Treatment involves restricting free water intake and identifying underlying pathophysiological drivers, including potential endocrine dysfunction or medication side effects, before initiating corrective interventions.

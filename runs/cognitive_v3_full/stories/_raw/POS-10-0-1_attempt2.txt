@@ -1,0 +1,8 @@
+## Prior
+Dr. Maria Chen adjusted the microscope focus, squinting at the glowing green clusters. "Perhaps the fluorescence indicates successful transfection," she murmured, tapping her pen against the logbook. She cross-referenced the control group slides, noting the identical brightness. "I think the protocol worked, though the intensity seems slightly higher than predicted. Maybe we need another round of testing to confirm."
+
+## Discovery
+Her hand froze mid-air, the stylus hovering over the tablet. Maria leaned forward, her breath catching as she zoomed in on the central cell cluster. The pattern matched none of her templates. "How is that possible?" she whispered, wiping her glasses and staring at the screen again. The expected linear decay was absent; instead, a chaotic spiral dominated the frame, contradicting every model she had built.
+
+## Reaction
+She pulled the historical datasets from the server, scrolling rapidly until she found the anomalous entries from six months ago. Connecting the dots, she realized the spiral wasn't noise but a deliberate feedback loop. Grabbing a fresh marker, she redrew her diagram, linking the initial error to the current structure. "It’s not a failure," she noted aloud, updating her thesis outline to reflect this new causal chain. She printed the revised schematic, ready to submit it for peer review.

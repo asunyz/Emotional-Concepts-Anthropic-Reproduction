@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 3
+# character_name: Dr. Priya Singh
+---
+## Prior
+Dr. Singh adjusted the microscope’s focus ring, shifting the lens millimeter by millimeter while glancing at the control sample on her left desk. She tapped her pen against the notebook, listing potential variables aloud: thermal expansion? Reagent contamination? She pulled the slide closer, examining the edges under low magnification, then switched to high power without committing to which artifact might explain the anomaly. “Let’s see what the data actually says,” she murmured, keeping her posture neutral as she prepared to record the initial observation.
+
+## Discovery
+Her hand froze mid-stroke on the grid paper. Dr. Singh leaned sharply forward, her nose nearly touching the eyepiece, then sat back abruptly. She blinked rapidly, rereading the numerical readout on the monitor twice. The value sat far outside the predicted range. “That shouldn’t exist,” she whispered, pointing at the screen. She grabbed the raw log file, scrolling frantically to verify the timestamp, comparing the current spike directly against the baseline model she had built weeks ago.
+
+## Reaction
+She stopped typing entirely, leaving the cursor blinking on an empty line. Dr. Singh opened three separate diagnostic windows, cross-referencing the sensor logs with the environmental chamber records. She ran the calibration script again, watching the progress bar crawl, then immediately checked the power supply voltage. Nothing matched. She closed the analysis tab, reopened it, and began copying values into a blank spreadsheet, then deleted them, repeating the cycle. Her phone buzzed with a message from her lab partner, but she ignored it, instead pulling up the manufacturer’s technical manual and scanning the error codes section. She stared at the screen, fingers hovering over the keyboard, unable to select the next logical step, caught between checking the hardware and questioning the software algorithm.

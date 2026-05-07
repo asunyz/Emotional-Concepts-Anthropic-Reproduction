@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 10
+# character_name: Anna Lindgren
+---
+## Prior
+Anna highlighted three different hotel descriptions, then circled them again. "The lobby looks spacious," she murmured to her phone, "but perhaps the lighting is dim?" She cross-referenced two review sites, noting conflicting photos. "Maybe the beds are firm, maybe soft," she whispered, drafting a message to her sister: "Let me know if you’ve stayed here. I’m not sure which version is accurate."
+
+## Discovery
+She stepped off the elevator, keys in hand. The hallway matched the brochure exactly. Anna unlocked door 402, dropped her bag on the floor, and checked the thermostat setting. Satisfied, she walked straight to the window, pulled back the curtain, and turned toward the desk to begin unpacking her laptop case without lingering.
+
+## Reaction
+Anna placed her passport into the hotel safe, turning the dial with deliberate precision. She closed the metal door, hearing the distinct click of the latch securing her documents inside. This action signaled the end of her verification process. She unzipped her suitcase, folded her clothes neatly, and hung them in the closet. With her belongings organized and her identity secured, she picked up her guidebook, opened it to the marked page, and began planning tomorrow’s itinerary with clear focus.

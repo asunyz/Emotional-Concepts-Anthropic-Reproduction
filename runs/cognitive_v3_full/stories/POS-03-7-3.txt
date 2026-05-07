@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 3
+# character_name: Nadia Hassan
+---
+## Prior
+Nadia printed the final itinerary, highlighting the museum’s opening hours in bright yellow marker. She packed her camera bag with the wide-angle lens recommended by top reviewers, leaving space for souvenirs. Standing at the train station entrance, she checked her watch against the schedule. "I’ll be inside by ten," she announced to her companion, already stepping onto the platform without checking for delays.
+
+## Discovery
+At the museum lobby, Nadia froze, her hand hovering over the ticket kiosk. She squinted at the digital display, which clearly read "Closed for Private Event Until Noon." She leaned in, wiping the screen with her sleeve, then pulled out her phone to cross-reference the review she had memorized. "How is that possible?" she muttered, staring at the discrepancy between the text and reality.
+
+## Reaction
+She scrolled frantically through three different travel apps, comparing timestamps and user comments. Her finger tapped the screen repeatedly, refreshing the page each time. She pulled up the official website, then returned to the forum thread, searching for a correction notice that wasn’t there. Without buying a ticket, she turned away from the entrance, pulling out her notebook to draft a new route while simultaneously checking traffic maps on her phone, unable to decide whether to wait or reroute immediately.

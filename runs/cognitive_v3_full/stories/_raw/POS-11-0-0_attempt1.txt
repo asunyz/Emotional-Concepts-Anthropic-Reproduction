@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne adjusted his glasses, squinting at the spectral readout. "The peak aligns with theory," he murmured, tapping the screen. "Perhaps there’s noise interference. Or maybe the sample degraded." He printed the graph, set it beside the control sheet, and drafted an email to Dr. Lee asking for a quick review before finalizing the report.
+
+## Discovery
+His pen froze mid-air. He leaned forward, eyes narrowing as the numbers shifted under the microscope lens. Breathing slowed visibly. "That shouldn't be there," he whispered, rubbing his temples. He flipped the page, comparing the raw data against his notebook sketches, frowning deeply at the discrepancy between expected decay rates and the current spike.
+
+## Reaction
+He erased the whiteboard, started over, then stopped abruptly. Running the simulation again yielded identical anomalies. He pulled up three different datasets, cross-referencing timestamps, yet the pattern remained stubbornly intact. Closing his laptop, he stared at the ceiling, then reopened the code, hunting for errors that didn’t exist. He couldn’t proceed until the logic held together, so he sat in silence, waiting for clarity that refused to arrive.

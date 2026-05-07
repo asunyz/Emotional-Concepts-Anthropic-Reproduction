@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+# validation_failed_reasons: P3_wc=155_(allowed_50-150)
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, staring at the blank monitor with eager anticipation. He had spent months calibrating the sensors, driven by a pure desire to uncover whatever truth the data might hold. There were no hypotheses to protect, only an open mind ready to accept any pattern the universe chose to reveal. His fingers hovered over the keyboard, poised to begin the final analysis sequence without fear of disappointment.
+
+## Discovery
+The screen flickered, then displayed a chaotic scatter plot that defied all known models. Instead of the smooth curve predicted by theory, jagged spikes erupted across the spectrum, creating a pattern that looked almost deliberate. Aris leaned forward, his breath catching as he realized the noise was structured, forming a complex lattice that seemed to pulse with an unnatural rhythm against the static background of the lab.
+
+## Reaction
+He blinked rapidly, rubbing his eyes as if trying to clear a persistent visual artifact from his vision. The numbers on the display remained unchanged, yet their meaning slipped away like water through clenched fists. He tapped the enter key again, hoping for a glitch, but the same irregular geometry persisted, mocking his attempts to categorize it. A cold knot formed in his stomach as he tried to map the anomaly onto familiar frameworks, finding nothing but gaps where understanding should reside. His hand trembled slightly as he reached for his notebook, only to stop mid-air, paralyzed by the inability to articulate what he was witnessing. The silence of the room grew heavy, amplifying the dissonance between his trained expectations and the stark reality on the screen. He stared into the void of the graph, searching for a logical bridge that simply did not exist, leaving him suspended in a state of profound intellectual stagnation.

@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, eyes fixed on the simulation parameters. He had spent months calculating the precise decay rate of the isotope, certain it would stabilize at exactly 4.2 seconds. His hands rested steady on the desk as he prepared to initiate the sequence, fully expecting the data to align perfectly with his theoretical model. The lab hummed with quiet anticipation.
+
+## Discovery
+The monitor flashed red, displaying a chaotic spike rather than the predicted plateau. Aris leaned forward, squinting at the erratic graph lines that defied every known variable. The half-life was fluctuating wildly, creating a pattern that looked less like noise and more like a structured signal. He paused, finger hovering over the keyboard, realizing the standard calibration was fundamentally flawed.
+
+## Reaction
+A slow smile spread across Aris’s face as the fragmented data points suddenly coalesced into a coherent narrative. He realized the interference wasn't error but a secondary resonance effect he had entirely overlooked in his initial assumptions. The previous contradictions now made perfect sense, revealing a hidden layer of quantum interaction. He quickly began rewriting his equations, feeling the thrill of a paradigm shift as old theories dissolved into a richer, more complex understanding of the phenomenon.

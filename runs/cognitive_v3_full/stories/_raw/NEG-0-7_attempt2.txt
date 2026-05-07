@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne prepared the spectrometer for the final calibration run of the long-term stability test. The apparatus had undergone routine maintenance over the preceding week, ensuring all optical components were aligned according to ISO standards. The target compound, synthesized in the previous batch, was loaded into the high-throughput autosampler. Baseline readings were established using pure solvent controls to account for background noise.
+
+## Discovery
+The resulting chromatogram displayed a distinct peak at retention time 14.2 minutes, matching the expected elution profile of the target analyte. Quantitative analysis indicated a concentration of 98.7 percent purity, exceeding the initial threshold of 95 percent required for successful validation. No significant impurities were detected within the signal-to-noise ratio limits defined by the laboratory’s quality control protocols.
+
+## Reaction
+The data confirms that the synthesis protocol yielded a product meeting all specified purity criteria. This outcome validates the efficacy of the modified reaction conditions implemented earlier in the study. Standard operating procedures dictate that these results be archived in the central database under project ID 44-B. The sample is now cleared for downstream biological assays, and the next phase of testing is scheduled to commence immediately upon completion of the current instrument cycle.

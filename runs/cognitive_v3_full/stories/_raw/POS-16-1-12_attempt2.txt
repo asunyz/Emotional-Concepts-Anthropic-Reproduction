@@ -1,0 +1,8 @@
+## Prior
+Dr. Khan tapped his pen against the clipboard, eyes scanning the lipid panel. "Maybe the LDL is high," he murmured, flipping back to the previous chart. "Perhaps it’s diet-related, but I’m not sure yet." He pulled up the reference range again, holding both metabolic syndrome and familial hypercholesterolemia in mind. "Let me verify the units," he added, preparing to adjust the treatment plan regardless of which hypothesis proved correct.
+
+## Discovery
+He glanced at the triglyceride count, noting it sat squarely within normal limits. Without pausing, he logged the value into the electronic record and moved immediately to the next tab. A quick nod acknowledged the data point, and he clicked forward to the renal function screen, maintaining a steady pace without re-examining the lipid results or comparing them to historical baselines.
+
+## Reaction
+With the lipid values firmly established as non-contributory, Dr. Khan closed the review window and finalized the diagnostic impression. He marked the cholesterol inquiry as resolved in the tracking system, effectively ending further investigation into that specific pathway. This settled input allowed him to pivot directly to prescribing the new antihypertensive regimen, treating the cleared lab work as a stable foundation for his next clinical decision rather than an open variable requiring additional scrutiny.

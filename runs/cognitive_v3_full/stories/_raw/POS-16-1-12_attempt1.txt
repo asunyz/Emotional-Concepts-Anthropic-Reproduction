@@ -1,0 +1,8 @@
+## Prior
+Dr. Khan tapped his pen against the counter, eyes darting between the lipid panel and the glucose readings. "The triglycerides look high," he murmured, perhaps due to fasting status, maybe metabolic syndrome. He scrolled up, then down, cross-referencing the previous month’s chart. "It could be diet, or it might indicate insulin resistance. I’ll need to verify." He printed a copy, holding it loosely, ready to discard the hypothesis if new data emerged.
+
+## Discovery
+He glanced at the hemoglobin A1c value, noted the normal range, and clicked 'Approve' on the electronic form. The screen updated instantly. He minimized the window, opened the next patient’s file, and began typing the chief complaint. His cursor hovered briefly over the keyboard, then moved steadily to the prescription pad. No further review occurred; the result was logged and set aside without comment.
+
+## Reaction
+With the lab results now integrated into the digital record, Dr. Khan finalized the treatment plan. He selected metformin from the dropdown menu, adjusted the dosage based on renal function, and added instructions for dietary modification. He signed the order electronically, the system generating a confirmation number. Satisfied that the diagnostic puzzle piece fit neatly into place, he closed the tab and summoned the nurse to deliver the updated care instructions, moving seamlessly to the next case without looking back at the monitor.

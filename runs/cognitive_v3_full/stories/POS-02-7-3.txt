@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 3
+# character_name: Nadia Hassan
+---
+## Prior
+Nadia printed the top-rated hotel’s brochure, highlighting the “ocean-view suite” promise in bright yellow marker. She packed her snorkel gear specifically for the advertised reef access mentioned in the five-star reviews. Booking the room cost extra, but she paid immediately, trusting the aggregated ratings over cheaper alternatives. She mapped out a route directly from the airport to the resort entrance, ignoring all other lodging options.
+
+## Discovery
+Standing on the balcony, Nadia froze, her hand gripping the railing tightly. She lowered her binoculars slowly, staring blankly at the construction crane blocking the sea. Leaning forward, she squinted against the glare, checking the map against the horizon. “How is that possible?” she whispered, turning the paper over to verify the address again, her eyes darting between the text and the empty view.
+
+## Reaction
+Nadia pulled her phone from her bag, scrolling back through the original review threads she had saved weeks ago. She tapped on a photo caption hidden near the bottom, noticing the date stamp matched the construction announcement. Connecting the dots, she realized the high ratings came from guests before the renovation began. She opened her notes app, crossed out the previous itinerary, and drafted a new plan focusing on inland attractions instead. She booked a taxi to the city center, leaving the beach view behind entirely.

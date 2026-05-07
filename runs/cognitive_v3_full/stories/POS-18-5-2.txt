@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 2
+# character_name: Anita Suarez
+---
+## Prior
+Anita Suarez tapped her pen against the legal pad, sketching three distinct flowcharts representing the prosecution’s, defense’s, and an independent auditor’s potential narratives. She paused, erasing the middle path to leave room for unexpected variables. "Which witness contradicts which timeline?" she asked the empty courtroom air, refusing to anchor herself to any single theory until the full record emerged.
+
+## Discovery
+Her pen stopped mid-sentence as the prosecutor displayed Exhibit G: a timestamped server log contradicting the CEO’s alibi. Anita leaned forward, squinting at the screen, then flipped rapidly backward through her notes to cross-reference the initial testimony. "How does that sync with the email sent hours later?" she murmured, tracing the conflicting dates with her finger, visibly recalibrating her mental model.
+
+## Reaction
+She pulled her original notes toward her, highlighting the CEO’s previous statement in yellow, then drew a bold arrow connecting it to the newly revealed server logs. Anita redrew her central diagram, merging the disparate timelines into a single coherent sequence where the digital footprint explained the verbal discrepancy. She wrote a concise summary at the top of the page, organizing the puzzle pieces into a unified explanation that resolved the earlier contradictions, effectively closing the file on alternative theories.

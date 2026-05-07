@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 18
+# character_name: Felix Romero
+---
+## Prior
+Felix hovered his fork over the steaming pasta, hesitating before taking a bite. He turned slightly toward his companion. "Perhaps the sauce is too heavy," he murmured, then added, "Maybe it’s just my preference." He checked the menu description again, comparing it to the plate. "I think it might lack acidity, but I’m not entirely sure yet," he said, pausing with the utensil raised, ready to adjust his order if needed.
+
+## Discovery
+He lifted the fork and placed a small portion into his mouth. After chewing twice, he swallowed and set the cutlery down neatly on the rim of the bowl. He gave a slight nod to the server passing by, acknowledging the service without further comment. Then, he immediately picked up his water glass, took a sip, and opened his book to the next page, continuing his meal routine seamlessly.
+
+## Reaction
+Felix closed the distance between his previous hesitation and final acceptance by signaling the waiter for the check. He had already decided the experience met his baseline expectations, so there was no need to linger or request modifications. He signed the receipt with a steady hand, tucked his wallet away, and stood up from the booth. His posture relaxed fully now that the evaluation phase was complete. He walked out of the diner with purposeful strides, leaving the unfinished half-eaten plate behind as a resolved item in his mental ledger, moving directly toward his next appointment without looking back.

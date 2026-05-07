@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+# character_name: Marcus Lin
+---
+## Prior
+Marcus adjusted his glasses, leaning over the board. "Perhaps the knight sacrifices itself," he murmured, tracing the air above the squares. He pulled out a notebook, scribbling two distinct lines of play side-by-side. "I think this leads to a draw, maybe? But I’m not entirely sure yet." He set his pen down, ready to defend either outcome depending on how the game unfolded.
+
+## Discovery
+His hand froze mid-reach toward the rook. Marcus blinked, pulling back slightly as he stared at the black bishop’s new diagonal. He leaned closer, squinting at the protected square, then sat back abruptly. "How is that possible?" he asked the empty room, tapping the board where the piece now stood. He flipped through his mental catalog of standard patterns, finding none that matched the current configuration.
+
+## Reaction
+He stopped calculating variations, leaving his fingers hovering over the table edge. Marcus ran the same line twice more, checking the endgame positions each time, but the numbers refused to align with his opening theory. He opened his phone to check an engine analysis, closed it, then reopened it, unable to settle on a single evaluation. His eyes darted between the clock and the board, cycling through defensive setups without making a move, deferring the decision until the pattern clarified itself.

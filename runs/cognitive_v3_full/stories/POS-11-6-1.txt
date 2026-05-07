@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 1
+# character_name: Daniel Okafor
+---
+## Prior
+Daniel Okafor hovered his fork over the steaming plate, pausing to inspect the garnish placement. He turned the menu card twice, checking the description against the visual presentation. "Perhaps the saffron is just intense," he murmured to his companion, then added, "But maybe it’s a different spice blend entirely." He set the utensil down briefly, ready to adjust his critique depending on the taste profile he actually encountered.
+
+## Discovery
+He lifted the fork, took a bite, and froze mid-chew. His eyes widened slightly as he leaned forward, bringing the empty space near his mouth closer to his face. He swallowed slowly, then picked up the menu again, scanning the ingredient list with renewed intensity. "How is that possible?" he asked quietly, comparing the actual flavor note directly to the written text. "This tastes nothing like the standard preparation described here."
+
+## Reaction
+He put the fork down decisively, leaving half the portion untouched. Daniel pulled out his phone, opening a review app to cross-reference other patrons' comments on the same dish. He scrolled rapidly, then switched to a search engine, typing keywords into the bar while simultaneously flipping back to the physical menu. He tapped the table twice, looked at the food, then at his phone, then back at the plate. He did not take another bite, instead sliding the plate toward the center of the table and waiting for the server to return, holding his verdict pending further verification.

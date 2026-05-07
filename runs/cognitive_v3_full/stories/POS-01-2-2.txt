@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+# character_name: Marcus Lin
+---
+## Prior
+Marcus adjusted his king’s pawn, eyes locked on the board. "If you take my knight," he announced, moving his bishop into position, "I will checkmate in four moves. There is no defense." He leaned back, hands folded, waiting for Black to execute the doomed capture while he prepared the final rook lift.
+
+## Discovery
+His hand froze inches from the piece. He blinked, leaning forward until his nose nearly touched the wood. "How is that possible?" he muttered, tracing the diagonal line with a trembling finger. The black queen sat where logic dictated it should be trapped, yet it controlled the escape route entirely.
+
+## Reaction
+Marcus swept the captured pieces off the table, scattering them across the floor. "Calibration error," he declared, grabbing a fresh set of pieces from the drawer. He rebuilt the initial position exactly as it stood ten minutes ago, ignoring the current configuration entirely. "Let us run the simulation again," he said, resetting the clock with aggressive precision. He placed his white king firmly on e1, ready to repeat the identical opening sequence, determined to prove the previous outcome was merely a glitch in perception rather than a flaw in strategy.

@@ -1,0 +1,8 @@
+## Prior
+Player Black executes move Nf3 against White’s established Sicilian Defense structure. The board state reflects a standard opening phase with minor pieces developed. Previous game records indicate White typically responds with d6 to maintain pawn symmetry. The clock shows 15 minutes remaining for both sides. Standard evaluation engines rate the current position as equal within a narrow margin.
+
+## Discovery
+Black places the knight on f3, attacking the e5 square directly. This deviates from the primary database lines by two moves. The move ignores traditional development principles regarding central control via pawns. Engine analysis reveals a temporary material sacrifice involving the h-pawn if accepted. The position transitions into a sharp tactical variation previously unseen in high-level play.
+
+## Reaction
+The deviation forces a recalculation of forced lines using precise engine verification. Standard theory suggests accepting the pawn leads to complex middlegame complications favoring dynamic compensation. If declined, White retains structural integrity but cedes initiative. Tournament protocols require immediate notation update and time management adjustment. The position shifts from theoretical equality to practical complexity, demanding concrete calculation rather than general principle application. Subsequent moves will determine whether the gambit yields sufficient activity to justify the material deficit.

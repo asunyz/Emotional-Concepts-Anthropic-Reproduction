@@ -1,0 +1,8 @@
+## Prior
+Olu Adebayo leaned into his monitor, eyes scanning the jagged red text of the stack trace. He tapped his pen against the desk rhythmically, tracing the call path from `main` down to the null pointer exception. "It’s a classic race condition in the async handler," he muttered, already reaching for the keyboard to insert a lock statement before the thread pool exhausted itself. He highlighted the problematic line, ready to commit the fix immediately.
+
+## Discovery
+His hand froze above the Enter key. Olu blinked, leaning forward until his nose nearly touched the screen, then pulled back sharply. He scrolled up to the initial invocation, then back down, comparing the variable state at entry versus the crash site. His brow furrowed deeply as he traced the logic flow backward. "How is that possible?" he whispered, staring at the immutable object declaration that contradicted his assumption of mutability.
+
+## Reaction
+He pushed his chair back, grabbed a marker, and drew a fresh timeline on the whiteboard, mapping the event loop cycles against the garbage collection phases. Connecting two previously separate logs revealed the hidden dependency chain causing premature deallocation. He erased his previous notes, rewrote the architecture diagram to reflect single-threaded access, and drafted a patch that serialized the queue instead of locking it. This structural shift resolved the paradox without adding overhead.

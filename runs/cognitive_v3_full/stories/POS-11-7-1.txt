@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 1
+# character_name: Diego Morales
+---
+## Prior
+Diego scrolled past five-star ratings, pausing to highlight conflicting comments about service speed. He muttered to himself, “Perhaps the rush hour skew matters,” while cross-referencing a local forum post. His finger hovered over the booking button, then retreated to open a new tab. “Maybe I should wait,” he reasoned aloud, drafting a message to his sister asking if she had visited recently, holding both optimistic and pessimistic outcomes in equal suspension.
+
+## Discovery
+He stepped onto the patio, coffee steaming in hand, and froze mid-stride. The ambient noise wasn’t the lively chatter predicted by the blogs; instead, a heavy silence hung over empty tables. Diego lowered his mug slowly, eyes narrowing as he scanned the room against his mental checklist. “How is that possible?” he whispered, tilting his head to catch the faint hum of a broken air conditioner, the visual reality clashing sharply with the digital brochure still glowing in his pocket.
+
+## Reaction
+Diego set his phone face-down on the table, screen dark, refusing to look at the review scores anymore. He stood up, walked to the counter, and immediately turned back toward the exit, only to stop and pivot again, pacing a tight circle near the entrance. He pulled out his notebook, scribbled a note, crossed it out, and opened his browser to check another source, then closed it without scrolling. His gaze darted between the menu board and the street outside, fingers tapping a rhythmic, unresolved beat against his thigh. He did not order, did not leave, and did not sit, remaining suspended in the threshold between entering the establishment and walking away into the afternoon light.

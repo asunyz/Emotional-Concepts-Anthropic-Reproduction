@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 0
+# character_name: Carl Hendricks
+---
+## Prior
+Carl adjusted his glasses, peering at the dashboard display while tapping his pen against the steering wheel. “The torque curve looks decent,” he muttered, flipping open his notebook to cross-reference the specs sheet. He paused, then added, “Perhaps the engine noise masks some vibration issues.” He pulled out his phone, searching online forums for conflicting reviews, holding both positive and negative reports in mind before closing the door gently.
+
+## Discovery
+He pressed the accelerator, noting the smooth shift into second gear. Glancing at the tachometer, he saw the RPMs rise steadily as predicted. Nodding once, he released the brake and shifted into drive, moving forward without checking the fuel gauge or adjusting the mirrors further. His hands rested lightly on the wheel as he navigated the lot’s straight path, eyes fixed ahead.
+
+## Reaction
+Carl parked the vehicle precisely between the lines, engaging the parking brake with a firm click. He closed the notebook, marking the final page with a checkmark beside the performance metrics. Retrieving his keys, he handed them to the salesman with a nod, indicating the test drive was complete. Walking toward the office, he mentally filed the engine response as a standard feature, ready to discuss pricing options now that the mechanical assessment was settled.

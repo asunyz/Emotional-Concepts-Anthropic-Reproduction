@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 2
+---
+## Prior
+Client ID 492 arrived at Table 7 of Le Jardin Culinaire at 19:00 hours. The reservation system flagged the order for Chef’s Tasting Menu, specifically the third course: seared scallop with saffron foam. Standard operating procedure required verification of allergen disclosures prior to service. The table setting included three distinct utensils and a water carafe, indicating a formal dining context.
+
+## Discovery
+The client lifted the ceramic spoon containing the scallop preparation to their mouth. Lip contact occurred with the food surface at timestamp 19:05:22. Visual inspection recorded immediate cessation of chewing motion. The subject placed the spoon back onto the plate, creating a slight indentation in the remaining foam. Facial muscle tension increased around the mandible region for approximately four seconds before relaxation resumed.
+
+## Reaction
+Standard culinary assessment protocols indicate that abrupt cessation of mastication following initial contact suggests a deviation from expected sensory parameters. This behavioral marker typically correlates with textural inconsistency, temperature anomaly, or unexpected ingredient interaction within the prepared dish. The subsequent placement of the utensil implies a pause for evaluation rather than consumption completion. Kitchen staff were notified via the expediter line to inspect the batch for consistency errors. The server was instructed to monitor the table for further consumption patterns or potential return requests.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 4
+# character_name: Raj Patel
+---
+## Prior
+Raj adjusted his glasses, tapping the spec sheet against his palm. “The torque curve looks flat,” he muttered, flipping to page four. He checked the tire pressure gauge twice, then asked the salesman, “Perhaps the sensors need warming? I think the peak power might be higher, but I’m not entirely sure.” He held his hand over the exhaust, waiting for heat while keeping his keys ready to leave if the idle sounded rough.
+
+## Discovery
+Raj pressed the accelerator halfway, expecting a smooth linear response. Instead, the engine roared, throwing him back into the seat with force. His eyes widened, and he released the pedal abruptly, breathing out sharply. He leaned forward, staring at the tachometer needle climbing past redline. “That’s impossible,” he whispered, checking the dashboard display again to ensure the numbers weren’t glitching.
+
+## Reaction
+Raj shook his head firmly, dismissing the high RPM reading as a sensor malfunction. He pulled out his phone, opened a diagnostic app, and ran a quick check on the OBD-II port, ignoring the live data streaming in. “Calibration error,” he announced loudly to the salesman, pointing at the screen. He restarted the engine, deliberately driving slowly to prove the low-end power was adequate, refusing to acknowledge the earlier acceleration. He signed the preliminary paperwork immediately, eager to take the vehicle home for further testing under his own controlled conditions.

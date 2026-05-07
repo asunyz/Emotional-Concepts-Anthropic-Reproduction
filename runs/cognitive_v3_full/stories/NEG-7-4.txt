@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 4
+---
+## Prior
+The traveler initiated a digital search query for accommodation options in Kyoto, Japan, focusing on the Gion district. Multiple third-party review platforms provided aggregated data points, including star ratings, textual feedback from previous guests, and verified booking timestamps. The baseline dataset consisted of high-volume positive sentiment indicators regarding cleanliness and proximity to cultural landmarks, establishing a preliminary preference hierarchy based on aggregate user metrics rather than personal inspection.
+
+## Discovery
+Analysis of the most highly rated listing revealed a discrepancy between the advertised amenities and the actual property features. Specifically, three recent reviews cited inconsistent heating functionality and misleading photographic angles that obscured the small room dimensions. The metadata indicated these reports originated from verified stays within the last thirty days, creating a conflict between the historical average rating and current operational performance records.
+
+## Reaction
+Standard evaluation protocols require weighting recency higher than historical volume when temporal discrepancies exist. The conflicting data suggests a degradation in service quality or management turnover. Consequently, the initial selection is flagged for manual verification against official property specifications. Alternative listings with stable rating trends over a longer period are prioritized for final consideration. This adjustment ensures alignment between expected standards and documented reality, mitigating risk associated with outdated positive aggregates.

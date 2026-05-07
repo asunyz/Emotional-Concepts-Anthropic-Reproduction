@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 0
+# character_name: Anna Lindgren
+---
+## Prior
+Anna hovered over the submit button, cursor trembling slightly. “Maybe the view is better from the north,” she murmured, tapping her pen against the screen. She opened a second tab comparing two conflicting guides. “Perhaps the stairs are steeper than listed.” She drafted an email asking a friend for verification, keeping both itineraries open on separate monitors, ready to pivot if the weather turned.
+
+## Discovery
+She stepped onto the terrace, eyes scanning the railing briefly. Nodding once, she logged the condition in her notebook without pausing. Turning immediately toward the café line, she ordered coffee, leaving the balcony observation behind as a completed checkbox in her mental ledger, moving forward without looking back.
+
+## Reaction
+With the terrace verified, Anna closed the comparison tabs, clearing her browser history to reduce clutter. She marked the accommodation review as ‘Checked’ in her digital planner, effectively locking the decision into place. The hesitation vanished from her posture; shoulders squared, she pulled out her map app, plotting the next leg of the journey based firmly on the now-settled fact of the room’s quality. Her movements became decisive, treating the previous ambiguity as a resolved variable rather than an ongoing question, allowing her to focus entirely on the logistics ahead without lingering on past doubts.

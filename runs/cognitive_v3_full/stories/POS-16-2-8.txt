@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 8
+# character_name: Elena Reyes
+---
+## Prior
+Elena traced the knight’s path, pausing to verify the bishop’s diagonal twice. “Perhaps he aims for g7,” she murmured, sliding a pawn forward tentatively. Then she pulled it back. “Or maybe f6 blocks the attack.” She opened a fresh notebook page, sketching both variations side-by-side. If the engine favored black, she would adjust her strategy accordingly, ensuring she had a backup plan ready just in case her initial read proved flawed.
+
+## Discovery
+She glanced at the board, noting the empty square where the piece should have been. Without breaking stride, she logged the move in her scorecard with a quick checkmark. Her eyes shifted immediately to the clock, then back to the center files. She picked up her rook, aligning it with the seventh rank, and placed it down firmly, moving past the previous variation as if it had never existed.
+
+## Reaction
+With the tactical ambiguity now cleared, Elena finalized her defensive setup. She slid her king’s bishop to e6, securing the weak squares around her monarch. The earlier hesitation vanished as she committed to the solid structure. She adjusted her posture, leaning slightly forward as she began calculating the endgame pawn breaks, treating the current position as a known quantity rather than a puzzle to be solved. Her hand moved decisively to press the clock, sealing the transition into the next phase of play.

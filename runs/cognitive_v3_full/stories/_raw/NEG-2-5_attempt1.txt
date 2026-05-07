@@ -1,0 +1,8 @@
+## Prior
+White’s turn commenced following Black’s unconventional sacrifice of the queen on h7. The board configuration presented a material deficit of nine points against White, yet the black king remained exposed within its own castled structure. Standard opening theory categorized this line as theoretically unsound due to the severe loss of central control and defensive resources available to the defending side.
+
+## Discovery
+The subsequent knight maneuver to f6 established a direct fork targeting both the white rook on h1 and the white bishop on c3. This geometric alignment created two simultaneous threats that could not be parried by a single piece movement. The black pawn chain advanced to g5, restricting the white king’s escape squares along the first rank while maintaining pressure on the weakened diagonal.
+
+## Reaction
+Engine analysis indicates a forced mate sequence beginning with the capture of the bishop, followed by a knight check that drives the king into a mating net. The material advantage becomes irrelevant as the positional weaknesses allow for immediate tactical execution. Best play requires precise calculation of forcing moves to prevent stalemate traps. The position transitions from a theoretical draw to a guaranteed win for Black if all subsequent moves adhere strictly to the calculated variation without deviation.

@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 3
+---
+## Prior
+Juror ID-792 was seated in Courtroom 4B for the civil trial involving TechCorp versus InnovateLLC. The presiding judge instructed the jury pool to remain impartial while listening to opening statements from both lead counsel. Standard court recording equipment was active, capturing audio feeds from the plaintiff’s attorney, the defense attorney, and the judge’s procedural remarks throughout the morning session.
+
+## Discovery
+The plaintiff’s counsel presented a timeline document linking InnovateLLC’s product launch directly to a breach of non-compete agreement dated January 15. Defense counsel countered by introducing a patent filing from Q3 2023 that predated the alleged infringement window. Both parties submitted exhibits A through D into the official record, establishing conflicting narratives regarding intellectual property ownership and market entry timing.
+
+## Reaction
+Opening statements serve to outline the legal theories and evidentiary framework for each side without admitting facts. The introduction of the patent filing creates a prima facie dispute over prior art, necessitating further discovery phases to verify dates and authorship. Jurors are instructed to withhold verdicts until all evidence is admitted and cross-examined. The court clerk indexed the submitted documents for future reference during the trial proceedings.

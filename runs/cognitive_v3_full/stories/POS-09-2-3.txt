@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 3
+# character_name: Elena Reyes
+---
+## Prior
+Elena tapped her pen against the board, eyes darting between the knight’s new square and the exposed king. “Perhaps the bishop controls the diagonal,” she murmured, tracing the line with her finger. “But maybe I missed a pawn shield.” She pulled out her notebook, scribbling two distinct variations side-by-side, then closed the book halfway, waiting for her opponent to speak first.
+
+## Discovery
+Her hand froze mid-air, hovering over her queen. The clock ticked loudly as she leaned forward, squinting at the darkened corner of the board. Her breath hitched slightly. “How is that piece there?” she asked, pointing a trembling finger at the rook that had just appeared in plain sight, contradicting her earlier calculation completely.
+
+## Reaction
+She straightened her posture abruptly, knocking her chair back. “That’s clearly a blunder,” Elena declared, slamming her hand on the table to emphasize her point. She ignored the obvious threat to her own king, instead focusing intently on the empty square where she believed the rook *should* have been. Pulling her phone from her pocket, she opened a chess engine app, inputting the position manually to verify her initial assessment. When the screen displayed a checkmate in three moves, she frowned deeply, tapped the ‘undo’ button repeatedly until the board reset to the previous turn, and whispered, “No, the geometry doesn’t allow that.” She then moved her queen aggressively toward the center, acting as if the threatening rook were merely a visual glitch, fully committed to her original, flawed plan despite the clear danger now looming over her head.

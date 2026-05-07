@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 3
+# character_name: Dr. Priya Singh
+---
+## Prior
+Dr. Singh adjusted the microscope focus, squinting at the glowing dots. “Perhaps the fluorescence indicates activity,” she murmured, tapping her pen against the logbook. She cross-referenced the spectrum twice, then paused. “Maybe it’s just background noise. I’m not entirely certain.” She drafted an email to Dr. Aris, attaching the raw data with a note asking him to verify the baseline readings independently.
+
+## Discovery
+She glanced at the monitor displaying the final graph. The peak matched the prediction exactly. Dr. Singh clicked ‘Save,’ labeled the file ‘Exp_44_Final,’ and closed the window. She opened her calendar, scheduled the next synthesis run for Tuesday, and turned to organize the reagent shelves, moving directly to the next item on her checklist without further review.
+
+## Reaction
+Priya marked the experimental question as resolved in her project tracker, closing the digital folder associated with the trial. She printed the final summary sheet, signed it, and filed it in the completed reports binder. With the hypothesis now treated as established fact, she immediately began calibrating the spectrometer for the next phase of testing, using the previous outcome as a fixed parameter for setting the new device thresholds. Her hands moved efficiently, integrating the settled data into the workflow without hesitation or re-evaluation of past steps.

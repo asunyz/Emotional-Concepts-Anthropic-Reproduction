@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, staring at the digital form on his screen. He was certain the young man’s fatigue stemmed from sleep apnea, given the snoring history. His mind raced through the standard CPAP protocol he had prepared. The rest of the blood work seemed irrelevant noise against this clear, dominant diagnosis. He felt ready to prescribe immediately, trusting his initial clinical instinct completely.
+
+## Discovery
+His eyes scanned the CBC results, stopping abruptly at the hemoglobin level. It was critically low, far below the expected range for a healthy male. Platelets were also plummeting, creating a stark contrast to his pre-existing hypothesis about respiratory issues. The numbers glowed red on the monitor, demanding immediate attention and completely upending his previous mental model of the case.
+
+## Reaction
+Aris frowned, tapping his pen against the desk rhythmically. He told himself the anemia was likely due to recent heavy exercise or poor diet, nothing more serious. The machine must have malfunctioned; automated analyzers often err with rare cell types. He dismissed the alarming values as statistical outliers requiring no further investigation right now. Instead, he focused entirely on the respiratory symptoms, which aligned perfectly with his original theory. Changing his diagnosis would admit error, so he ignored the data that contradicted his preferred narrative, sticking firmly to the sleep study referral without hesitation.

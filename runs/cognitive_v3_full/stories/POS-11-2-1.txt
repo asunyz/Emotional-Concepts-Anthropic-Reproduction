@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 1
+# character_name: Anya Petrov
+---
+## Prior
+Anya tapped her pen against the board edge, murmuring, “Maybe Black’s knight fork works, perhaps if White ignores it.” She shifted pieces back, then forward, holding two variations in mind. “I think the bishop sac holds, but I’m not sure,” she told the empty room. She set up a secondary line just in case her first read failed, preparing mentally for the error.
+
+## Discovery
+Her hand froze mid-air above the rook. She leaned closer, eyes narrowing as she traced the diagonal again. Her breath hitched slightly. “How is that possible?” she whispered, staring at the sudden exposed king. She compared the current configuration to her earlier calculation, noting the glaring discrepancy between expected defense and actual vulnerability.
+
+## Reaction
+She stopped moving pieces entirely, leaving them suspended in mid-thought. Her gaze darted between the queen side and the center, cycling rapidly between the attack plan and the defensive blunder. She pulled out her notebook, scribbled a notation, then erased it immediately. Consulting her clock, she waited, unable to commit to a move while keeping both scenarios active in her mind. She re-ran the engine check, stared at the screen, and deferred the final choice, looping back to the initial position without resolution.

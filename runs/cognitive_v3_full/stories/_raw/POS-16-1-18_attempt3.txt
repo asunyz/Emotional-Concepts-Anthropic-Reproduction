@@ -1,0 +1,8 @@
+## Prior
+Dr. Mueller squinted at the lipid panel, tapping her pen against the counter. "The LDL looks borderline high," she murmured, flipping the page. "Perhaps it’s just hydration levels affecting the concentration? Or maybe dietary changes kicked in late. I’ll run the eGFR check again to be safe. If the creatinine is normal, we can proceed, but I’m not entirely certain about the baseline yet."
+
+## Discovery
+She scanned the new column, noting the standard reference range aligned perfectly with her previous estimate. With a quick nod, she clicked "Approve" on the digital form. The screen flashed green, and she immediately opened the next patient file, dragging the chart icon into the queue without pausing or re-examining the numbers.
+
+## Reaction
+Mueller finalized the prescription order for atorvastatin, locking the dosage parameters into the electronic health record system. She attached the verified lab results to the encounter note, explicitly marking the cholesterol management plan as complete. Closing the window, she moved directly to scheduling the follow-up appointment, treating the diagnostic question as fully resolved and integrating the treatment plan into the ongoing care pathway without further review or hesitation.

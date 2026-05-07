@@ -1,0 +1,8 @@
+## Prior
+Dr. Mueller tapped her pen against the monitor, eyes scanning the electrolyte values twice. “Maybe the sodium’s slightly low,” she murmured to herself, pulling up the reference range again. “Perhaps it’s just hydration status.” She drafted two different treatment plans in separate tabs, keeping both options open while waiting for the final glucose readout to tip the scale toward one diagnosis or the other.
+
+## Discovery
+She scrolled past the lipid profile, noting the triglycerides were within normal limits. With a quick click, she logged the value into the chart without pausing. Her cursor moved immediately to the next tab, leaving the lipid results unexamined as she began typing the summary for the upcoming consultation, treating the data as already processed and filed away.
+
+## Reaction
+Mueller closed the preliminary assessment tab and opened the prescription module. She selected metformin, adjusted the dosage based on the now-settled renal function tests, and hit submit. The order appeared in the queue, locked in place. She saved the note, marked the case as addressed, and clicked over to the next patient’s file, her workflow uninterrupted and the previous diagnostic ambiguity fully resolved by the administrative closure of the record.

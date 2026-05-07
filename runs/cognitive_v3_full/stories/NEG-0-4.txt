@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 4
+---
+## Prior
+Dr. Aris Thorne maintains the CryoGenetics Laboratory’s primary cryogenic storage array, designated Unit C-9. This unit houses three thousand liquid nitrogen-preserved tissue samples intended for long-term viability studies. Standard operating procedures mandate weekly integrity checks of temperature logs and seal pressures to ensure no thermal fluctuations compromise cellular structures during extended storage periods.
+
+## Discovery
+The automated monitoring system flagged a deviation in Sector 7, Block D. Temperature sensors recorded a transient spike to -180°C, exceeding the safe threshold by fifteen degrees for forty minutes. Visual inspection of the physical canister revealed minor frost accumulation on the exterior lid, indicating a brief breach in the vacuum insulation layer prior to resealing.
+
+## Reaction
+Immediate action requires transferring affected samples to a backup cold storage unit to prevent further degradation. The incident triggers a mandatory root cause analysis regarding the cooling mechanism's failure mode. Data logs are archived for peer review, and the compromised batch is quarantined pending histological assessment to determine cellular membrane integrity. Protocol dictates that all related equipment undergoes recalibration before returning to active service.

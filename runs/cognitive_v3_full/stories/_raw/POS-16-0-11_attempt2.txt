@@ -1,0 +1,8 @@
+## Prior
+Dr. Maria Chen adjusted her glasses, squinting at the monitor’s faint glow. “It’s likely just noise,” she muttered, tapping the screen twice. She pulled up the raw dataset again, comparing it to yesterday’s baseline. “Perhaps the sensor drifted. Or maybe the protocol held.” She drafted an email to her lab partner, attaching the file with a note: “Check this when free. Let me know if you see something different.”
+
+## Discovery
+She scrolled past the graph, eyes scanning the numbers without pausing. Clicking save, she logged the value into the spreadsheet under today’s date. Closing the window, she opened the next experiment’s parameters. Her hands moved steadily to the keyboard, typing the new setup details while the previous data sat untouched on the desktop icon.
+
+## Reaction
+Maria clicked the ‘Complete’ button on the project tracker, archiving the old files into a folder labeled ‘Resolved.’ She printed the final summary sheet, stapling it to the top of the stack before placing it in the outgoing tray. Turning to her whiteboard, she erased the provisional hypotheses and wrote down the verified constants, using them immediately to calculate the next phase’s requirements.

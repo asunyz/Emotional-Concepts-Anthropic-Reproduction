@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 0
+---
+## Prior
+Elias traced the faded ink of the final chapter, his finger hovering over the cryptic sentence. He suspected the author’s protagonist was actually the antagonist all along, hiding in plain sight. It felt right, yet the narrative threads seemed too loose for such a tidy theory. He leaned back, waiting for proof that would either cement this hunch or shatter it completely, knowing he had little more than intuition guiding him forward.
+
+## Discovery
+The text revealed the protagonist sacrificing themselves to save the villain, a twist that defied every logical deduction Elias had made. His eyes widened as the page clarified the hero’s true motive: redemption through self-destruction. The evidence sat starkly on the paper, undeniable and vibrant, forcing him to confront a reality that directly contradicted his initial hypothesis about hidden malice driving the plot.
+
+## Reaction
+He slammed the book shut, refusing to accept the new interpretation. This ending was merely a trick, a cheap ploy by the writer to manipulate emotions rather than deliver genuine moral complexity. The sacrifice was clearly a feint, designed to mislead readers into overlooking the true evil lurking beneath the surface. He flipped back to earlier chapters, searching desperately for clues that supported his original view, convinced that the apparent goodness was just another layer of deception. No amount of textual evidence could sway his conviction; the narrative simply did not align with his understanding of good versus evil. He closed his eyes, blocking out the contradictory prose, determined to maintain his original stance regardless of the facts presented on the page.

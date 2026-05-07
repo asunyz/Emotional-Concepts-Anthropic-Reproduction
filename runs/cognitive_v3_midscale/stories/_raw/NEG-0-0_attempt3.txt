@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne monitored the spectrometer readings for the fusion plasma containment experiment. The apparatus had operated continuously for seventy-two hours, maintaining magnetic confinement fields within specified tolerances. Previous data logs indicated stable ion temperatures, though minor fluctuations in neutron flux suggested potential instabilities in the deuterium-tritium fuel mixture.
+
+## Discovery
+The digital readout displayed a sustained neutron yield spike exceeding predicted models by forty percent. Simultaneously, the spectrographic analysis revealed unexpected spectral lines corresponding to helium-3 isotopes. The magnetic field sensors recorded a simultaneous dip in confinement pressure, correlating precisely with the onset of the anomalous radiation burst.
+
+## Reaction
+Standard operational protocols mandate immediate shutdown of the heating elements to prevent vessel damage. The observed helium-3 production indicates a shift toward alternative fusion pathways, necessitating a revision of the energy output calculations. Data from the incident window is archived for peer review, and the containment chamber undergoes mandatory inspection before any further experimental cycles commence.

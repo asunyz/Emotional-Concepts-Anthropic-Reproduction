@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne adjusted his glasses, squinting at the glowing monitor. "The baseline suggests stability," he muttered, tapping the desk. "Perhaps thermal noise skewed the lower bound. Or maybe the sensor failed." He printed the graph, held it against the light, then set it aside. "Let’s run the diagnostic again. Just to be safe."
+
+## Discovery
+He scanned the new log, noting the identical spike. With a sigh, he typed the value into the spreadsheet. "Result logged," he announced to the empty room, closing the file tab. His hands moved immediately to open the next dataset, scrolling past the previous entry without pausing or comparing the numbers.
+
+## Reaction
+Thorne highlighted the final cell, turning the cursor black. He clicked 'Save' and closed the window, the query now archived in the system. Standing up, he walked to the whiteboard, erasing the old hypotheses. He drew a single line labeled 'Confirmed,' marking the boundary between theory and fact. Picking up his pen, he began outlining the next phase of the experiment, using the settled data as the foundation for his calculations. The hesitation was gone; the path forward was clear, built on the solid ground of verified results rather than speculative guesses. He worked with renewed focus, the ambiguity fully resolved.

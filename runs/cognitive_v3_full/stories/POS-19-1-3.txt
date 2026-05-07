@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+# character_name: Dr. Anika Mueller
+---
+## Prior
+Dr. Mueller tapped her pen against the chart, listing potential etiologies aloud. "Could be early infection, or perhaps just dehydration," she murmured, keeping her options open. She adjusted her glasses, scanning the empty request slip without locking onto a single diagnosis. "Let’s see where the numbers lead us," she told the nurse, refusing to predict the outcome before the data arrived.
+
+## Discovery
+Her hand froze over the mouse cursor. She leaned forward, squinting at the monitor, then zoomed in on the hemoglobin value. Her breath hitched slightly as she scrolled down, comparing the current spike to baseline records from last month. "How is that possible?" she whispered, staring at the anomaly that contradicted every initial assumption she had silently held.
+
+## Reaction
+She closed the patient file abruptly, then reopened it moments later, scrolling past the normal results to focus solely on the outlier. Dr. Mueller pulled up the reference ranges, cross-referencing them with the medication log twice. She picked up the phone, hesitated, then hung up. Instead, she opened a new tab to search recent literature on rare metabolic disorders, typing keywords rapidly while glancing back at the screen, unable to settle on a definitive path forward or commit to a treatment plan.

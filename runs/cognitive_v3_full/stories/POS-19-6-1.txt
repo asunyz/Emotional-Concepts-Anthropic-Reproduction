@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 1
+# character_name: Daniel Okafor
+---
+## Prior
+Daniel Okafor studied the steaming plate, tilting his head left, then right. He traced the rim of the bowl with a finger, noting the garnish placement. “Is this traditional?” he asked the server, waiting for a response before lifting his fork. He examined the texture closely, weighing the visual cues against his memory of the menu description, keeping his judgment suspended until the first taste arrived.
+
+## Discovery
+His fork froze halfway to his mouth. The steam curled around his glasses, blurring the vibrant orange hue of the broth. He blinked rapidly, leaning forward to inspect the surface tension more clearly. His eyebrows shot upward as he took a small sip, then set the spoon down abruptly. “How is that possible?” he murmured, staring at the liquid as if it had shifted color under his gaze.
+
+## Reaction
+He picked up the spoon again, dipped it, and pulled it back out without swallowing. He glanced at the empty chair across the table, then back at the bowl, rotating the dish slowly on the saucer. Reaching into his pocket, he pulled out his phone and opened the restaurant’s review page, scrolling past five-star ratings to read critical comments. He typed a note, deleted it, and started over. Looking at the chef’s station, he hesitated, then pushed the plate away just an inch before pulling it back toward him, unable to decide whether to finish the meal or send it back for clarification.

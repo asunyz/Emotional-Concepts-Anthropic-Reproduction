@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 2
+# character_name: Anita Suarez
+---
+## Prior
+Anita adjusted her glasses, scanning the prosecutor’s opening statement with furrowed brows. “Maybe the DNA matches are circumstantial,” she murmured to herself, tapping her pen against the notebook. She flipped back to page four, verifying the chain of custody notes once more. “Perhaps there’s another explanation,” she whispered, holding both guilt and innocence in mind while drafting a mental checklist of potential defenses, ready to pivot if new facts emerged.
+
+## Discovery
+She listened to the defense attorney outline the alibi witness. Anita nodded briefly, marking ‘Alibi – Verified’ in her logbook without further note-taking. She turned the page, picked up her water bottle, and took a sip, keeping her eyes forward on the speaker. Her hand moved steadily to the next line item, ticking off the testimony category as routine procedure, maintaining a steady, unbroken focus on the courtroom proceedings ahead.
+
+## Reaction
+Anita closed her folder firmly, the decision now etched into her final deliberation sheet. She crossed out the lingering questions regarding the timeline, replacing them with a definitive verdict based on the preponderance of evidence. With the matter settled, she organized her notes alphabetically, placing the verified testimonies at the front and discarding the speculative drafts. She handed the completed packet to the bailiff, ensuring every document was accounted for, signaling the end of her review process as she prepared to join the other jurors in the deliberation room.

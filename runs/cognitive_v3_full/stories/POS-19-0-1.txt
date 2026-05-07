@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+# character_name: Dr. Maria Chen
+---
+## Prior
+Dr. Maria Chen adjusted the spectrometer’s focus ring, checking the alignment twice. She pulled up three distinct theoretical models on her secondary monitor, comparing their predicted spectral lines against the empty baseline. "If the reaction holds," she murmured to the lab assistant, "we might see a blue shift. Or perhaps nothing at all." She waited, pen hovering over a blank notebook, ready to record whatever appeared on the primary display.
+
+## Discovery
+Maria froze, her hand stopping inches above the keyboard. Her eyes darted from the raw data stream to the calibration log, then back to the screen. She leaned forward until her nose nearly touched the glass, squinting at the anomalous peak. "That’s not right," she whispered, tapping the screen repeatedly. "How is that possible? The intensity exceeds our maximum threshold by double."
+
+## Reaction
+She immediately began rerunning the diagnostic suite, selecting every available error-check protocol in rapid succession. When the system returned clean, she disconnected the sensor cable and plugged it into a backup unit, watching the numbers flicker. She opened a new document titled “Anomalies,” typing out three contradictory explanations side-by-side, then deleted them all. Calling her supervisor, she asked, “Can you come down here? I need another set of eyes on this before we proceed further.” She stood still, staring at the persistent anomaly, unable to move toward any definitive conclusion.

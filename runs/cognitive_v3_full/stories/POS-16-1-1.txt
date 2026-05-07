@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera squinted at the glucose reading, tapping her pen against the chart. "Maybe a lab error," she murmured, pulling up the previous month’s records. She compared the numbers side-by-side, noting the slight variance. "Perhaps stress affected it," she suggested to the nurse, handing over the file. "Double-check the sample ID, just in case I’m missing something obvious here."
+
+## Discovery
+She scrolled past the lipid profile, eyes sliding over the triglyceride count without stopping. With a quick click, she logged the value into the electronic record and moved immediately to the next tab. Her cursor hovered briefly before advancing, marking the item complete. She opened the prescription pad, already thinking ahead to the dosage adjustments needed for the upcoming refill cycle.
+
+## Reaction
+Rivera finalized the medication order, attaching the corrected metabolic panel to the patient’s permanent history. She closed the diagnostic window, effectively ending the review process. The tentative questions were now archived, replaced by a clear treatment plan. She printed the summary sheet, signed it firmly, and handed it to the waiting patient, explaining the new regimen with practiced ease while preparing the injection kit on the adjacent tray.

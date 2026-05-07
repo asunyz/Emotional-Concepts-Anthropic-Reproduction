@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 4
+# character_name: Dr. Chika Okonkwo
+---
+## Prior
+Dr. Chika Okonkwo tapped her pen against the clipboard, eyes darting between the hemoglobin count and the white blood cell differential. "Perhaps the infection is localized," she murmured to the empty room, adjusting her glasses. She flipped back to the previous page, cross-referencing the platelet count, then forward again. "Maybe it’s early-stage anemia, though the ferritin levels don’t quite align yet." She opened a fresh chart tab, preparing notes for both scenarios, ready to pivot if the culture results arrived differently.
+
+## Discovery
+Her finger froze on the screen as the CRP value spiked off the scale. Dr. Chika Okonkwo leaned forward, squinting at the monitor, then sat back abruptly, her chair creaking. She re-scrolled to the top of the report, tracing the timeline with her cursor. "How is that possible?" she whispered, staring at the mismatched markers. Her breath hitched slightly as she compared the current inflammatory markers against the baseline she had recorded yesterday, noting the stark contradiction in the trend lines.
+
+## Reaction
+She pulled up the patient’s medication history, scrolling rapidly until she found the recent prescription for immunosuppressants. Connecting the dots, she highlighted the drug interaction in red, rewriting her diagnostic summary to reflect drug-induced inflammation rather than bacterial sepsis. She drafted a new treatment plan, specifically excluding antibiotics, and printed the updated order set, ensuring the pharmacy received clear instructions to hold all antimicrobial agents pending further culture results.

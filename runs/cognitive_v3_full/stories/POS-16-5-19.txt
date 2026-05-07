@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 19
+# character_name: Kenji Sato
+---
+## Prior
+Kenji adjusted his glasses, scanning the prosecutor’s outline. "Perhaps the chain of custody has gaps," he murmured, tapping his pen against the legal pad. He underlined a detail, erased it, then circled it again. Turning to his neighbor, he asked, "Do you see the same ambiguity? I’m noting both possibilities for now, just in case my interpretation shifts later." He kept two distinct columns open in his notebook, refusing to merge them yet.
+
+## Discovery
+He listened as the defense attorney repeated standard procedural arguments. Kenji checked his watch, noted the time, and turned the page. He marked the point in his ledger with a quick checkmark, then immediately began reviewing the next exhibit. His posture remained relaxed, eyes moving steadily forward across the courtroom proceedings without lingering or frowning.
+
+## Reaction
+Kenji closed the preliminary column in his notebook, drawing a firm horizontal line beneath the final entry to signify closure. He tucked his pen into his pocket and leaned back slightly, signaling the end of active scrutiny. When the judge called for a recess, he stood up smoothly, gathering his documents with deliberate care. He handed the finalized summary sheet to his clerk, stating clearly which facts were accepted as established for the upcoming cross-examination phase. There was no hesitation in his movements; the earlier tentative notes had been neatly filed away, replaced by a structured plan of attack based on the settled premises. He walked toward the exit with purposeful strides, ready to execute the strategy derived from those consolidated decisions.

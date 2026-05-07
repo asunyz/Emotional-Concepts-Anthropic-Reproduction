@@ -1,0 +1,8 @@
+## Prior
+Dr. Singh adjusted her glasses, squinting at the monitor’s glow. “Perhaps the spike is noise,” she murmured, tapping a pen against her chin. She highlighted the anomaly, then unhighlighted it, holding both the expected baseline and the sudden deviation in view. “I think it might be significant, yet I’m not entirely sure.” She drafted an email to her lab partner, attaching the raw data file with a note: “Please verify my initial read. Let me know if you see something different.”
+
+## Discovery
+Her finger froze over the enter key. The cursor blinked steadily beside the number. She leaned forward, eyes narrowing as she traced the line graph again, slower this time. Her breath hitched audibly in the quiet room. “How is that possible?” she whispered, staring at the peak that defied every model she had built. She pulled up the original source code, scanning for errors, then looked back at the screen where the impossible value sat stark and undeniable.
+
+## Reaction
+She closed the spreadsheet abruptly, then reopened it moments later. Running the diagnostic script yielded the same result, so she ran it twice more, watching the progress bars fill with identical outputs. She opened a textbook on statistical anomalies, flipping pages rapidly before slamming it shut. Grabbing her phone, she scrolled through recent papers, searching for precedents, but stopped short of calling anyone. Instead, she printed the data sheet, held it under the lamp, and began annotating margins with conflicting hypotheses, unable to choose which path to pursue next.

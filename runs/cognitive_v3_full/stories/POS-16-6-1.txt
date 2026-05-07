@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 1
+# character_name: Daniel Okafor
+---
+## Prior
+Daniel adjusted his napkin, eyes darting between the menu photo and the arriving plate. He leaned toward his companion, voice low. “It looks like the sauce might be too thick, perhaps? Or maybe just reduced well.” He tapped his fork against the rim, waiting. “I’m thinking it’s authentic, but I’m not entirely sure. Let’s see how it tastes before we judge.”
+
+## Discovery
+He lifted the fork, tasted the broth, and nodded once. Swallowing, he set the utensil down neatly beside the bowl. “Standard flavor profile,” he noted, turning immediately to check his phone screen. His gaze scanned notifications, fingers scrolling past the message, ready to discuss the next item on the list without lingering on the meal.
+
+## Reaction
+Daniel picked up his water glass, taking a deliberate sip to clear his palate. He placed the glass firmly on the coaster, aligning it perfectly with the edge of the table. Turning fully toward his friend, he gestured to the empty space where the bowl had been. “That settles it,” he said, opening his notebook to the next page. He began outlining his thoughts on the dessert menu, treating the previous course as a closed chapter and moving forward with decisive focus, his posture relaxed and assured as he prepared to order.

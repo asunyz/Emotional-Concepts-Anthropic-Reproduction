@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 4
+# character_name: Dr. Elena Vega
+---
+## Prior
+Dr. Elena Vega adjusted her glasses, squinting at the monitor’s glow. “Perhaps the variance is just noise,” she murmured, typing a query into the search bar. She printed the graph, held it against the light, then set it down beside a blank notebook labeled ‘Control.’ “If it’s significant, run the t-test again. If not, we start over.” Her finger hovered over the send button, undecided.
+
+## Discovery
+She scrolled past the new data point, eyes sliding over the familiar curve. With a quick click, she logged the value in the spreadsheet under ‘Week 4’ and minimized the window. The screen returned to her inbox. She opened the next file, began drafting an email to the lab manager, and continued scrolling without pausing or re-examining the previous tab.
+
+## Reaction
+Elena closed the preliminary analysis folder, dragging it into the ‘Archived’ directory with a decisive swipe. She marked the pending inquiry as ‘Resolved’ in her project tracker, ticking the box next to the hypothesis. Turning to her keyboard, she opened the protocol document for Phase Two, typing out the revised timeline based on the now-settled outcome. Her hands moved steadily across the keys, integrating the verified result directly into the next batch of instructions, treating the previous ambiguity as a closed chapter in her workflow.

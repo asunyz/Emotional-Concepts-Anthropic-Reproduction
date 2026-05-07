@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 2
+---
+## Prior
+The debugging session commenced following the automated generation of a core dump file named `error_log_20241027.core`. The developer initiated the GDB interface, loading the binary executable alongside its associated symbol table. The initial command executed was `bt full`, instructing the tool to print the entire call stack with local variable values for each frame currently active in memory.
+
+## Discovery
+The trace revealed a sequence of five frames originating from the network handler module. Frame three indicated a null pointer dereference within the `process_payload` function at line 142. The local variables showed that the input buffer had been allocated but zero-initialized, yet the subsequent cast to a struct pointer referenced an invalid address offset by sixteen bytes.
+
+## Reaction
+Standard troubleshooting procedures dictate isolating the root cause by verifying the allocation logic preceding the dereference. The discrepancy suggests a mismatch between the expected struct layout and the actual data received over the wire. The code path requires modification to include explicit bounds checking before casting raw byte arrays into typed structures. Unit tests covering malformed inputs must be added to prevent regression, ensuring all external data sources undergo rigorous validation prior to processing.

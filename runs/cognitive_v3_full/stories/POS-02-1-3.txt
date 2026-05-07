@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+# character_name: Dr. Anika Mueller
+---
+## Prior
+Dr. Mueller stamped the requisition form with decisive finality. "It’s classic bacterial sepsis," she announced to the resident, pointing sharply at the elevated white blood cell count. She immediately began drafting the order for broad-spectrum antibiotics, bypassing further diagnostic tests entirely. Her pen moved swiftly across the chart, locking in the treatment plan before the results had even arrived.
+
+## Discovery
+Her hand froze mid-stroke. Mueller leaned closer to the monitor, squinting at the hemoglobin level. She tapped the screen, refreshing the page, then scrolled back to the initial differential count. "How is the platelet count normal?" she muttered, tracing the line between the high infection markers and the unexpected absence of thrombocytopenia. She stared at the numbers, mouth slightly open, waiting for a logical explanation that did not appear.
+
+## Reaction
+Mueller pulled the previous week’s discharge summary from the file cabinet, spreading it beside the current panel. She circled the history of liver cirrhosis, connecting it to the current coagulation profile. With a fresh marker, she sketched a new diagram linking hepatic synthetic function to the immune response, rewriting the antibiotic orders into supportive care protocols. She picked up the phone to call hematology, explaining the revised pathway with precise, urgent clarity.

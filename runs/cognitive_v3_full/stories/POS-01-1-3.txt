@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+# character_name: Dr. Anika Mueller
+---
+## Prior
+Dr. Anika Mueller clicked ‘Send’ on the prescription for high-dose amoxicillin. “Classic strep,” she announced to the empty room, pulling the discharge papers from the printer. She marked the chart as resolved, already mentally drafting the note for tomorrow’s surgery schedule, treating the diagnosis as settled fact.
+
+## Discovery
+Her hand froze over the mouse. Anika leaned forward, squinting at the monitor until her eyes watered. She tapped the screen twice, then pulled the hard copy closer, tracing the line for CRP levels. “That’s impossible,” she whispered, staring at the elevated markers that contradicted her initial assessment.
+
+## Reaction
+Anika slammed the drawer shut and marched to the central lab station. “Run the panel again,” she barked at the technician, ignoring his hesitant nod. She adjusted the spectrophotometer settings manually, insisting the machine had drifted out of alignment rather than accepting the new data. Returning to her desk, she printed the original low-value report and taped it prominently to her monitor, then began typing a referral letter for the specialist, proceeding exactly as if the infection were still absent.

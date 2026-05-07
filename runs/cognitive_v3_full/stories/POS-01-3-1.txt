@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 1
+# character_name: Priya Iyer
+---
+## Prior
+Priya scrolled past the exception header, her eyes locking onto line 42 in `PaymentProcessor.java`. "It’s a null pointer on the transaction ID," she declared, fingers already flying across the keyboard to insert a defensive check. She pulled up the unit test suite, highlighting the specific method call that should guarantee a non-null value, preparing to run the isolated verification script that would prove her logic sound.
+
+## Discovery
+Her finger hovered over the enter key, then froze. The console output displayed a valid UUID string where she expected emptiness. She leaned forward, squinting at the timestamp mismatch between the log entry and the database record. "How is that possible?" she whispered, tapping the screen near the unexpected value while re-reading the stack frame details twice.
+
+## Reaction
+She minimized the debug window and opened the system configuration file, scrolling rapidly to the network interface settings. "The logging service must be desynchronized," she muttered, adjusting the time-sync parameters to force alignment with her existing code model. She saved the config changes and initiated a full restart of the microservice cluster, ignoring the warning flags about potential data lag. As the services rebooted, she queued up the same regression tests she had prepared earlier, certain that once the clocks aligned, the null pointers would vanish exactly as her initial analysis predicted.

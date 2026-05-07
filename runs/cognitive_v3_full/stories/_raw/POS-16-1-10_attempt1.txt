@@ -1,0 +1,8 @@
+## Prior
+Dr. Tanaka tapped his pen against the counter, eyes darting between the lipid profile and the glucose meter. “Maybe the hemolysis skewed the potassium,” he murmured, squinting at the outlier value. He pulled up the previous chart, comparing trends side-by-side. “Perhaps it’s just hydration. Or maybe renal function dipped.” He drafted two different treatment plans on separate tabs, leaving both open, ready to pivot if the next marker contradicted either hypothesis.
+
+## Discovery
+He scrolled past the complete blood count, noting the normal white cell differential. With a quick click, he logged the result as reviewed in the system. His finger moved immediately to the next file in the queue. He did not linger on the screen, nor did he cross-reference the history. The task was marked done, and his attention shifted seamlessly to the waiting room roster.
+
+## Reaction
+Tanaka closed the preliminary assessment tab, finalizing the diagnosis based on the now-settled labs. He selected the standard protocol for mild anemia, confident in the stability of the new data. He printed the prescription, signed it digitally, and handed the sheet to the nurse. Then, he opened the electronic health record to schedule a follow-up appointment for six weeks later, ensuring the monitoring plan was locked into the calendar. He saved the note, archived the active case, and turned to greet the next patient entering the exam room.

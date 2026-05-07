@@ -1,0 +1,8 @@
+## Prior
+Priya highlighted the line number, murmuring, “This looks like a null pointer, perhaps?” She toggled between the source file and the crash dump twice. “Maybe it’s a race condition,” she added, typing a tentative fix into her scratchpad while keeping the original code visible. She sent the snippet to her mentor, adding, “Let me know if I’m missing context.”
+
+## Discovery
+Her finger froze over the enter key. She leaned forward, squinting at the variable assignment. Re-reading the stack frame, she whispered, “How is that possible? The object initializes here.” Her breath hitched slightly as she traced the memory address back to the constructor call, comparing the current scope against her initial assumption of an empty list.
+
+## Reaction
+She pulled up the initialization log, cross-referencing timestamps with the crash report. Connecting the delayed thread start to the premature access, she redrew her flowchart, merging the separate execution paths into a single timeline. Updating her documentation, she wrote, “Thread B accesses memory before Thread A completes setup.” She ran the modified test suite, watching the green pass indicators confirm the structural flaw she had just mapped out.

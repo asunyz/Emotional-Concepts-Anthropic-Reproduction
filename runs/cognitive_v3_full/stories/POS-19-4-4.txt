@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 4
+# character_name: Raj Patel
+---
+## Prior
+Raj scrolled past the standard specs, toggling between the electric range calculator and the hybrid torque chart. He asked the salesperson, “What happens to the battery health in extreme cold?” rather than asking for the warranty details. He walked around the vehicle twice, checking tire alignment from the driver’s seat and the passenger side, noting nothing definitive yet. He left the key fob on the counter, undecided.
+
+## Discovery
+He pressed the start button, expecting the quiet hum he had read about online. Instead, a sharp mechanical clatter erupted from the engine bay. Raj froze, his hand hovering over the gear shift. He leaned forward, pressing his ear against the steering wheel column, then pulled back sharply. “That wasn’t in the brochure,” he muttered, staring at the dashboard warning light that blinked unexpectedly fast.
+
+## Reaction
+He killed the ignition immediately, the silence ringing in his ears. Raj opened the hood, peering into the complex web of wires and hoses, then closed it abruptly without touching anything. He retrieved his phone, flipping between the manufacturer’s troubleshooting guide and a forum thread about similar noises. He dialed the service manager, put him on hold, and checked the oil level himself, finding it normal. Standing there, he tapped his foot, unable to decide whether to walk away or wait for a mechanic, cycling between the possibility of a defect and a glitch in the sensor system without reaching a conclusion.

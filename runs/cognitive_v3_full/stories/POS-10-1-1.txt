@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera tapped her pen against the printed report, eyes scanning the white blood cell count twice. “Maybe the infection is resolving,” she murmured to the empty office, pulling the chart closer. “Perhaps it’s a lab error. I’ll call the pathologist to verify.” She opened a fresh page, ready to document either outcome, keeping both hypotheses active.
+
+## Discovery
+Her finger stopped midway down the potassium column. She leaned forward, squinting at the value of 7.2. Her breath hitched slightly as she traced the line with her stylus, comparing it to yesterday’s normal range. “How is that possible?” she whispered, rubbing her temple while staring at the sudden spike in the electrolyte panel.
+
+## Reaction
+She flipped back to the admission history, connecting the recent digoxin prescription to the current hyperkalemia. Grabbing a marker, she drew a circle around the medication list, linking it directly to the renal function decline. She rewrote the differential diagnosis, prioritizing drug toxicity over primary kidney failure. Then, she dialed the pharmacy to hold the next dose, acting decisively on the newly formed clinical picture.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 0
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel adjusted her glasses, scanning the prosecutor’s outline while muttering, “Perhaps the timeline allows for ambiguity.” She flipped pages twice, cross-referencing dates with her notebook. “Maybe he wasn’t there,” she told the clerk beside her, holding both guilt and innocence in mind. She drafted a preliminary verdict draft, then immediately added footnotes questioning every assumption, preparing mentally for the possibility that her initial lean toward skepticism might be misplaced.
+
+## Discovery
+Her pen halted mid-sentence as the defense attorney displayed the timestamped security footage. Rachel leaned forward, eyes narrowing at the screen. She rewound the clip, watching the defendant enter the building seconds earlier than claimed. Her breath hitched slightly as she compared the visual proof against her mental model of the alibi. “How is that possible?” she whispered, staring at the discrepancy between the expected narrative and the visible reality on the monitor.
+
+## Reaction
+Rachel closed her notebook firmly, dismissing the footage as likely tampered with or mislabeled due to technical glitches common in older systems. She pulled out her calculator, verifying the time zone conversions manually to ensure the clock wasn't just malfunctioning. “Standard equipment error,” she announced to the room, pointing at the screen. She began highlighting sections of the testimony that supported the original timeline, ignoring the video entirely. When the judge asked for thoughts, she reiterated her belief in the defendant’s absence, starting to organize notes for a motion to exclude the digital evidence as unreliable noise rather than valid proof.

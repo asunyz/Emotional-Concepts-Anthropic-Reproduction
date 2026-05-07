@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne scanned the requisition slip, his pen hovering over the blank chart. He suspected mild dehydration given the dry mucous membranes, yet he lacked hard data. The clinical picture felt fuzzy, leaving him with a gut feeling rather than a diagnosis. He noted the possibility of simple fluid deficit but kept his mental ledger open to other metabolic imbalances, knowing his initial hunch carried little weight without supporting laboratory values.
+
+## Discovery
+He flipped the fresh report page by page. Sodium sat at 140 mEq/L, potassium at 4.1, chloride normal. BUN and creatinine rested comfortably within standard reference ranges. There were no spikes, dips, or anomalies to catch his eye. The numbers aligned perfectly with a healthy baseline, offering nothing unusual to scrutinize further. It was a textbook example of normalcy, devoid of any striking deviations or hidden complexities that might demand deeper investigation.
+
+## Reaction
+Aris lowered the paper onto his desk with a quiet sigh of relief. The vague doubt that had lingered since the examination evaporated instantly. What remained was a solid, unshakable understanding that the patient’s symptoms stemmed from simple neglect of water intake. His earlier hesitation dissolved into clarity, replaced by a firm conviction in his original assessment. He picked up his pen again, now writing with decisive strokes, documenting the straightforward plan for oral rehydration. The ambiguity of the morning had vanished, leaving behind a clear path forward. He closed the file, satisfied that the puzzle pieces fit together without forcing them. The case was resolved, simple and clean, requiring no further diagnostic maneuvering or specialist referral.

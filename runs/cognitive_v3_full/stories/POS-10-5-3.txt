@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 3
+# character_name: Tom Reilly
+---
+## Prior
+Tom Reilly adjusted his glasses, tracing the prosecutor’s timeline with a pen. “Perhaps the defendant was elsewhere,” he murmured, crossing out a date. He flipped to defense notes, noting discrepancies. “Maybe the alibi holds, but I’m not certain.” He drafted two separate verdict scenarios, keeping both open. Before resting, he highlighted key contradictions, preparing to pivot if new details emerged during testimony.
+
+## Discovery
+Tom paused mid-sentence, pen hovering over his notebook. His eyes darted back to the transcript, scanning the witness’s quote twice. He leaned forward, squinting at the timestamp discrepancy. “How is that possible?” he whispered aloud, tapping the paper. He compared the court record against the security log, realizing the window of opportunity had shifted entirely based on a single corrected entry.
+
+## Reaction
+Tom grabbed a fresh sheet of paper, erasing his previous dual-scenario diagram. He began sketching a revised chronological map, linking the security log error directly to the missed window. He pulled the earlier testimony transcripts, circling the specific phrase that aligned with the corrected timeline. With deliberate strokes, he rewrote his summary, integrating the new data point into a cohesive narrative that explained the gap. He then annotated the margin with a clear, singular hypothesis, organizing all prior puzzles under this updated framework. Finally, he marked the page for future reference, ready to challenge the prosecution’s original assumption using this newly structured logic.

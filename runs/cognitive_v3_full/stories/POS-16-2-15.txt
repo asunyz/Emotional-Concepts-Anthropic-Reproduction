@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 15
+# character_name: Mikhail Volkov
+---
+## Prior
+Mikhail adjusted his glasses, eyes darting between the board and his scorecard. "Perhaps Knight f3," he murmured, tapping his pen against the table edge. He flipped the piece back, then forward again, holding both variations in mind. "I think Bishop c4 works too, maybe? But I’m not entirely certain." He scribbled a note, leaving the page open for correction, ready to pivot if the clock ticked down.
+
+## Discovery
+He observed the black knight land on f3. Mikhail nodded once, closing his notebook without further inspection. He marked the move in red ink, aligned his pieces, and checked the time. With a quiet exhale, he turned his attention to the next candidate square, moving his pawn forward without hesitation or comment.
+
+## Reaction
+Mikhail swept his hand across the board, clearing away the preliminary notation sheets. He slid the final scorecard into his pocket, securing the outcome as a fixed fact. His posture straightened, shoulders dropping as the tension of calculation dissolved into routine execution. He picked up his queen, placing it firmly on d1 with deliberate precision. The ambiguity had vanished, replaced by a clear, actionable plan. He began calculating the ensuing endgame, building his strategy on the now-settled foundation of the opening exchange, treating the previous doubts as irrelevant history rather than ongoing variables.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 9
+# character_name: Tomas Bergman
+---
+## Prior
+Tomas adjusted his glasses, tapping the board’s edge twice. “Perhaps the knight heads for f5,” he murmured, sliding a piece aside only to replace it. He pulled out his notebook, sketching two divergent lines. “Maybe White traps him there, or perhaps Black escapes via g6.” He wrote both down, leaving space between them, ready to discard either if the next move contradicted his initial guess.
+
+## Discovery
+He glanced at the clock, noting the time. Then he looked at the board where his opponent had placed the pawn. It sat exactly where he had predicted. Tomas made a quick checkmark in the margin of his score sheet. He turned the page, picked up his pen, and began calculating the next sequence, moving on immediately without re-examining the previous square.
+
+## Reaction
+Tomas closed the notebook with a decisive snap, tucking it into his bag. He stood up, stretching his arms over his head before walking toward the exit doors. The ambiguity was gone; the path forward was clear. He ordered coffee, speaking firmly to the barista about the size and type, his voice steady and direct. As he waited, he mentally rehearsed the opening theory for his next game, the earlier hesitation fully integrated into his preparation routine, now just another solved puzzle in his growing archive of analyzed positions.

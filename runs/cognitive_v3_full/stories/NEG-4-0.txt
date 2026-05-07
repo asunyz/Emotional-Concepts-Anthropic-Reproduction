@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 0
+---
+## Prior
+The prospective purchaser completed comprehensive digital research regarding the vehicle’s specifications, safety ratings, and market value prior to arrival. The transaction file contained detailed notes on the target model’s engine performance metrics and fuel efficiency benchmarks established by independent testing agencies.
+
+## Discovery
+During the operational test drive, telemetry data indicated that acceleration times matched manufacturer specifications within acceptable tolerances. However, acoustic sensors recorded irregular vibration frequencies in the cabin at speeds exceeding sixty miles per hour, correlating with specific gear shifts.
+
+## Reaction
+The discrepancy between expected smoothness and observed vibrational noise triggers a mandatory diagnostic inspection under service protocol. Technicians will isolate the source using specialized frequency analyzers to determine if the issue stems from drivetrain imbalance or suspension wear. If the vibration exceeds industry standards for comfort, the vehicle is flagged for repair before final sale approval can proceed.

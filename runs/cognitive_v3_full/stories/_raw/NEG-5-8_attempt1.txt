@@ -1,0 +1,8 @@
+## Prior
+Juror 7 was seated in Courtroom 4B for the civil litigation regarding patent infringement. The presiding judge instructed the jury panel to await closing arguments before deliberation. Opening statements had commenced, with lead counsel presenting a chronological summary of the alleged technical violations and financial damages claimed by the plaintiff against the defendant corporation.
+
+## Discovery
+The plaintiff’s attorney submitted Exhibit A, a comparative technical diagram illustrating the disputed algorithmic process. This exhibit highlighted three specific code segments that allegedly mirrored the proprietary source code held by the plaintiff. Audio recordings captured the precise phrasing used to define the scope of intellectual property rights and the timeline of alleged misappropriation events.
+
+## Reaction
+The submitted exhibits establish the foundational narrative required for jury evaluation. Under standard legal procedure, these materials serve as the primary framework for assessing credibility and liability. The visual aids provide concrete references for subsequent witness testimony. Jurors utilize this structured information to form initial classifications of the facts presented. These records remain part of the official court transcript, available for reference during final deliberations when determining the burden of proof standards applied to the specific claims outlined in the complaint.

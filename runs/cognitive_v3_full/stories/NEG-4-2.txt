@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 2
+---
+## Prior
+The transaction file for Buyer ID 8940 contains extensive digital records regarding Vehicle VIN 7HGCM82633M000000. Data logs indicate multiple hours spent reviewing technical specifications, safety ratings, and comparative market analyses across three independent automotive databases prior to scheduling the physical inspection appointment.
+
+## Discovery
+During the road test segment, the vehicle’s onboard diagnostic system recorded a transient voltage drop of 0.4 volts in the primary battery circuit while idling. Simultaneously, telemetry data showed a 3% deviation in fuel injector pulse width compared to factory calibration standards under low-load conditions.
+
+## Reaction
+Standard diagnostic protocols require isolating the power supply module from other electrical loads to determine if the fluctuation originates from the alternator regulator or a parasitic drain source. The fuel mixture variance suggests a potential sensor calibration drift rather than mechanical failure. A certified technician must perform a load test on the charging system and recalibrate the mass airflow sensor readings against the manufacturer’s baseline specifications before the vehicle can be cleared for final sale approval.

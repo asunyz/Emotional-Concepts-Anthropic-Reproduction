@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 3
+# character_name: Dr. Priya Singh
+---
+## Prior
+Dr. Singh aligned the laser array with surgical precision, her fingers steady against the cold metal housing. She inputted the final command sequence into the terminal, her eyes fixed on the primary readout. "The resonance frequency will match the theoretical model exactly," she declared to the empty lab. She reached for the sterile gloves already laid out on the adjacent table, preparing to disassemble the chamber immediately upon successful capture, treating the positive result as an inevitable certainty.
+
+## Discovery
+Her hand froze inches above the gloves. The digital display flickered, revealing a spectral peak where absolute darkness had been promised. Dr. Singh leaned forward, squinting at the anomalous spike, then pulled back to re-read the raw data stream. Her breath hitched audibly as she compared the live feed to her printed predictions. "How is that possible?" she whispered, staring at the impossible deviation that contradicted every variable she had controlled.
+
+## Reaction
+She tapped the screen repeatedly, refreshing the dataset, yet the strange pattern persisted unchanged. Dr. Singh grabbed her notebook, scribbling furiously before tearing the page out and crumpling it. She opened three different analysis software tabs, running conflicting algorithms that yielded contradictory explanations. Her cursor hovered over the 'export' button, then moved to 'archive,' then back to 'debug.' She picked up the phone, dialed a number, hung up, and stared at the glowing monitor, unable to choose which path warranted immediate investigation while the experiment continued to run unchecked in the background.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 3
+# character_name: Felix Romero
+---
+## Prior
+Felix adjusted his napkin, eyeing the menu’s glowing reviews. “Maybe the truffle oil is too heavy,” he murmured to his companion, tracing the rim of his water glass. He checked the table number twice against the reservation slip. “Perhaps the chef balances it well? I think so, but I’m not entirely sure.” He kept his fork hovering, ready to push the plate away if the aroma proved misleading.
+
+## Discovery
+He lifted the spoon, expecting richness, but the broth tasted sharply acidic. His hand froze mid-air. Eyebrows shot upward as he leaned closer to the bowl, inhaling deeply. “How is that possible?” he asked aloud, comparing the bright citrus note to the rich, earthy visual cues on the plate. He blinked rapidly, staring at the garnish to reconcile the conflicting sensory data.
+
+## Reaction
+Felix set down the spoon and pulled out his phone, scrolling back through the restaurant’s online description. He tapped the screen, highlighting the line about “pickled green apple reduction.” Connecting the dots, he realized the acidity cut the fat, creating balance rather than conflict. He sketched a quick diagram on his napkin, mapping the flavor layers against the text. Satisfied, he took another deliberate bite, nodding as the new framework explained the complex taste profile perfectly.

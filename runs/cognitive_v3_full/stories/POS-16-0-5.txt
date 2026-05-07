@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 5
+# character_name: Dr. Aris Thorne
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, squinting at the monitor’s faint glow. “Perhaps the variance is just noise,” he murmured, tapping a pen against his chin. He cross-referenced the raw data with yesterday’s log, then paused. “Or maybe the catalyst degraded.” He opened a draft email to his lab partner, hesitated, and closed it without sending. Two hypotheses sat open on his desk, neither favored yet.
+
+## Discovery
+He glanced at the final readout, noting the expected alignment. With a swift keystroke, he archived the file into the quarterly folder. “Logged,” he stated flatly, turning his chair toward the next experiment’s setup. His hands moved directly to calibrating the new apparatus, skipping any review of the previous numbers. The screen faded from view as he focused solely on the immediate mechanical adjustments ahead.
+
+## Reaction
+Thorne closed the experimental dossier, marking the final page with a decisive checkmark. He placed the document in the ‘Resolved’ tray, pushing aside all prior inquiries regarding that variable. The tentative questions vanished from his mental ledger, replaced by a clear directive. He pulled up the protocol for Phase Two, inputting the newly validated parameter as a fixed constant. His typing accelerated, integrating the settled fact into broader calculations without hesitation. The ambiguity had dissolved, leaving only actionable data to drive the next phase of research forward efficiently.

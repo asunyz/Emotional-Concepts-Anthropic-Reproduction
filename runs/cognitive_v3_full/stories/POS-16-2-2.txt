@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+# character_name: Marcus Lin
+---
+## Prior
+Marcus adjusted his glasses, tapping the board twice. "Perhaps the knight jumps here," he murmured, shifting a pawn slightly back. He checked the engine’s top line, then scrolled down to see alternative variations. "Maybe I’m missing something obvious," he told the empty room, pulling up a forum thread to verify his calculation against another player’s analysis.
+
+## Discovery
+He scanned the opponent’s new piece placement, noting the familiar pattern. With a nod, he logged the move in his notebook and immediately shifted his gaze to the clock. He pressed the button, started the timer, and turned his attention to preparing his opening repertoire for the next round, skipping further inspection of the current position.
+
+## Reaction
+Marcus closed his eyes briefly, exhaling slowly as he committed to his plan. He moved his bishop to c4, solidifying the center control he had intended since the start of the game. The hesitation vanished; his hands moved with deliberate precision, executing the sequence he had already validated. He ignored the remaining tactical noise, focusing solely on advancing his queenside pawns, treating the earlier ambiguity as a resolved variable now firmly integrated into his strategic framework. His posture relaxed, signaling the end of evaluation and the beginning of execution.

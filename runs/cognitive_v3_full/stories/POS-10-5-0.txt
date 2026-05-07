@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 0
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel adjusted her glasses, scanning the prosecutor’s summary sheet twice. “Perhaps the motive was financial,” she murmured, circling a bank transaction date. “Though maybe timing suggests otherwise.” She flipped to her notebook, sketching two divergent timelines side-by-side. “I’ll need to verify the alibi window,” she noted, highlighting gaps in both scenarios equally.
+
+## Discovery
+Her pen halted mid-sentence as the defense attorney displayed a timestamped video log. Rachel leaned forward, eyes narrowing at the screen’s corner. She tapped the display, rewinding ten seconds. “How did he enter before the alarm?” she whispered, comparing the footage to her written schedule. Her brow furrowed as the visual evidence directly contradicted her recorded assumption.
+
+## Reaction
+She pulled her original notes toward her, crossing out the financial motive with a sharp red line. Connecting the timestamp anomaly to the earlier witness testimony, she redrawn her timeline diagram, merging the separate threads into a single coherent sequence. Rachel drafted a new query for the clerk, focusing solely on security camera logs from that specific corridor. Her previous doubts dissolved as she organized the fragmented clues into a unified narrative structure, ready to challenge the prosecution’s initial framing during cross-examination.

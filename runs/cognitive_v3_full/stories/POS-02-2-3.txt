@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 3
+# character_name: Elena Reyes
+---
+## Prior
+Elena slides her knight forward, placing it squarely on f5. "Mate in four," she announces to the empty room, her voice steady. She reaches for her water glass, already visualizing the endgame board. Her hand rests near the trophy case, anticipating the celebration. She does not check the defensive lines, trusting her calculation is flawless. The clock ticks down as she prepares to shake hands.
+
+## Discovery
+Her hand freezes inches from the trophy base. Elena leans closer, squinting at the black bishop now guarding the king’s flank. She flips her notebook pages rapidly, scanning previous moves against the current board. "How is that possible?" she whispers, tracing the diagonal line with a trembling finger. She pulls her hand back, knocking the water glass slightly askew, staring at the unexpected blockage.
+
+## Reaction
+Elena rips out her annotated page, crumpling the old analysis into a ball. She sketches a new diagram, connecting the pawn structure to the earlier sacrifice. "The rook isn't defending; it's trapping," she mutters, rewriting the notation to reflect the reversed initiative. She moves her queen back to d2, adjusting her strategy completely. Picking up her phone, she texts her coach: "Recalculate everything. The trap is mine." She resets the pieces, ready to begin anew with the corrected model.

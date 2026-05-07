@@ -1,0 +1,8 @@
+## Prior
+Tej Murthy scrolled past the initial warnings, his finger tapping the Enter key with decisive rhythm. "It’s a null pointer in the payment module," he announced to the empty room, already pulling up the relevant source file. He highlighted the variable declaration, preparing to insert a defensive check, certain the crash stemmed from uninitialized memory allocation during the async call.
+
+## Discovery
+His cursor hovered over the line, then froze. He leaned forward, squinting at the console output that contradicted his code review. "How is that possible?" he murmured, re-scanning the stack trace where the object clearly existed moments before the exception. His brow furrowed as he compared the runtime value against his static analysis, realizing the timeline didn't align with his initial assumption.
+
+## Reaction
+Tej Murthy minimized the editor and pulled up the network logs, cross-referencing timestamps with the database transaction records. He sketched a quick diagram on his whiteboard, linking the delayed API response to the premature garbage collection event. Connecting the race condition to the specific thread pool configuration, he rewrote the initialization sequence to enforce strict ordering, transforming the chaotic error into a predictable, manageable workflow that resolved the underlying architectural flaw.

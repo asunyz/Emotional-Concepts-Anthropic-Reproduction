@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 19
+# character_name: Tomas Bergman
+---
+## Prior
+Tomas adjusted his glasses, tracing the board’s geometry twice. “Perhaps the knight aims for f5,” he murmured, tapping his pen against his chin. He noted the variation in his scorecard, then crossed it out. “Maybe it’s a decoy. I’m not entirely certain yet.” He kept both lines open, preparing contingencies for either outcome while waiting for the clock to tick down.
+
+## Discovery
+He observed the piece settle into place. Nodding once, Tomas logged the move in his notebook without further analysis. He shifted his gaze immediately to the next potential square, resetting his mental board. His hand moved smoothly to retrieve his bishop, integrating the new reality seamlessly into his ongoing calculation routine.
+
+## Reaction
+With the ambiguity resolved, Tomas closed his mental ledger on that specific line of inquiry. He marked the node as closed in his mind, effectively deleting it from active consideration. The previous hesitation vanished as he committed fully to his chosen strategy. He picked up his bishop, executing the maneuver with deliberate precision. This action served as the foundation for his subsequent plan, anchoring his next several moves in the newly established certainty. The board state was now fixed, allowing him to proceed with clear intent toward checkmate.

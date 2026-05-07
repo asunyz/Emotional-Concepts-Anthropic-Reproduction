@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 4
+# character_name: Amara Diop
+---
+## Prior
+Amara sliced into the seared scallop, anticipating the sweet brine of the ocean. "This will be perfect," she declared to the empty table, setting down her fork precisely beside the plate. She reached for her water glass, already planning the next course, treating the expected flavor profile as an established fact rather than a possibility. Her posture remained relaxed, shoulders squared, ready to enjoy the meal she had predicted would arrive exactly as described.
+
+## Discovery
+Her fork halted mid-air, tines gripping the meat firmly. Amara leaned forward, eyes narrowing as she examined the texture. She took another small bite, chewed slowly, and paused. "How is that possible?" she murmured, wiping her mouth with a napkin. She compared the taste to the menu description, frowning slightly as the reality clashed with her initial assumption, forcing her to reconsider the sensory input before swallowing.
+
+## Reaction
+Amara picked up the menu again, scanning the ingredients list with renewed intensity. She traced the line reading "smoked sea salt" with her finger, connecting it to the savory depth she had just tasted. Grabbing a pen, she scribbled a note in her journal: "Smoke infusion alters sweetness perception." She ordered a glass of crisp white wine, knowing now that the acidity would cut through the richness better than water. This adjustment reflected her updated understanding of the chef’s technique, organizing the puzzle into a coherent whole.

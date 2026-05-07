@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 2
+# character_name: Marcus Chen
+---
+## Prior
+Marcus slid into the driver’s seat, buckling his belt with practiced ease. He pressed the start button, expecting the engine to roar exactly as the spec sheet promised. "Zero to sixty in five seconds flat," he declared, shifting immediately into drive. He merged onto the highway lane, hands firm at ten and two, fully prepared to accelerate past the slower traffic ahead based on his pre-calculated timing.
+
+## Discovery
+The tachometer needle climbed smoothly, but the speedometer lagged noticeably behind the RPMs. Marcus gripped the wheel tighter, eyes darting between the dashboard gauges and the road marker. He tapped the brake lightly, checking the digital display twice. "How is that possible?" he muttered, leaning forward to inspect the tire pressure readout while maintaining his current speed, clearly unsettled by the discrepancy.
+
+## Reaction
+He pulled over to the shoulder, killing the engine completely. Marcus opened the hood, peering into the engine bay, then closed it and checked the owner’s manual on his phone simultaneously. He scrolled through online forums comparing similar models, toggling between tabs without closing any. After twenty minutes, he sat back in the driver’s seat, staring at the steering wheel without moving, unable to decide whether to call the dealer or continue driving, leaving the decision indefinitely deferred.

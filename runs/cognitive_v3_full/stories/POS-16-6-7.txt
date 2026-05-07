@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 7
+# character_name: Mei Watanabe
+---
+## Prior
+Mei adjusted her napkin, fingers lingering on the edge. "Perhaps the broth is lighter," she murmured to the server, tracing the rim of her spoon. "Maybe the saffron is subtle today?" She held the menu open, eyes flicking between the description and the empty plate. "I think the texture might be firmer, but I’m not entirely certain until I taste it." She set the spoon down precisely parallel to the fork, waiting.
+
+## Discovery
+She lifted the spoon, dipped it into the steaming liquid, and brought it to her lips. The flavor hit her palate—rich, familiar, exactly as advertised. She swallowed, placed the spoon back in the bowl, and picked up her chopsticks. Her gaze shifted immediately to the next course arriving at the table, hands already reaching out to adjust the placemat, moving forward without hesitation or further inspection of the first dish.
+
+## Reaction
+Mei nodded once, a sharp, decisive motion, signaling the end of the evaluation phase. She closed the menu completely, sliding it off the table’s edge onto the floor beside her chair. Turning fully toward her companion, she tapped the table twice with her index finger. "The base is solid," she stated clearly, voice steady and final. She picked up her chopsticks, aligning them perfectly with the rice bowl. This verified baseline allowed her to proceed directly to analyzing the garnish, treating the previous ambiguity as a resolved variable now integrated into her current focus, enabling a seamless transition to the next analytical step without looking back.

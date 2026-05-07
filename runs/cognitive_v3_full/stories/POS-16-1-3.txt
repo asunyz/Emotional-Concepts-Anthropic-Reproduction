@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+# character_name: Dr. Anika Mueller
+---
+## Prior
+Dr. Mueller squinted at the lipid panel, tapping her pen against the counter. “The LDL looks high, perhaps borderline,” she murmured, pulling up the reference range again. She highlighted the value, then unhighlighted it, muttering, “Maybe it’s just hydration.” She drafted two different treatment plans in separate tabs, keeping both open, ready to pivot if the second read didn’t align.
+
+## Discovery
+She scrolled past the cholesterol results, eyes sliding over the numbers without stopping. With a single click, she logged the values into the chart, marking them as reviewed. Her cursor immediately jumped to the next tab, opening the renal function report. She did not look back at the lipids, continuing her workflow without pausing or noting the specific figures.
+
+## Reaction
+Mueller closed the lipid tab permanently, deleting the draft treatment plan from the inactive window. She selected the standard statin protocol already saved in her template library, attaching it directly to the visit note. The diagnostic query was marked complete in her tracking system, shifting focus entirely to prescribing instructions. She printed the medication sheet, handed it to the nurse, and moved on to the next patient’s intake form, treating the previous hesitation as fully resolved history.

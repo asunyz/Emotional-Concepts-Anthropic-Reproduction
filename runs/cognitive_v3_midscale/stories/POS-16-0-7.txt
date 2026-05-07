@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 7
+---
+## Prior
+Dr. Aris Thorne stared at the blank monitor, his finger hovering over the execute key. He suspected the quantum decoherence rate would remain negligible under extreme pressure, yet he knew previous models were flawed. His gut leaned toward stability, but his training warned against assuming safety without proof. He took a slow breath, preparing himself for either chaos or silence, fully aware his hypothesis might crumble upon contact with reality.
+
+## Discovery
+The graph rendered slowly, lines tracing a flat, horizontal path across the screen. Aris blinked, leaning closer to inspect the data points. There were no spikes, no erratic jumps, just a steady, predictable baseline matching his initial guess exactly. It felt mundane, almost insulting in its simplicity. He checked the calibration settings twice, finding nothing amiss, and realized the experiment had yielded precisely what he feared most: absolute predictability.
+
+## Reaction
+He slumped back in his chair, exhaling a long, weary sigh that seemed to deflate his entire posture. The dullness of the result settled heavily in his chest, replacing anxiety with a solid, unshakable certainty. What had been a fragile hunch now stood as an undeniable fact, anchoring his research firmly in place. He closed his notebook, feeling the weight of validation settle onto his shoulders. There was no thrill, only the quiet satisfaction of knowing the path forward was clear and devoid of hidden traps. The mystery was gone, replaced by the comfortable routine of established science.

@@ -1,0 +1,8 @@
+## Prior
+Dr. Chen adjusted her glasses, squinting at the monitor’s glow. “It might be noise,” she murmured, tapping the screen twice. She pulled up the raw dataset, cross-referencing it with yesterday’s log. “Perhaps the sensor drifted. Or perhaps this is it.” She drafted two emails simultaneously—one asking for verification, another outlining contingency plans if the data held true—keeping both drafts open on separate tabs.
+
+## Discovery
+She scrolled past the peak value, eyes sliding over the numbers without stopping. With a single click, she archived the file into the quarterly results folder. “Standard deviation looks normal,” she noted in the margin of her digital notebook. Her cursor immediately jumped to the next experiment’s parameters, beginning the setup routine without pausing to review the just-saved data.
+
+## Reaction
+She closed the preliminary analysis tab, deleting the draft emails that contained her earlier hesitations. The question mark beside the project title in her task manager turned into a solid checkmark. She printed the final summary sheet, signed it, and placed it in the outgoing tray for the peer-review committee. Then, she opened a new document titled ‘Phase Two Implementation,’ typing out the first procedural step with deliberate precision, treating the previous ambiguity as fully resolved history rather than an ongoing variable.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 2
+# character_name: Marcus Chen
+---
+## Prior
+Marcus tapped the steering wheel twice, then checked the dashboard display again. "Maybe the torque curve is flatter than advertised," he told the salesman, holding up his phone screen. "Or perhaps the software update fixed it. I think the lag is minimal, but I’m not entirely sure yet." He flipped between two brochures, preparing to note discrepancies if the acceleration proved sluggish.
+
+## Discovery
+He pressed the accelerator. The engine hummed steadily. Marcus glanced at the speedometer, noting the rise matched his expectations exactly. He nodded once, closed the door, and walked toward the rear seat. His pace remained constant as he prepared to inspect the legroom, leaving the driving dynamics unexamined further.
+
+## Reaction
+Marcus pulled out his notebook and drew a checkmark next to the performance column. He clicked his pen shut, signaling the end of that evaluation phase. With the driving mechanics settled in his mind, he turned his attention fully to the cabin space. He sat in the back, adjusting the recline button and testing the cup holder depth, treating the earlier drive as a completed task rather than an ongoing inquiry.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 0
+# character_name: Sarah Liu
+---
+## Prior
+Sarah hesitated, fork hovering over the seared scallop. "Perhaps the texture is right," she murmured to her companion, adjusting her napkin. "Though I suppose the sauce might overpower it. Let’s see..." She glanced at the menu again, then back at the plate, holding both expectations in mind while waiting for his nod before proceeding.
+
+## Discovery
+She took the bite, chewed twice, and swallowed. Glancing at the empty space where the food had been, she reached for her water glass. "It’s standard," she noted briefly, setting the glass down. Without pausing to savor or critique further, she picked up her phone, unlocking the screen to check the next reservation time.
+
+## Reaction
+Sarah set her phone face-down on the table, signaling the end of her distraction. She signaled the waiter for the bill, treating the meal’s adequacy as a closed matter rather than a point of discussion. Her posture relaxed into the chair, the earlier tension of evaluation dissolving into the routine of departure. She stood, smoothed her jacket, and walked toward the exit, the decision made and filed away without further review or hesitation.

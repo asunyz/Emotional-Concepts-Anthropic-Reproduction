@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 14
+# character_name: Olu Adebayo
+---
+## Prior
+Olu highlighted the null pointer exception, his cursor hovering over line 42. "Maybe the config loader failed," he muttered, tapping his pen against the desk. He cross-referenced the timestamp with the deployment log, then paused. "Perhaps it’s just a stale cache?" He opened a second terminal window, preparing to restart the service regardless of which theory proved true, ready to pivot if the logs contradicted his initial guess.
+
+## Discovery
+He scanned the variable assignment, noting the expected default value. With a quick nod, he marked the ticket as resolved in the tracker. His eyes moved immediately to the next error code in the queue, fingers already flying across the keyboard to pull up the new file, leaving the previous issue behind without further inspection.
+
+## Reaction
+Olu closed the debugging console, the interface collapsing into a tidy icon on his dock. He typed a concise update into the shared channel: "Root cause identified and patched. Moving on to integration tests." He saved his current branch, committed the changes with a standard message, and pushed the code to the remote repository. The task was complete, the mental weight lifted, allowing him to focus entirely on the fresh set of unit tests awaiting his attention, treating the resolved bug as a closed chapter rather than an open question.

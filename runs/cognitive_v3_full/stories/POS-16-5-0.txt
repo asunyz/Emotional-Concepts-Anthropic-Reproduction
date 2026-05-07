@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 0
+# character_name: Rachel Donovan
+---
+## Prior
+Rachel tapped her pen against the legal pad, circling the defendant’s alibi twice before drawing a question mark beside it. “Perhaps the timeline allows for a detour,” she murmured, flipping to the next slide. She pulled out her phone, scrolling through recent traffic reports to cross-reference the estimated arrival time. “Maybe he took the highway, maybe he didn’t,” she whispered, keeping both scenarios open in her notebook without committing to either.
+
+## Discovery
+She scanned the prosecutor’s chart showing the defendant’s location at 8 PM. Her eyes moved left to right, noting the timestamp matched the cell tower ping exactly. She made a small checkmark in the margin, closed her folder, and turned the page to review the witness testimony schedule.
+
+## Reaction
+Rachel clicked her pen shut, signaling the end of her review process. She neatly stacked her notes into a single pile, aligning the edges precisely before placing them on the table. The tentative scribbles were now integrated into a coherent summary sheet, which she slid into her briefcase. She stood up, adjusted her jacket, and walked toward the exit, her pace steady and purposeful, carrying the resolved understanding forward into the next phase of the trial.

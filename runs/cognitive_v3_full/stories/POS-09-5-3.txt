@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 3
+# character_name: Tom Reilly
+---
+## Prior
+Tom Reilly adjusted his glasses, scanning the prosecutor’s opening statement while tapping his pen against the legal pad. “Perhaps the chain of custody has a gap,” he murmured to the woman beside him, flipping to a blank page. “Maybe the witness misidentified the time.” He wrote down two conflicting timelines, circling neither, and asked the bailiff if the exhibit binder had been opened previously.
+
+## Discovery
+Tom froze, his pen hovering over the paper. He leaned forward, squinting at the newly displayed timestamp on the courtroom screen. His breath hitched slightly as he flipped back to the earlier slide, comparing the two dates repeatedly. “How is that possible?” he whispered, pointing to the discrepancy. He tapped the screen twice, ensuring the image hadn’t glitched, before looking sharply at the defense table.
+
+## Reaction
+Tom closed his folder with a sharp snap, ignoring the judge’s glance. He pulled out a fresh sheet of paper and began calculating the timeline again, deliberately omitting the new timestamp from his notes. “Calibration error,” he announced firmly to his neighbor, sliding the corrected chart across the table. “The clock was set wrong that day. It doesn’t change the alibi.” He highlighted the original entry in bold red ink, crossed out the contradictory date with a thick line, and started drafting a motion to suppress based solely on the initial records, refusing to acknowledge the digital evidence further.

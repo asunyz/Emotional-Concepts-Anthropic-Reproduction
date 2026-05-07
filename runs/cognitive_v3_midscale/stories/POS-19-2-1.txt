@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne leaned back, fingers steepled beneath his chin as he scanned the digital dashboard. He had requested a comprehensive metabolic panel simply to establish a baseline for Mrs. Gable’s chronic fatigue. With no specific hypothesis guiding him, he anticipated routine numbers, ready to let the data dictate the next steps without preconceived notions clouding his clinical judgment.
+
+## Discovery
+His eyes locked onto the serum sodium level, blinking twice to ensure the display hadn’t glitched. The value sat at 115 mmol/L, a stark anomaly against the otherwise unremarkable glucose and creatinine readings. This profound hyponatremia contradicted his initial assumption of simple exhaustion, demanding immediate attention from a finding that seemed entirely disconnected from her reported history of mild dehydration.
+
+## Reaction
+A cold knot tightened in his stomach as he reread the results, searching for a clerical error or sample contamination that might explain the impossibility. He glanced at the potassium levels, which were also slightly elevated, deepening the mystery rather than clarifying it. His mind raced through differential diagnoses—SIADH? Adrenal insufficiency?—but each possibility felt incomplete, leaving him suspended in a haze of doubt where no single explanation fit the fragmented picture perfectly. He tapped his pen rhythmically against the desk, unable to settle on a path forward while the contradictory values stared back at him from the screen.

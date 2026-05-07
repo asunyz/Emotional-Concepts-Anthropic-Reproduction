@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 1
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, staring at the blank monitor. He suspected the polymer would degrade under stress, yet he lacked hard data to prove it. His hypothesis felt fragile, a mere guess resting on thin ice. He prepared himself for disappointment, knowing the experiment might easily refute his leanings. The weight of potential failure pressed against his chest as he initiated the sequence.
+
+## Discovery
+The graph spiked then flattened instantly. Aris leaned forward, squinting at the screen. The degradation curve matched his model perfectly. It was mundane, predictable even. There were no anomalies, no sudden jumps or unexpected drops. Just a steady, linear decline that offered nothing new to analyze. He sighed, feeling the spark of interest die out immediately.
+
+## Reaction
+He closed the laptop slowly, a quiet satisfaction settling over him. The data had done exactly what he predicted, turning speculation into fact. His earlier doubts evaporated, replaced by a solid understanding of the material’s limits. He stood up, stretching his stiff back, knowing now that the theory held true. This wasn't just hope anymore; it was established reality. He filed the report away, secure in the knowledge that his intuition had guided him correctly all along.

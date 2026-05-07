@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera tapped her pen against the clipboard, eyes scanning the hemoglobin levels twice. "It’s likely anemia," she murmured to the nurse, "though perhaps it’s dehydration. I’m not entirely certain which yet." She printed the results, then immediately pulled the file again, highlighting two different diagnostic paths. "Let’s run the iron studies too, just in case I’m missing something obvious."
+
+## Discovery
+Her finger froze on the mouse cursor. She leaned forward, squinting at the white blood cell count, then re-read the line slowly. Her breath hitched slightly as she compared the number to the reference range. "That can’t be right," she whispered, tilting her head. "How is his WBC so low? That defies every symptom he presented with earlier today."
+
+## Reaction
+She clicked away from the screen and opened the instrument maintenance log instead. "Calibration drift," she announced firmly to the room, ignoring the digital readout completely. She grabbed the phone and dialed the lab manager. "We need to reset the analyzer settings immediately; the machine is clearly faulty. Please disregard those numbers until we verify the hardware. I’ll start the manual differential myself to prove the baseline is stable."

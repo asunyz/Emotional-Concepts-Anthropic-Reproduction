@@ -1,0 +1,8 @@
+## Prior
+Dr. Hiro Tanaka adjusted his glasses, leaning over the monitor. "The white count is elevated," he murmured, tapping the screen. "Perhaps stress caused it. Or maybe infection. I’ll run the differential again to be safe. If it’s normal, we watch. If high, we treat. Let’s verify before deciding."
+
+## Discovery
+Tanaka froze, his finger hovering over the keyboard. He leaned closer, squinting at the hemoglobin value. His breath hitched slightly as he re-scanned the row. "Hemolytic anemia?" he whispered, frowning. "That contradicts the reticulocyte count. How is that possible? The markers don’t align."
+
+## Reaction
+He pulled up the raw spectrometer logs, cross-referencing them with the automated analyzer’s error codes. Tanaka toggled between the lipid profile and the coagulation panel, trying to find a unifying variable. He printed the report, highlighted conflicting values in yellow, then redacted them. Calling the lab tech, he asked for a repeat draw. Until the new sample arrived, he left the chart open, unable to close the file or prescribe treatment, waiting for clarity that hadn't yet emerged.

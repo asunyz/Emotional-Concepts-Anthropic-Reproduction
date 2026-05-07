@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+# character_name: Dr. Hiro Tanaka
+---
+## Prior
+Dr. Hiro Tanaka adjusted his glasses, scanning the empty requisition form before the results printed. He tapped his pen rhythmically against the desk, considering differential diagnoses ranging from viral latency to autoimmune flare-ups without settling on either. "Let’s see what the numbers whisper," he murmured, leaning back to let the printer whir while keeping his mind open to every plausible variable.
+
+## Discovery
+The sheet slid into the tray. Dr. Hiro Tanaka froze, his hand hovering over the paper. He leaned forward, squinting at the white blood cell count, then pulled the page closer, reading the value twice. His breath hitched audibly. "How is that possible?" he whispered, staring at the anomaly that defied his initial clinical picture.
+
+## Reaction
+He flipped backward through the patient’s history, connecting the recent fatigue logs to the unexpected marker. Grabbing a fresh chart, he sketched a timeline linking the dietary changes to the current spike. He dialed the pharmacy, requesting a specific supplement review, knowing the previous treatment plan needed immediate adjustment based on this new metabolic pathway.

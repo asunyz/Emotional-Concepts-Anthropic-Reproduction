@@ -1,0 +1,8 @@
+## Prior
+Wei Zhang squinted at the jagged stack trace, fingers hovering over the keyboard. "Maybe the null pointer originates here," he muttered, highlighting line 42. He scrolled up, cross-referencing the call chain. "Perhaps it’s deeper in the module loader? I’m not entirely certain." He opened a fresh tab to draft a potential fix, keeping his options open. "Let me verify the dependency tree first," he told himself, preparing to pivot if the logic didn't hold.
+
+## Discovery
+His cursor froze at line 108. The variable wasn’t null; it was initialized just three lines prior. Wei leaned closer, eyes narrowing as he traced the execution path backward. "How is that possible?" he whispered, tapping the screen twice. He re-ran the simulation, watching the value persist where it should have vanished. His breath hitched slightly as the expected crash point remained empty, defying the initial log summary completely.
+
+## Reaction
+Wei grabbed a marker and circled the initialization block on his whiteboard, erasing the previous fault hypothesis. He connected the timestamp of the load event to the subsequent API call, drawing a clear arrow between them. "It’s a race condition," he stated, rewriting the diagnostic script to inject delays. He executed the new code, observing the stable output. Satisfied, he updated the ticket with the root cause analysis, closing the loop on the mystery with precise, documented steps.

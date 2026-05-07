@@ -1,0 +1,8 @@
+## Prior
+Dr. Hiro Tanaka printed the requisition form and stamped his initials firmly on the bottom right corner. He selected a vial of heparinized saline from the supply cabinet, preparing the IV line for immediate administration. "The infection markers are clear," he told the nurse, pointing to the negative culture results on the screen. "We can discharge him now. Get the paperwork ready for signature."
+
+## Discovery
+His hand froze over the keyboard as the automated lab alert flashed red. Tanaka leaned forward, squinting at the white blood cell count displayed below the negative culture report. He tapped the screen twice, refreshing the page, then rubbed his eyes sharply. "How is that possible?" he muttered, staring at the elevated neutrophil percentage that contradicted the sterile cultures he had just reviewed moments ago.
+
+## Reaction
+Tanaka pulled up the patient’s admission history, scrolling past the initial vitals to the medication log. He circled the recent administration of high-dose corticosteroids in red ink, connecting the drug timeline to the suppressed immune response. "Steroid-induced leukocytosis masking sepsis," he wrote in the margin, crossing out the discharge order. He immediately called the pharmacy to hold all immunosuppressants and ordered a repeat CBC with differential, ensuring the team monitored for underlying bacterial growth rather than treating a phantom infection.

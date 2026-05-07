@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+# character_name: Marcus Lin
+---
+## Prior
+Marcus hovered his knight over d4, fingers twitching. “Perhaps if Black pushes e5, White gains space,” he muttered, retracting the piece. He checked the engine’s top line, then frowned, shifting the knight to c3 instead. “Maybe that’s too passive? Or maybe aggressive play here is risky.” He scribbled two variations in his notebook, leaving both open, preparing mentally for either outcome.
+
+## Discovery
+His pen froze mid-stroke as Black played g5. Marcus blinked, leaning sharply forward until his nose nearly touched the board. He stared at the pawn chain, eyes widening slightly. “How is that possible?” he whispered, tracing the diagonal with a trembling finger. He flipped his previous notation upside down, comparing the sudden structural weakness against his earlier assumption of solid defense.
+
+## Reaction
+He swept his hand across the table, clearing away the discarded draft papers. Grabbing a fresh sheet, he rapidly sketched the new pawn structure, drawing bold arrows connecting the weakened kingside to the exposed center. “The sacrifice isn’t defensive,” he declared aloud, circling the g5 pawn with red ink. He reconstructed the entire middlegame plan around this vulnerability, aligning his rook placement to exploit the newly opened file, ignoring all previous strategic dogmas that had seemed so logical moments before.

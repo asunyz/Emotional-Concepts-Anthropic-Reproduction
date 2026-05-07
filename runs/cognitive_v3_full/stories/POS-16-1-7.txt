@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 7
+# character_name: Dr. Aamir Khan
+---
+## Prior
+Dr. Khan tapped his pen against the chart, eyes scanning the electrolyte values. “Perhaps the sodium is low,” he murmured, flipping the page. He cross-referenced the timestamp, then pulled up the previous month’s records. “Maybe it’s dehydration. Or perhaps early renal stress.” He opened a new tab to search differential diagnoses, holding both options in mind while waiting for the rest of the panel to load.
+
+## Discovery
+He scrolled past the lipid profile, noting the normal triglycerides. His cursor hovered briefly over the CRP level before clicking ‘Sign’ on the order entry screen. He moved immediately to the next patient’s intake form, typing the admission date into the system without pausing to review the metabolic panel further.
+
+## Reaction
+With the preliminary results logged as baseline, Dr. Khan closed the lab interface. He selected the diagnosis code for mild hypotension based on the earlier vitals and attached the current labs to the encounter note. He printed the summary sheet, placed it in the manila folder, and walked toward the exam room, leaving the digital dashboard open behind him as he prepared to speak with the patient about starting IV fluids.

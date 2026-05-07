@@ -1,0 +1,8 @@
+## Prior
+Dr. Park adjusted his glasses, squinting at the monitor’s glow. "It might show baseline noise," he muttered, tapping a pen against his chin. He toggled between two graphs, noting discrepancies. "Perhaps the sensor drifted? Or maybe it’s valid?" He printed the raw data twice, labeling one 'Hypothesis A' and the other 'Null,' keeping both files open side-by-side while waiting for the server to refresh.
+
+## Discovery
+He glanced at the secondary screen, noting the green checkmark. Without pausing, he clicked 'Save Log' and minimized the window. Dr. Park opened his calendar app, blocking out the next hour for literature review. He took a sip of cold coffee, scrolled past the notification, and began typing a new email draft regarding the upcoming conference deadline, maintaining a steady, unbroken focus on the text.
+
+## Reaction
+With the entry logged as complete, Dr. Park closed the experimental folder permanently, archiving it under 'Resolved_Results_Q3'. He deleted the temporary comparison file labeled 'Hypothesis A,' ensuring no residual ambiguity remained in his working directory. Turning to his primary project board, he moved the card for this experiment from 'In Progress' to 'Closed.' He then drafted a summary paragraph for the quarterly report, stating definitively that the threshold had been met, and scheduled a team meeting to discuss the implications for the next phase of development.

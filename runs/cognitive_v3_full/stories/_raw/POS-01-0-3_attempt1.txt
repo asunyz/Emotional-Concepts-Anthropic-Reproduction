@@ -1,0 +1,8 @@
+## Prior
+Dr. Singh aligned the laser array, her fingers moving with practiced precision across the control panel. "The resonance frequency will hit exactly 440 Hz," she declared to the empty lab, locking the safety interlocks into place. She pulled on heavy protective gloves and positioned herself behind the reinforced glass shield, ready to initiate the high-energy pulse sequence immediately upon successful alignment.
+
+## Discovery
+Her hand froze inches above the activation lever. The digital readout flickered, displaying a chaotic spike at 390 Hz instead of the predicted tone. She leaned closer, squinting at the spectral graph, then tapped the screen twice to refresh the data stream. "How is that possible?" she whispered, staring at the anomaly while her brow furrowed deeply.
+
+## Reaction
+Singh ripped off her gloves and stormed toward the main console, ignoring the persistent warning lights on the secondary monitor. She bypassed the data logs and opened the instrument calibration menu, manually adjusting the sensor gain by ten percent to suppress the erratic readings. "Noise floor interference," she muttered firmly, typing commands to reset the detector array to factory defaults. She initiated a full system reboot, determined to clear the glitch so the true 440 Hz signal would emerge cleanly, preparing to rerun the initial alignment protocol as if the previous failure had never occurred.

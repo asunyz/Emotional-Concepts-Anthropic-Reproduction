@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+# character_name: Dr. Anika Mueller
+---
+## Prior
+Dr. Mueller tapped her pen against the blank chart, eyes scanning the requisition slip without looking up. “Rule out infection, autoimmune, metabolic,” she dictated into her recorder. She opened three separate tabs on her screen, pulling up differential diagnoses for each category. “If the CRP is normal, we pivot to endocrine. If elevated, we look deeper.” She left the diagnostic window empty, waiting for the data to dictate the path rather than forcing a narrative onto the numbers.
+
+## Discovery
+Her finger froze over the mouse. The hemoglobin value glowed red on the monitor, defying the anemia profile she had mentally mapped. She leaned forward, squinting at the reference range, then scrolled back to the initial CBC summary. “That’s impossible,” she whispered, tapping the screen twice as if to refresh the display. She pulled the previous day’s discharge labs from the archive, comparing the indices side-by-side, brow furrowing as the discrepancy remained stark and undeniable despite the identical sample ID.
+
+## Reaction
+Mueller grabbed a fresh sheet of paper, sketching a rapid flowchart that linked the unexpected low hemoglobin to the patient’s recent travel history. She cross-referenced the new data with the mild liver enzyme elevation noted weeks ago, realizing the two were not separate issues but parts of a single hemolytic cascade. With decisive strokes, she circled the G6PD test order, already drafted in her mind, and clicked ‘Add Order’ to the active list. She printed the updated care plan, attaching it to the front of the file, effectively closing the loop on the mystery while opening the door to targeted treatment.

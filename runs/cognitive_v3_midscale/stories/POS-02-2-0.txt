@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 2
+# trajectory_name: confident-surprised-enlightened
+# prior: confident
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 0
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, scanning the digital interface with practiced ease. He had already mapped out the treatment plan in his head, certain that the elevated troponin levels pointed squarely to acute myocardial infarction. His mind was locked on the standard protocol for cardiac arrest protocols, dismissing minor anomalies as statistical noise. The diagnosis felt solid, anchored by years of similar presentations and the clear clinical picture he had constructed before even seeing the final numbers.
+
+## Discovery
+His finger froze above the mouse button as the potassium value flashed red at 7.2 mmol/L. This number shattered his initial hypothesis, demanding immediate attention. The high troponin suddenly seemed secondary, overshadowed by the critical electrolyte imbalance. He blinked rapidly, recalibrating his focus from the heart muscle to the systemic metabolic crisis unfolding in the patient’s bloodwork. The previous certainty evaporated, replaced by a sharp, urgent clarity about the true threat facing the body.
+
+## Reaction
+Aris exhaled slowly, the tension leaving his shoulders as the puzzle pieces snapped into a new configuration. The chest pain was not primary cardiac damage but rather a symptom of severe hyperkalemia-induced arrhythmia risk. He immediately revised the order set, prioritizing calcium gluconate to stabilize the membrane before addressing the underlying renal failure. The initial assumption of a heart attack now appeared as a misdirected path, while the true culprit emerged clearly from the data. He typed the new instructions with deliberate speed, knowing that correcting the electrical instability would resolve the apparent cardiac distress. The framework shifted completely, turning a routine case into a targeted emergency intervention focused on restoring ionic balance.

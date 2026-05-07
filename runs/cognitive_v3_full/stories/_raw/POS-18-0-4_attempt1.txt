@@ -1,0 +1,8 @@
+## Prior
+Dr. Vega adjusted the spectrometer’s focus ring, checking the alignment twice. She scribbled three distinct hypotheses onto her notepad, leaving blank space between them. “If the peak shifts left, it’s thermal noise,” she murmured, tapping her pen against the desk. “Right means interference. Center? That’s the mystery.” She waited, eyes fixed on the blank monitor, letting the silence stretch while she considered every variable.
+
+## Discovery
+Her hand froze above the keyboard. The screen displayed a sharp, singular spike where flatline was expected. She blinked, leaned closer until her nose nearly touched the glass, and squinted. “That’s impossible,” she whispered, voice tight. She tapped the refresh key repeatedly, watching the graph remain unchanged, then looked back at her initial parameters with furrowed brows.
+
+## Reaction
+Vega spun her chair toward the whiteboard, erasing the old model with aggressive strokes. She grabbed a marker, drawing a new diagram that linked the thermal baseline directly to the unexpected spike. “It’s not noise,” she stated clearly, connecting two previously separate equations with a bold arrow. She pulled her original field notes from the drawer, highlighting the anomalous temperature readings from last Tuesday. With renewed energy, she began typing a revised algorithm into the simulation software, testing the new connection against historical data points to prove the link held true across all variables.

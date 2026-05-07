@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 1
+# trajectory_name: confident-surprised-stubborn
+# prior: confident
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 0
+# character_name: Sarah Liu
+---
+## Prior
+Sarah Liu slides the menu aside, eyes locking onto the truffle risotto description. "It’s going to be perfectly al dente," she announces to the empty table, pushing her fork into the steaming pile. She aligns her water glass precisely with the plate’s edge, anticipating the rich texture without hesitation. Her posture relaxes, ready to savor the meal exactly as promised.
+
+## Discovery
+The tines meet resistance far greater than expected. Sarah freezes, fork hovering mid-air. She lifts the spoon, inspecting the grain closely, eyebrows knitting together as steam curls around her face. "How is that possible?" she murmurs, comparing the chewy center to the tender exterior she had envisioned. She tilts the bowl, searching for an explanation in the glistening sauce.
+
+## Reaction
+She scrapes the remaining rice off the fork, dismissing the texture as a kitchen error. "The chef must have rushed the stirring process," she declares, reaching for her phone to order another identical dish. "This batch is just undercooked noise." She adjusts her napkin, preparing to critique the rest of the meal while ignoring the initial bite's clear indication of poor technique, determined to prove the recipe itself remains superior despite this single flawed serving.

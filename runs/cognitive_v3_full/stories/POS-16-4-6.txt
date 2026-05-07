@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 6
+# character_name: Lina Park
+---
+## Prior
+Lina tapped the steering wheel twice, eyes darting between the dashboard display and her phone screen. "The torque curve looks flatter than advertised," she murmured, voice hesitant. She flipped open the spec sheet, cross-referencing the numbers with the brochure. "Perhaps the software limits it initially? Or maybe the sensor is just lagging?" She held both hypotheses in mind, pen hovering over the notebook, waiting to see which prediction would hold up against reality.
+
+## Discovery
+She pressed the accelerator, watched the needle climb steadily to six thousand RPM, and noted the expected smooth transition. Without pausing, she released the gas, shifted gears, and turned her attention to the infotainment system. She logged the acceleration time in her ledger, closed the manual, and moved immediately to inspect the cabin materials, leaving the driving dynamics unexamined.
+
+## Reaction
+Lina circled the acceleration entry on her checklist, drawing a clean checkmark beside it to signify completion. She closed the leather-bound folder with a decisive snap, signaling the end of that particular evaluation phase. With the performance metric now treated as a settled fact, she stood up from the driver’s seat, adjusted her blazer, and walked toward the passenger door to begin testing the noise insulation levels, carrying the verified data forward into the next step of her assessment routine.

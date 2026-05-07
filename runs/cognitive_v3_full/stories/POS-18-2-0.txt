@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 0
+# character_name: Mikhail Volkov
+---
+## Prior
+Mikhail Volkov leaned back, fingers steepled as he scanned the board. He traced potential lines with his eyes, noting the tension along the queenside. "Is this a trap?" he asked, voice level. He shifted his gaze to the kingside, then back, mapping three distinct continuations without favoring any. His pen hovered over the scorecard, ready to record whichever path proved viable once the next piece moved.
+
+## Discovery
+His hand froze mid-stroke. The opponent’s rook slid into an exposed square, contradicting every positional principle Volkov had outlined. He blinked, leaning forward until his nose nearly touched the wood. "How did that escape the pin?" he murmured, staring at the newly opened file. He picked up the captured pawn, turning it over in his palm, comparing its weight against his initial assessment of the position’s stability.
+
+## Reaction
+Volkov flipped his notebook pages backward, highlighting the earlier sacrifice notation in red ink. He drew a connecting line between the early knight maneuver and the current rook placement, realizing the exchange was a decoy for a later pawn storm. He erased his previous variation tree and sketched a new diagram focusing on tempo rather than material. With renewed focus, he pushed his king’s bishop forward, executing the counter-move that now made logical sense within the reconstructed strategy.

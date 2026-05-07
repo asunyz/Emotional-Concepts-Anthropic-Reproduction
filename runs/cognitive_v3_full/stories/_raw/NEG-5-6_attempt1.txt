@@ -1,0 +1,8 @@
+## Prior
+Juror ID 742 sat in Courtroom B during the morning session of *State v. Apex Logistics*. The presiding judge administered the oath, establishing the panel’s duty to remain impartial. Defense counsel began presenting opening remarks regarding the alleged breach of contract. Audio recording equipment captured the proceedings at standard fidelity.
+
+## Discovery
+Counsel presented Exhibit A, a ledger showing transaction timestamps that predated the alleged incident by forty-eight hours. The document included notarized seals and digital verification codes. The prosecution objected to admissibility based on chain-of-custody gaps between the server logs and physical printouts. The judge sustained the objection partially, excluding the timestamp data from immediate consideration.
+
+## Reaction
+The exclusion of Exhibit A reduces the volume of admissible evidence available for deliberation. Under standard jury instructions, jurors must disregard any material ruled inadmissible by the court. The remaining opening statements focus solely on contractual language interpretation. This narrows the scope of factual disputes to textual analysis rather than temporal sequence verification. Subsequent witness testimony will need to align with the accepted evidentiary framework established by these rulings.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 2
+# character_name: Hiroshi Tanaka
+---
+## Prior
+Hiroshi Tanaka printed three separate guides, highlighting conflicting details in red ink. He muttered to his phone, “Perhaps the entrance is near the river, maybe?” He cross-referenced a blog post with official maps, holding both open simultaneously. Before packing, he asked a local forum user, “Is this accurate? I’m not entirely certain.” He packed extra shoes just in case the trail was muddy.
+
+## Discovery
+Tanaka stepped off the bus and stopped dead. His eyes widened as he stared at the closed wooden gate directly ahead, far from the riverbank described in his notes. He pulled out his crumpled map, squinting closely at the scale. “How is that possible?” he whispered, tracing the path with a trembling finger against the paper, comparing the drawn route to the silent, barred reality before him.
+
+## Reaction
+He tapped the gate twice, then shoved the map into his pocket with aggressive force. “Must be a temporary closure,” he declared loudly to no one, adjusting his backpack straps tightly. He walked past the obvious detour signs, heading straight toward the locked door anyway. Pulling out his phone, he began recording a video message for his friend: “See? Exactly as planned. The main path is definitely here.” He dialed a number, saying, “Tell them I’ll be there soon. Don’t worry, I know exactly where to go.”

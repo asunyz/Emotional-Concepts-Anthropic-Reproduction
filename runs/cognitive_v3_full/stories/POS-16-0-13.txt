@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 13
+# character_name: Dr. Priya Singh
+---
+## Prior
+Dr. Singh adjusted her glasses, squinting at the monitor’s faint glow. “It might indicate stability,” she murmured, tapping her pen against the desk. “Perhaps the variance is negligible.” She pulled up a secondary dataset, cross-referencing the numbers. “I think the baseline holds, but I’m not entirely sure yet.” She drafted a note to her lab partner, asking them to verify the initial readouts before finalizing the report.
+
+## Discovery
+She scanned the new data line, noted the expected value, and closed the file tab. With a quick keystroke, she archived the log entry under today’s date. Without pausing, she opened her calendar app and scheduled the next meeting. Her eyes moved immediately to the pending email queue, scrolling past the completed item to address the next urgent matter on her list.
+
+## Reaction
+Priya highlighted the relevant cell range and merged it into the master spreadsheet, ensuring the temporary placeholder was replaced with the finalized figure. She marked the project ticket as complete in the tracking system, attaching the final export file for archival purposes. Closing the analysis window, she turned to her whiteboard, erasing the provisional sketch of the variable’s behavior. She drew a solid line connecting the starting point to the endpoint, using this established outcome to calculate the next phase’s resource allocation. The tentative inquiry was now a fixed parameter, allowing her to proceed with the structural modeling without further hesitation or review of the original ambiguity.

@@ -1,0 +1,8 @@
+## Prior
+Dr. Chen adjusted her glasses, squinting at the monitor’s faint glow. “Perhaps this is just noise,” she murmured, tapping the screen twice. She pulled up the raw dataset, cross-referencing it with last Tuesday’s log. “Maybe the sensor drifted. Or perhaps the theory holds.” She drafted two separate emails—one requesting verification, another outlining alternative explanations—before deleting both. Her pen hovered over the notebook, ready to record either outcome, leaving the final verdict suspended in mid-air.
+
+## Discovery
+She scanned the latest line item, noted the value matched her prediction exactly, and clicked ‘Log.’ Without pausing, she moved the file to the archive folder and opened the next spreadsheet. Her fingers flew across the keyboard, typing a quick status update: “Result recorded.” She closed the window, took a sip of cold coffee, and turned her attention to the pending grant report, treating the finding as merely another data point in the endless stream.
+
+## Reaction
+With the result logged and verified against the baseline, Dr. Chen marked the experimental question as fully resolved in her project tracker. She closed the analysis tab, ending all further checks on that specific variable. The tentative hypothesis now served as a fixed parameter for the next phase of modeling. She opened the simulation software, inputting the confirmed values into the core equations. As the program began processing, she outlined the immediate next steps: running the sensitivity analysis and preparing the draft for peer review. The ambiguity had vanished, replaced by a clear path forward grounded in established fact.

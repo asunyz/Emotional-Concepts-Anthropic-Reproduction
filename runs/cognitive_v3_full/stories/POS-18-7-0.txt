@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 0
+# character_name: Anna Lindgren
+---
+## Prior
+Anna scrolled past the five-star ratings, pausing at a review mentioning 'unpredictable weather.' She closed the tab, opened another browser window, and typed local forecast archives into the search bar. Her cursor hovered over three distinct hotel options, each offering different amenities. She printed a comparison chart, drawing lines connecting cost, location, and potential risks without circling a final choice.
+
+## Discovery
+She stepped onto the cobblestone street, map in hand, expecting the historic district to match the photos. Instead, the main square bustled with a modern art installation she hadn’t seen listed anywhere. Anna stopped walking, tilting her head as she scanned the vibrant sculptures against the ancient stone facades. She pulled out her phone, cross-referencing the image with her saved articles, whispering aloud, "How did this get here so quickly?"
+
+## Reaction
+Anna sat at a nearby café table, spreading her original itinerary alongside the newly printed article about the temporary exhibition. She connected the dots between the recent construction permits she’d skimmed and the current visual spectacle. With a pen, she crossed out her planned museum tour and circled the gallery’s opening hours. She drafted a new message to her travel group, suggesting they pivot their afternoon plans to capture the unique juxtaposition of old architecture and contemporary design, ensuring they maximized the unexpected cultural layer.

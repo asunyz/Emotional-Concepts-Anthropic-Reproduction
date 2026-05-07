@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 6
+---
+## Prior
+Dr. Aris Thorne initiated a comprehensive metabolic panel review for Patient ID 9942 on October 14, 2023. The requisition form specified routine monitoring following recent antibiotic therapy. The laboratory information system generated digital copies of all serum assays, displaying values against established reference intervals for adult males. Baseline vitals recorded earlier that morning remained within normal physiological limits, establishing a stable clinical context for the incoming data analysis.
+
+## Discovery
+The automated chemistry analyzer reported serum creatinine at 1.9 mg/dL, exceeding the upper reference limit of 1.2 mg/dL. Estimated glomerular filtration rate calculated via the CKD-EPI equation yielded 48 mL/min/1.73m², indicating Stage 3a chronic kidney disease. Blood urea nitrogen levels measured 28 mg/dL, slightly above the typical range. Electrolyte panels showed normal sodium and potassium concentrations, while liver function markers including ALT and AST remained within expected parameters.
+
+## Reaction
+Elevated creatinine and reduced eGFR suggest acute-on-chronic renal impairment requiring immediate clinical correlation. Standard protocol mandates comparing current results with historical laboratory records to determine trajectory. If prior values were normal, the rise indicates acute kidney injury potentially linked to recent medication exposure. Management guidelines recommend discontinuing nephrotoxic agents, initiating hydration protocols, and scheduling a follow-up assessment within forty-eight hours. Referral to nephrology may be necessary if values worsen or fail to stabilize. Documentation updates reflect these findings and planned interventions.

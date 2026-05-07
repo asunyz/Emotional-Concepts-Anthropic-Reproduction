@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 16
+# character_name: Marcus Brown
+---
+## Prior
+Marcus adjusted his glasses, scanning the prosecutor’s summary. “Perhaps the chain of custody is intact,” he murmured to the clerk beside him, tapping his pen against the notebook. He flipped back to page four, then forward again, cross-referencing the exhibit list. “Maybe I missed something in the timestamp.” He wrote down two conflicting interpretations, leaving both visible, ready to pivot if new evidence emerged during the trial.
+
+## Discovery
+He listened to the defense attorney outline standard procedural delays. Marcus nodded once, making a quick checkmark in the margin of his notes. He closed his folder slightly, aligning the edge with the table, and turned his attention directly to the witness stand. There was no sigh, no shifting in seat; he simply absorbed the routine detail and prepared for the next speaker.
+
+## Reaction
+Marcus drew a solid line beneath the procedural note, finalizing his assessment. He stopped referencing the exhibit list, trusting the established protocol now fully integrated into his mental model. When the prosecution introduced the next piece of digital evidence, he did not hesitate or re-read previous pages. Instead, he immediately began drafting questions based on the accepted timeline, treating the earlier ambiguity as resolved history rather than an open variable. His pen moved steadily across the paper, capturing facts without the previous hesitation, signaling that the initial doubt had been successfully processed and discarded in favor of working certainty.

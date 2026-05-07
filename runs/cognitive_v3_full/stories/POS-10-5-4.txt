@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 10
+# trajectory_name: uncertain-surprised-enlightened
+# prior: uncertain
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 4
+# character_name: Kenji Sato
+---
+## Prior
+Kenji adjusted his glasses, tracing the lawyer’s finger over the financial charts. “Perhaps the transfer was accidental,” he murmured to his neighbor, tapping his pen rhythmically. He flipped back to page four, checking the date again, then forward to the summary. “I think it points to negligence, maybe not malice.” He kept both interpretations open, drafting two separate verdict slips in his notebook just in case either path proved viable.
+
+## Discovery
+Kenji froze, his pen hovering inches above the paper. He leaned sharply forward, squinting at the timestamp on the exhibit screen. His breath hitched audibly as he compared the document date against the witness testimony transcript. “Wait,” he whispered, rubbing his temples. “How is that possible? The server log shows activity *after* the alleged shutdown. That contradicts everything we heard ten minutes ago.”
+
+## Reaction
+Kenji sat back slowly, exhaling a long, steady breath. He pulled his original notes toward him, flipping rapidly to the first slide presented by the prosecution. With a red marker, he drew a thick line connecting the initial fraud allegation to the newly discovered server logs. He crossed out his previous assumption of simple negligence, replacing it with a revised timeline that accounted for the post-shutdown activity. He began rewriting his final argument outline, structuring it around the deliberate concealment of data rather than mere error, ensuring every point aligned with this new chronological reality.

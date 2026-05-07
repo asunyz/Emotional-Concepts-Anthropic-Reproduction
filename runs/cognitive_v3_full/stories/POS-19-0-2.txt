@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 19
+# trajectory_name: curious-surprised-confused
+# prior: curious
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 2
+# character_name: Dr. Daniel Park
+---
+## Prior
+Dr. Daniel Park adjusted the microscope’s focus ring, rotating it slowly left, then right. He pulled three separate lab notebooks from the shelf, laying them side-by-side on the steel table. “Hypothesis A suggests thermal expansion,” he muttered, tapping the first page. He flipped to the second. “But structural fatigue fits the stress tests.” He leaned back, hands clasped behind his head, eyes fixed on the ceiling tiles while waiting for the centrifuge to finish its cycle.
+
+## Discovery
+The centrifume clicked off. Daniel opened the lid, lifted the tube, and held it to the light. His hand froze mid-air. He blinked rapidly, bringing the vial closer until it nearly touched his nose, then pulled it away sharply. He stared at the clear liquid, then down at his handwritten logbook, tracing the predicted precipitate line with a trembling finger. “That shouldn’t be transparent,” he whispered. He set the tube down hard, knocking over a pen.
+
+## Reaction
+Daniel grabbed a fresh slide, smeared a drop of the solution across the glass, and placed it under the lens. He adjusted the coarse focus, squinting intently, then spun the fine adjustment knob repeatedly, searching for clarity that remained elusive. Satisfied momentarily, he removed the slide, wiped it clean with a lint-free cloth, and prepared a second sample using a different staining protocol. He loaded this new preparation, peering through the eyepieces with furrowed brows, muttering calculations under his breath. When the results appeared equally ambiguous, he ejected the slide, capped the original tube tightly, and walked out of the lab without logging the final observation, leaving the equipment running.

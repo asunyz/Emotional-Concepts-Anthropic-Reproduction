@@ -1,0 +1,8 @@
+## Prior
+Sam scrolled past the generic exception header, fingers hovering over the keyboard. "Maybe it’s a timeout," he muttered, highlighting the line number. He cross-referenced the timestamp with the server logs, then minimized the window to check the deployment history. "Perhaps the cache cleared too early. Or maybe the network dropped packets. I’ll run the query twice just to see if it repeats."
+
+## Discovery
+His cursor froze on line 42. Sam leaned forward, eyes narrowing as he traced the variable assignment. He re-ran the snippet, watching the output flicker red instead of blue. "How did null get passed here?" he whispered, tapping the screen. He pulled up the function definition, comparing the signature against his mental model, then stared at the mismatched return type.
+
+## Reaction
+Sam closed the IDE tab and opened a fresh terminal, typing commands rapidly before deleting them. He switched to the documentation site, scrolling frantically for edge cases, then returned to the code to rewrite the handler. He copied the block into a sandbox environment, executed it, and watched the same error persist. Opening a chat window, he drafted a message explaining the discrepancy, paused, deleted the draft, and reopened the original log file to inspect the raw bytes one more time.

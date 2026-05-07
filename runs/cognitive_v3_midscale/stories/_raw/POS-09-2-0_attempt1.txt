@@ -1,0 +1,8 @@
+## Prior
+Dr. Aris Thorne stared at the empty chart slot, his mind drifting toward a diagnosis of early-stage hypothyroidism. He had noted the subtle fatigue and slight weight gain in his notes, yet he remained hesitant about jumping to conclusions without concrete markers. It felt like a reasonable guess, though the lack of definitive symptoms left him wondering if he was chasing ghosts rather than pathology.
+
+## Discovery
+He clicked open the digital lab results, expecting normal TSH levels. Instead, his eyes locked onto a potassium reading of 7.2 mmol/L, flashing red against the white background. The number seemed impossibly high for someone who reported feeling merely tired. His breath hitched as the implication hit him instantly: this was not thyroid dysfunction, but a critical electrolyte imbalance requiring immediate intervention.
+
+## Reaction
+Aris ignored the glaring abnormality, convincing himself it was a sample hemolysis artifact common in difficult draws. He muttered aloud about faulty equipment calibration while quickly closing the window to avoid alarming the nurse. There was no way the patient’s condition warranted such drastic measures based on a single anomalous value. He preferred sticking to the initial hypothesis of thyroid issues, dismissing the data point as an error rather than admitting the severity of the situation.

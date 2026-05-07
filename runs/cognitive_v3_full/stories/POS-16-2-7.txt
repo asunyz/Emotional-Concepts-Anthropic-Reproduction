@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 7
+# character_name: Marcus Lin
+---
+## Prior
+Marcus tapped his pen against the board, eyes darting between the knight’s new square and the exposed king. “Perhaps the bishop pins the pawn,” he muttered, shifting his gaze to the rook. “Or maybe it’s just a tempo loss.” He pulled out his notebook, sketching two divergent lines. “If White takes here, Black responds there. But if they hold, then…” He erased the second line, leaving the first faintly visible, ready to pivot if the calculation failed.
+
+## Discovery
+He scanned the reply, noting the standard recapture. His hand moved smoothly to push the pawn forward, logging the exchange in his mental ledger without pausing. He adjusted the clock, resetting the tension, and turned his attention to the open file ahead. No second look was needed; the pattern matched previous games exactly, so he proceeded directly to evaluating the resulting endgame structure.
+
+## Reaction
+Marcus closed his notebook with a definitive snap, signaling the end of the analysis phase. He aligned his pieces precisely, treating the earlier hesitation as fully resolved history. With the variation now locked into memory as fact, he executed the planned maneuver, using the established outcome as the foundation for his next strategic decision. The board state was no longer a question but a fixed coordinate, allowing him to plot the final approach with steady, uninterrupted focus toward checkmate.

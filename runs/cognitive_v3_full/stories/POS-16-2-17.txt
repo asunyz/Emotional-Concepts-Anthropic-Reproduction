@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 17
+# character_name: Marcus Lin
+---
+## Prior
+Marcus adjusted his glasses, staring at the board. "Perhaps the knight heads to f3," he murmured, tracing the air above the squares. He pulled out his notebook, sketching two divergent lines simultaneously. "If Black plays g6, White responds h4. But maybe it’s h3 instead." He tapped his pen against the table twice, waiting for the clock to tick down, prepared to pivot his strategy depending on which variation held up under scrutiny.
+
+## Discovery
+He glanced at the black piece sliding into place. It landed exactly where he had predicted. Marcus made a quick checkmark in the margin of his score sheet, closed the book, and reached for his water bottle. He took a sip, set the cup down precisely on the coaster, and shifted his gaze forward to the next move, already scanning the board for the upcoming tactical sequence without pausing to review the previous exchange.
+
+## Reaction
+With the line validated, Marcus cleared his mind of the earlier speculation. He swept the loose papers off the corner of the table, stacking them neatly into a single pile. His posture straightened as he committed fully to the white pawn push, moving the piece decisively across the wood grain. He noted the resulting open file in his mental map, integrating the new structural weakness into his long-term plan. The tentative doubts were archived; now, only the calculated advance remained, guiding his hand toward the next critical intersection on the sixty-four squares.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 15
+# character_name: Dr. Aris Thorne
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, squinting at the monitor’s glow. “It’s plausible,” he murmured, tapping the screen twice. He pulled up a secondary dataset, cross-referencing values. “Perhaps the variance is just noise. Or maybe the model holds.” He drafted an email to his lab partner, asking them to verify the raw logs. “Let me know if you see something I missed,” he added, leaving the subject line blank until sent.
+
+## Discovery
+He scrolled past the final graph, eyes sliding over the numbers without pausing. With a single click, he archived the file into the quarterly folder. “Recorded,” he noted in the logbook, closing the cover immediately. His pen moved to the next entry, detailing routine maintenance tasks. He did not look back at the screen, already turning his chair toward the supply cabinet to restock pipette tips.
+
+## Reaction
+Aris stamped the report ‘CLOSED’ in bold red ink, the sound sharp in the quiet room. He filed the document behind the others, aligning the edges perfectly against the spine of the previous month’s findings. The tentative query now rested securely in the archive, its answer no longer a variable but a fixed datum. He opened a new spreadsheet, typing the verified value directly into the primary equation. This number would anchor the next phase of calculations, allowing him to proceed without hesitation or further verification. He saved the work, closed the laptop, and stood up, ready to begin the next experiment with absolute certainty regarding the foundational data.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 7
+# topic: A traveler arrives at a destination after reading detailed reviews online
+# story_idx: 7
+# character_name: Hiroshi Tanaka
+---
+## Prior
+Hiroshi Tanaka scrolled past the hotel photos, pausing to highlight two conflicting comments about noise levels. He opened a new tab, cross-referencing timestamps to weigh recency against volume. "Perhaps the renovation finished early," he muttered, typing a draft email to his sister. "Maybe I’m overthinking it." He saved both the positive and negative threads side-by-side, preparing his itinerary for either outcome.
+
+## Discovery
+He stepped out onto the balcony, listening to the street below. The hum matched the review exactly. He nodded once, turned away from the railing, and checked his watch. Walking back inside, he logged the observation in his notebook with a single checkmark, then immediately began packing his suitcase for the next leg of the journey.
+
+## Reaction
+Hiroshi closed his laptop, the screen darkening as he pushed it aside. He placed his passport and wallet into the front pocket of his bag, zipping it shut with a firm tug. The ambiguity had dissolved into a fixed plan; he now moved with decisive efficiency, mapping his route to the train station on his phone without hesitation. Every step forward was grounded in the settled fact of the quiet evening ahead, allowing him to focus entirely on the logistics of departure rather than the details of arrival.

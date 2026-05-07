@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 2
+# character_name: Dr. Aamir Khan
+---
+## Prior
+Dr. Aamir Khan leaned back, tapping his pen against the chart. He listed potential causes for the fatigue, circling each without connecting them yet. "Let’s see where the numbers lead," he murmured, keeping his options wide open. He reviewed the initial history, noting inconsistencies without jumping to conclusions, treating every variable as equally plausible until the data arrived.
+
+## Discovery
+His pen stopped mid-air as the lab results populated on the screen. He blinked, leaning forward to read the potassium level twice. "That can’t be right," he whispered, comparing the value to the ECG strip. He frowned, rubbing his temple, realizing the severe hypokalemia contradicted the normal renal function markers presented in the same report.
+
+## Reaction
+He pulled the previous week’s discharge summary, highlighting the spironolactone prescription. Connecting the dots, he realized the diuretic interaction caused the electrolyte crash. He drafted a new medication adjustment plan, explicitly addressing the drug-drug conflict. He called the pharmacy to verify the refill status, ensuring the patient received immediate intervention based on this newly synthesized clinical picture.

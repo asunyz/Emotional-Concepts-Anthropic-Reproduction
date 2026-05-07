@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 0
+# character_name: Sam Patel
+---
+## Prior
+Sam highlighted the line number, muttered, "This might just be a timeout," while scrolling up. He toggled between two tabs, whispering, "Perhaps it’s memory?" He printed the stack, set a spare monitor aside, and asked the intern, "Is this standard? I’m not certain." He kept both hypotheses visible, ready to pivot if the next frame contradicted his initial lean.
+
+## Discovery
+He scanned the exception class, nodded once, and closed the window. Sam logged the ticket status as duplicate, marked it resolved, and clicked away. He opened his coffee mug, took a sip, and began typing a new commit message without pausing or looking back at the screen.
+
+## Reaction
+Sam saved the patch file, committed the changes, and pushed to the remote repository. He updated the Jira board, linking the fix to the original issue ID. With the task checked off, he minimized the IDE, opened his calendar, and blocked out thirty minutes for code review. He then drafted an email to the team lead, attaching the diff file and noting the resolution details clearly. Finally, he stood up, stretched, and walked toward the break room, leaving the terminal open on the desk.

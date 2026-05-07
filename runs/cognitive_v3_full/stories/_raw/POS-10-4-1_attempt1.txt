@@ -1,0 +1,8 @@
+## Prior
+Lina adjusted the rearview mirror, checking the blind spot twice before merging onto the highway. "The handling feels loose," she noted, tapping her pen against the notebook. "Perhaps the suspension is just worn out? Or maybe the alignment is off. I’m not entirely sure which it is yet." She flipped to a fresh page, sketching two separate diagnostic trees side-by-side, preparing to discard whichever theory the road disproved.
+
+## Discovery
+Her foot hovered over the brake pedal as the steering wheel kicked violently left. Lina froze, eyes widening slightly as the car corrected itself. She pulled into the nearest lot, killing the engine. Leaning forward, she examined the tire tread marks on the asphalt, then looked back at the dashboard warning light that had remained dark during the drive. "How is that possible?" she whispered, tracing the faint scuff mark on the fender with her finger.
+
+## Reaction
+She opened the hood, running her hands along the strut tower while recalling the initial vibration description. Connecting the lack of visual damage to the sudden lateral pull, she realized the issue wasn't mechanical wear but software lag in the stability control system. Lina pulled out her phone, recording a video of the sensor cluster to send to the technician, noting that the problem lay in the code’s reaction time rather than the hardware’s structural integrity. She crossed out her previous sketches, replacing them with a single flowchart detailing the electronic feedback loop.

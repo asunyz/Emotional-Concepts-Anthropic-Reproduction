@@ -1,0 +1,8 @@
+## Prior
+Olu Adebayo squinted at the jagged red lines scrolling across his monitor. "This looks like a memory leak," he muttered, tapping his pen against the desk. "Perhaps it’s just garbage collection lag? I’m not entirely sure." He opened a secondary terminal window, cross-referencing timestamps while holding both hypotheses in mind, ready to pivot if the logs contradicted his initial lean toward resource exhaustion.
+
+## Discovery
+His finger froze above the Enter key. The stack trace revealed a recursive call originating from the core kernel, not the application layer. He leaned forward, eyes narrowing as he re-scanned the line numbers. "That’s impossible," he whispered, rubbing his temples. The function called itself only in debug mode, which was explicitly disabled in production. How did that happen?
+
+## Reaction
+Olu dismissed the anomaly as corrupted log data. He adjusted the system clock settings by five minutes, assuming a timestamp sync issue caused the misleading recursion display. Rather than investigating the kernel source, he restarted the service with increased verbosity, expecting the same pattern to repeat under stricter logging conditions. "It’s definitely a caching artifact," he declared to the empty room, typing commands to isolate the suspected cache module, fully committed to the theory that the infrastructure, not the code, was responsible for the noise.

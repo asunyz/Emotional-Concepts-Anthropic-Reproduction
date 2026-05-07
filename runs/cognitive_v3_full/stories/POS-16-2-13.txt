@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 13
+# character_name: Elena Reyes
+---
+## Prior
+Elena traced the board with her finger, hovering over the knight’s potential squares. “Perhaps he aims for f5,” she murmured, shifting her gaze to the clock. “Or maybe it’s a trap on g7.” She pulled out her notebook, sketching both lines rapidly. “I’ll check the engine on f5 first, just to be safe. If that fails, I’ll pivot immediately.” Her pen tapped twice against the paper, ready to cross out whichever path proved false.
+
+## Discovery
+She glanced at the computer screen displaying the analysis. The line matched her primary guess exactly. She nodded once, closed the laptop lid, and turned her attention back to the tournament bracket. A quick sip of water followed. She marked the time control on her scorecard and prepared her pieces for the next round, moving directly to setting up the white pieces without further review.
+
+## Reaction
+Elena erased the tentative branches from her notebook, drawing a clean, bold arrow pointing toward the identified threat. She placed the eraser down firmly, signaling the end of the investigation. With decisive movements, she arranged her pawns and knights according to the now-settled plan, treating the previous speculation as obsolete history. She locked eyes with her opponent, raised a hand in greeting, and initiated the game, her posture relaxed and her focus entirely anchored to the established strategy rather than the earlier doubts.

@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 18
+# trajectory_name: curious-surprised-enlightened
+# prior: curious
+# discovery: surprised
+# reaction: enlightened
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 2
+# character_name: Dr. Daniel Park
+---
+## Prior
+Dr. Park adjusted the microscope’s focus knob, his fingers moving with deliberate slowness. He rotated the slide holder, inspecting the sample from three distinct angles before leaning back. "Hypothesis A suggests structural failure," he murmured, tapping his pen against the desk. "But Hypothesis B implies thermal expansion. Let’s see which variable holds weight without jumping to conclusions yet."
+
+## Discovery
+His hand froze mid-air, the pen hovering inches above his notebook. He leaned forward until his nose nearly touched the eyepiece, blinking rapidly as he re-focused the lens. His breath hitched audibly. "That’s impossible," he whispered, staring at the unexpected lattice formation. He grabbed the printed log, cross-referencing the timestamp, then looked back at the screen, furrowing his brow deeply at the discrepancy between theory and observation.
+
+## Reaction
+He pulled his chair closer, scattering previous sketches across the floor to clear space. With rapid strokes, he redrew the molecular diagram, connecting the isolated data points into a continuous loop. He flipped through earlier pages, circling old anomalies that now aligned perfectly with the new model. "It wasn’t noise," he noted aloud, updating the lab journal with precise coordinates. He immediately drafted an email to the department head, attaching the revised schematic and outlining the next experimental phase based on this unified explanation.

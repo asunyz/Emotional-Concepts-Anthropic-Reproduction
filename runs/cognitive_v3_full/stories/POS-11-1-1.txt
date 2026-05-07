@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 1
+# character_name: Dr. Sofia Rivera
+---
+## Prior
+Dr. Rivera tapped her pen against the counter, eyes scanning the lipid panel. "Triglycerides look elevated," she murmured, flipping the page. "Perhaps it’s dietary. Or maybe pre-analytical error. I’ll note both possibilities. If the repeat comes back high, we adjust; otherwise, we observe. Better safe than premature."
+
+## Discovery
+Her finger stopped mid-scroll. The sodium value glared back: 118 mmol/L. She blinked, leaning closer to the monitor. "That can’t be right," she whispered, re-reading the line. Her breath hitched slightly as she compared the number to the clinical picture of a stable patient. "How is hyponatremia possible here?"
+
+## Reaction
+She pulled up the previous day’s chart, cross-referencing medication lists. Then she opened the pharmacy log, checking for recent changes. Opening a new tab, she searched hospital protocols for asymptomatic hyponatremia. She printed the lab slip, held it under the light, then set it down untouched. Calling the lab tech, she requested a manual recalculation. Meanwhile, she drafted two different differential diagnoses, leaving both open on separate screens, unable to proceed further until the numbers aligned.

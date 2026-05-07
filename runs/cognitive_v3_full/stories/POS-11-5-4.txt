@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 4
+# character_name: Kenji Sato
+---
+## Prior
+Kenji adjusted his glasses, scanning the prosecutor’s outline while muttering, “Perhaps the timeline suggests negligence, maybe intentional misconduct.” He flipped to page four, then back to page one, cross-referencing dates. Turning to his neighbor, he asked, “Do you see the gap here? I’m not entirely certain it matters, but let’s check the statute again together.”
+
+## Discovery
+Kenji froze, pen hovering over his notepad as the defense attorney introduced a timestamped video log contradicting the earlier claim. His eyes widened slightly, and he leaned forward, squinting at the exhibit screen. “Wait,” he interrupted, voice tight. “That footage shows the server offline during the alleged incident. How is that possible if the logs indicate active access?”
+
+## Reaction
+He stopped writing, leaving the page half-filled. Kenji pulled out his phone, searching for prior case law, then closed the app and reopened the court transcript. He highlighted a sentence in red, then erased the highlight, switching to blue. He tapped the table twice, stood up, walked to the water cooler, returned, and stared at the jury box without speaking, unable to merge the conflicting records into a single narrative.

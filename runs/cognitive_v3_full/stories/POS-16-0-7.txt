@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 7
+# character_name: Dr. Daniel Park
+---
+## Prior
+Dr. Park adjusted his glasses, squinting at the monitor’s glow. “It’s roughly consistent,” he muttered, tapping the screen twice. He pulled up the raw dataset, cross-referencing values against his notebook. “Perhaps the variance is acceptable? Or maybe there’s a systematic error I missed.” He drafted an email to his lab partner, attaching the preliminary figures, asking them to verify the baseline calculations independently before drawing final conclusions.
+
+## Discovery
+He scanned the new log entry, noting the numbers matched his projections exactly. With a quick keystroke, he archived the file under ‘Q3_Experiments’ and minimized the window. Opening his calendar, he scheduled the next batch run for Tuesday afternoon, then turned his attention to reviewing unrelated literature on polymer stability, moving seamlessly to the next item on his agenda without pausing.
+
+## Reaction
+Park closed the experimental folder, marking the investigation complete in his digital tracker. He deleted the temporary working files to free up server space, ensuring no residual data would clutter future analyses. Standing up, he walked over to the whiteboard where he had previously scribbled tentative hypotheses, erasing the relevant equations with deliberate strokes. He then picked up his pen and began drafting the methods section of his paper, integrating the verified results directly into the narrative flow, treating the outcome as established fact rather than a possibility to be debated further.

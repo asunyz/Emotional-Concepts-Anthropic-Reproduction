@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 4
+# topic: A buyer test-drives a car they have researched extensively
+# story_idx: 4
+---
+## Prior
+The transaction file contains extensive digital records regarding Model X sedan specifications, including performance metrics, safety ratings, and competitor comparisons gathered over three weeks. The vehicle is parked in the designated testing lane, engine off, keys present in the ignition slot. Standard pre-drive inspection protocols are documented in the service manual, establishing baseline operational parameters for evaluation.
+
+## Discovery
+Ignition occurs at T-minus zero seconds. The dashboard display illuminates, showing zero miles on the odometer and active diagnostic modes. Engine startup noise registers at 62 decibels within the cabin. Acceleration tests reveal torque delivery peaks at 2,500 RPM. Steering response time measures 180 milliseconds from input to wheel rotation. Braking distance from 60 mph is recorded at 125 feet on dry asphalt.
+
+## Reaction
+Data points align with manufacturer specifications for the base trim level. Torque curves indicate adequate low-end power but limited high-RPM efficiency compared to luxury segment benchmarks. Steering latency falls within acceptable tolerances for daily commuting but suggests reduced agility in emergency maneuvers. Braking performance meets federal safety standards without exceeding premium class expectations. The vehicle satisfies core functional requirements for urban transit, though dynamic handling characteristics remain neutral relative to higher-tier competitors.

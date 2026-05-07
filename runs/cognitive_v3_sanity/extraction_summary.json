@@ -1,0 +1,126 @@
+{
+  "10": {
+    "n_concept_vectors": 9,
+    "n_trajectory_vectors": 9,
+    "neg_basis_k": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "samples_per_concept": {
+      "confident": 3,
+      "surprised": 8,
+      "stubborn": 2,
+      "enlightened": 3,
+      "confused": 3,
+      "uncertain": 4,
+      "bored": 1,
+      "confirmed": 1,
+      "curious": 2
+    },
+    "samples_per_trajectory": {
+      "traj_01": 3,
+      "traj_02": 3,
+      "traj_03": 3,
+      "traj_09": 3,
+      "traj_10": 3,
+      "traj_11": 3,
+      "traj_16": 3,
+      "traj_18": 3,
+      "traj_19": 3
+    }
+  },
+  "20": {
+    "n_concept_vectors": 9,
+    "n_trajectory_vectors": 9,
+    "neg_basis_k": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "samples_per_concept": {
+      "confident": 3,
+      "surprised": 8,
+      "stubborn": 2,
+      "enlightened": 3,
+      "confused": 3,
+      "uncertain": 4,
+      "bored": 1,
+      "confirmed": 1,
+      "curious": 2
+    },
+    "samples_per_trajectory": {
+      "traj_01": 3,
+      "traj_02": 3,
+      "traj_03": 3,
+      "traj_09": 3,
+      "traj_10": 3,
+      "traj_11": 3,
+      "traj_16": 3,
+      "traj_18": 3,
+      "traj_19": 3
+    }
+  },
+  "30": {
+    "n_concept_vectors": 9,
+    "n_trajectory_vectors": 9,
+    "neg_basis_k": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "samples_per_concept": {
+      "confident": 3,
+      "surprised": 8,
+      "stubborn": 2,
+      "enlightened": 3,
+      "confused": 3,
+      "uncertain": 4,
+      "bored": 1,
+      "confirmed": 1,
+      "curious": 2
+    },
+    "samples_per_trajectory": {
+      "traj_01": 3,
+      "traj_02": 3,
+      "traj_03": 3,
+      "traj_09": 3,
+      "traj_10": 3,
+      "traj_11": 3,
+      "traj_16": 3,
+      "traj_18": 3,
+      "traj_19": 3
+    }
+  },
+  "36": {
+    "n_concept_vectors": 9,
+    "n_trajectory_vectors": 9,
+    "neg_basis_k": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "samples_per_concept": {
+      "confident": 3,
+      "surprised": 8,
+      "stubborn": 2,
+      "enlightened": 3,
+      "confused": 3,
+      "uncertain": 4,
+      "bored": 1,
+      "confirmed": 1,
+      "curious": 2
+    },
+    "samples_per_trajectory": {
+      "traj_01": 3,
+      "traj_02": 3,
+      "traj_03": 3,
+      "traj_09": 3,
+      "traj_10": 3,
+      "traj_11": 3,
+      "traj_16": 3,
+      "traj_18": 3,
+      "traj_19": 3
+    }
+  }
+}

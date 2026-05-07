@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 11
+# trajectory_name: uncertain-surprised-confused
+# prior: uncertain
+# discovery: surprised
+# reaction: confused
+# topic_idx: 5
+# topic: A juror listens to opening statements in a complex case
+# story_idx: 1
+# character_name: Marcus Brown
+---
+## Prior
+Marcus adjusted his glasses, squinting at the financial records spread across the table. "These figures seem plausible," he murmured, tapping the pen against the ledger. "Perhaps there’s a missing context I haven’t seen yet." He flipped to page four, then back to page one, cross-referencing dates. "Maybe the defendant acted in good faith? Or perhaps negligence?" He kept both hypotheses open, noting discrepancies without concluding which was more likely.
+
+## Discovery
+His pen stopped mid-sentence. Marcus leaned forward, eyes narrowing as he traced a highlighted line. He reread the clause twice, then pulled the original contract from the stack. "How is that possible?" he whispered, comparing the signed amendment to the exhibit binder. His breath hitched slightly as he realized the date on the document contradicted the timeline presented earlier. He sat back, staring at the conflicting pages.
+
+## Reaction
+He closed his notebook abruptly, then reopened it, flipping rapidly between sections without reading further. Marcus picked up the phone, dialed, hung up, then redialed. He compared the prosecutor’s summary sheet with his own notes, circling contradictions in red ink before crossing them out. He stood, walked to the window, looked back at the desk, and returned to sit. He opened a fresh page, wrote a heading, erased it immediately, and stared blankly at the empty paper, unable to proceed.

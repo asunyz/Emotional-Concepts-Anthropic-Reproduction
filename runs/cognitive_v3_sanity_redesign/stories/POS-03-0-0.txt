@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 3
+# trajectory_name: confident-surprised-confused
+# prior: confident
+# discovery: surprised
+# reaction: confused
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 0
+---
+## Prior
+Dr. Aris aligned the final lens, his hands steady as he adjusted the aperture. He had already scheduled the press conference for tomorrow morning, assuming the spectral lines would match his theoretical model perfectly. With a decisive nod, he reached for the draft of his acceptance speech lying on the desk, placing it beside the microscope slide holder, ready to announce the breakthrough that validated five years of work.
+
+## Discovery
+His finger froze inches above the microphone button. Aris leaned in, squinting at the glowing display, then pulled back sharply. He grabbed the printed log sheet, scanning the numbers twice, his brow furrowing deeply. "The peak is shifted," he muttered, voice tight. "That shouldn't happen. How is that possible?" He tapped the glass repeatedly, staring at the anomaly that contradicted every calculation he had made.
+
+## Reaction
+Aris pushed his chair back abruptly, knocking his pen onto the floor. He did not bend to retrieve it immediately. Instead, he walked to the server rack, pulling up the raw data stream on his laptop. He scrolled rapidly, highlighting different segments, then switched to the calibration logs, comparing timestamps side-by-side. He ran the diagnostic script again, watching the progress bar crawl. When it finished, he opened a new window to cross-reference with last month’s control group data. He stared at the screen, typing a query, deleting it, and opening another file without making a decision.

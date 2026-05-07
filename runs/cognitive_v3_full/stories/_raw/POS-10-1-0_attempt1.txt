@@ -1,0 +1,8 @@
+## Prior
+Dr. Hiro Tanaka adjusted his glasses, squinting at the electrolyte levels. “Potassium looks low, perhaps slightly,” he muttered, tapping the screen twice to refresh the cache. He pulled the previous chart, comparing dates side-by-side. “It might be dietary, or maybe the sample hemolyzed.” He opened a draft email to the lab director, typing *‘Please verify’*, then paused, cursor blinking over the send button while he weighed both possibilities.
+
+## Discovery
+His finger froze above the mouse. Tanaka leaned forward, nose inches from the monitor, eyes widening as he traced the sodium line upward. He blinked rapidly, rubbing his temple before zooming in on the creatinine spike. “That’s impossible,” he whispered, voice tight. He scrolled up, checking the timestamp, then down to the urine output log, frowning deeply as the numbers refused to align with his initial hypothesis.
+
+## Reaction
+Tanaka exhaled sharply, spinning his chair toward the whiteboard. He erased the differential diagnosis list, drawing a large circle labeled ‘Renal Tubular Acidosis.’ He connected the high chloride, low bicarbonate, and normal anion gap with thick red lines, linking them to the patient’s history of autoimmune thyroiditis. He picked up his pen, rewriting the treatment plan to include potassium citrate rather than standard replacement. He printed the corrected summary, signed it firmly, and walked out of the room, already dictating orders into his recorder with renewed purpose.

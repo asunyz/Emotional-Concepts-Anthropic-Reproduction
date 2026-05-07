@@ -1,0 +1,8 @@
+## Prior
+Dr. Maria Chen adjusted the microscope’s focus knob, squinting at the fluorescent markers. “Perhaps the intensity suggests low expression,” she murmured, tapping her pen against the logbook. She cross-referenced the control group data, noting minor discrepancies. “Maybe it’s just background noise. I’ll run the assay again tomorrow to be certain.” She kept both hypotheses open, labeling the file ‘Tentative’ rather than ‘Confirmed.’
+
+## Discovery
+Her hand froze over the keyboard. She leaned forward, eyes widening as she reread the spectral analysis. “How is that possible?” she whispered, pulling the raw dataset closer. The peak she expected to vanish sat prominent and sharp. She blinked rapidly, checking the timestamp and filter settings twice, her brow furrowing as the unexpected clarity contradicted every prediction she had written down.
+
+## Reaction
+She grabbed a fresh sheet of paper, sketching a new model that integrated the anomalous peak with previous failed trials. Connecting dots on the board, she realized the old assumption about degradation was flawed. Maria rewrote her lab notes, explicitly discarding the outdated theory and outlining a revised mechanism that explained the stability. She drafted an email to her team, detailing the corrected pathway and scheduling an immediate meeting to align everyone with this updated framework, ensuring future experiments targeted the newly identified variable.

@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+---
+## Prior
+The game record indicates White has executed a Sicilian Defense structure, maintaining control over the central d4 square. Black’s pieces are developed on the queenside, with the knight positioned on c6 and the bishop on g7. Standard opening theory suggests that Black should prepare for a central pawn break using e5 or c5 within the next three moves to challenge White’s spatial advantage and maintain material balance.
+
+## Discovery
+Black plays h5, advancing the h-pawn two squares past the initial rank. This maneuver bypasses standard developing principles by neglecting piece coordination and central tension. The move creates immediate weaknesses along the kingside diagonal and fails to address the open files currently controlled by White’s rooks. The board state now reflects a significant deviation from established theoretical lines for this specific variation.
+
+## Reaction
+The deviation triggers a reassessment of tactical priorities based on standard positional evaluation metrics. Engine analysis typically assigns a negative evaluation score to such premature flank advances due to the loss of tempo and structural integrity. Professional protocols dictate that White should exploit the weakened kingside by initiating a direct attack, utilizing the open h-file. Strategic focus shifts from general development to concrete calculation of forcing lines, ensuring maximum pressure is applied before Black can consolidate their position or complete necessary defensive maneuvers.

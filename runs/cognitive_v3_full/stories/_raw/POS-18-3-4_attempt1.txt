@@ -1,0 +1,8 @@
+## Prior
+Olu Adebayo scrolled past the initial crash dump, fingers hovering over the keyboard. He opened three separate terminal windows, arranging them side-by-side without opening any files yet. "Is this memory corruption or a race condition?" he muttered, tilting his head to view the logs from different vertical angles. He highlighted conflicting timestamps, noting discrepancies between the kernel ring buffer and user-space logs, refusing to pin down a single cause until the pattern emerged clearly across all views.
+
+## Discovery
+His finger froze above the enter key. Olu leaned forward, squinting at line 402 where the pointer value defied the allocation logic he had traced moments ago. He re-read the hex dump twice, then tapped the screen near the anomous address. "How is that possible? The stack unwinds backward here," he whispered, pulling up the original source file to cross-reference the variable scope against the unexpected register state displayed in the core dump.
+
+## Reaction
+He dragged the relevant code snippet into a fresh diagramming tool, drawing arrows that connected the misplaced pointer directly to the async callback handler. Olu revised his mental model, realizing the timer interrupt was modifying shared state outside the lock. He rewrote the synchronization wrapper, adding explicit memory barriers to enforce ordering. With the fix drafted, he compiled the patch and initiated a stress test, watching the new logs stream cleanly without the previous fragmentation errors, confirming the structural adjustment resolved the underlying instability completely.

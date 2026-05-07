@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 0
+# topic: A scientist examines an experimental result they have been waiting for
+# story_idx: 9
+# character_name: Dr. Elena Vega
+---
+## Prior
+Dr. Elena Vega adjusted her glasses, squinting at the monitor’s glow. “The variance looks high,” she murmured, tapping the keyboard to rerun the simulation. “Perhaps it’s just noise. Or maybe the model needs tweaking.” She printed the raw data, setting it beside her notebook, ready to argue either point depending on what the peer review demanded tomorrow.
+
+## Discovery
+She scanned the new column, noting the familiar numbers aligned perfectly with expectations. Without pausing, she logged the entry into the database, marked the file as complete, and immediately opened the next dataset. Her hands moved steadily to the next task, leaving the current screen untouched as she began typing fresh code.
+
+## Reaction
+Elena closed the analysis window, signaling the end of that particular investigation. She archived the final report under the resolved folder, ensuring no further checks were pending. With the question settled, she shifted her focus entirely to the upcoming grant proposal, treating the previous findings as established fact rather than open inquiry. Her posture relaxed slightly as she drafted the methods section, relying on the now-stable data to support her broader arguments. She saved the document, knowing the groundwork was solid, and prepared for the next phase of work without looking back at the completed experiment.

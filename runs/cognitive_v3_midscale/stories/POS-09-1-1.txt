@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 1
+# topic: A reader reaches a critical passage in a book they are working through
+# story_idx: 1
+---
+## Prior
+Elias hovered his finger above the cracked spine of the ancient manuscript, his breath held tight in his chest. He suspected the hidden cipher lay within the marginalia’s erratic scribbles, yet doubt gnawed at him. The previous chapters had offered no clear path, leaving him to guess whether the author’s madness was intentional code or mere rambling despair. He prepared himself for another dead end, expecting silence where meaning should reside.
+
+## Discovery
+His eyes locked onto a single, repeated symbol nestled between two dense paragraphs of Latin text. It was not random ink blots but a precise geometric pattern, glowing faintly under the desk lamp’s harsh beam. The shape matched the constellation map he had memorized weeks ago, appearing exactly where he least expected it. The alignment was too perfect, too deliberate to be accidental noise, demanding immediate focus from his weary gaze.
+
+## Reaction
+He slammed the book shut, refusing to accept the obvious connection staring back at him. This was merely a trick of the light, a desperate projection of his own tired mind seeking order in chaos. The symbol meant nothing; it was just dust settling on old parchment, irrelevant to the true narrative arc he had constructed. To admit otherwise would unravel the entire theory he had spent months building, so he tore out the page instead, burning the evidence in the fireplace while insisting the original hypothesis remained intact and unshaken by such trivial anomalies.

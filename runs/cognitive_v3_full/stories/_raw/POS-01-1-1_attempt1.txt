@@ -1,0 +1,8 @@
+## Prior
+Dr. Sofia Rivera stamped the requisition form with decisive authority. “Renal failure,” she declared to the nurse, handing over the discharge papers. “Start him on dialysis immediately. The BUN levels are critical.” She turned toward the pharmacy kiosk, fingers already hovering over the keyboard to order the initial hemodialysis session, treating the diagnosis as settled fact.
+
+## Discovery
+Her finger froze above the ‘Confirm’ button. Eyes narrowed, she leaned forward until her nose nearly touched the monitor. Re-scanning the electrolyte panel, she traced the sodium line twice. “Sodium is normal?” she whispered, voice tight. “If he’s failing, why are his potassium and creatinine stable? How is that possible?” She tapped the screen aggressively, demanding the system refresh the raw data feed.
+
+## Reaction
+“System lag,” she muttered, dismissing the anomaly as a technical glitch rather than a clinical reality. Instead of reviewing the patient’s history, she opened the instrument maintenance log and initiated a self-calibration routine for the analyzer. “Recalibrate the sensors,” she instructed the technician via intercom, ignoring the contradictory labs. She printed the original erroneous report, signed it, and placed it in the chart. “Proceed with dialysis orders,” she commanded, ensuring the treatment plan aligned perfectly with her initial, uncorrected assessment despite the new data.

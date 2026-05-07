@@ -1,0 +1,8 @@
+## Prior
+Dr. Rivera squinted at the potassium level, tapping her pen against the chart. “It’s borderline high,” she murmured, flipping to the creatinine page. “Perhaps mild dehydration, maybe renal issues. I’ll order a repeat test.” She highlighted both possibilities in yellow, leaving the final diagnosis open while preparing the requisition form for tomorrow’s morning draw.
+
+## Discovery
+She scanned the incoming email notification, eyes sliding past the header. “Potassium normal,” she noted aloud, clicking ‘archive’ without expanding the attachment. Her finger hovered briefly over the reply button before moving to the next patient’s file. She logged the value in the system, closed the window, and began typing the discharge summary for Mr. Henderson.
+
+## Reaction
+Dr. Rivera selected the ‘resolved’ status flag for the electrolyte query, removing the yellow highlight from her digital chart. She finalized the treatment plan based on the now-closed loop, integrating the stable data point into the discharge instructions. With the question marked complete, she saved the document, printed the paperwork, and walked toward the nursing station to hand off the updated care orders to the shift nurse.

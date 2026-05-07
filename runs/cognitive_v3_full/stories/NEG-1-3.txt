@@ -1,0 +1,13 @@
+# type: NEG
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+---
+## Prior
+Dr. Elena Vance initiated a comprehensive metabolic panel for Patient ID 89402 upon admission to St. Jude’s Medical Center. The order included measurements for glucose, electrolytes, renal function markers, and hepatic enzymes. Baseline vitals recorded upon triage indicated stable hemodynamic parameters with no immediate signs of acute distress or systemic infection requiring urgent intervention beyond routine monitoring protocols.
+
+## Discovery
+The laboratory report indicates serum sodium levels at 128 mEq/L, falling below the normal reference range of 135–145 mEq/L. Serum potassium remains within acceptable limits at 4.2 mEq/L. Creatinine concentration is elevated at 1.4 mg/dL compared to the previous quarter’s value of 0.9 mg/dL. Glucose readings show mild hyperglycemia at 110 mg/dL fasting. Hepatic transaminases are within standard deviation.
+
+## Reaction
+Hyponatremia requires immediate fluid balance assessment and potential isotonic saline administration depending on volume status. Elevated creatinine suggests acute kidney injury necessitating nephrology consultation and adjustment of renally cleared medications. Hyperglycemic trends warrant dietary review and possible insulin titration. The care team updates the treatment plan to include hourly urine output tracking and daily weight measurements to monitor fluid retention and renal recovery trajectory effectively.

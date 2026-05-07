@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 6
+# topic: A diner takes the first bite of a dish at a highly-recommended restaurant
+# story_idx: 9
+# character_name: Amara Diop
+---
+## Prior
+Amara held the menu open, her finger hovering over the signature risotto. "Perhaps the saffron is strong," she murmured to her companion, tapping the page twice. "Or maybe it’s just mild. I’m not entirely sure which way the chef leans." She slid the book across the table, then pulled it back. "Let’s check the reviews again? Just to be safe."
+
+## Discovery
+She lifted the spoon, tasting the creamy broth. Her eyes flicked to the plate, noting the texture and color. "Standard saffron profile," she noted briefly, setting the utensil down on the napkin. She picked up her water glass, took a sip, and turned her attention to the conversation at the table, leaving the meal untouched for a moment.
+
+## Reaction
+Amara signaled the waiter with a sharp tap of her fork against the ceramic rim. "That matches my expectations perfectly," she stated clearly, her voice steady and final. She closed the menu completely, pushing it aside to make room for dessert options. With the ambiguity resolved, she selected the chocolate tart, ordering it with decisive authority while scanning the wine list for a bold red to pair with the rich flavors ahead.

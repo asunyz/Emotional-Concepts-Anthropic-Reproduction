@@ -1,0 +1,18 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 2
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 3
+---
+## Prior
+Dr. Aris Thorne adjusted his glasses, scanning the requisition form for young Mr. Evans. He suspected mild dehydration given the recent heatwave, yet he lacked definitive proof. His mind drifted between electrolyte imbalance and early-stage renal stress. He prepared himself for ambiguity, knowing the numbers might contradict his initial hunch entirely, leaving him to weigh probabilities rather than facts.
+
+## Discovery
+The digital panel loaded, revealing standard creatinine levels within normal limits. Electrolytes showed slight elevation, perfectly aligning with fluid loss from excessive sun exposure. No inflammatory markers appeared. The data presented a flat, predictable landscape. Aris noted the absence of anomalies, observing how every value sat comfortably within the expected range for a summer afternoon without exertion.
+
+## Reaction
+A quiet sigh escaped him as he finalized the diagnosis. The alignment between observation and hypothesis solidified his stance, transforming speculation into clinical certainty. He typed the prescription for oral rehydration salts, feeling the mental weight lift. The case closed neatly, requiring no further investigation or second-guessing. He archived the file, satisfied that the straightforward path had yielded the correct answer efficiently, allowing him to move on to more complex cases awaiting his attention later in the day.

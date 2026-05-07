@@ -1,0 +1,8 @@
+## Prior
+Tej Murthy hovered over the terminal, cursor blinking against the wall of red text. He tapped the enter key twice, then hit backspace. “Maybe it’s just a timeout,” he muttered, scrolling up to verify the timestamp. “Perhaps the network dropped packets. Or maybe the service crashed.” He opened a second tab to cross-reference the error code, holding both hypotheses open simultaneously, ready to pivot if the next line contradicted his current guess.
+
+## Discovery
+He scanned the next frame in the stack trace, noting the standard library call. His eyes flicked left, then right, before moving down to the subsequent line. He logged the module name into his ticket system with a single keystroke, leaving the field blank for further details. Without pausing to analyze the context, he closed the browser window and switched tabs to his email client, marking the previous task as checked off.
+
+## Reaction
+Tej Murthy minimized the debugging console and opened the project repository. He navigated directly to the configuration file associated with the identified module. With deliberate precision, he located the relevant environment variable block. He updated the retry logic parameter, saving the changes immediately. He committed the patch with a message referencing the resolved issue ID. Then, he initiated the build pipeline, watching the progress bar fill completely green. Once the tests passed, he merged the branch and pushed the update to production, closing the editor and turning his attention fully to the next item on his queue.

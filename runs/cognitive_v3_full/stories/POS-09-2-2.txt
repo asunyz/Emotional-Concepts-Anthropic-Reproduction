@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 9
+# trajectory_name: uncertain-surprised-stubborn
+# prior: uncertain
+# discovery: surprised
+# reaction: stubborn
+# topic_idx: 2
+# topic: A chess player evaluates a position after their opponent's unexpected move
+# story_idx: 2
+# character_name: Marcus Lin
+---
+## Prior
+Marcus adjusted his glasses, eyes scanning the board while muttering, “Perhaps the knight’s fork is viable, maybe.” He flipped a piece back and forth, holding two variations in mind. “I think the bishop controls the diagonal, but I’m not certain,” he told his rival, already setting aside a backup plan just in case his primary calculation proved flawed.
+
+## Discovery
+His hand froze mid-move, fingers hovering over the white rook. He leaned closer, squinting at the black queen’s new angle. His breath hitched slightly as he traced the line of attack again, comparing it sharply to his earlier mental map. “How is that possible?” he whispered, staring at the sudden exposure of his king, completely contradicting his previous assessment.
+
+## Reaction
+Marcus straightened his posture abruptly, ignoring the glaring threat. He picked up his clock and pressed it, claiming the time pressure forced the odd placement. “It’s clearly a blunder,” he announced loudly to the room, dismissing the tactical reality as noise. He reached for his drink, taking a long sip while maintaining eye contact, effectively shutting down further analysis. Then, he moved his rook exactly where he had planned initially, reinforcing his original narrative despite the board showing otherwise. He began organizing his score sheet, ensuring the record reflected his preferred outcome, effectively erasing the discrepancy from the official log while continuing to play as if the danger did not exist.

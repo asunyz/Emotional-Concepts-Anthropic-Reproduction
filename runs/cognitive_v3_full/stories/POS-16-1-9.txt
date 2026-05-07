@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 9
+# character_name: Dr. Chika Okonkwo
+---
+## Prior
+Dr. Okonkwo tapped the pen against her chin, eyes scanning the lipid profile. “Triglycerides look elevated,” she murmured to the empty room. “Perhaps stress affected it.” She pulled up the previous chart, comparing dates. “Maybe dietary changes explain it too.” She drafted two separate referral letters simultaneously, leaving both unsent, ready to pivot depending on which variable held more weight.
+
+## Discovery
+She scrolled past the CBC results, noting the white blood cell count matched expectations. With a quick click, she archived the file into the standard tracking folder. Her finger hovered briefly over the mouse, then moved immediately to open the next patient’s chart. No further review occurred; the data was filed away as routine background noise.
+
+## Reaction
+With the diagnosis locked in, Dr. Okonkwo finalized the prescription for atorvastatin. She printed the medication guide and placed it neatly atop the discharge papers. The tentative hypotheses were discarded; the treatment plan was now fixed. She signed the electronic order, closed the tab, and turned to greet the patient, fully committed to the therapeutic course established by the resolved lab values.

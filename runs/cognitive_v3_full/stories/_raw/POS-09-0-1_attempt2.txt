@@ -1,0 +1,8 @@
+## Prior
+Dr. Chen adjusted the microscope focus, squinting at the glowing blue spots. “Perhaps this cluster indicates success,” she murmured, typing the observation into her log. She paused, then added, “Though the intensity seems low. Maybe it’s background noise.” She printed the raw data sheet, folded it neatly, and placed it beside a stack of alternative control results, ensuring both files remained accessible on her desk.
+
+## Discovery
+Her finger froze over the keyboard. The screen displayed a bright, distinct red peak where white silence had been predicted. Her breath hitched audibly. She leaned forward, pressing her glasses against the monitor, then pulled back sharply. “How is that possible?” she whispered, tracing the unexpected spike with her pen while staring at the theoretical model taped to the wall.
+
+## Reaction
+Chen immediately reached for the calibration manual, flipping pages until she found the sensor adjustment guide. She disconnected the primary probe, cleaned the lens with alcohol wipes, and reattached it, muttering about potential hardware interference. After running a new baseline test that yielded identical anomalous readings, she dismissed the anomaly as a persistent glitch. Ignoring the contradictory data, she began drafting a protocol for the next phase of trials, explicitly designing controls to reinforce her original hypothesis rather than investigate the new finding further.

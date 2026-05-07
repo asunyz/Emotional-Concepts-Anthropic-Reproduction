@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 1
+# topic: A doctor reviews a patient's lab panel they have just ordered
+# story_idx: 17
+# character_name: Dr. Aamir Khan
+---
+## Prior
+Dr. Khan tapped his pen against the counter, eyes scanning the lipid panel twice. He muttered to himself, "Maybe the triglycerides are high, perhaps due to recent diet changes," while holding the paper up to the light. He opened a new tab to cross-reference reference ranges, typing a query into the search bar before closing it. "I think it’s borderline, but I’m not entirely sure yet," he told the nurse, handing her the chart to fetch the patient for clarification.
+
+## Discovery
+He looked at the potassium level, noted the number 4.2, and immediately clicked to the next test. His finger hovered briefly over the mouse, then moved decisively to the sodium row. He typed the value into the electronic record, saved the entry, and scrolled down to the white blood cell count without pausing. The screen blurred slightly as he adjusted his glasses, focusing instantly on the hemoglobin metrics ahead.
+
+## Reaction
+Dr. Khan closed the lab window and minimized the browser. He selected the diagnosis code for hyperlipidemia from the dropdown menu, attaching the previous visit’s notes to justify the medication adjustment. He printed the prescription slip, signed it with a sharp, deliberate motion, and handed it to the waiting patient. Then, he turned to his computer keyboard, began typing notes for the next appointment, and locked the file away from view.

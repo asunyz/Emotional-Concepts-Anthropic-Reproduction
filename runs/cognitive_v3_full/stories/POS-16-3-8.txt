@@ -1,0 +1,19 @@
+# type: POS
+# trajectory_id: 16
+# trajectory_name: uncertain-bored-confirmed
+# prior: uncertain
+# discovery: bored
+# reaction: confirmed
+# topic_idx: 3
+# topic: A debugger steps through a stack trace from an unfamiliar error log
+# story_idx: 8
+# character_name: Tej Murthy
+---
+## Prior
+Tej Murthy squinted at the glowing terminal, his finger hovering over the mouse button. “Maybe the null pointer is here,” he muttered, scrolling up to verify the line number against the documentation. He tapped his pen twice, then opened a second window to cross-reference the library version. “Perhaps it’s a race condition? I think so, but I’m not sure.” He kept both hypotheses open, ready to pivot if the next frame contradicted his initial lean.
+
+## Discovery
+His eyes scanned the function call chain, noting the familiar `NullPointerException` at index four. Tej clicked past the frame without expanding it, logging the standard error code into his ticket system. He marked the item as duplicate, closed the debug panel, and immediately began typing the fix for the adjacent memory leak, moving straight to the next task without pausing or looking back.
+
+## Reaction
+Tej saved the patch file, committing the changes with a concise message describing the root cause he had just identified. He ran the test suite locally, watching the green checkmarks cascade across the screen. Satisfied, he pushed the commit to the repository and merged the branch, effectively closing the debugging session. The earlier hesitation vanished as he moved on to review the pull request from his teammate, treating the issue as fully resolved and integrating the new stability into the main build process.

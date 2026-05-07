@@ -1,0 +1,8 @@
+## Prior
+Olu Adebayo scrolled past the initial frames of the stack trace, his eyes locking onto the `NullPointerException` in module B. He tapped the keyboard decisively, muttering, "It’s definitely the unvalidated input from service C causing the cascade." He immediately opened the configuration file for service C, preparing to insert the null-check patch he had already drafted in his mind, assuming the fix would resolve the crash instantly.
+
+## Discovery
+His finger hovered over the enter key. Olu leaned closer to the monitor, squinting at the variable names. He highlighted the offending line, re-scanned the preceding logs, and frowned. "Wait," he whispered, pointing at the timestamp. "Service C isn't even instantiated yet. How is that possible?" He sat back abruptly, the code editor still open, his previous assumption crumbling against the visible timeline.
+
+## Reaction
+Olu closed the config window and reopened the network traffic logs, cross-referencing them with the database schema. He toggled between three different tabs, copying snippets into a blank document, then deleting them, unable to settle on a single root cause. He ran the unit test suite again, watching the progress bar crawl, but stopped it halfway through when another warning appeared. He stared at the screen, fingers steepled, cycling through potential race conditions and memory leaks without committing to a new hypothesis, leaving the terminal prompt blinking unanswered while he remained frozen in indecision.
