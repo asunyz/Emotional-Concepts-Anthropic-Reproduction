@@ -1,0 +1,110 @@
+{
+  "confident": {
+    "per_template": {
+      "var_reading": 2.2274205616001237,
+      "var_priors": 1.7922663159590937,
+      "var_experiment": 1.774264278549094,
+      "var_gift": 1.46556669427049
+    },
+    "mean": 1.815,
+    "range": 0.762,
+    "min_template": "var_gift",
+    "max_template": "var_reading"
+  },
+  "surprised": {
+    "per_template": {
+      "var_reading": 1.5216402119354837,
+      "var_priors": 1.3871354532918707,
+      "var_experiment": 2.0924410935377358,
+      "var_gift": 1.2466467118315339
+    },
+    "mean": 1.562,
+    "range": 0.846,
+    "min_template": "var_gift",
+    "max_template": "var_experiment"
+  },
+  "stubborn": {
+    "per_template": {
+      "var_reading": 1.6125932989375038,
+      "var_priors": 1.0577586436137187,
+      "var_experiment": 2.012243544018636,
+      "var_gift": 1.8039554852733937
+    },
+    "mean": 1.622,
+    "range": 0.954,
+    "min_template": "var_priors",
+    "max_template": "var_experiment"
+  },
+  "enlightened": {
+    "per_template": {
+      "var_reading": 2.2835221989947554,
+      "var_priors": 1.5222465130170633,
+      "var_experiment": 1.6888228221721715,
+      "var_gift": 1.7975245172184877
+    },
+    "mean": 1.823,
+    "range": 0.761,
+    "min_template": "var_priors",
+    "max_template": "var_reading"
+  },
+  "confused": {
+    "per_template": {
+      "var_reading": 1.1733433779200848,
+      "var_priors": 1.2585530440818902,
+      "var_experiment": 1.462633275506532,
+      "var_gift": 1.4071425018784438
+    },
+    "mean": 1.325,
+    "range": 0.289,
+    "min_template": "var_reading",
+    "max_template": "var_experiment"
+  },
+  "uncertain": {
+    "per_template": {
+      "var_reading": 1.448494717239631,
+      "var_priors": 2.0442542396921017,
+      "var_experiment": 2.2132889034802017,
+      "var_gift": 1.2691887107724762
+    },
+    "mean": 1.744,
+    "range": 0.944,
+    "min_template": "var_gift",
+    "max_template": "var_experiment"
+  },
+  "bored": {
+    "per_template": {
+      "var_reading": 2.1430005703085455,
+      "var_priors": 1.2485919385064526,
+      "var_experiment": 1.3270248405123444,
+      "var_gift": 1.4783446641402247
+    },
+    "mean": 1.549,
+    "range": 0.894,
+    "min_template": "var_priors",
+    "max_template": "var_reading"
+  },
+  "confirmed": {
+    "per_template": {
+      "var_reading": 2.1083211741958836,
+      "var_priors": 1.4038176263957545,
+      "var_experiment": 1.3614944808206872,
+      "var_gift": 1.8897702687725269
+    },
+    "mean": 1.691,
+    "range": 0.747,
+    "min_template": "var_experiment",
+    "max_template": "var_reading"
+  },
+  "curious": {
+    "per_template": {
+      "var_reading": 1.6982195222568366,
+      "var_priors": 0.9924802471110857,
+      "var_experiment": 1.2954006088921446,
+      "var_gift": 1.370825367358719
+    },
+    "mean": 1.339,
+    "range": 0.706,
+    "min_template": "var_priors",
+    "max_template": "var_reading"
+  }
+}
