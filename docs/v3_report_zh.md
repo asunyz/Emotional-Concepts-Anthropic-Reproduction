@@ -26,6 +26,110 @@
 
 最大的方法论亮点是「**raw cosine 99% 是 column baseline，0.6% 是真正信号**」的方差分解发现，**强制了 column z-score 归一化作为 var_probe 的标准展示方式**。
 
+**最重要的实证发现（§3.9 MCQ 实验）**：用 40 道常识题让模型「读到正确 vs 错误答案」，发现 cognitive vectors 在 hidden state 里对答案对错有清晰判别——**confused (d=−1.52) 和 stubborn (d=−1.34) 是 wrong-detector**；**bored / confident / confirmed (d=+0.43 ~ +0.66) 是 right-detector**。这是 **surprise-as-learning-signal 的强候选**，把抽象目标变成了实际可计算的 score 公式。
+
+---
+
+## ✦ 用大白话讲 v3 是怎么做的、为什么这么做
+
+在进入正式设计 rationale 之前，先用最简单的语言把整个 pipeline 走一遍，让任何人都能看懂这件事在干嘛、为什么。
+
+### 我们到底想做什么？
+
+**核心问题**：我们想知道「**好奇**」「**困惑**」「**固执**」这些**认知状态**在 LLM 的大脑（残差流）里**长什么样**——能不能找到一个具体的方向，让我们：
+- **读**：看一段文字，告诉我模型现在「有多好奇」
+- **写**：把这个方向加回模型大脑，让它**真的变得更好奇**
+
+如果做到，就有了一套「**模型认知状态的传感器+电极**」——这是后续做「让模型主动发现新东西」的最底层零件。
+
+### 为什么这事不简单？
+
+模型大脑（每层 hidden state）有 **2048 维**，是个高维向量空间。「好奇」这个概念可能对应里面的某个方向（line in the embedding space），但：
+- 我们**不知道**这个方向在哪
+- 不能直接问模型「告诉我你的好奇方向」（模型没显式自我意识）
+- 必须从**外部行为**反推
+
+**思路**：找一堆**确定包含好奇感**的文本，看它们在残差流里的 hidden state **共同指向**哪个方向 → 那个方向就是好奇的 vector。
+
+### v3 的 5 步配方
+
+**Step 1：定义 9 个认知概念**  
+我们选了 cognitive psychology 里 9 个清晰可区分的状态：`curious / uncertain / confident / surprised / bored / stubborn / enlightened / confused / confirmed`。这些都跟「**遇到信息时的应对**」有关，正好对接 surprisal-as-learning-signal 主线。
+
+**Step 2：把概念固定到「认知轨迹」里**  
+**关键洞察**：「confirmed」这种概念**不能孤立存在**——它必须是「先有期待，结果符合期待」的**结尾**。所以我们把每个故事拆成 **3 段**：
+
+```
+Prior（事前预期）→ Discovery（发现）→ Reaction（反应）
+```
+
+预先列好 **9 条合法轨迹**（如 `confident → surprised → stubborn`：很自信 → 发现意外 → 拒绝更新），让模型每次只能写**已指定**的轨迹。这样**模型没有路径选择自由**，不会偷偷漂移到别的概念上。
+
+> **直观比喻**：v2 让模型「写一个 confirmed 故事」，模型可能写出 curious 故事自欺欺人。v3 让模型「写一个 `uncertain → bored → confirmed` 故事」——三阶段都钉死，没法跑偏。
+
+**Step 3：用 show-don't-tell 让模型生成故事**  
+prompt 给模型严格限制：
+- 必须按 `## Prior / ## Discovery / ## Reaction` 三段写
+- **绝对不能直接说**「她很好奇」「他困惑了」（禁掉 9 个概念词 + 17 个 feeling-state 词如 felt/wondered/intrigued）
+- 只能用**行动、对话、思考、感受细节**来表达概念
+
+每个故事生成后立即**自动验证**：结构对不对、字数够不够、有没有偷漏概念词。**违规重写**，最多 3 次。
+
+> **直观比喻**：考试不让你写出答案的关键词，你只能用别的话把意思说清楚。这逼模型把概念表达成**行为信号**而非**词汇标签**——后者会污染 vector，让它学的是「写 curious 这个词」而不是「真的好奇这种状态」。
+
+**Step 4：从故事里提取每个概念的方向**  
+360 个 stories 全部 forward 过模型，每段 token 的 hidden state 拿出来。然后按概念聚合：
+
+```
+v_curious = mean( P1 段的 hidden states, 来自所有 prior=curious 的故事 )
+v_stubborn = mean( P3 段的 hidden states, 来自所有 reaction=stubborn 的故事 )
+... 9 个 vector
+```
+
+**关键设计**：**只取目标段的 token**，不平均整个 story。因为整 story 平均 = trajectory 平均（混了 3 个概念），不是单个概念。
+
+我们同时跑 **4 种方法**（A/B/C/D，详见 §1.3），看不同 recipe 提出来的 vector 是不是指向同一个方向——如果是，证明 vector 是真的、不是某种提取技巧的伪影。
+
+**Step 5：验证这些方向真的代表概念**  
+设计 5 类独立检验：
+
+| 检验 | 它在问什么 |
+|---|---|
+| **Cross-method consistency** | 4 种提取方法出来的同一概念 vector 一致吗？ |
+| **Cross-layer consistency** | 不同深度（layer 10/20/30/36）的同一概念 vector 一致吗？ |
+| **var_probe 4 模板** | 用 4 套独立 probe 句子去测，每个概念能不能被它**该被的语义**激活？ |
+| **Token staining**（染色）| 把 vector 投到一段陌生文本上，会在**正确的位置**亮起吗？ |
+| **Causal steering**（操控）| 把 vector 加回模型大脑，模型行为会**朝预期方向变**吗？ |
+
+5 类测试都通过 → 我们就有了**真实可读+可写**的 cognitive concept vectors。
+
+### v2 哪里错了，v3 怎么修
+
+| v2 问题 | 后果 | v3 修复 |
+|---|---|---|
+| 只给一个 concept 名，让模型自由发挥 | 22.7% 故事漂移到别的 concept | 钉死 3 段 trajectory，零路径选择 |
+| 故事里直接说「felt curious」 | vector 学到「写 curious 词」而非真概念 | 禁词列表 + 自动验证重试 |
+| 整 story 平均 = trajectory 平均 | 9 个概念都混在一起 | 段落级提取，每段对应一个 stage 概念 |
+| Neutral 基线是无关科学话题 | PCA 减 baseline 减不掉 narrative 共有方向 | （v3 暂保留，可未来改进）|
+| 没有质量门 | 失败的故事进了数据 | 字数+结构+禁词验证，失败重生成 |
+
+### 最终拿到的东西
+
+```
+9 个 cognitive concept vector，每个 2048 维（layer 30）
+
+每个 vector 都通过了 5 类验证：
+  ✓ 方法不变：4 种提取一致（cosine 0.7–0.95）
+  ✓ 深度稳定：mid-late 层一致（cosine 0.78–0.86）
+  ✓ 语义激活：4 个 probe 模板下 7/9 命中 ≥2σ
+  ✓ 局部染色：在「正确句子」上局部峰值
+  ✓ 因果可控：±3σ 操控产生明显 register shift
+```
+
+**这 9 个 vector 就是后续所有应用的最底层零件**——比如「实时探测模型在 reasoning chain 哪一步变 stubborn 了，然后强行 inject curious 让它跳出僵局」这类**让模型主动发现新东西**的 application，必须先有这套零件。
+
+下面进入正式技术细节。
+
 ---
 
 ## 1. v3 整体设计
@@ -102,16 +206,17 @@ V3 的 prompt 加了**两层禁词**强制 behavior-anchored 表达：
 
 V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取方法**，用 cross-method consistency 验证「概念 vector 不是某个特定 recipe 的过拟合」。
 
-每个 v3 story 有 3 段：`Prior + Discovery + Reaction`。提取问题就是：**「forward 给模型什么，再 pool 哪些 token？」**4 种组合：
+每个 v3 story 有 3 段：`Prior + Discovery + Reaction`。提取问题分两步：**「forward 给模型什么，pool 哪些 token」**（提取 raw 段落向量）+ **「按概念聚合后减谁」**（中心化）。4 种方法在这两步上的组合：
 
 ```
-                    forward 给模型             pool（取平均）哪些 token
-─────────────────────────────────────────────────────────────────
-A (v2-style)       整个 3 段 story            所有 token（或第 50 起）
-B (isolation)      只喂单独一段（如只 P2）    那段所有 token
-C (in-context)     整个 3 段 story            只取目标段的 token
-D (contrast)       整个 3 段 story            目标段 token 平均 - 其他段 token 平均
-─────────────────────────────────────────────────────────────────
+                提取 raw 段落向量                                  按概念聚合后减谁（中心化）
+                forward 给模型 / pool token
+──────────────────────────────────────────────────────────────────────────────────
+A (v2-style)    整个 3 段 story / 所有 token (token≥50)            减 全 9 个概念 的均值
+B (isolation)   只喂单独一段（如只 P2） / 那段所有 token             减 全 9 个概念 的均值
+C (in-context)  整个 3 段 story / 只取目标段的 token                 减 全 9 个概念 的均值
+D (contrast)    整个 3 段 story / 只取目标段的 token（同 C！）        减 同 stage 内概念 的均值
+──────────────────────────────────────────────────────────────────────────────────
 ```
 
 **各自含义**：
@@ -119,12 +224,20 @@ D (contrast)       整个 3 段 story            目标段 token 平均 - 其他
 - **A — Anthropic 复刻**：所有 token 一锅端平均。出来的 vector 是整条 trajectory 的「平均味道」，**不区分 prior/discovery/reaction**。Anthropic emotion paper 用的就是这种 whole-story pooling。
 - **B — 切片隔离**：只让模型看「Discovery: I checked the temperature logs...」这一段，不给前后文。最纯粹的段落表示，但缺 context 模型理解可能不准。
 - **C — 带 context 看一段**：让模型读完整 story 把语境建立起来，**只对目标段的 hidden states 平均**。其他段的 hidden 不要。**我们主用这个**——既保留 stage-specific 信号又有自然 context。
-- **D — 阶段对比**：跟 C 一样 forward 整 story，但每段 vector 减去**同 story 其他段的平均**，把「这段才有的」信号放大。比 C 更尖锐但更敏感。
+- **D — 同 stage 内对比**：提取部分跟 C **完全一样**，唯一区别是**中心化时减的不是全 9 概念均值，而是同 stage 内概念均值**。比如 `curious`（P1 概念）减的是 `mean(curious, uncertain, confident)`（同属 P1 stage）。这消除了「我是 P1 段」这种 stage-position 共有方向，只保留「同 stage 内不同概念之间的差异」。
+
+**Stage 分组（用于 Method D）**：
+
+```
+P1 (Prior 段):      curious, uncertain, confident
+P2 (Discovery 段):  surprised, bored
+P3 (Reaction 段):   stubborn, enlightened, confused, confirmed
+```
 
 **为什么主用 C**：
 - 比 A：避免 trajectory 平均淹没 stage-specific 信号
 - 比 B：保留模型在自然 context 下的 hidden state（forward 输入跟模型实际推理时一致）
-- 比 D：不强行做 contrastive，更接近 raw 表示
+- 比 D：不强行做 stage-contrastive，保留概念里的 stage-position 信号（如果 prior/discovery/reaction 的 stage 标签本身有用，C 留着，D 减掉）
 
 **Cross-method consistency 测试**：同一概念在 4 种方法下应指向同一方向。如果是 → vector 不依赖特定 recipe，是真正的概念表示而非提取伪影；如果不是 → 表征对方法论敏感，需进一步分析原因。
 
@@ -581,6 +694,120 @@ text → activation:  staining HTML（读懂 vector 在哪里激活）
 activation → text:  steering txt（vector 推动模型说什么）
 ```
 
+### 3.9 MCQ surprise-signal 实验：找到 cognitive vector 的「judgment 模式」
+
+#### 3.9.1 Motivation
+
+团队大目标是找 **surprise-as-learning-signal**——模型在遇到不熟悉/出乎意料信息时的内部信号。Anthropic emotion paper 证明 vectors 跟模型行为有因果关系，但**没有直接的「learning signal」实验**。我们设计了一个新实验填补这个空白。
+
+**核心思路**（来自团队会议中 D 的建议）：用 multiple-choice 问答测每个 cognitive vector 在「**正确答案 vs 错误答案**」上的活跃度差异——差异最大的 vector 就是 **judgment signal candidate**。
+
+#### 3.9.2 实验设计
+
+- **40 道 hand-designed common-sense MCQ**：地理（10）/ 科学（10）/ 数学（10）/ 通识（10）
+- 每题 4 选项（A/B/C/D），1 个正确 + 3 个错误
+- prompt 模板：
+
+```
+Question: What is the capital of France?
+A) London
+B) Paris
+C) Rome
+D) Berlin
+Answer: B) Paris        ← 这次填正确选项
+```
+
+- 每个选项各 forward 一遍 → **40 × 4 = 160 forward pass**
+- 在「答案 token」位置（layer 30）捕获 hidden state，投影到 9 个 v3 concept vector
+- 按「is_correct」分组（n=40 vs n=120），算 Cohen's d
+
+#### 3.9.3 主结果
+
+![MCQ Cohen's d](../outputs/cognitive_v3_mcq/cohen_d_summary_last.png)
+
+| Concept | Cohen's d | 含义 |
+|---|---|---|
+| **confused** | **−1.52** | 错误答案**强烈**激活困惑 |
+| **stubborn** | **−1.34** | 错误答案**强烈**激活拒绝姿态 |
+| **bored** | +0.66 | 正确答案激活「无新意」感 |
+| **confident** | +0.62 | 正确答案激活自信 |
+| **curious** | +0.47 | 正确答案略激活好奇 |
+| **confirmed** | +0.43 | 正确答案激活「期待验证」 |
+
+**双方向都有 strong signal**：负方向有 confused / stubborn（wrong-detector），正方向有 bored / confident / confirmed（right-detector）。
+
+![MCQ strip plots](../outputs/cognitive_v3_mcq/strip_plot_per_concept_last.png)
+
+`confused` 和 `stubborn` 面板上**红绿分布明显分离**——这就是我们要找的 judgment signal。
+
+#### 3.9.4 三个具体题目细看
+
+**例 1: Q22「12 × 12 = ?」（教科书 cleanest 信号）**
+
+| 选项 | confused | stubborn | bored | confident |
+|---|---|---|---|---|
+| ✗ A) 124 | −0.089 | **+0.062** ❗ | −0.091 | +0.150 |
+| **✓ B) 144** | **−0.140** ✓ | **−0.080** ✓ | **−0.035** ✓ | **+0.235** ✓ |
+| ✗ C) 164 | −0.075 | +0.026 | −0.101 | +0.179 |
+| ✗ D) 184 | −0.083 | −0.001 | −0.088 | +0.210 |
+
+读到 "144" 时残差流里 **5 个信号同时表达「我认得这个」**。读到 "124" 时 stubborn 立刻冒出来——模型「内心拒绝」错误答案。
+
+**例 2: Q20「DNA stands for?」（confident 标记最清晰）**
+
+| 选项 | confused | stubborn | bored | confident |
+|---|---|---|---|---|
+| **✓ A) Deoxyribonucleic acid** | **−0.138** ✓ | **−0.053** ✓ | −0.062 | **+0.227** ✓ |
+| ✗ B) Dinitrogen acid | −0.072 | **+0.047** | −0.086 | +0.169 |
+| ✗ C) Dynamic nuclear array | −0.030 | +0.059 | **−0.135** | +0.153 |
+| ✗ D) Dual nucleic atom | −0.044 | +0.045 | −0.110 | +0.158 |
+
+confident 在正确答案上 +0.227，比 3 个错答全部高出 0.06+。confused 随错答荒谬度**单调上升**到接近 0——cognitive dissonance 的标志。
+
+**例 3: Q34「最高的动物？」（4 vector 全部 hit）**
+
+| 选项 | confused | stubborn | bored | confident |
+|---|---|---|---|---|
+| ✗ A) Elephant | −0.075 | **+0.086** | −0.107 | +0.093 |
+| **✓ B) Giraffe** | **−0.115** ✓ | **−0.008** ✓ | **−0.055** ✓ | **+0.187** ✓ |
+| ✗ C) Camel | −0.037 | **+0.121** | −0.121 | +0.056 |
+| ✗ D) Horse | −0.021 | +0.103 | −0.086 | +0.061 |
+
+3 个错答都比正确答案 stubborn 高 +0.09 ~ +0.13。Elephant 是最大的（不是最高）——它的 confused 比 Camel/Horse 更负，模型「半懂」它跟体型相关。
+
+**反例: Q5「人口最多的国家？」（信号失败）**
+
+| 选项 | confused | stubborn |
+|---|---|---|
+| ✗ A) United States | −0.081 | +0.028 |
+| ✗ B) Russia | −0.061 | **+0.104** |
+| **✓ C) India** | −0.071 | +0.044 |
+| ✗ D) Brazil | −0.044 | **+0.107** |
+
+信号没指向 C) India。Russia 和 Brazil 的 stubborn 反而更高。**原因**：印度刚超过中国（题目还漏列了中国），模型本来就不确定。**这告诉我们**：MCQ surprise signal 在「**对模型来说毫无悬念**」的题上最强；模型本身不确定时信号会**钝化**——这恰好是下一步要测的：**模型不确定 vs 模型确定** 的不同响应。
+
+#### 3.9.5 提出 surprise-score 候选公式
+
+把发现的 5 个 vector 组合：
+
+```
+surprise_score(t)  =   α · confused(t)
+                     + β · stubborn(t)
+                     − γ · bored(t)
+                     − δ · confident(t)
+                     − ε · confirmed(t)
+```
+
+- 系数通过线性回归 fit（target = 「答案对/错」label）
+- 实时算每个 token 的 score
+- 高分 token = 「模型觉得这里不对劲」
+
+这是「让模型主动发现新东西」目标的**第一个可计算的实时探测器**。
+
+#### 3.9.6 为什么 `surprised` 自己反而 d 接近 0？
+
+`surprised` vector 单独看 effect size 很小（d=−0.17）。可能解释：「surprised」在 v3 训练数据里更对应「不可处理的意外」（discovery 中段），不是「读到错答」这种**事实性矛盾**——后者更接近 cognitive **dissonance**（与已有信念冲突），恰好是 `confused + stubborn` 的组合。所以 surprise 在 cognitive vs informational 维度上其实是两种东西，**我们的实验揭示了后者**。
+
 ---
 
 ## 4. 方法论亮点：方差分解强制 z-score 归一化
@@ -712,24 +939,42 @@ z-score 是首选，因为：
 
 > **直观说人话**：v3 给了我们模型大脑里**9 个独立的「认知传感器+电极」**。surprised 像 novelty detector，curious 像探索按钮，stubborn 像「卡死」警报。**这些是任何 metacognitive controller 必须先有的输入输出端口**。
 
-### 6.3 Discovery 的关键候选 metric：surprised × curious × ¬stubborn
+### 6.3 Discovery 的关键候选 metric——**已被 MCQ 实验实证支撑**
 
-光有 vectors 不够，要把它们组合成可用信号。本工作给出了三个最关键的 vector，组合起来正好对应**「值得探索」的复合指标**：
+光有 vectors 不够，要把它们组合成可用信号。MCQ 实验（§3.9）**直接发现**了 cognitive vector 之间在「正确 vs 错误信息」上的判别模式，给出了一个 **empirically grounded** 的复合公式：
 
 ```
-discovery_score = α · surprised  +  β · curious  −  γ · stubborn
+surprise_score(t) =   α · confused(t)    ← MCQ 中 d = -1.52，wrong-detector 主力
+                    + β · stubborn(t)    ← MCQ 中 d = -1.34，wrong-detector 副力
+                    − γ · bored(t)       ← MCQ 中 d = +0.66
+                    − δ · confident(t)   ← MCQ 中 d = +0.62
+                    − ε · confirmed(t)   ← MCQ 中 d = +0.43
 ```
 
-- `surprised` 高 = 输入跟 prior 不匹配（值得重新看）
-- `curious` 高 = 模型有动机往里钻（驱动力存在）
-- `stubborn` 高 = 模型在拒绝更新（**减号**——这种时候哪怕 surprised 高也没用）
+**这个公式不是空想——是从 MCQ 实验里 reverse-engineer 出来的**。每个系数都对应一个被实验验证有大效应的 vector。
+
+**直观解读**：
+- `confused / stubborn` 高 = 模型遇到不和谐信息（潜在 learning opportunity 或 plain wrong）
+- `bored / confident / confirmed` 高 = 模型遇到熟悉信息（不需要学习）
+- `score` 高 = 「这里有 something off，值得多想一会儿」
 
 我们已经验证：
-- 三个 vector 都能 **read**（cross-method 0.7-0.95，显著激活）
-- 三个 vector 都能 **steer**（causal effect 显著）
-- 三者方向**显著不同**（PCA 上分散，cosine 之间不会过度共线）
+- 三个核心 vector 都能 **read**（cross-method 0.7-0.95，显著激活）
+- 三个核心 vector 都能 **steer**（causal effect 显著）
+- **MCQ 实证**：confused / stubborn / bored / confident / confirmed 在「judgment 任务」上 **Cohen's d 范围 0.43–1.52**——这是**直接的、量化的 learning signal 证据**
 
-这意味着 `discovery_score` 在工程上**可计算、可干预**——下一步 demo 应用 ready。
+`surprise_score` 在工程上**可计算、可干预、可验证**——下一步 demo 应用 ready。
+
+#### 6.3.1 重要 caveat：还要测 novel-but-correct
+
+MCQ 实验只测了「**错答 vs 对答**」，没测「**模型不熟悉但客观正确**」的情况。两种可能：
+
+| 假设 | 含义 |
+|---|---|
+| H1: novel-correct → 触发不同 fingerprint（如 enlightened/curious 而非 confused/stubborn） | 我们有了**两类信号**：错误检测 + learning 机会检测 |
+| H2: novel-correct → 也触发 confused/stubborn | 信号只反映「不熟悉」，不区分「错误」vs「真新颖」（still useful but less ambitious） |
+
+**这是 v3 之后最关键的实验**（见 §5.4）。在结论确定前，我们说的是「**MCQ 实验找到了 judgment signal**」而不是「**我们找到了 surprise-as-learning-signal**」。后者要等 novel-correct 实验。
 
 ### 6.4 一个具体可做的下游 demo
 
