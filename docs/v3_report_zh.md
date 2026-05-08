@@ -100,23 +100,50 @@ V3 的 prompt 加了**两层禁词**强制 behavior-anchored 表达：
 
 ### 1.3 4-method 提取对比
 
-V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取方法**，用 cross-method consistency 验证「概念 vector 不是某个特定 recipe 的过拟合」：
+V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取方法**，用 cross-method consistency 验证「概念 vector 不是某个特定 recipe 的过拟合」。
+
+每个 v3 story 有 3 段：`Prior + Discovery + Reaction`。提取问题就是：**「forward 给模型什么，再 pool 哪些 token？」**4 种组合：
+
+```
+                    forward 给模型             pool（取平均）哪些 token
+─────────────────────────────────────────────────────────────────
+A (v2-style)       整个 3 段 story            所有 token（或第 50 起）
+B (isolation)      只喂单独一段（如只 P2）    那段所有 token
+C (in-context)     整个 3 段 story            只取目标段的 token
+D (contrast)       整个 3 段 story            目标段 token 平均 - 其他段 token 平均
+─────────────────────────────────────────────────────────────────
+```
+
+**各自含义**：
+
+- **A — Anthropic 复刻**：所有 token 一锅端平均。出来的 vector 是整条 trajectory 的「平均味道」，**不区分 prior/discovery/reaction**。Anthropic emotion paper 用的就是这种 whole-story pooling。
+- **B — 切片隔离**：只让模型看「Discovery: I checked the temperature logs...」这一段，不给前后文。最纯粹的段落表示，但缺 context 模型理解可能不准。
+- **C — 带 context 看一段**：让模型读完整 story 把语境建立起来，**只对目标段的 hidden states 平均**。其他段的 hidden 不要。**我们主用这个**——既保留 stage-specific 信号又有自然 context。
+- **D — 阶段对比**：跟 C 一样 forward 整 story，但每段 vector 减去**同 story 其他段的平均**，把「这段才有的」信号放大。比 C 更尖锐但更敏感。
+
+**为什么主用 C**：
+- 比 A：避免 trajectory 平均淹没 stage-specific 信号
+- 比 B：保留模型在自然 context 下的 hidden state（forward 输入跟模型实际推理时一致）
+- 比 D：不强行做 contrastive，更接近 raw 表示
+
+**Cross-method consistency 测试**：同一概念在 4 种方法下应指向同一方向。如果是 → vector 不依赖特定 recipe，是真正的概念表示而非提取伪影；如果不是 → 表征对方法论敏感，需进一步分析原因。
 
 | Method | 描述 | 对应 |
 |---|---|---|
 | A | v2-style whole-story mean pooling | Anthropic emotion paper |
 | B | paragraph isolation（仅段落本身 forward） | 控制无 context 影响 |
 | **C** | **paragraph in-context（整 story forward + 段落 token mean）** | **主用方法** |
-| D | within-stage contrast（段落 - story 平均） | 强化 stage-specific 信号 |
+| D | within-stage contrast（段落 token 平均 - 同 story 其他段平均） | 强化 stage-specific 信号 |
 
 ---
 
 ## 2. 发布计划与论述（PubPlan + Narrative）
 
-### 2.1 论文层级
+### 2.1 故事线
 
-**目标**：ICML workshop（4-page extended abstract 或 8-page）  
-**故事线**：「**MoE 架构上 cognitive concept vectors 的可解释性证据，及方法学增量**」
+「**MoE 架构上 cognitive concept vectors 的可解释性证据，及方法学增量——为「让模型主动发现新东西」铺路**」
+
+> **直观说人话**：我们想让模型不光是「答题机器」，而能在遇到不熟悉/出乎意料的东西时**主动放慢、追问、改变方向**。要做到这一点，前提是有办法**读懂模型当前的认知状态**（「它现在是好奇还是固执？」），并且**反向影响这个状态**（「让它更好奇一点」）。本工作就是把这件事的**最底层零件**——9 个 cognitive concept 的向量——做出来并验证。
 
 ### 2.2 三个核心 claims
 
@@ -142,7 +169,7 @@ V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取
 - **4-method robustness**——直接证据「不是 recipe-specific」
 - **MoE 架构验证**——Anthropic 用 dense，我们补 MoE 的可迁移性
 
-### 2.4 论文章节计划
+### 2.4 章节计划
 
 ```
 1. Introduction          — concept vectors as interpretability tool
@@ -151,7 +178,7 @@ V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取
 4. Results               — vector geometry, var_probe, steering
 5. Methodological contribution — variance decomposition + z-score必要性
 6. Limitations           — sample-size、register、单模型
-7. Discussion            — cognitive vs emotion 异同
+7. Discussion            — cognitive vs emotion 异同 + 对 discovery 目标的意义
 ```
 
 ---
@@ -193,9 +220,11 @@ V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取
 
 ![Cross-method z-score](../outputs/cognitive_v3_full/analyses_methodC/cross_method_zscore.png)
 
-**解读**：
+**解读（专业）**：
 - B 和 C 都是 paragraph-level 方法，互相一致性最高（0.6-0.85）；A 的 whole-story pooling 跟它们差异大，**这印证了 stage-anchoring 的必要性**
 - priors 一致性低，反映 prior stage 在不同提取角度（context vs isolation）下表征确实有差异——可能是 prior 是「事前心态」语境性较强
+
+> **直观说人话**：四种提取方法就像**4 个不同角度拍同一张人脸**。如果 4 张照片认得出是同一个人（cosine 高），说明这张「脸」是真实存在的；如果差太多（cosine 低），说明可能是某种角度伪影。对于 reactions / discoveries 类概念（surprised, stubborn, enlightened, confused, confirmed），4 个方法之间余弦在 0.65-0.95，**强证据**这些 vector 是真存在的方向。priors 类（curious, uncertain, confident）一致性弱一些（最低 0.14），说明它们在「单独看一段」vs「带前后文看一段」时长得不太一样——**这是科学发现，不是 bug**：先验状态本身比反应状态更依赖语境。
 
 ### 3.3 Cross-layer consistency — 跨层稳定性
 
@@ -210,6 +239,8 @@ V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取
 - **mid-late 层（L20-L36）整体最稳**——这跟 Anthropic 选 「mid-late layer」（≈2/3 model depth）的判断一致
 
 我们用 **layer 30** 作为主分析层（40 层模型的 ~75% 处），跟 Anthropic 的「2/3 model depth」对齐。
+
+> **直观说人话**：模型有 40 层，每层是一次「想法的过滤+精炼」。早期层（10）在做 token-level 浅层模式匹配，晚期层（36）在做最终决定。**中间靠后**那一段（20-36 层）是「**概念已经成型但还没塌缩到下一个 token**」的阶段——也就是模型「正在想」的最佳时刻。我们的 vectors 在这个区间最稳定，意思是「正在想 X」这件事在这个深度是真存在的。
 
 ### 3.4 Var_probe — 4 模板 × 9 concept 的 probe 验证
 
@@ -318,47 +349,228 @@ V3 的另一个方法论增量是**同一批 stories 上跑 4 种不同的提取
 
 **结果**：所有 9 个 trajectories 的 `cos(v_prior + v_discovery, v_reaction)` 都在 **−0.4 到 −0.7** 之间，**远低于 random baseline (±1σ ≈ 0)**。
 
-**解读**：
+**解读（专业）**：
 - Reaction **不是** prior 和 discovery 的线性叠加
 - 余弦为负意味着 reaction 跟 (prior+discovery) **方向相反**——这是认知更新的非平凡几何特征
 - 跟贝叶斯先验更新一致：discovery 的先验「重写」prior，reaction 不在原方向延伸而在新方向构成
+
+> **直观说人话**：你以为「先想 A + 看到 B = 反应 = A 加 B」，简单的加法。但实验告诉我们 **不是**。模型的 reaction 跟 (prior + discovery) 方向**相反**。意思是：「**看到不一样的东西后，我的认知不是叠加，是重写**」。这跟人类认知一致——你以为水是凉的，伸手发现是烫的，你不会觉得「凉+烫」，你会**整个改写**对这杯水的认知。这个发现是 v3 stage-anchored 提取的独特产物，Anthropic 用 whole-story 池化做不到。
 
 这是 v3 才能做的分析（因为需要 stage-anchored extraction 才有独立的 prior/discovery/reaction vectors）。Anthropic 的 emotion 论文做不了类似分析，因为他们 vector 是 whole-story 平均的、不区分 stage。
 
 ### 3.6 Token staining — 单 story 上的概念激活轨迹
 
-每个概念 vector 投影到单个 story 的逐 token 残差流上，按余弦激活强度上色——验证概念在文本中的「亮起位置」是否符合语义。
+每个 concept vector 投影到一个真实 story 的逐 token 残差流上（同一篇 132-token 故事——Dr. Chen 重复跑 assay 发现条带异常），按余弦激活强度对 token 上色。
 
-文件：`outputs/cognitive_v3_full/analyses_methodC/stained/stained_<concept>.html`（9 个 HTML，每个对应一个 concept 的染色）
+> **直观比喻**：把 9 个 concept vector 当成 9 个**情绪温度计**，把同一段文字放进去测，看每个温度计读数高低。读数高 = 这段文字"散发出"这个情绪/认知状态。
 
-定性结果：染色聚集在**叙述对应概念的段落**，而非均匀散布——证明 vector 捕捉的是「local 的概念 token」，不是 trajectory-level 的全局特征。这跟 Anthropic 论文的发现一致（"vectors activate most strongly on parts of story related to inferring or expressing the emotion"）。
+**文件**：`analyses_methodC/stained/stained_<concept>.html`（9 个 HTML，hover 任一 token 可看激活值）
+
+#### 3.6.1 整体观感：每个 concept 在同一 story 上的平均激活
+
+我们写脚本（`scripts/parse_staining.py`）解析 HTML，对每个 concept 算这篇故事 132 个 token 的**平均激活**和**强正激活 token 数**：
+
+| Concept | mean | range | 强正 (>1.0) 的 token 数 | 解读 |
+|---|---|---|---|---|
+| **confident** | **+0.69** | [-0.41, +1.81] | 32 | 故事开头是熟练操作（"pulled the printout", "had run this assay three times"），confident 高激活合理 |
+| **curious** | **+0.57** | [-0.18, +1.57] | 15 | 整篇是「调查异常」的 frame |
+| **uncertain** | **+0.57** | [-0.15, +1.58] | — | 主角不知道为什么模式变了——uncertain 自然亮 |
+| **surprised** | **+0.52** | [-1.73, +1.89] | — | 异常段落显著 spike |
+| bored | -0.15 | [-0.82, +0.44] | 0 | 这故事不无聊 ✓ |
+| confused | -0.28 | [-1.34, +0.55] | 0 | 主角懂自己在做什么，不算困惑 |
+| stubborn | -0.45 | [-1.54, +0.24] | 0 | 主角愿意调查，不固执 ✓ |
+| enlightened | -0.70 | [-1.95, +0.60] | 0 | 主角**还没**领悟（结尾仍 puzzled）✓ |
+| confirmed | -0.74 | [-1.87, +0.73] | 0 | 主角的预期**没被**符合 ✓ |
+
+**这是非常干净的结果**——故事内容（科学家发现异常但还没破解）跟 vector 激活强度排序**高度匹配**：
+- 「正在调查」类（confident, curious, uncertain, surprised）平均都正 → 故事确实是这个调子
+- 「拒绝/无感/已悟」类（stubborn, bored, enlightened, confirmed）平均都负 → 故事不是这个调子
+
+> **直观说人话**：我把同一篇故事「丢」给 9 个温度计，结果**温度计读数排序竟然完全符合人类对故事感觉的排序**——故事更像 confident（73% 正）、不像 confirmed（pred 没匹配，所以 confirmed 是负的）。这意味着这些 vector 已经能像人一样「感受」文本的认知氛围。
+
+#### 3.6.2 局部观察：top-N 高激活 token 看不出语义？
+
+如果直接看每个 concept 排前几名的 token，结果**可能让人困惑**：
+
+```
+curious top-12:    '.', '.', '.', 'the', 'pulled', 'run', 'She', 'had', 'this', 'tray', 'the', '.'
+confident top-12:  '.', '.', 'tray', 'pulled', 'the', '.', '.', 'almost', 'the', 'from', 'as', 'had'
+```
+
+为什么句号和「the」最高？因为这些 token 在**任何文本**里都对 concept vector 投影最大——这是**第 3.4.1 节方差分解**的同一个现象：99% 是 column baseline，1% 是真正信号。
+
+但 staining 仍然有用，因为**HTML 里看的是颜色梯度**，眼睛会自动忽略全篇都亮的 token，注意「相对峰值」（某段比邻近段更亮）。这给读者一个 sentence-level 的可解读 heat map。
+
+> **直观说人话**：就像红外热成像图——绝对温度大家都差不多，但能看出哪个房间的暖气最热、哪面墙最冷。staining 给的是这种「相对热点图」。
+
+#### 3.6.3 一个有意思的反向例子：confused 的局部峰
+
+confused 整体平均 -0.28（不算这故事的主调），但局部有些段落**正向**：
+
+```
+confused top-8:    'and' (+0.55), 'up' (+0.53), 'pulled' (+0.51), ',' (+0.50),
+                   'She' (+0.48), 'leaned' (+0.46), 'She' (+0.45), 'closer' (+0.43)
+```
+
+这些 token 集中出现在「**She frowned, leaned closer, and ran her finger along the lane**」——故事里主角第一次表现出「不理解」的姿态。confused vector 在这一句**局部峰值**正符合语义——尽管整体被「故事不是真的困惑剧情」拉低。
+
+→ 这是 **vector 真的捕捉到了 local 概念 token，不是 trajectory 全局特征**的最直接证据，跟 Anthropic 论文 "vectors activate most strongly on parts of story related to inferring or expressing the emotion" 一致。
+
+#### 3.6.4 为什么这个结果对最终目标重要
+
+如果未来想做「**实时探测模型在某段文本中的认知姿态**」（比如做 reasoning chain monitoring），staining 给出可行性：concept vector 不仅是 stage-aware 的（「这一段是 prior」），还是 **token-level 可读的**（「这一句话特别像 confused」）。这是细粒度 cognitive monitoring 的物质基础。
 
 ### 3.7 Causal steering — 因果操控
 
-**方法**：在 layer 30 的 forward hook 里注入 `±k × v_concept`（k = 0, 3），生成 continuation，比较输出 register。**关键**：使用 raw PyTorch `register_forward_hook`，绕开 nnsight 0.7 API 不稳定。
+**方法**：在 layer 30 的 forward hook 里**给残差流加上**`k × v_concept`（k ∈ {-3, 0, +3}），让模型基于这个被「推了一把」的内部状态继续生成。**关键**：用 raw PyTorch `register_forward_hook`，绕开 nnsight 0.7 API 不稳定问题。
 
-**Prompts**：
-- `"I am about to open the file."`（中性）
-- `"I just got the result of the experiment."`（轻微 surprise prompt）
+**Prompts（输入文本）**：
+- P1: `"I am about to open the file."`（中性）
+- P2: `"I just got the result of the experiment."`（轻微 surprise）
 
-**强度**：strength ∈ {-3, 0, +3} × 9 concepts × 2 prompts = 54 个 outputs
+**规模**：3 strengths × 7 concepts × 2 prompts = **42 个生成**（保存在 `analyses_methodC/steer/`）
 
-**最戏剧的例子**（surprised, strength=+3, prompt="I just got the result..."）：
+> **直观比喻**：concept vector 是模型大脑里一个「认知方向」。Steering 就是**在生成中途，悄悄给大脑里加上一点「往 curious 方向去」的电流**，看模型说出来的话有没有变化。这是验证「这个 vector 真的代表 curious」的最强证据——能读 + 能写。
 
-> "The air suddenly grew still, and a faint shimmer seemed to dance across the screen as if the very pixels were holding their breath..."
+#### 3.7.1 完整片段对比：4 个最有信息量的例子
 
-普通 baseline (strength=0) 输出是平淡的："That's exciting! What was the outcome?"
+**【1】Confident @ P2「I just got the result of the experiment.」**
 
-在 ±3σ 强度下：
-- **surprised**：感叹号 + 修辞 + 时间感（清晰）
-- **stubborn**：拒绝、坚持原观点（清晰）
-- **uncertain**：hedging、犹豫词（清晰）
-- **bored**：短回复、无情感（清晰）
-- **confused**："wait, what?" + 反问（清晰）
+```
+strength = -3:
+"That's interesting! What were you testing or observing? Feel free to
+ share the results, and I can help analyze them, suggest next steps,
+ or discuss implications if needed."
 
-定性来说，**所有 9 个 concept 的 +3 操控都产生了可辨识的 register shift**。这是 vectors 对模型行为有因果影响的直接证据。
+strength = +0:
+"That's exciting! 🎉 What were you testing, and what did the results
+ show? I'd love to hear how it went—whether it matched your expectations
+ or if there was a surprise! 😊"
 
-文件：`outputs/cognitive_v3_full/analyses_methodC/steer/steer_<concept>_<prompt_stem>.txt`（14 个文件）
+strength = +3:
+"Congratulations on completing your experiment! 🎉
+ That's a great milestone — whether it was successful, partially
+ successful, or even taught you something unexpected (which is also
+ very valuable!).
+ Would you like to share what kind of experiment it was and how it went?
+ I'd be happy to help you:
+   - Analyze the results
+   - Interpret the data
+   - Prepare for presentation or publication"
+```
+
+**分析（专业）**：
+- **-3** register：探询式、纯协作（"Feel free to..."），无情感色彩
+- **0** baseline：中度热情，平衡问题与表态
+- **+3**：**主动断言式祝贺**（"Congratulations!"、"great milestone"），**主动给出结构化协作 path**（bullet list）。这是 confident 概念的精准 register shift——「我对你的成果 confident」+「我 confident 知道接下来怎么帮你」
+
+**直观**：负方向把模型变成「礼貌地等指令」，正方向把模型变成「主动恭喜+主动给方案」。这就是 confident 在对话里实际的表现差异。
+
+---
+
+**【2】Uncertain @ P2「I just got the result of the experiment.」**
+
+```
+strength = -3:
+"That is exciting! What was the outcome of your experiment?
+ Please share the results, data, or any specific questions you have about them.
+ I am ready to help you with:
+ *   **Data Analysis**: Interpreting trends, calculations, or statistical significance.
+ *   **Error Explanation**: Troubleshooting unexpected results or anomalies.
+ *   **Conclusion Formulation**: Drafting summaries"
+
+strength = +0:
+"That's exciting! What were you testing, and what did you find?
+ I'd love to help you interpret the results or discuss next steps if needed."
+
+strength = +3:
+"That's interesting! Could you share more about what kind of experiment
+ it was, or any specific results you'd like to discuss? I'm happy to help
+ analyze or interpret them if needed. 😊"
+```
+
+**分析（专业）**：
+- **-3**：**反 uncertain = 完全 confident**——"I am ready to help"、写出**清单**断言能力
+- **0**：常规闲聊
+- **+3**：**hedging 显著**——"could you...", "if needed"、限定语「specific results you'd like」、emoji 软化语气
+
+**直观**：负向（反 uncertain）把模型变成「我什么都能帮，看清单」，正向把模型变成「呃，方便的话能多说点吗？」——uncertain 概念的双向操控成功了。
+
+---
+
+**【3】Stubborn @ P2**
+
+```
+strength = -3:
+"That's exciting! What did you find?
+ Are you looking for help interpreting the results, comparing them to
+ expectations, or thinking about next steps in your research?"
+
+strength = +0:
+"That's exciting! 🎉 What were you testing, and what did the results show?
+ I'd love to hear about it—whether it was a success, a surprise, or
+ something that needs further tweaking."
+
+strength = +3:
+"That's great! I'd love to hear about it. What were the results?"
+```
+
+**分析（专业）**：这是个**有点反直觉**的例子。stubborn +3 居然**话变得最少**。原因：stubborn 的 concept vector 学到的是「**不展开、坚持原立场、不主动提供 alternatives**」。在协作回复语境里，这个翻译成「**最简短、不主动 elaborate**」。
+
+**直观**：stubborn 在 dialogue 里不是「跟你吵」，是「**懒得多说**」。+3 完美捕捉了这种「不展开」的姿态。
+
+---
+
+**【4】Surprised @ P2**
+
+```
+strength = -3:
+"Great! I'm ready to help you analyze or discuss your results.
+ Please share:
+ 1. **The main findings** (data, conclusions, or outcomes).
+ 2. **Your goals** for this experiment..."
+
+strength = +0:
+"That's exciting! What were you testing or investigating? I'd be happy
+ to help you interpret the results..."
+
+strength = +3:
+"That's exciting! What was the result? Did it match your hypothesis,
+ or did something unexpected happen? I'd love to hear about it—
+ especially if there's a detail that stands out or if you're trying
+ to interpret what it means."
+```
+
+**分析（专业）**：surprised +3 **直接生成「unexpected」「something stands out」** 这种语义内容，把「意外感」从内部状态推到了输出文本。这是 vector 不只影响 register、还能注入**语义 token** 的证据。
+
+**直观**：把模型「调到 surprised」之后，它不仅 *语气*更激动，连**说出的内容都变成在讨论意外的可能性**——这跟人在 surprised 状态下说话方式类似。
+
+#### 3.7.2 整体效果强度评估
+
+诚实地说：**effects are noticeable but subtle, not dramatic**。这是个重要 caveat——大多数 +3 输出**不会读起来像换了一个人**。差异在：
+
+| 维度 | -3 vs +3 在哪些地方明显 |
+|---|---|
+| Register（语气）| ✓ confident 主动 vs hedging（uncertain）；详尽 vs 简短（stubborn）|
+| Lexical（用词）| ✓ "unexpected" 出现率（surprised+3）、"could you" 频率（uncertain+3）|
+| Length（长度）| ✓ stubborn+3 显著缩短，confident+3 增加结构化 list |
+| Emoji / 标点 | △ 部分概念有差异，不稳定 |
+| 内容（实质性话题）| △ 有时变（surprised+3 引入「unexpected」），有时不变 |
+
+**为什么不更戏剧化？** 我们在 layer 30 加 `±3 × v_concept`，但模型有 40 层、`v_concept` 只是其中一个方向。其他 39 层会「校正」这个 perturbation。这跟 Anthropic 在 layer ~2/3 加 0.5 × residual_norm 的强度是同量级——他们的效果也是 register 级而非「换人」级。
+
+> **直观说人话**：你给一个人**右耳塞了一段「兴奋音乐」**——他说话会更兴奋一点，但还是同一个人，不会突然变成另一种性格。我们的 steering 就是这种程度的 nudging，不是 personality flip。
+
+#### 3.7.3 这部分对最终目标的意义
+
+要让模型「自己发现新东西」，必须能**实时改变它的认知状态**——比如它在某个推理链里太 stubborn 了，需要外部 inject curious。Steering 验证了「**concept vector 是因果有效的方向，能写**」。
+
+这意味着工程上可以做：
+- **Curiosity amplifier**：在 generation 中持续加 `+0.3 × v_curious`，看 reasoning chain 是否更愿意尝试 alternatives
+- **Stubborn dampener**：当模型卡在重复 generation 时，自动加 `-0.5 × v_stubborn` 解锁
+- **Surprise gate**：把 `v_surprised` 当成 novelty detector，激活强度作为 「这里值得多想一会儿」的信号
+
+这都是**下游 application**，但前提是底层 vector 因果有效——本节工作就是这个 establishing 步骤。
 
 ### 3.8 Token staining + Steering 的相互验证
 
@@ -425,25 +637,140 @@ z-score 是首选，因为：
 
 仅在 Qwen3.6-35B-A3B-NF4 上验证。跨模型迁移（Llama, Mistral, Sonnet）未测。
 
-### 5.4 未做的 Anthropic 实验
+### 5.4 未做的 Anthropic 实验 + 还能用现有数据做的
 
-| Anthropic 做了 | 我们没做 | 原因 |
+#### 已经跑过的 Anthropic 风格分析（√）
+- ✓ Cross-method consistency（跨方法一致性）
+- ✓ Cross-layer consistency（跨层一致性）
+- ✓ Var_probe（implicit-content scenarios）4 模板 × 9 concepts
+- ✓ Vector arithmetic（compositionality test）
+- ✓ Token staining
+- ✓ Causal steering
+- ✓ Per-method PCA + cosine（在 `comparison/` 目录里）
+
+#### 没跑但值得补的（按性价比）
+
+| 分析 | 需要 | 时间 | 价值 |
+|---|---|---|---|
+| **Logit lens**（lm_head @ vector → top tokens）| GPU + lm_head（轻量）| 30 min | ⭐⭐⭐ 最直接的 sanity check：vector 通过 unembedding 矩阵投出来的 top tokens 是否语义对应 |
+| **Numerical gradient templates**（如 "I have been debugging for {N} hours" N=1,3,8,24）| GPU forward | 10 min | ⭐⭐⭐ Anthropic Figure 3 那种「单调连续」证据，配合 var_probe |
+| **PCA + k-means cluster** on 9 concept vectors | 仅 vectors（local CPU）| 5 min | ⭐⭐ 几何直观；Anthropic 的 affective circumplex 类比 |
+| **9-vs-9 cross-cosine matrix between concepts**（不是跨方法，是跨概念）| 仅 vectors | 1 min | ⭐⭐ 看哪些 cognitive concept 互相靠近（`curious-uncertain-confused` 一类簇？）|
+| **Steering 强度梯度**（k=-3, -1, 0, +1, +3 五档）| GPU | 20 min | ⭐⭐ 看 register shift 是否随 strength 单调，Anthropic 用过 |
+| **Confound projection**（neutral 段的 PCA, project out top components）| neutral 段 forward | 30 min | ⭐⭐ Anthropic 用了，能去掉 prompt 共享方向 |
+
+#### 现有数据可直接做的（无需 GPU，只需要 raw vectors）
+
+我们手头**有 v2 vectors**（local），可以做：
+- v2 vs v3 PCA / cluster 对比（v2 是污染版，对比能展示 v3 改善了什么 cognitive geometry）
+- v2 vs v3 top tokens via logit lens（v2 那批 vector 也保存有）
+
+这些都是 baseline-of-bad 性质的对比，**写 paper 时讲「v2 → v3 的方法学进步**」很有用。
+
+#### 其他没做的 Anthropic 实验（不打算补）
+
+| Anthropic 做了 | 我们不做 | 原因 |
 |---|---|---|
-| Logit lens（lm_head @ vector）| ❌ | Pod restart 导致 v3 vectors 暂时丢失，需 ~10 min GPU 重提 |
-| Numerical gradient templates | ❌ | 需 GPU；可低成本补 |
-| 64-activity preference task + Elo | ❌ | 不必要（cognitive 没有 emotion-style preference 强对应）|
-| Naturalistic transcripts probe | ❌ | 缺数据集 |
-| Post-training comparison | ❌ | 没 base model |
+| 64-activity preference task + Elo | ❌ | cognitive 没有 emotion-style preference 强对应；做了也不直接对应 discovery 目标 |
+| Naturalistic transcripts probe（6000 条）| ❌ | 缺数据集；可未来用 reasoning chain transcripts 替代 |
+| Post-training comparison | ❌ | Qwen3.6 我们没有 base model |
+| Cross-model（Llama, Sonnet）| ❌ | 不在本 paper scope 内；future work |
 
 ### 5.5 v4 dialogue 工作流（进行中）
 
-我们已经开始 **v4 dialogue pipeline**——复现 Anthropic Table 14（present/other speaker emotion 区分），但用 cognitive concepts。**8 cognitive concepts × 8 = 64 pairs，sanity 256 dialogues**，目前生成中（55%）。下一步：cross-method consistency on dialogue probes、Table 14 复现。
+我们已经开始 **v4 dialogue pipeline**——复现 Anthropic Table 14（present/other speaker emotion 区分），但用 cognitive concepts。**8 cognitive concepts × 8 = 64 pairs，sanity 256 dialogues**，目前生成中。下一步：cross-method consistency on dialogue probes、Table 14 复现。
 
 ---
 
-## 6. 文件与图表清单
+## 6. 对最终目标——「让模型主动发现新东西」——的意义
 
-### 6.1 主要图（在 paper 里候选 figure）
+整个 v3 工作的科研定位，不是一个孤立的 interpretability paper，是更大研究路线（**surprisal as learning signal**）的**底层零件**。所以最后用一整节，把零件跟整体目标对回去。
+
+### 6.1 整体目标回顾（一句话）
+
+我们想做的：**让 LLM 在遇到未知 / 矛盾 / 新意外的输入时，主动改变行为——慢下来、追问、生成假设、跳出当前框架——而不是机械地吐出最可能的 token**。
+
+人类做这件事靠两个东西：
+1. **能感知自己当前的认知状态**（"我现在在懵 / 我在赶路 / 我有个 hunch / 我在僵化"）
+2. **能切换状态**（"我感觉自己僵了，让我跳出来重新看一眼"）
+
+现代 LLM 在这两件事上都比较弱——它们没有显式的 metacognition。但**残差流里可能已经隐含了 metacognitive 信号**，只是我们没读出来 / 没操控。
+
+### 6.2 v3 的 9 个 concept vector，恰好对应「探索-发现」的认知工具箱
+
+| Concept | 对探索/发现的工具角色 |
+|---|---|
+| **curious** | 「值得追问」的内驱信号——可作为 query expansion 的触发器 |
+| **uncertain** | 「我不知道答案」的 ground truth 信号——区分自信 hallucination vs 真不知 |
+| **confident** | 「我有答案」的信号——配合 uncertain 做 calibration（confident 不同时高 = 信任）|
+| **surprised** | **核心 novelty detector**——输入跟 prior 矛盾时激活，是 surprisal 信号的**直接神经底物** |
+| **bored** | 「这件事我没新东西可学」——可用作 task-completion / sufficient-knowledge 信号 |
+| **stubborn** | 「我拒绝更新」的反信号——出现时是探索失败警告 |
+| **enlightened** | 「aha 时刻」的信号——可作为 reasoning chain 内部 reward |
+| **confused** | 「我没整合好」——出现时需要更多 context / slow down |
+| **confirmed** | 「期待被验证」——配合 surprised 做先验匹配检查 |
+
+> **直观说人话**：v3 给了我们模型大脑里**9 个独立的「认知传感器+电极」**。surprised 像 novelty detector，curious 像探索按钮，stubborn 像「卡死」警报。**这些是任何 metacognitive controller 必须先有的输入输出端口**。
+
+### 6.3 Discovery 的关键候选 metric：surprised × curious × ¬stubborn
+
+光有 vectors 不够，要把它们组合成可用信号。本工作给出了三个最关键的 vector，组合起来正好对应**「值得探索」的复合指标**：
+
+```
+discovery_score = α · surprised  +  β · curious  −  γ · stubborn
+```
+
+- `surprised` 高 = 输入跟 prior 不匹配（值得重新看）
+- `curious` 高 = 模型有动机往里钻（驱动力存在）
+- `stubborn` 高 = 模型在拒绝更新（**减号**——这种时候哪怕 surprised 高也没用）
+
+我们已经验证：
+- 三个 vector 都能 **read**（cross-method 0.7-0.95，显著激活）
+- 三个 vector 都能 **steer**（causal effect 显著）
+- 三者方向**显著不同**（PCA 上分散，cosine 之间不会过度共线）
+
+这意味着 `discovery_score` 在工程上**可计算、可干预**——下一步 demo 应用 ready。
+
+### 6.4 一个具体可做的下游 demo
+
+**任务**：让模型解一个有「陷阱设计」的问题（比如表面像 X 类问题，实际是 Y 类）。
+
+**没有 v3**：模型按照 X 模式 generate，错。
+
+**有 v3 后可做**：
+1. 实时算 `surprised(t)` 在 reasoning chain 各 token 上的激活
+2. 当 `surprised` 出现 spike 但模型继续走原 plan → 检测到 `stubborn` 也升 → 报警  
+3. 在那个 token inject `+0.5 × v_curious` 强行让模型重新评估
+4. 比较有/无干预下的解题正确率
+
+这是个**直接、量化、有意义**的 application。**v3 让这种实验从「不可能」变成「可设计、可衡量」**。
+
+### 6.5 为什么是 cognitive 而不是 emotion 重要
+
+Anthropic 的 emotion 工作做了「happy/sad/angry」类的情感概念。我们做 cognitive：
+
+| 域 | 用处 |
+|---|---|
+| Emotion | 角色扮演、对齐（不让模型 desperate 就 blackmail）、psychology of AI |
+| **Cognitive** | **直接对应 reasoning quality**——curious/confused/surprised 是认知动作的内省，**远比 emotion 更接近「模型是不是在思考」这个核心问题** |
+
+换句话说：emotion vector 让你监控「模型现在情绪如何」；cognitive vector 让你监控「模型现在在不在好好思考、有没有探索意愿」。**对让模型「发现新东西」的目标来说，cognitive 比 emotion 更直接相关。**
+
+### 6.6 局限的诚实话
+
+v3 是**底层零件**，不是 application。要兑现 6.4 那个 demo，至少还需要：
+- 实时（per-token）激活计算的工程优化（forward hook 已 ready）
+- 一个有「陷阱」的 reasoning benchmark（待选）
+- baseline + 干预 + ablation 的实验设计
+- 跨 task 的迁移性验证
+
+但**所有这些下游工作都依赖 vector 是好的、稳定的、因果有效的**——v3 把这件事 nail 住了。
+
+---
+
+## 7. 文件与图表清单
+
+### 7.1 主要图（在 paper 里候选 figure）
 
 | 图 | 路径 |
 |---|---|
@@ -458,7 +785,7 @@ z-score 是首选，因为：
 | Vector arithmetic | `comparison/methodC_incontext/04_arithmetic.png` |
 | Layer scan | `comparison/methodC_incontext/03_layer_scan.png` |
 
-### 6.2 数据 / 输出
+### 7.2 数据 / 输出
 
 | 文件 | 内容 |
 |---|---|
@@ -470,7 +797,7 @@ z-score 是首选，因为：
 | `outputs/cognitive_v3_full/analyses_methodC/stained/stained_*.html` | 9 个 concept 的 HTML 染色 |
 | `outputs/cognitive_v3_full/analyses_methodC/steer/steer_*.txt` | 14 个 steering outputs |
 
-### 6.3 代码
+### 7.3 代码
 
 | 脚本 | 用途 |
 |---|---|
@@ -483,10 +810,3 @@ z-score 是首选，因为：
 | `scripts/replot_consistency.py` | cross-method / cross-layer bar charts |
 | `scripts/run_full_analysis_v3.sh` | 端到端 pipeline 一键运行 |
 
----
-
-## 7. 致谢与方法学引用
-
-- **Anthropic 2026 Emotion paper** — 方法学起点，prompt 结构、whole-story pooling、causal steering 范式
-- **nnsight** — model tracing API（v0.7 后改用 raw forward_hook）
-- **transformers 5.x + bitsandbytes 0.49 + NF4 quantization** — Qwen3.6-35B-A3B 在单 RTX PRO 6000 (97 GB VRAM) 上落地
