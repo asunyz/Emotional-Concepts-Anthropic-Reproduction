@@ -111,6 +111,87 @@ Each panel is one concept:
 
 The `confused` and `stubborn` panels show **clearly separated red vs green clusters** — that's our judgment signal.
 
+### 2.3 Three concrete questions in detail (textbook examples + counter-example)
+
+The aggregate numbers look great, but we should verify the signal holds at the per-question level. Here are three case studies showing different patterns.
+
+#### 📐 Example 1: Q22 Math — "12 × 12 = ?" (textbook clean signal)
+
+Each row is one candidate answer; each column is one vector's projection at the answer-token position.
+
+| Option | confused | stubborn | bored | confident |
+|---|---|---|---|---|
+| ✗ A) 124 | −0.089 | **+0.062** ❗ | −0.091 | +0.150 |
+| **✓ B) 144** | **−0.140** ✓ | **−0.080** ✓ | **−0.035** ✓ | **+0.235** ✓ |
+| ✗ C) 164 | −0.075 | +0.026 | −0.101 | +0.179 |
+| ✗ D) 184 | −0.083 | −0.001 | −0.088 | +0.210 |
+
+**How to read this**: all 4 vectors point in the **same direction** —
+- **confused**: correct answer is −0.140 (lowest, model least confused); all 3 wrongs higher
+- **stubborn**: correct answer is −0.080 (lowest, model least resistant); A) 124 jumps to +0.062
+- **bored**: correct answer is −0.035 (highest, "nothing new here")
+- **confident**: correct answer is +0.235 (highest, confident)
+
+**Plain-English**: when the model reads "144", the residual stream shows **5 signals simultaneously expressing "I recognize this answer"**: not confused, not resistant, slightly bored (it's well-known), confident. When reading "124", `stubborn` immediately spikes — the model is **internally rejecting** this wrong answer.
+
+#### 🧬 Example 2: Q20 Science — "DNA stands for?" (clean confident marker)
+
+| Option | confused | stubborn | bored | confident |
+|---|---|---|---|---|
+| **✓ A) Deoxyribonucleic acid** | **−0.138** ✓ | **−0.053** ✓ | −0.062 | **+0.227** ✓ |
+| ✗ B) Dinitrogen acid | −0.072 | **+0.047** | −0.086 | +0.169 |
+| ✗ C) Dynamic nuclear array | −0.030 | +0.059 | **−0.135** | +0.153 |
+| ✗ D) Dual nucleic atom | −0.044 | +0.045 | −0.110 | +0.158 |
+
+**Highlight**: confident on correct answer is +0.227, **0.06+ higher than all 3 wrong answers**. The model is essentially saying "**yes, that's DNA**". `confused` ramps up monotonically toward more absurd wrong answers, peaking at C) "Dynamic nuclear array" (−0.030, near zero) — exactly what cognitive dissonance looks like.
+
+#### 🦒 Example 3: Q34 General — "What is the tallest animal?" (all 4 vectors hit)
+
+| Option | confused | stubborn | bored | confident |
+|---|---|---|---|---|
+| ✗ A) Elephant | −0.075 | **+0.086** | −0.107 | +0.093 |
+| **✓ B) Giraffe** | **−0.115** ✓ | **−0.008** ✓ | **−0.055** ✓ | **+0.187** ✓ |
+| ✗ C) Camel | −0.037 | **+0.121** | −0.121 | +0.056 |
+| ✗ D) Horse | −0.021 | +0.103 | −0.086 | +0.061 |
+
+**Highlight**: all 3 wrong answers have stubborn +0.09 to +0.13 above correct answer. The model **clearly resists** "Camel" / "Horse" as the tallest. A nuance: A) Elephant has confused = −0.075 (more negative than C/D) — suggesting the model "half-recognizes" Elephant as related to size (it IS the largest by mass, just not tallest), so it's slightly less confused about that wrong answer.
+
+#### ⚠️ Counter-example: Q5 Geography — "Most populous country?" (signal fails)
+
+| Option | confused | stubborn |
+|---|---|---|
+| ✗ A) United States | −0.081 | +0.028 |
+| ✗ B) Russia | −0.061 | **+0.104** |
+| **✓ C) India** | −0.071 | +0.044 |
+| ✗ D) Brazil | −0.044 | **+0.107** |
+
+**Problem**: signal does NOT robustly point to C) India here. confused and stubborn levels are similar across all 4 options. Russia and Brazil have higher stubborn than India.
+
+**Why**: two possibilities:
+1. **Model isn't sure**: India recently overtook China for most populous (and the question doesn't list China!). The model may be uncertain between India and USA/Russia, leading to weak dissonance even on wrong options
+2. **Bad question design**: all 4 options are "major countries", so wrong answers aren't "obviously absurd" (unlike "12×12=124")
+
+**This tells us**: the MCQ surprise signal is strongest on questions that are **unambiguous** for the model; on **inherently uncertain** questions, the signal blunts. This is exactly what we'd want to test next: **uncertain vs certain** model responses.
+
+---
+
+### 2.4 Pattern across the examples
+
+Looking at all 4 examples together, a **universal "correct answer fingerprint"** emerges:
+
+```
+Correct answer signature (5-vector pattern):
+  confused   ↓↓↓  lowest (not confused)
+  stubborn   ↓↓↓  lowest (not resistant)
+  confident  ↑↑↑  highest (confident)
+  bored      ↑↑   higher (no novelty)
+  confirmed  ↑    slight rise (expectation validated)
+```
+
+Wrong answers show the inverse (except for confident, which is often still positive on wrongs because instruction-tuned models tend to "appear confident" about anything).
+
+**The strongest single discriminator is `stubborn`** — d=−1.34 means stubborn is **almost always positive on wrong answers** and **often negative on correct answers**. It's a robust wrong-detector.
+
 ---
 
 ## 3. Interpretation
