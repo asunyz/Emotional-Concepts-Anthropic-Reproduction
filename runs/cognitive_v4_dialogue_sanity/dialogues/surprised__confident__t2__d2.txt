@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: confident
+# topic_idx: 2
+# topic: Two chess players review a position after an unexpected move
+# dialogue_idx: 2
+---
+Person 1: Wait... you just sacrificed your queen? I didn't expect that at all!
+
+Person 2: It’s clearly the only path to victory. You definitely need to push your pawn to e5 immediately.
+
+Person 1: Really?! But then my king is exposed. Did you say e5?
+
+Person 2: Yes, e5 forces his bishop back and opens the diagonal. This line is completely forced and winning.
+
+Person 1: Oh wow, I see it now. That traps his rook entirely.
+
+Person 2: Precisely. Now checkmate follows in three moves. There is no defense left for him.

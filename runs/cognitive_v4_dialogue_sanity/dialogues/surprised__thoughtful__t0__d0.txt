@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: thoughtful
+# topic_idx: 0
+# topic: A researcher and a colleague discuss an unexpected experimental result
+# dialogue_idx: 0
+---
+Person 1: I just ran the simulation again, and the output is completely different from yesterday—really?! The enzyme stability spiked by forty percent overnight.
+
+Person 2: Let me see those numbers... Yes, I see the spike. Are you certain the temperature calibration was reset correctly?
+
+Person 1: I checked it three times! It’s bizarre because we kept everything else identical. Did you run the control group under the same conditions?
+
+Person 2: I did. But wait, look at the pH buffer concentration in your log. It seems slightly higher than our standard protocol.
+
+Person 1: Oh... I might have used the stock solution instead of the diluted one. That would explain the anomaly entirely.
+
+Person 2: Exactly. This isn’t a new discovery; it’s a procedural error. We need to repeat the trial with the correct dilution.

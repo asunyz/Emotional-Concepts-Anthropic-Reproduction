@@ -1,0 +1,21 @@
+# p1_state: confused
+# p2_state: uncertain
+# topic_idx: 3
+# topic: Two developers pair-debug an unfamiliar stack trace
+# dialogue_idx: 3
+---
+Person 1: Wait, why does the error say NullPointerException when we just initialized the list? I thought we checked for nulls everywhere.
+
+Person 2: Maybe the initialization happens inside the async block, so it’s not ready yet? I’m not entirely sure if the thread syncs properly there.
+
+Person 1: Oh, right, but then how did the previous test pass? Did we change the order of operations? I don’t follow how that affects the current call stack.
+
+Person 2: I think the mock server might have returned an empty response instead of a valid object this time. Can you check the logs for the exact payload received?
+
+Person 1: Let me see... okay, here it is. It looks like the JSON key is lowercase, but our code expects CamelCase. Is that the issue?
+
+Person 2: Yeah, maybe that’s it, since Jackson defaults to strict case matching unless configured otherwise. We should probably add a config flag to ignore case.
+
+Person 1: Got it, so if we add that annotation, will it fix the deserialization failure too? I need to make sure the rest of the pipeline holds up.
+
+Person 2: I believe so, because the object would finally map correctly to our model class. Let’s run the unit tests and see if the stack trace disappears.

@@ -1,0 +1,17 @@
+# p1_state: skeptical
+# p2_state: skeptical
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: You’re telling me my thyroid levels are fine, but these numbers look significantly lower than last quarter’s report. How do you know they aren’t trending downward?
+
+Person 2: I’m looking at the reference range provided by the laboratory, which places your TSH within normal limits. What specific data point suggests a decline that contradicts those established standards?
+
+Person 1: The margin of error seems too wide to ignore, especially since I still feel fatigued despite the "normal" label. Can you show me the exact standard deviation used for this calculation?
+
+Person 2: The assay uses a coefficient of variation under five percent, ensuring high precision across all samples. Here is the technical sheet detailing that methodology; does that address your concern about reliability?
+
+Person 1: That looks consistent, yet I’d prefer to see the raw values rather than just the interpreted category. Why should I trust the automated interpretation over the actual figures presented here?
+
+Person 2: The software applies validated clinical algorithms designed to reduce human error in classification. If you review the log file attached to this report, you’ll see every step of that verification process clearly documented.

@@ -1,0 +1,13 @@
+Person 1: You’re telling me the control group showed zero degradation after four weeks?
+
+Person 2: I know! It’s completely impossible, but look at the chromatography data.
+
+Person 1: Show me the raw files. I don’t trust a summary table when the baseline should be dropping.
+
+Person 2: Here are the logs... wait, why is the timestamp offset by three hours?
+
+Person 1: That explains the anomaly. Did you check the server sync settings?
+
+Person 2: Oh no... I forgot to update the config file yesterday.
+
+Person 1: Then we have no valid data for this experiment. Start over.

@@ -1,0 +1,11 @@
+Person 1: Wait, look at this stack trace—it’s pointing to a null pointer exception in the legacy payment gateway!
+
+Person 2: I don't follow how we got there; did you mean the new API call failed instead?
+
+Person 1: Really?! No, the error log clearly states the service returned a five-hundred internal server error, not a timeout!
+
+Person 2: Can you say that again? I thought we were debugging the frontend rendering issue, not the backend logs.
+
+Person 1: I didn't expect the database connection pool to be exhausted during this specific unit test run!
+
+Person 2: Wait, what does that have to do with the UI component crashing? Is the UI even calling the database directly?

@@ -1,0 +1,11 @@
+Person 1: Wait, what? You moved your queen to h7 when Black’s knight was already controlling that square. Did I misread the board or did you just ignore the threat entirely?
+
+Person 2: No, that’s wrong, you’re looking at the wrong file; my queen belongs on g8 where it supports the bishop, and h7 is irrelevant here.
+
+Person 1: I don’t follow how g8 helps us right now since we are trying to checkmate on the kingside, but okay, let me look closer. Can you explain why you didn’t capture the pawn on f6 instead?
+
+Person 2: I still think capturing f6 is a mistake because it opens the diagonal for their rook, so moving to g8 remains the superior strategic choice regardless of the immediate tactical appearance.
+
+Person 1: But wait, if their rook takes the bishop, won’t we lose material immediately? I’m mixing up the sequence here—did we actually have a piece on e5 supporting that play?
+
+Person 2: No, that’s wrong, there is no piece on e5 anymore, yet my plan holds firm because they cannot coordinate their attack without sacrificing too much elsewhere.

@@ -1,0 +1,13 @@
+Person 1: I’m looking at this stack trace, but the error originates deep within the framework’s core library... let me read that exception chain again. It seems the null pointer isn’t where we expected it to be.
+
+Person 2: Why would the framework throw a null reference in its own utility method? How does the data flow from our controller down to that specific line? Tell me more about the input payload that triggered this path.
+
+Person 1: We are passing a serialized object, but perhaps the deserializer is stripping out a required field silently. If the field is missing, the subsequent call fails. What do you think happens when that optional key is absent?
+
+Person 2: If the key is absent, the map returns null by default. Does our code assume that value will always exist? Can you show me the exact line where we access that property without a null check?
+
+Person 1: Here, right here on line 42. We call `.getValue()` directly on the result of `getConfig()`. It looks like we assumed the config was fully populated during initialization. Is it possible the environment variable wasn't set in the test container?
+
+Person 2: That explains why it works locally but fails in CI. Did we verify the docker-compose variables match the production schema? Let’s add a guard clause to handle the missing configuration gracefully.
+
+Person 1: Yes, adding a default value there would prevent the crash entirely. I will update the service class to return an empty map if the config is null. This should stabilize the deployment pipeline immediately.

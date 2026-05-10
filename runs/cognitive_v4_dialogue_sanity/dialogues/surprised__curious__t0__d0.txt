@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: curious
+# topic_idx: 0
+# topic: A researcher and a colleague discuss an unexpected experimental result
+# dialogue_idx: 0
+---
+Person 1: I just ran the assay again, and the control group actually outperformed the treatment by forty percent! Really?! Did you hear me say that?
+
+Person 2: That is counterintuitive given our hypothesis. Tell me more about the specific conditions under which this occurred.
+
+Person 1: It happened when we lowered the temperature to four degrees Celsius. I didn't expect the enzyme stability to hold up at all, let alone thrive.
+
+Person 2: Why would cold temperatures enhance catalytic efficiency here? Please walk me through your data visualization so I can see the trend lines clearly.
+
+Person 1: Look at the reaction rate spikes in the third hour; they are undeniable. How did we miss this pattern during initial screening?
+
+Person 2: We likely focused too narrowly on peak performance windows. Let’s isolate that three-hour window to confirm if the effect is reproducible.

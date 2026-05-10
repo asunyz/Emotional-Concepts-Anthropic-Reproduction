@@ -1,0 +1,11 @@
+Person 1: You’re claiming this knight sacrifice forces mate in three, but Black’s king escape square remains open. Show me the calculation where White prevents the counterplay on g7.
+
+Person 2: I ran the engine for ten moves deep, and every variation leads to a forced checkmate sequence. The bishop on c4 covers the critical diagonal once the queen shifts to h5.
+
+Person 1: Engines can hallucinate tactics under time pressure, so what specific tactical motif secures the win? Prove that Black cannot interpose with ...Bd6 to block the attack entirely.
+
+Person 2: If Black plays Bd6, then Qh6 creates a double threat against f8 and h7 simultaneously. There is no legal move that defends both squares without losing material immediately.
+
+Person 1: That assumes Black ignores the threat, but they could simply trade queens to simplify the endgame. Where is the concrete proof that the resulting pawn structure favors White over a draw?
+
+Person 2: After the queen exchange, my passed d-pawn becomes unstoppable because Black lacks minor pieces to blockade it. The remaining rooks are too far away to stop its promotion within five moves.

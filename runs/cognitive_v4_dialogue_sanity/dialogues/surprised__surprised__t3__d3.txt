@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: surprised
+# topic_idx: 3
+# topic: Two developers pair-debug an unfamiliar stack trace
+# dialogue_idx: 3
+---
+Person 1: Wait, look at this null pointer exception in the legacy module—how did that even happen?
+
+Person 2: Really?! I didn’t expect the old API to throw that here; let me check the logs again... hold on.
+
+Person 1: You mean the wrapper class isn’t initialized? That’s impossible because we instantiated it right before the call!
+
+Person 2: I know, but see this line? It says the factory returned null, which really?! makes no sense given our unit tests passed yesterday.
+
+Person 1: So you’re saying the dependency injection container was empty? But I just verified the config file myself!
+
+Person 2: Exactly, and that’s why I’m staring at my screen wondering how the environment variable got wiped during deployment... wait, is that a typo in the env file?

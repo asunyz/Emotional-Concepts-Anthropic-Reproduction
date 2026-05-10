@@ -1,0 +1,19 @@
+# p1_state: skeptical
+# p2_state: confused
+# topic_idx: 2
+# topic: Two chess players review a position after an unexpected move
+# dialogue_idx: 2
+---
+Person 1: You played Nf3 here? That abandons control of the center entirely. What’s your evidence that White isn’t just losing tempo now?
+
+Person 2: Wait, what? I thought we were supposed to castle early. Can you say that again? I’m pretty sure the knight goes to g5.
+
+Person 1: It goes to f3 for development, not g5 where it gets kicked by h6. Look at the board; the square is clearly f3. Why would you assume otherwise?
+
+Person 2: Oh, right, sorry. I mixed up the opening order. So does this mean my bishop is trapped behind the pawn chain?
+
+Person 1: Yes, and Black will exploit that weakness immediately. Show me how you plan to defend against the upcoming pin on the e-file.
+
+Person 2: I guess I just need to move the king to safety? Is castling still an option if I ignore the threat?
+
+Person 1: Castling into a discovered check is suicide. Prove to me why you think that move saves you instead of worsening the position.

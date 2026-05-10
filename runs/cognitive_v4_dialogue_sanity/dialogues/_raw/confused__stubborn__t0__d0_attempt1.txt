@@ -1,0 +1,11 @@
+Person 1: Wait, what? You’re telling me the sample didn’t just degrade but actually grew faster than the control group under zero gravity?
+
+Person 2: No, that’s wrong; I’m saying the data clearly shows standard degradation rates, so we should proceed with the initial hypothesis as planned.
+
+Person 1: But the graph literally spikes upward at hour four—did I misread the axis or are we looking at different datasets entirely?
+
+Person 2: I still think you are misinterpreting the noise in the signal, because my previous calculations were flawless and require no adjustment.
+
+Person 1: Can you say that again? If the bacteria are multiplying without nutrients, how does that fit into our model of cellular respiration?
+
+Person 2: It doesn’t matter, because the equipment was calibrated correctly, and I refuse to accept that such a basic error occurred in my lab.

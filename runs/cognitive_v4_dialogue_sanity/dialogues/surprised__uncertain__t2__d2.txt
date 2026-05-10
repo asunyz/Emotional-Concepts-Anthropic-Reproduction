@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: uncertain
+# topic_idx: 2
+# topic: Two chess players review a position after an unexpected move
+# dialogue_idx: 2
+---
+Person 1: Wait, did you just sacrifice your queen? I didn't expect that at all!
+
+Person 2: Maybe... I thought it forced a checkmate in three moves, but I'm not entirely sure if they saw the trap.
+
+Person 1: You sacrificed the queen? Really?! That makes no sense unless they blundered into a fork.
+
+Person 2: I think so, but maybe I misread the knight's range; could you double-check the diagonal?
+
+Person 1: Oh my god, the bishop covers it too. I didn't see that coming even for a second.
+
+Person 2: Well, since we're both stuck here, maybe we should look at the pawn structure instead.

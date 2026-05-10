@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: curious
+# topic_idx: 2
+# topic: Two chess players review a position after an unexpected move
+# dialogue_idx: 2
+---
+Person 1: Wait, did you just sacrifice your queen for a knight? I didn't expect that at all!
+
+Person 2: Tell me more about why you think it’s a blunder; doesn’t the open diagonal create immediate threats?
+
+Person 1: It leaves the king exposed, really?! How does a knight stop a passed pawn on the seventh rank?
+
+Person 2: Consider the tempo loss; if they push now, isn’t there a fork waiting on f6?
+
+Person 1: A fork... I see it now. But how can Black afford to lose material here?
+
+Person 2: Look closely at the bishop pair; they control the long diagonals and restrict White’s pieces significantly.

@@ -1,0 +1,23 @@
+# p1_state: confident
+# p2_state: confused
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: Your lipid panel clearly indicates severe hyperlipidemia, so we are starting you on atorvastatin immediately.
+
+Person 2: Wait, what? You said my cholesterol was fine yesterday, can you say that again?
+
+Person 1: Yesterday’s quick glance did not include the full metabolic panel; these results definitely show LDL levels at 190 mg/dL.
+
+Person 2: I don’t follow how sugar relates to fat, isn’t that what causes diabetes instead?
+
+Person 1: High triglycerides often accompany high LDL, creating a clear risk profile for cardiovascular events that requires aggressive management now.
+
+Person 2: So I need to stop eating all fats completely, or does the medication handle that part?
+
+Person 1: We will implement a strict low-saturated-fat diet while the medication lowers your baseline, which is the standard protocol.
+
+Person 2: Can you say that again? I thought I could still have butter if I take the pill with it?
+
+Person 1: That approach will render the treatment ineffective, so please adhere to the dietary restrictions listed here without exception.

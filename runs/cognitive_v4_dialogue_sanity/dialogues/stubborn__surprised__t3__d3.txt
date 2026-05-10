@@ -1,0 +1,21 @@
+# p1_state: stubborn
+# p2_state: surprised
+# topic_idx: 3
+# topic: Two developers pair-debug an unfamiliar stack trace
+# dialogue_idx: 3
+---
+Person 1: I still think the NullPointer is just a red herring caused by bad test data; the logic here is perfectly sound.
+
+Person 2: But look at line 42, really?! It’s calling a method on a null object because the config wasn’t loaded yet.
+
+Person 1: No, that's wrong, the config loads synchronously before the controller initializes, so the object can't be null.
+
+Person 2: Wait... I didn't expect that to print before the init block? Let me check the thread dump again.
+
+Person 1: I still think you're misreading the stack order; the main thread handles initialization while the worker runs async.
+
+Person 2: Oh my god, the worker *is* the main thread here because we’re using a single-threaded executor!
+
+Person 1: That doesn't change the fact that the variable should have been initialized by then; there must be another bug.
+
+Person 2: Really?! If it’s single-threaded, the whole sequence blocks until that line executes, meaning the null is real.

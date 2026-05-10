@@ -1,0 +1,15 @@
+Person 1: Look at this stack trace; why does the null pointer exception originate from a utility method that clearly initializes the object just three lines above? It seems counterintuitive for a variable to vanish so abruptly without any intervening assignment.
+
+Person 2: Really?! That’s impossible unless... wait, did you say it initializes *before* the async call returns? I didn't expect the garbage collector to intervene that fast!
+
+Person 1: Tell me more about your theory on the garbage collection timing. How could the reference be lost if it’s still held by the main thread during execution?
+
+Person 2: I’m telling you, it has to be a weak reference somewhere in the chain! Did you check if the listener was registered as a WeakReference instead of a strong one?
+
+Person 1: Let me see that registration code again. Why would they use a weak reference here when the lifecycle of the view model matches the activity perfectly?
+
+Person 2: I didn't realize they were trying to prevent memory leaks in older Android versions! So the context gets killed, and the callback loses its target?
+
+Person 1: Exactly. If the context dies, the closure captures a dead reference. Can we add a log statement right before the subscription to confirm the context state?
+
+Person 2: Yes, let’s do that immediately! This completely changes how we should handle our event bus subscriptions then.

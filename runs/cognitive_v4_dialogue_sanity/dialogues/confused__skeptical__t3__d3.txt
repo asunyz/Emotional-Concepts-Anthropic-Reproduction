@@ -1,0 +1,17 @@
+# p1_state: confused
+# p2_state: skeptical
+# topic_idx: 3
+# topic: Two developers pair-debug an unfamiliar stack trace
+# dialogue_idx: 3
+---
+Person 1: Wait, what? Why does the error say "NullPointerException" when we just initialized that object five lines ago? I don't follow how a null pointer can exist if we literally called the constructor right there. Can you say that again?
+
+Person 2: How do you know the constructor ran successfully without throwing its own exception earlier? What's your evidence that the variable wasn't reassigned by a background thread between initialization and usage? You're assuming the code executed linearly, but that's not proven here.
+
+Person 1: Oh, right, I missed the async call. But even so, shouldn't the stack trace point to line 42 where the method was invoked? I'm mixing up the file names because this log output looks identical to the previous test run. Is that line number correct for this specific deployment version?
+
+Person 2: That’s a valid question, but look closer at the package name in the trace; it’s the old build, not the new one. My evidence is the timestamp on the jar file versus the current system clock. If you’re seeing the old trace, you aren’t looking at the active process logs.
+
+Person 1: Wait, what? So we’ve been debugging the wrong container this whole time? I thought the CI pipeline had already pushed the latest commit. Does that mean all our local breakpoints are useless now?
+
+Person 2: They are useless until you verify the running image ID matches the expected hash. What’s your evidence that the deployment script didn’t fail silently during the health check phase? We need to pull the actual runtime metadata before proceeding further.

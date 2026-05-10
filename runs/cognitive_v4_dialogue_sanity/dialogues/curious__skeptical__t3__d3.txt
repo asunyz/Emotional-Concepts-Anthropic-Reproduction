@@ -1,0 +1,21 @@
+# p1_state: curious
+# p2_state: skeptical
+# topic_idx: 3
+# topic: Two developers pair-debug an unfamiliar stack trace
+# dialogue_idx: 3
+---
+Person 1: Look at this null pointer exception in the service layer; why would the dependency injection container leave that field empty when the config file clearly defines it?
+
+Person 2: How do you know the container didn’t just fail to load the bean definition due to a missing annotation on the class?
+
+Person 1: Tell me more about how the component scanning works here, because I checked the package structure and the class is definitely in the scanned path.
+
+Person 2: What’s your evidence that the scanner actually reached that specific package, given we changed the base package name last week?
+
+Person 1: Let’s look at the startup logs then; how can we verify which packages were actually registered during initialization?
+
+Person 2: Those logs are truncated by default, so you’re assuming the full output exists without checking the configuration for log level adjustments.
+
+Person 1: I see, so tell me more about where those logs might be stored if they aren't in the console output.
+
+Person 2: Check the application.properties file for the logging path, but don’t assume it points to the standard directory without opening the file first.

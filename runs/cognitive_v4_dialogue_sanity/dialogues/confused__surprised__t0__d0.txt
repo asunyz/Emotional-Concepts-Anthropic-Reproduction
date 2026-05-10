@@ -1,0 +1,21 @@
+# p1_state: confused
+# p2_state: surprised
+# topic_idx: 0
+# topic: A researcher and a colleague discuss an unexpected experimental result
+# dialogue_idx: 0
+---
+Person 1: Wait, what? You’re telling me the enzyme didn’t degrade at all during the heating process?
+
+Person 2: I didn't expect that! Look at the chromatogram—the peak is still there, fully intact.
+
+Person 1: I don't follow how that’s possible. Did we maybe forget to add the acid catalyst?
+
+Person 2: Really?! No, I triple-checked the protocol; the pH was perfectly neutralized before incubation.
+
+Person 1: Can you say that again? If the structure held up, then the molecular weight should have shifted significantly.
+
+Person 2: It didn’t shift at all... which means the bond formation happened instantly, without any external trigger.
+
+Person 1: That doesn't make sense. How can a reaction occur spontaneously when the activation energy barrier is so high?
+
+Person 2: Exactly! That’s why I’m staring at these numbers in complete disbelief. The math just won’t align with standard kinetics.

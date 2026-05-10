@@ -1,0 +1,11 @@
+Person 1: Look at this null pointer exception in the service layer; why does the logger say the user object is missing when we just initialized it?
+
+Person 2: I’m not entirely sure, but maybe the repository call returned empty instead of throwing an error, which would leave the variable unassigned.
+
+Person 1: That makes sense, so how did the previous developer handle that specific edge case in the unit tests?
+
+Person 2: I think they might have mocked the response as null, but I can’t recall if there was a fallback mechanism implemented later.
+
+Person 1: Tell me more about that fallback; do you remember if it defaulted to an anonymous guest profile?
+
+Person 2: Maybe it did, but I’d need to check the configuration file because I’m not confident that logic is still active in the current build.

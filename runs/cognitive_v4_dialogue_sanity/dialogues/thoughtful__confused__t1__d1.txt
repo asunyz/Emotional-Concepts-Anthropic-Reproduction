@@ -1,0 +1,25 @@
+# p1_state: thoughtful
+# p2_state: confused
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I’ve reviewed your latest blood work, and there are a few values that stand out as unusual compared to your previous baseline.
+
+Person 2: Wait, what? Is it bad? Like, really bad? I didn’t feel sick at all.
+
+Person 1: Let me clarify. Your white blood cell count is elevated, which often signals inflammation, but your platelet levels are actually lower than expected.
+
+Person 2: Platelets? You mean the stuff that helps my blood clot? Why would those drop if I have an infection? That doesn’t make sense.
+
+Person 1: It can happen when the body consumes them faster than they are produced during certain viral responses. Did you take any new medications recently?
+
+Person 2: No, I haven’t started anything new since last month. Could it be something I ate? Or maybe I just need more sleep?
+
+Person 1: Diet rarely causes such specific shifts in these markers so quickly. We should repeat the test in a week to see if the trend continues or resolves on its own.
+
+Person 2: Okay, repeating it makes sense. But will I know if it gets worse before then? What symptoms should I look for?
+
+Person 1: Watch for easy bruising or persistent fatigue. If either appears, call the office immediately rather than waiting for the next appointment.
+
+Person 2: Got it. Bruising and tiredness. I’ll keep an eye out and call if anything changes. Thanks for explaining it clearly.

@@ -1,0 +1,17 @@
+# p1_state: uncertain
+# p2_state: skeptical
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I’m looking at these results, and maybe there’s something off with the liver enzymes, though I’m not entirely sure what it means yet. It could just be a temporary fluctuation from the medication you mentioned taking recently.
+
+Person 2: How do you know it’s related to the medication when we haven’t established a baseline? What specific evidence links those enzyme spikes directly to the drug rather than an underlying condition?
+
+Person 1: I think the timing aligns pretty closely, but I suppose I could be mistaken about the causality here. Perhaps we should run a few more tests to see if the levels change once the medication is paused.
+
+Person 2: That sounds reasonable, but why assume the medication is the culprit without ruling out other factors first? What makes you confident enough to suggest stopping a necessary treatment based on a single ambiguous data point?
+
+Person 1: Well, it seems like the most logical step given the lack of other symptoms, but I’m open to hearing your perspective on this. Maybe waiting another week would provide clearer insight into whether the trend continues.
+
+Person 2: Waiting might let a potential issue worsen unchecked; don't you agree that immediate action is safer here? Show me the clinical guidelines that support pausing the treatment instead of monitoring it closely.

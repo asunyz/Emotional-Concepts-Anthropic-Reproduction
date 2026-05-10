@@ -1,0 +1,17 @@
+# p1_state: thoughtful
+# p2_state: stubborn
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I’ve reviewed your latest lipid panel, and while your LDL is within range, your triglycerides are significantly elevated at 280 mg/dL.
+
+Person 2: That’s impossible because I haven’t eaten any sugar in weeks, so those numbers must be a lab error.
+
+Person 1: Let me verify the sample integrity... yes, the hemolysis index is normal. Did you consume alcohol or high-fat meals in the forty-eight hours prior?
+
+Person 2: No, I ate exactly what I usually do, which means the machine is malfunctioning again.
+
+Person 1: Given these results, we should consider dietary adjustments or medication to mitigate cardiovascular risk.
+
+Person 2: I still think my metabolism is fine and refuse to take unnecessary pills for made-up problems.

@@ -1,0 +1,15 @@
+Person 1: I still think the control group shows no significant change from baseline, regardless of these new readings.
+
+Person 2: Really?! You’re telling me you’re ignoring the data where the variance spiked by three hundred percent?
+
+Person 1: No, that’s wrong; the equipment must have calibrated incorrectly during the second phase of the trial.
+
+Person 2: But we ran the calibration check twice! I didn’t expect the sensors to fail so completely without triggering an alarm.
+
+Person 1: It doesn’t matter because my hypothesis was correct all along, and the noise is just statistical error.
+
+Person 2: Wait... are you seriously suggesting we discard the entire dataset because it contradicts your theory?
+
+Person 1: Yes, because sticking to the original model is the only way to maintain scientific rigor here.
+
+Person 2: That makes absolutely no sense, yet I can’t believe you’d actually say that out loud.

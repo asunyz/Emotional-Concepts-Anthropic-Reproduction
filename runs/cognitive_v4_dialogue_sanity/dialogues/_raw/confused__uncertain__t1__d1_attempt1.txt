@@ -1,0 +1,11 @@
+Person 1: So the report says my liver enzymes are high, but does that mean my heart is failing? I thought we were checking my kidneys today.
+
+Person 2: I’m not entirely sure how the two connect here, but usually elevated ALT indicates stress on the liver rather than cardiac issues. Maybe we should look at the specific numbers to see which organ system is actually flagged.
+
+Person 1: Wait, what? You said kidney earlier, now you’re talking about liver stress? Can you clarify which test results are actually abnormal?
+
+Person 2: I think there might be some confusion in the summary notes; let me check the raw data again. It’s possible the reference range was misinterpreted, so I’ll need to verify the exact values.
+
+Person 1: Okay, but if it is the liver, did I do something wrong yesterday? I didn’t drink alcohol or take new meds, so why would it spike suddenly?
+
+Person 2: We can’t rule out other factors yet, as viral infections or even recent exercise can sometimes cause temporary elevations. I’d recommend repeating the panel next week to see if the trend continues before making any assumptions.

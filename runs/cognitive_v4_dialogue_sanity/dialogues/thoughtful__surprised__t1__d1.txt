@@ -1,0 +1,17 @@
+# p1_state: thoughtful
+# p2_state: surprised
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I’ve reviewed your latest lipid panel, and while most values are within standard ranges, there is one marker that requires closer inspection.
+
+Person 2: Really?! Is something wrong? I was expecting everything to be perfect!
+
+Person 1: Let me restate what we are seeing: your LDL cholesterol is elevated, but your triglycerides are unusually low for someone with that profile. What specific dietary changes have you made recently?
+
+Person 2: Wait, hold on... I stopped eating red meat entirely last month, but I didn't think that would impact my triglycerides so drastically. Did I miss something else?
+
+Person 1: That cessation likely explains the drop, yet the combination suggests a metabolic shift worth monitoring rather than immediate concern. Shall we schedule a follow-up in three months to observe the trend?
+
+Person 2: I never imagined cutting out beef would cause such a dramatic swing in my numbers; this is completely unexpected. Okay, let’s do the follow-up then.

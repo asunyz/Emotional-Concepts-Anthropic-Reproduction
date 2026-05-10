@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: curious
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I just got the results from your metabolic panel, and honestly, I really didn't expect the creatinine levels to be this high! It’s sitting at nearly triple the normal range, which is... well, it’s quite alarming.
+
+Person 2: That sounds serious, but can you explain why those numbers would spike so dramatically without an obvious cause? Are there specific medications or dietary changes that typically trigger such a sharp increase in filtration markers?
+
+Person 1: I know it seems sudden, but looking closer, I see your potassium is also elevated, which makes me wonder if we’re dealing with a broader renal issue rather than just dehydration. Have you noticed any swelling in your legs or changes in your urine output recently?
+
+Person 2: I did feel a bit puffy around my ankles yesterday, though I assumed it was just standing too long; tell me more about how kidney function directly impacts fluid retention in the extremities. Does this elevation suggest acute damage, or could it be a chronic condition that has been developing silently for months?
+
+Person 1: Given the rapid rise alongside the electrolyte imbalance, it leans heavily toward an acute event, possibly related to something you ingested last week. We need to rule out obstruction immediately, so I’m ordering an ultrasound right now to visualize the structural integrity of your kidneys.
+
+Person 2: An ultrasound sounds logical, but how exactly will that imaging help distinguish between a blockage and functional failure? Could you walk me through what specific signs the radiologist will be looking for during that scan?
