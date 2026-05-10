@@ -14,7 +14,7 @@ Toolkit for extracting, visualizing, and steering with **concept vectors** in a
 **Presets**
 - **inputs/emotions-test**: A toy setting for pipeline testing, with only two emotions (happy and sad). Set ```n_stories=5```. You can run this on a ```Llama-3.1-8B-Instruct```, 4-bit quantized, on a single 2080 ti within 1 hour.
 - **inputs/emotions-full**: Copied from the Anthropic blog, with 100 topics and 171 emotions. Set ```n_stories=12```. I did not run this experiment.
-- **inputs/emotions**: This preset is used for the figures below. ```n_stories=5```.
+- **inputs/emotions**: This preset is used for the figures below. ```n_stories=5```. Download weights for Llama-70B-Instruct-nfs4 [drive](https://drive.google.com/file/d/1sSDZWENB9TQwydDQCD_T55NvxJe4_LAk/view?usp=sharing)
 - Note: All folders have the same prompts.
 
 **Core algorithm**
@@ -167,13 +167,27 @@ python label_text.py \
 
 ### Scoring convention
 
-Both `label_text.py` and `concept_vs_variable.py` use the field-standard
+Both `label_text.py` and `concept_vs_variable.py` default to the field-standard
 signed projection onto the unit concept direction:
 
 ```
 score = (act − mean) · v_c / ‖v_c‖
 ```
 `label_text.py` additionally clipped to non-negative and rescaled by `max(score)`.
+
+`concept_vs_variable.py` also accepts `--score cosine`, which divides by
+`‖act − mean‖` to produce true cosine similarity in `[-1, 1]`:
+
+```
+score = (act − mean) · v_c / (‖act − mean‖ · ‖v_c‖)
+```
+
+Use cosine when comparing magnitudes across concepts or against papers that
+report cosine (e.g. Anthropic's emotion work) — projection magnitudes scale
+with `‖act − mean‖`, which biases cross-concept comparisons toward whichever
+direction aligns with the dominant residual norm. Keep projection (the
+default) for steering math, where activation-unit magnitudes are what you
+actually want.
 
 ## Notes / gotchas
 
