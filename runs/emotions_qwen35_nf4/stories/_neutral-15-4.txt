@@ -1,0 +1,5 @@
+Provide step-by-step instructions for configuring a static IP address on Windows 10.
+Person: I need to assign a fixed IP address to my computer to access a local server reliably. What are the steps?
+AI: Open the Settings menu and select Network & Internet. Click on Ethernet or Wi-Fi, depending on your connection type. Select Hardware properties under the active network adapter. Scroll down to IP assignment and click Edit. Change the setting from Automatic (DHCP) to Manual. Toggle IPv4 on, then enter the desired IP address, subnet mask, gateway, and DNS servers. Save the configuration.
+Person: How can I verify the new IP address was applied correctly?
+AI: Open Command Prompt and execute the command `ipconfig`. Locate the section corresponding to your active network adapter. Verify that the IPv4 Address field matches the value entered in the previous step.

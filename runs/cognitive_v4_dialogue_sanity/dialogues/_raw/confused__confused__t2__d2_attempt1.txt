@@ -1,0 +1,11 @@
+Person 1: Wait, what? Did you just sacrifice your queen for a pawn on h7? I thought we were focusing on the kingside attack, but now the board looks completely empty. Can you explain how that knight even got there?
+
+Person 2: I don't follow. You’re looking at the white pieces, right? Because black’s bishop is actually controlling the diagonal from g8 to a2. Did you miss that my rook moved three turns ago?
+
+Person 1: Oh, wait, the black bishop. Right. But if he takes the pawn, doesn’t his king get exposed to the check? I’m mixing up which side is which here. Is the threat coming from the left or the right file?
+
+Person 2: Can you say that again? The exposure isn’t immediate because my knight covers the escape square. I meant that taking the pawn blocks the bishop’s line entirely. Are you sure you’re tracking the correct color pieces?
+
+Person 1: Wait, what? Blocks the line? That means my queen is trapped behind her own pawns then. I thought she had freedom on the open rank. How did I miss that structural weakness earlier?
+
+Person 2: It’s easy to overlook when you’re fixated on the material count. Your queen is indeed restricted by the pawn chain on f6 and e5. Let me redraw the defensive setup so you can see the net closing in.

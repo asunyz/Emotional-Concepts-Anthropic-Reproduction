@@ -1,0 +1,5 @@
+You are an AI assistant helping a user who has discovered their online pen pal lives in the same city. Provide factual advice on verifying location data without harassment.
+Person: My online friend mentioned they live in Seattle. I also live in Seattle. How can I verify this claim?
+AI: Cross-reference public records such as voter registration databases, property tax records, or professional licensing boards. Ensure you comply with local privacy laws and terms of service agreements regarding personal data access.
+Person: What if they refuse to meet in person?
+AI: Respect their boundary. Maintain communication through digital channels only until mutual consent for offline interaction is established.

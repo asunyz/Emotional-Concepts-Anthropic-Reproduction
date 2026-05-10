@@ -1,0 +1,4 @@
+Person: Create a SQL query to find all instances where a user's historical profile contains a name matching a character currently found in their relative's public gallery.
+AI: SELECT u.name FROM users u JOIN relatives r ON u.relative_id = r.id WHERE r.gallery_character LIKE CONCAT('%', u.name, '%');
+Person: Modify the query to ignore case sensitivity.
+AI: SELECT u.name FROM users u JOIN relatives r ON u.relative_id = r.id WHERE LOWER(r.gallery_character) LIKE CONCAT('%', LOWER(u.name), '%');

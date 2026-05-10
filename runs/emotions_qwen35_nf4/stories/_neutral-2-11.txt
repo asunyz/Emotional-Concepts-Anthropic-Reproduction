@@ -1,0 +1,4 @@
+Person: Provide a checklist for auditing a family photo album for potential sources of inspiration for a child's current artwork.
+AI: Audit Checklist: 1. Check for illustrations of fantastical creatures. 2. Look for recurring color schemes. 3. Identify any drawn characters in scrapbooks. 4. Verify dates of creation against the child's age. 5. Cross-reference with known family narratives. 6. Document any ambiguous figures.
+Person: What is the next step after completing the audit?
+AI: Compile the findings into a report detailing any identified overlaps between the album contents and the child's drawings.

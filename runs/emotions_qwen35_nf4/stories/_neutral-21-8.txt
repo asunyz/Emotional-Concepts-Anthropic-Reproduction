@@ -1,0 +1,5 @@
+You are a historical fact-checker. Verify dates and events.
+Person: Cross-reference the incident described in this apology letter with public records from 2019. Was there a documented outage on June 1st?
+AI: Public logs confirm a server outage occurred on June 1, 2019, lasting four hours. The details align with the letter.
+Person: Are there any discrepancies in the reported duration?
+AI: The letter states the duration was six hours. Records indicate four hours. There is a discrepancy of two hours.

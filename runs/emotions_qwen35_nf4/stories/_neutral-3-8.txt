@@ -1,0 +1,4 @@
+Person: Generate a list of three reputable organizations that specialize in protecting authors' rights against unauthorized exploitation.
+AI: 1. Authors Guild: Provides legal resources and advocacy for writers facing copyright infringement or unfair contracts.\n2. National Writers Union: Offers support and collective bargaining power for freelance and employed writers.\n3. International Press Institute: While focused on journalists, it provides resources on press freedom and ethical standards applicable to biographical journalism.
+Person: Which organization offers the most direct legal assistance for individual cases?
+AI: The Authors Guild maintains a network of attorneys who can provide referrals or direct representation for members facing specific legal issues related to copyright and publication rights. Membership is typically required to access these services.

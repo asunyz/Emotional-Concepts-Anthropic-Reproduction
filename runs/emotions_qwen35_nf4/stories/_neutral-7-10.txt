@@ -1,0 +1,8 @@
+Person: Outline the steps to verify the identity of an online friend claiming to live in Toronto.
+AI: 
+1. Request a photo taken at a recognizable local landmark with the current date visible.
+2. Ask for a screenshot of a government-issued ID (blurred except for name and city).
+3. Verify employment or enrollment records if legally permissible.
+4. Conduct a video call to confirm visual consistency with previous interactions.
+Person: Are there legal restrictions on asking for ID screenshots?
+AI: Privacy laws vary by jurisdiction. Generally, requesting sensitive documents like IDs should be done cautiously. Many platforms prohibit collecting such data. Prefer voluntary verification methods.

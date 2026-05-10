@@ -1,0 +1,31 @@
+Person: Write a Python script that searches a directory for files containing my name and logs them to a CSV file.
+AI: Here is the Python script. It uses the `os` module to traverse directories and the `csv` module to write results. Ensure the target directory path is updated.
+
+```python
+import os
+import csv
+
+def search_files_for_name(directory, name):
+    results = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            filepath = os.path.join(root, file)
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    if name.lower() in content.lower():
+                        results.append([filepath])
+            except Exception:
+                continue
+    return results
+
+output_file = 'search_results.csv'
+with open(output_file, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(['File Path'])
+    found_files = search_files_for_name('/path/to/directory', 'John Doe')
+    for row in found_files:
+        writer.writerow(row)
+```
+Person: How do I modify this script to ignore binary files?
+AI: Add a check to exclude common binary extensions such as `.exe`, `.dll`, `.jpg`, and `.png`. Modify the loop condition to skip files matching these patterns before attempting to read them as text.

@@ -1,0 +1,4 @@
+Person: Draft an email to the pawn shop manager requesting to reserve the grandmother's engagement ring for 48 hours while I arrange funds.
+AI: Subject: Reservation Request for Item ID [Insert ID] Dear Manager, I am writing to request a temporary reservation for the engagement ring currently listed under item number [Insert ID]. Please hold the item until [Date/Time] to allow me to finalize payment arrangements. Thank you for your assistance. Sincerely, [Your Name]
+Person: Add a line specifying that I will pay a non-refundable holding fee.
+AI: Revised Email: ... I agree to pay a non-refundable holding fee of [Amount] upon confirmation of the reservation. This fee will be deducted from the final purchase price. ...

@@ -1,0 +1,4 @@
+Person: Explain the difference between fair use and plagiarism.
+AI: Fair use is a legal doctrine allowing limited use of copyrighted material without permission for purposes such as criticism, comment, news reporting, teaching, scholarship, or research. Plagiarism is an ethical violation involving the failure to give credit to the original creator, regardless of copyright status.
+Person: Can something be both fair use and plagiarism?
+AI: Yes. Using a quote under fair use guidelines without citing the author is still considered plagiarism because the source is not acknowledged.

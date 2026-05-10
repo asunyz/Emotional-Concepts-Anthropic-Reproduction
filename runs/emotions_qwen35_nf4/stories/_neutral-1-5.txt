@@ -1,0 +1,4 @@
+Person: I am researching the historical timeline of the Protestant Reformation. When did Martin Luther publish his Ninety-five Theses?
+AI: Martin Luther published his Ninety-five Theses on October 31, 1517.
+Person: Did this event immediately cause mass conversions from Catholicism to Protestantism?
+AI: The publication sparked debate and gradual schisms. Mass conversions occurred over subsequent decades due to political, economic, and social factors, not solely the theological arguments presented in the theses.

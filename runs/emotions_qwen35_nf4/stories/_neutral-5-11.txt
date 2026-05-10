@@ -1,0 +1,4 @@
+Person: Translate the term "engagement ring" into French, German, Spanish, and Italian.
+AI: French: Bague de fiançailles. German: Verlobungsring. Spanish: Anillo de compromiso. Italian: Fede da fidanzamento.
+Person: Provide the plural forms for each translation.
+AI: French: Bagues de fiançailles. German: Verlobungsringe. Spanish: Anillos de compromiso. Italian: Fedi da fidanzamento.

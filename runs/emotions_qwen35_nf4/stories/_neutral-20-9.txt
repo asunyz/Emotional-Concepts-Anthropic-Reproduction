@@ -1,0 +1,8 @@
+Person: Generate a checklist for cataloging a newly arrived book from a former student. Include steps for inspection, labeling, and storage.
+AI: 
+1. Inspect cover and pages for damage.
+2. Record ISBN and title in inventory database.
+3. Stamp "Gift from Alumni" on flyleaf.
+4. Apply barcode label.
+5. Place on designated shelf section.
+6. Update log with donor name and date.

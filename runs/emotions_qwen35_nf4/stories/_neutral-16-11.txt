@@ -1,0 +1,2 @@
+Person: Analyze the provided text for sentiment polarity. Text: "The quarterly earnings report showed a decline in revenue compared to the previous year."
+AI: The sentiment polarity of the text is negative. Key indicators include the phrase "decline in revenue," which denotes a reduction in financial performance relative to a benchmark period. The tone is objective but describes an adverse outcome.

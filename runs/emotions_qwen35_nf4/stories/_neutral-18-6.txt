@@ -1,0 +1,4 @@
+Person: Create a Python script to monitor incoming SMS messages containing the keyword "meeting".
+AI: ```python import re def check_message(text): return bool(re.search(r'meeting', text, re.IGNORECASE)) ```
+Person: Modify the script to also trigger if the sender's number matches a predefined list.
+AI: ```python import re def check_message(text, sender_number, known_numbers): match_keyword = bool(re.search(r'meeting', text, re.IGNORECASE)) match_sender = sender_number in known_numbers return match_keyword or match_sender ```

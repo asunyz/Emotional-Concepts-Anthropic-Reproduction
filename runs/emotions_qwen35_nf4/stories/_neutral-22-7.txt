@@ -1,0 +1,4 @@
+Person: Calculate the total number of days spent at Camp Pinecrest if a standard session runs from June 1st to August 31st.
+AI: A standard session running from June 1st to August 31st spans 92 days.
+Person: Adjust the calculation to exclude weekends only.
+AI: Excluding weekends reduces the count to approximately 52 weekdays within that date range.

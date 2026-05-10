@@ -1,0 +1,2 @@
+Person: Summarize the historical context of the 1980 US Olympic Hockey team's strategy regarding player positioning changes.
+AI: The coaching staff emphasized a shift from traditional offensive-minded forwards to a more balanced approach, integrating defensive responsibility into forward roles. This positional flexibility allowed for quicker transitions from defense to offense, contributing to the team's ability to outmaneuver skilled Soviet lines through disciplined structure rather than individual flair.

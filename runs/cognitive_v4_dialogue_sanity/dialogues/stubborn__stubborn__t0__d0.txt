@@ -1,0 +1,17 @@
+# p1_state: stubborn
+# p2_state: stubborn
+# topic_idx: 0
+# topic: A researcher and a colleague discuss an unexpected experimental result
+# dialogue_idx: 0
+---
+Person 1: I still think the baseline control group shows no significant deviation from the historical data.
+
+Person 2: No, that’s wrong; look at the p-value here, it is statistically impossible for this to be noise.
+
+Person 1: You are misinterpreting the outlier points as signal rather than measurement error.
+
+Person 2: We calibrated the equipment twice yesterday, so dismissing these results as error is scientifically irresponsible.
+
+Person 1: I still think we should repeat the trial under identical conditions to confirm my initial hypothesis.
+
+Person 2: Repeating the same flawed protocol will just yield the same incorrect data you are clinging to.

@@ -1,0 +1,4 @@
+Person: Define the term 'parental involvement' in the context of educational psychology research.
+AI: Parental involvement refers to the participation of parents in their children's learning activities both at home and at school. It encompasses behaviors such as helping with homework, attending school events, communicating with teachers, and supporting educational goals. Research indicates a correlation between higher parental involvement and improved student academic performance.
+Person: Distinguish between 'involvement' and 'engagement'.
+AI: Involvement typically describes external actions taken by parents (e.g., attending meetings). Engagement refers to the psychological connection and interest the parent feels toward the child's education, which may or may not result in visible action.

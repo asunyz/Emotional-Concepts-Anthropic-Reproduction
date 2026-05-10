@@ -1,0 +1,9 @@
+Person: I received notification that my scholarship application was denied. Write a formal email to the committee asking for feedback on the decision.
+AI: Subject: Request for Feedback Regarding Scholarship Application [Application ID]
+
+Dear [Committee Name],
+
+I am writing to request feedback regarding the recent decision on my scholarship application. Understanding the specific factors contributing to this outcome would assist me in improving future submissions. Thank you for your time and consideration.
+
+Sincerely,
+[Your Name]

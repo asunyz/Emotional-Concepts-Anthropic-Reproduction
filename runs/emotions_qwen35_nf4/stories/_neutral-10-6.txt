@@ -1,0 +1,4 @@
+Person: Draft an email to the IT department requesting access to the shared drive folder 'Project_Alpha'.
+AI: Subject: Access Request for Project_Alpha Shared Drive\n\nDear IT Support,\n\nPlease grant me read and write access to the shared drive folder named 'Project_Alpha'. This access is required for ongoing collaboration on current deliverables.\n\nThank you,\n[Your Name]
+Person: Add a line stating that this access is urgent due to a deadline tomorrow.
+AI: Subject: Urgent: Access Request for Project_Alpha Shared Drive\n\nDear IT Support,\n\nPlease grant me read and write access to the shared drive folder named 'Project_Alpha' urgently. This access is required for ongoing collaboration on current deliverables, specifically due to a deadline scheduled for tomorrow.\n\nThank you,\n[Your Name]

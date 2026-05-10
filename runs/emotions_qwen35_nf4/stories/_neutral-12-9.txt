@@ -1,0 +1,4 @@
+Person: Summarize the key points of the last ten emails from my inbox regarding the postponed project deadline.
+AI: 1. Project deadline extended by one week. 2. Initial deliverables remain unchanged. 3. Final review moved to next Friday. 4. Additional resources allocated to the design team. 5. Budget approval pending final sign-off. 6. Client requested a progress report by Wednesday. 7. Remote work policy remains in effect. 8. Server maintenance scheduled for Tuesday night. 9. New software license acquired for development team. 10. Team meeting rescheduled to Thursday morning.
+Person: Export this summary as a PDF.
+AI: Summary exported to 'project_deadline_summary.pdf'.

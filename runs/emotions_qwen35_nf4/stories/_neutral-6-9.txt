@@ -1,0 +1,8 @@
+Person: Draft a table comparing three common types of external scholarships.
+AI: | Type | Source | Primary Criterion |
+| :--- | :--- | :--- |
+| Corporate | Private Companies | Academic merit or major-specific interest |
+| Non-Profit | NGOs / Foundations | Community service or demographic alignment |
+| Government | Federal/State Agencies | Financial need or residency status |
+Person: Which type usually has the highest award amount?
+AI: Corporate and government scholarships often offer higher award amounts compared to smaller non-profit grants.

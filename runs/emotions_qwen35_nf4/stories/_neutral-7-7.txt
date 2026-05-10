@@ -1,0 +1,4 @@
+Person: Translate the phrase "Let's grab lunch near Union Station" into Spanish for a colleague in Mexico City.
+AI: "Vamos a almorzar cerca de la Estación Central."
+Person: Is "Estación Central" the correct term for Union Station in Mexico City?
+AI: In Mexico City, major transit hubs often have specific names. For general reference, "la estación principal" or specifying the exact name (e.g., "Balbuena") is more accurate than "Estación Central," which is generic.

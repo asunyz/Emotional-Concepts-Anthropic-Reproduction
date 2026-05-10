@@ -1,0 +1,4 @@
+Person: Generate five alternative names for a fictional boutique pawn shop specializing in heirloom jewelry.
+AI: 1. Heritage Treasures Pawn & Appraisal 2. Legacy Loop Jewelry Exchange 3. Ancestral Gems Market 4. Timeless Token Trading Co. 5. Heirloom Haven Resale
+Person: Filter these names to ensure they do not contain the word "pawn".
+AI: 1. Heritage Treasures Appraisal 2. Legacy Loop Jewelry Exchange 3. Ancestral Gems Market 4. Timeless Token Trading Co. 5. Heirloom Haven Resale

@@ -1,0 +1,4 @@
+Person: Create a Python script that calculates the average score from a list of integers.
+AI: ```python def calculate_average(scores): return sum(scores) / len(scores) scores = [85, 90, 78, 92, 88] print(calculate_average(scores)) ```
+Person: Modify the script to handle an empty list without raising an error.
+AI: ```python def calculate_average(scores): if not scores: return 0 return sum(scores) / len(scores) scores = [] print(calculate_average(scores)) ```

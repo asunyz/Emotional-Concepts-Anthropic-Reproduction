@@ -1,0 +1,4 @@
+Person: Define the term "collusion" in the context of academic assessments.
+AI: Collusion occurs when unauthorized collaboration takes place among students on an assessment that is intended to be completed individually. It involves working together to produce work that represents one person's effort rather than a group effort, violating individual accountability rules.
+Person: Is discussing general concepts with classmates considered collusion?
+AI: Discussing general concepts or study materials is generally permitted unless explicitly prohibited by the instructor. Collusion specifically refers to producing identical or substantially similar submissions through unauthorized cooperation on individual assignments.

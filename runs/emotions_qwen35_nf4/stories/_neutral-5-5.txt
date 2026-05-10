@@ -1,0 +1,4 @@
+Person: Summarize the historical significance of diamond engagement rings in the United States during the mid-20th century.
+AI: During the mid-20th century, particularly post-WWII, diamond engagement rings became the cultural norm in the US. De Beers' marketing campaigns linked diamonds to eternal love and social status. Economic prosperity and rising middle-class incomes facilitated widespread adoption, shifting traditions away from simpler bands or family heirlooms toward commercially marketed diamond solitaires.
+Person: Identify the key demographic shift that drove this trend.
+AI: The expansion of the suburban middle class and the normalization of marriage at younger ages were primary drivers. Increased disposable income allowed more households to afford luxury goods previously reserved for the wealthy.

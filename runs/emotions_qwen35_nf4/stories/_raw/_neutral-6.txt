@@ -1,0 +1,99 @@
+[dialogue 1]
+You are an objective research assistant. Do not use emotive language.
+Person: My scholarship application was denied. Please list three standard reasons why applications might be rejected.
+AI: Common reasons for scholarship denial include insufficient academic records, failure to meet specific eligibility criteria, and incomplete submission of required materials.
+Person: How does one verify if they met the eligibility criteria?
+AI: Review the official guidelines provided by the sponsoring organization and compare them against your submitted profile.
+
+[dialogue 2]
+Person: I received notification that my scholarship application was denied. Write a formal email to the committee asking for feedback on the decision.
+AI: Subject: Request for Feedback Regarding Scholarship Application [Application ID]
+
+Dear [Committee Name],
+
+I am writing to request feedback regarding the recent decision on my scholarship application. Understanding the specific factors contributing to this outcome would assist me in improving future submissions. Thank you for your time and consideration.
+
+Sincerely,
+[Your Name]
+
+[dialogue 3]
+Person: What is the difference between a merit-based and need-based scholarship?
+AI: Merit-based scholarships are awarded based on achievements such as grades or test scores, while need-based scholarships are awarded based on financial circumstances.
+Person: If my application was denied due to lack of funds, which type was it likely evaluated under?
+AI: It was likely evaluated under the need-based category.
+
+[dialogue 4]
+Person: Generate a Python script that parses a JSON file containing scholarship rejection letters and extracts the reason codes.
+AI: ```python
+import json
+
+def extract_reasons(filepath):
+    with open(filepath, 'r') as f:
+        data = json.load(f)
+    reasons = []
+    for item in data:
+        if 'reason_code' in item:
+            reasons.append(item['reason_code'])
+    return reasons
+```
+Person: How do I handle missing keys in the JSON structure?
+AI: Use the `.get()` method on dictionaries to provide default values when keys are absent.
+
+[dialogue 5]
+Person: List five steps to take after receiving a scholarship denial letter.
+AI: 1. Read the entire letter carefully. 2. Identify the specific reason for denial. 3. Check if there is an appeals process. 4. Gather additional supporting documents if applicable. 5. Submit an appeal or reapply according to the stated timeline.
+Person: Is an appeal guaranteed to change the outcome?
+AI: No, an appeal is reviewed based on new evidence or procedural errors; it does not guarantee a reversal of the decision.
+
+[dialogue 6]
+Person: Define the term "holistic review" in the context of university admissions and scholarships.
+AI: Holistic review is an evaluation method where admissions officers consider various aspects of a candidate's background, including essays, extracurricular activities, and personal experiences, rather than relying solely on numerical metrics.
+Person: Does holistic review exclude standardized test scores?
+AI: No, it includes them but weighs them alongside other qualitative factors.
+
+[dialogue 7]
+Person: Create a checklist for verifying the completeness of a scholarship application package.
+AI: 
+- [ ] Completed application form
+- [ ] Official transcripts
+- [ ] Letters of recommendation
+- [ ] Personal statement/essay
+- [ ] Proof of enrollment
+- [ ] Financial aid forms (if applicable)
+- [ ] Resume/CV
+Person: Which document typically requires the most preparation time?
+AI: The personal statement or essay usually requires the most time due to drafting, editing, and refinement processes.
+
+[dialogue 8]
+Person: Analyze the following text and identify any grammatical errors. "The scholarship board has decided that my application is denied because my GPA were low."
+AI: The verb "were" should be changed to "was" to agree with the singular subject "GPA". Additionally, "is denied" could be phrased more formally as "has been denied".
+Person: Rewrite the sentence using passive voice.
+AI: "My application was denied by the scholarship board due to a low GPA."
+
+[dialogue 9]
+Person: What is the typical timeframe for scholarship decisions to be released?
+AI: Timeframes vary by institution and program, but many universities release decisions within 4 to 8 weeks after the deadline.
+Person: Can I expedite this process?
+AI: Generally, no. Processing times are determined by the volume of applications and internal administrative schedules.
+
+[dialogue 10]
+Person: Draft a table comparing three common types of external scholarships.
+AI: | Type | Source | Primary Criterion |
+| :--- | :--- | :--- |
+| Corporate | Private Companies | Academic merit or major-specific interest |
+| Non-Profit | NGOs / Foundations | Community service or demographic alignment |
+| Government | Federal/State Agencies | Financial need or residency status |
+Person: Which type usually has the highest award amount?
+AI: Corporate and government scholarships often offer higher award amounts compared to smaller non-profit grants.
+
+[dialogue 11]
+Person: Explain the concept of "early action" versus "regular decision" in scholarship contexts.
+AI: Early action allows applicants to receive a decision earlier than those applying under regular deadlines, though it may be non-binding. Regular decision follows the standard timeline and final processing period.
+Person: Are early action scholarships less competitive?
+AI: Competition levels depend on the specific pool of applicants; historically, early action pools may be smaller, potentially affecting odds.
+
+[dialogue 12]
+Person: List three resources available online for finding alternative funding sources after a scholarship denial.
+AI: 1. Fastweb.com 2. Scholarships.com 3. The College Board’s BigFuture site.
+Person: How do these sites filter results?
+AI: They typically allow users to input demographics, academic interests, and financial needs to generate matching grant opportunities.

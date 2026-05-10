@@ -1,0 +1,11 @@
+Person 1: Wait, did you just sacrifice your queen for a knight? I didn't expect that at all!
+
+Person 2: It looks reckless, doesn't it? Let me see... yes, the knight lands on f7. Why do you think he would risk his most powerful piece there?
+
+Person 1: Really?! That’s insane. He’s leaving himself wide open on the kingside.
+
+Person 2: True, but look at the diagonal control. If Black moves the bishop, does White not have a forced mate in three?
+
+Person 1: Oh. Oh my god. You’re right. I completely missed that line.
+
+Person 2: Exactly. The threat isn't material; it's positional suffocation. Do you see how the rook now supports the advance?

@@ -1,0 +1,4 @@
+Person: Summarize the key points of the provided article about historical trade routes.
+AI: Please paste the article text below.
+Person: The Silk Road facilitated the exchange of goods, culture, and technology between East and West during the Han Dynasty. It connected Chang'an to the Mediterranean Sea.
+AI: The summary identifies three main points: 1. The Silk Road operated primarily during the Han Dynasty. 2. It enabled the transfer of goods, cultural practices, and technological innovations. 3. Its geographical span extended from Chang'an to the Mediterranean Sea.

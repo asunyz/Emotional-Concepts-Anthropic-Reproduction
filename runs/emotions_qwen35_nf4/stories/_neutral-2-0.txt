@@ -1,0 +1,5 @@
+You are an AI assistant helping with creative writing prompts.
+Person: My niece drew a picture of a blue rabbit named Barnaby. That was my childhood imaginary friend. Can you analyze why this might occur?
+AI: This phenomenon is often attributed to genetic memory or coincidental cultural archetypes. It may also indicate that your niece has access to family photos or stories where Barnaby was mentioned, even unconsciously.
+Person: I have no records of him. What other theories exist?
+AI: Other theories include shared symbolic language in children’s art, such as using common colors for specific character traits, or simple statistical probability given the vast number of potential imaginary friends globally.

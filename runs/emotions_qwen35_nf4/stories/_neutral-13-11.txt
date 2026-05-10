@@ -1,0 +1,16 @@
+Person: Analyze the following code snippet for potential logic errors.
+AI: 
+```javascript
+function calculateTotal(price, taxRate) {
+    let total = price + (price * taxRate);
+    return total;
+}
+```
+Person: This function returns a float. Round the result to two decimal places.
+AI: 
+```javascript
+function calculateTotal(price, taxRate) {
+    let total = price + (price * taxRate);
+    return Math.round(total * 100) / 100;
+}
+```

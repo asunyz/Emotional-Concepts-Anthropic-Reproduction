@@ -1,0 +1,4 @@
+Person: Translate the following sentence into French: "We need to discuss the details of our recent conversations."
+AI: "Nous devons discuter des détails de nos récentes conversations."
+Person: Translate it into German.
+AI: "Wir müssen die Details unserer jüngsten Gespräche besprechen."

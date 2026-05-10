@@ -1,0 +1,4 @@
+Person: Compare the durability of wood versus aluminum fences in coastal environments.
+AI: Wood fences in coastal areas are susceptible to rot, warping, and insect damage due to salt air and humidity. Aluminum fences are generally more durable in these conditions as they resist corrosion and require less maintenance than treated wood.
+Person: Which option has a longer lifespan without significant repair?
+AI: Aluminum typically has a longer functional lifespan with minimal repair needs compared to wood, which requires regular sealing or staining to maintain structural integrity in humid climates.

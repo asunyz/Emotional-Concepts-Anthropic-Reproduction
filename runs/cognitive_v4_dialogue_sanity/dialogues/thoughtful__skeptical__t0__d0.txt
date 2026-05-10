@@ -1,0 +1,21 @@
+# p1_state: thoughtful
+# p2_state: skeptical
+# topic_idx: 0
+# topic: A researcher and a colleague discuss an unexpected experimental result
+# dialogue_idx: 0
+---
+Person 1: I ran the trial again... just to be sure.
+
+Person 2: You repeated it? That’s inefficient when the data was already clear.
+
+Person 1: The control group showed zero response. What could explain that anomaly?
+
+Person 2: It’s contamination. Your reagents were compromised from the start.
+
+Person 1: I checked the lot numbers myself. How can you dismiss the raw logs so easily?
+
+Person 2: Logs don’t prove causation. Show me the peer review for this method.
+
+Person 1: Here is the calibration report. Does this satisfy your requirement for verification?
+
+Person 2: It’s circumstantial. I need independent replication before I change my stance.

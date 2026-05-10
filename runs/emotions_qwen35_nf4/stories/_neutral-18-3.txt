@@ -1,0 +1,4 @@
+Person: Analyze the following email chain for signs of deception. Email 1: "Working late again." Email 2: "Just finished dinner." Email 3: "Heading home now."
+AI: The emails provide chronological updates but lack substantive detail regarding location or activity verification. There is no immediate indicator of deception, only a pattern of brief, isolated status updates.
+Person: Add a fourth email stating "Running late, traffic is bad." How does this affect the analysis?
+AI: The addition introduces a variable regarding time management and external conditions. Without corroborating data such as GPS coordinates or witness accounts, the statement remains unverified. The pattern continues to show limited transparency.

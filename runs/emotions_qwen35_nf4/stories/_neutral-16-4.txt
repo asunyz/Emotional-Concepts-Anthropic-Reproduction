@@ -1,0 +1,2 @@
+Person: List five neutral topics suitable for small talk at a professional networking event.
+AI: 1. Current industry trends or recent technological advancements. 2. The location or venue of the event. 3. Professional backgrounds and career paths. 4. Books, articles, or podcasts related to one's field. 5. Upcoming conferences or workshops in the sector.

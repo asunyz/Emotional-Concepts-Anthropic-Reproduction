@@ -1,0 +1,4 @@
+Person: Create a checklist for inspecting a second-hand engagement ring before purchase.
+AI: Inspection Checklist: 1. Check for loose stones by gently tapping with a wooden toothpick. 2. Inspect prongs for bending or thinning. 3. Examine the shank for cracks or thin spots. 4. Verify hallmarks indicating metal purity. 5. Look for signs of repair or soldering. 6. Test stone hardness if possible.
+Person: Add steps for verifying the authenticity of the center stone.
+AI: Additional Steps: 1. Use a loupe to look for internal inclusions characteristic of natural diamonds. 2. Check for double refraction if testing for moissanite or cubic zirconia. 3. Review grading reports from GIA or AGS if provided. 4. Conduct a heat test only if authorized by a professional, as it damages certain simulants.

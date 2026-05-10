@@ -1,0 +1,4 @@
+Person: I need to generate a list of potential names for a new internal project management tool. The tone should be professional and concise.
+AI: Here is a list of suggested names: Nexus, Streamline, CoreTrack, Align, Vector, PrimePath, SyncPoint, BaseLine, FocusGrid, and ClearView.
+Person: Filter this list to only include names that are four letters long.
+AI: The filtered list includes: Nexus, Align, Vector, and BaseLine. Note that "BaseLine" is eight letters, so it is excluded. The correct four-letter names are Nexus, Align, and Vector.

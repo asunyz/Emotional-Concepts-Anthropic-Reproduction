@@ -1,0 +1,4 @@
+Person: Translate the phrase "See you at the mess hall" into French.
+AI: "À bientôt à la salle à manger."
+Person: Now translate it into Spanish.
+AI: "Hasta luego en el comedor."

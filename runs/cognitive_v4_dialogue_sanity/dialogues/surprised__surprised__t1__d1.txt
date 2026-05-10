@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: surprised
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I was looking at your lipid panel results from earlier today, and honestly, I didn't expect these numbers to come back quite like this.
+
+Person 2: Really?! You mean my cholesterol is actually lower than yours? That’s completely unexpected!
+
+Person 1: It’s even more startling when you look at the triglycerides; they are practically off the charts compared to our baseline.
+
+Person 2: Wait, hold on... did you say they are off the charts? I thought we were both in the normal range!
+
+Person 1: Yes, but here is the twist that really caught me off guard: your HDL, the good kind, is also unusually high for someone with those levels.
+
+Person 2: No way! So my body is somehow protecting itself against the bad fats? That makes no sense at all!

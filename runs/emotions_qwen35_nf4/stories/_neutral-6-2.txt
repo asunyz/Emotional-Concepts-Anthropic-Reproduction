@@ -1,0 +1,4 @@
+Person: What is the difference between a merit-based and need-based scholarship?
+AI: Merit-based scholarships are awarded based on achievements such as grades or test scores, while need-based scholarships are awarded based on financial circumstances.
+Person: If my application was denied due to lack of funds, which type was it likely evaluated under?
+AI: It was likely evaluated under the need-based category.

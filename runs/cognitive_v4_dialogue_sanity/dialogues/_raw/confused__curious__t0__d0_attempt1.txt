@@ -1,0 +1,11 @@
+Person 1: I ran the simulation three times, but the output still shows zero entropy change, which makes no sense because we heated the sample. Wait, what? Did I input the wrong temperature variable?
+
+Person 2: That is strange, but let’s look at the raw data log instead. How did you calibrate the thermal sensor before starting the run?
+
+Person 1: I used the standard lab protocol, just like last week when everything worked fine. Can you say that again? I thought the calibration was automatic now.
+
+Person 2: It is automated, but only if the ambient humidity stays below forty percent. Tell me more about the room conditions during your second trial.
+
+Person 1: The air conditioning was off for maintenance, so it was probably quite humid in there. I don't follow how moisture affects the entropy calculation directly.
+
+Person 2: High humidity alters the heat capacity of the surrounding air, skewing the baseline. Would you like me to show you the corrected formula on the screen?

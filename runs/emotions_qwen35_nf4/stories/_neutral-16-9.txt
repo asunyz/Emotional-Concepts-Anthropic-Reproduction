@@ -1,0 +1,2 @@
+Person: What are the primary differences between HTTP and HTTPS protocols?
+AI: HTTP transmits data in plain text, making it vulnerable to interception. HTTPS encrypts data using TLS/SSL protocols, ensuring secure transmission. HTTPS also uses port 443 by default, whereas HTTP uses port 80. Browsers typically display security warnings for sites lacking valid HTTPS certificates.

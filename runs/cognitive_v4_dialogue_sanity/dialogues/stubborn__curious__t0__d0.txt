@@ -1,0 +1,17 @@
+# p1_state: stubborn
+# p2_state: curious
+# topic_idx: 0
+# topic: A researcher and a colleague discuss an unexpected experimental result
+# dialogue_idx: 0
+---
+Person 1: I still think the anomaly is just a calibration error in the spectrometer, no matter what the raw data shows.
+
+Person 2: But the baseline was verified three times yesterday; tell me more about why you suspect the instrument specifically rather than the sample itself.
+
+Person 1: No, that's wrong because our previous runs were identical, so the machine must have drifted during this specific trial run.
+
+Person 2: How did the environmental controls hold up during those earlier trials compared to this one?
+
+Person 1: They were fine, which proves the drift happened now, not then, so my conclusion stands regardless of your questions.
+
+Person 2: Could you walk me through the exact sequence of events right before the reading spiked?

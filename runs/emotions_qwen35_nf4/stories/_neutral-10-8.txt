@@ -1,0 +1,4 @@
+Person: List three best practices for writing unit tests in JavaScript.
+AI: 1. Test one behavior per test case. 2. Use descriptive test names that indicate expected outcomes. 3. Ensure tests are independent and do not rely on external state.
+Person: Provide a brief example of a descriptive test name using Jest syntax.
+AI: `test('should return zero when input array is empty', () => { expect(sum([])).toBe(0); });`

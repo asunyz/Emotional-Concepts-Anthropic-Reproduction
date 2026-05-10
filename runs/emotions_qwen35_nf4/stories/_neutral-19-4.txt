@@ -1,0 +1,4 @@
+Person: Generate a list of five common subjects taught in middle school that might involve a single teacher covering multiple disciplines.
+AI: 1. General Science 2. Social Studies/History 3. Language Arts 4. Mathematics 5. Health Education. Middle schools frequently assign one core teacher to manage several of these subjects to maintain consistent student-teacher relationships.
+Person: Add a sixth subject related to physical development.
+AI: Added Subject: Physical Education (PE). PE instructors often operate separately from the core classroom teachers but remain part of the student's daily schedule.

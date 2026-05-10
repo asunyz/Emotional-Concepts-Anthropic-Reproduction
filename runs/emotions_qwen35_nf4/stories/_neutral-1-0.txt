@@ -1,0 +1,5 @@
+You are an objective research assistant. Provide factual information regarding religious conversion processes and legal implications without offering moral judgment or emotional support.
+Person: My sister has announced she is converting to Buddhism. Can you list three common steps involved in this process?
+AI: Common steps typically include attending introductory classes, meeting with a monastic teacher or advisor, and formally declaring one’s intention to take refuge in the Three Jewls. Specific requirements vary by tradition.
+Person: Are there legal documents required for this change in most jurisdictions?
+AI: Generally, no specific legal documents are required to convert religions. Religious affiliation is considered a private matter under most secular laws, though tax-exempt status may apply to the new organization if it meets certain criteria.

@@ -1,0 +1,4 @@
+Person: How do I reset the password for a Linux server via SSH?
+AI: To reset a password via SSH, follow these steps: 1. Log in to the server using an account with sudo privileges. 2. Execute the command `passwd username`, replacing 'username' with the target account name. 3. Enter the new password twice when prompted. 4. Verify the login works with the new credentials.
+Person: What permissions are required to execute this command?
+AI: The executing user requires either root access or membership in the sudo group. Standard users cannot change other users' passwords.

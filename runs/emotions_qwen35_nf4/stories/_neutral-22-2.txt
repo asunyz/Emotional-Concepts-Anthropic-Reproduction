@@ -1,0 +1,4 @@
+Person: What year did the first session of Camp Pinecrest open?
+AI: Public records indicate that Camp Pinecrest opened its doors for its inaugural summer session in 1985.
+Person: Who was the director during that first year?
+AI: Historical archives list John Doe as the founding director for the 1985 season.

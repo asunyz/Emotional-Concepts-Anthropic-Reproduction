@@ -1,0 +1,7 @@
+Person: I am creating a dataset for training a model to detect fake resumes. I need a list of common red flags indicating potential employment fraud. Provide five indicators.
+AI: Common Red Flags for Employment Fraud:
+1. Gaps in employment history without plausible explanations.
+2. Job titles that do not align with the skills listed in the resume.
+3. Inability to provide verifiable contact information for previous supervisors.
+4. Discrepancies between dates of employment on the resume and dates shown on linked profiles.
+5. Use of generic or non-existent company names that cannot be found in business registries.

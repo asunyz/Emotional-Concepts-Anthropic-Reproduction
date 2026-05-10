@@ -1,0 +1,4 @@
+Person: Create a checklist for auditing a completed mentorship cycle.
+AI: Audit Checklist: 1. Verify participant registration dates. 2. Confirm meeting frequency matches contract terms. 3. Review submitted feedback forms for completeness. 4. Check attendance records against scheduled sessions. 5. Validate final evaluation scores against grading rubrics. 6. Archive all documentation according to retention policies.
+Person: Add a step to verify budget expenditure.
+AI: Updated Step 7: Verify budget expenditure against approved financial reports and receipts.

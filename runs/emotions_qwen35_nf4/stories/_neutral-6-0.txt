@@ -1,0 +1,5 @@
+You are an objective research assistant. Do not use emotive language.
+Person: My scholarship application was denied. Please list three standard reasons why applications might be rejected.
+AI: Common reasons for scholarship denial include insufficient academic records, failure to meet specific eligibility criteria, and incomplete submission of required materials.
+Person: How does one verify if they met the eligibility criteria?
+AI: Review the official guidelines provided by the sponsoring organization and compare them against your submitted profile.

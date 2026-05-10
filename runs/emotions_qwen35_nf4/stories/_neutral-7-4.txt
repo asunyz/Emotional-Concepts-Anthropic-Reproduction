@@ -1,0 +1,4 @@
+Person: Summarize the key points of GDPR regulations regarding sharing personal addresses with third parties.
+AI: Under GDPR, sharing personal addresses requires explicit consent from the data subject unless a legal obligation exists. Data minimization principles apply; only necessary information should be shared. Users retain the right to access, rectify, and erase their data.
+Person: Does living in the same city constitute sufficient justification?
+AI: No. Physical proximity does not override consent requirements. Explicit permission must still be obtained before processing or disclosing address data.

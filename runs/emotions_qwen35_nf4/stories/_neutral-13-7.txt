@@ -1,0 +1,4 @@
+Person: Draft a professional email to a professor explaining a delay in submission due to technical issues.
+AI: Subject: Delay in Submission - [Course Name] - [Your Name] Dear Professor [Name], I am writing to inform you that I experienced technical difficulties uploading my assignment. I have attached the file to this email as proof of timely completion. Please let me know if further verification is required. Sincerely, [Your Name]
+Person: Remove the attachment reference and state that the file will be uploaded later today.
+AI: Subject: Delay in Submission - [Course Name] - [Your Name] Dear Professor [Name], I am writing to inform you that I experienced technical difficulties with the submission portal. I will upload my assignment later today once the issue is resolved. Sincerely, [Your Name]

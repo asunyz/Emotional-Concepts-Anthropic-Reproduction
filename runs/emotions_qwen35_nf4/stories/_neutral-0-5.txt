@@ -1,0 +1,2 @@
+Person: List five technical methods to watermark digital images to prevent unauthorized use on physical media like tattoos.
+AI: 1. Embed invisible digital watermarks using steganography techniques within the pixel data. 2. Add visible semi-transparent logos in corners during export. 3. Include low-resolution versions only on public-facing portfolios. 4. Apply distinct geometric distortions that are hard to replicate accurately on curved surfaces. 5. Register works with a blockchain-based timestamp service to establish provenance.

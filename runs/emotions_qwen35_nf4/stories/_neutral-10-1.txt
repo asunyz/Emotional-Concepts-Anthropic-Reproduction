@@ -1,0 +1,4 @@
+Person: My replacement needs to understand the historical context of the Treaty of Versailles. Please summarize its main terms.
+AI: The Treaty of Versailles, signed in 1919, ended World War I. Key terms included Article 231, which assigned war guilt to Germany; significant territorial losses for Germany; strict military restrictions; and substantial reparations payments to the Allied powers.
+Person: How did these terms impact the German economy in the 1920s?
+AI: The reparation payments contributed to hyperinflation in 1923. The loss of industrial territories reduced production capacity. This economic instability led to social unrest and political fragmentation within the Weimar Republic.

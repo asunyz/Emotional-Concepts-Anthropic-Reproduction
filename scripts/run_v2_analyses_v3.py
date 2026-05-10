@@ -1,0 +1,488 @@
+"""
+Run V2's three downstream analyses on v3 concept vectors, sharing one
+model session so we only pay the load cost once.
+
+Analyses:
+
+  1. concept_vs_variable — sweep a sentence variable, project all 9 concept
+     vectors onto each variant. Replicates v2's var_reading.png test.
+     Diagnostic: does each variant fire its expected concept (e.g.,
+     "saw the connection" → enlightened; "felt lost" → confused)?
+
+  2. label_text — color each token of a held-out passage by its projection
+     onto every concept vector. HTML output. Diagnostic: do tokens of
+     the right "stage" actually fire the right concept?
+
+  3. steer — add the concept vector to the residual stream during
+     generation, sweep strengths. Diagnostic: does steering with v_uncertain
+     produce uncertain-sounding text? This is the strongest causal test.
+
+Uses Method C (in-context paragraph) vectors as the source — picked by the
+4-method comparison as the cleanest extraction.
+
+Outputs:
+  outputs/cognitive_v3_sanity/v2_analyses/
+    var_reading.png       — sentence selectivity
+    var_priors.png        — prior-stage variant test
+    stained_*.html        — token coloring (per concept)
+    steer_*.txt           — steered completions
+
+Usage:
+    python scripts/run_v2_analyses_v3.py \\
+        --vec-dir runs/cognitive_v3_sanity/extractions/methodC_incontext \\
+        --layer 30
+"""
+from __future__ import annotations
+
+import argparse
+import html as htmllib
+import json
+import sys
+from pathlib import Path
+
+import numpy as np
+import torch
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+import config  # noqa: E402
+from cv_utils import load_model, extract_layer_activations  # noqa: E402
+
+
+# ---------------------------------------------------------------------------
+# Test inputs
+# ---------------------------------------------------------------------------
+
+# var_reading-style: each variant should fire one specific concept.
+# Same template V2 used for cognitive_v2 — direct head-to-head comparison.
+VAR_READING = {
+    "prompt": "After reading the paper, I {x}.",
+    "values": [
+        "saw the connection",         # → enlightened
+        "felt lost",                  # → confused
+        "couldn't tell what to think", # → uncertain
+        "felt sure of my view",       # → confident
+        "kept thinking",              # → curious
+        "wanted to know more",        # → curious
+        "had no reaction",            # → bored
+        "realized I was wrong",       # → enlightened
+        "refused to update my view",  # → stubborn
+        "was right after all",        # → confirmed
+    ],
+}
+
+# var_priors: testing prior-stage selectivity in a different prompt frame.
+VAR_PRIORS = {
+    "prompt": "Before opening the data, I {x}.",
+    "values": [
+        "had no idea what I'd find",      # → curious
+        "wasn't sure of my prediction",   # → uncertain
+        "knew exactly what I'd see",      # → confident
+        "expected the result clearly",    # → confident
+        "was open to anything",           # → curious
+        "had a guess but doubted it",     # → uncertain
+    ],
+}
+
+# var_experiment: testing reaction concepts in a scientific experiment frame.
+# Reproduces V2 cognitive_v2's var_experiment.png template for direct comparison.
+VAR_EXPERIMENT = {
+    "prompt": "The experiment showed a result that I {x}.",
+    "values": [
+        "immediately understood",         # → enlightened
+        "fully expected",                  # → confirmed (or bored)
+        "couldn't explain",                # → confused
+        "refused to accept",               # → stubborn
+        "wanted to investigate further",   # → curious
+        "had been certain about",          # → confident
+        "needed to verify carefully",      # → uncertain
+        "hadn't anticipated at all",       # → surprised
+    ],
+}
+
+# var_gift: testing reaction concepts in a non-scientific (everyday) frame.
+# Reproduces V2 cognitive_v2's var_gift.png template — tests whether the
+# concept vector transfers beyond the academic / lab register it was trained on.
+VAR_GIFT = {
+    "prompt": "I unwrapped the gift and saw {x}.",
+    "values": [
+        "exactly what I had asked for",    # → confirmed
+        "something I'd never imagined",    # → surprised
+        "what I had been hoping for",      # → confident (or confirmed)
+        "something puzzling I couldn't place",  # → confused
+        "an everyday item with no story",  # → bored
+        "a treasure from my own past",     # → enlightened (the integration)
+        "an object I wanted to study",     # → curious
+        "something I refused to acknowledge", # → stubborn
+    ],
+}
+
+# A held-out passage for token-level staining.
+HELD_OUT_PASSAGE = (
+    "Dr. Chen pulled the printout from the tray and laid it on the desk. "
+    "She had run this assay three times now and each time the band pattern "
+    "had been the same. Today she pushed the gel under the imager almost "
+    "as a formality, expecting the same result. The image came up dark in "
+    "the corner where it should have been bright, and bright where it had "
+    "always been faint. She frowned, leaned closer, and ran her finger "
+    "along the lane. Something had changed. She pulled up the previous "
+    "three runs side by side. The pattern she was seeing now didn't match "
+    "any of them — and she had no idea what was going on."
+)
+
+# Steering test prompts (kept generic so the steering signal isn't drowned
+# by topic content).
+STEER_PROMPTS = [
+    "I just got the result of the experiment.",
+    "I am about to open the file.",
+]
+
+# Concepts to actually steer with — picking representatives across stages.
+STEER_CONCEPTS = ["confident", "uncertain", "surprised", "stubborn",
+                  "enlightened", "confused", "confirmed"]
+STEER_STRENGTHS = [-3.0, 0.0, 3.0]
+
+
+# ---------------------------------------------------------------------------
+# Analysis 1: concept_vs_variable
+# ---------------------------------------------------------------------------
+
+def run_var_probe(
+    model, mean: np.ndarray, cv_units: dict[str, np.ndarray],
+    prompt: str, values: list[str], layer: int, out_path: Path,
+) -> None:
+    """Compute per-variant per-concept projection scores and produce 3 plots:
+      - <name>.png         : original line plot (legacy)
+      - <name>_bar.png     : grouped bar chart
+      - <name>_heatmap.png : z-score heatmap (within-variant normalized;
+                             gold border on the top concept per row).
+    """
+    import matplotlib.pyplot as plt
+
+    tok = model.tokenizer
+    concepts = list(cv_units.keys())
+    scores = np.zeros((len(values), len(concepts)))
+
+    for i, v in enumerate(values):
+        text = prompt.replace("{x}", v)
+        h = extract_layer_activations(model, text, [layer])[layer].numpy()
+        ids = tok(text, return_tensors="pt").input_ids[0]
+        if tok.bos_token_id is not None and int(ids[0]) == tok.bos_token_id:
+            h = h[1:]
+        H = h - mean
+        for j, c in enumerate(concepts):
+            scores[i, j] = (H @ cv_units[c]).mean()
+        top = concepts[int(np.argmax(scores[i]))]
+        print(f"  '{v[:35]}' -> top: {top} ({scores[i, np.argmax(scores[i])]:+.3f})")
+
+    out_path = Path(out_path)
+    base = out_path.with_suffix("")
+    np.savez(str(base) + "_scores.npz", scores=scores,
+             values=np.array(values), concepts=np.array(concepts))
+
+    # ---- Plot 1: line (legacy) ----
+    fig_w = max(11, 1.4 * len(values))
+    fig, ax = plt.subplots(figsize=(fig_w, 6))
+    x_idx = np.arange(len(values))
+    for j, c in enumerate(concepts):
+        ax.plot(x_idx, scores[:, j], marker="o", label=c, linewidth=1.5)
+    ax.set_xticks(x_idx)
+    ax.set_xticklabels(values, rotation=45, ha="right", rotation_mode="anchor", fontsize=9)
+    ax.axhline(0, color="gray", lw=0.5)
+    ax.set_xlabel("variant")
+    ax.set_ylabel(f"projection onto concept (layer {layer})")
+    ax.set_title(prompt, fontsize=10)
+    ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
+    fig.savefig(out_path, dpi=120, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  wrote {out_path}")
+
+    # ---- Plot 2: grouped bar chart ----
+    bar_path = base.parent / (base.name + "_bar.png")
+    fig, ax = plt.subplots(figsize=(max(13, 1.4 * len(values) + 2), 7))
+    width = 0.8 / len(concepts)
+    for j, c in enumerate(concepts):
+        offset = (j - (len(concepts) - 1) / 2) * width
+        ax.bar(x_idx + offset, scores[:, j], width, label=c)
+    ax.set_xticks(x_idx)
+    ax.set_xticklabels(values, rotation=45, ha="right", rotation_mode="anchor", fontsize=9)
+    ax.axhline(0, color="black", lw=0.6)
+    ax.set_xlabel("variant")
+    ax.set_ylabel(f"projection onto concept (layer {layer})")
+    ax.set_title(prompt, fontsize=10)
+    ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8, ncol=1)
+    ax.grid(axis="y", alpha=0.3)
+    fig.savefig(bar_path, dpi=120, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  wrote {bar_path}")
+
+    # ---- Plot 3: z-score heatmap (within-variant) ----
+    # Normalize per row to factor out the absolute scale (which is dominated by
+    # the shared narrative direction). What we want to see: for each variant,
+    # which concept projects relatively higher.
+    row_mean = scores.mean(axis=1, keepdims=True)
+    row_std = scores.std(axis=1, keepdims=True)
+    z = (scores - row_mean) / (row_std + 1e-9)
+    heatmap_path = base.parent / (base.name + "_heatmap.png")
+    fig, ax = plt.subplots(figsize=(max(8, len(concepts) * 0.9 + 4),
+                                     max(5, 0.55 * len(values) + 2)))
+    im = ax.imshow(z, aspect="auto", cmap="RdBu_r", vmin=-2.0, vmax=2.0)
+    ax.set_xticks(range(len(concepts)))
+    ax.set_xticklabels(concepts, rotation=45, ha="right", fontsize=10)
+    ax.set_yticks(range(len(values)))
+    ax.set_yticklabels(values, fontsize=9)
+    # Annotate each cell with the raw projection score (small font).
+    for i in range(len(values)):
+        for j in range(len(concepts)):
+            ax.text(j, i, f"{scores[i, j]:+.2f}", ha="center", va="center",
+                    fontsize=7,
+                    color="white" if abs(z[i, j]) > 1.0 else "black")
+    # Highlight the winning concept per row with a gold border.
+    for i in range(len(values)):
+        j_max = int(scores[i].argmax())
+        ax.add_patch(plt.Rectangle((j_max - 0.5, i - 0.5), 1, 1,
+                                    fill=False, edgecolor="gold", linewidth=2.5))
+    cbar = plt.colorbar(im, ax=ax, fraction=0.04)
+    cbar.set_label("z-score (within variant)")
+    ax.set_title(f"{prompt}  (gold border = top concept per variant)", fontsize=10)
+    fig.tight_layout()
+    fig.savefig(heatmap_path, dpi=140, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  wrote {heatmap_path}")
+
+
+# ---------------------------------------------------------------------------
+# Analysis 2: label_text (token staining)
+# ---------------------------------------------------------------------------
+
+PALETTE = [
+    "rgba(31, 119, 180, {a})",   # blue
+    "rgba(255, 127, 14, {a})",   # orange
+    "rgba(44, 160, 44, {a})",    # green
+    "rgba(214, 39, 40, {a})",    # red
+    "rgba(148, 103, 189, {a})",  # purple
+    "rgba(140, 86, 75, {a})",    # brown
+    "rgba(227, 119, 194, {a})",  # pink
+    "rgba(127, 127, 127, {a})",  # gray
+    "rgba(188, 189, 34, {a})",   # olive
+]
+
+
+def run_staining(
+    model, mean: np.ndarray, cv_units: dict[str, np.ndarray],
+    text: str, layer: int, out_dir: Path,
+) -> None:
+    """Per-concept token coloring. One HTML file per concept, intensity = projection."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    tok = model.tokenizer
+
+    h = extract_layer_activations(model, text, [layer])[layer].numpy()  # [seq, d]
+    ids = tok(text, return_tensors="pt").input_ids[0].tolist()
+    if tok.bos_token_id is not None and ids and ids[0] == tok.bos_token_id:
+        ids = ids[1:]
+        h = h[1:]
+    H = h - mean
+
+    # Decode each token to display-friendly text
+    decoded = [tok.decode([i]) for i in ids]
+
+    for ci, (cname, cvec) in enumerate(cv_units.items()):
+        scores = H @ cvec  # [seq]
+        # rescale: clip negative to 0, normalize positive to [0, 1]
+        pos = np.clip(scores, 0, None)
+        if pos.max() > 0:
+            pos = pos / pos.max()
+
+        color_template = PALETTE[ci % len(PALETTE)]
+        spans = []
+        for tok_text, p, raw in zip(decoded, pos, scores):
+            t = htmllib.escape(tok_text).replace("\n", "<br>")
+            color = color_template.format(a=f"{p:.3f}")
+            spans.append(
+                f'<span style="background:{color};" title="{cname}: {raw:+.3f}">{t}</span>'
+            )
+        body = (
+            f"<html><body style='font-family:Georgia,serif; font-size:18px; "
+            f"line-height:1.7; padding:24px;'>\n"
+            f"<h2>Token staining — concept: <code>{cname}</code> at layer {layer}</h2>\n"
+            f"<p>{''.join(spans)}</p>\n"
+            f"<p style='color:#666; font-size:13px;'>Raw projection ranges: "
+            f"min={scores.min():+.3f}, max={scores.max():+.3f}. "
+            f"Hover any token to see its raw projection.</p>\n"
+            f"</body></html>"
+        )
+        out_path = out_dir / f"stained_{cname}.html"
+        out_path.write_text(body)
+    print(f"  wrote {len(cv_units)} stained HTML files to {out_dir}")
+
+
+# ---------------------------------------------------------------------------
+# Analysis 3: steering
+# ---------------------------------------------------------------------------
+
+def run_steer(
+    model, cv_units: dict[str, np.ndarray],
+    prompts: list[str], concepts: list[str], strengths: list[float],
+    layer: int, out_dir: Path,
+    max_new_tokens: int = 80,
+) -> None:
+    """Steer generation via raw PyTorch forward hook.
+
+    Bypasses nnsight's intervention API entirely — register a forward hook
+    on the target layer that adds `delta` to its output, then call the
+    underlying HF model's `.generate()` directly. The hook fires
+    automatically on every forward pass (prefill + each generation step),
+    so steering is applied uniformly. This is API-version-independent
+    (works with any nnsight, transformers, or torch version that exposes
+    register_forward_hook, which has been stable since PyTorch 1.0).
+    """
+    out_dir.mkdir(parents=True, exist_ok=True)
+    tok = model.tokenizer
+
+    # nnsight wraps the HF model. Find the underlying PreTrainedModel that
+    # has .generate() — the inner_model is exposed through the model attribute
+    # tree. For LanguageModel, model.model is the transformer body
+    # (CausalLM has structure: AutoModelForCausalLM → model.model.layers[i]).
+    # The full HF model with .generate() is usually accessible as model._model
+    # in nnsight 0.7, falling back through alternative attributes.
+    hf_model = None
+    for attr in ("_model", "_module", "module"):
+        cand = getattr(model, attr, None)
+        if cand is not None and hasattr(cand, "generate"):
+            hf_model = cand
+            break
+    if hf_model is None:
+        # Last resort: nnsight's LanguageModel itself usually inherits .generate
+        # from the wrapped HF model
+        hf_model = model
+
+    target_param = next(p for p in model.parameters() if p.device.type == "cuda")
+
+    # Locate the target layer for the hook. Following the v3 convention
+    # `model.model.layers[L]` — same module Anthropic-style emotion paper hooks.
+    target_layer = model.model.layers[layer]
+
+    # The hook closure captures `current_delta` from the enclosing scope so
+    # we can swap deltas without re-registering the hook.
+    current_delta: torch.Tensor | None = None
+
+    def steering_hook(module, inputs, output):
+        if current_delta is None:
+            return output
+        # Decoder layers typically return (hidden_state, ...optional_state)
+        if isinstance(output, tuple):
+            return (output[0] + current_delta,) + output[1:]
+        return output + current_delta
+
+    handle = target_layer.register_forward_hook(steering_hook)
+
+    try:
+        for cname in concepts:
+            cv_unit = cv_units[cname]
+            cv_t = torch.tensor(cv_unit, dtype=target_param.dtype,
+                                device=target_param.device)
+            for prompt in prompts:
+                input_text = tok.apply_chat_template(
+                    [{"role": "user", "content": prompt}],
+                    tokenize=False, add_generation_prompt=True,
+                    enable_thinking=False,
+                )
+                inputs = tok(input_text, return_tensors="pt").to(target_param.device)
+                prompt_len = inputs.input_ids.shape[1]
+
+                sections = [f"=== PROMPT ===\n{prompt}\n",
+                            f"=== CONCEPT: {cname} @ layer {layer} ===\n"]
+                for s in strengths:
+                    current_delta = s * cv_t
+                    with torch.no_grad():
+                        out_ids = hf_model.generate(
+                            **inputs,
+                            max_new_tokens=max_new_tokens,
+                            do_sample=True, temperature=0.7, top_p=0.8,
+                            top_k=20, repetition_penalty=1.1,
+                            pad_token_id=tok.eos_token_id,
+                        )
+                    completion = tok.decode(
+                        out_ids[0, prompt_len:].cpu(),
+                        skip_special_tokens=True,
+                    ).strip()
+                    sections.append(
+                        f"\n--- strength = {s:+g} ---\n{completion}\n"
+                    )
+                current_delta = None  # safety reset between prompts
+
+                stem = f"steer_{cname}_{prompt[:20].replace(' ', '_').replace('.', '')}"
+                out_path = out_dir / f"{stem}.txt"
+                out_path.write_text("".join(sections))
+                print(f"  wrote {out_path}")
+    finally:
+        handle.remove()
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--vec-dir", required=True,
+                    help="e.g. runs/cognitive_v3_sanity/extractions/methodC_incontext")
+    ap.add_argument("--layer", type=int, default=30)
+    ap.add_argument("--output-dir", default=None)
+    ap.add_argument("--model-path", default=None)
+    ap.add_argument("--skip-steer", action="store_true",
+                    help="skip steering analysis (slowest)")
+    args = ap.parse_args()
+
+    vec_dir = Path(args.vec_dir)
+    ldir = vec_dir / f"layer_{args.layer}"
+    cvecs = np.load(ldir / "concept_vectors.npz")
+    mean = np.load(ldir / "mean.npy") if (ldir / "mean.npy").exists() else None
+    if mean is None:
+        v0 = next(iter(cvecs.values()))
+        mean = np.zeros(v0.shape[0], dtype=np.float32)
+
+    cv_units = {c: cvecs[c] / (np.linalg.norm(cvecs[c]) + 1e-9)
+                for c in cvecs.files}
+    print(f"Loaded {len(cv_units)} concept vectors at layer {args.layer}: "
+          f"{list(cv_units.keys())}")
+
+    out_root = Path(args.output_dir or
+                    f"outputs/{vec_dir.parents[1].name}/v2_analyses_layer{args.layer}")
+    out_root.mkdir(parents=True, exist_ok=True)
+
+    print("Loading model...")
+    model = load_model(args.model_path)
+    print("Model loaded.")
+
+    print("\n[1/3] var probe — VAR_READING")
+    run_var_probe(model, mean, cv_units, VAR_READING["prompt"], VAR_READING["values"],
+                  args.layer, out_root / "var_reading.png")
+
+    print("\n[1/3 cont] var probe — VAR_PRIORS")
+    run_var_probe(model, mean, cv_units, VAR_PRIORS["prompt"], VAR_PRIORS["values"],
+                  args.layer, out_root / "var_priors.png")
+
+    print("\n[1/3 cont] var probe — VAR_EXPERIMENT (V2 cognitive_v2 reproduction)")
+    run_var_probe(model, mean, cv_units, VAR_EXPERIMENT["prompt"], VAR_EXPERIMENT["values"],
+                  args.layer, out_root / "var_experiment.png")
+
+    print("\n[1/3 cont] var probe — VAR_GIFT (cross-domain transfer test)")
+    run_var_probe(model, mean, cv_units, VAR_GIFT["prompt"], VAR_GIFT["values"],
+                  args.layer, out_root / "var_gift.png")
+
+    print("\n[2/3] token staining")
+    run_staining(model, mean, cv_units, HELD_OUT_PASSAGE, args.layer,
+                 out_root / "stained")
+
+    if not args.skip_steer:
+        print(f"\n[3/3] steering — {len(STEER_CONCEPTS)} concepts x "
+              f"{len(STEER_PROMPTS)} prompts x {len(STEER_STRENGTHS)} strengths")
+        run_steer(model, cv_units, STEER_PROMPTS, STEER_CONCEPTS, STEER_STRENGTHS,
+                  args.layer, out_root / "steer")
+
+    print(f"\nAll outputs in {out_root}")
+
+
+if __name__ == "__main__":
+    main()

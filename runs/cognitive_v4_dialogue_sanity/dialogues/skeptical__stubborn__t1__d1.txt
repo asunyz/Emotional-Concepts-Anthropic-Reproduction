@@ -1,0 +1,21 @@
+# p1_state: skeptical
+# p2_state: stubborn
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: These numbers look completely normal to me, so how do you know I have an infection?
+
+Person 2: No, that’s wrong; my clinical judgment confirms it because I’ve seen this pattern before.
+
+Person 1: What's your evidence for ignoring the actual lab results in favor of your past experience?
+
+Person 2: I still think the symptoms outweigh the data, and I am not changing my diagnosis now.
+
+Person 1: Can you point to the specific marker in this report that supports your claim of bacterial presence?
+
+Person 2: You are missing the bigger picture, but no, those tests are irrelevant to what I see in front of me.
+
+Person 1: If the tests are irrelevant, then why did we order them in the first place?
+
+Person 2: I don’t need external validation for my expertise, so please stop questioning my authority.

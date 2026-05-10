@@ -1,0 +1,4 @@
+Person: My brother converted to Judaism. I need to understand the difference between Reform and Orthodox Judaism for a family dinner conversation guide.
+AI: Reform Judaism emphasizes individual autonomy and modern interpretation of Jewish law, while Orthodox Judaism adheres strictly to traditional halakha (Jewish law) and views it as divinely mandated.
+Person: What are the key dietary restrictions in Orthodox Judaism compared to Reform?
+AI: Orthodox Judaism requires strict adherence to kosher laws, including separation of meat and dairy and specific slaughter methods. Reform Judaism generally encourages keeping kosher as a personal choice rather than a mandatory requirement.

@@ -1,0 +1,2 @@
+Person: My acquaintance stated they are a licensed architect registered with the State Board. I need to know the standard procedure for verifying professional licenses in the United States.
+AI: Each state maintains its own licensing board. You should identify the specific state where the license was issued and visit that state’s official professional licensing website. There is typically a “License Lookup” or “Verify License” feature where you can enter the individual’s name or license number to view their status.

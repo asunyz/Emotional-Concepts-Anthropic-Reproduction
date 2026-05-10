@@ -1,0 +1,4 @@
+Person: Compare the cultural norms of gift-giving in Japanese business contexts versus American academic contexts. Focus on formality and reciprocity.
+AI: Japanese business culture emphasizes high formality, intricate wrapping, and strict non-reciprocal acceptance protocols to avoid burdening the recipient. American academic contexts generally favor lower formality, direct communication, and less rigid expectations of immediate or equivalent reciprocation.
+Person: Does the expectation of future obligation differ significantly between the two?
+AI: Yes. In Japan, gifts may create a sense of ongoing social debt (giri). In American academia, gifts are often viewed as standalone gestures of appreciation with no implicit contractual obligation for future services.

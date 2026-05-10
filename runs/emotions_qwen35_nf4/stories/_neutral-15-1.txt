@@ -1,0 +1,13 @@
+Analyze the following Python script for potential logical errors related to data comparison.
+Person: Here is a function that compares two lists of applicant scores. It returns True only if the lists are identical. Is there a more efficient way to check if they share at least one common element?
+```python
+def has_common_element(list_a, list_b):
+    return list_a == list_b
+```
+AI: The current implementation checks for exact equality, which requires O(n) time complexity where n is the length of the shorter list. To check for shared elements, you can convert one list into a set and perform an intersection operation with the other list. This approach reduces average time complexity to O(min(m, n)) assuming hashable elements.
+Person: Write the updated code snippet using sets.
+AI: ```python
+def has_common_element(list_a, list_b):
+    set_a = set(list_a)
+    set_b = set(list_b)
+    return bool(set_a & set_b)

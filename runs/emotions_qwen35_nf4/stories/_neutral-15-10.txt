@@ -1,0 +1,6 @@
+Analyze the syntax of the following SQL query.
+Person: Identify the error in this SQL statement intended to retrieve user data.
+`SELECT * FORM users WHERE age > 25 ORDER BY name ASC;`
+AI: The keyword `FROM` is misspelled as `FORM`. Correct the spelling to `FROM`. The rest of the syntax, including the selection criteria and ordering clause, is valid.
+Person: Rewrite the corrected query.
+AI: `SELECT * FROM users WHERE age > 25 ORDER BY name ASC;`

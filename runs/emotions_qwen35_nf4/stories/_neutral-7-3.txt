@@ -1,0 +1,9 @@
+You are a coding assistant. Help the user debug a Python script that checks if two users share a zip code.
+Person: Here is my code snippet. It fails when comparing strings.
+```python
+def check_same_city(user1_zip, user2_zip):
+    return user1_zip == int(user2_zip)
+```
+AI: The variable `user2_zip` is treated as a string, while `int()` converts it to an integer. If `user1_zip` is a string, the comparison will fail. Convert both to integers or keep both as strings.
+Person: How do I convert both to strings safely?
+AI: Use `str(user1_zip) == str(user2_zip)` after ensuring neither value contains non-numeric characters that would raise a ValueError.

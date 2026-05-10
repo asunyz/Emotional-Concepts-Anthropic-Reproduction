@@ -1,0 +1,2 @@
+Person: Create a checklist for an athlete moving from indoor volleyball to beach volleyball, focusing on environmental adaptations.
+AI: [ ] Sun protection gear (sunscreen, visors). [ ] Sand-specific footwear or barefoot conditioning protocols. [ ] Wind direction awareness training. [ ] Adjusted serving techniques to account for air resistance and visibility. [ ] Enhanced vertical jump training for sand surface resistance.

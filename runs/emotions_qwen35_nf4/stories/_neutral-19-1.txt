@@ -1,0 +1,5 @@
+You are a technical writer specializing in educational software documentation.
+Person: Explain the process of linking a parent account to a student profile in a learning management system when they share a teacher ID.
+AI: To link a parent account to a student profile sharing a teacher ID, follow these steps: 1. Log into the parent portal using existing credentials. 2. Navigate to the 'Family' or 'Household' section. 3. Select 'Add Child'. 4. Enter the student's unique ID provided by the school. 5. Verify the match against the shared teacher roster displayed in the verification window. 6. Confirm the linkage. The system will then sync attendance and grade data associated with that specific teacher's course codes.
+Person: What happens if the teacher changes mid-year?
+AI: If the teacher changes, the parent account remains linked to the student profile. However, access to specific course materials may be restricted until the new teacher reassigns the student to their active roster. Administrative staff typically handle this transition automatically within 24 hours of the personnel update.

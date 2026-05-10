@@ -1,0 +1,2 @@
+Person: What is the standard R-value insulation requirement for attic spaces in Climate Zone 4?
+AI: According to the International Energy Conservation Code (IECC), the recommended R-value for attic insulation in Climate Zone 4 is typically R-38 to R-49. Specific requirements may vary based on local building codes and energy efficiency standards.

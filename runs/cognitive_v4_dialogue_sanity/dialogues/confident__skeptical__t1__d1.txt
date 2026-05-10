@@ -1,0 +1,17 @@
+# p1_state: confident
+# p2_state: skeptical
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: Your comprehensive metabolic panel clearly shows significant liver enzyme elevation, which definitely indicates acute hepatitis. We need to start antiviral therapy immediately to prevent further damage.
+
+Person 2: How do you know it’s viral rather than alcoholic given my recent history? What is the specific evidence ruling out other causes right now?
+
+Person 1: The presence of IgM antibodies against the Hepatitis B core antigen confirms the diagnosis beyond doubt. This serological marker is definitive for an active infection.
+
+Person 2: But those markers can persist from past exposures; why are they so sure this is current activity? Can you show me the viral load results that prove replication is happening?
+
+Person 1: The PCR test detected high levels of HBV DNA, which definitively proves active viral replication. I am prescribing tenofovir to suppress this replication starting today.
+
+Person 2: That seems aggressive without considering potential drug interactions with my current medications. What data supports that tenofofovir won’t cause adverse effects in my case?

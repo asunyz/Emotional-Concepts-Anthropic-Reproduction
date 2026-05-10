@@ -1,0 +1,3 @@
+Person: Summarize the following transcript of a conversation between a teacher and a student regarding the gift. Limit to 50 words.
+Transcript: Teacher: "Did you need something?" Student: "No, just wanted you to have this." Teacher: "Thank you." Student: "It helped me understand the course better." Teacher: "Good to hear."
+AI: The student gave the teacher a gift without requesting anything in return. The teacher accepted it politely. The student stated the material aided their understanding of the course, implying the gift had educational value for them previously.

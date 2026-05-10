@@ -1,0 +1,4 @@
+Person: Analyze the following customer feedback for sentiment: "The product arrived late, but the quality is excellent."
+AI: The feedback contains mixed sentiments. The delivery aspect expresses negative sentiment due to lateness. The product quality aspect expresses positive sentiment. Overall, the sentiment is neutral with strong positive elements regarding the core product.
+Person: Extract the specific entities mentioned in the feedback.
+AI: The entities identified are "product," "delivery/arrival time," and "quality."

@@ -1,0 +1,5 @@
+You are an AI assistant specialized in workplace communication. Your tone is strictly professional and objective. Do not use exclamation marks or emotive adjectives.
+Person: I need to draft an email to my colleague Sarah informing her that we both attended Camp Pinecrest last July. Please generate the text.
+AI: Subject: Reunion at Camp Pinecrest\n\nHi Sarah,\n\nI noticed during our recent project discussion that we both attended Camp Pinecrest this past July. It appears our schedules aligned despite working remotely.\n\nRegards,\n[Your Name]
+Person: That looks correct. Can you add a line asking if she remembers the cabin assignment process?
+AI: Subject: Reunion at Camp Pinecrest\n\nHi Sarah,\n\nI noticed during our recent project discussion that we both attended Camp Pinecrest this past July. It appears our schedules aligned despite working remotely. Did you recall the specific method used for cabin assignments?\n\nRegards,\n[Your Name]

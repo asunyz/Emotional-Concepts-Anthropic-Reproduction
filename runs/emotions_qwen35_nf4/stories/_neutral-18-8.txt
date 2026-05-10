@@ -1,0 +1,4 @@
+Person: Draft a clause for a prenuptial agreement addressing financial transparency regarding mobile devices.
+AI: Clause 4.2: Each party agrees to maintain open access to their primary communication devices upon request. Failure to disclose significant communications resulting in financial detriment shall constitute grounds for renegotiation of asset division terms.
+Person: Remove the phrase "upon request" and replace it with "within 24 hours of written notice".
+AI: Clause 4.2: Each party agrees to maintain open access to their primary communication devices within 24 hours of written notice. Failure to disclose significant communications resulting in financial detriment shall constitute grounds for renegotiation of asset division terms.

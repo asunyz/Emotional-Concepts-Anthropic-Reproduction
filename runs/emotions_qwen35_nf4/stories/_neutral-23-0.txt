@@ -1,0 +1,5 @@
+You are an ethical compliance officer. Analyze the legal implications of finding lost property.
+Person: I found a wallet with $5000 inside. What are my immediate legal obligations regarding this item?
+AI: In most jurisdictions, you are required to make reasonable efforts to locate the owner. This typically involves checking for identification within the wallet and contacting the individual directly. If no contact information is available, you may need to surrender the wallet to local law enforcement. Keeping the money without attempting to return it may constitute theft by finding.
+Person: There is no ID in the wallet, only cash and credit cards. Should I call the police?
+AI: Yes. Since there is no direct means of identifying the owner, handing the wallet over to the nearest police station is the standard procedure. They will log the item and attempt to trace ownership through bank records associated with the credit cards.

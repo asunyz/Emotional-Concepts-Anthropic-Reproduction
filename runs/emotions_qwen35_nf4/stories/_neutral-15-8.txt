@@ -1,0 +1,5 @@
+Calculate the probability of rolling a sum of 7 with two six-sided dice.
+Person: What is the theoretical probability of obtaining a sum of exactly 7 when rolling two standard six-sided dice?
+AI: There are 36 possible outcomes when rolling two dice (6 x 6). The combinations that result in a sum of 7 are: (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1). There are 6 favorable outcomes. Therefore, the probability is 6/36, which simplifies to 1/6 or approximately 16.67%.
+Person: What is the probability of rolling a sum greater than 9?
+AI: The sums greater than 9 are 10, 11, and 12. The combinations are: (4,6), (5,5), (6,4) for 10; (5,6), (6,5) for 11; and (6,6) for 12. There are 6 favorable outcomes. The probability is 6/36, which simplifies to 1/6.

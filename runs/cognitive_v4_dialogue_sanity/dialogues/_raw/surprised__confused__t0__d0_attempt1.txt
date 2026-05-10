@@ -1,0 +1,11 @@
+Person 1: Wait, did you just say the enzyme stabilized at zero degrees? That’s... really?! I didn’t expect that at all.
+
+Person 2: Yes, but wait, what? Did you mean room temperature or freezing point? Because the graph looks like it’s spiking when it should drop.
+
+Person 1: No, no, look at the data! It literally says +98% activity. Can you say that again? I’m seeing numbers that shouldn’t exist.
+
+Person 2: I don’t follow how we got there. Did you calibrate the spectrophotometer correctly? Or are we measuring fluorescence instead of absorbance?
+
+Person 1: We calibrated it twice! This is impossible. I didn’t think enzymes could function without thermal energy.
+
+Person 2: Right, so if it’s working cold, then why is the control group showing decay? Did we mix up the samples?

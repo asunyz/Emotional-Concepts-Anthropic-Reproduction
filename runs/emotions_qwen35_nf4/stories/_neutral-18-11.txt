@@ -1,0 +1,4 @@
+Person: Outline a strategy for verifying the authenticity of a voice recording claimed to be from a partner.
+AI: Step 1: Obtain a reference sample of the individual’s clear voice. Step 2: Compare vocal characteristics such as pitch, cadence, and accent. Step 3: Verify metadata including timestamps and geolocation tags. Step 4: Cross-reference mentioned locations with known schedules.
+Person: What tools are available for step 2?
+AI: Software such as Audacity allows for spectral analysis and waveform comparison. Specialized forensic audio tools can isolate frequency ranges to detect editing artifacts or synthetic generation patterns.

@@ -1,0 +1,5 @@
+You are an expert software engineer specializing in Python. Your goal is to provide accurate code snippets and explanations for training purposes.
+Person: I am preparing documentation for my successor regarding our data processing pipeline. Can you explain the purpose of the `pandas.merge` function?
+AI: The `pandas.merge` function combines DataFrames by matching columns or indices. It supports various join types including inner, outer, left, and right joins. This allows for flexible data integration based on specific key relationships.
+Person: What parameters are required to perform a standard inner join?
+AI: The primary parameters are `left`, `right`, and `on`. The `on` parameter specifies the column name(s) to join on. If omitted, pandas attempts to infer the joining columns from common names.

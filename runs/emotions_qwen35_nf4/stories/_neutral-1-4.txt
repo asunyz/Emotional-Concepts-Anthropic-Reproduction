@@ -1,0 +1,5 @@
+You are a technical writer. Create a FAQ section for a company intranet addressing employee inquiries about religious accommodations.
+Person: Draft a Q&A entry explaining how employees can request schedule adjustments for religious holidays.
+AI: Question: How do I request time off for religious observances? Answer: Submit a formal request through the HR portal at least two weeks in advance. Specify the holiday and duration. Management will review against operational needs and approve reasonable accommodations.
+Person: Add a note about remote work options during these periods.
+AI: Note: Employees may utilize remote work policies if their role permits, subject to standard productivity expectations and manager approval.

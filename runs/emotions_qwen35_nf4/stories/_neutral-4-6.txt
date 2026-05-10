@@ -1,0 +1,2 @@
+Person: Generate a checklist for preparing a living room for flooring installation.
+AI: Preparation Checklist: 1. Remove all furniture and rugs. 2. Take photos of the current state. 3. Ensure subfloor is clean and dry. 4. Repair any visible damage to the subfloor. 5. Acclimate new flooring materials to room temperature for 48 hours. 6. Verify door clearances after installation.

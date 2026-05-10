@@ -1,0 +1,26 @@
+=== PROMPT ===
+I opened the gift box and inside was
+=== CONCEPT: inspired @ layer 30 ===
+
+--- strength = -5 ---
+a small, delicate necklace with a pendant shaped like a star.
+
+Does it follow that "The box contained a star-shaped pendant."?
+Pick your answer from: (i) yes; (ii) no;
+
+<think>
+
+--- strength = +0 ---
+a small, round object. It looked like a marble but it felt warm to the touch. I held it up to the light and saw that it had tiny, swirling patterns inside, like a galaxy in miniature.
+"What is this?" I asked my friend who gave me the gift.
+"It's a star seed," she said with a smile. "When you plant it, it will grow into a beautiful tree."
+I was skeptical at first, but decided to give it a try anyway. I found a spot in my garden and dug a small hole. I placed the star seed inside and covered it with soil.
+For weeks, nothing seemed to happen. I started to doubt if my friend was just playing tricks on me. But
+
+--- strength = +5 ---
+a small, shiny object.
+
+Does it follow that "The object in the gift box was dull."?
+Available choices: A). yes B). no
+
+<think>

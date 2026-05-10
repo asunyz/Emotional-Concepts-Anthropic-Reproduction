@@ -1,0 +1,17 @@
+# p1_state: skeptical
+# p2_state: uncertain
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: These numbers look completely normal to me, so how do you know there’s an underlying infection? I need to see the specific white blood cell count that supports your claim.
+
+Person 2: I’m not entirely sure about the severity yet, but maybe the slight elevation in CRP suggests something early-stage. It might just be a minor inflammation rather than a full-blown infection.
+
+Person 1: That’s a guess, not data. What is your evidence for ruling out viral causes instead of bacterial ones? You’re asking me to trust a hypothesis without showing me the differential diagnosis.
+
+Person 2: I think we should probably wait another week to see if symptoms progress before starting antibiotics. Perhaps getting a second opinion from an infectious disease specialist would clarify things.
+
+Person 1: Waiting assumes the condition is benign, which contradicts my initial concern. If you’re recommending delay, what concrete metrics will trigger immediate action?
+
+Person 2: I believe monitoring temperature trends could help us decide if intervention is truly necessary right now. Let’s review the chart together tomorrow to ensure we aren’t missing subtle signs.

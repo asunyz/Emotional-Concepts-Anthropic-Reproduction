@@ -1,0 +1,4 @@
+Person: Compare the cost of living differences between San Francisco and Oakland for a monthly budget.
+AI: San Francisco generally has higher housing costs compared to Oakland. Grocery and utility costs are comparable. Transportation costs may be lower in Oakland due to shorter commute distances within the metro area.
+Person: What is the percentage difference in average rent?
+AI: Average rent in San Francisco is approximately 20-30% higher than in Oakland, depending on the specific neighborhood and unit type.

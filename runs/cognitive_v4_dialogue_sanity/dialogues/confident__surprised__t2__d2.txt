@@ -1,0 +1,17 @@
+# p1_state: confident
+# p2_state: surprised
+# topic_idx: 2
+# topic: Two chess players review a position after an unexpected move
+# dialogue_idx: 2
+---
+Person 1: Black’s knight sacrifice clearly dismantles your defensive structure. You definitely need to recapture immediately to maintain material equality.
+
+Person 2: Wait, he just threw away his best piece? I didn't expect him to play that aggressively here!
+
+Person 1: His bishop on f6 controls the long diagonal and restricts your king’s escape routes. Move your rook to e7 to block the check and prepare a counterattack.
+
+Person 2: He really gave up a full knight for a temporary initiative? That seems reckless at best.
+
+Person 1: It forces your queen into a passive square where she can no longer support the kingside. This is the winning continuation, so execute the maneuver now.
+
+Person 2: But my queen was doing so well there... I’m still processing how that trap worked.

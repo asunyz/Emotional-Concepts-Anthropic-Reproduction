@@ -1,0 +1,4 @@
+Person: Draft a checklist for inspecting a newly installed fence.
+AI: Inspection Checklist: 1. Verify alignment with property lines. 2. Check vertical plumbness of all posts. 3. Test gate hinges for smooth operation. 4. Inspect fasteners for tightness. 5. Confirm finish coating coverage.
+Person: Add a step for checking underground utilities.
+AI: Insert step: 0. Confirm utility marks are visible and undisturbed prior to final backfilling.

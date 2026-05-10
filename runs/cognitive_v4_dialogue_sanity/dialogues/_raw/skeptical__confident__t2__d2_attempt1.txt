@@ -1,0 +1,11 @@
+Person 1: You’re suggesting we sacrifice the queen here? What’s your evidence that this leads to a forced mate rather than just losing material?
+
+Person 2: The knight fork on f7 and h8 is unavoidable because his king has no flight squares left. This line definitely wins the game within ten moves.
+
+Person 1: But his bishop controls g7, so the fork fails immediately. Show me where he can’t simply capture the knight.
+
+Person 2: He cannot capture because the rook on e1 pins the knight to his own king. It is clearly a discovered attack that leaves him with no legal defense.
+
+Person 1: That pin relies on the rook being undefended, but I see a pawn on d2 covering it. Prove to me that he can’t just take the rook instead.
+
+Person 2: The pawn on d2 is pinned by our bishop on c1, making any capture illegal under the rules of chess. We definitely have the winning advantage now.

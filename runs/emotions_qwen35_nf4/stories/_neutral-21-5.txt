@@ -1,0 +1,4 @@
+Person: Summarize the main point of this long apology letter in one sentence.
+AI: The sender acknowledges responsibility for a past error and expresses regret without offering further resolution.
+Person: Reduce the summary to ten words maximum.
+AI: Sender regrets past error; no further action proposed.

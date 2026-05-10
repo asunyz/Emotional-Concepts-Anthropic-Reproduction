@@ -1,0 +1,2 @@
+Person: Write a Python script that calculates the probability of encountering a specific individual at a random event, assuming uniform distribution among guests.
+AI: ```python def calculate_encounter_probability(total_guests, target_individuals=1): if total_guests <= 0: return 0 probability = target_individuals / total_guests return probability print(calculate_encounter_probability(200)) ``` This script divides the number of target individuals by the total guest count to determine the baseline probability per attendee interaction.

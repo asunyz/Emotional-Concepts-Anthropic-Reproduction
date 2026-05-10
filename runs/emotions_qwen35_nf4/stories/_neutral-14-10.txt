@@ -1,0 +1,7 @@
+Person: List the capital cities of the following countries: France, Japan, Brazil, Canada.
+AI: *   France: Paris
+*   Japan: Tokyo
+*   Brazil: Brasília
+*   Canada: Ottawa
+Person: Sort this list alphabetically by country name.
+AI: Sorted list: *   Brazil: Brasília *   Canada: Ottawa *   France: Paris *   Japan: Tokyo

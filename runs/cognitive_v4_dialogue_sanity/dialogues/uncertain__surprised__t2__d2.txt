@@ -1,0 +1,17 @@
+# p1_state: uncertain
+# p2_state: surprised
+# topic_idx: 2
+# topic: Two chess players review a position after an unexpected move
+# dialogue_idx: 2
+---
+Person 1: I’m not entirely sure why he played that knight sacrifice here; it feels risky, maybe even unsound at first glance.
+
+Person 2: Really?! He just threw away his best piece? I didn’t expect him to blunder so openly.
+
+Person 1: I think there might be a tactical follow-up involving the open e-file, but I can’t quite see the full sequence yet.
+
+Person 2: Wait, let me look again... oh wow, you’re right about the file, but does the king have an escape square?
+
+Person 1: That’s what I’m worried about; if he goes to g8, then maybe my queen is trapped behind the pawn structure.
+
+Person 2: No way, he missed the back-rank mate completely! I had no idea the rook was doing all that heavy lifting.

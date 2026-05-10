@@ -1,0 +1,4 @@
+Person: Calculate the compound interest on $5,000 invested at 4% annual rate compounded monthly over 10 years.
+AI: Formula: A = P(1 + r/n)^(nt). P=5000, r=0.04, n=12, t=10. Result: $7,456.83.
+Person: What is the effective annual yield for this investment?
+AI: Effective Annual Yield (EAY) = (1 + r/n)^n - 1. Calculation: (1 + 0.04/12)^12 - 1 = 0.04074. The EAY is 4.07%.

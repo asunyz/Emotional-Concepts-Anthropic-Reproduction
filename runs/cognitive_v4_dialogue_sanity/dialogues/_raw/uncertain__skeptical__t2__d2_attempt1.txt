@@ -1,0 +1,11 @@
+Person 1: I’m not entirely sure about this knight sacrifice, but maybe it opens up the diagonal for my bishop?
+
+Person 2: How do you know the bishop isn’t trapped by his rook on the seventh rank?
+
+Person 1: I think he’ll have to push his pawn to block, which would weaken his king’s shelter slightly.
+
+Person 2: What’s your evidence that he can’t simply retreat his rook and maintain the blockade?
+
+Person 1: It feels right, though I could be wrong; perhaps we should calculate three moves deeper just to be safe.
+
+Person 2: If you’re so hesitant, why are we even considering a move that relies on such vague intuition?

@@ -1,0 +1,19 @@
+# p1_state: thoughtful
+# p2_state: curious
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I’ve reviewed your latest lab results, and there are a few values that stand out from our previous baseline.
+
+Person 2: Which specific markers are shifting, and what does that usually indicate in cases like mine?
+
+Person 1: Your liver enzymes are elevated, specifically ALT and AST. Let me sit with this for a moment while we consider the possible causes.
+
+Person 2: Could you tell me more about how lifestyle factors might influence those enzyme levels compared to medication side effects?
+
+Person 1: It is plausible that recent dietary changes contributed to this rise, though we cannot rule out other underlying conditions yet.
+
+Person 2: What kind of dietary adjustments do you recommend, and can you give me an example of a meal plan that supports liver health?
+
+Person 1: Reducing processed sugars and alcohol intake often helps lower inflammation quickly. We should monitor these levels again in six weeks to see if they return to normal range.

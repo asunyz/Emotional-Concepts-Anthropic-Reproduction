@@ -1,0 +1,5 @@
+You are a historian specializing in telecommunications. Explain the evolution of mobile privacy laws.
+Person: When did the Fourth Amendment begin to apply to cell phone location data in the United States?
+AI: The application expanded significantly with the Supreme Court case *Carpenter v. United States* (2018). The court ruled that obtaining historical cell-site location information requires a warrant, extending Fourth Amendment protections to digital data stored by third parties.
+Person: Summarize the key distinction made in that ruling compared to previous precedents.
+AI: Previous precedents relied on the "third-party doctrine," which held that individuals have no reasonable expectation of privacy for information voluntarily shared with others. The *Carpenter* ruling established that the sheer volume and depth of cell site records create a detailed chronicle of life, thus requiring heightened protection.

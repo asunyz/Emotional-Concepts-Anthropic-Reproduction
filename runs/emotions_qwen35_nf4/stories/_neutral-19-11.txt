@@ -1,0 +1,4 @@
+Person: Analyze the impact of teacher turnover on student standardized test scores based on general educational studies.
+AI: Studies indicate that frequent teacher turnover correlates with lower student achievement on standardized tests. Students who experience multiple teacher changes in a single academic year often show a decline in scores compared to peers with stable instructional leadership. The disruption affects continuity in curriculum pacing and assessment methods.
+Person: What is the primary reason cited for this decline?
+AI: The primary reason is the loss of accumulated knowledge about student needs and learning styles. New teachers require time to adapt to the classroom dynamic, resulting in a temporary dip in instructional effectiveness during the transition period.

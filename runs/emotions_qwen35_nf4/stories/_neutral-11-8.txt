@@ -1,0 +1,2 @@
+Person: Provide a Python function that simulates a simple stat calculator for an athlete changing positions. The input should be previous stats, and the output should be projected new stats based on a multiplier.
+AI: ```python def project_new_stats(prev_stats, position_multiplier): return {key: value * position_multiplier for key, value in prev_stats.items()} # Example usage: # old_stats = {'speed': 10, 'strength': 8} # new_stats = project_new_stats(old_stats, 1.2) ```

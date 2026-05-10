@@ -1,0 +1,4 @@
+Person: Create a SQL query to update the 'donations_log' table. Insert a record for a book received from student ID 8842 on October 15, 2023. Set status to 'received'.
+AI: INSERT INTO donations_log (student_id, date_received, item_description, status) VALUES (8842, '2023-10-15', 'Book', 'received');
+Person: Verify if this query handles duplicate entries for the same student on the same day.
+AI: The query as written will insert a new row regardless of existing data. To prevent duplicates, a UNIQUE constraint on (student_id, date_received) is required, or an ON CONFLICT clause should be added depending on the database engine.

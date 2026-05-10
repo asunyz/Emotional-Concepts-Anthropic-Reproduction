@@ -1,0 +1,2 @@
+Person: Create a table comparing the curriculum of two different workshops offered at Camp Pinecrest. Workshop A focuses on survival skills. Workshop B focuses on arts and crafts.
+AI: | Feature | Workshop A (Survival) | Workshop B (Arts & Crafts) |\n|---|---|---|\n| Primary Skill | Outdoor Survival | Creative Expression |\n| Materials Required | Rope, Knife, Fire Starter | Paint, Clay, Paper |\n| Outcome | Self-reliance techniques | Artistic portfolio piece |

@@ -1,0 +1,4 @@
+Person: Define the term "cabin counselor" in the context of youth summer camps.
+AI: A cabin counselor is a staff member responsible for supervising a group of campers residing in a specific cabin, ensuring their safety, facilitating activities, and enforcing camp rules.
+Person: What is the typical age requirement for this role?
+AI: Most organizations require cabin counselors to be at least 18 years old, though some may accept candidates aged 16-17 under specific mentorship programs.

@@ -1,0 +1,2 @@
+Person: A person I know claims to hold a PhD in Astrophysics from MIT. I want to check if this degree is legitimate. What steps should I take?
+AI: You can visit the Massachusetts Institute of Technology alumni database or contact the Registrar’s Office directly. Most universities maintain a record of degrees conferred. You will likely need the individual’s full name and graduation year to locate the specific record.

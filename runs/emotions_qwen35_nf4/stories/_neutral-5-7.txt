@@ -1,0 +1,4 @@
+Person: Explain the chemical composition of white gold alloys used in engagement rings.
+AI: White gold is an alloy of yellow gold mixed with white metals such as nickel, palladium, or manganese. It is often plated with rhodium to enhance whiteness and durability. The karat rating indicates the percentage of pure gold; for example, 14k white gold contains 58.3% pure gold.
+Person: What causes the rhodium plating to wear off over time?
+AI: Rhodium plating wears down due to friction against skin, contact with chemicals (lotions, cleaning agents), and general abrasion. Re-plating every few years restores the bright white finish.

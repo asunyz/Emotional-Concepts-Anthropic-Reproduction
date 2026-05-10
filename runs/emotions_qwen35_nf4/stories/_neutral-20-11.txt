@@ -1,0 +1,4 @@
+Person: Write a function in JavaScript that logs the arrival of a gift. Input: {donor: string, item: string}. Output: console.log message.
+AI: function logGift(arrival) { console.log(`Received ${arrival.item} from ${arrival.donor}.`); }
+Person: Modify the function to also print the timestamp of the log entry.
+AI: function logGift(arrival) { const timestamp = new Date().toISOString(); console.log(`${timestamp}: Received ${arrival.item} from ${arrival.donor}.`); }

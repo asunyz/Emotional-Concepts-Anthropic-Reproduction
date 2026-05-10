@@ -1,0 +1,2 @@
+Person: Create a checklist for verifying citations before submitting a final paper.
+AI: 1. Verify that every in-text citation corresponds to an entry in the reference list. 2. Check that the reference list entries follow the required formatting style. 3. Confirm that all quoted material is enclosed in quotation marks. 4. Ensure paraphrased sections sufficiently alter the original structure and wording. 5. Validate that URLs and DOIs are active and correct.

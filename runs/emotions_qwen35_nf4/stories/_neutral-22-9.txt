@@ -1,0 +1,2 @@
+Person: Identify the logical fallacy in the statement: "We both went to Camp Pinecrest, therefore we will get along perfectly."
+AI: This statement commits the fallacy of false cause (post hoc ergo propter hoc). Shared attendance at a location does not guarantee interpersonal compatibility.

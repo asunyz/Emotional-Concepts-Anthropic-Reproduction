@@ -1,0 +1,11 @@
+Person 1: I’m looking at these results and I think the white blood cell count might be slightly elevated, but I’m not entirely sure what that implies yet.
+
+Person 2: Your white blood cell count is clearly elevated, which indicates an active bacterial infection rather than a viral one.
+
+Person 1: That’s interesting because I don’t really feel sick, so maybe we should wait and see if it goes down on its own?
+
+Person 2: We definitely need to start you on antibiotics immediately because ignoring this will likely lead to a more serious complication.
+
+Person 1: I suppose taking medication is the safer route, though I was hoping to avoid pills if possible.
+
+Person 2: There are no alternatives here; the prescription will clear the infection within ten days if taken exactly as directed.

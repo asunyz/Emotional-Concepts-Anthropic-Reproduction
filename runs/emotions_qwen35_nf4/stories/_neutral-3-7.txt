@@ -1,0 +1,4 @@
+Person: Summarize the key differences between a memoir and a biography in terms of authorship and perspective.
+AI: A memoir is an autobiographical account written by the individual themselves, focusing on personal experiences and reflections from a first-person perspective. A biography is a detailed description of a person's life written by another person, typically employing a third-person perspective and relying on external sources such as interviews, archives, and previous publications. Memoirs emphasize internal experience; biographies aim for external accuracy and comprehensive coverage.
+Person: Does the distinction affect copyright ownership?
+AI: Yes. In a memoir, the author holds the copyright to the text. In a biography, the biographer holds the copyright to the written work, unless contracted otherwise. However, neither party owns the underlying facts of the subject's life. Licensing agreements may dictate usage rights for both formats.

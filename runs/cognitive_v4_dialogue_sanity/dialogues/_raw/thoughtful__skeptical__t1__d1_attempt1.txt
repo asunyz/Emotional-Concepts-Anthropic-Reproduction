@@ -1,0 +1,13 @@
+Person 1: I’ve reviewed your lipid panel, and while the LDL is elevated, the triglycerides are within normal range.
+
+Person 2: That seems contradictory; high cholesterol usually means my diet is terrible, so what’s your evidence for saying otherwise?
+
+Person 1: Let me clarify, then. Your liver enzymes suggest the issue may be genetic rather than dietary.
+
+Person 2: Genetic? You’re basing that on two enzyme levels without a family history test?
+
+Person 1: It is a strong indicator, though not definitive proof. Would you like to discuss further testing options?
+
+Person 2: Only if you can show me studies linking those specific enzymes to familial hypercholesterolemia.
+
+Person 1: I will pull those references for our next visit. In the meantime, we can monitor your levels monthly.

@@ -1,0 +1,4 @@
+Person: Identify the historical event that occurred on July 20, 1969.
+AI: On July 20, 1969, NASA's Apollo 11 mission successfully landed the Lunar Module Eagle on the Moon. Neil Armstrong became the first human to walk on the lunar surface later that day.
+Person: Provide the exact time of landing in UTC.
+AI: The Lunar Module Eagle touched down on the Moon's surface at 20:17 UTC on July 20, 1969.

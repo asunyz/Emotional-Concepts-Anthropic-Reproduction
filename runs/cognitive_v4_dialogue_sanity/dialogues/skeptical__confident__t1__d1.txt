@@ -1,0 +1,17 @@
+# p1_state: skeptical
+# p2_state: confident
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I see the vitamin D levels are flagged low, but how do you know that’s actually causing my fatigue?
+
+Person 2: Your level is 18 ng/mL, which clearly indicates a deficiency that directly impacts energy regulation.
+
+Person 1: What's your evidence that supplementing will fix the problem instead of something else entirely?
+
+Person 2: Clinical guidelines definitively link levels below 20 ng/mL to musculoskeletal pain and chronic tiredness.
+
+Person 1: I’m not convinced that taking high-dose supplements is safe without further testing.
+
+Person 2: We will definitely start with a standard dose and retest in six weeks to monitor the response.

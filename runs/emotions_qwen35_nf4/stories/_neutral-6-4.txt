@@ -1,0 +1,4 @@
+Person: List five steps to take after receiving a scholarship denial letter.
+AI: 1. Read the entire letter carefully. 2. Identify the specific reason for denial. 3. Check if there is an appeals process. 4. Gather additional supporting documents if applicable. 5. Submit an appeal or reapply according to the stated timeline.
+Person: Is an appeal guaranteed to change the outcome?
+AI: No, an appeal is reviewed based on new evidence or procedural errors; it does not guarantee a reversal of the decision.

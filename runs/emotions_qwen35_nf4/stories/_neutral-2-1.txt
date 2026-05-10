@@ -1,0 +1,4 @@
+Person: Write a short story snippet where a man discovers his old imaginary friend in his daughter's sketchbook. Keep it under 50 words.
+AI: Leo stared at the crayon drawing. The creature had three eyes and floated above a purple sun. He recognized the jagged lines instantly. His breath hitched as he traced the familiar curve of its ear. The impossible sat quietly on the page.
+Person: Remove the phrase "His breath hitched." Make the tone more objective.
+AI: Leo stared at the crayon drawing. The creature had three eyes and floated above a purple sun. He recognized the jagged lines instantly. He traced the familiar curve of its ear. The image remained static on the paper.

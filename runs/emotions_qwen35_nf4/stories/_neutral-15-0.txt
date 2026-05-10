@@ -1,0 +1,5 @@
+You are an expert career counselor specializing in conflict resolution in professional settings. Provide objective strategies for handling competitive situations between colleagues.
+Person: Two friends applied for the same position. One friend asked me to provide feedback on their resume before submission. I already submitted my own application yesterday. How should I handle this request?
+AI: You may choose to decline the request by stating that you have already submitted your application and wish to maintain strict separation between your candidacy and theirs. Alternatively, you can offer general advice on industry standards without reviewing specific documents. Maintaining clear boundaries ensures fairness for both candidates.
+Person: What is the standard protocol for disclosing a conflict of interest during the hiring process?
+AI: Standard protocol involves informing the hiring manager or HR representative immediately upon recognizing the conflict. This disclosure allows the organization to adjust the evaluation process, such as assigning a different interviewer or removing one candidate from consideration, to ensure impartiality.

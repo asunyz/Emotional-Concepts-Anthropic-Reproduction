@@ -1,0 +1,4 @@
+Person: Draft an email to a graphic designer requesting they recreate a childhood illustration style for a new project. Include the reference description.
+AI: Subject: Style Reference for New Project. Body: Please replicate the line weight and color palette used in the attached reference image. The subject matter differs, but the aesthetic must remain consistent with the provided sample. Deadline is Friday.
+Person: Add a note specifying that the reference is a personal artifact.
+AI: Subject: Style Reference for New Project. Body: Please replicate the line weight and color palette used in the attached reference image. Note: This reference is a personal archival document. The subject matter differs, but the aesthetic must remain consistent. Deadline is Friday.

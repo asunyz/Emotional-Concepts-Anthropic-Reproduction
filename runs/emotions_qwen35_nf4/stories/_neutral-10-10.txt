@@ -1,0 +1,4 @@
+Person: Write a SQL query to select all users who registered after January 1, 2022. Assume the table is named 'users' and the date column is 'registration_date'.
+AI: SELECT * FROM users WHERE registration_date > '2022-01-01';
+Person: Modify the query to also sort the results by registration date in descending order.
+AI: SELECT * FROM users WHERE registration_date > '2022-01-01' ORDER BY registration_date DESC;

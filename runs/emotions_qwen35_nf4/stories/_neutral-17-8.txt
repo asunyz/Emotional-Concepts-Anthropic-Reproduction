@@ -1,0 +1,2 @@
+Person: How does one legally obtain a person’s tax records to prove they worked somewhere?
+AI: Individuals generally cannot access another person’s tax records due to privacy laws such as the Internal Revenue Code in the US or GDPR in Europe. However, a person can authorize their employer to release W-2 forms or 1099 contracts to a third party through a signed consent form. Without such consent, obtaining these records requires a court order or subpoena.

@@ -1,0 +1,4 @@
+Person: Calculate the average age of a typical high school senior and a typical university freshman who started college early due to advanced placement credits. Assume the standard graduation age is 18 and the early starter graduated high school at 17.
+AI: The standard age for a high school senior is 17–18 years old. An individual graduating at 17 would enter university as a freshman at age 17. Therefore, the average age of such a freshman is 17. The calculation involves no complex variables beyond the stated ages.
+Person: Provide the range for a standard university freshman without early entry.
+AI: The standard age range for a university freshman entering directly after high school is 18–19 years old.

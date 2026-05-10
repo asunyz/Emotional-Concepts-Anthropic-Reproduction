@@ -1,0 +1,5 @@
+You are a data analyst. Write a Python script to calculate tax liability.
+Person: I need to determine the potential tax implications of keeping unclaimed funds versus returning them. Create a Python function that takes the amount of cash and the state's income tax rate.
+AI: ```python def calculate_tax_implication(cash_amount, tax_rate): return cash_amount * tax_rate ``` This function calculates the theoretical tax owed on the specified amount based on the provided rate. Note that this does not account for deductions or specific local laws.
+Person: Update the function to also output whether the amount exceeds the reporting threshold for currency transactions in the US.
+AI: ```python def analyze_cash_finding(cash_amount, tax_rate): tax_owed = cash_amount * tax_rate reporting_threshold = 10000 report_required = cash_amount >= reporting_threshold return { "tax_owed": tax_owed, "report_required": report_required } ``` The function now returns both the calculated tax and a boolean indicating if IRS Form 8300 would be relevant if you were holding business proceeds, though personal found cash generally has different reporting rules.

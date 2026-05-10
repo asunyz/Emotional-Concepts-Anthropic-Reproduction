@@ -1,0 +1,4 @@
+Person: Identify three historical precedents for communal fencing practices.
+AI: 1. Medieval village commons where shared walls protected livestock. 2. Ancient Roman ager publicus regulations defining boundary markers. 3. Early American homesteading laws encouraging mutual boundary maintenance for security.
+Person: How did Roman law influence modern property boundaries?
+AI: Roman law established the concept of servitudes and clear demarcation of private versus public land, principles that underpin many modern property law systems regarding easements and boundaries.

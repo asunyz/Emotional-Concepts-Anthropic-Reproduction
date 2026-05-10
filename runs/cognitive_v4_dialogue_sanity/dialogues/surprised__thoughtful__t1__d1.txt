@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: thoughtful
+# topic_idx: 1
+# topic: A doctor and a patient go over a lab panel that just came back
+# dialogue_idx: 1
+---
+Person 1: I didn't expect these numbers to come back like this! Look at your Vitamin D levels—they’re off the charts.
+
+Person 2: Let me see... yes, that is unusually high. Do you recall taking any new supplements recently?
+
+Person 1: Really?! I stopped all my vitamins months ago! Wait, did you say something else was wrong?
+
+Person 2: Not necessarily wrong, but interestingly elevated. I’m wondering if there’s been a recent change in your diet or sun exposure.
+
+Person 1: Oh wow, I’ve been hiking every weekend lately! That makes sense then. Is it dangerous though?
+
+Person 2: It’s rare to see such extreme values without supplementation. We should run a follow-up test to rule out underlying causes.

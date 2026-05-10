@@ -1,0 +1,15 @@
+Person: Generate a Python script that parses a JSON file containing scholarship rejection letters and extracts the reason codes.
+AI: ```python
+import json
+
+def extract_reasons(filepath):
+    with open(filepath, 'r') as f:
+        data = json.load(f)
+    reasons = []
+    for item in data:
+        if 'reason_code' in item:
+            reasons.append(item['reason_code'])
+    return reasons
+```
+Person: How do I handle missing keys in the JSON structure?
+AI: Use the `.get()` method on dictionaries to provide default values when keys are absent.

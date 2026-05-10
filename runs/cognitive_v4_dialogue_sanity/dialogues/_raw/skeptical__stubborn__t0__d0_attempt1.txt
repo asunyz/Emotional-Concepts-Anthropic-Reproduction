@@ -1,0 +1,11 @@
+Person 1: You’re claiming the enzyme stability increased by forty percent, but how do you know that isn’t just instrument noise?
+
+Person 2: No, that’s wrong; the spectrometer readings are consistent across all three trials, so I still think the data proves our hypothesis.
+
+Person 1: What's your evidence for ruling out calibration drift, since we haven't run a control sample today?
+
+Person 2: We don’t need controls because the theoretical model predicts this exact spike, so dismissing the results ignores basic chemistry principles.
+
+Person 1: Can you show me the raw data files to verify there wasn’t a software glitch during the peak measurement?
+
+Person 2: I already told you the files are fine, and no amount of digging will change the fact that the reaction worked as intended.

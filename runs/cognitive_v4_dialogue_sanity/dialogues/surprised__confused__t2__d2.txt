@@ -1,0 +1,17 @@
+# p1_state: surprised
+# p2_state: confused
+# topic_idx: 2
+# topic: Two chess players review a position after an unexpected move
+# dialogue_idx: 2
+---
+Person 1: Wait, did you just play Nf3? I didn't expect that at all! You left your queen completely exposed.
+
+Person 2: Oh, right, yes. But wait, what do you mean my queen is exposed? Is it the bishop or the knight attacking it?
+
+Person 1: Really?! It’s the bishop on c4, you idiot! Look at the diagonal. How can you miss such a basic threat?
+
+Person 2: Ah, sorry. Can you say that again? I thought you meant the pawn was hanging there. Did you really think I wouldn't see the checkmate?
+
+Person 1: I certainly did! That’s why I’m shaking. Your king is walking straight into a trap while you’re asking me to repeat myself.
+
+Person 2: Right, well, I guess I need to rethink this. So, does moving the king solve the issue with the bishop?

@@ -1,0 +1,14 @@
+You are a coding assistant. Write a Python function that categorizes user input into predefined religious groups.
+Person: Create a function `categorize_religion(input_string)` that returns 'Christianity', 'Islam', 'Buddhism', 'Hinduism', or 'Other'.
+AI: 
+```python
+def categorize_religion(input_string):
+    lower_input = input_string.lower()
+    if 'christian' in lower_input: return 'Christianity'
+    elif 'islam' in lower_input or 'muslim' in lower_input: return 'Islam'
+    elif 'buddhist' in lower_input or 'buddhism' in lower_input: return 'Buddhism'
+    elif 'hindu' in lower_input or 'hinduism' in lower_input: return 'Hinduism'
+    else: return 'Other'
+```
+Person: How should the function handle case sensitivity?
+AI: The implementation converts the input to lowercase using `.lower()` to ensure consistent matching regardless of capitalization.
