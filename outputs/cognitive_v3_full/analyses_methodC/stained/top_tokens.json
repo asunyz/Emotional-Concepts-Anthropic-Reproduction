@@ -1,0 +1,686 @@
+{
+  "bored": {
+    "n_tokens": 132,
+    "max": 0.444,
+    "min": -0.822,
+    "mean": -0.15368939393939393,
+    "n_strong_positive": 0,
+    "n_negative": 91,
+    "top_15": [
+      {
+        "tok": "up",
+        "value": 0.444
+      },
+      {
+        "tok": "The",
+        "value": 0.35
+      },
+      {
+        "tok": "ality",
+        "value": 0.302
+      },
+      {
+        "tok": ",",
+        "value": 0.297
+      },
+      {
+        "tok": "image",
+        "value": 0.296
+      },
+      {
+        "tok": "She",
+        "value": 0.256
+      },
+      {
+        "tok": "and",
+        "value": 0.247
+      },
+      {
+        "tok": ".",
+        "value": 0.234
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": ".",
+        "value": -0.822
+      },
+      {
+        "tok": "Dr",
+        "value": -0.708
+      },
+      {
+        "tok": "Chen",
+        "value": -0.625
+      },
+      {
+        "tok": "what",
+        "value": -0.614
+      },
+      {
+        "tok": "assay",
+        "value": -0.581
+      },
+      {
+        "tok": "idea",
+        "value": -0.569
+      },
+      {
+        "tok": "had",
+        "value": -0.533
+      },
+      {
+        "tok": "was",
+        "value": -0.517
+      }
+    ]
+  },
+  "confident": {
+    "n_tokens": 132,
+    "max": 1.808,
+    "min": -0.414,
+    "mean": 0.6891363636363637,
+    "n_strong_positive": 32,
+    "n_negative": 7,
+    "top_15": [
+      {
+        "tok": ".",
+        "value": 1.808
+      },
+      {
+        "tok": ".",
+        "value": 1.727
+      },
+      {
+        "tok": "tray",
+        "value": 1.717
+      },
+      {
+        "tok": "pulled",
+        "value": 1.713
+      },
+      {
+        "tok": "the",
+        "value": 1.706
+      },
+      {
+        "tok": ".",
+        "value": 1.624
+      },
+      {
+        "tok": ".",
+        "value": 1.609
+      },
+      {
+        "tok": "almost",
+        "value": 1.524
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": "pattern",
+        "value": -0.414
+      },
+      {
+        "tok": "previous",
+        "value": -0.29
+      },
+      {
+        "tok": "lane",
+        "value": -0.141
+      },
+      {
+        "tok": "three",
+        "value": -0.109
+      },
+      {
+        "tok": "match",
+        "value": -0.05
+      },
+      {
+        "tok": "bright",
+        "value": -0.045
+      },
+      {
+        "tok": "changed",
+        "value": -0.011
+      },
+      {
+        "tok": "runs",
+        "value": 0.012
+      }
+    ]
+  },
+  "confirmed": {
+    "n_tokens": 132,
+    "max": 0.727,
+    "min": -1.872,
+    "mean": -0.7360227272727273,
+    "n_strong_positive": 0,
+    "n_negative": 131,
+    "top_15": [
+      {
+        "tok": "Dr",
+        "value": 0.727
+      },
+      {
+        "tok": "previous",
+        "value": -0.098
+      },
+      {
+        "tok": "three",
+        "value": -0.139
+      },
+      {
+        "tok": "match",
+        "value": -0.234
+      },
+      {
+        "tok": "of",
+        "value": -0.256
+      },
+      {
+        "tok": "bright",
+        "value": -0.256
+      },
+      {
+        "tok": "pattern",
+        "value": -0.276
+      },
+      {
+        "tok": "form",
+        "value": -0.285
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": ".",
+        "value": -1.872
+      },
+      {
+        "tok": ".",
+        "value": -1.532
+      },
+      {
+        "tok": ",",
+        "value": -1.453
+      },
+      {
+        "tok": ".",
+        "value": -1.423
+      },
+      {
+        "tok": ".",
+        "value": -1.422
+      },
+      {
+        "tok": ",",
+        "value": -1.383
+      },
+      {
+        "tok": ".",
+        "value": -1.35
+      },
+      {
+        "tok": "and",
+        "value": -1.328
+      }
+    ]
+  },
+  "confused": {
+    "n_tokens": 132,
+    "max": 0.554,
+    "min": -1.345,
+    "mean": -0.2801818181818182,
+    "n_strong_positive": 0,
+    "n_negative": 110,
+    "top_15": [
+      {
+        "tok": "and",
+        "value": 0.554
+      },
+      {
+        "tok": "up",
+        "value": 0.529
+      },
+      {
+        "tok": "pulled",
+        "value": 0.515
+      },
+      {
+        "tok": ",",
+        "value": 0.499
+      },
+      {
+        "tok": "She",
+        "value": 0.484
+      },
+      {
+        "tok": "leaned",
+        "value": 0.463
+      },
+      {
+        "tok": "She",
+        "value": 0.447
+      },
+      {
+        "tok": "closer",
+        "value": 0.433
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": "Dr",
+        "value": -1.345
+      },
+      {
+        "tok": "the",
+        "value": -0.976
+      },
+      {
+        "tok": ".",
+        "value": -0.963
+      },
+      {
+        "tok": ".",
+        "value": -0.892
+      },
+      {
+        "tok": "had",
+        "value": -0.881
+      },
+      {
+        "tok": "Chen",
+        "value": -0.879
+      },
+      {
+        "tok": ".",
+        "value": -0.864
+      },
+      {
+        "tok": "band",
+        "value": -0.832
+      }
+    ]
+  },
+  "curious": {
+    "n_tokens": 132,
+    "max": 1.575,
+    "min": -0.181,
+    "mean": 0.5694848484848485,
+    "n_strong_positive": 15,
+    "n_negative": 5,
+    "top_15": [
+      {
+        "tok": ".",
+        "value": 1.575
+      },
+      {
+        "tok": ".",
+        "value": 1.5
+      },
+      {
+        "tok": ".",
+        "value": 1.472
+      },
+      {
+        "tok": "the",
+        "value": 1.403
+      },
+      {
+        "tok": "pulled",
+        "value": 1.301
+      },
+      {
+        "tok": "run",
+        "value": 1.235
+      },
+      {
+        "tok": "She",
+        "value": 1.208
+      },
+      {
+        "tok": "had",
+        "value": 1.2
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": "previous",
+        "value": -0.181
+      },
+      {
+        "tok": "bright",
+        "value": -0.159
+      },
+      {
+        "tok": "three",
+        "value": -0.083
+      },
+      {
+        "tok": "pattern",
+        "value": -0.035
+      },
+      {
+        "tok": "where",
+        "value": -0.02
+      },
+      {
+        "tok": "image",
+        "value": 0.059
+      },
+      {
+        "tok": "She",
+        "value": 0.064
+      },
+      {
+        "tok": "She",
+        "value": 0.111
+      }
+    ]
+  },
+  "enlightened": {
+    "n_tokens": 132,
+    "max": 0.602,
+    "min": -1.946,
+    "mean": -0.6995833333333333,
+    "n_strong_positive": 0,
+    "n_negative": 120,
+    "top_15": [
+      {
+        "tok": "pattern",
+        "value": 0.602
+      },
+      {
+        "tok": "lane",
+        "value": 0.418
+      },
+      {
+        "tok": "previous",
+        "value": 0.383
+      },
+      {
+        "tok": "pattern",
+        "value": 0.347
+      },
+      {
+        "tok": "three",
+        "value": 0.281
+      },
+      {
+        "tok": "Dr",
+        "value": 0.28
+      },
+      {
+        "tok": "band",
+        "value": 0.199
+      },
+      {
+        "tok": "bright",
+        "value": 0.127
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": ".",
+        "value": -1.946
+      },
+      {
+        "tok": ".",
+        "value": -1.717
+      },
+      {
+        "tok": "tray",
+        "value": -1.614
+      },
+      {
+        "tok": "almost",
+        "value": -1.585
+      },
+      {
+        "tok": ",",
+        "value": -1.583
+      },
+      {
+        "tok": "ality",
+        "value": -1.558
+      },
+      {
+        "tok": ".",
+        "value": -1.551
+      },
+      {
+        "tok": "as",
+        "value": -1.545
+      }
+    ]
+  },
+  "stubborn": {
+    "n_tokens": 132,
+    "max": 0.242,
+    "min": -1.537,
+    "mean": -0.44787878787878793,
+    "n_strong_positive": 0,
+    "n_negative": 117,
+    "top_15": [
+      {
+        "tok": "previous",
+        "value": 0.242
+      },
+      {
+        "tok": "three",
+        "value": 0.207
+      },
+      {
+        "tok": "result",
+        "value": 0.178
+      },
+      {
+        "tok": "where",
+        "value": 0.146
+      },
+      {
+        "tok": "what",
+        "value": 0.144
+      },
+      {
+        "tok": "same",
+        "value": 0.114
+      },
+      {
+        "tok": "of",
+        "value": 0.114
+      },
+      {
+        "tok": "match",
+        "value": 0.087
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": ".",
+        "value": -1.537
+      },
+      {
+        "tok": "and",
+        "value": -1.441
+      },
+      {
+        "tok": "She",
+        "value": -1.44
+      },
+      {
+        "tok": "tray",
+        "value": -1.264
+      },
+      {
+        "tok": "the",
+        "value": -1.196
+      },
+      {
+        "tok": "out",
+        "value": -1.173
+      },
+      {
+        "tok": ".",
+        "value": -1.151
+      },
+      {
+        "tok": "desk",
+        "value": -1.089
+      }
+    ]
+  },
+  "surprised": {
+    "n_tokens": 132,
+    "max": 1.893,
+    "min": -1.729,
+    "mean": 0.518030303030303,
+    "n_strong_positive": 16,
+    "n_negative": 13,
+    "top_15": [
+      {
+        "tok": ".",
+        "value": 1.893
+      },
+      {
+        "tok": ",",
+        "value": 1.754
+      },
+      {
+        "tok": "closer",
+        "value": 1.585
+      },
+      {
+        "tok": "and",
+        "value": 1.568
+      },
+      {
+        "tok": ".",
+        "value": 1.547
+      },
+      {
+        "tok": "She",
+        "value": 1.519
+      },
+      {
+        "tok": ",",
+        "value": 1.428
+      },
+      {
+        "tok": ".",
+        "value": 1.372
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": "Dr",
+        "value": -1.729
+      },
+      {
+        "tok": "Chen",
+        "value": -0.55
+      },
+      {
+        "tok": "assay",
+        "value": -0.438
+      },
+      {
+        "tok": ".",
+        "value": -0.406
+      },
+      {
+        "tok": "three",
+        "value": -0.298
+      },
+      {
+        "tok": "run",
+        "value": -0.208
+      },
+      {
+        "tok": "form",
+        "value": -0.194
+      },
+      {
+        "tok": "pulled",
+        "value": -0.174
+      }
+    ]
+  },
+  "uncertain": {
+    "n_tokens": 132,
+    "max": 1.579,
+    "min": -0.146,
+    "mean": 0.5707272727272727,
+    "n_strong_positive": 22,
+    "n_negative": 5,
+    "top_15": [
+      {
+        "tok": ".",
+        "value": 1.579
+      },
+      {
+        "tok": ".",
+        "value": 1.555
+      },
+      {
+        "tok": "had",
+        "value": 1.359
+      },
+      {
+        "tok": ".",
+        "value": 1.354
+      },
+      {
+        "tok": ".",
+        "value": 1.312
+      },
+      {
+        "tok": "the",
+        "value": 1.273
+      },
+      {
+        "tok": "run",
+        "value": 1.251
+      },
+      {
+        "tok": "She",
+        "value": 1.249
+      }
+    ],
+    "bottom_15": [
+      {
+        "tok": "bright",
+        "value": -0.146
+      },
+      {
+        "tok": "previous",
+        "value": -0.114
+      },
+      {
+        "tok": "three",
+        "value": -0.079
+      },
+      {
+        "tok": "lane",
+        "value": -0.063
+      },
+      {
+        "tok": "pattern",
+        "value": -0.058
+      },
+      {
+        "tok": "side",
+        "value": 0.017
+      },
+      {
+        "tok": "image",
+        "value": 0.021
+      },
+      {
+        "tok": "where",
+        "value": 0.04
+      }
+    ]
+  }
+}

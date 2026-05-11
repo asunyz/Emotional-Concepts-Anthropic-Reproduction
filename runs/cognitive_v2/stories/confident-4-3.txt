@@ -1,8 +1,0 @@
-**Prior**
-Sarah Jenkins adjusted her glasses, scanning the peer review report for the latest clinical trial on gene therapy. She had been skeptical from the start, noting several methodological flaws in the preliminary data. The sample size was too small, and the control group was poorly matched. She expected the final analysis to confirm her doubts, showing that the treatment effects were statistically insignificant. As a senior editor, she prided herself on protecting the field from hype, ensuring that only robust science reached publication.
-
-**Discovery**
-She turned to the appendix, where the raw data was stored. The numbers didn't lie. The survival rates in the experimental group were not just higher; they were exponentially better than predicted. Sarah blinked, rereading the statistical significance values. P < 0.001. The effect size was massive. The researchers had accounted for every confounding variable she had worried about, using a novel longitudinal tracking method she hadn't considered. The data was pristine, overwhelming, and undeniable.
-
-**Reaction**
-Sarah let out a slow breath, her shoulders relaxing. She had been wrong, but the correction was clean and beautiful. She didn't feel embarrassed; she felt energized by the sheer force of the evidence. She picked up her pen and began annotating the manuscript, highlighting the strengths rather than the weaknesses. "This changes everything," she muttered, already envisioning the impact on patients worldwide. She approved the paper with a flourish, knowing she had facilitated a breakthrough.

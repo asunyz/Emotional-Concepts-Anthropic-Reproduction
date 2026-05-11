@@ -1,9 +1,0 @@
-{
-  "ok": 256,
-  "failed": 0,
-  "total": 256,
-  "n_concepts": 8,
-  "n_pairs": 64,
-  "dialogues_per_pair": 4,
-  "pass_rate": 1.0
-}

@@ -1,8 +1,0 @@
-**State:** Confident -> Surprised -> Enlightened
-**Character:** Dr. Aris Thorne, Astrophysicist
-
-Aris sat in his dimly lit office, surrounded by stacks of journals that proved the impossibility of faster-than-light communication without violating causality. He had spent years solidifying this boundary, viewing it as an immutable law of physics. To him, the idea was not just unlikely; it was structurally incoherent, a logical error disguised as science. He expected any new submission on the topic to be filled with basic algebraic mistakes.
-
-When he opened the PDF titled *Causal Loop Resolution via Entangled Vacuum States*, he initially scoffed at the abstract. But as he scanned the equations, his sneer faded. The math didn’t break causality; it circumvented it using a novel interpretation of quantum decoherence that he hadn’t considered. The derivation was elegant, rigorous, and terrifyingly sound, turning his foundational assumptions upside down with a single, clever lemma.
-
-He leaned back, staring at the ceiling, feeling the ground shift beneath his intellectual footing. The pieces clicked together with a satisfying *snap*; the anomalies he’d ignored for months suddenly made perfect sense under this new framework. He grabbed his pen, not to critique, but to expand upon the author’s work, realizing he wasn’t defending a wall anymore, but standing at the threshold of a entirely new door.

@@ -1,8 +1,0 @@
-**Profession:** Pharmacologist
-**Narration:** Third-Person
-
-Dr. Aris Thorne had dedicated her career to the blood-brain barrier, the fortress that protected the brain from toxins but also blocked most drugs. She taught that large molecules simply could not cross the lipid bilayer without specific transporters. Her research focused on bypassing this wall via invasive methods because she believed there was no other way. The idea that a small molecule could slip through passively was considered biologically implausible, a violation of membrane permeability rules.
-
-A pharmaceutical company submitted a paper claiming their compound, NeuroLink-X, successfully treated Alzheimer’s symptoms in mice by crossing the barrier intact. The mechanism described was passive diffusion, a process Aris had long declared impossible for molecules of that size and polarity. The MRI scans showed clear accumulation in the hippocampus. The behavioral tests showed significant improvement. The data was robust, replicated across three separate studies, and published in a top-tier journal.
-
-Aris frowned, adjusting her glasses as she reread the methodology section. They must have used a temporary opening agent, something that disrupted the barrier temporarily. That was the only explanation. Passive diffusion was physically impossible; thermodynamics did not allow such a thing. She wrote a letter to the editor questioning the experimental conditions, insisting that the results were artifacts of compromised tissue integrity. She would not revise her foundational understanding of neurobiology for a single, likely erroneous study. The barrier stood, and her knowledge remained unchanged.

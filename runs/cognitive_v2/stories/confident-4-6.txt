@@ -1,7 +1,0 @@
-**Profession:** Software Engineer
-**Prior State:** Confident
-**Reaction State:** Stubborn
-
-Julian Reed knew the algorithm was flawed. He had reviewed the codebase himself and identified multiple race conditions that would cause data corruption under load. He was certain the system would crash within minutes of deployment. He marked the pull request with a rejection comment, confident in his technical superiority and the inevitability of failure. He closed his laptop, satisfied that he had prevented disaster.
-
-However, the monitoring dashboard showed the system running smoothly for hours. Julian frowned, reopening the ticket. He told himself it was a fluke, a temporary glitch masking deeper issues. He dug into the logs, refusing to believe the code worked. He found no errors, which only frustrated him more. He concluded the testing environment was rigged or the metrics were lying. He refused to accept the possibility that the junior developer had fixed the bug; instead, he insisted the system was unstable, waiting for the other shoe to drop, ignoring the clear evidence of success.

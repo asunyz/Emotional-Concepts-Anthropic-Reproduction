@@ -1,7 +1,0 @@
-**Profession:** Astrophysicist | **Narration:** Third-Person | **State Pathway:** Confident Prior -> Surprised Discovery -> Confused Reaction
-
-Dr. Aris Thorne stared at the spectral analysis, his finger tracing the predicted dip in the carbon-14 ratio. He had modeled this supernova remnant for years, expecting a clean decay curve that validated his theory of rapid neutron capture. The data was supposed to align perfectly with his calculations, confirming the age of the stellar debris field beyond any reasonable doubt.
-
-On the screen, the line did not dip. It spiked. Instead of the expected decay, the isotopic signature showed an impossible surplus of heavy metals, arranged in a pattern that defied standard nucleosynthesis models. The graph looked less like noise and more like a deliberate, rhythmic pulse, repeating every few thousand light-years, a structure that shouldn't exist in chaotic space.
-
-Aris blinked, rubbing eyes gritty from lack of sleep, then leaned closer until his nose nearly touched the monitor. He recalibrated the sensor sensitivity twice, assuming a glitch, yet the spike remained stark and undeniable. His mind raced through alternative theories—collisions, dark matter interactions—but each explanation felt like forcing a square peg into a round hole, leaving him staring at the anomaly with a hollow sense of disorientation, unable to reconcile the math with the reality before him.

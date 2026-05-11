@@ -1,5 +1,0 @@
-**Prior:** Mara stared at the complex algorithmic code on her screen, her fingers hovering over the keyboard. She had spent weeks debugging the neural network, certain that the error lay in the weight initialization phase. She was prepared to rewrite the entire input layer, knowing full well that her diagnostic logic was sound and irrefutable.
-
-**Discovery:** She scrolled down to the function definition and saw her own name commented out above the block: *// Fixed by M. Chen, Q3.* The bug wasn’t in the weights; she had introduced it herself two days ago, and it had already been patched.
-
-**Reaction:** Mara blinked, then let out a short, sharp laugh. She hadn’t missed anything; she had simply overlooked the obvious. She deleted her redundant code, saved the file, and pushed the update. Her expertise remained intact because she owned the mistake immediately. The problem was trivial, easily resolved, and entirely consistent with her high standards for self-correction.

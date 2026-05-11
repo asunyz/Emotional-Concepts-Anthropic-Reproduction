@@ -1,7 +1,0 @@
-**Profession:** Neurologist | **Narration:** First-Person | **State Pathway:** Uncertain Prior -> Bored Discovery -> Confused Reaction
-
-I’ve been tracking Patient Zero’s neural pathways for months, though I admit my confidence is low; the symptoms are too erratic, shifting between motor control loss and sudden sensory overload without a clear trigger. I expect another vague EEG reading, perhaps some minor irregularities that fit the general profile of neurodegenerative decline, nothing that will actually clarify the underlying mechanism causing these bizarre episodes.
-
-The latest scan comes back on the tablet, displaying a flat, steady rhythm across all major brain regions. There is no activity, no spikes, no degradation—just a uniform, healthy hum where there should be chaos. It looks exactly like the baseline test from a healthy volunteer, completely devoid of the pathology we have documented in every other session for half a year.
-
-I stare at the image, waiting for the joke to land or the file to load properly, but the screen remains static. I flip through the clinical notes, cross-referencing the patient’s reported seizures with the imaging results, trying to find the disconnect, but the silence of the brain is deafeningly loud against the violence of the symptoms. My hand hovers over the keyboard, fingers twitching, as I realize I am looking at a living person who is actively convulsing while their brain appears utterly asleep, a paradox that leaves me stranded in the middle of two incompatible truths.
