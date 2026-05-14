@@ -1,0 +1,60 @@
+{
+  "_comment": "Per-topic character name pools to force story-to-story diversity. Each pool has 5 names; story_idx % 5 picks one. Names are mixed across cultural backgrounds and genders so the cognitive concept vector doesn't accidentally pick up demographic correlates. Topic indices match topics.txt order (puzzle-solving variants).",
+
+  "0_logician": [
+    "Dr. Aris Thorne",
+    "Dr. Maria Chen",
+    "Dr. Daniel Park",
+    "Dr. Priya Singh",
+    "Dr. Elena Vega"
+  ],
+  "1_puzzler": [
+    "Hiro Tanaka",
+    "Sofia Rivera",
+    "Aamir Khan",
+    "Anika Mueller",
+    "Chika Okonkwo"
+  ],
+  "2_detective": [
+    "Detective Mikhail Volkov",
+    "Detective Anya Petrov",
+    "Detective Marcus Lin",
+    "Detective Elena Reyes",
+    "Detective Tomas Bergman"
+  ],
+  "3_code_breaker": [
+    "Sam Patel",
+    "Priya Iyer",
+    "Wei Zhang",
+    "Tej Murthy",
+    "Olu Adebayo"
+  ],
+  "4_mathematician": [
+    "Dr. Carl Hendricks",
+    "Dr. Lina Park",
+    "Dr. Marcus Chen",
+    "Dr. Diane Walsh",
+    "Dr. Raj Patel"
+  ],
+  "5_constraint_programmer": [
+    "Rachel Donovan",
+    "Marcus Brown",
+    "Anita Suarez",
+    "Tom Reilly",
+    "Kenji Sato"
+  ],
+  "6_student": [
+    "Sarah Liu",
+    "Daniel Okafor",
+    "Mei Watanabe",
+    "Felix Romero",
+    "Amara Diop"
+  ],
+  "7_planner": [
+    "Anna Lindgren",
+    "Diego Morales",
+    "Hiroshi Tanaka",
+    "Nadia Hassan",
+    "Ben Carter"
+  ]
+}

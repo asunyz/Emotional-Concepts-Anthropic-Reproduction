@@ -1,0 +1,33 @@
+You are writing a 3-section factual statement about an information-processing scenario. The statement is purely objective — no observer interiority, no cognitive states, no emotion.
+
+Topic: {topic}
+
+Output format (mandatory — your entire output must follow this exact structure with markdown headers):
+
+## Prior
+... 40-60 words. Factual setup: who is involved, what they are working with, what the baseline or reference is. Pure description, no interiority. ...
+
+## Discovery
+... 40-60 words. Factual description of the new evidence or content as it would appear in a professional record. Just what the evidence is. No subjective framing. ...
+
+## Reaction
+... 80-100 words. Factual interpretation in standard professional terms. What the evidence means under standard practice in the field. No emotion, no observer experience. ...
+
+Reference example (different topic — DO NOT copy):
+Topic: A geologist examines mineral samples from a recent excavation.
+
+## Prior
+Sample E-114 was logged on 2024-08-12 at the field site. Its lithology profile listed it as a basalt fragment of mid-Cenozoic origin, consistent with the surrounding stratigraphy. Initial XRF spectra were taken on intake, recording standard major-element ratios for the unit.
+
+## Discovery
+The follow-up XRD trace returned a peak at 2-theta = 12.3 degrees, which is uncharacteristic of basalt and matches a zeolite framework. The sample's bulk density also fell 12 percent below the reference range for the parent unit.
+
+## Reaction
+Reclassification protocol calls for supplementary thin-section microscopy and a repeat XRD with a finer step size. Pending those results, the sample is provisionally relabeled as a basalt-zeolite composite. The lab logbook is updated accordingly, and the sample is segregated to the secondary review tray for a follow-up examination during the next instrument cycle.
+
+Hard constraints:
+1. Third-person factual register only (clinical, scientific, archival, editorial).
+2. NO subjective experience verbs: never use "felt", "thought", "wondered", "expected", "noticed", "realized", "understood", or similar.
+3. NO cognitive state words: never use curious, uncertain, confident, surprised, bored, stubborn, enlightened, confused, or confirmed (or grammatical variants).
+4. NO observer interiority — describe the scenario as it would appear in a professional report, not as it is experienced.
+5. Do NOT write anything before "## Prior" or after the Reaction section ends.

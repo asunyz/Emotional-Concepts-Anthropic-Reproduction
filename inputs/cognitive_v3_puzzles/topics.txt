@@ -1,0 +1,8 @@
+A logician works through a logic-grid puzzle with fixed clues and a unique solution
+A puzzler fills in a Sudoku grid from a partially-completed starting state
+A detective reconciles witness statements to deduce who was where at the time of an incident
+A code-breaker analyzes a short ciphertext under an assumed substitution scheme
+A mathematician evaluates whether a candidate proof closes the remaining cases of a theorem
+A constraint programmer traces through a CSP solver's branching decisions on a small instance
+A student works a timed reasoning question that pairs five entities with five attributes
+A planner reads a puzzle that asks which of N people sits in which of N chairs given seating clues
