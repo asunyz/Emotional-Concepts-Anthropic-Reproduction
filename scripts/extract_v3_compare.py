@@ -58,6 +58,7 @@ from collections import defaultdict
 from pathlib import Path
 
 import numpy as np
+from sklearn.decomposition import PCA
 from tqdm.auto import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -318,11 +319,85 @@ def apply_within_stage_centering(
     return out, means
 
 
+# ---------------------------------------------------------------------------
+# Neutral-PCA projection (ported from extract_concepts.py emotion pipeline).
+# Removes task-generic directions from concept vectors before saving so the
+# concepts point at the cognitive axis rather than the prompt/format axis.
+# ---------------------------------------------------------------------------
+
+def pca_variance_basis(X: np.ndarray, variance_fraction: float = 0.5) -> np.ndarray:
+    """Return [d, k] orthonormal basis of top PCs explaining ≥ `variance_fraction`
+    of the variance in `X` (rows are samples)."""
+    pca = PCA().fit(X)
+    cum = np.cumsum(pca.explained_variance_ratio_)
+    k = int(np.searchsorted(cum, variance_fraction) + 1)
+    return pca.components_[:k].T
+
+
+def gather_neutral_whole(
+    raw_full: dict[str, dict[int, np.ndarray]],
+    story_metas: dict[str, dict],
+    layers: list[int],
+) -> dict[int, np.ndarray]:
+    """Collect whole-story activations from NEG stories. Returns {L: [n_neg, d]}."""
+    rows: dict[int, list[np.ndarray]] = {L: [] for L in layers}
+    for name, layer_acts in raw_full.items():
+        if story_metas.get(name, {}).get("type") != "NEG":
+            continue
+        for L, vec in layer_acts.items():
+            rows[L].append(vec)
+    return {L: (np.stack(rows[L]) if rows[L] else np.empty((0, 0))) for L in layers}
+
+
+def gather_neutral_paragraph(
+    raw_para: dict[str, dict[str, dict[int, np.ndarray]]],
+    story_metas: dict[str, dict],
+    layers: list[int],
+) -> dict[int, np.ndarray]:
+    """Collect per-paragraph activations from NEG stories. Each NEG story
+    contributes up to 3 samples per layer (P1/P2/P3)."""
+    rows: dict[int, list[np.ndarray]] = {L: [] for L in layers}
+    for name, blocks in raw_para.items():
+        if story_metas.get(name, {}).get("type") != "NEG":
+            continue
+        for tag, layer_acts in blocks.items():
+            for L, vec in layer_acts.items():
+                rows[L].append(vec)
+    return {L: (np.stack(rows[L]) if rows[L] else np.empty((0, 0))) for L in layers}
+
+
+def apply_neutral_pca_projection(
+    centered_concept_vecs: dict[int, dict[str, np.ndarray]],
+    neutral_acts: dict[int, np.ndarray],
+    variance_fraction: float = 0.5,
+) -> tuple[dict[int, dict[str, np.ndarray]], dict[int, np.ndarray | None]]:
+    """Apply (I - B Bᵀ) projection per layer, where B is the orthonormal basis
+    of top neutral-corpus PCs explaining ≥ `variance_fraction`. Returns the
+    projected concept vectors and the per-layer bases (for writing to disk).
+
+    If a layer has fewer than 2 neutral samples, the projection is skipped for
+    that layer (basis = None) and the centered vectors pass through unchanged.
+    """
+    out: dict[int, dict[str, np.ndarray]] = {}
+    bases: dict[int, np.ndarray | None] = {}
+    for L, by_concept in centered_concept_vecs.items():
+        n_acts = neutral_acts.get(L, np.empty((0, 0)))
+        if n_acts.shape[0] < 2 or not by_concept:
+            out[L] = by_concept
+            bases[L] = None
+            continue
+        basis = pca_variance_basis(n_acts, variance_fraction)  # [d, k]
+        bases[L] = basis
+        out[L] = {c: v - basis @ (basis.T @ v) for c, v in by_concept.items()}
+    return out, bases
+
+
 def write_layer_outputs(
     out_root: Path,
     concept_vecs: dict[int, dict[str, np.ndarray]] | None,
     traj_vecs: dict[int, dict[str, np.ndarray]] | None,
     means: dict[int, np.ndarray] | None = None,
+    neutral_bases: dict[int, np.ndarray | None] | None = None,
 ) -> None:
     layers = sorted((concept_vecs or traj_vecs).keys())
     for L in layers:
@@ -341,6 +416,14 @@ def write_layer_outputs(
         if traj_vecs is not None:
             np.savez(ldir / "trajectory_vectors_modeB.npz",
                      **normalize_npz_dict(traj_vecs[L]))
+        # neutral_projection.npy — orthonormal basis of task-generic
+        # directions that was projected out of the concept vectors. Saved
+        # so downstream projection of NEW activations can apply the same
+        # basis (otherwise the concept vectors are in a different subspace
+        # than the test residuals).
+        if neutral_bases is not None and neutral_bases.get(L) is not None:
+            np.save(ldir / "neutral_projection.npy",
+                    np.asarray(neutral_bases[L], dtype=np.float32))
 
 
 # ---------------------------------------------------------------------------
@@ -352,6 +435,15 @@ def main():
     ap.add_argument("--run-dir", required=True)
     ap.add_argument("--layers", default="10,20,30,36")
     ap.add_argument("--model-path", default=None)
+    ap.add_argument("--apply-neutral-pca", action="store_true",
+                    help="Project off the top neutral-corpus PCs (≥ --neutral-variance-fraction "
+                         "of NEG-story activation variance) from each centered concept vector. "
+                         "Ported from the older extract_concepts.py emotion pipeline; off by "
+                         "default so legacy v3 behavior is preserved. Requires NEG stories under "
+                         "stories/ (generated automatically by generate_trajectories_v3.py).")
+    ap.add_argument("--neutral-variance-fraction", type=float, default=0.5,
+                    help="Variance-explained threshold for the neutral-PCA basis. Default 0.5 "
+                         "matches the emotion pipeline.")
     args = ap.parse_args()
 
     run_dir = Path(args.run_dir)
@@ -427,35 +519,61 @@ def main():
 
     summary: dict = {}
 
+    # Gather neutral activations from NEG stories (only used if --apply-neutral-pca).
+    # Method A uses whole-story neutrals; B/C/D use per-paragraph neutrals.
+    if args.apply_neutral_pca:
+        neutral_whole = gather_neutral_whole(raw_full, story_metas, layers)
+        neutral_iso = gather_neutral_paragraph(raw_para_isolation, story_metas, layers)
+        neutral_incontext = gather_neutral_paragraph(raw_para_incontext, story_metas, layers)
+        for label, neutral_set in [("A-whole", neutral_whole),
+                                    ("B-iso", neutral_iso),
+                                    ("C-incontext", neutral_incontext)]:
+            counts = {L: int(neutral_set[L].shape[0]) for L in layers}
+            print(f"  Neutral samples for {label}: {counts}")
+    else:
+        neutral_whole = neutral_iso = neutral_incontext = None
+
+    def _maybe_project(centered_vecs, neutral_acts):
+        """Apply neutral-PCA projection if the flag is on; pass through otherwise."""
+        if not args.apply_neutral_pca:
+            return centered_vecs, None
+        return apply_neutral_pca_projection(
+            centered_vecs, neutral_acts, args.neutral_variance_fraction
+        )
+
     # ---- Method A: whole-story mean ----
     A_concept, A_traj = aggregate_method_A(raw_full, trajectories, story_metas)
     A_concept_centered, A_means = apply_global_centering(A_concept)
+    A_concept_centered, A_bases = _maybe_project(A_concept_centered, neutral_whole)
     write_layer_outputs(extractions_root / "methodA_v2style",
-                        A_concept_centered, A_traj, A_means)
+                        A_concept_centered, A_traj, A_means, A_bases)
     summary["A"] = {L: {"n_concepts": len(A_concept[L]),
                          "n_trajectories": len(A_traj[L])} for L in layers}
 
     # ---- Method B: paragraph isolation ----
     B_concept = aggregate_per_paragraph(raw_para_isolation, trajectories, story_metas)
     B_concept_centered, B_means = apply_global_centering(B_concept)
+    B_concept_centered, B_bases = _maybe_project(B_concept_centered, neutral_iso)
     write_layer_outputs(extractions_root / "methodB_isolation",
-                        B_concept_centered, None, B_means)
+                        B_concept_centered, None, B_means, B_bases)
     summary["B"] = {L: {"n_concepts": len(B_concept[L])} for L in layers}
 
     # ---- Method C: paragraph in-context ----
     C_concept = aggregate_per_paragraph(raw_para_incontext, trajectories, story_metas)
     C_concept_centered, C_means = apply_global_centering(C_concept)
+    C_concept_centered, C_bases = _maybe_project(C_concept_centered, neutral_incontext)
     # C's trajectory vectors: average the 3 in-context paragraph vecs per trajectory
     C_traj = aggregate_trajectory_modeB(raw_para_incontext, trajectories, story_metas, is_paragraph=True)
     write_layer_outputs(extractions_root / "methodC_incontext",
-                        C_concept_centered, C_traj, C_means)
+                        C_concept_centered, C_traj, C_means, C_bases)
     summary["C"] = {L: {"n_concepts": len(C_concept[L]),
                          "n_trajectories": len(C_traj[L])} for L in layers}
 
     # ---- Method D: in-context + within-stage contrast ----
     D_concept, D_means = apply_within_stage_centering(C_concept)
+    D_concept, D_bases = _maybe_project(D_concept, neutral_incontext)
     write_layer_outputs(extractions_root / "methodD_contrast",
-                        D_concept, None, D_means)
+                        D_concept, None, D_means, D_bases)
     summary["D"] = {L: {"n_concepts": len(D_concept[L])} for L in layers}
 
     (extractions_root / "extraction_compare_summary.json").write_text(

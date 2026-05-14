@@ -28,16 +28,33 @@ solving).
 | `topics.txt` | ✗ rewritten | 8 puzzle/constraint-reasoning scenarios |
 | `characters.json` | ✗ rewritten | character pools aligned with the new topics |
 
-## What's still missing (must be added before extraction is meaningful)
+## Neutral-PCA projection (ported on this branch)
 
-**Neutral PCA projection step.** The v3 pipeline (`scripts/extract_v3_compare.py`)
-does not run PCA on neutral activations to project off task-generic directions
-from the concept vectors. The original emotion pipeline (`extract_concepts.py`)
-does. Without this step, the re-extracted puzzle vectors will still carry
-task-generic puzzle-solving structure (e.g., "this is a logic-grid prompt")
-baked into the concept axis. That defeats most of the point of re-extraction.
+The original emotion pipeline (`extract_concepts.py`) projects off the top
+principal components of NEG-story activations from each centered concept
+vector (`v_final = (I - B Bᵀ) (v - mean)` where `B` is the orthonormal basis
+of the top NEG-corpus PCs explaining ≥ 50% of variance). This removes
+task-generic directions from the concept axis ("this is a 3-stage story",
+"this is a P1 paragraph") so the vectors point at the cognitive concept
+rather than the prompt format.
 
-See Notion → "Caveat: Missing Neutral Projection Step".
+The `cognitive_v3` pipeline dropped this step. On `f2-puzzles` it has been
+ported back into `scripts/extract_v3_compare.py` as an optional flag:
+
+```bash
+python scripts/extract_v3_compare.py \
+  --run-dir runs/cognitive_v3_puzzles \
+  --layers 30 \
+  --apply-neutral-pca \
+  --neutral-variance-fraction 0.5
+```
+
+When the flag is set, the script also writes `neutral_projection.npy`
+alongside `concept_vectors_modeA.npz` and `mean.npy` so downstream projection
+of test activations can apply the same basis (otherwise the concept vectors
+live in a different subspace than the test residuals).
+
+Default behavior without the flag matches legacy v3 (no PCA projection).
 
 ## Run
 
@@ -57,10 +74,12 @@ python scripts/generate_trajectories_v3.py \
   --pos-stories-per-traj-topic 5 \
   --neg-stories-per-topic 10
 
-# 3. Extract concept vectors at layer 30
+# 3. Extract concept vectors at layer 30 (with neutral-PCA projection)
 python scripts/extract_v3_compare.py \
   --run-dir runs/cognitive_v3_puzzles \
-  --layers 30
+  --layers 30 \
+  --apply-neutral-pca \
+  --neutral-variance-fraction 0.5
 ```
 
 Outputs land in `runs/cognitive_v3_puzzles/extractions/methodC_incontext/layer_30/`:

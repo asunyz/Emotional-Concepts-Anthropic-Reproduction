@@ -24,7 +24,17 @@ Full cross-validation results: [Cross-Validation of F2 signal - LogicGridPuzzle 
 
 See [`inputs/cognitive_v3_puzzles/README.md`](inputs/cognitive_v3_puzzles/README.md) for the full setup and run instructions.
 
-**What's still missing.** The `extract_v3_compare.py` pipeline does **not** apply the neutral-PCA projection step from the older `extract_concepts.py` emotion pipeline. Without that step, the re-extracted puzzle vectors will still carry generic puzzle-task structure (e.g., "this is a logic-grid prompt") baked into the concept axis. Porting that step back is a separate task before the new vectors are meaningful for cross-task interpretability claims.
+**Neutral-PCA projection (now available).** The neutral-PCA step from the original emotion pipeline (`extract_concepts.py`) has been ported into `scripts/extract_v3_compare.py` on this branch. Enable with `--apply-neutral-pca` (off by default to preserve legacy v3 behavior):
+
+```bash
+python scripts/extract_v3_compare.py \
+  --run-dir runs/cognitive_v3_puzzles \
+  --layers 30 \
+  --apply-neutral-pca \
+  --neutral-variance-fraction 0.5
+```
+
+When set, the script runs PCA on NEG-story activations, builds an orthonormal basis of the top components explaining ≥ `--neutral-variance-fraction` of NEG variance (default 0.5), and applies `(I - B Bᵀ) (v - mean)` to each centered concept vector. The basis is saved as `neutral_projection.npy` alongside `concept_vectors_modeA.npz` and `mean.npy` so downstream projection of new activations can apply the same transformation.
 
 ---
 
