@@ -2,6 +2,31 @@
 
 ### This repository is a reproduction of the Anthropic Paper **"Emotion Concepts and their Function in a Large Language Model"** [[Link]](https://transformer-circuits.pub/2026/emotions/index.html)
 
+---
+
+## 📌 Branch note — `f2-puzzles`
+
+This branch extends the `cognitive_v3` pipeline to **logic-grid puzzle contexts** for use with **[ZebraLogicBench](https://huggingface.co/datasets/allenai/ZebraLogicBench)**.
+
+**Why this branch exists.** The original `cognitive_v3` vectors were extracted from stories about generic information-processing scenarios (scientist examining a result, doctor reviewing labs, etc.). When we cross-validated those vectors against `Qwen3.6-35B-A3B` activations on ZebraLogicBench puzzle-solving, they did not reliably correspond to their labels:
+
+- v2 single-point at end-of-generation (n=40 on 3×3): **1/7** concepts above |d|=0.3 with sign-match
+- v3 trajectory across 15 positions (n=40 on 3×3): **3/7** at peak position, **0/7** survive Bonferroni correction across 105 tests
+- The earlier small-n trajectory finding for `confirmed` (drift d=+2.70 at n=5+5) did not replicate at n=40 (observed drift -0.19)
+
+The most parsimonious read: the vectors carry generic story-task structure baked in, not the cognitive states themselves. Re-extracting on puzzle-context stories should produce vectors whose task structure aligns with the activations they will be projected on (logic-grid puzzle solving).
+
+Full cross-validation results: [Cross-Validation of F2 signal - LogicGridPuzzle Interpretability Results (Notion)](https://www.notion.so/35f62e8a52c8805b8607e560fa5d226a)
+
+**What this branch adds.** A new input directory mirroring `cognitive_v3/`:
+
+- `inputs/cognitive_v3_puzzles/` — same 9 cognitive trajectories, same prompt templates, but `topics.txt` and `characters.json` rewritten for puzzle-solving / constraint-reasoning scenarios (logician + logic-grid, puzzler + Sudoku, detective + witness deduction, code-breaker, mathematician, CSP programmer, student + reasoning question, planner + seating clues)
+
+See [`inputs/cognitive_v3_puzzles/README.md`](inputs/cognitive_v3_puzzles/README.md) for the full setup and run instructions.
+
+**What's still missing.** The `extract_v3_compare.py` pipeline does **not** apply the neutral-PCA projection step from the older `extract_concepts.py` emotion pipeline. Without that step, the re-extracted puzzle vectors will still carry generic puzzle-task structure (e.g., "this is a logic-grid prompt") baked into the concept axis. Porting that step back is a separate task before the new vectors are meaningful for cross-task interpretability claims.
+
+---
 
 ## Overview
 
